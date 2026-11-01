@@ -1,0 +1,22 @@
+{
+  "deleted_files": [
+    ".ppg-eight-cache/generation-001340.actions.npy",
+    ".ppg-eight-cache/generation-001339.domino.json",
+    ".ppg-eight-cache/generation-001339.local-scoring.json",
+    ".ppg-eight-cache/generation-001340.critic.npy",
+    ".ppg-eight-cache/generation-001340.domino.json",
+    ".ppg-eight-cache/generation-001339.critic.npy",
+    ".ppg-eight-cache/generation-001339.actions.npy",
+    ".ppg-eight-cache/generation-001339.json",
+    ".ppg-eight-cache/generation-001340.local-scoring.json",
+    ".ppg-eight-cache/generation-001340.json"
+  ],
+  "deleted_bytes": 4251728193,
+  "directories": [
+    ".ppg-value-cache",
+    ".ppg-eight-cache"
+  ],
+  "generation": 1340,
+  "phase": "startup",
+  "next_phase": 1341
+}
