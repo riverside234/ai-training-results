@@ -1,0 +1,12 @@
+{
+  "generation": 0,
+  "measurement": null,
+  "anchor_kl_enabled": false,
+  "limit": null,
+  "group_limit": null,
+  "probe": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/il-kl/manifest.json",
+    "sha256": "a9289c21a2257d316c23017f3c9eb88e0ed85f646d05c24025cf85f4f176bda0",
+    "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "contract": "fresh-selfplay-weights/1.0.0",
+  "source_run": "artifacts/step5/joint7-v11-2-grouped-lr-critic",
+  "source_state_sha256": "d50f4bc95d518d585b1c3065d84a882e30140448f57b286064182a7be3bcf2d9",
+  "source_generation": 1360,
+  "destination_run": "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+  "seed_generation": 1290,
+  "history_through": 1330,
+  "recipe_sha256": "6e76143b92bc48912c86fd49206227c8ecdcf192ce8ac1b1cf3c7f1cfa50f108",
+  "seed_checkpoint": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/seed/weights-73fd0aa12a7a6496414b03e106ae52367d865767922aed7b40ea88a7940891ff.pt",
+    "sha256": "e14d5b7a4596944ac7dec1b30c676b52ab79beb7bbf2e55a8b8540cc8a312937",
+    "model_id": "73fd0aa12a7a6496414b03e106ae52367d865767922aed7b40ea88a7940891ff",
+    "generation": 1290,
+    "weights_only": true
+  },
+  "members": [
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b.pt",
+      "sha256": "5485d1f1ae04edd227d79e3f4b9a7f0bd4b3442ad32819726c15cf138ea1082a",
+      "model_id": "94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b",
+      "generation": 0,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b.npz",
+        "sha256": "ca6a06d63aa8706a70cb1435b5a4b0ab429cad90e025f4cb2ed32ee4a4daec8c",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c41d8e64f81777401a9c4d0074d65b56b9405b3d1f1aab65cc6d5b750a4fbe35.pt",
+      "sha256": "56f269881bb4d8f1b2ab40fd43f4f21af40ccbaeaf5155d92c6d58e657b256c6",
+      "model_id": "c41d8e64f81777401a9c4d0074d65b56b9405b3d1f1aab65cc6d5b750a4fbe35",
+      "generation": 855,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/c41d8e64f81777401a9c4d0074d65b56b9405b3d1f1aab65cc6d5b750a4fbe35.npz",
+        "sha256": "899ea1558fbcf1423f992765ca2e043a6d5e73254602dd20da2ce6ee2064701a",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-804c8f317565896755cb4f26cfbf4fc0038b8cdc759722280c57a41aa188671b.pt",
+      "sha256": "0c61312c388d87289a24d1a6b32ab5471222cfb53e9a7e4cd74a610ff24b8ab1",
+      "model_id": "804c8f317565896755cb4f26cfbf4fc0038b8cdc759722280c57a41aa188671b",
+      "generation": 905,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/804c8f317565896755cb4f26cfbf4fc0038b8cdc759722280c57a41aa188671b.npz",
+        "sha256": "cd4a385535b37edbc64ea3ccee72f91247361a7ac81404917f4fef9eb7f0f08e",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-88b6e1218621a8a3d87265d2625dde68c58ecda955a83032ee75bff7035d7052.pt",
+      "sha256": "de1d29ce2bf627125f451a75a44df90a5cb338a4dee2415e25178856f802704b",
+      "model_id": "88b6e1218621a8a3d87265d2625dde68c58ecda955a83032ee75bff7035d7052",
+      "generation": 990,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/88b6e1218621a8a3d87265d2625dde68c58ecda955a83032ee75bff7035d7052.npz",
+        "sha256": "1fca562bc1ad7d7ee9a1620c6a535ef688c7f0f10e6f0c5d0431f6ad769e8284",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-075ff51c3f0ff739f86adc713b41ea9b7c0d8689539b3af8bc488f47f9bdc0e6.pt",
+      "sha256": "c9d9b6d3888b070df4aa3adab10b723c4849b1ee22eb55840e5edde3d146a904",
+      "model_id": "075ff51c3f0ff739f86adc713b41ea9b7c0d8689539b3af8bc488f47f9bdc0e6",
+      "generation": 1020,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/075ff51c3f0ff739f86adc713b41ea9b7c0d8689539b3af8bc488f47f9bdc0e6.npz",
+        "sha256": "ff8b2e184b244ec31c236b236140c3c03187f6bb14b1c8565231fd0dfc0cbbd9",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-65615e2e0e89c141c4aa96546326bd0ebdf23b4f7bef0a1ba0da64c40ac99a5f.pt",
+      "sha256": "9ee74d5f63209f95d8ee3242fcbf40bbcfaee89f5fca84316f06eec460d97fdd",
+      "model_id": "65615e2e0e89c141c4aa96546326bd0ebdf23b4f7bef0a1ba0da64c40ac99a5f",
+      "generation": 1045,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/65615e2e0e89c141c4aa96546326bd0ebdf23b4f7bef0a1ba0da64c40ac99a5f.npz",
+        "sha256": "ebb137651cd94138abfb49e9e17fc5f815d855d182aeb392961c34b83f1d4d26",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-ee56ef042981012cf2dee581fafc3d3753ae43cedd2458c41d54d872c6a38c48.pt",
+      "sha256": "60a64a87a362c3fbedc5c8f51f33136b4442c7672a603c8a8750c0ca0030e047",
+      "model_id": "ee56ef042981012cf2dee581fafc3d3753ae43cedd2458c41d54d872c6a38c48",
+      "generation": 1075,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/ee56ef042981012cf2dee581fafc3d3753ae43cedd2458c41d54d872c6a38c48.npz",
+        "sha256": "481b594767906021b9d1e4c5771a81cc65db52d3573bc9b7f04de33ae58e4cb6",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c6454b6a222154a223cfd40b29a33b8837a99541480c112fe51ce9c483f382c7.pt",
+      "sha256": "80683af4ad68b241e46ba4c94cfc91a3cffbef20caca87e261609ea774beb4e6",
+      "model_id": "c6454b6a222154a223cfd40b29a33b8837a99541480c112fe51ce9c483f382c7",
+      "generation": 1105,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/c6454b6a222154a223cfd40b29a33b8837a99541480c112fe51ce9c483f382c7.npz",
+        "sha256": "22dc39588b3db5c261b03b85a22883d3e18a74f5c23e7877bbcd6bea234e76a3",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-f20ba6d33c6573a382da27e204aa03b4c87e6269e31da784da715676aad195a0.pt",
+      "sha256": "90de5f3e3aa67c4808dbfbc7de3ce3baea5774a1e4e650ef093b10db8476f85e",
+      "model_id": "f20ba6d33c6573a382da27e204aa03b4c87e6269e31da784da715676aad195a0",
+      "generation": 1135,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/f20ba6d33c6573a382da27e204aa03b4c87e6269e31da784da715676aad195a0.npz",
+        "sha256": "364f5c2d033d23ab5527b61695ae3be1c8a57123322b5058dfbcaed890f422c9",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-6234771be4252733f20f4bce3c2e4ff979605a6e93fcc0bc6005f11e09f19c52.pt",
+      "sha256": "af7f0ff10fab415451fcb3d5c71208a666ff056869d68995508492897f89dd30",
+      "model_id": "6234771be4252733f20f4bce3c2e4ff979605a6e93fcc0bc6005f11e09f19c52",
+      "generation": 1155,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/6234771be4252733f20f4bce3c2e4ff979605a6e93fcc0bc6005f11e09f19c52.npz",
+        "sha256": "337c0c7810cfce6945b531a009f20c56c84fbe17f3b798092526082630f26403",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-b4584f7b9b169589c2433cb08a97b2c5d109c0c0ff948a1e27f2c24a79a2f572.pt",
+      "sha256": "1e731fde4d197d7f3c9dfe3f3d292318e77811e998ce3788a3a64b24928db409",
+      "model_id": "b4584f7b9b169589c2433cb08a97b2c5d109c0c0ff948a1e27f2c24a79a2f572",
+      "generation": 1175,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/b4584f7b9b169589c2433cb08a97b2c5d109c0c0ff948a1e27f2c24a79a2f572.npz",
+        "sha256": "640cc4d7137951af476a2b1184dfcf622deb5843f395514b3fa207c0b2d5811c",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-485dc646b5bf8262bfa650b5282091f187ee7a507837c72a94dee8e9aa54b426.pt",
+      "sha256": "e9b72da85b21eca4dc822133424d152488d347d952d76c7f28e54026f6134824",
+      "model_id": "485dc646b5bf8262bfa650b5282091f187ee7a507837c72a94dee8e9aa54b426",
+      "generation": 1205,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/485dc646b5bf8262bfa650b5282091f187ee7a507837c72a94dee8e9aa54b426.npz",
+        "sha256": "6ce0d816008842c15581912ec3313dc57308ed46cb06cd30865242a6fe0de503",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-0e63c1f4cb4c130b164a7b2c0aa0fb83c51e7c9827b74686b09ac023b1b4d4f2.pt",
+      "sha256": "4750bd8a605ba382fe945db23383aa336844f871a6f30576bf73d9acd77179d5",
+      "model_id": "0e63c1f4cb4c130b164a7b2c0aa0fb83c51e7c9827b74686b09ac023b1b4d4f2",
+      "generation": 1225,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/0e63c1f4cb4c130b164a7b2c0aa0fb83c51e7c9827b74686b09ac023b1b4d4f2.npz",
+        "sha256": "9763d4b5d36be93e11256c36ca270bc06f4afaa04580cf931f03ef188a0342f3",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-77c8d89e51f911927d5e144f47fd17ca1ce25e37cc757d2e4e5de917322b55ef.pt",
+      "sha256": "b251270eb2cd98d4f3a1924bade716d8e6383b6c903334f98babc1c54f5a2110",
+      "model_id": "77c8d89e51f911927d5e144f47fd17ca1ce25e37cc757d2e4e5de917322b55ef",
+      "generation": 1240,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/77c8d89e51f911927d5e144f47fd17ca1ce25e37cc757d2e4e5de917322b55ef.npz",
+        "sha256": "d9bf13a79c8829b1e711bdeba4173b313dd78cc6667123296649f8d0462e0ad2",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c7f02dd155d75dc8ae560697cda6d33d8488ea75a91154877ffcc56157da992c.pt",
+      "sha256": "929b295530d825cf327ccba447d4aa2da7625c76aa71a1a95b310fb401569f42",
+      "model_id": "c7f02dd155d75dc8ae560697cda6d33d8488ea75a91154877ffcc56157da992c",
+      "generation": 1250,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/c7f02dd155d75dc8ae560697cda6d33d8488ea75a91154877ffcc56157da992c.npz",
+        "sha256": "14bda16e4fe39b291dde10ddcdc7abe2cdf38823f0bbbcc78637d895bf4fe77b",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-3d7aeb852c0f26f4cc99775a444ce1b851ee4c42d76c5336c4063ebf4188f921.pt",
+      "sha256": "079644f5c755925e1215860230b53c193f28353083fa87c1540a16af831232c3",
+      "model_id": "3d7aeb852c0f26f4cc99775a444ce1b851ee4c42d76c5336c4063ebf4188f921",
+      "generation": 1280,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/3d7aeb852c0f26f4cc99775a444ce1b851ee4c42d76c5336c4063ebf4188f921.npz",
+        "sha256": "20ebb2abee57315ea784be31119acd63b26624961d6d4a3bef637caa95965a59",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-8a254bc2479e761a66f8b31f4d4bffa8011c63c30bc7e616d9ac1d1206427003.pt",
+      "sha256": "bf0d8f19c445b5a69fcdcaf592e92107c5f38cdc4866de80aa6cceafb929eeaf",
+      "model_id": "8a254bc2479e761a66f8b31f4d4bffa8011c63c30bc7e616d9ac1d1206427003",
+      "generation": 1300,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/8a254bc2479e761a66f8b31f4d4bffa8011c63c30bc7e616d9ac1d1206427003.npz",
+        "sha256": "f8c7d179a0accec338cde8c0814f05cf7778bf3799a7743a44dda287f8fd0c41",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-49722f17f2db240fe449bd01edca98f470ac66a4cf5e18ec574c3bcd68b6af53.pt",
+      "sha256": "a8e6c444ab85e9116026831e188a1d3002700238f38cbf2651f57ec1bdb2cb33",
+      "model_id": "49722f17f2db240fe449bd01edca98f470ac66a4cf5e18ec574c3bcd68b6af53",
+      "generation": 1315,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/49722f17f2db240fe449bd01edca98f470ac66a4cf5e18ec574c3bcd68b6af53.npz",
+        "sha256": "3cd7be03473583b807ad0c5cf272f242b892699b7b508ab697e1721b382ffe2e",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    },
+    {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e85ba41819c4550d5c27ca60ba5f52d8fd4ea127574b63478e953487dd559521.pt",
+      "sha256": "511458008281131c15b335dae93ec91ade122ad9db0c9e021e22b9d9336934af",
+      "model_id": "e85ba41819c4550d5c27ca60ba5f52d8fd4ea127574b63478e953487dd559521",
+      "generation": 1330,
+      "weights_only": true,
+      "probe": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/opponent-pool/probes/e85ba41819c4550d5c27ca60ba5f52d8fd4ea127574b63478e953487dd559521.npz",
+        "sha256": "91608d8436da436b969db4b768d8c392798ad73c83849a1ebdcff09254d585c3",
+        "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+      }
+    }
+  ],
+  "probe": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/il-kl/manifest.json",
+    "sha256": "a9289c21a2257d316c23017f3c9eb88e0ed85f646d05c24025cf85f4f176bda0",
+    "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+  },
+  "startup": {
+    "contract": "trained-selfplay-startup/1.0.0",
+    "source_generation": 1290,
+    "branching": "immediate",
+    "panels": "manual-retire-il-v4",
+    "competitive_pl": "manual-enable",
+    "main_gae_lambda": 0.98,
+    "ppo_warmup_steps": 100,
+    "authority": "user",
+    "reason": "Explicit user-authorized g1290 restart; no qualification games were run"
+  },
+  "imitation_source": {
+    "bc_run": "artifacts/step5/features4-v11-2-batch7-il",
+    "path": "artifacts/step5/features4-v11-2-batch7-il/candidate.pt",
+    "sha256": "657fe1901ab35d144e5d86e16b42e795d281946829c87bcb8e0245927b70a263",
+    "model_id": "94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b",
+    "manifest": "artifacts/il-replay/features4-compact-v8-batch7/manifest.json",
+    "manifest_sha256": "c382a8d184ad128de0298dc8bf0f738bf2b8266baa9d8002a1a84910266596d9",
+    "bc_signature": "1ec1a4cef052a6626e2f41d49eb1e7bcce400dc2322cdcf2bd62d9b5fd5ba285"
+  },
+  "excluded_generations": [
+    1335,
+    1340,
+    1345,
+    1350,
+    1355
+  ],
+  "reset": [
+    "optimizers",
+    "rng",
+    "iterations",
+    "ordinary_games",
+    "PPG_cache",
+    "PFSP_scores",
+    "gates",
+    "DOMiNO"
+  ],
+  "preserved": [
+    "seed_model_tensors",
+    "original_IL_identity",
+    "eligible_frozen_opponents",
+    "fixed_pool_probe"
+  ]
+}
