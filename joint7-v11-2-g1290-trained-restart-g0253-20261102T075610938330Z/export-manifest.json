@@ -1,0 +1,172 @@
+{
+  "format": "selfplay-report-export/1.3.0",
+  "created_utc": "2026-11-02T07:56:13.365643+00:00",
+  "run": "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+  "committed_generation": 253,
+  "games_done": 80960,
+  "implementation": "0cb915f8becd204baedaeb3996be46298924fbe99c5bf4fe9ae6f2446b894a01",
+  "latest_iterations": [
+    251,
+    252
+  ],
+  "uncompacted_iterations": [
+    248,
+    249,
+    250
+  ],
+  "incremental": true,
+  "reused_files": [
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/seed/manifest.json",
+      "path": "fresh-start.json",
+      "bytes": 16739,
+      "sha256": "c2e0f614e840aa474f3b0a98bd5288dc5a8d3310fb4386348182bffc2356fba4",
+      "reason": "Weights-only source and imported history cutoff; no model tensors",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "fresh-start.json"
+    },
+    {
+      "source": "training/runtime/local-scoring/ordinary/runtime.json",
+      "path": "contracts/local-scoring-runtime.json",
+      "bytes": 18569,
+      "sha256": "b240d9963716bc256bcf9385fbc571d06fd2ea66a444204078103f7af66f3c6e",
+      "reason": "Separately admitted scoring recorder",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "contracts/local-scoring-runtime.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/il-kl/import-report.json",
+      "path": "il-kl/import-report.json",
+      "bytes": 738,
+      "sha256": "ae6a4f12c4a628379dd25dc72c0e678041c7f963496b9706268a260917bc5d5b",
+      "reason": "Fixed IL-KL probe manifest or initial measurement",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "il-kl/import-report.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/il-kl/initial-report.json",
+      "path": "il-kl/initial-report.json",
+      "bytes": 386,
+      "sha256": "0eeb6c4139e02a2184495c72b22c5b42b314da8b2b28b79feb194a239aa9bc1a",
+      "reason": "Fixed IL-KL probe manifest or initial measurement",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "il-kl/initial-report.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/il-kl/manifest.json",
+      "path": "il-kl/manifest.json",
+      "bytes": 6643454,
+      "sha256": "a9289c21a2257d316c23017f3c9eb88e0ed85f646d05c24025cf85f4f176bda0",
+      "reason": "Fixed IL-KL probe manifest or initial measurement",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "il-kl/manifest.json"
+    }
+  ],
+  "rating_slot_generation": 250,
+  "run_lock_present": false,
+  "files": [
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state.json",
+      "path": "state.json",
+      "bytes": 996488,
+      "sha256": "bf9c75507962cc43b1fa946ef0c60d7cb305c245cde3e1d70592bb23c71f680f",
+      "reason": "Committed configuration, lineage and progress"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/retention-history.json",
+      "path": "retention-history.json.gz",
+      "bytes": 10375597,
+      "sha256": "b4aeba756bf83acbe7650ff32feacfe1ee123f5c8833e2c827fb498f3e55cd47",
+      "reason": "Retained iteration trends",
+      "transform": "gzip-json-whitespace-only/1.0.0",
+      "source_bytes": 51099011,
+      "source_sha256": "0ce2d36547fdc7e9f06533121a40e7db99ac302a36a194926356101c8ce35fc1",
+      "uncompressed_bytes": 34484701,
+      "uncompressed_sha256": "c30a033305aaed4662d2afbe50140ae3e77671f185d934c3038f3cc693ae1c10"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-0248/report.json",
+      "path": "iteration-0248/report.json",
+      "bytes": 6384919,
+      "sha256": "2362912940665a262a3d36f462db10afa2b2d4b1ecdd67a3b8ddf3cf6aa76e0f",
+      "reason": "Committed report not yet in compact history"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-0249/report.json",
+      "path": "iteration-0249/report.json",
+      "bytes": 6631355,
+      "sha256": "d89aea5ceb4141c7848dea1640e5c942a5744e85359fcf6bc22f1688dcb1849d",
+      "reason": "Committed report not yet in compact history"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-0250/report.json",
+      "path": "iteration-0250/report.json",
+      "bytes": 6517775,
+      "sha256": "8baafee5f6f9c55591b14299897ac3846d32d691758d989787446856d09adab7",
+      "reason": "Committed report not yet in compact history"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-0251/report.json",
+      "path": "iteration-0251/report.json",
+      "bytes": 6480563,
+      "sha256": "e2e253864da8bd5c6a8a059749ba80e0d96fd659b99b0dda0643b896ed38a987",
+      "reason": "Latest completed iteration"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-0252/report.json",
+      "path": "iteration-0252/report.json",
+      "bytes": 6422240,
+      "sha256": "973e4102aa54d6ecf6b532cad4191c7317e09093090a887dff677da39be3c126",
+      "reason": "Latest completed iteration"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/history-3b48dd84f4dc81c7bc7d6e4a4212641e496388b276aacc07a30ab79d62283972.json",
+      "path": "ratings/history-3b48dd84f4dc81c7bc7d6e4a4212641e496388b276aacc07a30ab79d62283972.json",
+      "bytes": 1561880,
+      "sha256": "200c3a12d35a8c5828c8d848f4a37b15fbb0169395649101158c0c6e0333f835",
+      "reason": "Compact cumulative rating outcomes and diagnostic-panel history"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-000250/report.json",
+      "path": "ratings/slots/generation-000250/report.json",
+      "bytes": 107515,
+      "sha256": "0edd180d9c1986e0a6c40c4545eb844d2889727718957b8a13c4a67a65c0dea1",
+      "reason": "Latest committed rating slot report or specification"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-000250/spec.json",
+      "path": "ratings/slots/generation-000250/spec.json",
+      "bytes": 40873,
+      "sha256": "43cabc34a36b42a78a5138e91e022b10e74150e8068e14c3db610c66f49c299e",
+      "reason": "Latest committed rating slot report or specification"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-000250/games.jsonl",
+      "path": "ratings/slots/generation-000250/games.jsonl",
+      "bytes": 64045,
+      "sha256": "a91b6b18e82b1f462a8238a80950295cb41776dd7572b6e163c5fb4e31fe2ea8",
+      "reason": "Append-only held-out rating outcomes or separate panel results"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-000250/panels.json",
+      "path": "ratings/slots/generation-000250/panels.json",
+      "bytes": 3268,
+      "sha256": "0447da61ba03d9342c451ee9e7b302c8753aae814ef75baf3e19217676218891",
+      "reason": "Append-only held-out rating outcomes or separate panel results"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-000250/progress.svg",
+      "path": "ratings/slots/generation-000250/progress.svg",
+      "bytes": 41702,
+      "sha256": "19ea564f9349fbf92f8a80d1b5e20a7993041332a030b5d6af6cd3d821035b0b",
+      "reason": "Strength progress curve"
+    }
+  ],
+  "missing": [],
+  "warnings": [],
+  "generated": [
+    "recorded-config.json",
+    "export-manifest.json"
+  ],
+  "scope": "Analysis reports only; not a resumable checkpoint backup. Missing/pruned evidence is not reconstructed. Retention history is gzip-compressed whitespace-minified JSON (.json.gz); load_json accepts both formats. Its source_bytes/source_sha256 describe the original and bytes/sha256 describe the exported file. Other reports preserve original bytes. Incremental exports require the previous bundles named in reused_files; references point to original physical files."
+}
