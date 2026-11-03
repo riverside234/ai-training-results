@@ -1,0 +1,358 @@
+test_bad_responses_are_not_misclassified_when_deadline_follows_validation (test_inference_deadline_race.InferenceDeadlineRaceTests.test_bad_responses_are_not_misclassified_when_deadline_follows_validation) ... ERROR
+test_cancellation_between_policy_and_final_gate_ends_search (test_inference_deadline_race.InferenceDeadlineRaceTests.test_cancellation_between_policy_and_final_gate_ends_search) ... ERROR
+test_expiry_between_policy_and_final_gate_ends_search (test_inference_deadline_race.InferenceDeadlineRaceTests.test_expiry_between_policy_and_final_gate_ends_search) ... ERROR
+test_explicit_expired_and_cancelled_responses_end_search (test_inference_deadline_race.InferenceDeadlineRaceTests.test_explicit_expired_and_cancelled_responses_end_search) ... ERROR
+test_mixed_model_queue_uses_the_same_deadline_handling (test_inference_deadline_race.InferenceDeadlineRaceTests.test_mixed_model_queue_uses_the_same_deadline_handling) ... ERROR
+test_nonsearch_stopped_predictions_still_fail_validation (test_inference_deadline_race.InferenceDeadlineRaceTests.test_nonsearch_stopped_predictions_still_fail_validation) ... ERROR
+test_personality_policy_handles_the_same_gate_race (test_inference_deadline_race.InferenceDeadlineRaceTests.test_personality_policy_handles_the_same_gate_race) ... ERROR
+test_search_retires_all_pending_paths_without_backing_up_expired_result (test_inference_deadline_race.InferenceDeadlineRaceTests.test_search_retires_all_pending_paths_without_backing_up_expired_result) ... ERROR
+test_valid_probabilities_are_unchanged (test_inference_deadline_race.InferenceDeadlineRaceTests.test_valid_probabilities_are_unchanged) ... ERROR
+test_dead_reply_does_not_duplicate_or_starve_other_lanes (test_inference_failure_review.InferenceFailureReviewTests.test_dead_reply_does_not_duplicate_or_starve_other_lanes) ... ERROR
+test_endpoint_close_releases_reply_handle (test_inference_failure_review.InferenceFailureReviewTests.test_endpoint_close_releases_reply_handle) ... ok
+test_first_inference_error_survives_later_broken_replies (test_inference_failure_review.InferenceFailureReviewTests.test_first_inference_error_survives_later_broken_replies) ... ok
+test_orphaned_input_feeder_does_not_hang_shutdown (test_inference_failure_review.InferenceFailureReviewTests.test_orphaned_input_feeder_does_not_hang_shutdown) ... ok
+test_saturated_replica_routing_is_interruptible (test_inference_failure_review.InferenceFailureReviewTests.test_saturated_replica_routing_is_interruptible) ... ok
+test_local_and_remote_agree_on_valid_default_explicit_and_spent_budgets (test_followup_inference_review.InferenceFollowupTests.test_local_and_remote_agree_on_valid_default_explicit_and_spent_budgets) ... ERROR
+test_local_evaluator_rejects_learner_budget_for_older_opponent (test_followup_inference_review.InferenceFollowupTests.test_local_evaluator_rejects_learner_budget_for_older_opponent) ... ERROR
+test_other_replica_broken_reply_cannot_replace_original_error (test_followup_inference_review.InferenceFollowupTests.test_other_replica_broken_reply_cannot_replace_original_error) ... ok
+test_real_replica_budget_failure_survives_a_different_dead_reply (test_followup_inference_review.InferenceFollowupTests.test_real_replica_budget_failure_survives_a_different_dead_reply) ... ERROR
+test_router_cannot_overtake_a_replica_recording_its_failure (test_followup_inference_review.InferenceFollowupTests.test_router_cannot_overtake_a_replica_recording_its_failure) ... ok
+test_router_failure_is_kept_when_it_precedes_replica_cleanup (test_followup_inference_review.InferenceFollowupTests.test_router_failure_is_kept_when_it_precedes_replica_cleanup) ... ok
+test_router_queue_failure_cannot_replace_original_replica_error (test_followup_inference_review.InferenceFollowupTests.test_router_queue_failure_cannot_replace_original_replica_error) ... ok
+test_boundary_content_identity_reuses_one_full_input_hash (test_inference_performance.InferencePerformanceTests.test_boundary_content_identity_reuses_one_full_input_hash) ... ERROR
+test_changed_cache_key_preserves_pinned_layout_all_seats (test_inference_performance.InferencePerformanceTests.test_changed_cache_key_preserves_pinned_layout_all_seats) ... ERROR
+test_cpu_service_keeps_zero_copy_head_output_path (test_inference_performance.InferencePerformanceTests.test_cpu_service_keeps_zero_copy_head_output_path) ... ok
+test_mutations_and_context_cannot_hit_stale_feature_cache (test_inference_performance.InferencePerformanceTests.test_mutations_and_context_cannot_hit_stale_feature_cache) ... ERROR
+test_normal_batch_uses_one_host_transfer (test_inference_performance.InferencePerformanceTests.test_normal_batch_uses_one_host_transfer) ... ERROR
+test_oversized_position_keeps_existing_candidate_chunking (test_inference_performance.InferencePerformanceTests.test_oversized_position_keeps_existing_candidate_chunking) ... ERROR
+test_packed_transfer_preserves_four_and_five_head_predictions_exactly (test_inference_performance.InferencePerformanceTests.test_packed_transfer_preserves_four_and_five_head_predictions_exactly) ... ERROR
+
+======================================================================
+ERROR: test_bad_responses_are_not_misclassified_when_deadline_follows_validation (test_inference_deadline_race.InferenceDeadlineRaceTests.test_bad_responses_are_not_misclassified_when_deadline_follows_validation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_deadline_race.py", line 48, in setUp
+    self.view, self.choices = position()
+                              ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_cancellation_between_policy_and_final_gate_ends_search (test_inference_deadline_race.InferenceDeadlineRaceTests.test_cancellation_between_policy_and_final_gate_ends_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_deadline_race.py", line 48, in setUp
+    self.view, self.choices = position()
+                              ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_expiry_between_policy_and_final_gate_ends_search (test_inference_deadline_race.InferenceDeadlineRaceTests.test_expiry_between_policy_and_final_gate_ends_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_deadline_race.py", line 48, in setUp
+    self.view, self.choices = position()
+                              ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_explicit_expired_and_cancelled_responses_end_search (test_inference_deadline_race.InferenceDeadlineRaceTests.test_explicit_expired_and_cancelled_responses_end_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_deadline_race.py", line 48, in setUp
+    self.view, self.choices = position()
+                              ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_mixed_model_queue_uses_the_same_deadline_handling (test_inference_deadline_race.InferenceDeadlineRaceTests.test_mixed_model_queue_uses_the_same_deadline_handling)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_deadline_race.py", line 48, in setUp
+    self.view, self.choices = position()
+                              ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_nonsearch_stopped_predictions_still_fail_validation (test_inference_deadline_race.InferenceDeadlineRaceTests.test_nonsearch_stopped_predictions_still_fail_validation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_deadline_race.py", line 48, in setUp
+    self.view, self.choices = position()
+                              ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_personality_policy_handles_the_same_gate_race (test_inference_deadline_race.InferenceDeadlineRaceTests.test_personality_policy_handles_the_same_gate_race)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_deadline_race.py", line 48, in setUp
+    self.view, self.choices = position()
+                              ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_search_retires_all_pending_paths_without_backing_up_expired_result (test_inference_deadline_race.InferenceDeadlineRaceTests.test_search_retires_all_pending_paths_without_backing_up_expired_result)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_deadline_race.py", line 48, in setUp
+    self.view, self.choices = position()
+                              ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_valid_probabilities_are_unchanged (test_inference_deadline_race.InferenceDeadlineRaceTests.test_valid_probabilities_are_unchanged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_deadline_race.py", line 48, in setUp
+    self.view, self.choices = position()
+                              ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_dead_reply_does_not_duplicate_or_starve_other_lanes (test_inference_failure_review.InferenceFailureReviewTests.test_dead_reply_does_not_duplicate_or_starve_other_lanes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_failure_review.py", line 73, in test_dead_reply_does_not_duplicate_or_starve_other_lanes
+    tickets = [client.submit([Request('reply-' + str(i), identity, *position(i), time.monotonic() + 60)])
+                                                                    ^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_local_and_remote_agree_on_valid_default_explicit_and_spent_budgets (test_followup_inference_review.InferenceFollowupTests.test_local_and_remote_agree_on_valid_default_explicit_and_spent_budgets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_followup_inference_review.py", line 41, in test_local_and_remote_agree_on_valid_default_explicit_and_spent_budgets
+    requests = [Request('valid-'+str(i), identity, *position(i), time.monotonic()+30, remaining=budget)
+                                                    ^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_local_evaluator_rejects_learner_budget_for_older_opponent (test_followup_inference_review.InferenceFollowupTests.test_local_evaluator_rejects_learner_budget_for_older_opponent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_followup_inference_review.py", line 30, in test_local_evaluator_rejects_learner_budget_for_older_opponent
+    request = Request('old-cap', evaluator.model_id, *position(), time.monotonic()+30, remaining=(.075,)*4)
+                                                      ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_real_replica_budget_failure_survives_a_different_dead_reply (test_followup_inference_review.InferenceFollowupTests.test_real_replica_budget_failure_survives_a_different_dead_reply)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_followup_inference_review.py", line 132, in test_real_replica_budget_failure_survives_a_different_dead_reply
+    client.predict([Request('fatal', identity, *position(), time.monotonic()+30, remaining=(.075,)*4)])
+                                                ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_boundary_content_identity_reuses_one_full_input_hash (test_inference_performance.InferencePerformanceTests.test_boundary_content_identity_reuses_one_full_input_hash)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_performance.py", line 25, in test_boundary_content_identity_reuses_one_full_input_hash
+    boundary=InputBoundary();encoder=encoding.PreparedEncoder();view,choices=position()
+                                                                             ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_changed_cache_key_preserves_pinned_layout_all_seats (test_inference_performance.InferencePerformanceTests.test_changed_cache_key_preserves_pinned_layout_all_seats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_performance.py", line 53, in test_changed_cache_key_preserves_pinned_layout_all_seats
+    view,choices=position(seat);style=[.5,-.25,0.,1.];intent=[.25]*8
+                 ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_mutations_and_context_cannot_hit_stale_feature_cache (test_inference_performance.InferencePerformanceTests.test_mutations_and_context_cannot_hit_stale_feature_cache)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_performance.py", line 38, in test_mutations_and_context_cannot_hit_stale_feature_cache
+    encoder=encoding.PreparedEncoder();view,choices=position()
+                                                    ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_normal_batch_uses_one_host_transfer (test_inference_performance.InferencePerformanceTests.test_normal_batch_uses_one_host_transfer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_performance.py", line 74, in test_normal_batch_uses_one_host_transfer
+    model=self.models()[1].eval();encoder=encoding.PreparedEncoder();encoded=[encoder.encode(*position())]
+                                                                                              ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_oversized_position_keeps_existing_candidate_chunking (test_inference_performance.InferencePerformanceTests.test_oversized_position_keeps_existing_candidate_chunking)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_performance.py", line 83, in test_oversized_position_keeps_existing_candidate_chunking
+    model=self.models()[1].eval();encoder=encoding.PreparedEncoder();encoded=[encoder.encode(*position())]
+                                                                                              ^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+======================================================================
+ERROR: test_packed_transfer_preserves_four_and_five_head_predictions_exactly (test_inference_performance.InferencePerformanceTests.test_packed_transfer_preserves_four_and_five_head_predictions_exactly)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_inference_performance.py", line 64, in test_packed_transfer_preserves_four_and_five_head_predictions_exactly
+    encoder=encoding.PreparedEncoder();encoded=[encoder.encode(*position(seat)) for seat in range(4)]
+                                                                ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 29, in current_position
+    row=next(row for row in current_game()['records'] if row['seat']==observer)
+                            ^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 25, in current_game
+    def current_game():return copy.deepcopy(_current_game())
+                                            ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/review_fixture.py", line 12, in _current_game
+    from fe_fixtures import Factory
+ModuleNotFoundError: No module named 'fe_fixtures'
+
+----------------------------------------------------------------------
+Ran 28 tests in 1.514s
+
+FAILED (errors=19)
+/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 3 leaked shared_memory objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

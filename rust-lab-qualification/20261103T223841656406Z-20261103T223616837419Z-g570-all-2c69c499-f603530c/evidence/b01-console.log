@@ -1,0 +1,19 @@
+B01: build
+B01: core-tests
+B01: worker-tests
+B01: adapter-tests
+B01: existing-inference-tests
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 270, in <module>
+    main()
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 260, in main
+    result = qualify(args, out)
+             ^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 192, in qualify
+    commands.append(command([sys.executable, '-m', 'unittest', '-v',
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 103, in command
+    require(code == 0, 'B01 command failed; see ' + str(log))
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: B01 command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261103T223616837419Z-g570-all-2c69c499/b01/existing-inference-tests.log

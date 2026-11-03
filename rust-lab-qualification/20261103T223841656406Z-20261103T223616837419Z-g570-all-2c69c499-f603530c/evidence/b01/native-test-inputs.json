@@ -1,0 +1,116 @@
+{
+  "contract": "brass-lab-native-test-inputs/1.0.0",
+  "base_source": "fa0b3f7b74e9ed638c8b6f96d3f23b0910b4e5df9387ff8df58d5472a8014dd2",
+  "fixtures": {
+    "tests/GumbelISMCTS/fixtures/session-v1.json": "1f97002a7ac7fdb14006279640cc7536d9d00e62278922c81421d22b60473bfd",
+    "tests/GumbelISMCTS/fixtures/coordinator-v1.json": "f4b86853ce60570a90fd624f87bbaaa8d8b1b326578e2f427aac4894ca8ec96f",
+    "tests/GumbelISMCTS/fixtures/reuse-v1.json": "237ec3ca50af2730978aee0201c82d915f90aa9fb2bdee182540d59e2d8e6f54"
+  },
+  "includes": [
+    {
+      "source": "native/brass-ai-core/src/features/layout.rs",
+      "input": "native/brass-ai-core/data/feature-layout.json",
+      "sha256": "ed1e9a53e630557956bbd06bd7eabcf7beb5b4b89ae179edac067df284a8325e"
+    },
+    {
+      "source": "native/brass-ai-core/src/state/belief.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-core/src/state/catalog.rs",
+      "input": "native/brass-ai-core/data/state-catalog.json",
+      "sha256": "daed360938390d3b1ef3c0c02f5f42aa2a6ad16fd6555e24b561f371ddd64c2d"
+    },
+    {
+      "source": "native/brass-ai-core/tests/cooperative.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-core/tests/cooperative.rs",
+      "input": "tests/GumbelISMCTS/fixtures/coordinator-v1.json",
+      "sha256": "f4b86853ce60570a90fd624f87bbaaa8d8b1b326578e2f427aac4894ca8ec96f"
+    },
+    {
+      "source": "native/brass-ai-core/tests/features.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-core/tests/privacy.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-core/tests/reuse.rs",
+      "input": "tests/GumbelISMCTS/fixtures/reuse-v1.json",
+      "sha256": "237ec3ca50af2730978aee0201c82d915f90aa9fb2bdee182540d59e2d8e6f54"
+    },
+    {
+      "source": "native/brass-ai-core/tests/rules.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-core/tests/sessions.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-core/tests/sessions.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-core/tests/sessions.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-core/tests/sessions.rs",
+      "input": "tests/GumbelISMCTS/fixtures/session-v1.json",
+      "sha256": "1f97002a7ac7fdb14006279640cc7536d9d00e62278922c81421d22b60473bfd"
+    },
+    {
+      "source": "native/brass-ai-core/tests/simulation.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-core/tests/state.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-inference/tests/contracts.rs",
+      "input": "native/brass-ai-inference/tests/data/manifest.json",
+      "sha256": "3fee37f18cd7963f6dfde7b56fc211b9d424263bf6f27bcc4e7cb6e7a7e132b7"
+    },
+    {
+      "source": "native/brass-ai-inference/tests/contracts.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-inference/tests/runtime.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-worker/src/main.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    },
+    {
+      "source": "native/brass-ai-worker/src/pair_harness/tests.rs",
+      "input": "native/brass-ai-inference/tests/data/manifest.json",
+      "sha256": "3fee37f18cd7963f6dfde7b56fc211b9d424263bf6f27bcc4e7cb6e7a7e132b7"
+    },
+    {
+      "source": "native/brass-ai-worker/src/pair_harness/tests.rs",
+      "input": "native/brass-ai-core/tests/data/initial-state.json",
+      "sha256": "c40cbd0e8ba7bb282b13459b1a64866db5dc56c688b4682be5c2ab5bdb8c5973"
+    }
+  ]
+}
