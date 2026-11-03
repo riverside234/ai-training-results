@@ -1,0 +1,18 @@
+B01: build
+B01: test
+B01: adapter-tests
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b02.py", line 153, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b02.py", line 148, in main
+    try:result=qualify(a,a.out)
+               ^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b02.py", line 110, in qualify
+    bootstrap=build_bootstrap(out,env,base.command,args.mono)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b02.py", line 69, in build_bootstrap
+    require(compiler.is_file(),'Pinned C# compiler missing; restore existing patch toolchain')
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: Pinned C# compiler missing; restore existing patch toolchain

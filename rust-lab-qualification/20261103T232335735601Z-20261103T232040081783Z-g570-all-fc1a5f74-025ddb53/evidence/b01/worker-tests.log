@@ -1,0 +1,59 @@
+warning: unused import: `crate::core::locations::LocationName`
+   --> vendor/brass-upstream-rules/src/core/locations.rs:356:9
+    |
+356 |     use crate::core::locations::LocationName;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_1`
+   --> vendor/brass-upstream-rules/src/core/locations.rs:357:9
+    |
+357 |     use crate::core::static_data::BEER_BREWERY_1;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_2`
+   --> vendor/brass-upstream-rules/src/core/locations.rs:358:9
+    |
+358 |     use crate::core::static_data::BEER_BREWERY_2;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `to_range` is never used
+   --> vendor/brass-upstream-rules/src/consts.rs:348:10
+    |
+348 | const fn to_range(bounds: (usize, usize)) -> Range<usize> {
+    |          ^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `NUM_NAMED_LOCATIONS` is never used
+  --> vendor/brass-upstream-rules/src/core/locations.rs:49:7
+   |
+49 | const NUM_NAMED_LOCATIONS: usize = 27;
+   |       ^^^^^^^^^^^^^^^^^^^
+
+warning: function `enumerate_legal_actions_for_root` is never used
+   --> vendor/brass-upstream-rules/src/game/legal_actions.rs:139:15
+    |
+139 | pub(crate) fn enumerate_legal_actions_for_root(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `brass-upstream-rules` (lib) generated 6 warnings (run `cargo fix --lib -p brass-upstream-rules` to apply 3 suggestions)
+   Compiling brass-ai-worker v0.1.0 (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261103T232040081783Z-g570-all-fc1a5f74/b01/checkout/native/brass-ai-worker)
+    Finished `release` profile [optimized] target(s) in 12.63s
+     Running unittests src/lib.rs (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261103T232040081783Z-g570-all-fc1a5f74/b01/target/x86_64-unknown-linux-gnu/release/deps/brass_ai_worker-c69cce072c9e0dd8)
+
+running 10 tests
+test local_temperature::tests::singleton_ties_and_extreme_logits_remain_finite ... ok
+test local_temperature::tests::temperature_one_point_five_softens_policy_and_preserves_identity_values ... ok
+test local_temperature::tests::temperature_one_preserves_the_complete_evaluation ... ok
+test local_temperature::tests::unsupported_or_nonfinite_temperatures_are_rejected ... ok
+test pair_harness::tests::delivery_reserve_can_prepare_bounded_completion_without_search_or_nn_work ... ok
+test pair_harness::tests::focus_method_is_bound_at_admission_and_cancellation_retires_both_owners ... ok
+test pair_harness::tests::narrowed_allowance_includes_root_preparation_and_cannot_be_replenished ... ok
+test pair_harness::tests::owner_panic_and_subsequent_partial_dispatch_retire_before_idle ... ok
+test pair_harness::tests::pooled_continuation_is_adopted_by_both_owners_without_a_new_clock ... ok
+test pair_harness::tests::composite_fallback_keeps_incumbent_and_never_invents_joint_support ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.14s
+

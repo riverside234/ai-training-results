@@ -1,0 +1,7 @@
+{
+  "contract": "brass-lab-b02/2.0.0",
+  "milestone": "B02",
+  "passed": false,
+  "error": "Pinned C# compiler missing; restore existing patch toolchain",
+  "lab_deployed": false
+}
