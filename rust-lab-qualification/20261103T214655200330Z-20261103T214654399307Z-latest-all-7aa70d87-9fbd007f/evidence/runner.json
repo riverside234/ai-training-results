@@ -1,0 +1,11 @@
+{
+  "contract": "brass-lab-runner/1.0.0",
+  "passed": false,
+  "lab_qualification": "Pending",
+  "requested_generation": null,
+  "requested_checkpoint": null,
+  "fixtures_only": false,
+  "device": "cuda:0",
+  "stages": [],
+  "error": "ValueError: Checkout differs from reviewed producer"
+}

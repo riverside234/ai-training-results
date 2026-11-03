@@ -1,0 +1,16 @@
+B01: build
+B01: core-tests
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 208, in <module>
+    main()
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 198, in main
+    result = qualify(args, out)
+             ^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 125, in qualify
+    commands.append(command(tests, cwd=checkout, env=env, log=out / 'core-tests.log', timeout=args.build_timeout))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 43, in command
+    require(code == 0, 'B01 command failed; see ' + str(log))
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: B01 command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261103T221420894333Z-g570-all-e62eab7a/b01/core-tests.log

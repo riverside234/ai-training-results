@@ -1,0 +1,7 @@
+{
+  "contract": "brass-lab-b01/2.0.0",
+  "passed": false,
+  "milestone": "B01",
+  "error": "ValueError: B01 command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261103T221420894333Z-g570-all-e62eab7a/b01/core-tests.log",
+  "lab_deployed": false
+}

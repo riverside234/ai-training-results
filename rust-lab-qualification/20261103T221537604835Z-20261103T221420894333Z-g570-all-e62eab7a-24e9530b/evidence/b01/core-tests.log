@@ -1,0 +1,133 @@
+ Downloading crates ...
+  Downloaded clap_lex v1.1.1
+  Downloaded ciborium v0.2.2
+  Downloaded anes v0.1.6
+  Downloaded criterion-plot v0.8.2
+  Downloaded oorandom v11.1.5
+  Downloaded unarray v0.1.4
+  Downloaded page_size v0.6.0
+  Downloaded clap v4.6.7
+  Downloaded cast v0.3.0
+  Downloaded either v1.19.0
+  Downloaded rand_xorshift v0.3.0
+  Downloaded alloca v0.4.0
+  Downloaded find-msvc-tools v0.1.15
+  Downloaded lazy_static v1.5.1
+  Downloaded cc v1.10.0
+  Downloaded regex-syntax v0.8.11
+  Downloaded ciborium-ll v0.2.2
+  Downloaded aho-corasick v1.1.5
+  Downloaded regex v1.13.1
+  Downloaded clap_builder v4.6.7
+  Downloaded ciborium-io v0.2.2
+  Downloaded bitflags v2.13.2
+  Downloaded criterion v0.8.2
+  Downloaded itertools v0.13.0
+  Downloaded zerocopy-derive v0.8.63
+  Downloaded tinytemplate v1.2.1
+  Downloaded proptest v1.6.0
+  Downloaded shlex v2.0.1
+  Downloaded anstyle v1.0.14
+  Downloaded half v2.7.1
+  Downloaded regex-automata v0.4.18
+   Compiling syn v2.0.119
+   Compiling libc v0.2.191
+   Compiling zerocopy v0.8.63
+   Compiling serde_core v1.0.228
+   Compiling getrandom v0.2.17
+   Compiling rand_core v0.6.4
+   Compiling zerocopy-derive v0.8.63
+   Compiling serde v1.0.228
+   Compiling serde_derive v1.0.228
+   Compiling find-msvc-tools v0.1.15
+   Compiling shlex v2.0.1
+   Compiling num-traits v0.2.19
+   Compiling cc v1.10.0
+   Compiling ppv-lite86 v0.2.21
+   Compiling rand_chacha v0.3.1
+   Compiling regex-syntax v0.8.11
+   Compiling serde_json v1.0.149
+   Compiling rand v0.8.5
+   Compiling alloca v0.4.0
+   Compiling half v2.7.1
+   Compiling ciborium-io v0.2.2
+   Compiling clap_lex v1.1.1
+   Compiling anstyle v1.0.14
+   Compiling either v1.19.0
+   Compiling itertools v0.13.0
+   Compiling clap_builder v4.6.7
+   Compiling ciborium-ll v0.2.2
+   Compiling num_enum_derive v0.7.3
+   Compiling regex-automata v0.4.18
+   Compiling cast v0.3.0
+   Compiling same-file v1.0.6
+   Compiling brass-upstream-rules v0.1.0 (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261103T221420894333Z-g570-all-e62eab7a/b01/checkout/native/vendor/brass-upstream-rules)
+   Compiling walkdir v2.5.0
+warning: unused import: `crate::core::locations::LocationName`
+   --> vendor/brass-upstream-rules/src/core/locations.rs:356:9
+    |
+356 |     use crate::core::locations::LocationName;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_1`
+   --> vendor/brass-upstream-rules/src/core/locations.rs:357:9
+    |
+357 |     use crate::core::static_data::BEER_BREWERY_1;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_2`
+   --> vendor/brass-upstream-rules/src/core/locations.rs:358:9
+    |
+358 |     use crate::core::static_data::BEER_BREWERY_2;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Compiling criterion-plot v0.8.2
+warning: function `to_range` is never used
+   --> vendor/brass-upstream-rules/src/consts.rs:348:10
+    |
+348 | const fn to_range(bounds: (usize, usize)) -> Range<usize> {
+    |          ^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `NUM_NAMED_LOCATIONS` is never used
+  --> vendor/brass-upstream-rules/src/core/locations.rs:49:7
+   |
+49 | const NUM_NAMED_LOCATIONS: usize = 27;
+   |       ^^^^^^^^^^^^^^^^^^^
+
+warning: function `enumerate_legal_actions_for_root` is never used
+   --> vendor/brass-upstream-rules/src/game/legal_actions.rs:139:15
+    |
+139 | pub(crate) fn enumerate_legal_actions_for_root(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Compiling regex v1.13.1
+   Compiling clap v4.6.7
+   Compiling num_enum v0.7.3
+   Compiling ciborium v0.2.2
+   Compiling tinytemplate v1.2.1
+   Compiling rand_xorshift v0.3.0
+   Compiling page_size v0.6.0
+   Compiling oorandom v11.1.5
+   Compiling lazy_static v1.5.1
+   Compiling bitflags v2.13.2
+   Compiling unarray v0.1.4
+   Compiling anes v0.1.6
+   Compiling criterion v0.8.2
+warning: `brass-upstream-rules` (lib) generated 6 warnings (run `cargo fix --lib -p brass-upstream-rules` to apply 3 suggestions)
+   Compiling proptest v1.6.0
+   Compiling brass-ai-core v0.1.0 (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261103T221420894333Z-g570-all-e62eab7a/b01/checkout/native/brass-ai-core)
+error: couldn't read `brass-ai-core/tests/../../../tests/GumbelISMCTS/fixtures/session-v1.json`: No such file or directory (os error 2)
+   --> brass-ai-core/tests/sessions.rs:575:59
+    |
+575 |       let fixture: serde_json::Value = serde_json::from_str(include_str!(
+    |  ___________________________________________________________^
+576 | |         "../../../tests/GumbelISMCTS/fixtures/session-v1.json"
+577 | |     ))
+    | |_____^
+
+error: could not compile `brass-ai-core` (test "sessions") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...

@@ -1,0 +1,113 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-03T22:15:37.651790+00:00",
+  "source": "artifacts/rust-backend/20261103T221420894333Z-g570-all-e62eab7a",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261103T221420894333Z-g570-all-e62eab7a",
+  "review_only": true,
+  "files": [
+    {
+      "source": "b01-console.log",
+      "path": "evidence/b01-console.log",
+      "source_bytes": 1109,
+      "source_sha256": "035015058a51c596c26a46baaeb2c1da9b27da63ebac4c311c8e5d275e1e5b31",
+      "bytes": 1109,
+      "sha256": "035015058a51c596c26a46baaeb2c1da9b27da63ebac4c311c8e5d275e1e5b31",
+      "gzip": false
+    },
+    {
+      "source": "runner.json",
+      "path": "evidence/runner.json",
+      "source_bytes": 3921,
+      "source_sha256": "ec131bd63a5e5d01d8808d2234d0a2419f8e4a15fa7f30949b7d9dfe1a86f4ac",
+      "bytes": 3921,
+      "sha256": "ec131bd63a5e5d01d8808d2234d0a2419f8e4a15fa7f30949b7d9dfe1a86f4ac",
+      "gzip": false
+    },
+    {
+      "source": "b01/build.log",
+      "path": "evidence/b01/build.log",
+      "source_bytes": 6422,
+      "source_sha256": "763724b38dd635b33a404a86d0728650d3e591ceb8f9de8ab725e761053f8a89",
+      "bytes": 6422,
+      "sha256": "763724b38dd635b33a404a86d0728650d3e591ceb8f9de8ab725e761053f8a89",
+      "gzip": false
+    },
+    {
+      "source": "b01/core-tests.log",
+      "path": "evidence/b01/core-tests.log",
+      "source_bytes": 4994,
+      "source_sha256": "61250fab49566e7fe5437b15e1cf80f24f430498c5eef889c8a754ce10ea9bae",
+      "bytes": 4994,
+      "sha256": "61250fab49566e7fe5437b15e1cf80f24f430498c5eef889c8a754ce10ea9bae",
+      "gzip": false
+    },
+    {
+      "source": "b01/lab-state.json",
+      "path": "evidence/b01/lab-state.json.gz",
+      "source_bytes": 1387486,
+      "source_sha256": "faf7919a4c681fbab4a4f19d86e5f3e202d1ba1c4939d6af9230314511f74ad0",
+      "bytes": 274115,
+      "sha256": "43c301b8e0fc3bac1ae5c2bac74385becce8b9b92ce07025cbf4db6ebecbeb3f",
+      "gzip": true
+    },
+    {
+      "source": "b01/local-entry.json",
+      "path": "evidence/b01/local-entry.json",
+      "source_bytes": 782,
+      "source_sha256": "a5cc240e9691011fc3ac5e0bf4c175ade4f63f833fb9258c80d831d7948bff12",
+      "bytes": 782,
+      "sha256": "a5cc240e9691011fc3ac5e0bf4c175ade4f63f833fb9258c80d831d7948bff12",
+      "gzip": false
+    },
+    {
+      "source": "b01/profile.json",
+      "path": "evidence/b01/profile.json",
+      "source_bytes": 390,
+      "source_sha256": "e5939a935cf071c2477eaf1c7e347e01fb1c8d44d30e36a0157f03851849ceb8",
+      "bytes": 390,
+      "sha256": "e5939a935cf071c2477eaf1c7e347e01fb1c8d44d30e36a0157f03851849ceb8",
+      "gzip": false
+    },
+    {
+      "source": "b01/python-runtime-sources.json",
+      "path": "evidence/b01/python-runtime-sources.json",
+      "source_bytes": 130081,
+      "source_sha256": "c794cafc1887ecd7a21daf2551840dc955cd5a9a7a6a972b8754a1ed6ac8ce42",
+      "bytes": 130081,
+      "sha256": "c794cafc1887ecd7a21daf2551840dc955cd5a9a7a6a972b8754a1ed6ac8ce42",
+      "gzip": false
+    },
+    {
+      "source": "b01/qualification.json",
+      "path": "evidence/b01/qualification.json",
+      "source_bytes": 278,
+      "source_sha256": "8eccba5e809486cbdd50436b648a021bfe29ae2fd5354d29e405a2f405fd65d8",
+      "bytes": 278,
+      "sha256": "8eccba5e809486cbdd50436b648a021bfe29ae2fd5354d29e405a2f405fd65d8",
+      "gzip": false
+    },
+    {
+      "source": "b01/toolchain.json",
+      "path": "evidence/b01/toolchain.json",
+      "source_bytes": 367,
+      "source_sha256": "8f2edb6674c47f72f227d9e288c0a7c44d52f812ed0241d405369880d0e9ef76",
+      "bytes": 367,
+      "sha256": "8f2edb6674c47f72f227d9e288c0a7c44d52f812ed0241d405369880d0e9ef76",
+      "gzip": false
+    }
+  ],
+  "omitted": [
+    {
+      "source": "b01/inputs",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "b01/checkout",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "b01/target",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}
