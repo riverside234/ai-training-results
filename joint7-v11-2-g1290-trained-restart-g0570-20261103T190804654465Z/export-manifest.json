@@ -1,0 +1,163 @@
+{
+  "format": "selfplay-report-export/1.3.0",
+  "created_utc": "2026-11-03T19:08:07.280294+00:00",
+  "run": "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+  "committed_generation": 570,
+  "games_done": 182400,
+  "implementation": "f7a48a025e2c247e63da4df301ce2b80c7c6aabf1073220a5be97f0929719c78",
+  "latest_iterations": [
+    568,
+    569
+  ],
+  "uncompacted_iterations": [],
+  "incremental": true,
+  "reused_files": [
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/seed/manifest.json",
+      "path": "fresh-start.json",
+      "bytes": 16739,
+      "sha256": "c2e0f614e840aa474f3b0a98bd5288dc5a8d3310fb4386348182bffc2356fba4",
+      "reason": "Weights-only source and imported history cutoff; no model tensors",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "fresh-start.json"
+    },
+    {
+      "source": "training/runtime/local-scoring/ordinary/runtime.json",
+      "path": "contracts/local-scoring-runtime.json",
+      "bytes": 18569,
+      "sha256": "b240d9963716bc256bcf9385fbc571d06fd2ea66a444204078103f7af66f3c6e",
+      "reason": "Separately admitted scoring recorder",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "contracts/local-scoring-runtime.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-16a72826fdb9bd60-0253.json",
+      "path": "state-before-source-16a72826fdb9bd60-0253.json",
+      "bytes": 996488,
+      "sha256": "bf9c75507962cc43b1fa946ef0c60d7cb305c245cde3e1d70592bb23c71f680f",
+      "reason": "Run metadata",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0370-20261102T221517838215Z",
+      "previous_path": "state-before-source-16a72826fdb9bd60-0253.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/il-kl/import-report.json",
+      "path": "il-kl/import-report.json",
+      "bytes": 738,
+      "sha256": "ae6a4f12c4a628379dd25dc72c0e678041c7f963496b9706268a260917bc5d5b",
+      "reason": "Fixed IL-KL probe manifest or initial measurement",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "il-kl/import-report.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/il-kl/initial-report.json",
+      "path": "il-kl/initial-report.json",
+      "bytes": 386,
+      "sha256": "0eeb6c4139e02a2184495c72b22c5b42b314da8b2b28b79feb194a239aa9bc1a",
+      "reason": "Fixed IL-KL probe manifest or initial measurement",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "il-kl/initial-report.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/il-kl/manifest.json",
+      "path": "il-kl/manifest.json",
+      "bytes": 6643454,
+      "sha256": "a9289c21a2257d316c23017f3c9eb88e0ed85f646d05c24025cf85f4f176bda0",
+      "reason": "Fixed IL-KL probe manifest or initial measurement",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "il-kl/manifest.json"
+    }
+  ],
+  "rating_slot_generation": 570,
+  "run_lock_present": false,
+  "files": [
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state.json",
+      "path": "state.json",
+      "bytes": 1283344,
+      "sha256": "57a3586f2fcfa9e0531acb1ecb5932dd9ac6df518499e0ecc6608e3333bef2ee",
+      "reason": "Committed configuration, lineage and progress"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/retention-history.json",
+      "path": "retention-history.json.gz",
+      "bytes": 10571399,
+      "sha256": "1be83241123497fd7de1b1d7d13b4bec3a660297073ef5bc083c4ae21ce189f4",
+      "reason": "Retained iteration trends",
+      "transform": "gzip-json-whitespace-only/1.0.0",
+      "source_bytes": 54689412,
+      "source_sha256": "da5e5f5bcfb54f840fcdd16c29cfd13143d2dba43ffce1a102ca062ec4f8adef",
+      "uncompressed_bytes": 35776330,
+      "uncompressed_sha256": "3b62b92945e0aefde27a5794ce9d4f48565061645dc016339a0c3801b017d5e9"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-1346bc4ffd7ad474-0370.json",
+      "path": "state-before-source-1346bc4ffd7ad474-0370.json",
+      "bytes": 1142848,
+      "sha256": "e91e35d764c86e2e2f6896b5f23b9a6ba4cb8597830969f80216345a5cf8e18f",
+      "reason": "Run metadata"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-0568/report.json",
+      "path": "iteration-0568/report.json",
+      "bytes": 6125192,
+      "sha256": "dc0b5d0fda286d9f74fc9f6250fe9dff0b551cfbc3b5d0c592b47413425e44b7",
+      "reason": "Latest completed iteration"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-0569/report.json",
+      "path": "iteration-0569/report.json",
+      "bytes": 6655696,
+      "sha256": "036925db24e79d2a4532f032c4c819571ba3a21eed6501104a067155c2d029b0",
+      "reason": "Latest completed iteration"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/history-faed70633c539abb38d5a59a9de4df3636065617ff454584ca1fca50a4d74127.json",
+      "path": "ratings/history-faed70633c539abb38d5a59a9de4df3636065617ff454584ca1fca50a4d74127.json",
+      "bytes": 4911581,
+      "sha256": "60a7bc1635daec75e5dc6d0a5af34245782806920b771c7a1af48ab76410f61e",
+      "reason": "Compact cumulative rating outcomes and diagnostic-panel history"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-000570/report.json",
+      "path": "ratings/slots/generation-000570/report.json",
+      "bytes": 476917,
+      "sha256": "2c8b66711dbfda567ebc883fdf52c783237db51641d20749bb4cd410fc704676",
+      "reason": "Latest committed rating slot report or specification"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-000570/spec.json",
+      "path": "ratings/slots/generation-000570/spec.json",
+      "bytes": 40877,
+      "sha256": "029bb2785f52f28e79e7eee7ddecc2d34b53b667bf0e8b6cda73021632dc080d",
+      "reason": "Latest committed rating slot report or specification"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-000570/games.jsonl",
+      "path": "ratings/slots/generation-000570/games.jsonl",
+      "bytes": 64044,
+      "sha256": "628bab100ecaca436e5a1cb6055f5520fa09360a073ae9143216230b1424f1c5",
+      "reason": "Append-only held-out rating outcomes or separate panel results"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-000570/panels.json",
+      "path": "ratings/slots/generation-000570/panels.json",
+      "bytes": 3274,
+      "sha256": "eeb888ce9dbd5125a4d89fe650dadf5155e6b5ecbab054bffe566042c65ac5b4",
+      "reason": "Append-only held-out rating outcomes or separate panel results"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-000570/progress.svg",
+      "path": "ratings/slots/generation-000570/progress.svg",
+      "bytes": 42694,
+      "sha256": "edd1f6fabf67d8a35bb8b063b6f60d899264692f68e9da961f80136aaa9bbe5b",
+      "reason": "Strength progress curve"
+    }
+  ],
+  "missing": [],
+  "warnings": [],
+  "generated": [
+    "recorded-config.json",
+    "export-manifest.json"
+  ],
+  "scope": "Analysis reports only; not a resumable checkpoint backup. Missing/pruned evidence is not reconstructed. Retention history is gzip-compressed whitespace-minified JSON (.json.gz); load_json accepts both formats. Its source_bytes/source_sha256 describe the original and bytes/sha256 describe the exported file. Other reports preserve original bytes. Incremental exports require the previous bundles named in reused_files; references point to original physical files."
+}
