@@ -1,0 +1,90 @@
+[
+  {
+    "argv": [
+      "cargo",
+      "+1.99.1",
+      "build",
+      "--release",
+      "--manifest-path",
+      "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/checkout/lab-native/Cargo.toml",
+      "--target",
+      "x86_64-unknown-linux-gnu",
+      "--target-dir",
+      "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/target",
+      "--locked"
+    ],
+    "seconds": 16.239739298820496,
+    "log": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/build.log",
+      "bytes": 4416,
+      "sha256": "00701ca3cb6a61084c514790e1f4a6003d3b21ba9cf6cca98bf42b706fdf0e0c"
+    }
+  },
+  {
+    "argv": [
+      "cargo",
+      "+1.99.1",
+      "test",
+      "--release",
+      "--manifest-path",
+      "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/checkout/lab-native/Cargo.toml",
+      "--target",
+      "x86_64-unknown-linux-gnu",
+      "--target-dir",
+      "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/target",
+      "--locked"
+    ],
+    "seconds": 3.418983971932903,
+    "log": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/test.log",
+      "bytes": 4392,
+      "sha256": "09e59825d62899186ba27cdc8a20e2454f2946be43536325568c06cff49b3938"
+    }
+  },
+  {
+    "argv": [
+      "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests/RustBackendLab",
+      "-p",
+      "test_b02.py",
+      "-v"
+    ],
+    "seconds": 1.1658578161150217,
+    "log": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/adapter-tests.log",
+      "bytes": 2917,
+      "sha256": "f3a360d9f60bc93402e4f91358b697ddcdc3e51ee107b73a0ed190be93fc5a98"
+    }
+  },
+  {
+    "argv": [
+      "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+      "-m",
+      "brass_ai.rust_backend.lab_b02_smoke",
+      "--run",
+      "/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart",
+      "--state",
+      "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/lab-state.json",
+      "--build",
+      "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/build.json",
+      "--out",
+      "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02",
+      "--device",
+      "cuda:0",
+      "--mono",
+      "mono",
+      "--workers",
+      "60"
+    ],
+    "seconds": 204.51252305787057,
+    "log": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/collection-smoke.log",
+      "bytes": 81846,
+      "sha256": "7caa3ef9693c6a8e88582f449ec3e69740c7d836072a1b80020ee117e4d76e10"
+    }
+  }
+]

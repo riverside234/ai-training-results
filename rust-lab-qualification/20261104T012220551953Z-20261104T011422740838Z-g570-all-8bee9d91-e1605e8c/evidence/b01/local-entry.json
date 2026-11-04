@@ -1,0 +1,15 @@
+{
+  "profile_id": "c8123c5866b95f47d3d6cdf5fcd16724f44283ec2d15ea4860659956b92b81a2",
+  "inputs": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/inputs/inputs.json",
+    "bytes": 1594,
+    "sha256": "53ebd2a957ad732269fa152d28880219e77b75e9d5f2590d6ef8387831ccf14c"
+  },
+  "archive": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/inputs/source.zip",
+    "bytes": 395378,
+    "sha256": "6dc6e230b96a4c57bd14d85fb994c8d0bd624b9b504d83647ff8d157842179c7"
+  },
+  "native_source_sha256": "fa0b3f7b74e9ed638c8b6f96d3f23b0910b4e5df9387ff8df58d5472a8014dd2",
+  "scope": "local evidence verified; Linux/CUDA qualification still required"
+}

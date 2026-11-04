@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b03.py", line 128, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b03.py", line 81, in main
+    value=lab_check(a,a.out);write_json(a.out/'lab-checks.json',value);return
+          ^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b03.py", line 51, in lab_check
+    restored=continuation.restore(fork,device=args.device,allow_cuda_topology_change=args.allow_cuda_topology_change)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_continuation.py", line 267, in restore
+    require(_same_payload(optimizer.state_dict(), raw['optimizer']), 'PPO Adam restoration differs')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/retention.py", line 257, in _same_payload
+    return left.keys()==right.keys() and all(_same_payload(left[k],right[k]) for k in left)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/retention.py", line 257, in <genexpr>
+    return left.keys()==right.keys() and all(_same_payload(left[k],right[k]) for k in left)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/retention.py", line 257, in _same_payload
+    return left.keys()==right.keys() and all(_same_payload(left[k],right[k]) for k in left)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/retention.py", line 257, in <genexpr>
+    return left.keys()==right.keys() and all(_same_payload(left[k],right[k]) for k in left)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/retention.py", line 257, in _same_payload
+    return left.keys()==right.keys() and all(_same_payload(left[k],right[k]) for k in left)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/retention.py", line 257, in <genexpr>
+    return left.keys()==right.keys() and all(_same_payload(left[k],right[k]) for k in left)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/retention.py", line 255, in _same_payload
+    return left.dtype==right.dtype and left.shape==right.shape and torch.equal(left,right)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected all tensors to be on the same device, but got other is on cpu, different from other tensors on cuda:0 (when checking argument in method wrapper_CUDA__equal)

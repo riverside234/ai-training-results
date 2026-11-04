@@ -1,0 +1,31 @@
+test_invalidation_and_heldout_never_trains (test_b025.Buffer.test_invalidation_and_heldout_never_trains) ... ok
+test_seals_resume_window_commit_cleanup_and_unknown_files (test_b025.Buffer.test_seals_resume_window_commit_cleanup_and_unknown_files) ... ok
+test_staleness_skips_age_and_beta_calibration_share_scaling (test_b025.Buffer.test_staleness_skips_age_and_beta_calibration_share_scaling) ... ok
+test_weighted_draws_independent_rng_and_missing_ages (test_b025.Buffer.test_weighted_draws_independent_rng_and_missing_ages) ... ok
+test_defaults_historical_validation_and_strict_settings (test_b025.Contracts.test_defaults_historical_validation_and_strict_settings) ... ok
+test_equations_reference_zero_evidence_and_all_legal (test_b025.Contracts.test_equations_reference_zero_evidence_and_all_legal) ... ok
+test_partial_round_overrun_fallback_and_single_visit_admitted (test_b025.Contracts.test_partial_round_overrun_fallback_and_single_visit_admitted) ... ok
+test_readiness_null_false_reward_and_seed_isolation (test_b025.Contracts.test_readiness_null_false_reward_and_seed_isolation) ... ok
+test_tampered_identity_legal_observer_target_and_logits_rejected (test_b025.Contracts.test_tampered_identity_legal_observer_target_and_logits_rejected) ... ok
+test_toggle_and_invalidation_boundaries (test_b025.Contracts.test_toggle_and_invalidation_boundaries) ... ok
+test_fixture_collection_barrier_partial_buffer_and_resume (test_b025.Lifecycle.test_fixture_collection_barrier_partial_buffer_and_resume) ... ok
+test_lifecycle_rejects_wrong_result_set_and_retains_ready_buffer (test_b025.Lifecycle.test_lifecycle_rejects_wrong_result_set_and_retains_ready_buffer) ... ok
+test_live_enablement_fails_before_any_collection_or_state_write (test_b025.Lifecycle.test_live_enablement_fails_before_any_collection_or_state_write) ... ok
+test_dcpg_shadow_preserves_shared_encoder_gradients (test_b025.PPO.test_dcpg_shadow_preserves_shared_encoder_gradients) ... ok
+test_full_checkpoint_restart_reproduces_combined_update (test_b025.PPO.test_full_checkpoint_restart_reproduces_combined_update) ... ok
+test_on_uses_existing_optimizer_and_kl_stop (test_b025.PPO.test_on_uses_existing_optimizer_and_kl_stop) ... ok
+test_policy_gradient_excludes_critic_and_descriptor_heads (test_b025.PPO.test_policy_gradient_excludes_critic_and_descriptor_heads) ... ok
+test_shadow_is_bit_exact_weights_adam_rng_and_loss (test_b025.PPO.test_shadow_is_bit_exact_weights_adam_rng_and_loss) ... ok
+test_teacher_cannot_update_without_an_ordinary_kl_probe (test_b025.PPO.test_teacher_cannot_update_without_an_ordinary_kl_probe) ... ok
+test_teacher_rows_cannot_enter_ordinary_ppo (test_b025.PPO.test_teacher_rows_cannot_enter_ordinary_ppo) ... ok
+test_exact_adoption_and_reviewed_self_toggle (test_b025.Resume.test_exact_adoption_and_reviewed_self_toggle) ... ok
+test_full_resume_receipt_mode_toggle_keeps_weights_adam_rng (test_b025.Resume.test_full_resume_receipt_mode_toggle_keeps_weights_adam_rng) ... Reviewed same-run continuation: generation 70, 22400 games; checkpoint, Adam/RNG, population and schedule counters preserved
+Reviewed configuration changes: {'teacher_phase': {'before': {'contract': 'teacher-phase/1.1.0', 'mode': 'off', 'tables': {'train': 28, 'held_out': 4}, 'schedule': 'four-phase-teacher-turns/2.0.0', 'unsearched': {'temperature': 1.0, 'epsilon': 0.0, 'opening_temperature': None, 'branching': False}, 'search': {'method': 'search_v1', 'algorithm': 'brass-gumbel-is-mcts/count-v1', 'session': 'brass-gumbel-is-mcts/session-v1', 'v205_enabled': False, 'allowance_seconds': 4.0, 'post_search_seconds': 1.0, 'timing': 'search-plus-post/1.0.0', 'sessions': 1, 'threads_per_session': 1, 'pending_paths': 1, 'k': 16, 'c1': 50, 'c2': 0.1, 'gumbel_noise': True, 'prior_temperature': 1.0, 'watchdog_seconds': 30.0, 'reward': {'version': 'brass-combined-return/2.0.0', 'win': 1.0, 'placement': 0.1, 'vp': 0.001, 'vp_cap': 180, 'insolvency': {'event_cost': 0.02, 'max_cost': 0.075}}}, 'labels': {'source': 'search-v1-improved-policy/1.0.0', 'decisions': 'action-stage-both-actions', 'evidence': 'completed-trajectories'}, 'buffer': {'iterations': 4, 'age_weights': [4, 3, 2, 1], 'max_staleness_ratio': 1.0}, 'term': {'rows_per_step': 64, 'share_target': 0.25, 'shadow_iterations': 2, 'beta_bounds': [0.01, 10.0]}}, 'after': {'contract': 'teacher-phase/1.1.0', 'mode': 'shadow', 'tables': {'train': 28, 'held_out': 4}, 'schedule': 'four-phase-teacher-turns/2.0.0', 'unsearched': {'temperature': 1.0, 'epsilon': 0.0, 'opening_temperature': None, 'branching': False}, 'search': {'method': 'search_v1', 'algorithm': 'brass-gumbel-is-mcts/count-v1', 'session': 'brass-gumbel-is-mcts/session-v1', 'v205_enabled': False, 'allowance_seconds': 4.0, 'post_search_seconds': 1.0, 'timing': 'search-plus-post/1.0.0', 'sessions': 1, 'threads_per_session': 1, 'pending_paths': 1, 'k': 16, 'c1': 50, 'c2': 0.1, 'gumbel_noise': True, 'prior_temperature': 1.0, 'watchdog_seconds': 30.0, 'reward': {'version': 'brass-combined-return/2.0.0', 'win': 1.0, 'placement': 0.1, 'vp': 0.001, 'vp_cap': 180, 'insolvency': {'event_cost': 0.02, 'max_cost': 0.075}}}, 'labels': {'source': 'search-v1-improved-policy/1.0.0', 'decisions': 'action-stage-both-actions', 'evidence': 'completed-trajectories'}, 'buffer': {'iterations': 4, 'age_weights': [4, 3, 2, 1], 'max_staleness_ratio': 1.0}, 'term': {'rows_per_step': 64, 'share_target': 0.25, 'shadow_iterations': 2, 'beta_bounds': [0.01, 10.0]}}}}
+ok
+test_helper_is_readonly_idempotent_generation_hash_and_adoption_bound (test_b025.Resume.test_helper_is_readonly_idempotent_generation_hash_and_adoption_bound) ... ok
+test_receipt_preserved_through_toggle_crash_chain_only (test_b025.Resume.test_receipt_preserved_through_toggle_crash_chain_only) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 10.107s
+
+OK

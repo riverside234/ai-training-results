@@ -1,0 +1,24 @@
+{
+  "contract": "brass-lab-b03/1.0.0",
+  "milestone": "B03",
+  "passed": false,
+  "method": "search_v1",
+  "v205_enabled": false,
+  "lab_qualification": "Pending",
+  "scope": "Replay admission and full-state restoration; no games or training steps",
+  "transfer": {
+    "manifest_sha256": "c1614ef8d691ca95707ec00b2c58aae479f885221ab88a8689029cccc319b947",
+    "implementation": "a7d39190382b768058f699ba94a8e870b7ca18eb54c636392fc2eeec6b8dc31b",
+    "producer": "bc2c07c397fdc979c9d4376189e723af86620e6361e3cd7052f3500cea3709cb",
+    "files": 1204,
+    "milestone": "b03",
+    "teacher_profile": "task-only",
+    "lab_qualification": "Pending"
+  },
+  "fixtures": {
+    "passed": true,
+    "sha256": "75ff447cf21c56f16cbe776b16406271ea961215b51e8d51059627c06baac5a7"
+  },
+  "error": "Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b03/lab-checks.log",
+  "seconds": 76.16628736513667
+}

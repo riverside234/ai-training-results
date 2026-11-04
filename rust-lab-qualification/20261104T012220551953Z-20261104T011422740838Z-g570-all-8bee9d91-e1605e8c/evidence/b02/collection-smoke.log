@@ -1,0 +1,1014 @@
+B02 progress: {"elapsed_seconds":10.000281379790977,"lanes":{"collection":{"stage":"plan","updated_seconds":0.004143774975091219}}}
+B02: preflight frozen reference policies
+B02: 4 active lanes, cap 60; 3 frozen families
+B02 progress: {"elapsed_seconds":20.00412326492369,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"oracle-compare","updated_seconds":19.935031536966562,"step":20,"era":"CanalEra","phase":"continuation","candidates":1},"2/parent":{"stage":"native-collection","updated_seconds":19.930726282997057,"step":21,"era":"CanalEra","phase":"payment","candidates":1},"57/reference":{"stage":"reference-collection","updated_seconds":13.904007135890424,"kind":"legacy"}}}
+B02 progress: {"elapsed_seconds":30.02124794689007,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"oracle-compare","updated_seconds":29.84859282593243,"step":61,"era":"CanalEra","phase":"action","candidates":137},"2/parent":{"stage":"oracle-compare","updated_seconds":29.981492732884362,"step":66,"era":"CanalEra","phase":"payment","candidates":1},"57/reference":{"stage":"reference-collection","updated_seconds":13.904007135890424,"kind":"legacy"},"0/child":{"stage":"native-collection","updated_seconds":29.907182480907068,"step":21,"era":"CanalEra","phase":"continuation","candidates":1}}}
+B02 progress: {"elapsed_seconds":40.06511047389358,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"oracle-step","updated_seconds":40.01754439389333,"step":89,"era":"CanalEra","phase":"continuation","candidates":1},"2/parent":{"stage":"native-collection","updated_seconds":39.98861538199708,"step":99,"era":"CanalEra","phase":"continuation","candidates":1},"57/reference":{"stage":"reference-collection","updated_seconds":13.904007135890424,"kind":"legacy"},"0/child":{"stage":"oracle-compare","updated_seconds":40.04225896601565,"step":50,"era":"CanalEra","phase":"action","candidates":84}}}
+B02 progress: {"elapsed_seconds":50.110530745005235,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"native-collection","updated_seconds":50.03396649193019,"step":115,"era":"CanalEra","phase":"action","candidates":32},"2/parent":{"stage":"oracle-compare","updated_seconds":50.02626178297214,"step":126,"era":"CanalEra","phase":"action","candidates":101},"57/reference":{"stage":"reference-collection","updated_seconds":13.904007135890424,"kind":"legacy"},"0/child":{"stage":"native-collection","updated_seconds":49.9692693289835,"step":80,"era":"CanalEra","phase":"continuation","candidates":1}}}
+Timeout (0:01:00)!
+Thread 0x00007c13ad7fe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13adfff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13d4efe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13d56ff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/exceptions.py", line 455 in _set
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 355 in oneOf
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 275 in ref
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 296 in properties
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 275 in ref
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 78 in items
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 296 in properties
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 275 in ref
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 384 in iter_errors
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 450 in validate
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/runtime_contracts.py", line 27 in validate
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/features.py", line 100 in encode
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 201 in compare
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_collection.py", line 148 in collect_lane
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 210 in native
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 93 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13e1fff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/legacy.py", line 73 in errors
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13f4dda6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/legacy.py", line 69 in read
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13f6ffd6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/legacy.py", line 73 in errors
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13f77fe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/legacy.py", line 69 in read
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13f7fff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/queues.py", line 251 in _feed
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c14117fa6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c1411ffb6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c14127fc6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/host.py", line 58 in drain_errors
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c1412ffd6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c14137fe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c1413fff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 55 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142cdfa6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142d5fb6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 359 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 180 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/legacy.py", line 85 in call
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/legacy_search.py", line 236 in decision
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/legacy_search.py", line 345 in select_batch
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/execution.py", line 246 in _run_turns
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/execution.py", line 184 in run_game
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 104 in reference_part
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 230 in fallback
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 93 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142ddfc6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/selectors.py", line 415 in select
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 1136 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 440 in _poll
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 257 in poll
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inference.py", line 196 in _poll
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inference.py", line 191 in poll
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inference.py", line 140 in predict
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_collection.py", line 73 in recorded
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/policy.py", line 181 in select_batch
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_collection.py", line 124 in collect_lane
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 210 in native
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 93 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142e5fd6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 359 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 180 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 71 in call
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 37 in step
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 204 in compare
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_collection.py", line 148 in collect_lane
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 210 in native
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 93 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142f5fe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/socket.py", line 295 in accept
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 626 in accept
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 480 in accept
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/resource_sharer.py", line 138 in _serve
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142fdff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/queues.py", line 251 in _feed
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c14363d46c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/batching.py", line 78 in <genexpr>
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/batching.py", line 78 in collate
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inference.py", line 56 in predict_packed
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inference.py", line 393 in _evaluate
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inference.py", line 516 in _serve
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c1436fd56c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 359 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 655 in wait
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_smoke_progress.py", line 40 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c175e70f740 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 359 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 655 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 305 in wait
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_families.py", line 235 in collect_families
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 242 in run
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 270 in main
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 277 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+B02 progress: {"elapsed_seconds":60.19352429895662,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"oracle-compare","updated_seconds":60.103492457885295,"step":143,"era":"CanalEra","phase":"payment","candidates":7},"2/parent":{"stage":"oracle-compare","updated_seconds":60.086926800897345,"step":152,"era":"CanalEra","phase":"continuation","candidates":2},"57/reference":{"stage":"reference-collection","updated_seconds":13.904007135890424,"kind":"legacy"},"0/child":{"stage":"native-collection","updated_seconds":60.06594273285009,"step":110,"era":"CanalEra","phase":"continuation","candidates":1}}}
+B02 progress: {"elapsed_seconds":70.22912070294842,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"oracle-compare","updated_seconds":70.15447087888606,"step":170,"era":"CanalEra","phase":"action","candidates":15},"2/parent":{"stage":"native-collection","updated_seconds":70.07794302888215,"step":179,"era":"RailEra","phase":"continuation","candidates":5},"57/reference":{"stage":"reference-collection","updated_seconds":13.904007135890424,"kind":"legacy"},"0/child":{"stage":"native-collection","updated_seconds":70.18681106297299,"step":138,"era":"CanalEra","phase":"payment","candidates":2}}}
+B02 progress: {"elapsed_seconds":80.32917923596688,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"oracle-compare","updated_seconds":80.09031386580318,"step":197,"era":"RailEra","phase":"action","candidates":147},"2/parent":{"stage":"oracle-compare","updated_seconds":80.1642000908032,"step":204,"era":"RailEra","phase":"continuation","candidates":1},"57/reference":{"stage":"reference-collection","updated_seconds":13.904007135890424,"kind":"legacy"},"0/child":{"stage":"oracle-compare","updated_seconds":80.21249674097635,"step":164,"era":"RailEra","phase":"continuation","candidates":1}}}
+B02 progress: {"elapsed_seconds":90.4278021180071,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"native-collection","updated_seconds":89.95403451588936,"step":219,"era":"RailEra","phase":"continuation","candidates":1},"2/parent":{"stage":"native-collection","updated_seconds":89.95645982096903,"step":224,"era":"RailEra","phase":"continuation","candidates":6},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"oracle-step","updated_seconds":90.42109229997732,"step":188,"era":"RailEra","phase":"payment","candidates":1},"57/family":{"stage":"validate-publish","updated_seconds":89.4162902769167}}}
+B02 progress: {"elapsed_seconds":100.44439376797527,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"oracle-compare","updated_seconds":100.26770281093195,"step":238,"era":"RailEra","phase":"action","candidates":124},"2/parent":{"stage":"oracle-compare","updated_seconds":100.29910487798043,"step":241,"era":"RailEra","phase":"continuation","candidates":1},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"native-collection","updated_seconds":100.29164050496183,"step":205,"era":"RailEra","phase":"action","candidates":159},"57/family":{"stage":"published","updated_seconds":97.67982786893845}}}
+B02 progress: {"elapsed_seconds":110.54556065495126,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"oracle-compare","updated_seconds":110.43956830189563,"step":260,"era":"RailEra","phase":"payment","candidates":1},"2/parent":{"stage":"native-collection","updated_seconds":110.36072184494697,"step":264,"era":"RailEra","phase":"continuation","candidates":1},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"native-collection","updated_seconds":110.48266359395348,"step":228,"era":"RailEra","phase":"action","candidates":144},"57/family":{"stage":"published","updated_seconds":97.67982786893845}}}
+Timeout (0:01:00)!
+Thread 0x00007c14127fc6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 90 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13ad7fe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13adfff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13d4efe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13d56ff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 296 in __attrs_post_init__
+  File "<attrs generated methods jsonschema.validators.create.<locals>.Validator>", line 32 in __init__
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 348 in evolve
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 424 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 355 in oneOf
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 275 in ref
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 296 in properties
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 275 in ref
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 78 in items
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 296 in properties
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 432 in descend
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 275 in ref
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 384 in iter_errors
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/validators.py", line 450 in validate
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/runtime_contracts.py", line 27 in validate
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/features.py", line 100 in encode
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 201 in compare
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_collection.py", line 148 in collect_lane
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 210 in native
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 93 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13f7fff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/queues.py", line 251 in _feed
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c14117fa6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 40 in _read
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 52 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c1411ffb6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c1412ffd6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c14137fe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c1413fff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142cdfa6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142d5fb6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 90 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142ddfc6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/exceptions.py", line 173 in __init__
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/jsonschema/_keywords.py", line 56 in additionalProperties
+
+Thread 0x00007c142e5fd6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 359 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 180 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 71 in call
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 135 in encode
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inference.py", line 164 in _submit
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inference.py", line 144 in submit
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inference.py", line 140 in predict
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_collection.py", line 73 in recorded
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/policy.py", line 181 in select_batch
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_collection.py", line 124 in collect_lane
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 210 in native
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 93 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142f5fe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/socket.py", line 295 in accept
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 626 in accept
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 480 in accept
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/resource_sharer.py", line 138 in _serve
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142fdff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/queues.py", line 251 in _feed
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c14363d46c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/selectors.py", line 415 in select
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 1136 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 440 in _poll
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 257 in poll
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/queues.py", line 113 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inference.py", line 494 in _serve
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c1436fd56c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 359 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 655 in wait
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_smoke_progress.py", line 40 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c175e70f740 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 359 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 655 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 305 in wait
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_families.py", line 235 in collect_families
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 242 in run
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 270 in main
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 277 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+B02 progress: {"elapsed_seconds":120.60746306600049,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"oracle-compare","updated_seconds":120.32312864600681,"step":282,"era":"RailEra","phase":"action","candidates":179},"2/parent":{"stage":"oracle-compare","updated_seconds":120.43084801197983,"step":290,"era":"RailEra","phase":"payment","candidates":1},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"native-collection","updated_seconds":120.37594457599334,"step":253,"era":"RailEra","phase":"continuation","candidates":1},"57/family":{"stage":"published","updated_seconds":97.67982786893845}}}
+B02 progress: {"elapsed_seconds":130.68248351989314,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"native-collection","updated_seconds":130.63359748898074,"step":305,"era":"RailEra","phase":"action","candidates":111},"2/parent":{"stage":"oracle-compare","updated_seconds":130.61114124488086,"step":313,"era":"RailEra","phase":"action","candidates":54},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"native-collection","updated_seconds":130.4937330270186,"step":274,"era":"RailEra","phase":"continuation","candidates":1},"57/family":{"stage":"published","updated_seconds":97.67982786893845}}}
+B02 progress: {"elapsed_seconds":140.89955990598537,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"oracle-compare","updated_seconds":140.73942202795297,"step":329,"era":"RailEra","phase":"payment","candidates":1},"2/parent":{"stage":"oracle-compare","updated_seconds":140.62453573779203,"step":338,"era":"RailEra","phase":"action","candidates":65},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"oracle-compare","updated_seconds":140.7268940389622,"step":298,"era":"RailEra","phase":"continuation","candidates":1},"57/family":{"stage":"published","updated_seconds":97.67982786893845}}}
+B02 progress: {"elapsed_seconds":151.0036294439342,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"native-collection","updated_seconds":150.74900790280662,"step":353,"era":"RailEra","phase":"continuation","candidates":1},"2/parent":{"stage":"oracle-compare","updated_seconds":150.9474690197967,"step":366,"era":"RailEra","phase":"continuation","candidates":1},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"oracle-step","updated_seconds":150.99843937181868,"step":323,"era":"RailEra","phase":"payment","candidates":2},"57/family":{"stage":"published","updated_seconds":97.67982786893845}}}
+B02 progress: {"elapsed_seconds":161.05355545994826,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"oracle-compare","updated_seconds":161.0371477669105,"step":376,"era":"RailEra","phase":"payment","candidates":1},"2/parent":{"stage":"native-collection","updated_seconds":160.66145646688528,"step":387,"era":"RailEra","phase":"payment","candidates":1},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"oracle-step","updated_seconds":161.02731896890327,"step":347,"era":"RailEra","phase":"continuation","candidates":1},"57/family":{"stage":"published","updated_seconds":97.67982786893845}}}
+B02 progress: {"elapsed_seconds":171.08283134480007,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"native-collection","updated_seconds":164.37174747884274,"step":387,"era":"RailEra","phase":"continuation","candidates":1},"2/parent":{"stage":"target-validation","updated_seconds":165.10786941298284,"rows":389},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"target-validation","updated_seconds":166.4929807248991,"rows":355},"57/family":{"stage":"published","updated_seconds":97.67982786893845}}}
+Timeout (0:01:00)!
+Thread 0x00007c14127fc6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 90 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13adfff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13d4efe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13d56ff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/batching.py", line 47 in _snapshot_input
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/batching.py", line 50 in _snapshot_input
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/batching.py", line 46 in _snapshot_input
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/batching.py", line 50 in <genexpr>
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/batching.py", line 50 in _snapshot_input
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/batching.py", line 46 in _snapshot_input
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/batching.py", line 50 in <genexpr>
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/batching.py", line 50 in _snapshot_input
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/batching.py", line 46 in _snapshot_input
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/feature_engineering/context.py", line 77 in build
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/features.py", line 59 in append_derived
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/encoding.py", line 170 in encode
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/replay.py", line 88 in check_game
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 117 in compare_targets
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 218 in native
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 93 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c13f7fff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/queues.py", line 251 in _feed
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c1412ffd6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c14137fe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c1413fff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142cdfa6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/queue.py", line 171 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 46 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142d5fb6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 90 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142ddfc6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 18 in digest
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/encoding.py", line 107 in encode
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/replay.py", line 88 in check_game
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 117 in compare_targets
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 218 in native
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 93 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142e5fd6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 18 in digest
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inputs.py", line 89 in check
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/replay.py", line 86 in check_game
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 117 in compare_targets
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 218 in native
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 93 in _worker
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142f5fe6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/socket.py", line 295 in accept
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 626 in accept
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 480 in accept
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/resource_sharer.py", line 138 in _serve
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c142fdff6c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 355 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/queues.py", line 251 in _feed
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c14363d46c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/selectors.py", line 415 in select
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 1136 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 440 in _poll
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/connection.py", line 257 in poll
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/multiprocessing/queues.py", line 113 in get
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/inference.py", line 494 in _serve
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c1436fd56c0 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 359 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 655 in wait
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_smoke_progress.py", line 40 in _loop
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1012 in run
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1075 in _bootstrap_inner
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 1032 in _bootstrap
+
+Thread 0x00007c175e70f740 (most recent call first):
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 359 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/threading.py", line 655 in wait
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 305 in wait
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_families.py", line 235 in collect_families
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 242 in run
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 270 in main
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 277 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 198 in _run_module_as_main
+B02 progress: {"elapsed_seconds":181.1045803159941,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"target-validation","updated_seconds":171.46002802089788,"rows":388},"2/parent":{"stage":"target-validation","updated_seconds":165.10786941298284,"rows":389},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"target-validation","updated_seconds":166.4929807248991,"rows":355},"57/family":{"stage":"published","updated_seconds":97.67982786893845}}}
+B02 progress: {"elapsed_seconds":191.13372720498592,"lanes":{"collection":{"stage":"collect","updated_seconds":13.896613526856527,"workers":{"requested_cap":60,"training_cap":60,"cpu_capacity":60,"effective_cap":60,"lanes":4,"parents":3,"max_continuations":1}},"0/parent":{"stage":"complete","updated_seconds":187.4110461459495,"rows":388},"2/parent":{"stage":"complete","updated_seconds":187.39968115696684,"rows":389},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"complete","updated_seconds":187.40384560194798,"rows":355},"57/family":{"stage":"published","updated_seconds":97.67982786893845},"2/family":{"stage":"published","updated_seconds":189.39568025781773},"0/family":{"stage":"validate-publish","updated_seconds":189.39572111796588}}}
+B02 progress: {"elapsed_seconds":201.32097476394847,"lanes":{"collection":{"stage":"cached-retry","updated_seconds":193.0507547238376},"0/parent":{"stage":"complete","updated_seconds":187.4110461459495,"rows":388},"2/parent":{"stage":"complete","updated_seconds":187.39968115696684,"rows":389},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"complete","updated_seconds":187.40384560194798,"rows":355},"57/family":{"stage":"published","updated_seconds":97.67982786893845},"2/family":{"stage":"published","updated_seconds":189.39568025781773},"0/family":{"stage":"published","updated_seconds":193.04984662192874}}}
+B02 progress: {"elapsed_seconds":201.88115820288658,"lanes":{"collection":{"stage":"complete","updated_seconds":201.8635829638224},"0/parent":{"stage":"complete","updated_seconds":187.4110461459495,"rows":388},"2/parent":{"stage":"complete","updated_seconds":187.39968115696684,"rows":389},"57/reference":{"stage":"complete","updated_seconds":89.38567475182936,"rows":376},"0/child":{"stage":"complete","updated_seconds":187.40384560194798,"rows":355},"57/family":{"stage":"published","updated_seconds":97.67982786893845},"2/family":{"stage":"published","updated_seconds":189.39568025781773},"0/family":{"stage":"published","updated_seconds":193.04984662192874}}}
+{
+  "passed": true,
+  "scope": "bounded diagnostic subset of frozen ordinary jobs; native neural tables, whole-table reference legacy route; no training admission",
+  "frozen_jobs": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/frozen-jobs.json",
+    "bytes": 44614,
+    "sha256": "3dd09b0cbbb529dd73c7596735c9d1ff8004189c003dd03b1f8c5a8f57ce389f"
+  },
+  "families": [
+    {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/families/40d8212f0fc9c3debbeb9d8de590ef4a45f48e8c5e146e3655161b2b6c5da0bb.family.json.gz",
+      "bytes": 6857054,
+      "sha256": "f8561bbce3664e26aaa6571602a2c30ef7d33a9bb66bb70b17fe8c7eeca79d1f"
+    },
+    {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/families/322b17ed5b51fbdd407a5d4126a06d54723610d1fedac15b228e49b689158337.family.json.gz",
+      "bytes": 3534741,
+      "sha256": "40f242e332ecccab557eec1575ae9cabe2a416dd56e6ae0f7d6b4c92ac6e206e"
+    },
+    {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/families/fb9f6d4cad926412f6742ba6c0e472ed80b5d323ecfaa0d1d718f9d58cd6bf7d.family.json.gz",
+      "bytes": 3270274,
+      "sha256": "33a8574715955ed1c714e21554e395b6f94f94e8d3b9982f96333e93a6db50d2"
+    }
+  ],
+  "roots": [
+    {
+      "id": "game-731001-root-000",
+      "era": "CanalEra",
+      "phase": "action",
+      "seat": 3,
+      "candidates": 388
+    },
+    {
+      "id": "game-731001-root-001",
+      "era": "CanalEra",
+      "phase": "continuation",
+      "seat": 3,
+      "candidates": 1
+    },
+    {
+      "id": "game-731001-root-003",
+      "era": "CanalEra",
+      "phase": "payment",
+      "seat": 1,
+      "candidates": 1
+    },
+    {
+      "id": "game-731001-root-007",
+      "era": "CanalEra",
+      "phase": "payment",
+      "seat": 2,
+      "candidates": 1
+    },
+    {
+      "id": "game-731001-root-008",
+      "era": "CanalEra",
+      "phase": "debt",
+      "seat": 2,
+      "candidates": 3
+    },
+    {
+      "id": "game-731001-root-014",
+      "era": "RailEra",
+      "phase": "action",
+      "seat": 3,
+      "candidates": 48
+    },
+    {
+      "id": "game-731001-root-015",
+      "era": "RailEra",
+      "phase": "continuation",
+      "seat": 3,
+      "candidates": 1
+    },
+    {
+      "id": "game-731001-root-017",
+      "era": "RailEra",
+      "phase": "payment",
+      "seat": 1,
+      "candidates": 1
+    },
+    {
+      "id": "game-731001-root-021",
+      "era": "RailEra",
+      "phase": "payment",
+      "seat": 0,
+      "candidates": 1
+    },
+    {
+      "id": "game-731002-root-017",
+      "era": "RailEra",
+      "phase": "debt",
+      "seat": 2,
+      "candidates": 1
+    },
+    {
+      "id": "game-731003-root-004",
+      "era": "CanalEra",
+      "phase": "action",
+      "seat": 1,
+      "candidates": 413
+    },
+    {
+      "id": "game-731004-root-012",
+      "era": "CanalEra",
+      "phase": "bonus",
+      "seat": 1,
+      "candidates": 6
+    },
+    {
+      "id": "game-731007-root-027",
+      "era": "RailEra",
+      "phase": "bonus",
+      "seat": 1,
+      "candidates": 5
+    }
+  ],
+  "metrics": [
+    {
+      "job": 2,
+      "branch": false,
+      "rows": 389,
+      "targets": 389,
+      "timings": {
+        "bootstrap_seconds": 3.6049168556928635e-06,
+        "inference_envelope_seconds": 45.22315452876501,
+        "policy_seconds": 47.262951388722286,
+        "encoding_seconds": 2.7376632723025978,
+        "native_step_seconds": 11.069338997127488,
+        "drain_seconds": 3.1305557328741997,
+        "total_seconds": 151.0221647301223
+      },
+      "native_cost": {
+        "feature_seconds": 0.070188732,
+        "max_candidates": 408,
+        "peak_process_rss_bytes": 762580992,
+        "projection_seconds": 0.072780872,
+        "transition_seconds": 0.264415948
+      },
+      "buffer_bytes": 29229174
+    },
+    {
+      "job": 0,
+      "branch": true,
+      "rows": 355,
+      "targets": 354,
+      "timings": {
+        "policy_seconds": 46.26915404316969,
+        "encoding_seconds": 2.2799382326193154,
+        "native_step_seconds": 9.827510081464425,
+        "inference_envelope_seconds": 44.542583813890815,
+        "drain_seconds": 2.9368531911168247,
+        "total_seconds": 143.87111263000406
+      },
+      "native_cost": {
+        "feature_seconds": 0.06309868,
+        "max_candidates": 225,
+        "peak_process_rss_bytes": 712417280,
+        "projection_seconds": 0.063886612,
+        "transition_seconds": 0.247175816
+      },
+      "buffer_bytes": 27098940
+    },
+    {
+      "job": 0,
+      "branch": false,
+      "rows": 388,
+      "targets": 388,
+      "timings": {
+        "bootstrap_seconds": 3.564869984984398e-06,
+        "inference_envelope_seconds": 47.13270966336131,
+        "policy_seconds": 48.88965132483281,
+        "encoding_seconds": 2.5667865069117397,
+        "native_step_seconds": 10.938852101098746,
+        "drain_seconds": 6.4765892459545285,
+        "total_seconds": 157.36759395012632
+      },
+      "native_cost": {
+        "feature_seconds": 0.070341389,
+        "max_candidates": 383,
+        "peak_process_rss_bytes": 764030976,
+        "projection_seconds": 0.073758939,
+        "transition_seconds": 0.26913643
+      },
+      "buffer_bytes": 29267561
+    }
+  ],
+  "scheduler": {
+    "counts": {
+      "rust": 2,
+      "reference": 1,
+      "cached": 0
+    },
+    "reference_reasons": {
+      "57": "frozen legacy/IL rule adapter retained as a complete reference table"
+    },
+    "wall_seconds": 179.14791354117915,
+    "lanes": 4,
+    "peak_unfinished_families": 3,
+    "limit": 8
+  },
+  "cached": {
+    "counts": {
+      "rust": 0,
+      "reference": 0,
+      "cached": 3
+    },
+    "reference_reasons": {},
+    "wall_seconds": 8.80693511897698,
+    "lanes": 4,
+    "peak_unfinished_families": 0,
+    "limit": 8
+  },
+  "service": {
+    "batches": 517,
+    "positions": 583,
+    "model_cache_hits": 514,
+    "valid_candidate_cells": 46729,
+    "padded_candidate_cells": 50387,
+    "max_batch_positions": 3,
+    "max_padded_candidate_cells": 756,
+    "expired_requests": 0,
+    "cancelled_requests": 0,
+    "packed_output_batches": 517,
+    "shared_requests": 583,
+    "shared_replies": 583,
+    "inline_requests": 0,
+    "model_loads": 3,
+    "model_evictions": 0,
+    "timings": {
+      "inference.batch": {
+        "seconds": 102.15116223366931,
+        "calls": 517,
+        "mean_seconds": 0.19758445306319017,
+        "p50_seconds": 0.15075677214190364,
+        "p95_seconds": 0.4674155928660184,
+        "max_seconds": 1.5082720809150487,
+        "first_seconds": 1.0496511058881879,
+        "steady_mean_seconds": 0.195933161100351,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 517
+      },
+      "inference.forward": {
+        "seconds": 96.6481627332978,
+        "calls": 517,
+        "mean_seconds": 0.18694035344931875,
+        "p50_seconds": 0.1440523120108992,
+        "p95_seconds": 0.44662708416581154,
+        "max_seconds": 1.5060252600815147,
+        "first_seconds": 0.4591974150389433,
+        "steady_mean_seconds": 0.18641272348499777,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 517
+      },
+      "inference.model_load": {
+        "seconds": 1.4590380229055882,
+        "calls": 3,
+        "mean_seconds": 0.48634600763519603,
+        "p50_seconds": 0.4484931118786335,
+        "p95_seconds": 0.5889800828881562,
+        "max_seconds": 0.5889800828881562,
+        "first_seconds": 0.5889800828881562,
+        "steady_mean_seconds": 0.435028970008716,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 3
+      },
+      "inference.queue_wait": {
+        "seconds": 27.948625300079584,
+        "calls": 583,
+        "mean_seconds": 0.04793932298469911,
+        "p50_seconds": 0.022086858050897717,
+        "p95_seconds": 0.16091042011976242,
+        "max_seconds": 1.0546277018729597,
+        "first_seconds": 0.005586087005212903,
+        "steady_mean_seconds": 0.04801209486782538,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 583
+      }
+    },
+    "device": "cuda:0",
+    "learner_device": "cuda:0",
+    "inference_devices": [
+      "cuda:0"
+    ],
+    "replica_count": 1,
+    "central_batching": true,
+    "memory": {
+      "host_resident_bytes": null,
+      "cuda_allocated_bytes": 105208832,
+      "cuda_reserved_bytes": 115343360,
+      "cuda_peak_allocated_bytes": 108609024,
+      "cuda_peak_reserved_bytes": 115343360
+    },
+    "cpu_admission": {
+      "capacity": 60,
+      "active": 0,
+      "peak": 0,
+      "queued": 0,
+      "aborted": false
+    },
+    "batching": {
+      "contract": "streaming-model-batches/1.0.0",
+      "peak_pending_positions": 3,
+      "batches": 517,
+      "padding_splits": 2,
+      "capacity_splits": 0,
+      "max_padding_ratio": 2.0,
+      "scope": "One frozen model per batch; age/deadline fairness; no extra flush wait between model batches"
+    },
+    "batch_histogram": {
+      "1": 452,
+      "2": 64,
+      "3": 1
+    },
+    "per_model": {
+      "d803ef34cf25014e2dd20ee1ed98f120699c46eb379bb8498ce0bde3aa342424": {
+        "positions": 41,
+        "batches": 41,
+        "batch_histogram": {
+          "1": 41
+        },
+        "queue_wait_seconds": 2.407852740259841,
+        "queue_wait_max_seconds": 0.5951540791429579,
+        "queue_wait_histogram": {
+          "1024": 1,
+          "64": 11,
+          "32": 10,
+          "128": 5,
+          "16": 7,
+          "256": 3,
+          "8": 4
+        },
+        "forward_seconds": 8.680049893679097,
+        "valid_candidate_cells": 3560,
+        "padded_candidate_cells": 3560
+      },
+      "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91": {
+        "positions": 498,
+        "batches": 432,
+        "batch_histogram": {
+          "2": 64,
+          "1": 367,
+          "3": 1
+        },
+        "queue_wait_seconds": 27.40507795033045,
+        "queue_wait_max_seconds": 1.4765474239829928,
+        "queue_wait_histogram": {
+          "overflow": 2,
+          "256": 38,
+          "128": 78,
+          "8": 24,
+          "16": 74,
+          "32": 136,
+          "4": 19,
+          "2": 17,
+          "64": 103,
+          "512": 6,
+          "1024": 1
+        },
+        "forward_seconds": 79.5186577765271,
+        "valid_candidate_cells": 39322,
+        "padded_candidate_cells": 42980
+      },
+      "449b2e68e1377286d8db2dd8802a259c496aecde50b42c0687b2304ee985c7ac": {
+        "positions": 44,
+        "batches": 44,
+        "batch_histogram": {
+          "1": 44
+        },
+        "queue_wait_seconds": 3.305536587489769,
+        "queue_wait_max_seconds": 0.6330747029278427,
+        "queue_wait_histogram": {
+          "1024": 2,
+          "2": 2,
+          "256": 2,
+          "32": 6,
+          "64": 12,
+          "512": 1,
+          "16": 10,
+          "128": 6,
+          "4": 1,
+          "8": 2
+        },
+        "forward_seconds": 8.545664560515434,
+        "valid_candidate_cells": 3847,
+        "padded_candidate_cells": 3847
+      }
+    },
+    "resident_models": 3,
+    "registered_models": 24,
+    "timing_note": "Host elapsed time; CUDA forward kernel duration is in optional profiler traces",
+    "error": null
+  },
+  "branch_families": 1,
+  "workers": {
+    "requested_cap": 60,
+    "training_cap": 60,
+    "cpu_capacity": 60,
+    "effective_cap": 60,
+    "lanes": 4,
+    "parents": 3,
+    "max_continuations": 1
+  },
+  "missing_table_kinds": [],
+  "training_started": false,
+  "lab_deployed": false,
+  "full_native_coverage": false,
+  "method": "search_v1",
+  "search_enabled": false,
+  "v205_enabled": false,
+  "diagnostic_branch_trigger": "first eligible decision; alternative draws and fork semantics unchanged",
+  "branch_exit_qualified": true
+}

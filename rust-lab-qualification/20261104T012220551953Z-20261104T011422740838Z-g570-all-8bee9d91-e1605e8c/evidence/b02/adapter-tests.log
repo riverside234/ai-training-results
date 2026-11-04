@@ -1,0 +1,25 @@
+test_cancellation_skips_native_encoding (test_b02.Behavior.test_cancellation_skips_native_encoding) ... ok
+test_forced_probability_one_is_still_a_record (test_b02.Behavior.test_forced_probability_one_is_still_a_record) ... ok
+test_real_sampler_behavior_and_intermediate_counter_parity (test_b02.Behavior.test_real_sampler_behavior_and_intermediate_counter_parity) ... ok
+test_wrong_denominator_counter_model_policy_or_legal_id_is_rejected (test_b02.Behavior.test_wrong_denominator_counter_model_policy_or_legal_id_is_rejected) ... ok
+test_b01_pending_is_not_qualification (test_b02.Contract.test_b01_pending_is_not_qualification) ... ok
+test_branch_contract_is_frozen_and_supports_current_opening_revision (test_b02.Contract.test_branch_contract_is_frozen_and_supports_current_opening_revision) ... ok
+test_current_search_v1_b01_receipt_is_accepted_without_lab_work (test_b02.Contract.test_current_search_v1_b01_receipt_is_accepted_without_lab_work) ... ok
+test_missing_table_or_branch_coverage_cannot_pass (test_b02.Contract.test_missing_table_or_branch_coverage_cannot_pass) ... ok
+test_output_relocation_does_not_change_job_but_any_execution_input_does (test_b02.Contract.test_output_relocation_does_not_change_job_but_any_execution_input_does) ... ok
+test_reference_route_never_silently_substitutes_unsupported_seat (test_b02.Contract.test_reference_route_never_silently_substitutes_unsupported_seat) ... ok
+test_atomic_ack_retry_and_changed_duplicate_rejection (test_b02.Publication.test_atomic_ack_retry_and_changed_duplicate_rejection) ... ok
+test_canceled_or_failed_work_does_not_publish (test_b02.Publication.test_canceled_or_failed_work_does_not_publish) ... ok
+test_cancellation_after_worker_completion_still_prevents_publication (test_b02.Publication.test_cancellation_after_worker_completion_still_prevents_publication) ... ok
+test_child_can_finish_first_and_join_exactly_once (test_b02.Publication.test_child_can_finish_first_and_join_exactly_once) ... ok
+test_duplicate_jobs_and_fork_messages_rejected (test_b02.Publication.test_duplicate_jobs_and_fork_messages_rejected) ... ok
+test_incomplete_parent_cannot_publish (test_b02.Publication.test_incomplete_parent_cannot_publish) ... ok
+test_one_lane_schedules_child_without_waiting_parent_and_reuses_complete_family (test_b02.Publication.test_one_lane_schedules_child_without_waiting_parent_and_reuses_complete_family) ... ok
+test_parent_cannot_deny_a_submitted_branch_and_publish_alone (test_b02.Publication.test_parent_cannot_deny_a_submitted_branch_and_publish_alone) ... ok
+test_source_job_seal_or_training_admission_cannot_change (test_b02.Publication.test_source_job_seal_or_training_admission_cannot_change) ... ok
+test_stale_partial_file_is_never_a_complete_family (test_b02.Publication.test_stale_partial_file_is_never_a_complete_family) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.245s
+
+OK

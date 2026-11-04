@@ -1,0 +1,8 @@
+{
+  "device": "cuda:0",
+  "rows": 4,
+  "optimizer_steps": 1,
+  "loss": 0.276925265789032,
+  "passed": true,
+  "scope": "One authored teacher-policy CUDA step; no native games or real training data"
+}

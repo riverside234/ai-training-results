@@ -1,0 +1,41 @@
+{
+  "elapsed_seconds": 201.88115820288658,
+  "lanes": {
+    "collection": {
+      "stage": "complete",
+      "updated_seconds": 201.8635829638224
+    },
+    "0/parent": {
+      "stage": "complete",
+      "updated_seconds": 187.4110461459495,
+      "rows": 388
+    },
+    "2/parent": {
+      "stage": "complete",
+      "updated_seconds": 187.39968115696684,
+      "rows": 389
+    },
+    "57/reference": {
+      "stage": "complete",
+      "updated_seconds": 89.38567475182936,
+      "rows": 376
+    },
+    "0/child": {
+      "stage": "complete",
+      "updated_seconds": 187.40384560194798,
+      "rows": 355
+    },
+    "57/family": {
+      "stage": "published",
+      "updated_seconds": 97.67982786893845
+    },
+    "2/family": {
+      "stage": "published",
+      "updated_seconds": 189.39568025781773
+    },
+    "0/family": {
+      "stage": "published",
+      "updated_seconds": 193.04984662192874
+    }
+  }
+}

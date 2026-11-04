@@ -1,0 +1,195 @@
+{
+  "binary": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/target/x86_64-unknown-linux-gnu/release/brass-ai-worker",
+    "bytes": 4075784,
+    "sha256": "9942d9e141255ba2388fcc24da3a7ef5e9e251fab8409ec7c2323806573b30ca"
+  },
+  "handshake": {
+    "status": "hello",
+    "build": {
+      "version": "0.1.0",
+      "source_sha256": "fa0b3f7b74e9ed638c8b6f96d3f23b0910b4e5df9387ff8df58d5472a8014dd2",
+      "cargo_lock_sha256": "7c19af33efda268c5078ef771d47aa948739974415a45e76ee06aeeb946bf128",
+      "rustc": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+      "target": "x86_64-unknown-linux-gnu",
+      "profile": "release",
+      "opt_level": "3",
+      "debug": "false",
+      "rustflags": "",
+      "linker": "default",
+      "upstream_commit": "f8f0246718d6d3fb3f301742d4154811c90d5813"
+    },
+    "capabilities": [
+      "inference",
+      "features",
+      "simulation",
+      "diagnostic_new",
+      "diagnostic_snapshot",
+      "diagnostic_clone_check",
+      "state_import",
+      "state_export",
+      "state_save",
+      "state_restore",
+      "state_clone_check",
+      "rules_snapshot",
+      "rules_apply",
+      "rules_chance",
+      "observation_snapshot",
+      "belief_prepare",
+      "belief_sample"
+    ],
+    "sessions": 2,
+    "threads_per_session": 1,
+    "diagnostic_rules": "daiyu-upstream-diagnostic/0.1.0",
+    "target_rules": "steam-brass-patch-1.1.0",
+    "target_rules_qualified": true,
+    "state_format": "brass-native-state/1.0.0",
+    "max_frame_bytes": 1048576
+  },
+  "search_binary": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/target/x86_64-unknown-linux-gnu/release/gumbel-pair",
+    "bytes": 3867952,
+    "sha256": "1ebe949ad6bab1b80cfe5d862c34285af08f515d533700c66b01f6e04edfa559"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/data/not_backed_up/yxu209/ai-training/tests/RustBackendLab",
+        "-p",
+        "test_b01*.py",
+        "-v"
+      ],
+      "seconds": 1.4666875170078129,
+      "log": {
+        "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/adapter-tests.log",
+        "bytes": 4337,
+        "sha256": "7e681ebccd4124512666a8b9437861c6fc9cec87d897111b08d85ea80242bde9"
+      }
+    },
+    {
+      "argv": [
+        "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "test_inference_deadline_race",
+        "test_inference_failure_review",
+        "test_followup_inference_review",
+        "test_inference_performance"
+      ],
+      "seconds": 3.570959505159408,
+      "log": {
+        "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/existing-inference-tests.log",
+        "bytes": 5118,
+        "sha256": "454e80d0574ddbbd0636e5698a8df1d8098bd9248e19c16d6789817868e35166"
+      }
+    },
+    {
+      "argv": [
+        "cargo",
+        "+1.99.1",
+        "build",
+        "--release",
+        "-p",
+        "brass-ai-worker",
+        "--bin",
+        "brass-ai-worker",
+        "--bin",
+        "gumbel-pair",
+        "--manifest-path",
+        "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/checkout/native/Cargo.toml",
+        "--target",
+        "x86_64-unknown-linux-gnu",
+        "--target-dir",
+        "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/target",
+        "--locked"
+      ],
+      "seconds": 39.88495273189619,
+      "log": {
+        "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/build.log",
+        "bytes": 4364,
+        "sha256": "c50cc4ef2fafdf4cd17b747aa8df374e7029a939c797b717ea575648c73305dd"
+      }
+    },
+    {
+      "argv": [
+        "cargo",
+        "+1.99.1",
+        "test",
+        "--release",
+        "-p",
+        "brass-ai-core",
+        "--lib",
+        "--test",
+        "contracts",
+        "--test",
+        "state",
+        "--test",
+        "rules",
+        "--test",
+        "privacy",
+        "--test",
+        "simulation",
+        "--test",
+        "features",
+        "--test",
+        "search",
+        "--test",
+        "sessions",
+        "--test",
+        "cooperative",
+        "--manifest-path",
+        "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/checkout/native/Cargo.toml",
+        "--target",
+        "x86_64-unknown-linux-gnu",
+        "--target-dir",
+        "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/target",
+        "--locked",
+        "--",
+        "--test-threads=2",
+        "--skip",
+        "both_one_and_neither_owner_hit_without_sharing_counts_or_root_credit",
+        "--skip",
+        "reused_owner_rejects_changed_value_sampler_information_and_cancellation"
+      ],
+      "seconds": 83.35122994403355,
+      "log": {
+        "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/core-tests.log",
+        "bytes": 11341,
+        "sha256": "a410bc0e995d98fc80c57d88018f75eea480c6a0739d3bbdf27ae2a4d83f6624"
+      }
+    },
+    {
+      "argv": [
+        "cargo",
+        "+1.99.1",
+        "test",
+        "--release",
+        "-p",
+        "brass-ai-worker",
+        "--lib",
+        "--manifest-path",
+        "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/checkout/native/Cargo.toml",
+        "--target",
+        "x86_64-unknown-linux-gnu",
+        "--target-dir",
+        "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/target",
+        "--locked",
+        "--offline",
+        "--",
+        "--test-threads=2"
+      ],
+      "seconds": 12.787542616948485,
+      "log": {
+        "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/worker-tests.log",
+        "bytes": 3230,
+        "sha256": "8ac2f76626a5e0f34396a75eafd274b775f70fec43fe6647305e894a72f868a1"
+      }
+    }
+  ]
+}

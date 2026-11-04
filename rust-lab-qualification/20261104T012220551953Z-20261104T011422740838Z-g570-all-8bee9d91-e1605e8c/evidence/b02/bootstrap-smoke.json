@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "seed": 153,
+  "choices": 409,
+  "steps": 1,
+  "checkpoint_restored": true,
+  "scope": "Reference host startup and one reversible action; no full game or training"
+}

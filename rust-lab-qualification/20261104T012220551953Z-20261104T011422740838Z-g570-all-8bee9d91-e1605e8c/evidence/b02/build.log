@@ -1,0 +1,90 @@
+   Compiling version_check v0.9.5
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.27
+   Compiling quote v1.0.47
+   Compiling libc v0.2.191
+   Compiling typenum v1.20.1
+   Compiling zerocopy v0.8.63
+   Compiling cfg-if v1.0.5
+   Compiling hashbrown v0.17.1
+   Compiling equivalent v1.0.3
+   Compiling winnow v1.0.4
+   Compiling toml_datetime v1.1.2+spec-1.1.0
+   Compiling serde_core v1.0.228
+   Compiling cpufeatures v0.2.17
+   Compiling same-file v1.0.6
+   Compiling zmij v1.0.23
+   Compiling serde v1.0.228
+   Compiling serde_json v1.0.149
+   Compiling thiserror v2.0.21
+   Compiling once_cell v1.21.3
+   Compiling fixedbitset v0.5.7
+   Compiling itoa v1.0.18
+   Compiling memchr v2.8.3
+   Compiling walkdir v2.5.0
+   Compiling generic-array v0.14.7
+   Compiling slotmap v1.1.1
+   Compiling indexmap v2.14.2
+   Compiling syn v2.0.119
+   Compiling syn v3.0.9
+   Compiling toml_parser v1.1.5+spec-1.1.0
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.7
+   Compiling digest v0.10.7
+   Compiling getrandom v0.2.17
+   Compiling sha2 v0.10.9
+   Compiling rand_core v0.6.4
+   Compiling toml_edit v0.25.17+spec-1.1.0
+   Compiling brass-ai-core v0.1.0 (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/checkout/native/brass-ai-core)
+   Compiling proc-macro-crate v3.5.0
+   Compiling num_enum_derive v0.7.3
+   Compiling serde_derive v1.0.228
+   Compiling thiserror-impl v2.0.21
+   Compiling num_enum v0.7.3
+   Compiling ppv-lite86 v0.2.21
+   Compiling rand_chacha v0.3.1
+   Compiling rand v0.8.5
+   Compiling brass-upstream-rules v0.1.0 (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/checkout/native/vendor/brass-upstream-rules)
+warning: unused import: `crate::core::locations::LocationName`
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:356:9
+    |
+356 |     use crate::core::locations::LocationName;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_1`
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:357:9
+    |
+357 |     use crate::core::static_data::BEER_BREWERY_1;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_2`
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:358:9
+    |
+358 |     use crate::core::static_data::BEER_BREWERY_2;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `to_range` is never used
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/checkout/native/vendor/brass-upstream-rules/src/consts.rs:348:10
+    |
+348 | const fn to_range(bounds: (usize, usize)) -> Range<usize> {
+    |          ^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `NUM_NAMED_LOCATIONS` is never used
+  --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:49:7
+   |
+49 | const NUM_NAMED_LOCATIONS: usize = 27;
+   |       ^^^^^^^^^^^^^^^^^^^
+
+warning: function `enumerate_legal_actions_for_root` is never used
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/checkout/native/vendor/brass-upstream-rules/src/game/legal_actions.rs:139:15
+    |
+139 | pub(crate) fn enumerate_legal_actions_for_root(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `brass-upstream-rules` (lib) generated 6 warnings (run `cargo fix --lib -p brass-upstream-rules` to apply 3 suggestions)
+   Compiling brass-lab-collector v0.1.0 (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/checkout/lab-native)
+    Finished `release` profile [optimized] target(s) in 16.17s

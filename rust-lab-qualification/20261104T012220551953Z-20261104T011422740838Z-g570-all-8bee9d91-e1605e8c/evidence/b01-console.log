@@ -1,0 +1,62 @@
+Qualification: adapter-tests
+Qualification: existing-inference-tests
+Qualification: build
+Qualification: core-tests
+Qualification: worker-tests
+Qualification: gpu-smoke
+{
+  "contract": "brass-lab-b01/2.0.0",
+  "passed": true,
+  "milestone": "B01",
+  "method": "search_v1",
+  "v205_enabled": false,
+  "completed_utc": "2026-11-04T01:16:53.844228+00:00",
+  "profile": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/profile.json",
+    "bytes": 390,
+    "sha256": "e5939a935cf071c2477eaf1c7e347e01fb1c8d44d30e36a0157f03851849ceb8"
+  },
+  "local_entry": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/local-entry.json",
+    "bytes": 782,
+    "sha256": "9eda62dc700ef89110da77c21bf67af63498c30ec68361d867343625e86d5fa1"
+  },
+  "test_inputs": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/native-test-inputs.json",
+    "bytes": 5232,
+    "sha256": "b634712f1a35d8bcfdcf1cb5456d2638b6c377d85636e11b3ffce977582e225b"
+  },
+  "lab_state": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/lab-state.json",
+    "bytes": 1387486,
+    "sha256": "faf7919a4c681fbab4a4f19d86e5f3e202d1ba1c4939d6af9230314511f74ad0"
+  },
+  "python_sources": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/python-runtime-sources.json",
+    "bytes": 173322,
+    "sha256": "e020cd9a215494a841c69f6131c0265a25a3e7a19154d410410d4d1f0d08b3a3"
+  },
+  "linux_build": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/linux-build.json",
+    "bytes": 6474,
+    "sha256": "529b72c1408d559e4cd84a8c4b0ff6e5a15bc87538b571faf4ca64a141f432d2"
+  },
+  "gpu": [
+    {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/gpu-0.json",
+      "bytes": 7567,
+      "sha256": "4679899f6165e37481dff2d6abc0cebee333422380c7f07a351130c2bc384d37"
+    }
+  ],
+  "commands": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/commands.json",
+    "bytes": 5761,
+    "sha256": "9564a778a07f4c1a3ca283ed800040502a49391b5de77c915d34209abd8d030b"
+  },
+  "fixture_roots": 13,
+  "staged_transitions": 9,
+  "training_started": false,
+  "lab_deployed": false,
+  "teacher_admitted": false,
+  "next": "B02 ordinary collection; B04 whole-search/teacher integration is not certified by B01"
+}

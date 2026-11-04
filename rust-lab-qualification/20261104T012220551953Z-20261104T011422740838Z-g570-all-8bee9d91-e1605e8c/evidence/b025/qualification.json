@@ -1,0 +1,51 @@
+{
+  "contract": "brass-lab-b025/1.0.0",
+  "milestone": "B02.5",
+  "passed": true,
+  "platform": "Linux",
+  "method": "search_v1",
+  "v205_enabled": false,
+  "native_teacher_qualification": "Pending (B04)",
+  "b01_qualification": "Pending / not evaluated",
+  "b02_qualification": "Pending / not evaluated",
+  "scope": "T1 Python fixtures only; no full games, no iteration advance, no live teacher enablement",
+  "transfer": {
+    "manifest_sha256": "c1614ef8d691ca95707ec00b2c58aae479f885221ab88a8689029cccc319b947",
+    "implementation": "a7d39190382b768058f699ba94a8e870b7ca18eb54c636392fc2eeec6b8dc31b",
+    "producer": "bc2c07c397fdc979c9d4376189e723af86620e6361e3cd7052f3500cea3709cb",
+    "files": 1204,
+    "milestone": "b025",
+    "teacher_profile": "task-only",
+    "lab_qualification": "Pending"
+  },
+  "fixtures": {
+    "passed": true,
+    "log": "fixtures.log",
+    "sha256": "916175e57a5663aa23c7d47f93834a55285195c5f5fbd359cd7ebe561e713d7f",
+    "timeout_seconds": 180
+  },
+  "device": {
+    "device": "cuda:0",
+    "rows": 4,
+    "optimizer_steps": 1,
+    "loss": 0.276925265789032,
+    "passed": true,
+    "scope": "One authored teacher-policy CUDA step; no native games or real training data"
+  },
+  "run": {
+    "generation": 570,
+    "state_sha256": "57a3586f2fcfa9e0531acb1ecb5932dd9ac6df518499e0ecc6608e3333bef2ee",
+    "checkpoint": {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/generation-0570.pt",
+      "sha256": "06626c1fb7d0b91f64d939f9fbb3db7c5f3aa072331eb3d773f101e729117ab9",
+      "model_id": "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+      "generation": 570
+    },
+    "source_transition": true,
+    "proposed_mode": "off",
+    "optimizer_restored": true,
+    "run_modified": false,
+    "scope": "Read-only full model/Adam adoption check; PPG/auxiliary optimizer continuation remains B05"
+  },
+  "seconds": 18.14421103312634
+}

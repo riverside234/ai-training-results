@@ -1,0 +1,27 @@
+{
+  "contract": "brass-lab-b02/2.0.0",
+  "milestone": "B02",
+  "passed": true,
+  "b01": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b01/qualification.json",
+    "bytes": 2531,
+    "sha256": "4c86c17674187dbfd38bbd37ae64b79aeb07af0f6da3aac0e03afa48478ba1bb"
+  },
+  "method": "search_v1",
+  "v205_enabled": false,
+  "search_enabled": false,
+  "build": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/build.json",
+    "bytes": 219838,
+    "sha256": "e9940385ba19ed30f59e380c113e56f1801caf1a037d7f23a21a913f18febf43"
+  },
+  "smoke": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/collection-smoke.json",
+    "bytes": 12104,
+    "sha256": "0ea0c0769a25e1ad5889c7513edb7e0056ca5fbf90dda8ba662db2f638bebe6d"
+  },
+  "training_admitted": false,
+  "lab_deployed": false,
+  "qualification_scope": "bounded diagnostic subset of frozen ordinary jobs; native neural tables, whole-table reference legacy route; no training admission",
+  "next": "B03 strict producer/replay admission"
+}
