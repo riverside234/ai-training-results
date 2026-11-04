@@ -1,0 +1,78 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-04T01:43:13.276361+00:00",
+  "source": "artifacts/rust-backend/20261104T014145936407Z-g570-all-8a6142e0",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T014145936407Z-g570-all-8a6142e0",
+  "review_only": true,
+  "files": [
+    {
+      "source": "b03-console.log",
+      "path": "evidence/b03-console.log",
+      "source_bytes": 1232,
+      "source_sha256": "493b17cb75cc42759f6acaf0dd07a240d3955aa4b50dd5b70d0e28b76d88d570",
+      "bytes": 1232,
+      "sha256": "493b17cb75cc42759f6acaf0dd07a240d3955aa4b50dd5b70d0e28b76d88d570",
+      "gzip": false
+    },
+    {
+      "source": "runner.json",
+      "path": "evidence/runner.json",
+      "source_bytes": 4309,
+      "source_sha256": "edef3510e490a86f8cb9f9296a1531345993ccadde4e1abf697480053453b47e",
+      "bytes": 4309,
+      "sha256": "edef3510e490a86f8cb9f9296a1531345993ccadde4e1abf697480053453b47e",
+      "gzip": false
+    },
+    {
+      "source": "b03/continuation-preflight.json",
+      "path": "evidence/b03/continuation-preflight.json.gz",
+      "source_bytes": 1661955,
+      "source_sha256": "c1e09b71406eda258e49ceb0d7b441f5e0ab8c0f59e602575e1206f3725d64e4",
+      "bytes": 318680,
+      "sha256": "b269d345f84479a32c972abaefe6af28ab8e9ca33492b4a006524ab5c7605dad",
+      "gzip": true
+    },
+    {
+      "source": "b03/fixtures.log",
+      "path": "evidence/b03/fixtures.log",
+      "source_bytes": 4822,
+      "source_sha256": "426c08d6ac9cfd1a6eee4ce553ffa4cf9f3a99ee243fff0a528be4316ec47aea",
+      "bytes": 4822,
+      "sha256": "426c08d6ac9cfd1a6eee4ce553ffa4cf9f3a99ee243fff0a528be4316ec47aea",
+      "gzip": false
+    },
+    {
+      "source": "b03/lab-checks.log",
+      "path": "evidence/b03/lab-checks.log",
+      "source_bytes": 1473,
+      "source_sha256": "12a520fa233299adffad1041398f005051ddde00446a15f2b249b41e00e14904",
+      "bytes": 1473,
+      "sha256": "12a520fa233299adffad1041398f005051ddde00446a15f2b249b41e00e14904",
+      "gzip": false
+    },
+    {
+      "source": "b03/qualification.json",
+      "path": "evidence/b03/qualification.json",
+      "source_bytes": 1703,
+      "source_sha256": "bef50c0f3cf7383277ff8e56726e104d55bdf2c151f3689394db1bd15dd553b3",
+      "bytes": 1703,
+      "sha256": "bef50c0f3cf7383277ff8e56726e104d55bdf2c151f3689394db1bd15dd553b3",
+      "gzip": false
+    },
+    {
+      "source": "b03/continuation/diagnostic-fork.json",
+      "path": "evidence/b03/continuation/diagnostic-fork.json.gz",
+      "source_bytes": 1728163,
+      "source_sha256": "5ec44ee4edf6625a0a0cce3ac1471ad7e5b158e1a9e7bbe87cc6e2d3c17457b8",
+      "bytes": 319670,
+      "sha256": "fb7bf34ae0c4b3de786a5de6e847c260c5ba3431c67454237cc82ad46f6b482a",
+      "gzip": true
+    }
+  ],
+  "omitted": [
+    {
+      "source": "b03/continuation/payload",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}

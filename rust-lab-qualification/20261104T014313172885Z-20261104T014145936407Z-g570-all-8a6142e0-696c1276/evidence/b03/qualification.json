@@ -1,0 +1,38 @@
+{
+  "contract": "brass-lab-b03/1.0.0",
+  "milestone": "B03",
+  "passed": false,
+  "method": "search_v1",
+  "v205_enabled": false,
+  "lab_qualification": "Pending",
+  "scope": "Replay admission and full-state restoration; no games or training steps",
+  "transfer": {
+    "manifest_sha256": "5c2378eb3f3a644176782c58da7c586fac997e097d63799ee91aea9cebac0724",
+    "implementation": "8b9614d736c727d682e85753d1c851c3663461c733501eefac568624fca0dfe5",
+    "producer": "bc2c07c397fdc979c9d4376189e723af86620e6361e3cd7052f3500cea3709cb",
+    "files": 1229,
+    "milestone": "b03",
+    "teacher_profile": "task-only",
+    "lab_qualification": "Pending"
+  },
+  "prerequisite_reuse": {
+    "review": {
+      "path": "/data/not_backed_up/yxu209/ai-training/distribution/rust-lab-g570/prerequisite-reuse.json",
+      "bytes": 2684,
+      "sha256": "d31f3f750e0b7826c53e6b9dcfb0df209bcde7a88bd56b0cf5e973df5ad061b9"
+    },
+    "original_b02": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/qualification.json",
+      "bytes": 1194,
+      "sha256": "88e7136e4d935c63dee3f71c4b3cc49b9202356792bf36a96e4d71b6945122ec"
+    },
+    "from_implementation": "a7d39190382b768058f699ba94a8e870b7ca18eb54c636392fc2eeec6b8dc31b",
+    "to_implementation": "8b9614d736c727d682e85753d1c851c3663461c733501eefac568624fca0dfe5"
+  },
+  "fixtures": {
+    "passed": true,
+    "sha256": "426c08d6ac9cfd1a6eee4ce553ffa4cf9f3a99ee243fff0a528be4316ec47aea"
+  },
+  "error": "Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T014145936407Z-g570-all-8a6142e0/b03/lab-checks.log",
+  "seconds": 85.31375676696189
+}

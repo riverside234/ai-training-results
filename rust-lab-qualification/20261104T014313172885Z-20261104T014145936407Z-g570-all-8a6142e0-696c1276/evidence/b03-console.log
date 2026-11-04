@@ -1,0 +1,16 @@
+B03: bounded CPU fixtures
+B03: existing B02 replay and isolated full-state restoration
+Qualification: lab-checks
+/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T014145936407Z-g570-all-8a6142e0/b03/qualification.json
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b03.py", line 135, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b03.py", line 123, in main
+    report['command']=bounded.command(command,cwd=ROOT,env=child_env,log=out/'lab-checks.log',timeout=300)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 123, in command
+    require(code == 0, 'Qualification command failed; see ' + str(log))
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T014145936407Z-g570-all-8a6142e0/b03/lab-checks.log

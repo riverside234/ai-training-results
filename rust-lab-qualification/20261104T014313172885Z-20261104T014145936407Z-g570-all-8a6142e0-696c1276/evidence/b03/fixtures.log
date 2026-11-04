@@ -1,0 +1,39 @@
+test_diagnostic_branch_keeps_family_holdout_and_excludes_fork_move (test_b03.Admission.test_diagnostic_branch_keeps_family_holdout_and_excludes_fork_move) ... ok
+test_duplicate_shards_and_incomplete_family_are_rejected (test_b03.Admission.test_duplicate_shards_and_incomplete_family_are_rejected) ... ok
+test_native_cannot_be_relabelled_legacy_or_mutate_checked_rows (test_b03.Admission.test_native_cannot_be_relabelled_legacy_or_mutate_checked_rows) ... ok
+test_native_derived_cache_requires_receipt_and_rebuilds_after_source_change (test_b03.Admission.test_native_derived_cache_requires_receipt_and_rebuilds_after_source_change) ... ok
+test_native_reference_targets_features_and_head_metadata_match (test_b03.Admission.test_native_reference_targets_features_and_head_metadata_match) ... ok
+test_publication_receipt_retry_cache_rebuild_and_ingress (test_b03.Admission.test_publication_receipt_retry_cache_rebuild_and_ingress) ... self-play prepare (CPU, 1 readers): starting (1 shards)
+self-play prepare (CPU, 1 readers): 20% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 40% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 60% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 80% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 100% (1/1 shards; 0.0s)
+ok
+test_reference_table_retains_recorder_and_excludes_rule_bot_critic (test_b03.Admission.test_reference_table_retains_recorder_and_excludes_rule_bot_critic) ... ok
+test_stale_foreign_teacher_and_method_tampering_rejected (test_b03.Admission.test_stale_foreign_teacher_and_method_tampering_rejected) ... ok
+test_teacher_rows_keep_their_separate_contract (test_b03.Admission.test_teacher_rows_keep_their_separate_contract) ... ok
+test_committed_cache_missing_tampered_and_unknown_files (test_b03.Continuation.test_committed_cache_missing_tampered_and_unknown_files) ... ok
+test_expected_generation_hash_foreign_source_and_partial_work_rejected (test_b03.Continuation.test_expected_generation_hash_foreign_source_and_partial_work_rejected) ... ok
+test_full_restore_preserves_model_all_adams_rng_cache_and_recipe (test_b03.Continuation.test_full_restore_preserves_model_all_adams_rng_cache_and_recipe) ... ok
+test_plain_copy_cannot_resume_and_mapped_copy_cannot_train_implicitly (test_b03.Continuation.test_plain_copy_cannot_resume_and_mapped_copy_cannot_train_implicitly) ... ok
+test_probe_inventory_excludes_preparation_scratch_and_requires_sources (test_b03.Continuation.test_probe_inventory_excludes_preparation_scratch_and_requires_sources) ... ok
+test_production_source_commit_crash_chain_is_reviewed (test_b03.Continuation.test_production_source_commit_crash_chain_is_reviewed) ... Reviewed same-run continuation: generation 1, 320 games; checkpoint, Adam/RNG, population and schedule counters preserved
+ok
+test_reference_and_native_critic_ages_coexist_without_relabelling (test_b03.Continuation.test_reference_and_native_critic_ages_coexist_without_relabelling) ... ok
+test_completed_il_is_separate_and_rejects_incomplete_or_foreign_checkpoint (test_b03.FreshIL.test_completed_il_is_separate_and_rejects_incomplete_or_foreign_checkpoint) ... ok
+test_entry_rejects_pending_stale_and_unsealed_b02_evidence (test_b03.Qualification.test_entry_rejects_pending_stale_and_unsealed_b02_evidence) ... ok
+test_sealed_family_smoke_reuses_all_three_tables_and_branch (test_b03.Qualification.test_sealed_family_smoke_reuses_all_three_tables_and_branch) ... ok
+test_cross_device_comparison_moves_only_detached_copies (test_b03_cuda_restore.Payload.test_cross_device_comparison_moves_only_detached_copies) ... ok
+test_exact_values_structure_dtype_and_shape_are_required (test_b03_cuda_restore.Payload.test_exact_values_structure_dtype_and_shape_are_required) ... ok
+test_real_cuda_adam_moments_match_cpu_checkpoint_without_mutation (test_b03_cuda_restore.Payload.test_real_cuda_adam_moments_match_cpu_checkpoint_without_mutation) ... skipped 'Actual CUDA restoration runs on the lab'
+test_b02_requires_the_original_pinned_receipt_and_source (test_b03_cuda_restore.Reuse.test_b02_requires_the_original_pinned_receipt_and_source) ... ok
+test_exact_review_preserves_every_other_executable_input (test_b03_cuda_restore.Reuse.test_exact_review_preserves_every_other_executable_input) ... ok
+test_read_review_requires_manifest_seal_and_current_implementation (test_b03_cuda_restore.Reuse.test_read_review_requires_manifest_seal_and_current_implementation) ... ok
+test_resume_at_b03_runs_only_remaining_stages (test_b03_cuda_restore.Reuse.test_resume_at_b03_runs_only_remaining_stages) ... ok
+test_wrong_before_after_and_expanded_review_are_rejected (test_b03_cuda_restore.Reuse.test_wrong_before_after_and_expanded_review_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 26.336s
+
+OK (skipped=1)
