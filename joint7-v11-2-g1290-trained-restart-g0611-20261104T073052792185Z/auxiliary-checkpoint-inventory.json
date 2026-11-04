@@ -1,0 +1,380 @@
+{
+  "contract": "saved-auxiliary-head-inventory/1.0.0",
+  "generation": 570,
+  "recovered": 1,
+  "entries": {
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b.pt": {
+      "generation": 0,
+      "model_id": "94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-88b6e1218621a8a3d87265d2625dde68c58ecda955a83032ee75bff7035d7052.pt": {
+      "generation": -341,
+      "model_id": "88b6e1218621a8a3d87265d2625dde68c58ecda955a83032ee75bff7035d7052",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c7f02dd155d75dc8ae560697cda6d33d8488ea75a91154877ffcc56157da992c.pt": {
+      "generation": -81,
+      "model_id": "c7f02dd155d75dc8ae560697cda6d33d8488ea75a91154877ffcc56157da992c",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e85ba41819c4550d5c27ca60ba5f52d8fd4ea127574b63478e953487dd559521.pt": {
+      "generation": -1,
+      "model_id": "e85ba41819c4550d5c27ca60ba5f52d8fd4ea127574b63478e953487dd559521",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-395b32f16e87591cd2c884ca44e7dc6d90e0fd1778d90c4444a407b1fc3cd4e8.pt": {
+      "generation": 120,
+      "model_id": "395b32f16e87591cd2c884ca44e7dc6d90e0fd1778d90c4444a407b1fc3cd4e8",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-d9687059bb647239522d8c9ecc63d7c93be16296633f3c20305b53450c9e81b2.pt": {
+      "generation": 170,
+      "model_id": "d9687059bb647239522d8c9ecc63d7c93be16296633f3c20305b53450c9e81b2",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-262d82cc91046d07895e93ae7aa658a9816bcae142e7f1ccf306c1eedca5b4cf.pt": {
+      "generation": 260,
+      "model_id": "262d82cc91046d07895e93ae7aa658a9816bcae142e7f1ccf306c1eedca5b4cf",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-8b86771465ecda2774ad2ac0b1fd3d19c386f57b43fd14c7243dee010b63068d.pt": {
+      "generation": 310,
+      "model_id": "8b86771465ecda2774ad2ac0b1fd3d19c386f57b43fd14c7243dee010b63068d",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-91af0514bf90a5ca8831cf9fa8cc83a4ddaccc3558779e24ff129e97ce2b0921.pt": {
+      "generation": 330,
+      "model_id": "91af0514bf90a5ca8831cf9fa8cc83a4ddaccc3558779e24ff129e97ce2b0921",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-b5c8d3704fcd2b44767862cec90108817fb51ce29700de80ef4496bf7e09ddeb.pt": {
+      "generation": 340,
+      "model_id": "b5c8d3704fcd2b44767862cec90108817fb51ce29700de80ef4496bf7e09ddeb",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-833abba62b4a35fb55057f9b62baa7e2a6184f91d6f30d78b0e3cc97bd9c05ce.pt": {
+      "generation": 350,
+      "model_id": "833abba62b4a35fb55057f9b62baa7e2a6184f91d6f30d78b0e3cc97bd9c05ce",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-0b8a138a2cb3a73bce0633c2080d4c87c1ba66d15a58889b0df0b10b2376895f.pt": {
+      "generation": 370,
+      "model_id": "0b8a138a2cb3a73bce0633c2080d4c87c1ba66d15a58889b0df0b10b2376895f",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-449b2e68e1377286d8db2dd8802a259c496aecde50b42c0687b2304ee985c7ac.pt": {
+      "generation": 390,
+      "model_id": "449b2e68e1377286d8db2dd8802a259c496aecde50b42c0687b2304ee985c7ac",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2b7390235ad2528706101daa64bc2aada1f16da7e7341a427b2df0127dd452c7.pt": {
+      "generation": 420,
+      "model_id": "2b7390235ad2528706101daa64bc2aada1f16da7e7341a427b2df0127dd452c7",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-1b5a7a06335f76440030be251a610c36ddd8e1f1ea9361503426ee8efb82447d.pt": {
+      "generation": 440,
+      "model_id": "1b5a7a06335f76440030be251a610c36ddd8e1f1ea9361503426ee8efb82447d",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-655a8f81d51737523f9a496d08201dbe095987d9743517a83716965aa2685d7e.pt": {
+      "generation": 470,
+      "model_id": "655a8f81d51737523f9a496d08201dbe095987d9743517a83716965aa2685d7e",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-a7990809337383316c5ffbc49af72af3e6cba098cc7098bf0eb2af951141d63a.pt": {
+      "generation": 480,
+      "model_id": "a7990809337383316c5ffbc49af72af3e6cba098cc7098bf0eb2af951141d63a",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-d803ef34cf25014e2dd20ee1ed98f120699c46eb379bb8498ce0bde3aa342424.pt": {
+      "generation": 500,
+      "model_id": "d803ef34cf25014e2dd20ee1ed98f120699c46eb379bb8498ce0bde3aa342424",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-a145f9248a44d3e0395067a7b5f2a6ec56d3b32b34f3d958829c0b060ebecc45.pt": {
+      "generation": 510,
+      "model_id": "a145f9248a44d3e0395067a7b5f2a6ec56d3b32b34f3d958829c0b060ebecc45",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-4cc42f18fcd8bbde9e74ee628b42a7ca323ac3288d57ee7dfa1a812c29ac65e0.pt": {
+      "generation": 530,
+      "model_id": "4cc42f18fcd8bbde9e74ee628b42a7ca323ac3288d57ee7dfa1a812c29ac65e0",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-43ad5fb1da97c2dc0a38738be57e51308a0ec7a0e931d973ed83391cac47e2de.pt": {
+      "generation": 540,
+      "model_id": "43ad5fb1da97c2dc0a38738be57e51308a0ec7a0e931d973ed83391cac47e2de",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-3daa96e43833427ba1edb659ea711582071bea61ee25c32f727ea13ad39dabff.pt": {
+      "generation": 550,
+      "model_id": "3daa96e43833427ba1edb659ea711582071bea61ee25c32f727ea13ad39dabff",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-629b352fb6d12ff74c06dd2167e70a7d7e55ba86d269c474dfa7d4abd7b28291.pt": {
+      "generation": 560,
+      "model_id": "629b352fb6d12ff74c06dd2167e70a7d7e55ba86d269c474dfa7d4abd7b28291",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91-aux-aef3a6e614f1603e.pt": {
+      "generation": 570,
+      "model_id": "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "aef3a6e614f1603eb5072f4acf7a777df7a914ad1f4d31b417c8b7270357abf7",
+        "generation": 570,
+        "model_id": "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e7e56f396f951fb3cb9e77ccec095fd409676d0b94705f5ce5525edab5ed0c9a.pt": {
+      "generation": 10,
+      "model_id": "e7e56f396f951fb3cb9e77ccec095fd409676d0b94705f5ce5525edab5ed0c9a",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-7c07413adf55cb25c26e09799bf0565c47ad0e90f5dcc2a766f85f7b41a9110b.pt": {
+      "generation": 20,
+      "model_id": "7c07413adf55cb25c26e09799bf0565c47ad0e90f5dcc2a766f85f7b41a9110b",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2ed4cbbc9f0c3ce1d255df5e3afc147040e8099af6d56ee41041bb81b8968122.pt": {
+      "generation": 30,
+      "model_id": "2ed4cbbc9f0c3ce1d255df5e3afc147040e8099af6d56ee41041bb81b8968122",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c11be1a713a2901f42f121786e87afcdb4cc8f71ecb68dc8be61781278899813.pt": {
+      "generation": 40,
+      "model_id": "c11be1a713a2901f42f121786e87afcdb4cc8f71ecb68dc8be61781278899813",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-21424fecbee4773f4f867b19f9a0e8e316e3e6c304feaca201eeb024eb7d02ec.pt": {
+      "generation": 50,
+      "model_id": "21424fecbee4773f4f867b19f9a0e8e316e3e6c304feaca201eeb024eb7d02ec",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-9bb47c9986f0c79f9830249ebdf51bcf811c137c6dcdad4ac64ea480ef2562aa.pt": {
+      "generation": 60,
+      "model_id": "9bb47c9986f0c79f9830249ebdf51bcf811c137c6dcdad4ac64ea480ef2562aa",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-0864fe838bcd686f4fbd6b21745ed5f55643dba09f484074b2b9ff91b38a3896.pt": {
+      "generation": 70,
+      "model_id": "0864fe838bcd686f4fbd6b21745ed5f55643dba09f484074b2b9ff91b38a3896",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-21f5d65b8300bfac0e32e9a90e20c1523eb93b4d1d54b5fa5b9ee58ffe727bf5.pt": {
+      "generation": 80,
+      "model_id": "21f5d65b8300bfac0e32e9a90e20c1523eb93b4d1d54b5fa5b9ee58ffe727bf5",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-cb1e934c5b238150fd8523ab561cfb36bf2b5cee860d1f5144b14af4891f88fe.pt": {
+      "generation": 90,
+      "model_id": "cb1e934c5b238150fd8523ab561cfb36bf2b5cee860d1f5144b14af4891f88fe",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c9829f498cbdc5e4d1d0cd75fe69b8cdff1739c26f501983aa39927feb515b11.pt": {
+      "generation": 100,
+      "model_id": "c9829f498cbdc5e4d1d0cd75fe69b8cdff1739c26f501983aa39927feb515b11",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-660be9b6f19e78dc64e57349f58825e8918e551150cd01134981c57a4ce9f1b0.pt": {
+      "generation": 110,
+      "model_id": "660be9b6f19e78dc64e57349f58825e8918e551150cd01134981c57a4ce9f1b0",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-481141b8a33f20fa6c009f5ad6f673285895d60eab562c088cd0f7b12dec2ab4.pt": {
+      "generation": 130,
+      "model_id": "481141b8a33f20fa6c009f5ad6f673285895d60eab562c088cd0f7b12dec2ab4",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-8400ded811de32f7668e726a2feceda949825b93ff4364013d475d64f43e052f.pt": {
+      "generation": 140,
+      "model_id": "8400ded811de32f7668e726a2feceda949825b93ff4364013d475d64f43e052f",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2cfed9e0a6a396cdcf04ed08908f58ab9b1e6f678ae5ab7d18e3fb3c35ab2b72.pt": {
+      "generation": 150,
+      "model_id": "2cfed9e0a6a396cdcf04ed08908f58ab9b1e6f678ae5ab7d18e3fb3c35ab2b72",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-21e1e8a77b9384c3daedaef12ef7d1f421c5384308020079c3e597119d7b128c.pt": {
+      "generation": 160,
+      "model_id": "21e1e8a77b9384c3daedaef12ef7d1f421c5384308020079c3e597119d7b128c",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-439475358bbefb75b7a6fa6781695184e913252effafaa0130dea8c556ca5771.pt": {
+      "generation": 180,
+      "model_id": "439475358bbefb75b7a6fa6781695184e913252effafaa0130dea8c556ca5771",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e0c886c0aff237f8e2fca1b680c13c4c23ac9e2928ad5fee750e8e0416e2932e.pt": {
+      "generation": 190,
+      "model_id": "e0c886c0aff237f8e2fca1b680c13c4c23ac9e2928ad5fee750e8e0416e2932e",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-60bcc4fddef1642b1da06d4e57e7f12d1b88a52920f14aa4ef5835fe2d1c1c99.pt": {
+      "generation": 200,
+      "model_id": "60bcc4fddef1642b1da06d4e57e7f12d1b88a52920f14aa4ef5835fe2d1c1c99",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-654ac56dd6e3e22731b2305f580657ae00d684f3c5fa5c18f2c0b9dea6cbdb85.pt": {
+      "generation": 210,
+      "model_id": "654ac56dd6e3e22731b2305f580657ae00d684f3c5fa5c18f2c0b9dea6cbdb85",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-7d0bde6feafe6db4bd0a4b15bd4558fe1589a79c949914b9c8791dfee1428532.pt": {
+      "generation": 220,
+      "model_id": "7d0bde6feafe6db4bd0a4b15bd4558fe1589a79c949914b9c8791dfee1428532",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-bae5538d3f82af7cd6a458ecde43c50816f4698d42b1d494294f83d3e0b30710.pt": {
+      "generation": 230,
+      "model_id": "bae5538d3f82af7cd6a458ecde43c50816f4698d42b1d494294f83d3e0b30710",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-19f05b293fa215e12e5890969e84c6717c738eeef3e75285d88998983f2741cf.pt": {
+      "generation": 240,
+      "model_id": "19f05b293fa215e12e5890969e84c6717c738eeef3e75285d88998983f2741cf",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-77828c5f2b08740b56099d064882ad7a6f68ed08c47d74bfa3565a81a3128164.pt": {
+      "generation": 250,
+      "model_id": "77828c5f2b08740b56099d064882ad7a6f68ed08c47d74bfa3565a81a3128164",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-aed3ffee72ea295e3b08a41e46171b7ce721c57b2432ecce126d51224a824672.pt": {
+      "generation": 270,
+      "model_id": "aed3ffee72ea295e3b08a41e46171b7ce721c57b2432ecce126d51224a824672",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-3323a6ac1ebc537c87f1ee11d64594ce7c917db6ca329112ee1f2bb0d0f93e76.pt": {
+      "generation": 280,
+      "model_id": "3323a6ac1ebc537c87f1ee11d64594ce7c917db6ca329112ee1f2bb0d0f93e76",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-275121ab10b553c4810e9e6b80580383fc1ef86f182668486774a5e0935802f3.pt": {
+      "generation": 290,
+      "model_id": "275121ab10b553c4810e9e6b80580383fc1ef86f182668486774a5e0935802f3",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-abc32dab6a2b5d748a75f58ff6145250a2e57f7f177a64ee1417dddb1659233e.pt": {
+      "generation": 300,
+      "model_id": "abc32dab6a2b5d748a75f58ff6145250a2e57f7f177a64ee1417dddb1659233e",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-97cd76e9fde4fa5747ed71de1b7a8afe41a2442e35fa2639c263d21a5713562c.pt": {
+      "generation": 320,
+      "model_id": "97cd76e9fde4fa5747ed71de1b7a8afe41a2442e35fa2639c263d21a5713562c",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-387adf122782ba413e839d648377be2e126f8dad06fc91506695fea7905fb391.pt": {
+      "generation": 360,
+      "model_id": "387adf122782ba413e839d648377be2e126f8dad06fc91506695fea7905fb391",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-5a3c28a995a73c9088c7c9464bfbee2ccc4320da2b090cdeecb843a1cd56fa59.pt": {
+      "generation": 380,
+      "model_id": "5a3c28a995a73c9088c7c9464bfbee2ccc4320da2b090cdeecb843a1cd56fa59",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-757b25886c17316e74886bfec2fd474fc5fca429efdf13b5214bbfab14bbd05c.pt": {
+      "generation": 400,
+      "model_id": "757b25886c17316e74886bfec2fd474fc5fca429efdf13b5214bbfab14bbd05c",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-d7c7f6cdc16e5ba38baffb43e571c199424e6af526fc3b5079236e80df5eccba.pt": {
+      "generation": 410,
+      "model_id": "d7c7f6cdc16e5ba38baffb43e571c199424e6af526fc3b5079236e80df5eccba",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-ffd4d5ac937a3c7e111dce39c64f237f6a49a5f7262b721fdfe62bc753179a0f.pt": {
+      "generation": 430,
+      "model_id": "ffd4d5ac937a3c7e111dce39c64f237f6a49a5f7262b721fdfe62bc753179a0f",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-9d942e19149a7ebd6ed84c66c19bc2b6e273075e072b5d60a05f8af7557b3da1.pt": {
+      "generation": 450,
+      "model_id": "9d942e19149a7ebd6ed84c66c19bc2b6e273075e072b5d60a05f8af7557b3da1",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-52d35cacd9fc0c16a0fda1657b120d0da183ea9273c59155fda8182298026188.pt": {
+      "generation": 460,
+      "model_id": "52d35cacd9fc0c16a0fda1657b120d0da183ea9273c59155fda8182298026188",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c06619615f4c8d16f05fbaf39b899550647f5e257e96730729ddd19e9b49fad9.pt": {
+      "generation": 490,
+      "model_id": "c06619615f4c8d16f05fbaf39b899550647f5e257e96730729ddd19e9b49fad9",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-f5fba71ada957618819980e1c3500a2be766297290245589f28e83bac7fbc39e.pt": {
+      "generation": 520,
+      "model_id": "f5fba71ada957618819980e1c3500a2be766297290245589f28e83bac7fbc39e",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    }
+  },
+  "scope": "All main state_dict heads retained. Exact companion bundles recovered only from available matching full generations; no fabricated historical weights. Old files remain immutable."
+}
