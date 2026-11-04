@@ -1,0 +1,1732 @@
+{
+  "contract": "teacher-phase/1.1.0",
+  "mode": "shadow",
+  "ready": true,
+  "collection": {
+    "tables": {
+      "train": 1,
+      "heldout": 1
+    },
+    "labels": 60,
+    "reserved_turns_by_phase": {
+      "canal_early": 8,
+      "canal_late": 8,
+      "rail_early": 8,
+      "rail_late": 8
+    },
+    "labels_by_kind": {
+      "root": 32,
+      "continuation": 27,
+      "replanned_root": 1
+    },
+    "labels_by_phase": {
+      "canal_early": 12,
+      "canal_late": 16,
+      "rail_early": 16,
+      "rail_late": 16
+    },
+    "discarded": {
+      "no_evidence": 0,
+      "forced": 0,
+      "cancelled": 0
+    },
+    "completed_trajectories": {
+      "median": 46.0,
+      "p10": 46.0,
+      "p90": 47.0
+    },
+    "effective_k": {
+      "8": 59,
+      "16": 1
+    },
+    "completed_rounds": {
+      "median": 3.0,
+      "p10": 3.0,
+      "p90": 3.0
+    },
+    "deadline_hit_fraction": 0.0,
+    "overrun_seconds": {
+      "median": 0.0,
+      "p10": 0.0,
+      "p90": 0.0
+    },
+    "max_overrun_seconds": 0.0,
+    "fallback_played_fraction": 0.0,
+    "collection_metrics": [
+      {
+        "decisions": 385,
+        "elapsed_ns": 30293865863,
+        "encoding_ns": 210678300,
+        "gpu_wait_ns": 24573732855,
+        "input_bytes": 118903441,
+        "labels": 29,
+        "no_evidence": 0,
+        "requests": 895,
+        "reserved_turns": 16,
+        "searches": [
+          {
+            "budget": {
+              "deadline_ns": 5000319573,
+              "reserve_ns": 1000000000,
+              "started_ns": 319573,
+              "work_deadline_ns": 4000319573
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1198792533,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_early",
+            "provenance": "search_supported",
+            "revision": 0,
+            "rounds": 3,
+            "seat": 0
+          },
+          {
+            "budget": {
+              "deadline_ns": 6289494151,
+              "reserve_ns": 1000000000,
+              "started_ns": 1289494151,
+              "work_deadline_ns": 5289494151
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1318311679,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_early",
+            "provenance": "search_supported",
+            "revision": 2,
+            "rounds": 3,
+            "seat": 1
+          },
+          {
+            "budget": {
+              "deadline_ns": 7709148697,
+              "reserve_ns": 1000000000,
+              "started_ns": 2709148697,
+              "work_deadline_ns": 6709148697
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1355519521,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_early",
+            "provenance": "search_supported",
+            "revision": 4,
+            "rounds": 3,
+            "seat": 3
+          },
+          {
+            "budget": {
+              "deadline_ns": 9531601249,
+              "reserve_ns": 1000000000,
+              "started_ns": 4531601249,
+              "work_deadline_ns": 8531601249
+            },
+            "completed": 47,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1521306861,
+            "frozen_n": 47,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_early",
+            "provenance": "search_supported",
+            "revision": 31,
+            "rounds": 3,
+            "seat": 2
+          },
+          {
+            "budget": {
+              "deadline_ns": 11960691307,
+              "reserve_ns": 1000000000,
+              "started_ns": 6960691307,
+              "work_deadline_ns": 10960691307
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1313459277,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_late",
+            "provenance": "search_supported",
+            "revision": 88,
+            "rounds": 3,
+            "seat": 0
+          },
+          {
+            "budget": {
+              "deadline_ns": 13492806416,
+              "reserve_ns": 1000000000,
+              "started_ns": 8492806416,
+              "work_deadline_ns": 12492806416
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1338587401,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_late",
+            "provenance": "search_supported",
+            "revision": 99,
+            "rounds": 3,
+            "seat": 2
+          },
+          {
+            "budget": {
+              "deadline_ns": 15075660939,
+              "reserve_ns": 1000000000,
+              "started_ns": 10075660939,
+              "work_deadline_ns": 14075660939
+            },
+            "completed": 47,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1678020439,
+            "frozen_n": 47,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_late",
+            "provenance": "search_supported",
+            "revision": 113,
+            "rounds": 3,
+            "seat": 3
+          },
+          {
+            "budget": {
+              "deadline_ns": 17025367771,
+              "reserve_ns": 1000000000,
+              "started_ns": 12025367771,
+              "work_deadline_ns": 16025367771
+            },
+            "completed": 47,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1698721269,
+            "frozen_n": 47,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_late",
+            "provenance": "search_supported",
+            "revision": 134,
+            "rounds": 3,
+            "seat": 1
+          },
+          {
+            "budget": {
+              "deadline_ns": 19663426892,
+              "reserve_ns": 1000000000,
+              "started_ns": 14663426892,
+              "work_deadline_ns": 18663426892
+            },
+            "completed": 47,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1420341512,
+            "frozen_n": 47,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_early",
+            "provenance": "search_supported",
+            "revision": 200,
+            "rounds": 3,
+            "seat": 2
+          },
+          {
+            "budget": {
+              "deadline_ns": 21763401994,
+              "reserve_ns": 1000000000,
+              "started_ns": 16763401994,
+              "work_deadline_ns": 20763401994
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1781873327,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_early",
+            "provenance": "search_supported",
+            "revision": 247,
+            "rounds": 3,
+            "seat": 1
+          },
+          {
+            "budget": {
+              "deadline_ns": 23671463165,
+              "reserve_ns": 1000000000,
+              "started_ns": 18671463165,
+              "work_deadline_ns": 22671463165
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1636382569,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_early",
+            "provenance": "search_supported",
+            "revision": 253,
+            "rounds": 3,
+            "seat": 0
+          },
+          {
+            "budget": {
+              "deadline_ns": 26065501538,
+              "reserve_ns": 1000000000,
+              "started_ns": 21065501538,
+              "work_deadline_ns": 25065501538
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1534372885,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_early",
+            "provenance": "search_supported",
+            "revision": 312,
+            "rounds": 3,
+            "seat": 3
+          },
+          {
+            "budget": {
+              "deadline_ns": 27885033503,
+              "reserve_ns": 1000000000,
+              "started_ns": 22885033503,
+              "work_deadline_ns": 26885033503
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1803990481,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_late",
+            "provenance": "search_supported",
+            "revision": 336,
+            "rounds": 3,
+            "seat": 1
+          },
+          {
+            "budget": {
+              "deadline_ns": 29816124107,
+              "reserve_ns": 1000000000,
+              "started_ns": 24816124107,
+              "work_deadline_ns": 28816124107
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1804510159,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_late",
+            "provenance": "search_supported",
+            "revision": 342,
+            "rounds": 3,
+            "seat": 2
+          },
+          {
+            "budget": {
+              "deadline_ns": 31838859992,
+              "reserve_ns": 1000000000,
+              "started_ns": 26838859992,
+              "work_deadline_ns": 30838859992
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1524326996,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_late",
+            "provenance": "search_supported",
+            "revision": 355,
+            "rounds": 3,
+            "seat": 3
+          },
+          {
+            "budget": {
+              "deadline_ns": 33478720022,
+              "reserve_ns": 1000000000,
+              "started_ns": 28478720022,
+              "work_deadline_ns": 32478720022
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1485093109,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_late",
+            "provenance": "search_supported",
+            "revision": 360,
+            "rounds": 3,
+            "seat": 0
+          }
+        ],
+        "turns": [
+          {
+            "budget": {
+              "deadline_ns": 5000319573,
+              "reserve_ns": 1000000000,
+              "started_ns": 319573,
+              "work_deadline_ns": 4000319573
+            },
+            "commit_ns": 1082120,
+            "elapsed_ns": 1283766353,
+            "index": 1,
+            "labels_ns": 756148,
+            "native_post_ns": 4567612,
+            "post_search_ns": 86268203,
+            "search_ns": 1197498150,
+            "selection_ns": 1850585,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 81700591
+          },
+          {
+            "budget": {
+              "deadline_ns": 6289494151,
+              "reserve_ns": 1000000000,
+              "started_ns": 1289494151,
+              "work_deadline_ns": 5289494151
+            },
+            "commit_ns": 1101198,
+            "elapsed_ns": 1414061238,
+            "index": 2,
+            "labels_ns": 782146,
+            "native_post_ns": 4725726,
+            "post_search_ns": 97035510,
+            "search_ns": 1317025728,
+            "selection_ns": 1870565,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 92309784
+          },
+          {
+            "budget": {
+              "deadline_ns": 7709148697,
+              "reserve_ns": 1000000000,
+              "started_ns": 2709148697,
+              "work_deadline_ns": 6709148697
+            },
+            "commit_ns": 1150120,
+            "elapsed_ns": 1442043653,
+            "index": 3,
+            "labels_ns": 767114,
+            "native_post_ns": 4758014,
+            "post_search_ns": 87826988,
+            "search_ns": 1354216665,
+            "selection_ns": 1882833,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 83068974
+          },
+          {
+            "budget": {
+              "deadline_ns": 9531601249,
+              "reserve_ns": 1000000000,
+              "started_ns": 4531601249,
+              "work_deadline_ns": 8531601249
+            },
+            "commit_ns": 2883943,
+            "elapsed_ns": 1641958552,
+            "index": 4,
+            "labels_ns": 1145512,
+            "native_post_ns": 18363747,
+            "post_search_ns": 122707470,
+            "search_ns": 1519251082,
+            "selection_ns": 9847887,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 104343723
+          },
+          {
+            "budget": {
+              "deadline_ns": 11960691307,
+              "reserve_ns": 1000000000,
+              "started_ns": 6960691307,
+              "work_deadline_ns": 10960691307
+            },
+            "commit_ns": 2680063,
+            "elapsed_ns": 1424832331,
+            "index": 5,
+            "labels_ns": 1205492,
+            "native_post_ns": 19182325,
+            "post_search_ns": 113661146,
+            "search_ns": 1311171185,
+            "selection_ns": 10703020,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 94478821
+          },
+          {
+            "budget": {
+              "deadline_ns": 13492806416,
+              "reserve_ns": 1000000000,
+              "started_ns": 8492806416,
+              "work_deadline_ns": 12492806416
+            },
+            "commit_ns": 2015909,
+            "elapsed_ns": 1452739934,
+            "index": 6,
+            "labels_ns": 1450735,
+            "native_post_ns": 14420938,
+            "post_search_ns": 116547704,
+            "search_ns": 1336192230,
+            "selection_ns": 7681496,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 102126766
+          },
+          {
+            "budget": {
+              "deadline_ns": 15075660939,
+              "reserve_ns": 1000000000,
+              "started_ns": 10075660939,
+              "work_deadline_ns": 14075660939
+            },
+            "commit_ns": 2773288,
+            "elapsed_ns": 1793699007,
+            "index": 7,
+            "labels_ns": 1099656,
+            "native_post_ns": 18883483,
+            "post_search_ns": 117695359,
+            "search_ns": 1676003648,
+            "selection_ns": 10252524,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 98811876
+          },
+          {
+            "budget": {
+              "deadline_ns": 17025367771,
+              "reserve_ns": 1000000000,
+              "started_ns": 12025367771,
+              "work_deadline_ns": 16025367771
+            },
+            "commit_ns": 2425997,
+            "elapsed_ns": 1809258027,
+            "index": 8,
+            "labels_ns": 1099115,
+            "native_post_ns": 15622373,
+            "post_search_ns": 112311561,
+            "search_ns": 1696946466,
+            "selection_ns": 8051902,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 96689188
+          },
+          {
+            "budget": {
+              "deadline_ns": 19663426892,
+              "reserve_ns": 1000000000,
+              "started_ns": 14663426892,
+              "work_deadline_ns": 18663426892
+            },
+            "commit_ns": 5449266,
+            "elapsed_ns": 1559175079,
+            "index": 9,
+            "labels_ns": 1248827,
+            "native_post_ns": 33344120,
+            "post_search_ns": 141588169,
+            "search_ns": 1417586910,
+            "selection_ns": 18425197,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 108244049
+          },
+          {
+            "budget": {
+              "deadline_ns": 21763401994,
+              "reserve_ns": 1000000000,
+              "started_ns": 16763401994,
+              "work_deadline_ns": 20763401994
+            },
+            "commit_ns": 4431341,
+            "elapsed_ns": 1902033410,
+            "index": 10,
+            "labels_ns": 1309916,
+            "native_post_ns": 23890816,
+            "post_search_ns": 122532941,
+            "search_ns": 1779500469,
+            "selection_ns": 12006660,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 98642125
+          },
+          {
+            "budget": {
+              "deadline_ns": 23671463165,
+              "reserve_ns": 1000000000,
+              "started_ns": 18671463165,
+              "work_deadline_ns": 22671463165
+            },
+            "commit_ns": 3275392,
+            "elapsed_ns": 1750292062,
+            "index": 11,
+            "labels_ns": 1608799,
+            "native_post_ns": 15694730,
+            "post_search_ns": 115770434,
+            "search_ns": 1634521628,
+            "selection_ns": 6895233,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 100075704
+          },
+          {
+            "budget": {
+              "deadline_ns": 26065501538,
+              "reserve_ns": 1000000000,
+              "started_ns": 21065501538,
+              "work_deadline_ns": 25065501538
+            },
+            "commit_ns": 4360414,
+            "elapsed_ns": 1663160994,
+            "index": 12,
+            "labels_ns": 1326501,
+            "native_post_ns": 27202112,
+            "post_search_ns": 131416474,
+            "search_ns": 1531744520,
+            "selection_ns": 14702544,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 104214362
+          },
+          {
+            "budget": {
+              "deadline_ns": 27885033503,
+              "reserve_ns": 1000000000,
+              "started_ns": 22885033503,
+              "work_deadline_ns": 26885033503
+            },
+            "commit_ns": 4360375,
+            "elapsed_ns": 1925366772,
+            "index": 13,
+            "labels_ns": 1218120,
+            "native_post_ns": 27314658,
+            "post_search_ns": 123891309,
+            "search_ns": 1801475463,
+            "selection_ns": 14524559,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 96576651
+          },
+          {
+            "budget": {
+              "deadline_ns": 29816124107,
+              "reserve_ns": 1000000000,
+              "started_ns": 24816124107,
+              "work_deadline_ns": 28816124107
+            },
+            "commit_ns": 4482504,
+            "elapsed_ns": 1925886370,
+            "index": 14,
+            "labels_ns": 1243028,
+            "native_post_ns": 27501113,
+            "post_search_ns": 123923196,
+            "search_ns": 1801963174,
+            "selection_ns": 14694955,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 96422083
+          },
+          {
+            "budget": {
+              "deadline_ns": 31838859992,
+              "reserve_ns": 1000000000,
+              "started_ns": 26838859992,
+              "work_deadline_ns": 30838859992
+            },
+            "commit_ns": 3817092,
+            "elapsed_ns": 1633553207,
+            "index": 15,
+            "labels_ns": 1224971,
+            "native_post_ns": 22161269,
+            "post_search_ns": 111393915,
+            "search_ns": 1522159292,
+            "selection_ns": 11146507,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 89232646
+          },
+          {
+            "budget": {
+              "deadline_ns": 33478720022,
+              "reserve_ns": 1000000000,
+              "started_ns": 28478720022,
+              "work_deadline_ns": 32478720022
+            },
+            "commit_ns": 5592959,
+            "elapsed_ns": 1607939003,
+            "index": 16,
+            "labels_ns": 1188286,
+            "native_post_ns": 36824745,
+            "post_search_ns": 125925816,
+            "search_ns": 1482013187,
+            "selection_ns": 20720871,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 89101071
+          }
+        ],
+        "python_gpu_wait_seconds": 23.991776946699247,
+        "cpu_admission": {
+          "cpu.admission.wait": {
+            "seconds": 7.141591049730778e-05,
+            "calls": 1,
+            "mean_seconds": 7.141591049730778e-05,
+            "p50_seconds": 7.141591049730778e-05,
+            "p95_seconds": 7.141591049730778e-05,
+            "max_seconds": 7.141591049730778e-05,
+            "first_seconds": 7.141591049730778e-05,
+            "steady_mean_seconds": 0.0,
+            "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+            "percentile_sample_count": 1
+          }
+        },
+        "verification": [
+          {
+            "index": 1,
+            "rows": 1,
+            "verification_seconds": 0.07882763491943479,
+            "receive_to_ready_seconds": 0.08058522315695882,
+            "allowance_seconds": 0.995432388
+          },
+          {
+            "index": 2,
+            "rows": 1,
+            "verification_seconds": 0.08869935688562691,
+            "receive_to_ready_seconds": 0.09114787681028247,
+            "allowance_seconds": 0.995274274
+          },
+          {
+            "index": 3,
+            "rows": 1,
+            "verification_seconds": 0.08009287505410612,
+            "receive_to_ready_seconds": 0.0818865760229528,
+            "allowance_seconds": 0.995241986
+          },
+          {
+            "index": 4,
+            "rows": 2,
+            "verification_seconds": 0.10001632594503462,
+            "receive_to_ready_seconds": 0.10265053994953632,
+            "allowance_seconds": 0.981636253
+          },
+          {
+            "index": 5,
+            "rows": 2,
+            "verification_seconds": 0.08996080188080668,
+            "receive_to_ready_seconds": 0.09271073690615594,
+            "allowance_seconds": 0.980817675
+          },
+          {
+            "index": 6,
+            "rows": 2,
+            "verification_seconds": 0.09720907686278224,
+            "receive_to_ready_seconds": 0.10020677815191448,
+            "allowance_seconds": 0.985579062
+          },
+          {
+            "index": 7,
+            "rows": 2,
+            "verification_seconds": 0.09453815803863108,
+            "receive_to_ready_seconds": 0.09716613404452801,
+            "allowance_seconds": 0.981116517
+          },
+          {
+            "index": 8,
+            "rows": 2,
+            "verification_seconds": 0.09262324799783528,
+            "receive_to_ready_seconds": 0.09506854205392301,
+            "allowance_seconds": 0.984377627
+          },
+          {
+            "index": 9,
+            "rows": 2,
+            "verification_seconds": 0.103679901920259,
+            "receive_to_ready_seconds": 0.1067126349080354,
+            "allowance_seconds": 0.96665588
+          },
+          {
+            "index": 10,
+            "rows": 2,
+            "verification_seconds": 0.09456298500299454,
+            "receive_to_ready_seconds": 0.09585047792643309,
+            "allowance_seconds": 0.976109184
+          },
+          {
+            "index": 11,
+            "rows": 2,
+            "verification_seconds": 0.09344418183900416,
+            "receive_to_ready_seconds": 0.0968636660836637,
+            "allowance_seconds": 0.98430527
+          },
+          {
+            "index": 12,
+            "rows": 2,
+            "verification_seconds": 0.09832538710907102,
+            "receive_to_ready_seconds": 0.10144287603907287,
+            "allowance_seconds": 0.972797888
+          },
+          {
+            "index": 13,
+            "rows": 2,
+            "verification_seconds": 0.0910628221463412,
+            "receive_to_ready_seconds": 0.09392242785543203,
+            "allowance_seconds": 0.972685342
+          },
+          {
+            "index": 14,
+            "rows": 2,
+            "verification_seconds": 0.09107304713688791,
+            "receive_to_ready_seconds": 0.09401613706722856,
+            "allowance_seconds": 0.972498887
+          },
+          {
+            "index": 15,
+            "rows": 2,
+            "verification_seconds": 0.08346394798718393,
+            "receive_to_ready_seconds": 0.08644253108650446,
+            "allowance_seconds": 0.977838731
+          },
+          {
+            "index": 16,
+            "rows": 2,
+            "verification_seconds": 0.08389545604586601,
+            "receive_to_ready_seconds": 0.08685271698050201,
+            "allowance_seconds": 0.963175255
+          }
+        ],
+        "verified_reuse_seconds": 0.055407804902642965
+      },
+      {
+        "decisions": 392,
+        "elapsed_ns": 32178670225,
+        "encoding_ns": 171525477,
+        "gpu_wait_ns": 25916557023,
+        "input_bytes": 81169518,
+        "labels": 31,
+        "no_evidence": 0,
+        "requests": 963,
+        "reserved_turns": 16,
+        "searches": [
+          {
+            "budget": {
+              "deadline_ns": 5028106378,
+              "reserve_ns": 1000000000,
+              "started_ns": 28106378,
+              "work_deadline_ns": 4028106378
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1213617397,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_early",
+            "provenance": "search_supported",
+            "revision": 2,
+            "rounds": 3,
+            "seat": 0
+          },
+          {
+            "budget": {
+              "deadline_ns": 6507735310,
+              "reserve_ns": 1000000000,
+              "started_ns": 1507735310,
+              "work_deadline_ns": 5507735310
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1292521956,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_early",
+            "provenance": "search_supported",
+            "revision": 13,
+            "rounds": 3,
+            "seat": 3
+          },
+          {
+            "budget": {
+              "deadline_ns": 8125091103,
+              "reserve_ns": 1000000000,
+              "started_ns": 3125091103,
+              "work_deadline_ns": 7125091103
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1493297938,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_early",
+            "provenance": "search_supported",
+            "revision": 38,
+            "rounds": 3,
+            "seat": 2
+          },
+          {
+            "budget": {
+              "deadline_ns": 9815897302,
+              "reserve_ns": 1000000000,
+              "started_ns": 4815897302,
+              "work_deadline_ns": 8815897302
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1413315165,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_early",
+            "provenance": "search_supported",
+            "revision": 42,
+            "rounds": 3,
+            "seat": 1
+          },
+          {
+            "budget": {
+              "deadline_ns": 11976842211,
+              "reserve_ns": 1000000000,
+              "started_ns": 6976842211,
+              "work_deadline_ns": 10976842211
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1311535473,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_late",
+            "provenance": "search_supported",
+            "revision": 89,
+            "rounds": 3,
+            "seat": 3
+          },
+          {
+            "budget": {
+              "deadline_ns": 13613223849,
+              "reserve_ns": 1000000000,
+              "started_ns": 8613223849,
+              "work_deadline_ns": 12613223849
+            },
+            "completed": 47,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1352808062,
+            "frozen_n": 47,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_late",
+            "provenance": "search_supported",
+            "revision": 105,
+            "rounds": 3,
+            "seat": 2
+          },
+          {
+            "budget": {
+              "deadline_ns": 15329448313,
+              "reserve_ns": 1000000000,
+              "started_ns": 10329448313,
+              "work_deadline_ns": 14329448313
+            },
+            "completed": 47,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1662256676,
+            "frozen_n": 47,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_late",
+            "provenance": "search_supported",
+            "revision": 130,
+            "rounds": 3,
+            "seat": 1
+          },
+          {
+            "budget": {
+              "deadline_ns": 17313510800,
+              "reserve_ns": 1000000000,
+              "started_ns": 12313510800,
+              "work_deadline_ns": 16313510800
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1608921535,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "canal_late",
+            "provenance": "search_supported",
+            "revision": 150,
+            "rounds": 3,
+            "seat": 0
+          },
+          {
+            "budget": {
+              "deadline_ns": 20001546548,
+              "reserve_ns": 1000000000,
+              "started_ns": 15001546548,
+              "work_deadline_ns": 19001546548
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1366984949,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_early",
+            "provenance": "search_supported",
+            "revision": 222,
+            "rounds": 3,
+            "seat": 1
+          },
+          {
+            "budget": {
+              "deadline_ns": 22275814924,
+              "reserve_ns": 1000000000,
+              "started_ns": 17275814924,
+              "work_deadline_ns": 21275814924
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1847864086,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_early",
+            "provenance": "search_supported",
+            "revision": 290,
+            "rounds": 3,
+            "seat": 2
+          },
+          {
+            "budget": {
+              "deadline_ns": 24342237378,
+              "reserve_ns": 1000000000,
+              "started_ns": 19342237378,
+              "work_deadline_ns": 23342237378
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1496041444,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_early",
+            "provenance": "search_supported",
+            "revision": 299,
+            "rounds": 3,
+            "seat": 3
+          },
+          {
+            "budget": {
+              "deadline_ns": 24342237378,
+              "reserve_ns": 1000000000,
+              "started_ns": 19342237378,
+              "work_deadline_ns": 23342237378
+            },
+            "completed": 92,
+            "deadline_hit": false,
+            "effective_k": 16,
+            "elapsed_ns": 2027273203,
+            "frozen_n": 92,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_early",
+            "provenance": "search_supported",
+            "revision": 301,
+            "rounds": 4,
+            "seat": 3
+          },
+          {
+            "budget": {
+              "deadline_ns": 28008658668,
+              "reserve_ns": 1000000000,
+              "started_ns": 23008658668,
+              "work_deadline_ns": 27008658668
+            },
+            "completed": 47,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1895135244,
+            "frozen_n": 47,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_early",
+            "provenance": "search_supported",
+            "revision": 307,
+            "rounds": 3,
+            "seat": 0
+          },
+          {
+            "budget": {
+              "deadline_ns": 30549536393,
+              "reserve_ns": 1000000000,
+              "started_ns": 25549536393,
+              "work_deadline_ns": 29549536393
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1708234663,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_late",
+            "provenance": "search_supported",
+            "revision": 343,
+            "rounds": 3,
+            "seat": 1
+          },
+          {
+            "budget": {
+              "deadline_ns": 32384617984,
+              "reserve_ns": 1000000000,
+              "started_ns": 27384617984,
+              "work_deadline_ns": 31384617984
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1488749865,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_late",
+            "provenance": "search_supported",
+            "revision": 349,
+            "rounds": 3,
+            "seat": 0
+          },
+          {
+            "budget": {
+              "deadline_ns": 34060208912,
+              "reserve_ns": 1000000000,
+              "started_ns": 29060208912,
+              "work_deadline_ns": 33060208912
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1383357031,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_late",
+            "provenance": "search_supported",
+            "revision": 360,
+            "rounds": 3,
+            "seat": 2
+          },
+          {
+            "budget": {
+              "deadline_ns": 35552718244,
+              "reserve_ns": 1000000000,
+              "started_ns": 30552718244,
+              "work_deadline_ns": 34552718244
+            },
+            "completed": 46,
+            "deadline_hit": false,
+            "effective_k": 8,
+            "elapsed_ns": 1231768148,
+            "frozen_n": 46,
+            "overrun_seconds": 0.0,
+            "partial": 0,
+            "phase": "rail_late",
+            "provenance": "search_supported",
+            "revision": 366,
+            "rounds": 3,
+            "seat": 3
+          }
+        ],
+        "turns": [
+          {
+            "budget": {
+              "deadline_ns": 5028106378,
+              "reserve_ns": 1000000000,
+              "started_ns": 28106378,
+              "work_deadline_ns": 4028106378
+            },
+            "commit_ns": 1049111,
+            "elapsed_ns": 1345479779,
+            "index": 1,
+            "labels_ns": 725252,
+            "native_post_ns": 4348328,
+            "post_search_ns": 132942599,
+            "search_ns": 1212537180,
+            "selection_ns": 1654697,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 128594271
+          },
+          {
+            "budget": {
+              "deadline_ns": 6507735310,
+              "reserve_ns": 1000000000,
+              "started_ns": 1507735310,
+              "work_deadline_ns": 5507735310
+            },
+            "commit_ns": 2964492,
+            "elapsed_ns": 1402619164,
+            "index": 2,
+            "labels_ns": 1066758,
+            "native_post_ns": 18977873,
+            "post_search_ns": 111520091,
+            "search_ns": 1291099073,
+            "selection_ns": 10129664,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 92542218
+          },
+          {
+            "budget": {
+              "deadline_ns": 8125091103,
+              "reserve_ns": 1000000000,
+              "started_ns": 3125091103,
+              "work_deadline_ns": 7125091103
+            },
+            "commit_ns": 1959448,
+            "elapsed_ns": 1685720251,
+            "index": 3,
+            "labels_ns": 1097962,
+            "native_post_ns": 10739475,
+            "post_search_ns": 194041136,
+            "search_ns": 1491679115,
+            "selection_ns": 5047582,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 183301661
+          },
+          {
+            "budget": {
+              "deadline_ns": 9815897302,
+              "reserve_ns": 1000000000,
+              "started_ns": 4815897302,
+              "work_deadline_ns": 8815897302
+            },
+            "commit_ns": 2185671,
+            "elapsed_ns": 1516192942,
+            "index": 4,
+            "labels_ns": 1045365,
+            "native_post_ns": 12480299,
+            "post_search_ns": 104423041,
+            "search_ns": 1411769901,
+            "selection_ns": 5942163,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 91942742
+          },
+          {
+            "budget": {
+              "deadline_ns": 11976842211,
+              "reserve_ns": 1000000000,
+              "started_ns": 6976842211,
+              "work_deadline_ns": 10976842211
+            },
+            "commit_ns": 2710626,
+            "elapsed_ns": 1508724473,
+            "index": 5,
+            "labels_ns": 1225672,
+            "native_post_ns": 19824366,
+            "post_search_ns": 199650249,
+            "search_ns": 1309074224,
+            "selection_ns": 11209771,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 179825883
+          },
+          {
+            "budget": {
+              "deadline_ns": 13613223849,
+              "reserve_ns": 1000000000,
+              "started_ns": 8613223849,
+              "work_deadline_ns": 12613223849
+            },
+            "commit_ns": 2447047,
+            "elapsed_ns": 1461080053,
+            "index": 6,
+            "labels_ns": 1258631,
+            "native_post_ns": 16888185,
+            "post_search_ns": 110517330,
+            "search_ns": 1350562723,
+            "selection_ns": 9157475,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 93629145
+          },
+          {
+            "budget": {
+              "deadline_ns": 15329448313,
+              "reserve_ns": 1000000000,
+              "started_ns": 10329448313,
+              "work_deadline_ns": 14329448313
+            },
+            "commit_ns": 2390944,
+            "elapsed_ns": 1767948042,
+            "index": 7,
+            "labels_ns": 1079896,
+            "native_post_ns": 15315390,
+            "post_search_ns": 107461112,
+            "search_ns": 1660486930,
+            "selection_ns": 7887449,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 92145722
+          },
+          {
+            "budget": {
+              "deadline_ns": 17313510800,
+              "reserve_ns": 1000000000,
+              "started_ns": 12313510800,
+              "work_deadline_ns": 16313510800
+            },
+            "commit_ns": 1929463,
+            "elapsed_ns": 1711734947,
+            "index": 8,
+            "labels_ns": 1015371,
+            "native_post_ns": 11654148,
+            "post_search_ns": 104175776,
+            "search_ns": 1607559171,
+            "selection_ns": 5510046,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 92521628
+          },
+          {
+            "budget": {
+              "deadline_ns": 20001546548,
+              "reserve_ns": 1000000000,
+              "started_ns": 15001546548,
+              "work_deadline_ns": 19001546548
+            },
+            "commit_ns": 3711416,
+            "elapsed_ns": 1491067290,
+            "index": 9,
+            "labels_ns": 1445918,
+            "native_post_ns": 19171500,
+            "post_search_ns": 126247662,
+            "search_ns": 1364819628,
+            "selection_ns": 9020444,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 107076162
+          },
+          {
+            "budget": {
+              "deadline_ns": 22275814924,
+              "reserve_ns": 1000000000,
+              "started_ns": 17275814924,
+              "work_deadline_ns": 21275814924
+            },
+            "commit_ns": 5413856,
+            "elapsed_ns": 2061924786,
+            "index": 10,
+            "labels_ns": 1288194,
+            "native_post_ns": 40238071,
+            "post_search_ns": 217500134,
+            "search_ns": 1844424652,
+            "selection_ns": 24221283,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 177262063
+          },
+          {
+            "budget": {
+              "deadline_ns": 24342237378,
+              "reserve_ns": 1000000000,
+              "started_ns": 19342237378,
+              "work_deadline_ns": 23342237378
+            },
+            "commit_ns": 5702550,
+            "elapsed_ns": 3654661106,
+            "index": 11,
+            "labels_ns": 1504845,
+            "native_post_ns": 35679342,
+            "post_search_ns": 136059326,
+            "search_ns": 3518601780,
+            "selection_ns": 18375702,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 100379984
+          },
+          {
+            "budget": {
+              "deadline_ns": 28008658668,
+              "reserve_ns": 1000000000,
+              "started_ns": 23008658668,
+              "work_deadline_ns": 27008658668
+            },
+            "commit_ns": 4102313,
+            "elapsed_ns": 2020157435,
+            "index": 12,
+            "labels_ns": 1457405,
+            "native_post_ns": 27595723,
+            "post_search_ns": 127799948,
+            "search_ns": 1892357487,
+            "selection_ns": 14816862,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 100204225
+          },
+          {
+            "budget": {
+              "deadline_ns": 30549536393,
+              "reserve_ns": 1000000000,
+              "started_ns": 25549536393,
+              "work_deadline_ns": 29549536393
+            },
+            "commit_ns": 4623786,
+            "elapsed_ns": 1828386905,
+            "index": 13,
+            "labels_ns": 1251640,
+            "native_post_ns": 27727858,
+            "post_search_ns": 122730013,
+            "search_ns": 1705656892,
+            "selection_ns": 14690216,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 95002155
+          },
+          {
+            "budget": {
+              "deadline_ns": 32384617984,
+              "reserve_ns": 1000000000,
+              "started_ns": 27384617984,
+              "work_deadline_ns": 31384617984
+            },
+            "commit_ns": 4623084,
+            "elapsed_ns": 1603240478,
+            "index": 14,
+            "labels_ns": 1301054,
+            "native_post_ns": 27709591,
+            "post_search_ns": 117037458,
+            "search_ns": 1486203020,
+            "selection_ns": 14598199,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 89327867
+          },
+          {
+            "budget": {
+              "deadline_ns": 34060208912,
+              "reserve_ns": 1000000000,
+              "started_ns": 29060208912,
+              "work_deadline_ns": 33060208912
+            },
+            "commit_ns": 4806456,
+            "elapsed_ns": 1486264501,
+            "index": 15,
+            "labels_ns": 1234555,
+            "native_post_ns": 27669641,
+            "post_search_ns": 105356820,
+            "search_ns": 1380907681,
+            "selection_ns": 14368350,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 77687179
+          },
+          {
+            "budget": {
+              "deadline_ns": 35552718244,
+              "reserve_ns": 1000000000,
+              "started_ns": 30552718244,
+              "work_deadline_ns": 34552718244
+            },
+            "commit_ns": 5391158,
+            "elapsed_ns": 1346137793,
+            "index": 16,
+            "labels_ns": 1278058,
+            "native_post_ns": 36114375,
+            "post_search_ns": 117468966,
+            "search_ns": 1228668827,
+            "selection_ns": 20275821,
+            "timing": "search-plus-post/1.0.0",
+            "verification_ipc_ns": 81354591
+          }
+        ],
+        "python_gpu_wait_seconds": 25.372412715340033,
+        "cpu_admission": {
+          "cpu.admission.wait": {
+            "seconds": 1.2669013813138008e-05,
+            "calls": 1,
+            "mean_seconds": 1.2669013813138008e-05,
+            "p50_seconds": 1.2669013813138008e-05,
+            "p95_seconds": 1.2669013813138008e-05,
+            "max_seconds": 1.2669013813138008e-05,
+            "first_seconds": 1.2669013813138008e-05,
+            "steady_mean_seconds": 0.0,
+            "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+            "percentile_sample_count": 1
+          }
+        },
+        "verification": [
+          {
+            "index": 1,
+            "rows": 1,
+            "verification_seconds": 0.12576372688636184,
+            "receive_to_ready_seconds": 0.12740759714506567,
+            "allowance_seconds": 0.995651672
+          },
+          {
+            "index": 2,
+            "rows": 2,
+            "verification_seconds": 0.08865253813564777,
+            "receive_to_ready_seconds": 0.09099289798177779,
+            "allowance_seconds": 0.981022127
+          },
+          {
+            "index": 3,
+            "rows": 2,
+            "verification_seconds": 0.09652752010151744,
+            "receive_to_ready_seconds": 0.1817025770433247,
+            "allowance_seconds": 0.989260525
+          },
+          {
+            "index": 4,
+            "rows": 2,
+            "verification_seconds": 0.08812412712723017,
+            "receive_to_ready_seconds": 0.09044600906781852,
+            "allowance_seconds": 0.987519701
+          },
+          {
+            "index": 5,
+            "rows": 2,
+            "verification_seconds": 0.17475153203122318,
+            "receive_to_ready_seconds": 0.17756822612136602,
+            "allowance_seconds": 0.980175634
+          },
+          {
+            "index": 6,
+            "rows": 2,
+            "verification_seconds": 0.0888693688903004,
+            "receive_to_ready_seconds": 0.09174184501171112,
+            "allowance_seconds": 0.983111815
+          },
+          {
+            "index": 7,
+            "rows": 2,
+            "verification_seconds": 0.08820548793300986,
+            "receive_to_ready_seconds": 0.09050579788163304,
+            "allowance_seconds": 0.98468461
+          },
+          {
+            "index": 8,
+            "rows": 2,
+            "verification_seconds": 0.08833195408806205,
+            "receive_to_ready_seconds": 0.09097521100193262,
+            "allowance_seconds": 0.988345852
+          },
+          {
+            "index": 9,
+            "rows": 2,
+            "verification_seconds": 0.10277578583918512,
+            "receive_to_ready_seconds": 0.10407334403134882,
+            "allowance_seconds": 0.9808285
+          },
+          {
+            "index": 10,
+            "rows": 2,
+            "verification_seconds": 0.17216525902040303,
+            "receive_to_ready_seconds": 0.1752239998895675,
+            "allowance_seconds": 0.959761929
+          },
+          {
+            "index": 11,
+            "rows": 2,
+            "verification_seconds": 0.09493543487042189,
+            "receive_to_ready_seconds": 0.09827719582244754,
+            "allowance_seconds": 0.964320658
+          },
+          {
+            "index": 12,
+            "rows": 2,
+            "verification_seconds": 0.09477423690259457,
+            "receive_to_ready_seconds": 0.09809807105921209,
+            "allowance_seconds": 0.972404277
+          },
+          {
+            "index": 13,
+            "rows": 2,
+            "verification_seconds": 0.08991715800948441,
+            "receive_to_ready_seconds": 0.09302078606560826,
+            "allowance_seconds": 0.972272142
+          },
+          {
+            "index": 14,
+            "rows": 2,
+            "verification_seconds": 0.08423462812788785,
+            "receive_to_ready_seconds": 0.08727908809669316,
+            "allowance_seconds": 0.972290409
+          },
+          {
+            "index": 15,
+            "rows": 2,
+            "verification_seconds": 0.07302219280973077,
+            "receive_to_ready_seconds": 0.0759103219024837,
+            "allowance_seconds": 0.972330359
+          },
+          {
+            "index": 16,
+            "rows": 2,
+            "verification_seconds": 0.07694335002452135,
+            "receive_to_ready_seconds": 0.07998334313742816,
+            "allowance_seconds": 0.963885625
+          }
+        ],
+        "verified_reuse_seconds": 0.05429568118415773
+      }
+    ],
+    "scope": "Native search/lane/inference metrics supplied by B04; absent metrics are unmeasured",
+    "deferred_sealing_seconds": 0.282416864996776
+  },
+  "term": {
+    "mode": "shadow",
+    "beta": 1.0,
+    "beta_next": 1.0,
+    "steps": 0,
+    "rows": 29,
+    "share": {
+      "median": null,
+      "p10": null,
+      "p90": null
+    },
+    "raw_share": {
+      "median": null,
+      "p10": null,
+      "p90": null
+    },
+    "cosine": {
+      "median": null,
+      "p10": null,
+      "p90": null
+    },
+    "staleness": {
+      "0": {
+        "rows": 29,
+        "improvement": 0.0051421704758327575,
+        "drift": 1.3878186793769498e-12,
+        "ratio": 2.698896673883993e-10,
+        "skipped": false
+      }
+    },
+    "improvement_by_phase": {
+      "canal_early": 0.00246822722095476,
+      "canal_late": 0.0012893470677151138,
+      "rail_early": 0.005153806283952385,
+      "rail_late": 0.010654572610129524
+    },
+    "presentations": 0,
+    "distinct_rows": 0,
+    "presentations_by_age": {},
+    "presentations_by_phase": {},
+    "distinct_by_age": {},
+    "distinct_by_phase": {},
+    "first_loss": null,
+    "last_loss": null,
+    "outside_share_warning": false,
+    "term_seconds": 0.0,
+    "scope": "Policy term before PPO clipping/Adam/KL guard; shadow never applies gradients"
+  },
+  "heldout": {
+    "before": {
+      "all": {
+        "rows": 31,
+        "kl": 0.005041565872461417,
+        "top1": 0.9354838709677419
+      },
+      "canal_early": {
+        "rows": 7,
+        "kl": 0.011586228963353847,
+        "top1": 0.8571428571428571
+      },
+      "canal_late": {
+        "rows": 8,
+        "kl": 0.002512709774586773,
+        "top1": 1.0
+      },
+      "rail_early": {
+        "rows": 8,
+        "kl": 0.005706982422914651,
+        "top1": 0.875
+      },
+      "rail_late": {
+        "rows": 8,
+        "kl": 0.0011784252153519514,
+        "top1": 1.0
+      }
+    },
+    "after": {
+      "all": {
+        "rows": 31,
+        "kl": 0.005041565872461417,
+        "top1": 0.9354838709677419
+      },
+      "canal_early": {
+        "rows": 7,
+        "kl": 0.011586228963353847,
+        "top1": 0.8571428571428571
+      },
+      "canal_late": {
+        "rows": 8,
+        "kl": 0.002512709774586773,
+        "top1": 1.0
+      },
+      "rail_early": {
+        "rows": 8,
+        "kl": 0.005706982422914651,
+        "top1": 0.875
+      },
+      "rail_late": {
+        "rows": 8,
+        "kl": 0.0011784252153519514,
+        "top1": 1.0
+      }
+    },
+    "delta": {
+      "all": 0.0,
+      "canal_early": 0.0,
+      "canal_late": 0.0,
+      "rail_early": 0.0,
+      "rail_late": 0.0
+    }
+  },
+  "admission_encoding_seconds": 0.282416864996776,
+  "buffer": {
+    "contract": "teacher-label-buffer/1.0.0",
+    "identity": "1218915e8dfbb1c7b20c03784fa9268d9c09dde388bc7c8073d76075f6efd4d8",
+    "receipts": [
+      {
+        "contract": "teacher-label-buffer/1.0.0",
+        "path": "teacher-labels/generation-000570-train.jsonl.gz",
+        "generation": 570,
+        "split": "train",
+        "rows": 29,
+        "model_id": "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+        "reward_id": "a84a3fccf2421d40aefc71c80d3b8839cf3ff22900eb6c5b917b821b5bb8d72e",
+        "profile_digest": "1218915e8dfbb1c7b20c03784fa9268d9c09dde388bc7c8073d76075f6efd4d8",
+        "sha256": "3f63c9ca147fc30df7acea074d65fbc82a257a6447e101111da147a3afd4f11f"
+      },
+      {
+        "contract": "teacher-label-buffer/1.0.0",
+        "path": "teacher-labels/generation-000570-heldout.jsonl.gz",
+        "generation": 570,
+        "split": "heldout",
+        "rows": 31,
+        "model_id": "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+        "reward_id": "a84a3fccf2421d40aefc71c80d3b8839cf3ff22900eb6c5b917b821b5bb8d72e",
+        "profile_digest": "1218915e8dfbb1c7b20c03784fa9268d9c09dde388bc7c8073d76075f6efd4d8",
+        "sha256": "cc34f4e0850422407aeeeb25aefd3f6f2d93c490d07880e4926c52a444125e10"
+      }
+    ],
+    "retired": []
+  },
+  "side_effects": {
+    "ppo_steps": null,
+    "kl_guard": null,
+    "categorical_probe": null
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "contract": "brass-lab-runner/1.0.0",
+  "passed": true,
+  "lab_qualification": "Selected stages passed; see individual scopes",
+  "requested_generation": 570,
+  "requested_checkpoint": "06626c1fb7d0b91f64d939f9fbb3db7c5f3aa072331eb3d773f101e729117ab9",
+  "fixtures_only": false,
+  "device": "cuda:0",
+  "allow_cuda_topology_change": false,
+  "stages": [
+    {
+      "stage": "b04",
+      "argv": [
+        "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+        "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b04.py",
+        "--out",
+        "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04",
+        "--device",
+        "cuda:0",
+        "--run",
+        "/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart",
+        "--expected-generation",
+        "570",
+        "--checkpoint-sha256",
+        "06626c1fb7d0b91f64d939f9fbb3db7c5f3aa072331eb3d773f101e729117ab9",
+        "--reuse-build",
+        "artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/build.json",
+        "--transfer-manifest",
+        "/data/not_backed_up/yxu209/ai-training/distribution/rust-lab-g570/transfer-manifest.json",
+        "--b02",
+        "artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/qualification.json",
+        "--b03",
+        "artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/qualification.json"
+      ],
+      "passed": true,
+      "exit_code": 0,
+      "receipt": "b04/qualification.json",
+      "sha256": "62d2f7cd9dc05efd6bcf440194110396ad547fe22a29a3a5f725bc72ef5778dd",
+      "lab_qualification": "Passed for this exact source/model/device"
+    }
+  ],
+  "bundle": {
+    "manifest_sha256": "d077eb973751e6e429d2eb087e2093f5dd40b51a706abacbd9fbabc70884d7a1",
+    "training_reference": {
+      "run": "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+      "generation": 570,
+      "games_done": 182400,
+      "checkpoint": {
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/generation-0570.pt",
+        "sha256": "06626c1fb7d0b91f64d939f9fbb3db7c5f3aa072331eb3d773f101e729117ab9",
+        "model_id": "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+        "generation": 570
+      },
+      "implementation": "f7a48a025e2c247e63da4df301ce2b80c7c6aabf1073220a5be97f0929719c78",
+      "report_directory": "results/joint7-v11-2-g1290-trained-restart-g0570-20261103T190804654465Z",
+      "state_export_sha256": "e3c291bb460b469f384706c08cf452824f88762115878e4e3fac39676ca9eebd",
+      "report_manifest_sha256": "c36fae91e654f2e1e606053f7df90fb185caa6708aa805c3719aa246e1cf4274",
+      "recorded_config_sha256": "f573a1d251cc39ed389aa3dab229d654ba8b2ab31c044b92159368dac522a4d2",
+      "requested_config": "results/joint7-v11-2-g1290-trained-restart-g0570-20261103T190804654465Z/recorded-config.json",
+      "requested_config_sha256": "f573a1d251cc39ed389aa3dab229d654ba8b2ab31c044b92159368dac522a4d2",
+      "recorded_config_is_requested_config": true,
+      "config_adoption": "None: preserve the exact recorded g570 recipe; new g570/entropy options are not adopted",
+      "qualification_target": "Recorded g570 checkpoint via explicit CLI pins, or capture latest with identical recorded config; reject advancement",
+      "reference_generation_only": false,
+      "domino_enabled": false,
+      "az_db_enabled": false,
+      "qualification": "Pending"
+    }
+  },
+  "selected_stages": [
+    "b04"
+  ],
+  "reused_receipts": {
+    "b02": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/qualification.json",
+      "sha256": "88e7136e4d935c63dee3f71c4b3cc49b9202356792bf36a96e4d71b6945122ec"
+    },
+    "b03": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/qualification.json",
+      "sha256": "58b9f30024499d166fdc821ddd5db4777bc06a36b483b7da1932b6934516a6aa"
+    }
+  },
+  "run": {
+    "run": "/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart",
+    "generation": 570,
+    "checkpoint": {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/generation-0570.pt",
+      "sha256": "06626c1fb7d0b91f64d939f9fbb3db7c5f3aa072331eb3d773f101e729117ab9",
+      "model_id": "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+      "generation": 570
+    },
+    "state_sha256": "57a3586f2fcfa9e0531acb1ecb5932dd9ac6df518499e0ecc6608e3333bef2ee",
+    "implementation": "f7a48a025e2c247e63da4df301ce2b80c7c6aabf1073220a5be97f0929719c78"
+  },
+  "config": {
+    "path": "results/joint7-v11-2-g1290-trained-restart-g0570-20261103T190804654465Z/recorded-config.json",
+    "sha256": "378ab9ff6c3c54d2845a1bc3b5625b8ad20a680898fd6e9fc64700742dc6e243"
+  }
+}

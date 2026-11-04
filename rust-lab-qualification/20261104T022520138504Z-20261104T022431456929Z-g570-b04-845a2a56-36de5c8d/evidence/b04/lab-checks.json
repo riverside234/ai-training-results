@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "readiness": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/readiness.json",
+    "bytes": 513,
+    "sha256": "9c64eeaeedf0a21a693d93354a1e46c96ecfa6c65b35b770f8f424033621923c"
+  },
+  "calibration": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/gpu-calibration.json",
+    "bytes": 609090,
+    "sha256": "cdf350ce866275c0136c7daacdb37ab02db66ccc676135928562ce28450d4f37"
+  },
+  "validation": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/verification-comparison.json",
+    "bytes": 876,
+    "sha256": "7e5b3000c3c13354803016558b9f29c69b1af38dc97a549920ff1f6234f8b6e0"
+  },
+  "timing": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/timed-turns.json",
+    "bytes": 868374,
+    "sha256": "c54d1527ad85667f8a5700a1452568e8969e7aad171a4f8a96513adbe7541614"
+  },
+  "tables": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/native-tables.json",
+    "bytes": 13858418,
+    "sha256": "496a2827dcfa5029a598fd76ac9a50ba7fcca837ebd5cb0dd62d0bdfc24330f6"
+  },
+  "jobs": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/frozen-teacher-jobs.json",
+    "bytes": 6926,
+    "sha256": "c05850b664e3eb604e45c7ee0b463d8e67d822e05792037fbcbe7fc80f68ca87"
+  },
+  "report": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/teacher-report.json",
+    "bytes": 54531,
+    "sha256": "0be74550121e55f6cde3ef4b53ccad57e14c2cdd3ec1eb6bf89ab9f87946361d"
+  },
+  "inference": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/inference-report.json",
+    "bytes": 3951,
+    "sha256": "87c6b731475f3d1f73202a20227672e9aabde2e77bb917fe85335c71e655cd14"
+  },
+  "new_games": 2,
+  "optimizer_steps": 0,
+  "production_modified": false,
+  "elapsed_seconds": 38.47978327702731,
+  "scope": "Two separate full teacher tables, one train and one heldout; 4s/K16, one session/thread per table, two concurrent lanes. Missing label kinds supplemented by authored tests, no extra games."
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "tables": [
+    {
+      "job_id": "ac401db62f8205268d9b516d048fbb38570ff53a435cda6032a090d96db80c77",
+      "rows": 29,
+      "previous_barrier_seconds": 0.3353364020586014,
+      "streamed_verification_seconds": 1.4614752067718655,
+      "verified_reuse_seconds": 0.055407804902642965,
+      "barrier_reduction_seconds": 0.2799285971559584
+    },
+    {
+      "job_id": "51e892607f3880b1efb155c7125e3ae1547e3e679752048f268c6ef4b667d9bf",
+      "rows": 31,
+      "previous_barrier_seconds": 0.220750488108024,
+      "streamed_verification_seconds": 1.6279943007975817,
+      "verified_reuse_seconds": 0.05429568118415773,
+      "barrier_reduction_seconds": 0.16645480692386627
+    }
+  ],
+  "scope": "Qualification-only audit, outside timed collection; compare former end-of-table pause with verified_reuse_seconds, and report streamed total separately"
+}

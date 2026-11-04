@@ -1,0 +1,113 @@
+{
+  "contract": "brass-lab-b04/1.0.0",
+  "milestone": "B04",
+  "passed": true,
+  "method": "search_v1",
+  "v205_enabled": false,
+  "lab_qualification": "Passed for this exact source/model/device",
+  "production_deployed": false,
+  "transfer": {
+    "manifest_sha256": "d077eb973751e6e429d2eb087e2093f5dd40b51a706abacbd9fbabc70884d7a1",
+    "implementation": "f74d78220d8dd622929d36618d374dfc0c4bfde313051cd2d60e5ba6a19cc296",
+    "producer": "bc2c07c397fdc979c9d4376189e723af86620e6361e3cd7052f3500cea3709cb",
+    "files": 1255,
+    "milestone": "b04",
+    "teacher_profile": "task-only",
+    "lab_qualification": "Pending"
+  },
+  "fixtures": {
+    "argv": [
+      "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+      "-m",
+      "unittest",
+      "test_b04",
+      "test_b04_g570_readiness",
+      "test_g370_lab",
+      "test_lab_transfer",
+      "-v"
+    ],
+    "seconds": 4.02068803505972,
+    "log": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/fixtures.log",
+      "bytes": 5851,
+      "sha256": "1cf0db7d6f2690615b041df9cb30c88fa67f7a725168c8b8564d21d82708875b"
+    }
+  },
+  "prerequisite_reuse": {
+    "review": {
+      "path": "/data/not_backed_up/yxu209/ai-training/distribution/rust-lab-g570/prerequisite-reuse.json",
+      "bytes": 3424,
+      "sha256": "92f57e995a2562c1014d7c4b1ee0d21b78c117cb261a0169aeca3cec69472fb3"
+    },
+    "original_b03": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/qualification.json",
+      "bytes": 4483,
+      "sha256": "58b9f30024499d166fdc821ddd5db4777bc06a36b483b7da1932b6934516a6aa"
+    },
+    "from_implementation": "8b9614d736c727d682e85753d1c851c3663461c733501eefac568624fca0dfe5",
+    "to_implementation": "f74d78220d8dd622929d36618d374dfc0c4bfde313051cd2d60e5ba6a19cc296"
+  },
+  "reused_native_build": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/build.json",
+    "bytes": 36102,
+    "sha256": "994c4fbf47240cb925d8f54e208def44fb8e52a8b60d8c0b069de010beeab7f1"
+  },
+  "lab": {
+    "passed": true,
+    "readiness": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/readiness.json",
+      "bytes": 513,
+      "sha256": "9c64eeaeedf0a21a693d93354a1e46c96ecfa6c65b35b770f8f424033621923c"
+    },
+    "calibration": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/gpu-calibration.json",
+      "bytes": 609090,
+      "sha256": "cdf350ce866275c0136c7daacdb37ab02db66ccc676135928562ce28450d4f37"
+    },
+    "validation": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/verification-comparison.json",
+      "bytes": 876,
+      "sha256": "7e5b3000c3c13354803016558b9f29c69b1af38dc97a549920ff1f6234f8b6e0"
+    },
+    "timing": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/timed-turns.json",
+      "bytes": 868374,
+      "sha256": "c54d1527ad85667f8a5700a1452568e8969e7aad171a4f8a96513adbe7541614"
+    },
+    "tables": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/native-tables.json",
+      "bytes": 13858418,
+      "sha256": "496a2827dcfa5029a598fd76ac9a50ba7fcca837ebd5cb0dd62d0bdfc24330f6"
+    },
+    "jobs": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/frozen-teacher-jobs.json",
+      "bytes": 6926,
+      "sha256": "c05850b664e3eb604e45c7ee0b463d8e67d822e05792037fbcbe7fc80f68ca87"
+    },
+    "report": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/teacher-report.json",
+      "bytes": 54531,
+      "sha256": "0be74550121e55f6cde3ef4b53ccad57e14c2cdd3ec1eb6bf89ab9f87946361d"
+    },
+    "inference": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/inference-report.json",
+      "bytes": 3951,
+      "sha256": "87c6b731475f3d1f73202a20227672e9aabde2e77bb917fe85335c71e655cd14"
+    },
+    "new_games": 2,
+    "optimizer_steps": 0,
+    "production_modified": false,
+    "elapsed_seconds": 38.47978327702731,
+    "scope": "Two separate full teacher tables, one train and one heldout; 4s/K16, one session/thread per table, two concurrent lanes. Missing label kinds supplemented by authored tests, no extra games."
+  },
+  "build": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/build.json",
+    "bytes": 36360,
+    "sha256": "a18a88a6e894d32c3b0d81ae1fdcf6e8b90fbab0675f44328222bc0a7fe55d72"
+  },
+  "commands": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56/b04/commands.json",
+    "bytes": 1352,
+    "sha256": "869d617155c2e504adeabfac22e0fe8b2ddbd7e0db7410e821d0c47de05ded06"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "receipt": null,
+  "ready": true,
+  "evidence": {
+    "kind": "user-authorized-g570-null-utility",
+    "generation": 570,
+    "checkpoint_sha256": "06626c1fb7d0b91f64d939f9fbb3db7c5f3aa072331eb3d773f101e729117ab9",
+    "model_id": "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+    "reward_id": "a84a3fccf2421d40aefc71c80d3b8839cf3ff22900eb6c5b917b821b5bb8d72e",
+    "scope": "B04 shadow qualification only",
+    "calibration_measured": false
+  },
+  "model_calibration_unchanged": true
+}

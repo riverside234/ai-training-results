@@ -1,0 +1,190 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-04T02:25:20.417066+00:00",
+  "source": "artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T022431456929Z-g570-b04-845a2a56",
+  "review_only": true,
+  "files": [
+    {
+      "source": "b04-console.log",
+      "path": "evidence/b04-console.log",
+      "source_bytes": 264,
+      "source_sha256": "89e4f2df78a83491f9aae902d09de8df773998dd2c512b4ee4259ab1b56fb26c",
+      "bytes": 264,
+      "sha256": "89e4f2df78a83491f9aae902d09de8df773998dd2c512b4ee4259ab1b56fb26c",
+      "gzip": false
+    },
+    {
+      "source": "runner.json",
+      "path": "evidence/runner.json",
+      "source_bytes": 4883,
+      "source_sha256": "62e63b9f557eeeba2d17af71a5364c124477b8367931e02b97e0dd740a1bbed0",
+      "bytes": 4883,
+      "sha256": "62e63b9f557eeeba2d17af71a5364c124477b8367931e02b97e0dd740a1bbed0",
+      "gzip": false
+    },
+    {
+      "source": "b04/build.json",
+      "path": "evidence/b04/build.json",
+      "source_bytes": 36360,
+      "source_sha256": "a18a88a6e894d32c3b0d81ae1fdcf6e8b90fbab0675f44328222bc0a7fe55d72",
+      "bytes": 36360,
+      "sha256": "a18a88a6e894d32c3b0d81ae1fdcf6e8b90fbab0675f44328222bc0a7fe55d72",
+      "gzip": false
+    },
+    {
+      "source": "b04/commands.json",
+      "path": "evidence/b04/commands.json",
+      "source_bytes": 1352,
+      "source_sha256": "869d617155c2e504adeabfac22e0fe8b2ddbd7e0db7410e821d0c47de05ded06",
+      "bytes": 1352,
+      "sha256": "869d617155c2e504adeabfac22e0fe8b2ddbd7e0db7410e821d0c47de05ded06",
+      "gzip": false
+    },
+    {
+      "source": "b04/fixtures.log",
+      "path": "evidence/b04/fixtures.log",
+      "source_bytes": 5851,
+      "source_sha256": "1cf0db7d6f2690615b041df9cb30c88fa67f7a725168c8b8564d21d82708875b",
+      "bytes": 5851,
+      "sha256": "1cf0db7d6f2690615b041df9cb30c88fa67f7a725168c8b8564d21d82708875b",
+      "gzip": false
+    },
+    {
+      "source": "b04/frozen-teacher-jobs.json",
+      "path": "evidence/b04/frozen-teacher-jobs.json",
+      "source_bytes": 6926,
+      "source_sha256": "c05850b664e3eb604e45c7ee0b463d8e67d822e05792037fbcbe7fc80f68ca87",
+      "bytes": 6926,
+      "sha256": "c05850b664e3eb604e45c7ee0b463d8e67d822e05792037fbcbe7fc80f68ca87",
+      "gzip": false
+    },
+    {
+      "source": "b04/gpu-calibration.json",
+      "path": "evidence/b04/gpu-calibration.json",
+      "source_bytes": 609090,
+      "source_sha256": "cdf350ce866275c0136c7daacdb37ab02db66ccc676135928562ce28450d4f37",
+      "bytes": 609090,
+      "sha256": "cdf350ce866275c0136c7daacdb37ab02db66ccc676135928562ce28450d4f37",
+      "gzip": false
+    },
+    {
+      "source": "b04/inference-report.json",
+      "path": "evidence/b04/inference-report.json",
+      "source_bytes": 3951,
+      "source_sha256": "87c6b731475f3d1f73202a20227672e9aabde2e77bb917fe85335c71e655cd14",
+      "bytes": 3951,
+      "sha256": "87c6b731475f3d1f73202a20227672e9aabde2e77bb917fe85335c71e655cd14",
+      "gzip": false
+    },
+    {
+      "source": "b04/lab-checks.json",
+      "path": "evidence/b04/lab-checks.json",
+      "source_bytes": 2454,
+      "source_sha256": "3f0935e26cc82817d54fd9848e393be4e5d5980cb96548d50a7de93dbe844176",
+      "bytes": 2454,
+      "sha256": "3f0935e26cc82817d54fd9848e393be4e5d5980cb96548d50a7de93dbe844176",
+      "gzip": false
+    },
+    {
+      "source": "b04/lab-smoke.log",
+      "path": "evidence/b04/lab-smoke.log",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "source": "b04/native-tables.json",
+      "path": "evidence/b04/native-tables.json.gz",
+      "source_bytes": 13858418,
+      "source_sha256": "496a2827dcfa5029a598fd76ac9a50ba7fcca837ebd5cb0dd62d0bdfc24330f6",
+      "bytes": 694818,
+      "sha256": "d1a71134c78c3aff777fdef95ce2d85ba94375e2445b193b5764985d17c6c712",
+      "gzip": true
+    },
+    {
+      "source": "b04/qualification.json",
+      "path": "evidence/b04/qualification.json",
+      "source_bytes": 5238,
+      "source_sha256": "62d2f7cd9dc05efd6bcf440194110396ad547fe22a29a3a5f725bc72ef5778dd",
+      "bytes": 5238,
+      "sha256": "62d2f7cd9dc05efd6bcf440194110396ad547fe22a29a3a5f725bc72ef5778dd",
+      "gzip": false
+    },
+    {
+      "source": "b04/readiness.json",
+      "path": "evidence/b04/readiness.json",
+      "source_bytes": 513,
+      "source_sha256": "9c64eeaeedf0a21a693d93354a1e46c96ecfa6c65b35b770f8f424033621923c",
+      "bytes": 513,
+      "sha256": "9c64eeaeedf0a21a693d93354a1e46c96ecfa6c65b35b770f8f424033621923c",
+      "gzip": false
+    },
+    {
+      "source": "b04/teacher-report.json",
+      "path": "evidence/b04/teacher-report.json",
+      "source_bytes": 54531,
+      "source_sha256": "0be74550121e55f6cde3ef4b53ccad57e14c2cdd3ec1eb6bf89ab9f87946361d",
+      "bytes": 54531,
+      "sha256": "0be74550121e55f6cde3ef4b53ccad57e14c2cdd3ec1eb6bf89ab9f87946361d",
+      "gzip": false
+    },
+    {
+      "source": "b04/timed-turns.json",
+      "path": "evidence/b04/timed-turns.json",
+      "source_bytes": 868374,
+      "source_sha256": "c54d1527ad85667f8a5700a1452568e8969e7aad171a4f8a96513adbe7541614",
+      "bytes": 868374,
+      "sha256": "c54d1527ad85667f8a5700a1452568e8969e7aad171a4f8a96513adbe7541614",
+      "gzip": false
+    },
+    {
+      "source": "b04/verification-comparison.json",
+      "path": "evidence/b04/verification-comparison.json",
+      "source_bytes": 876,
+      "source_sha256": "7e5b3000c3c13354803016558b9f29c69b1af38dc97a549920ff1f6234f8b6e0",
+      "bytes": 876,
+      "sha256": "7e5b3000c3c13354803016558b9f29c69b1af38dc97a549920ff1f6234f8b6e0",
+      "gzip": false
+    },
+    {
+      "source": "b04/diagnostic-phase/teacher-labels/generation-000570-heldout.jsonl.gz.receipt.json",
+      "path": "evidence/b04/diagnostic-phase/teacher-labels/generation-000570-heldout.jsonl.gz.receipt.json",
+      "source_bytes": 500,
+      "source_sha256": "47ff56dae7a916553186c5fcfeddb719881b7e5fffcec3a0ff395750bb4bf329",
+      "bytes": 500,
+      "sha256": "47ff56dae7a916553186c5fcfeddb719881b7e5fffcec3a0ff395750bb4bf329",
+      "gzip": false
+    },
+    {
+      "source": "b04/diagnostic-phase/teacher-labels/generation-000570-train.jsonl.gz.receipt.json",
+      "path": "evidence/b04/diagnostic-phase/teacher-labels/generation-000570-train.jsonl.gz.receipt.json",
+      "source_bytes": 496,
+      "source_sha256": "2661640fddcd76c74ceea1c27b25a3c06994277b51e4af63fb85e0754d2840bb",
+      "bytes": 496,
+      "sha256": "2661640fddcd76c74ceea1c27b25a3c06994277b51e4af63fb85e0754d2840bb",
+      "gzip": false
+    },
+    {
+      "source": "b04/diagnostic-phase/teacher-labels/owner.json",
+      "path": "evidence/b04/diagnostic-phase/teacher-labels/owner.json",
+      "source_bytes": 92,
+      "source_sha256": "c839143962ec125e845ac2609a6bcd25e1e030f752d6b4927325601443fc0feb",
+      "bytes": 92,
+      "sha256": "c839143962ec125e845ac2609a6bcd25e1e030f752d6b4927325601443fc0feb",
+      "gzip": false
+    }
+  ],
+  "omitted": [
+    {
+      "source": "b04/diagnostic-phase/teacher-labels/generation-000570-heldout.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "b04/diagnostic-phase/teacher-labels/generation-000570-train.jsonl.gz",
+      "reason": "non-report file or symlink"
+    }
+  ]
+}
