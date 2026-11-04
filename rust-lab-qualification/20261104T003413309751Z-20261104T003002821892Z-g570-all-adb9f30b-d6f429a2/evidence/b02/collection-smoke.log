@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 198, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 192, in main
+    try:value=run(a)
+              ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 171, in run
+    families,scheduler=collect_families(jobs,store,native,fallback,lanes=lanes,cancel=stop,model_cohorts=execution.get('model_cohorts',False))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_families.py", line 242, in collect_families
+    index,role=futures.pop(future);part=future.result()
+                                        ^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 165, in fallback
+    try:return reference_part(root,job,endpoint,execution,args.mono)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b02_smoke.py", line 46, in reference_part
+    policies=[make_policy(p,root,endpoint,execution,mono) for p in job['policies']]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/execution.py", line 83, in make_policy
+    policy=LabLegacyPolicy(root,spec['parent'],spec['budget'],mono=mono,purpose=spec.get('purpose','training'),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/legacy_search.py", line 169, in __init__
+    worker=LegacyWorker(root,mono=mono,timeout=600,runtime_directory=runtime,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/legacy.py", line 46, in __init__
+    raise ValueError(f'Rebuild legacy runtime after source change: {p["path"]}')
+ValueError: Rebuild legacy runtime after source change: src/BrassLegacyAI/Program.cs

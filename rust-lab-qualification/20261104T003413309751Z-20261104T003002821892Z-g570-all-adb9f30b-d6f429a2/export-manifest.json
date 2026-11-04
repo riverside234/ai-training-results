@@ -1,0 +1,148 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-04T00:34:13.314377+00:00",
+  "source": "artifacts/rust-backend/20261104T003002821892Z-g570-all-adb9f30b",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T003002821892Z-g570-all-adb9f30b",
+  "review_only": true,
+  "files": [
+    {
+      "source": "b02-console.log",
+      "path": "evidence/b02-console.log",
+      "source_bytes": 1304,
+      "source_sha256": "87877b763fd2524a04157d744429cb4bfd079d478cf6699ffb2d2c41460d0c06",
+      "bytes": 1304,
+      "sha256": "87877b763fd2524a04157d744429cb4bfd079d478cf6699ffb2d2c41460d0c06",
+      "gzip": false
+    },
+    {
+      "source": "runner.json",
+      "path": "evidence/runner.json",
+      "source_bytes": 4056,
+      "source_sha256": "99c7e1f63e4f9f122a73fb76ceee3369d4b6aa2fe53f85b2ab0c38332d8a8e8a",
+      "bytes": 4056,
+      "sha256": "99c7e1f63e4f9f122a73fb76ceee3369d4b6aa2fe53f85b2ab0c38332d8a8e8a",
+      "gzip": false
+    },
+    {
+      "source": "b02/adapter-tests.log",
+      "path": "evidence/b02/adapter-tests.log",
+      "source_bytes": 2917,
+      "source_sha256": "a462dfca35e77b8a1f3d1afbc966923f19f8e32d9eec49c1cc496261440e4a79",
+      "bytes": 2917,
+      "sha256": "a462dfca35e77b8a1f3d1afbc966923f19f8e32d9eec49c1cc496261440e4a79",
+      "gzip": false
+    },
+    {
+      "source": "b02/bootstrap-build.log",
+      "path": "evidence/b02/bootstrap-build.log",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "source": "b02/bootstrap-smoke.json",
+      "path": "evidence/b02/bootstrap-smoke.json",
+      "source_bytes": 188,
+      "source_sha256": "3f9f7ae6085b4fe40686df6ecd4da8d3b5927ecfb4867f839f85733aebba025b",
+      "bytes": 188,
+      "sha256": "3f9f7ae6085b4fe40686df6ecd4da8d3b5927ecfb4867f839f85733aebba025b",
+      "gzip": false
+    },
+    {
+      "source": "b02/build.json",
+      "path": "evidence/b02/build.json",
+      "source_bytes": 219362,
+      "source_sha256": "133848f5bd8c579785ab1bd4f8ddb2af58f9056ba0f62333c4fa44bf341d4b7f",
+      "bytes": 219362,
+      "sha256": "133848f5bd8c579785ab1bd4f8ddb2af58f9056ba0f62333c4fa44bf341d4b7f",
+      "gzip": false
+    },
+    {
+      "source": "b02/build.log",
+      "path": "evidence/b02/build.log",
+      "source_bytes": 4416,
+      "source_sha256": "78859bf2eb81f0140c3dadaef2e51769153497e83ce70b8925a00a5f383f9ca3",
+      "bytes": 4416,
+      "sha256": "78859bf2eb81f0140c3dadaef2e51769153497e83ce70b8925a00a5f383f9ca3",
+      "gzip": false
+    },
+    {
+      "source": "b02/collection-smoke.json",
+      "path": "evidence/b02/collection-smoke.json",
+      "source_bytes": 121,
+      "source_sha256": "9745dae476459ddaf0bdc43833cd6fe2aaae1f62859ec70abc41698b6201cfe9",
+      "bytes": 121,
+      "sha256": "9745dae476459ddaf0bdc43833cd6fe2aaae1f62859ec70abc41698b6201cfe9",
+      "gzip": false
+    },
+    {
+      "source": "b02/collection-smoke.log",
+      "path": "evidence/b02/collection-smoke.log",
+      "source_bytes": 3030,
+      "source_sha256": "2397164b080258dd3e7fe67c25f8b3d4ee69dcae8b0102680822d607edf9ba64",
+      "bytes": 3030,
+      "sha256": "2397164b080258dd3e7fe67c25f8b3d4ee69dcae8b0102680822d607edf9ba64",
+      "gzip": false
+    },
+    {
+      "source": "b02/compiler-preflight.log",
+      "path": "evidence/b02/compiler-preflight.log",
+      "source_bytes": 28,
+      "source_sha256": "912f830e06b206a29aef930d6e2ebea4aa44685f80f5fd980804e6643b863e53",
+      "bytes": 28,
+      "sha256": "912f830e06b206a29aef930d6e2ebea4aa44685f80f5fd980804e6643b863e53",
+      "gzip": false
+    },
+    {
+      "source": "b02/frozen-jobs.json",
+      "path": "evidence/b02/frozen-jobs.json",
+      "source_bytes": 44614,
+      "source_sha256": "bda3db8c863d79c21d07b80634ef621fd24f366b1dbdd0ec6a588151efb27e1c",
+      "bytes": 44614,
+      "sha256": "bda3db8c863d79c21d07b80634ef621fd24f366b1dbdd0ec6a588151efb27e1c",
+      "gzip": false
+    },
+    {
+      "source": "b02/qualification.json",
+      "path": "evidence/b02/qualification.json",
+      "source_bytes": 282,
+      "source_sha256": "418ee7109d0604181250638fbe82cf2871dfb0c068b5fd270ad07578ddba57cc",
+      "bytes": 282,
+      "sha256": "418ee7109d0604181250638fbe82cf2871dfb0c068b5fd270ad07578ddba57cc",
+      "gzip": false
+    },
+    {
+      "source": "b02/test.log",
+      "path": "evidence/b02/test.log",
+      "source_bytes": 4392,
+      "source_sha256": "75b7cd23ffa3f1e48502a608433615525c7d9a5e537cf93588b51357d1c4e08f",
+      "bytes": 4392,
+      "sha256": "75b7cd23ffa3f1e48502a608433615525c7d9a5e537cf93588b51357d1c4e08f",
+      "gzip": false
+    }
+  ],
+  "omitted": [
+    {
+      "source": "b02/toolchain",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "b02/bootstrap",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "b02/checkout",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "b02/target",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "b02/families/322b17ed5b51fbdd407a5d4126a06d54723610d1fedac15b228e49b689158337.family.json.gz",
+      "reason": "non-report file or symlink"
+    }
+  ]
+}

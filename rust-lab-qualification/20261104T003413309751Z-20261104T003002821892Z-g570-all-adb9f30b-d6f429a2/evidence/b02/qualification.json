@@ -1,0 +1,7 @@
+{
+  "contract": "brass-lab-b02/2.0.0",
+  "milestone": "B02",
+  "passed": false,
+  "error": "Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T003002821892Z-g570-all-adb9f30b/b02/collection-smoke.log",
+  "lab_deployed": false
+}

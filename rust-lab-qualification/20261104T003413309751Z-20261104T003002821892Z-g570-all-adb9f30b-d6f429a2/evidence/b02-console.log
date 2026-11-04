@@ -1,0 +1,21 @@
+Qualification: compiler-preflight
+Qualification: bootstrap-build
+Qualification: build
+Qualification: test
+Qualification: adapter-tests
+Qualification: collection-smoke
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b02.py", line 184, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b02.py", line 179, in main
+    try:result=qualify(a,a.out)
+               ^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b02.py", line 149, in qualify
+    commands.append(base.command([sys.executable,'-m','brass_ai.rust_backend.lab_b02_smoke',
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 123, in command
+    require(code == 0, 'Qualification command failed; see ' + str(log))
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T003002821892Z-g570-all-adb9f30b/b02/collection-smoke.log

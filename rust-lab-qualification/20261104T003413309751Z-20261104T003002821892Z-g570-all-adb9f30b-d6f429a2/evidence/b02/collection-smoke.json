@@ -1,0 +1,4 @@
+{
+  "passed": false,
+  "error": "ValueError: Rebuild legacy runtime after source change: src/BrassLegacyAI/Program.cs"
+}
