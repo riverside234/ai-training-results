@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "preflight": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/continuation-preflight.json",
+    "bytes": 1661955,
+    "sha256": "c1e09b71406eda258e49ceb0d7b441f5e0ab8c0f59e602575e1206f3725d64e4"
+  },
+  "restoration": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/restoration.json",
+    "bytes": 2036,
+    "sha256": "dab20b637039b7b5c95ec4d23696368857c9f2dbf392d41eae0afbecfc7a02b7"
+  },
+  "replay": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/replay-admission.json",
+    "bytes": 63248,
+    "sha256": "595942ec2050ec0ef3597cc7483416561f821ed81d187354184785ce6a108e14"
+  },
+  "diagnostic_fork": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/continuation/diagnostic-fork.json",
+    "bytes": 1728163,
+    "sha256": "d38a747dfc58b91989dab75aee38971bdbf375a3c65c757ce99d28cd5e0aeb1e"
+  },
+  "il": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/il-handoff.json",
+    "bytes": 119,
+    "sha256": "86b713e24f9ffacb1b35f4883e6ce32a1ad2737eae25f53609739466e617534b"
+  },
+  "new_games": 0,
+  "optimizer_steps": 0,
+  "source_run_modified": false,
+  "allow_cuda_topology_change": true,
+  "cuda_topology": {
+    "saved_devices": 1,
+    "visible_devices": 8,
+    "restored_devices": 1
+  },
+  "next": "B04 teacher exports and B05 fixed-data update/commit; production adoption remains B07"
+}

@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "deferred": true,
+  "reason": "Latest current-reward lab readiness is not ready/unavailable; no teacher tables dispatched",
+  "readiness": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/readiness.json",
+    "bytes": 208,
+    "sha256": "85a8208b10c5df5097dc415b66e3d65cf56a6a2d867e81ac3bc72076cb30c513"
+  },
+  "new_games": 0,
+  "optimizer_steps": 0,
+  "production_modified": false
+}

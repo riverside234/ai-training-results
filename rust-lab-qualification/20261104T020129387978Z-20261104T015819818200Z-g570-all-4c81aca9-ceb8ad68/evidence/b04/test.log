@@ -1,0 +1,111 @@
+warning: unused import: `crate::core::locations::LocationName`
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:356:9
+    |
+356 |     use crate::core::locations::LocationName;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_1`
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:357:9
+    |
+357 |     use crate::core::static_data::BEER_BREWERY_1;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_2`
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:358:9
+    |
+358 |     use crate::core::static_data::BEER_BREWERY_2;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `to_range` is never used
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/checkout/native/vendor/brass-upstream-rules/src/consts.rs:348:10
+    |
+348 | const fn to_range(bounds: (usize, usize)) -> Range<usize> {
+    |          ^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `NUM_NAMED_LOCATIONS` is never used
+  --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:49:7
+   |
+49 | const NUM_NAMED_LOCATIONS: usize = 27;
+   |       ^^^^^^^^^^^^^^^^^^^
+
+warning: function `enumerate_legal_actions_for_root` is never used
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/checkout/native/vendor/brass-upstream-rules/src/game/legal_actions.rs:139:15
+    |
+139 | pub(crate) fn enumerate_legal_actions_for_root(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `brass-upstream-rules` (lib) generated 6 warnings (run `cargo fix --lib -p brass-upstream-rules` to apply 3 suggestions)
+   Compiling brass-lab-collector v0.1.0 (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/checkout/lab-native)
+    Finished `release` profile [optimized] target(s) in 20.77s
+     Running unittests src/lib.rs (artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/target/x86_64-unknown-linux-gnu/release/deps/brass_lab_collector-4047ce3bc84249e4)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/target/x86_64-unknown-linux-gnu/release/deps/brass_lab_collector-f86852ca3ae085ed)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/teacher.rs (artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/target/x86_64-unknown-linux-gnu/release/deps/brass_lab_teacher-fbf31a06cd0228f3)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/lanes.rs (artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/target/x86_64-unknown-linux-gnu/release/deps/lanes-5a432fb21bb26a40)
+
+running 5 tests
+test scoring_cannot_publish_before_completion ... ok
+test fork_is_portable_bound_and_deck_only ... ok
+test paging_rejects_a_context_or_revision_change ... ok
+test rejected_reply_does_not_advance_or_publish ... ok
+test ordinary_draw_keeps_hidden_deck_order_and_one_revision_per_stage ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/teacher.rs (artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/target/x86_64-unknown-linux-gnu/release/deps/teacher-2156f278adfb442f)
+
+running 27 tests
+test baseline::budgets_costs_and_missing_estimate ... ok
+test baseline::focus_affordability_is_conservative_without_changing_quota_costs ... ok
+test baseline::full_four_second_search_plus_one_second_post_never_replenishes ... ok
+test baseline::completion_reserve_cancel_and_expiry_are_bounded ... ok
+test baseline::recorded_round_extension_oracle ... ok
+test baseline::focus_stability_requires_both_owners_and_the_entire_proof ... ok
+test baseline::b04_cancel_retires_labels_and_original_allowance ... ok
+test baseline::invalid_request_cannot_shorten_clock_or_poison_revision ... ok
+test baseline::partial_leaf_has_no_complete_plan_support ... ok
+test baseline::late_evaluation_does_not_publish_support_and_cancel_applies_nothing ... ok
+test baseline::support_watermark_excludes_future_and_partial_paths ... ok
+test baseline::stale_identity_repeat_and_context_cannot_restart ... ok
+test baseline::changed_root_reuses_only_nn_cache_and_starts_with_fresh_counts ... ok
+test baseline::complete_support_continuation_and_no_second_clock ... ok
+test baseline::action_two_has_its_own_complete_proof_and_revalidates ... ok
+test baseline::projection_preserves_live_identity_and_completes_a_legal_incumbent ... ok
+test baseline::timed_quota_is_frozen_and_missing_or_wrong_estimates_are_explicit ... ok
+test baseline::native_interruptions_before_and_after_a_balanced_round ... ok
+test baseline::b04_label_overrun_fallback_zero_and_replanned_cases ... ok
+test baseline::complete_action_acknowledges_intermediate_recall_before_action_two ... ok
+test baseline::b04_invalid_second_action_replans_with_new_evidence_and_same_clock ... ok
+test baseline::b04_continuation_snapshot_survives_tree_retirement_but_not_wrong_successor ... ok
+test baseline::permitted_projection_is_identical_in_all_24_hidden_burn_allocations ... ok
+test baseline::b04_exports_keep_recommendations_and_final_partial_watermark ... ok
+test baseline::no_switch_checkpoint_resumes_the_exact_owner_tournament ... ok
+test baseline::reused_owner_rejects_changed_value_sampler_information_and_cancellation ... ok
+test baseline::both_one_and_neither_owner_hit_without_sharing_counts_or_root_credit ... ok
+
+test result: ok. 27 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.79s
+
+   Doc-tests brass_lab_collector
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

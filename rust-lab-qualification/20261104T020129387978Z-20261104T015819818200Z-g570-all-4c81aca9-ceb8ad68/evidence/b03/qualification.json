@@ -1,0 +1,102 @@
+{
+  "contract": "brass-lab-b03/1.0.0",
+  "milestone": "B03",
+  "passed": true,
+  "method": "search_v1",
+  "v205_enabled": false,
+  "lab_qualification": "Passed for this exact committed checkpoint",
+  "allow_cuda_topology_change": true,
+  "scope": "Replay admission and full-state restoration; no games or training steps",
+  "transfer": {
+    "manifest_sha256": "83729ba2796869972ca21080304e2307f558e669373024fc47e8711ff059f998",
+    "implementation": "8b9614d736c727d682e85753d1c851c3663461c733501eefac568624fca0dfe5",
+    "producer": "bc2c07c397fdc979c9d4376189e723af86620e6361e3cd7052f3500cea3709cb",
+    "files": 1238,
+    "milestone": "b03",
+    "teacher_profile": "task-only",
+    "lab_qualification": "Pending"
+  },
+  "prerequisite_reuse": {
+    "review": {
+      "path": "/data/not_backed_up/yxu209/ai-training/distribution/rust-lab-g570/prerequisite-reuse.json",
+      "bytes": 2684,
+      "sha256": "d31f3f750e0b7826c53e6b9dcfb0df209bcde7a88bd56b0cf5e973df5ad061b9"
+    },
+    "original_b02": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/qualification.json",
+      "bytes": 1194,
+      "sha256": "88e7136e4d935c63dee3f71c4b3cc49b9202356792bf36a96e4d71b6945122ec"
+    },
+    "from_implementation": "a7d39190382b768058f699ba94a8e870b7ca18eb54c636392fc2eeec6b8dc31b",
+    "to_implementation": "8b9614d736c727d682e85753d1c851c3663461c733501eefac568624fca0dfe5"
+  },
+  "fixtures": {
+    "passed": true,
+    "sha256": "a75d57923dcca546bfaae0a0c0c86612c5f906b691a60c84abb4726245b2fa06"
+  },
+  "command": {
+    "argv": [
+      "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+      "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b03.py",
+      "--lab-child",
+      "--run",
+      "/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart",
+      "--b02",
+      "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T011422740838Z-g570-all-8bee9d91/b02/qualification.json",
+      "--expected-generation",
+      "570",
+      "--checkpoint-sha256",
+      "06626c1fb7d0b91f64d939f9fbb3db7c5f3aa072331eb3d773f101e729117ab9",
+      "--device",
+      "cuda:0",
+      "--out",
+      "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03",
+      "--allow-cuda-topology-change"
+    ],
+    "seconds": 103.9341963599436,
+    "log": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/lab-checks.log",
+      "bytes": 92,
+      "sha256": "0e11865299feaca484804b35daa932c84e455e44e6f1741004c130a54b755190"
+    }
+  },
+  "lab": {
+    "passed": true,
+    "preflight": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/continuation-preflight.json",
+      "bytes": 1661955,
+      "sha256": "c1e09b71406eda258e49ceb0d7b441f5e0ab8c0f59e602575e1206f3725d64e4"
+    },
+    "restoration": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/restoration.json",
+      "bytes": 2036,
+      "sha256": "dab20b637039b7b5c95ec4d23696368857c9f2dbf392d41eae0afbecfc7a02b7"
+    },
+    "replay": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/replay-admission.json",
+      "bytes": 63248,
+      "sha256": "595942ec2050ec0ef3597cc7483416561f821ed81d187354184785ce6a108e14"
+    },
+    "diagnostic_fork": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/continuation/diagnostic-fork.json",
+      "bytes": 1728163,
+      "sha256": "d38a747dfc58b91989dab75aee38971bdbf375a3c65c757ce99d28cd5e0aeb1e"
+    },
+    "il": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/il-handoff.json",
+      "bytes": 119,
+      "sha256": "86b713e24f9ffacb1b35f4883e6ce32a1ad2737eae25f53609739466e617534b"
+    },
+    "new_games": 0,
+    "optimizer_steps": 0,
+    "source_run_modified": false,
+    "allow_cuda_topology_change": true,
+    "cuda_topology": {
+      "saved_devices": 1,
+      "visible_devices": 8,
+      "restored_devices": 1
+    },
+    "next": "B04 teacher exports and B05 fixed-data update/commit; production adoption remains B07"
+  },
+  "seconds": 131.3339204241056
+}

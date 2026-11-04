@@ -1,0 +1,9 @@
+{
+  "receipt": null,
+  "ready": false,
+  "evidence": {
+    "reason": "Latest non-null readiness cannot be proved across retired checkpoint",
+    "generation": 568
+  },
+  "model_calibration_unchanged": true
+}

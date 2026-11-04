@@ -1,0 +1,9 @@
+B04: short dispatch/inference fixtures
+Qualification: fixtures
+B04: native build
+Qualification: build
+B04: native test
+Qualification: test
+B04: GPU calibration and two 4s/K16 shadow tables
+Qualification: lab-smoke
+/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/qualification.json

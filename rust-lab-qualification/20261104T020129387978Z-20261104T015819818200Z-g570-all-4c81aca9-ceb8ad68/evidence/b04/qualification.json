@@ -1,0 +1,58 @@
+{
+  "contract": "brass-lab-b04/1.0.0",
+  "milestone": "B04",
+  "passed": false,
+  "method": "search_v1",
+  "v205_enabled": false,
+  "lab_qualification": "Pending: readiness deferred",
+  "production_deployed": false,
+  "transfer": {
+    "manifest_sha256": "83729ba2796869972ca21080304e2307f558e669373024fc47e8711ff059f998",
+    "implementation": "8b9614d736c727d682e85753d1c851c3663461c733501eefac568624fca0dfe5",
+    "producer": "bc2c07c397fdc979c9d4376189e723af86620e6361e3cd7052f3500cea3709cb",
+    "files": 1238,
+    "milestone": "b04",
+    "teacher_profile": "task-only",
+    "lab_qualification": "Pending"
+  },
+  "fixtures": {
+    "argv": [
+      "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+      "-m",
+      "unittest",
+      "test_b04",
+      "test_g370_lab",
+      "test_lab_transfer",
+      "-v"
+    ],
+    "seconds": 3.670209798961878,
+    "log": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/fixtures.log",
+      "bytes": 4298,
+      "sha256": "ebdd1b44fbe59f01b3f2efb1f2b93ca50180b82931d9b3ae92dd7b6cb09a6705"
+    }
+  },
+  "lab": {
+    "passed": false,
+    "deferred": true,
+    "reason": "Latest current-reward lab readiness is not ready/unavailable; no teacher tables dispatched",
+    "readiness": {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/readiness.json",
+      "bytes": 208,
+      "sha256": "85a8208b10c5df5097dc415b66e3d65cf56a6a2d867e81ac3bc72076cb30c513"
+    },
+    "new_games": 0,
+    "optimizer_steps": 0,
+    "production_modified": false
+  },
+  "build": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/build.json",
+    "bytes": 36102,
+    "sha256": "994c4fbf47240cb925d8f54e208def44fb8e52a8b60d8c0b069de010beeab7f1"
+  },
+  "commands": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b04/commands.json",
+    "bytes": 3017,
+    "sha256": "aa03aa6b5e6015897894e6e189dfe704719028b9bb2768272712a9b066b770de"
+  }
+}

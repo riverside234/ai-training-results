@@ -1,0 +1,50 @@
+{
+  "contract": "brass-joint7-continuation/1.0.0",
+  "generation": 570,
+  "next_generation": 571,
+  "checkpoint": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/generation-0570.pt",
+    "sha256": "06626c1fb7d0b91f64d939f9fbb3db7c5f3aa072331eb3d773f101e729117ab9",
+    "model_id": "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+    "generation": 570
+  },
+  "target_signature": "8fbb6d108790e9dc8635749c5c23cd31c31c84e3f42cc76581f58f013ddf986b",
+  "full_state_restored": true,
+  "optimizers": [
+    "ppo",
+    "value",
+    "local-scoring-ppo",
+    "local-scoring-ppg"
+  ],
+  "preserved_ppg_ages": [
+    569,
+    570
+  ],
+  "teacher_state_restored": false,
+  "cuda_rng_checked": true,
+  "topology": {
+    "saved_devices": 1,
+    "visible_devices": 8,
+    "restored_devices": 1
+  },
+  "snapshot_r2_overlay": null,
+  "recipe_restore": null,
+  "utility_readiness_before": null,
+  "utility_readiness_after": null,
+  "state_digest": "0366544f1959ba124d3f902378f57e6f2cac4a1b078c93646bd43f2fc812ba81",
+  "checkpoint_parts": {
+    "format": "b05f8b98d9c306beab05e3eef08199fc3e8d2d52b4b777d2a21740b87ad6f843",
+    "compatibility": "9c75839c644ca4589bce5a8d177a3712408057d242663f4819b8e5092c371dee",
+    "model_config": "6495c9316cb90e525948d94994c081b1b952fe2f9c4e95e7f1587da3d9e9c3cf",
+    "model_id": "12847778c9cfb51e32a259c8bd5f767711473a5f51d8e0a2acf5309b0becd412",
+    "state_dict": "3c4322241e863eb311449f346e17ef2992c6cae9a0bc5b940fc4ab3fa3897e91",
+    "optimizer": "4eb1806fd2b23e6e035cd276082d23a6c05ec46d526e7519e9fbc8e6421279c5",
+    "step": "9d29b0551d505c2f172cdfaff04a06fe2bcbf9033b00579b578870dfbf385698",
+    "training": "518cdcbeffc71d031ac29ab5fd9a56186e696ebc21308d9c842b03593da6b4d7",
+    "rng": "fef3db88ce7fab332ab911accb3a852747c0a222d69e66df607e8cf6e19f6996",
+    "cuda_rng": "89e1d68c76848b5c7aa865e454498d1b32a4a988a7fb1dd92ff9d597799c2cf1"
+  },
+  "optimizer_steps": 0,
+  "source_run_modified": false,
+  "qualification_scope": "Full restoration; next update/commit remains B05"
+}
