@@ -1,0 +1,12 @@
+{
+  "format": "results-storage-migration/1.0.0",
+  "date": "2026-11-03",
+  "source_repository": "https://github.com/riverside234/brass-birmingham-ai.git",
+  "source_commit": "904b1f1f7afbc62bbe1f16a820912faa9a5acebd",
+  "results_repository": "https://github.com/riverside234/ai-training-results.git",
+  "imported_tracked_files": 700,
+  "history": "Extract results/ and remove that prefix; preserve results commit history",
+  "original_results_tree_sha256": "f781957b1953fa071012609742f47758a2a13f887d781d59f9164190e3d0748e",
+  "original_history_and_working_files_backed_up": true,
+  "training_artifacts_changed": false
+}
