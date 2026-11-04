@@ -1,0 +1,34 @@
+test_cancel_after_dispatch_drains_slot_before_epoch (test_b01.AdapterTests.test_cancel_after_dispatch_drains_slot_before_epoch) ... ok
+test_critic_descriptors_cannot_enter_search (test_b01.AdapterTests.test_critic_descriptors_cannot_enter_search) ... ok
+test_device_failure_and_timeout_never_reuse_lane (test_b01.AdapterTests.test_device_failure_and_timeout_never_reuse_lane) ... ok
+test_expired_before_encoding (test_b01.AdapterTests.test_expired_before_encoding) ... ok
+test_misrouted_reply_or_wrong_legal_order_retires_lane (test_b01.AdapterTests.test_misrouted_reply_or_wrong_legal_order_retires_lane) ... ok
+test_model_or_context_change_inside_request_is_rejected (test_b01.AdapterTests.test_model_or_context_change_inside_request_is_rejected) ... ok
+test_native_input_is_detached_before_encoder_or_caller_can_mutate_it (test_b01.AdapterTests.test_native_input_is_detached_before_encoder_or_caller_can_mutate_it) ... ok
+test_roundtrip_and_one_unreplenished_deadline (test_b01.AdapterTests.test_roundtrip_and_one_unreplenished_deadline) ... ok
+test_slot_not_reused_on_partial_or_foreign_batch (test_b01.AdapterTests.test_slot_not_reused_on_partial_or_foreign_batch) ... ok
+test_stopped_before_encoding (test_b01.AdapterTests.test_stopped_before_encoding) ... ok
+test_extract_rejects_paths_duplicates_and_symlinks (test_b01.ContractTests.test_extract_rejects_paths_duplicates_and_symlinks) ... ok
+test_fingerprint_ignores_build_output_but_binds_config_and_source (test_b01.ContractTests.test_fingerprint_ignores_build_output_but_binds_config_and_source) ... ok
+test_method_overrides_cannot_reach_future_dispatch (test_b01.ContractTests.test_method_overrides_cannot_reach_future_dispatch) ... ok
+test_omitted_pin_or_old_input_contract_cannot_bypass_verification (test_b01.ContractTests.test_omitted_pin_or_old_input_contract_cannot_bypass_verification) ... ok
+test_only_exact_explicit_search_v1_profile (test_b01.ContractTests.test_only_exact_explicit_search_v1_profile) ... ok
+test_optimizer_rng_and_tensor_shape_hashes_are_distinct (test_b01.ContractTests.test_optimizer_rng_and_tensor_shape_hashes_are_distinct) ... ok
+test_pending_collection_or_partial_checkpoint_blocks_entry (test_b01.ContractTests.test_pending_collection_or_partial_checkpoint_blocks_entry) ... ok
+test_rehashed_input_manifest_cannot_relabel_old_methods_or_broken_receipts (test_b01.ContractTests.test_rehashed_input_manifest_cannot_relabel_old_methods_or_broken_receipts) ... ok
+test_search_v1_inputs_bind_current_installed_evidence_and_source (test_b01.ContractTests.test_search_v1_inputs_bind_current_installed_evidence_and_source) ... ok
+test_bad_generation_signature_or_missing_optimizer_never_admitted (test_b01.SnapshotTests.test_bad_generation_signature_or_missing_optimizer_never_admitted) ... ok
+test_committed_snapshot_pins_recipe_and_all_checkpoint_state_without_updates (test_b01.SnapshotTests.test_committed_snapshot_pins_recipe_and_all_checkpoint_state_without_updates) ... ok
+test_pending_work_rejected_before_checkpoint_load (test_b01.SnapshotTests.test_pending_work_rejected_before_checkpoint_load) ... ok
+test_clean_subprocess_finds_all_fixture_dependencies_from_an_unrelated_cwd (test_b01_environment.Environment.test_clean_subprocess_finds_all_fixture_dependencies_from_an_unrelated_cwd) ... ok
+test_unrelated_environment_is_preserved_without_mutating_the_caller (test_b01_environment.Environment.test_unrelated_environment_is_preserved_without_mutating_the_caller) ... ok
+test_changed_missing_or_conflicting_fixture_fails_before_build (test_b01_inputs.NativeInputs.test_changed_missing_or_conflicting_fixture_fails_before_build) ... ok
+test_changed_native_cannot_be_blessed_by_fixture_preparation (test_b01_inputs.NativeInputs.test_changed_native_cannot_be_blessed_by_fixture_preparation) ... ok
+test_original_archive_reproduces_missing_external_input (test_b01_inputs.NativeInputs.test_original_archive_reproduces_missing_external_input) ... ok
+test_staged_archive_closes_all_includes_and_keeps_core_identical (test_b01_inputs.NativeInputs.test_staged_archive_closes_all_includes_and_keeps_core_identical) ... ok
+test_windows_line_endings_are_canonicalized (test_b01_inputs.NativeInputs.test_windows_line_endings_are_canonicalized) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.518s
+
+OK

@@ -1,0 +1,257 @@
+{
+  "passed": true,
+  "device": "cuda:0",
+  "atol": 2e-05,
+  "rtol": 1e-05,
+  "roots": [
+    {
+      "id": "game-731001-root-000",
+      "actor": 3,
+      "era": "CanalEra",
+      "phase": "action",
+      "candidates": 388,
+      "max_absolute_output_error": 7.152557373046875e-07
+    },
+    {
+      "id": "game-731001-root-001",
+      "actor": 3,
+      "era": "CanalEra",
+      "phase": "continuation",
+      "candidates": 1,
+      "max_absolute_output_error": 1.52587890625e-05
+    },
+    {
+      "id": "game-731001-root-003",
+      "actor": 1,
+      "era": "CanalEra",
+      "phase": "payment",
+      "candidates": 1,
+      "max_absolute_output_error": 7.152557373046875e-07
+    },
+    {
+      "id": "game-731001-root-007",
+      "actor": 2,
+      "era": "CanalEra",
+      "phase": "payment",
+      "candidates": 1,
+      "max_absolute_output_error": 7.62939453125e-06
+    },
+    {
+      "id": "game-731001-root-008",
+      "actor": 2,
+      "era": "CanalEra",
+      "phase": "debt",
+      "candidates": 3,
+      "max_absolute_output_error": 2.288818359375e-05
+    },
+    {
+      "id": "game-731001-root-014",
+      "actor": 3,
+      "era": "RailEra",
+      "phase": "action",
+      "candidates": 48,
+      "max_absolute_output_error": 1.52587890625e-05
+    },
+    {
+      "id": "game-731001-root-015",
+      "actor": 3,
+      "era": "RailEra",
+      "phase": "continuation",
+      "candidates": 1,
+      "max_absolute_output_error": 1.52587890625e-05
+    },
+    {
+      "id": "game-731001-root-017",
+      "actor": 1,
+      "era": "RailEra",
+      "phase": "payment",
+      "candidates": 1,
+      "max_absolute_output_error": 7.62939453125e-06
+    },
+    {
+      "id": "game-731001-root-021",
+      "actor": 0,
+      "era": "RailEra",
+      "phase": "payment",
+      "candidates": 1,
+      "max_absolute_output_error": 7.62939453125e-06
+    },
+    {
+      "id": "game-731002-root-017",
+      "actor": 2,
+      "era": "RailEra",
+      "phase": "debt",
+      "candidates": 1,
+      "max_absolute_output_error": 1.52587890625e-05
+    },
+    {
+      "id": "game-731003-root-004",
+      "actor": 1,
+      "era": "CanalEra",
+      "phase": "action",
+      "candidates": 413,
+      "max_absolute_output_error": 2.288818359375e-05
+    },
+    {
+      "id": "game-731004-root-012",
+      "actor": 1,
+      "era": "CanalEra",
+      "phase": "bonus",
+      "candidates": 6,
+      "max_absolute_output_error": 8.344650268554688e-07
+    },
+    {
+      "id": "game-731007-root-027",
+      "actor": 1,
+      "era": "RailEra",
+      "phase": "bonus",
+      "candidates": 5,
+      "max_absolute_output_error": 2.288818359375e-05
+    }
+  ],
+  "service": {
+    "batches": 26,
+    "positions": 26,
+    "model_cache_hits": 26,
+    "valid_candidate_cells": 1740,
+    "padded_candidate_cells": 1740,
+    "max_batch_positions": 1,
+    "max_padded_candidate_cells": 413,
+    "expired_requests": 1,
+    "cancelled_requests": 2,
+    "packed_output_batches": 26,
+    "shared_requests": 16,
+    "shared_replies": 16,
+    "inline_requests": 0,
+    "model_loads": 2,
+    "model_evictions": 0,
+    "timings": {
+      "inference.batch": {
+        "seconds": 0.539596676826477,
+        "calls": 29,
+        "mean_seconds": 0.01860678195953369,
+        "p50_seconds": 0.02041706210002303,
+        "p95_seconds": 0.024908371036872268,
+        "max_seconds": 0.03190309111960232,
+        "first_seconds": 0.024908371036872268,
+        "steady_mean_seconds": 0.018381725206771598,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 29
+      },
+      "inference.forward": {
+        "seconds": 0.5291898401919752,
+        "calls": 26,
+        "mean_seconds": 0.020353455391999047,
+        "p50_seconds": 0.020207571797072887,
+        "p95_seconds": 0.023605986032634974,
+        "max_seconds": 0.03145394683815539,
+        "first_seconds": 0.023605986032634974,
+        "steady_mean_seconds": 0.020223354166373612,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 26
+      },
+      "inference.model_load": {
+        "seconds": 0.6236333989072591,
+        "calls": 2,
+        "mean_seconds": 0.31181669945362955,
+        "p50_seconds": 0.24366613710299134,
+        "p95_seconds": 0.37996726180426776,
+        "max_seconds": 0.37996726180426776,
+        "first_seconds": 0.37996726180426776,
+        "steady_mean_seconds": 0.24366613710299134,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 2
+      },
+      "inference.queue_wait": {
+        "seconds": 0.44254328636452556,
+        "calls": 29,
+        "mean_seconds": 0.015260113322914675,
+        "p50_seconds": 0.022367224097251892,
+        "p95_seconds": 0.030811757082119584,
+        "max_seconds": 0.03366224095225334,
+        "first_seconds": 0.030811757082119584,
+        "steady_mean_seconds": 0.014704697474371642,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 29
+      }
+    },
+    "device": "cuda:0",
+    "learner_device": "cuda:0",
+    "inference_devices": [
+      "cuda:0"
+    ],
+    "replica_count": 1,
+    "central_batching": true,
+    "memory": {
+      "host_resident_bytes": null,
+      "cuda_allocated_bytes": 162547712,
+      "cuda_reserved_bytes": 165675008,
+      "cuda_peak_allocated_bytes": 164552192,
+      "cuda_peak_reserved_bytes": 165675008
+    },
+    "cpu_admission": {
+      "capacity": 60,
+      "active": 0,
+      "peak": 0,
+      "queued": 0,
+      "aborted": false
+    },
+    "batching": {
+      "contract": "streaming-model-batches/1.0.0",
+      "peak_pending_positions": 2,
+      "batches": 29,
+      "padding_splits": 0,
+      "capacity_splits": 0,
+      "max_padding_ratio": 2.0,
+      "scope": "One frozen model per batch; age/deadline fairness; no extra flush wait between model batches"
+    },
+    "batch_histogram": {
+      "1": 26
+    },
+    "per_model": {
+      "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91": {
+        "positions": 13,
+        "batches": 13,
+        "batch_histogram": {
+          "1": 13
+        },
+        "queue_wait_seconds": 0.11339446483179927,
+        "queue_wait_max_seconds": 0.03114992706105113,
+        "queue_wait_histogram": {
+          "32": 2,
+          "8": 11
+        },
+        "forward_seconds": 0.29436996951699257,
+        "valid_candidate_cells": 870,
+        "padded_candidate_cells": 870
+      },
+      "94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b": {
+        "positions": 13,
+        "batches": 13,
+        "batch_histogram": {
+          "1": 13
+        },
+        "queue_wait_seconds": 0.3287959420122206,
+        "queue_wait_max_seconds": 0.0337347281165421,
+        "queue_wait_histogram": {
+          "32": 12,
+          "64": 1
+        },
+        "forward_seconds": 0.23723288672044873,
+        "valid_candidate_cells": 870,
+        "padded_candidate_cells": 870
+      }
+    },
+    "resident_models": 2,
+    "registered_models": 2,
+    "timing_note": "Host elapsed time; CUDA forward kernel duration is in optional profiler traces",
+    "error": null
+  },
+  "model_ids": [
+    "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+    "94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b"
+  ],
+  "matched_search_benchmark": false,
+  "teacher_admitted": false,
+  "scope": "real native input/GPU service parity; B04 search/teacher integration remains separate"
+}

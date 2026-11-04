@@ -1,0 +1,221 @@
+   Compiling syn v2.0.119
+   Compiling libc v0.2.191
+   Compiling zerocopy v0.8.63
+   Compiling serde_core v1.0.228
+   Compiling getrandom v0.2.17
+   Compiling rand_core v0.6.4
+   Compiling zerocopy-derive v0.8.63
+   Compiling serde v1.0.228
+   Compiling serde_derive v1.0.228
+   Compiling find-msvc-tools v0.1.15
+   Compiling shlex v2.0.1
+   Compiling num-traits v0.2.19
+   Compiling cc v1.10.0
+   Compiling ppv-lite86 v0.2.21
+   Compiling rand_chacha v0.3.1
+   Compiling regex-syntax v0.8.11
+   Compiling serde_json v1.0.149
+   Compiling rand v0.8.5
+   Compiling alloca v0.4.0
+   Compiling half v2.7.1
+   Compiling ciborium-io v0.2.2
+   Compiling clap_lex v1.1.1
+   Compiling anstyle v1.0.14
+   Compiling either v1.19.0
+   Compiling itertools v0.13.0
+   Compiling clap_builder v4.6.7
+   Compiling ciborium-ll v0.2.2
+   Compiling num_enum_derive v0.7.3
+   Compiling regex-automata v0.4.18
+   Compiling cast v0.3.0
+   Compiling same-file v1.0.6
+   Compiling brass-upstream-rules v0.1.0 (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/checkout/native/vendor/brass-upstream-rules)
+   Compiling walkdir v2.5.0
+warning: unused import: `crate::core::locations::LocationName`
+   --> vendor/brass-upstream-rules/src/core/locations.rs:356:9
+    |
+356 |     use crate::core::locations::LocationName;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_1`
+   --> vendor/brass-upstream-rules/src/core/locations.rs:357:9
+    |
+357 |     use crate::core::static_data::BEER_BREWERY_1;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_2`
+   --> vendor/brass-upstream-rules/src/core/locations.rs:358:9
+    |
+358 |     use crate::core::static_data::BEER_BREWERY_2;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Compiling criterion-plot v0.8.2
+warning: function `to_range` is never used
+   --> vendor/brass-upstream-rules/src/consts.rs:348:10
+    |
+348 | const fn to_range(bounds: (usize, usize)) -> Range<usize> {
+    |          ^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `NUM_NAMED_LOCATIONS` is never used
+  --> vendor/brass-upstream-rules/src/core/locations.rs:49:7
+   |
+49 | const NUM_NAMED_LOCATIONS: usize = 27;
+   |       ^^^^^^^^^^^^^^^^^^^
+
+warning: function `enumerate_legal_actions_for_root` is never used
+   --> vendor/brass-upstream-rules/src/game/legal_actions.rs:139:15
+    |
+139 | pub(crate) fn enumerate_legal_actions_for_root(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   Compiling regex v1.13.1
+   Compiling num_enum v0.7.3
+   Compiling clap v4.6.7
+   Compiling ciborium v0.2.2
+   Compiling tinytemplate v1.2.1
+   Compiling rand_xorshift v0.3.0
+   Compiling page_size v0.6.0
+   Compiling unarray v0.1.4
+   Compiling lazy_static v1.5.1
+   Compiling bitflags v2.13.2
+   Compiling oorandom v11.1.5
+   Compiling anes v0.1.6
+   Compiling criterion v0.8.2
+warning: `brass-upstream-rules` (lib) generated 6 warnings (run `cargo fix --lib -p brass-upstream-rules` to apply 3 suggestions)
+   Compiling proptest v1.6.0
+   Compiling brass-ai-core v0.1.0 (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/checkout/native/brass-ai-core)
+    Finished `release` profile [optimized] target(s) in 1m 22s
+     Running unittests src/lib.rs (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/target/x86_64-unknown-linux-gnu/release/deps/brass_ai_core-a9e0a852716e9422)
+
+running 4 tests
+test features::measure::tests::bounds_unknowns_and_applicability_have_distinct_encodings ... ok
+test diagnostic::tests::private_deals_and_rng_are_owned ... ok
+test state::belief::tests::recorded_shuffle_has_exact_uniform_support_and_duplicate_multiplicity ... ok
+test state::belief::tests::native_samples_match_unseen_multiset_marginals_and_replay ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+
+     Running tests/contracts.rs (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/target/x86_64-unknown-linux-gnu/release/deps/contracts-6775cac973808d26)
+
+running 6 tests
+test external_types_and_messages_reject_unsupported_fields ... ok
+test choices_round_trip ... ok
+test framing_rejects_bad_lengths_and_partial_headers ... ok
+test frames_round_trip ... ok
+test seat_admission ... ok
+test native_states_are_deterministic_and_clones_are_detached ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/cooperative.rs (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/target/x86_64-unknown-linux-gnu/release/deps/cooperative-f6b3455cf3d49222)
+
+running 10 tests
+test deep_generation_cancellation_is_a_fallible_result ... ok
+test cancellation_at_each_publication_point_rolls_back_edges_and_expansion ... ok
+test foreign_tree_cannot_receive_pending_backup ... ok
+test late_batch_has_no_counts_no_plan_support_and_no_reservation_leak ... ok
+test merger_rejects_malformed_snapshots_without_panicking ... ok
+test recorded_merger_uses_pooled_q_and_union_of_survivors ... ok
+test reservations_are_bounded_and_barrier_is_completed_only ... ok
+test retirement_releases_each_slot_once_and_never_adds_visits ... ok
+test fixed_wave_interleaving_is_repeatable_and_deduplicates_expansions ... ok
+test singleton_preserves_scalar_counts_returns_plans_and_draws ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s
+
+     Running tests/features.rs (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/target/x86_64-unknown-linux-gnu/release/deps/features-7ed09d98d30c2394)
+
+running 5 tests
+test cancellation_and_invalid_input_clear_published_tensors ... ok
+test descriptors_are_critic_only_and_relative_budgets_stay_stable ... ok
+test pages_are_owner_local_immutable_and_fail_closed ... ok
+test full_candidates_reuse_buffers_and_card_equivalent_effects ... ok
+test typed_input_never_exposes_setup_or_nonacting_seats ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/privacy.rs (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/target/x86_64-unknown-linux-gnu/release/deps/privacy-667b9f29d06deb0b)
+
+running 6 tests
+test detached_worlds_preserve_each_root_and_sample_other_observations ... ok
+test empty_merchant_field_absence_survives_sampling_roundtrip_and_saves ... ok
+test hidden_live_counterfactuals_cannot_change_recorded_worlds ... ok
+test malformed_sampling_and_future_recall_fail_without_consuming_prepared_root ... ok
+test recall_changes_identity_but_never_sampling_conditioning ... ok
+test both_eras_hide_partial_chance_and_keep_only_changed_hands_in_recall ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.14s
+
+     Running tests/rules.rs (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/target/x86_64-unknown-linux-gnu/release/deps/rules-561a9bae9754a2ad)
+
+running 4 tests
+test complete_pass_game_has_two_eras_no_final_income_and_shared_win ... ok
+test overflow_after_discard_rolls_back_current_state_and_save ... ok
+test upstream_market_prices_match_target_for_all_bounded_supplies ... ok
+test lawful_staged_prefixes_preserve_import_and_forks ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.09s
+
+     Running tests/search.rs (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/target/x86_64-unknown-linux-gnu/release/deps/search-86dea48ab30315fb)
+
+running 9 tests
+test completed_q_is_actor_prior_weighted ... ok
+test arena_identity_stale_collision_and_cost_backup ... ok
+test exact_terminal_ties_and_vp_cap ... ok
+test failed_or_dropped_leaf_never_publishes_visits ... ok
+test hash_collision_uses_semantic_equality ... ok
+test equation_three_matches_literal_squared_loss ... ok
+test post_backup_halving_and_small_budgets ... ok
+test underflow_ties_and_nonfinite ... ok
+test toy_first_leaf_terminal_and_exact_budget ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/sessions.rs (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/target/x86_64-unknown-linux-gnu/release/deps/sessions-7e95e5a3ed67071f)
+
+running 19 tests
+test budgets_costs_and_missing_estimate ... ok
+test changed_root_reuses_only_nn_cache_and_starts_with_fresh_counts ... ok
+test action_two_has_its_own_complete_proof_and_revalidates ... ok
+test complete_action_acknowledges_intermediate_recall_before_action_two ... ok
+test completion_reserve_cancel_and_expiry_are_bounded ... ok
+test focus_affordability_is_conservative_without_changing_quota_costs ... ok
+test complete_support_continuation_and_no_second_clock ... ok
+test focus_stability_requires_both_owners_and_the_entire_proof ... ok
+test invalid_request_cannot_shorten_clock_or_poison_revision ... ok
+test late_evaluation_does_not_publish_support_and_cancel_applies_nothing ... ok
+test native_interruptions_before_and_after_a_balanced_round ... ok
+test partial_leaf_has_no_complete_plan_support ... ok
+test permitted_projection_is_identical_in_all_24_hidden_burn_allocations ... ok
+test projection_preserves_live_identity_and_completes_a_legal_incumbent ... ok
+test recorded_round_extension_oracle ... ok
+test stale_identity_repeat_and_context_cannot_restart ... ok
+test support_watermark_excludes_future_and_partial_paths ... ok
+test timed_quota_is_frozen_and_missing_or_wrong_estimates_are_explicit ... ok
+test no_switch_checkpoint_resumes_the_exact_owner_tournament ... ok
+
+test result: ok. 19 passed; 0 failed; 0 ignored; 0 measured; 2 filtered out; finished in 0.20s
+
+     Running tests/simulation.rs (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/target/x86_64-unknown-linux-gnu/release/deps/simulation-f4f0d65f7a3c9f08)
+
+running 2 tests
+test explicit_setup_reproduces_initial_state_and_chance_prefix_clones ... ok
+test bounded_handles_fail_atomically_and_never_alias_retired_objects ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/state.rs (/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/target/x86_64-unknown-linux-gnu/release/deps/state-e9fd20fb60de5cc0)
+
+running 5 tests
+test deleting_any_physical_tile_is_rejected ... ok
+test initial_roundtrip_and_private_clone ... ok
+test snapshot_survives_source_drop_and_restores_indexes ... ok
+test three_players_and_unknown_nested_fields_are_rejected ... ok
+test import_export_preserves_signed_vp_and_wide_cash ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+

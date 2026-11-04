@@ -1,0 +1,25 @@
+Qualification: compiler-preflight
+Qualification: bootstrap-build
+Qualification: build
+Qualification: test
+Qualification: adapter-tests
+Qualification: collection-smoke
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b02.py", line 186, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b02.py", line 181, in main
+    try:result=qualify(a,a.out)
+               ^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b02.py", line 149, in qualify
+    commands.append(base.command([sys.executable,'-m','brass_ai.rust_backend.lab_b02_smoke',
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 107, in command
+    code = process.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/subprocess.py", line 2045, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '-m', 'brass_ai.rust_backend.lab_b02_smoke', '--run', '/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart', '--state', '/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b01/lab-state.json', '--build', '/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b02/build.json', '--out', '/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T005116206749Z-g570-all-c370fde6/b02', '--device', 'cuda:0', '--mono', 'mono', '--workers', '60']' timed out after 240 seconds
