@@ -1,0 +1,1780 @@
+{
+  "agents": {
+    "generation-0": {
+      "checkpoint": {
+        "generation": 0,
+        "model_id": "94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b",
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b.pt",
+        "sha256": "5485d1f1ae04edd227d79e3f4b9a7f0bd4b3442ad32819726c15cf138ea1082a",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-000670": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 670,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "a4b68c412a55bf87bbbdc76217d225c91f992823d7adbd9181a06d72c6d7cfaf",
+          "model_id": "4c877c556fcb361a027207c287bd4b9739f4560f0918a5b40038a440e3dfd153"
+        },
+        "generation": 670,
+        "model_id": "4c877c556fcb361a027207c287bd4b9739f4560f0918a5b40038a440e3dfd153",
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-4c877c556fcb361a027207c287bd4b9739f4560f0918a5b40038a440e3dfd153-aux-a4b68c412a55bf87.pt",
+        "sha256": "fac95784b8d216531958ff4b6e64b881616c619edd781b37925d7509e6d6255e",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-000680": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 680,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "714629a9967313d7a8cbbf3eb934c32b95cd9283974ce181a5596295248065c8",
+          "model_id": "91c89bd1c7ff44ad7ae15158ce4a0496b14fdf860b6ea56c178d30a9d24bd3d6"
+        },
+        "generation": 680,
+        "model_id": "91c89bd1c7ff44ad7ae15158ce4a0496b14fdf860b6ea56c178d30a9d24bd3d6",
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-91c89bd1c7ff44ad7ae15158ce4a0496b14fdf860b6ea56c178d30a9d24bd3d6-aux-714629a9967313d7.pt",
+        "sha256": "55dae2b0b339e85081c9de576fcfee9d26822b875e01a7e8fa0c7f06a531688c",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-000690": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 690,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "22f6ffa0d23cf1efb51495fb42ce9d3ff8e3c0113f9d6add8db46fff7febf54e",
+          "model_id": "36da22555ae8000996df74ffd6ad1e8bb0dd9daf758a3805f7216eed5307986a"
+        },
+        "generation": 690,
+        "model_id": "36da22555ae8000996df74ffd6ad1e8bb0dd9daf758a3805f7216eed5307986a",
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-36da22555ae8000996df74ffd6ad1e8bb0dd9daf758a3805f7216eed5307986a-aux-22f6ffa0d23cf1ef.pt",
+        "sha256": "8a2ed10e6d97ab8323dffe9680780f1c14dfbfa4970990d84b750c17e7d9e450",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-000710": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 710,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "11284922aa7ba15502e359794dc9cf83f806ad8fb3675bc1fbce3d6e9c68ee07",
+          "model_id": "1991a2ce8a8b973499e0f18b418fef5b4261da66a43b4b5a5096296ef01ea7d3"
+        },
+        "generation": 710,
+        "model_id": "1991a2ce8a8b973499e0f18b418fef5b4261da66a43b4b5a5096296ef01ea7d3",
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-1991a2ce8a8b973499e0f18b418fef5b4261da66a43b4b5a5096296ef01ea7d3-aux-11284922aa7ba155.pt",
+        "sha256": "40270fd25c98cc607a2ac416b471144ebdd2b63afe2fb98b0c75c9d42aa3c9ca",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-000720": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 720,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "572abcba3acb7dfb642c17ad25614f245001a4840330c3f8c9b5c11ba01949d1",
+          "model_id": "e393cf4eaec886aec53f71c0c34904aae32862a26d753629e8c37ec2c311e881"
+        },
+        "generation": 720,
+        "model_id": "e393cf4eaec886aec53f71c0c34904aae32862a26d753629e8c37ec2c311e881",
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e393cf4eaec886aec53f71c0c34904aae32862a26d753629e8c37ec2c311e881-aux-572abcba3acb7dfb.pt",
+        "sha256": "62ed9999adef511602c807ac457a8edfaecf3470411cc59e05a6258860a4353b",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-000730": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 730,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "f395355a995c22c223a649daf84b97e6ba6dc8ac0c7def8358f8411e2ff307ba",
+          "model_id": "5f93783f34ee83df7da54aa6b90b9d4f02e6fcaccd7febfceadc94f7323e8cf3"
+        },
+        "generation": 730,
+        "model_id": "5f93783f34ee83df7da54aa6b90b9d4f02e6fcaccd7febfceadc94f7323e8cf3",
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-5f93783f34ee83df7da54aa6b90b9d4f02e6fcaccd7febfceadc94f7323e8cf3-aux-f395355a995c22c2.pt",
+        "sha256": "8d55f8bc643688d4023ffca220c5c57ec0ac73834194d7164b5afbb34ef76ceb",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-000740": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 740,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "c7a7aa30d1ef74b84b22c409903ed83aa8d79721fc4953ede86edc13d67da656",
+          "model_id": "2ce015a22b67f948cb4305aaa8c1b3bd062ae80fcff54d1f42378afa319ff762"
+        },
+        "generation": 740,
+        "model_id": "2ce015a22b67f948cb4305aaa8c1b3bd062ae80fcff54d1f42378afa319ff762",
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2ce015a22b67f948cb4305aaa8c1b3bd062ae80fcff54d1f42378afa319ff762-aux-c7a7aa30d1ef74b8.pt",
+        "sha256": "122b75691e80f07ee2a323386384d9df3cc3408331abc27bfa5aa0d51a72025d",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-000750": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 750,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "fc35c012be4386f16ae421a39fa5fe2f606fb10d2ae0589a094979dc48c0f158",
+          "model_id": "63acc64606df71a21cdc709539446b594102f51f7ce46fcd0089510faf7a2d76"
+        },
+        "generation": 750,
+        "model_id": "63acc64606df71a21cdc709539446b594102f51f7ce46fcd0089510faf7a2d76",
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-63acc64606df71a21cdc709539446b594102f51f7ce46fcd0089510faf7a2d76-aux-fc35c012be4386f1.pt",
+        "sha256": "47b0465a235c17a2594104665d936d6fa69fbd56edc9ec6396cf594c29bc6815",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-000760": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 760,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "d51e2c3f57991acdcbeb4e439e626ad25c5430d0a5812104a8c59778ced499f9",
+          "model_id": "37f47dc9176e7cdc5dd1922fa0ca6b332985113618283030e0f5849e1965b36c"
+        },
+        "generation": 760,
+        "model_id": "37f47dc9176e7cdc5dd1922fa0ca6b332985113618283030e0f5849e1965b36c",
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-37f47dc9176e7cdc5dd1922fa0ca6b332985113618283030e0f5849e1965b36c-aux-d51e2c3f57991acd.pt",
+        "sha256": "51b09adac15c9c28bbd0076101a4ed44417f95d6ec10ab226b24cf92578c9b6e",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "trained-start-baseline": {
+      "checkpoint": {
+        "generation": 0,
+        "model_id": "73fd0aa12a7a6496414b03e106ae52367d865767922aed7b40ea88a7940891ff",
+        "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/seed/weights-73fd0aa12a7a6496414b03e106ae52367d865767922aed7b40ea88a7940891ff.pt",
+        "sha256": "e14d5b7a4596944ac7dec1b30c676b52ab79beb7bbf2e55a8b8540cc8a312937",
+        "weights_only": true
+      },
+      "fixed": false,
+      "kind": "model",
+      "reference_role": "trained-start-baseline",
+      "source_generation": 1290,
+      "source_run": "artifacts/step5/joint7-v11-2-grouped-lr-critic"
+    },
+    "v4": {
+      "kind": "v4",
+      "policy": {
+        "budget": {
+          "global_workers": 60,
+          "role": "lab",
+          "search_workers": 4,
+          "seconds": 1.0,
+          "work_multiplier": 1
+        },
+        "kind": "lab-legacy",
+        "parent": "bank-3dc65253a610191d66a5/balanced-v3-masked-economy",
+        "policy_id": "shared-legacy-search/b73f6cd15a3ae7d6e2239b7427a86177cfdd472d5165940b70ab10ec9aca1f26",
+        "purpose": "training",
+        "search_free": true,
+        "search_runtime": {
+          "id": "search-76a2f9ad7529c0e5e2117a36",
+          "recipe": {
+            "adapter": "d780c9b94c02dcb1b3783b2d40ae45f51a5e4de050f4f65e7181e2741bb8a0cd",
+            "bank": "bank-3dc65253a610191d66a5",
+            "contract": "shared-heuristic-search/1.0.0",
+            "profiles": {
+              "balanced-v3-masked-economy": "6afa9cd47d94e00fa667b3d91e4f98d2d7aead91ebd7fc1ad447a9d874b6cd79",
+              "cotton-v3-masked-economy": "a9f68ecd1b1bb46165df251d3e95c1e26ac4c472ab16ae70e62748d59aa3286c",
+              "goods-beer-v3-masked-economy": "8863a89e4304db01633e811d53814f4e12a7c69a21d40bf1c3be273983303831",
+              "pottery-flex-v3-masked-economy": "ee300bc0f92da7ade073b5c8746aadb230c736a3c4bf9ab1c68cf99cfb8eadf6",
+              "rail-tempo-v3-masked-economy": "03c1cb4d219d86e2a45d3d5d1168e9f126700eb0eb168f345471a4c1130b2814",
+              "supplier-v3-masked-economy": "983ca1fee91eaca7930381ccfab5fe2502b8cda8ef50192607be20981363fa08"
+            },
+            "sources": {
+              "src/BrassHost/Choices.cs": "598beee52e36598b1c5e5215fce4302655cfd12b13b3d2b7add0bb9a3c2c8c6c",
+              "src/BrassHost/Host.cs": "84424276d8ff37a719aca14c6da17dafcd6fdd7b6e55371676313b51c313c911",
+              "src/BrassHost/Model.cs": "5565f8c4c0146138256d270a721042b38830b62c0b7316453b5a9ac5949ac87d",
+              "src/BrassHost/Observation.cs": "7162102e3b12613842d17e4ca1c24ba9837053eba955b4513ba134c3f49841c5",
+              "src/BrassHost/Position.cs": "e587837815c74df3c275858e0df0e36e8b3db35182f3743bc5c53fc31e84f464",
+              "src/BrassLegacyAI/Belief.cs": "f0a66fbe87e9d533f90634146bf7bade0560abe37613bc4ccae53a1fa9d791da",
+              "src/BrassLegacyAI/Coordinator.cs": "d2d97765c9f21f639139f4bf2c238a07251f8ee8d1b124ed7e3ca5a6f56956c8",
+              "src/BrassLegacyAI/Harness.cs": "fffb164761be88f32b20b7d304989c4c7d2e079947aed5b6aeb3793f686785c3",
+              "src/BrassLegacyAI/HostExtensions.cs": "5692a1b0fd1dd834f3f7fb3177df7f2b26b5326e5846678277662eb0b99c9bea",
+              "src/BrassLegacyAI/IntentJournal.cs": "84e093d351e9a4a2829dc592b14b5e6cb620bd3bbb323e1c65921cad67aae347",
+              "src/BrassLegacyAI/LiveHost.cs": "614942261d8345f8e17451e596e6022fe9a61c3d97de22c23e0ccd153e4d5ef0",
+              "src/BrassLegacyAI/Planner.cs": "742096885d71c10f59ffc75b9cb571e68d39be87d807106e1b4e1922a2c866e3",
+              "src/BrassLegacyAI/Program.cs": "d0559ca5fcf36c6aefde6fb7e57902452710abc5ef5108c91bd5608195e37ffd",
+              "src/BrassLocalAI/Policy/Behavior.cs": "4cf4f6e5715701832ad9e860cde95b5cd68caa4c14ba16ecdd7dd7a2b47efd5d",
+              "src/BrassLocalAI/Policy/CashManagement.cs": "74af8f3672314a5698f6146778bdd6d95d213063d9f628a8f657f48f2c0c385c",
+              "src/BrassLocalAI/Policy/Conversion.cs": "927743aaa873d1a712b46140ea6897fb0f382d1a1c90041b213a68925a61b761",
+              "src/BrassLocalAI/Policy/Evaluator.cs": "f8ece487af2c554c09bdf0af78f111295decc5ef69ae9b1736a39668cdea502d",
+              "src/BrassLocalAI/Policy/Tactics.cs": "36d631d66c6956572e8d41ff94f6f87e2b3152cf91d94882aecf82b7b19cb67c",
+              "src/BrassMaskedSearch/CompetitiveEconomy.cs": "57d19eec2090541915104cbb89680da2784fa0a527ce30ca329a7e4065809ded",
+              "src/BrassMaskedSearch/DeadlineAdmission.cs": "d1bb8ac0cba2c237efcca5e18d2fd78bb07d89b85a31d297ba8487edbe155ea6",
+              "src/BrassMaskedSearch/EraEconomy.cs": "99cd1e859f3781a87ffe1e750d7bf45aae109b792cc7f26c1c04bed84fd22085",
+              "src/BrassMaskedSearch/HeuristicBatchQueue.cs": "9cad7781f41c93a3916ea01286294c39a680ad5e32d1ecccbfe202911bc5bc36",
+              "src/BrassMaskedSearch/InvestmentOpportunity.cs": "d46817cd3d933bfefa0f9aadc00380fc2e0bb0e183f41bee46cb9286fb173523",
+              "src/BrassMaskedSearch/MaskedSearch.cs": "228c40af9b11306380eb8fa3ffd8c2c174d454cd9b8ebf43345211611828dafb",
+              "src/BrassMaskedSearch/MaskedSearchExecution.cs": "385f5aaf8d423de896e05782d0418d02086daea20fb7a64df969de659f2ba936",
+              "src/BrassMaskedSearch/NetworkOptions.cs": "805b5828b9054e98f3b0b0617e6fc8c41857b2ee3f17d216ad5017fb5001f0b1",
+              "src/BrassMaskedSearch/RootForest.cs": "16290524a79c580743a6728ff36423704736383d083fce26392c46fa59a25ab9",
+              "src/BrassMaskedSearch/SaleTiming.cs": "ca98967941fe574065675695a71e5492779fee10d0d77f2fade0146b1650876f",
+              "src/BrassMaskedSearch/SearchSettings.cs": "5711a56e5dad1e46d8472e92a606b394a21924a1df6502b8a1d88e454c4e742e",
+              "src/BrassMaskedSearch/StrategicOpenings.cs": "79d8328364ba4f78c74cd3e2cc8aeb12741c14ab51633dc43c2f957cf078d2b4",
+              "src/BrassMaskedSearch/TournamentOpenings.cs": "f84b53753377934f67af03e7316514ee55848d2367be802bf28e05bcdf0e03fd"
+            }
+          }
+        },
+        "work_budget": {
+          "contract": "legacy-opponent-turn-time/1.0.0",
+          "mode": "time",
+          "seconds_per_turn": 1.0
+        }
+      }
+    }
+  },
+  "candidate": "generation-000760",
+  "config": {
+    "bootstrap": 200,
+    "contract": "plackett-luce-rating/1.0.0",
+    "elo_scale": 173.7,
+    "enabled": true,
+    "every_iterations": 10,
+    "nearest_opponents": 8,
+    "panel_setups": 8,
+    "references": [
+      "generation-0",
+      "v4"
+    ],
+    "seat_prior_sd": 0.5,
+    "seat_rotations": 4,
+    "seed": 910517,
+    "setups": 32,
+    "theta_prior_sd": 2.0,
+    "v4_profile": "bank-3dc65253a610191d66a5/balanced-v3-masked-economy"
+  },
+  "coverage": {
+    "active": true,
+    "active_kl_reference": null,
+    "contract": "competitive-rating-coverage/2.0.0",
+    "estimated_theta": 4.338099206919568,
+    "main_games": 128,
+    "nearest": [
+      "generation-000750",
+      "generation-000740",
+      "generation-000680",
+      "generation-000690",
+      "generation-000720",
+      "generation-000710",
+      "generation-000670",
+      "generation-000730"
+    ],
+    "opponent_setup_appearances": {
+      "generation-0": 2,
+      "generation-000670": 11,
+      "generation-000680": 11,
+      "generation-000690": 11,
+      "generation-000710": 11,
+      "generation-000720": 11,
+      "generation-000730": 11,
+      "generation-000740": 11,
+      "generation-000750": 11,
+      "trained-start-baseline": 4,
+      "v4": 2
+    },
+    "previous_rated_checkpoint": "generation-000750",
+    "rated_opponents_per_game": 2.75,
+    "rated_setup_appearances": {
+      "generation-000670": 11,
+      "generation-000680": 11,
+      "generation-000690": 11,
+      "generation-000710": 11,
+      "generation-000720": 11,
+      "generation-000730": 11,
+      "generation-000740": 11,
+      "generation-000750": 11
+    },
+    "reference_setup_indices": {
+      "0": "trained-start-baseline",
+      "12": "generation-0",
+      "16": "trained-start-baseline",
+      "20": "v4",
+      "24": "trained-start-baseline",
+      "28": "generation-0",
+      "4": "v4",
+      "8": "trained-start-baseline"
+    },
+    "required_opponents": [
+      "generation-000750"
+    ],
+    "startup_fallback_seats": {}
+  },
+  "estimate_scope": "Latest rated checkpoint, or IL zero before the first slot",
+  "estimated_theta": 4.338099206919568,
+  "execution": {
+    "batch_size": 64,
+    "cpu_budget": 64,
+    "cpu_reserve": 4,
+    "feature_cache": true,
+    "flush_ms": 1.0,
+    "heavy_processes": 24,
+    "hosts_per_process": 2,
+    "inference_routing": "demand",
+    "max_candidate_cells": 131072,
+    "max_decisions": 2000,
+    "max_models": 72,
+    "model_cohorts": false,
+    "padding_ratio": 2.0,
+    "policy_cache": 32,
+    "processes": 24,
+    "replica_backlog": 32,
+    "search_workers_per_turn": 4,
+    "shard_bytes": 268435456,
+    "shard_games": 8,
+    "shared_slot_bytes": 2097152,
+    "teacher_search_workers_per_turn": 8,
+    "worker_threads": 1
+  },
+  "format": "plackett-luce-slot/1.0.0",
+  "generation": 760,
+  "host": "artifacts/r1-host/guarded",
+  "implementation": "2f9f1a230fff12a922b36d5a8a7e081edf80643860e74c6db0af4a1f2adaa567",
+  "lineups": [
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000730",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910521
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000730",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910521
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000730",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910521
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000730",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910521
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910532
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910532
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910532
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910532
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000720",
+        "generation-000690",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910536
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000720",
+        "generation-000690",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910536
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000720",
+        "generation-000690",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910536
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000720",
+        "generation-000690",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910536
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000720",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910548
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000720",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910548
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000720",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910548
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000720",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910548
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "v4",
+        "generation-000690",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910549
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "v4",
+        "generation-000690",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910549
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "v4",
+        "generation-000690",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910549
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "v4",
+        "generation-000690",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910549
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000710",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910552
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000710",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910552
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000710",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910552
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000710",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910552
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000670",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910555
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000670",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910555
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000670",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910555
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000670",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910555
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910573
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910573
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910573
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910573
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000730",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910574
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000730",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910574
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000730",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910574
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000730",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910574
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000730",
+        "generation-000670",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910580
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000730",
+        "generation-000670",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910580
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000730",
+        "generation-000670",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910580
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000730",
+        "generation-000670",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910580
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000680",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910583
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000680",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910583
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000680",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910583
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000680",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910583
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000710",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910595
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000710",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910595
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000710",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910595
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000710",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910595
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-0",
+        "generation-000680",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910628
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-0",
+        "generation-000680",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910628
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-0",
+        "generation-000680",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910628
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-0",
+        "generation-000680",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910628
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000750",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910631
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000750",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910631
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000750",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910631
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000750",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910631
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000670",
+        "generation-000690"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910640
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000670",
+        "generation-000690"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910640
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000670",
+        "generation-000690"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910640
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000670",
+        "generation-000690"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910640
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000720",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910647
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000720",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910647
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000720",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910647
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000720",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910647
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910649
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910649
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910649
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910649
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000670",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910665
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000670",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910665
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000670",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910665
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000670",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910665
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000680",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910666
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000680",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910666
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000680",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910666
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000680",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910666
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000710",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910685
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000710",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910685
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000710",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910685
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000710",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910685
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "v4",
+        "generation-000690",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910692
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "v4",
+        "generation-000690",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910692
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "v4",
+        "generation-000690",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910692
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "v4",
+        "generation-000690",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910692
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910714
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910714
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910714
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000710",
+        "generation-000740",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910714
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000720",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910715
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000720",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910715
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000720",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910715
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000720",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910715
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000720",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910723
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000720",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910723
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000720",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910723
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000720",
+        "generation-000740"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910723
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910724
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910724
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910724
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "trained-start-baseline",
+        "generation-000680",
+        "generation-000730"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910724
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000710",
+        "generation-000690"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910754
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000710",
+        "generation-000690"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910754
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000710",
+        "generation-000690"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910754
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000750",
+        "generation-000710",
+        "generation-000690"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910754
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000690",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910768
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000690",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910768
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000690",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910768
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000690",
+        "generation-000720"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910768
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000730",
+        "generation-000750",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910773
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000730",
+        "generation-000750",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910773
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000730",
+        "generation-000750",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910773
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000730",
+        "generation-000750",
+        "generation-000670"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910773
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-0",
+        "generation-000680",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910783
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-0",
+        "generation-000680",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910783
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-0",
+        "generation-000680",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910783
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-0",
+        "generation-000680",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910783
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000720",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910792
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000720",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910792
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000720",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910792
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000740",
+        "generation-000720",
+        "generation-000750"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910792
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000730",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910848
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000730",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910848
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000730",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910848
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000670",
+        "generation-000730",
+        "generation-000680"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910848
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000740",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910852
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000740",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910852
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000740",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910852
+    },
+    {
+      "agents": [
+        "generation-000760",
+        "generation-000690",
+        "generation-000740",
+        "generation-000710"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910852
+    }
+  ],
+  "nearest": [
+    "generation-000750",
+    "generation-000740",
+    "generation-000680",
+    "generation-000690",
+    "generation-000720",
+    "generation-000710",
+    "generation-000670",
+    "generation-000730"
+  ],
+  "partition": "validation",
+  "startup_reference_fallback": false
+}
