@@ -1,0 +1,6 @@
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T134343574020Z-verify-next-afae8860
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+Git-visible results: /data/not_backed_up/yxu209/ai-training/results/rust-lab-qualification/20261107T134343574020Z-verify-next-afae8860
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T133341969715Z-b07-continue-cf42c992/verify-next

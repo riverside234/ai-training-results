@@ -1,0 +1,87 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-07T13:43:44.258772+00:00",
+  "source": "artifacts/rust-backend/20261107T133341969715Z-b07-continue-cf42c992",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T133341969715Z-b07-continue-cf42c992",
+  "review_only": true,
+  "files": [
+    {
+      "source": "committed-training-config.json",
+      "path": "evidence/committed-training-config.json",
+      "source_bytes": 23396,
+      "source_sha256": "602f16336a4f48837a05317a4aa03b1c5b9989916bebf7268bd9e57841d4d75e",
+      "bytes": 23396,
+      "sha256": "602f16336a4f48837a05317a4aa03b1c5b9989916bebf7268bd9e57841d4d75e",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 2527,
+      "source_sha256": "ec30ef3973acec5fcab3534a36e8d09ae5c8b0720c44ffeb5ca5cb4e4b1e02b9",
+      "bytes": 2527,
+      "sha256": "ec30ef3973acec5fcab3534a36e8d09ae5c8b0720c44ffeb5ca5cb4e4b1e02b9",
+      "gzip": false
+    },
+    {
+      "source": "training.log",
+      "path": "evidence/training.log",
+      "source_bytes": 2242,
+      "source_sha256": "c784d05bafb84c2d5138c2fb8501a03548b7adf7c3e3b792bb3932db4216a702",
+      "bytes": 2242,
+      "sha256": "c784d05bafb84c2d5138c2fb8501a03548b7adf7c3e3b792bb3932db4216a702",
+      "gzip": false
+    },
+    {
+      "source": "verify-next.log",
+      "path": "evidence/verify-next.log",
+      "source_bytes": 511,
+      "source_sha256": "04560ad467241f029b8201ec23239750472ea1337cde087c15ab6165f1ffae7d",
+      "bytes": 511,
+      "sha256": "04560ad467241f029b8201ec23239750472ea1337cde087c15ab6165f1ffae7d",
+      "gzip": false
+    },
+    {
+      "source": "verify-rollback.log",
+      "path": "evidence/verify-rollback.log",
+      "source_bytes": 523,
+      "source_sha256": "9b17a4e34e9165b2cd997eed7d3354c6e053654563d1861e329cafbe50f24749",
+      "bytes": 523,
+      "sha256": "9b17a4e34e9165b2cd997eed7d3354c6e053654563d1861e329cafbe50f24749",
+      "gzip": false
+    },
+    {
+      "source": "verify-rollback/qualification.json",
+      "path": "evidence/verify-rollback/qualification.json",
+      "source_bytes": 3286,
+      "source_sha256": "61be77ead1b1ae6804b9d0084a82b38d03d22d48af389607ccd9ebf111f6d959",
+      "bytes": 3286,
+      "sha256": "61be77ead1b1ae6804b9d0084a82b38d03d22d48af389607ccd9ebf111f6d959",
+      "gzip": false
+    },
+    {
+      "source": "verify-next/qualification.json",
+      "path": "evidence/verify-next/qualification.json",
+      "source_bytes": 3273,
+      "source_sha256": "2b0f43e79ed8932af2a4254236389303529f5d75cb45b5836d3158471ec21177",
+      "bytes": 3273,
+      "sha256": "2b0f43e79ed8932af2a4254236389303529f5d75cb45b5836d3158471ec21177",
+      "gzip": false
+    },
+    {
+      "source": "verify-next/restart/diagnostic-fork.json",
+      "path": "evidence/verify-next/restart/diagnostic-fork.json.gz",
+      "source_bytes": 2953357,
+      "source_sha256": "1675bbe2f86b30a3590e95ec92845a12067549101f6ada9739f97531ec74ecf2",
+      "bytes": 522553,
+      "sha256": "6f5615fdce09af4235b2412091e92cd09f589172fb18ef28e0081c2833030aa9",
+      "gzip": true
+    }
+  ],
+  "omitted": [
+    {
+      "source": "verify-next/restart/payload",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}

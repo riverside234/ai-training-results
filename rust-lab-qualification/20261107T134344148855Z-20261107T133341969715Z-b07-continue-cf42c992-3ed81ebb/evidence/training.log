@@ -1,0 +1,20 @@
+CUDA selection: logical cuda:0; CUDA_VISIBLE_DEVICES='0'; selected token='0'; UUID=3d06f287-eb90-1ae5-3786-d4a0c0dbbcf2. Logical cuda:0 is the first visible GPU.
+self-play prepare (CPU, 16 readers): starting (320 shards)
+self-play prepare (CPU, 16 readers): 20% (64/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 40% (128/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 60% (192/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 80% (256/320 shards; 0.1s)
+self-play prepare (CPU, 16 readers): 100% (320/320 shards; 0.7s)
+Recovery generation 1251: 400320 games, 52 PPO steps; collect=397.8s prepare=3.7s rehearsal=0.0s PPO=54.7s value_phase=39.2s teacher=0.0s diagnostics=0.5s eval=0.2s cleanup=0.0s; total=498.0s; NN batch mean=0.00; LR=7.5e-06 LRmult=1.250 apply:hold v4=0/320[reduced] q=3 eps=0.00 explore_age=1250 entropy=canal_action:0.00100,canal_other:0.00100,rail_action:0.00100,rail_other:0.00100 anneal=100/100 held=141 complete GAE=0.95->0.95 value_steps=48/64 value_stop=policy_kl_cap value_lr=4.9e-06 value_peak=4.9e-06[PPO] PPGbeta=0.125->0.125 critic=preserve Vkeep=0.00006 Vdrift=0.00411 value_intervals=3/4 GAE-health=0/20 PPG-critic-window=144steps/6iters value_rows=97379+99229 snapshots=1@1.00 snapshot_weight=fixed GAE-mixed=historical:0.95[0/10](95g/8,19i) AnchorKL=off health=ok history=25/25 not_due PFSP=IL:0.008 effective:23.4 alarms:0 v4=PFSP:0.008 mixedEV=historical:0.325vs0.338[ok] local=apply@1.00 rows=219726/270077 head_steps=52+48 aux_stage=full fit=48steps/769games aux_next=1.00 KLT1=0.00952 KLbehavior=0.00903 KLsample_probe=0.01008 KLfull=disabled KLstop=none value=0.0001; insolvency events=7 mean cost=0.0000; teacher rows=0 steps=0
+{
+  "run": "/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart",
+  "completed_iteration": 1251,
+  "checkpoint": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/generation-1251.pt",
+    "sha256": "a6ccace46d17b14751086d1715a70543355b9a6e6a89fa55eb080917882adf27",
+    "model_id": "555ac2bf37c0f51535e57c6008c72c0ff4cf7a2821f70c862f5bfdcbdc6965e5",
+    "generation": 1251
+  },
+  "best": null,
+  "summary_scope": "latest two iterations; bounded compact older metrics in retention-history.json"
+}

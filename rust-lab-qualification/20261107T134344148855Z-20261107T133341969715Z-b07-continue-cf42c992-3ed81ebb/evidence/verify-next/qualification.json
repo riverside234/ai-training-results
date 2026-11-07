@@ -1,0 +1,87 @@
+{
+  "action": "verify-next",
+  "passed": true,
+  "training_advanced": false,
+  "next_normal_commit_restart": "Passed",
+  "generation": 1251,
+  "restoration": {
+    "contract": "brass-joint7-continuation/1.0.0",
+    "generation": 1251,
+    "next_generation": 1252,
+    "checkpoint": {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/generation-1251.pt",
+      "sha256": "a6ccace46d17b14751086d1715a70543355b9a6e6a89fa55eb080917882adf27",
+      "model_id": "555ac2bf37c0f51535e57c6008c72c0ff4cf7a2821f70c862f5bfdcbdc6965e5",
+      "generation": 1251
+    },
+    "target_signature": "11e022e5b113081ee88f71506929bb4f7ad71777e1406f9b14df924a79ba68a2",
+    "full_state_restored": true,
+    "optimizers": [
+      "ppo",
+      "value",
+      "local-scoring-ppo",
+      "local-scoring-ppg"
+    ],
+    "search_value_restored": false,
+    "preserved_ppg_ages": [
+      1250,
+      1251
+    ],
+    "teacher_state_restored": false,
+    "cuda_rng_checked": true,
+    "topology": {
+      "saved_devices": 1,
+      "visible_devices": 1,
+      "restored_devices": 1
+    },
+    "snapshot_r2_overlay": null,
+    "recipe_restore": null,
+    "utility_readiness_before": {
+      "version": "ppg-value-phase/24.0.0",
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "ready": true,
+      "decisions": 270077,
+      "games": 769,
+      "steps": 48,
+      "before": {
+        "mse": 0.14507958287761327
+      },
+      "after": {
+        "mse": 0.14175323884937102
+      },
+      "scope": "Final accepted value-phase weights; ordinary critic-train games only; heldout games excluded"
+    },
+    "utility_readiness_after": {
+      "version": "ppg-value-phase/24.0.0",
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "ready": true,
+      "decisions": 270077,
+      "games": 769,
+      "steps": 48,
+      "before": {
+        "mse": 0.14507958287761327
+      },
+      "after": {
+        "mse": 0.14175323884937102
+      },
+      "scope": "Final accepted value-phase weights; ordinary critic-train games only; heldout games excluded"
+    },
+    "state_digest": "2987915cd0615a644ce270bea8240c1c21deeea0612772e1b96b8d946112ecea",
+    "checkpoint_parts": {
+      "format": "b05f8b98d9c306beab05e3eef08199fc3e8d2d52b4b777d2a21740b87ad6f843",
+      "compatibility": "9c75839c644ca4589bce5a8d177a3712408057d242663f4819b8e5092c371dee",
+      "model_config": "78790898ea477c15b7bab06011b22d643414ac3c00532df65f2626f856d70890",
+      "model_id": "9c704a6712fc359a4e25c21e7420bd53c75e33747df9ff61376127a6ba4fb9a3",
+      "state_dict": "a4ee3b5b5663863a3cbe20e0f2df2cc2ea45c61af75a5f1d0fe4304860dfc296",
+      "optimizer": "2dd289a136b4cd2349e586991cc162d382b400430a4395f791b615633ac3b653",
+      "step": "953dabf3b9ce9cf28e57670c4eb6397f79eab446d111afb285c694a23da41b2f",
+      "training": "5ea48aed06756bb52ddb3fc2561d6d6cf382da05409225780ad3259b1c8d2fe8",
+      "rng": "0a7127dc3c0f186923eef593c5607482318e7ff25337b10a6e8d84d3d5be8a50",
+      "cuda_rng": "89e1d68c76848b5c7aa865e454498d1b32a4a988a7fb1dd92ff9d597799c2cf1"
+    },
+    "optimizer_steps": 0,
+    "source_run_modified": false,
+    "qualification_scope": "Full restoration; next update/commit remains B05"
+  },
+  "production_modified": false
+}
