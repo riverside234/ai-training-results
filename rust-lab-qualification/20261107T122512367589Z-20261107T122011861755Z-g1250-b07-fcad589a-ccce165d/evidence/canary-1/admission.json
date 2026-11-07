@@ -1,0 +1,17 @@
+{
+  "policy_sealing_seconds": {
+    "0f359320aca7eafb99163fd91d6dca52e29fc87c3626876db6c045d653ca4790": 0.078969889000291,
+    "75559de03218f5360f995c28adad993bc5574038d09bec56b9d4234bb373f971": 0.053735363006126136
+  },
+  "value": {
+    "rows": {
+      "train": 64,
+      "heldout": 64
+    },
+    "value_admission_per_table_seconds": {
+      "0f359320aca7eafb99163fd91d6dca52e29fc87c3626876db6c045d653ca4790": 0.07297495598322712,
+      "75559de03218f5360f995c28adad993bc5574038d09bec56b9d4234bb373f971": 0.05142648899345659
+    },
+    "value_admission_seconds": 0.12446245600585826
+  }
+}
