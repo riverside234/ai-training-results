@@ -1,0 +1,21 @@
+Qualification: fixtures
+Qualification: test
+Qualification: build
+Qualification: canary-1
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T120104241946Z-remaining-498b88a3
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+Git-visible results: /data/not_backed_up/yxu209/ai-training/results/rust-lab-qualification/20261107T120104241946Z-remaining-498b88a3
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T115808701063Z-b07-continue-1128185f/remaining
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py", line 222, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py", line 195, in main
+    base.command(command,cwd=ROOT,env=dict(env,BRASS_B07_PARENT_LOCK=(args.run/'.active-run.json').read_text()),
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py", line 123, in command
+    require(code == 0, 'Qualification command failed; see ' + str(log))
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T115808701063Z-b07-continue-1128185f/remaining/canary-1.log

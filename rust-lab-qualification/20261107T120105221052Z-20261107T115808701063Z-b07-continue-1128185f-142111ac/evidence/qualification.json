@@ -1,0 +1,11 @@
+{
+  "milestone": "B07-production",
+  "passed": false,
+  "expected_generation": 1250,
+  "training_started": false,
+  "production_adoption": "Pending",
+  "next_normal_commit_restart": "Pending",
+  "active_stage": "remaining",
+  "error": "Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py', '--complete-remaining', '--run', '/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart', '--device', 'cuda:0', '--mono', 'mono', '--out', '/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T115808701063Z-b07-continue-1128185f/remaining']' returned non-zero exit status 1.",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 170, in main\n    execute(args, out, report, invoke)\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 114, in execute\n    invoke('remaining', command)\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 166, in invoke\n    command(argv, out/(name+'.log'), base.python_environment())\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 55, in command\n    if code:raise subprocess.CalledProcessError(code, argv)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsubprocess.CalledProcessError: Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py', '--complete-remaining', '--run', '/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart', '--device', 'cuda:0', '--mono', 'mono', '--out', '/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T115808701063Z-b07-continue-1128185f/remaining']' returned non-zero exit status 1.\n"
+}
