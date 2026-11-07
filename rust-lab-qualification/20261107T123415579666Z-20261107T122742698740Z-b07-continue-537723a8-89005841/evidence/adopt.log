@@ -1,0 +1,7 @@
+Reviewed same-run continuation: generation 1250, 400000 games; checkpoint, Adam/RNG, population and schedule counters preserved
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T123353255656Z-adopt-d664339e
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+Git-visible results: /data/not_backed_up/yxu209/ai-training/results/rust-lab-qualification/20261107T123353255656Z-adopt-d664339e
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T122742698740Z-b07-continue-537723a8/adopt

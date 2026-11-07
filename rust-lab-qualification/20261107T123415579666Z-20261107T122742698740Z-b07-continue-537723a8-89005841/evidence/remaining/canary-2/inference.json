@@ -1,0 +1,128 @@
+{
+  "batches": 15433,
+  "positions": 16106,
+  "model_cache_hits": 15433,
+  "valid_candidate_cells": 1146906,
+  "padded_candidate_cells": 1188689,
+  "max_batch_positions": 2,
+  "max_padded_candidate_cells": 786,
+  "expired_requests": 13,
+  "cancelled_requests": 0,
+  "packed_output_batches": 15433,
+  "shared_requests": 16107,
+  "shared_replies": 16107,
+  "inline_requests": 0,
+  "model_loads": 1,
+  "model_evictions": 0,
+  "timings": {
+    "inference.batch": {
+      "seconds": 69.93348607359803,
+      "calls": 15434,
+      "mean_seconds": 0.004531131662148376,
+      "p50_seconds": 0.003505892993416637,
+      "p95_seconds": 0.010784033016534522,
+      "max_seconds": 0.3848235339974053,
+      "first_seconds": 0.3848235339974053,
+      "steady_mean_seconds": 0.004506490153541154,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1024
+    },
+    "inference.forward": {
+      "seconds": 67.74849378954968,
+      "calls": 15433,
+      "mean_seconds": 0.004389846030554635,
+      "p50_seconds": 0.003332566993776709,
+      "p95_seconds": 0.010643405024893582,
+      "max_seconds": 0.38417782899341546,
+      "first_seconds": 0.38417782899341546,
+      "steady_mean_seconds": 0.004365235611751961,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1024
+    },
+    "inference.model_load": {
+      "seconds": 0.035156005003955215,
+      "calls": 1,
+      "mean_seconds": 0.035156005003955215,
+      "p50_seconds": 0.035156005003955215,
+      "p95_seconds": 0.035156005003955215,
+      "max_seconds": 0.035156005003955215,
+      "first_seconds": 0.035156005003955215,
+      "steady_mean_seconds": 0.0,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1
+    },
+    "inference.queue_wait": {
+      "seconds": 44.4458089035179,
+      "calls": 16107,
+      "mean_seconds": 0.00275940950540249,
+      "p50_seconds": 0.002385517000220716,
+      "p95_seconds": 0.00923092698212713,
+      "max_seconds": 0.020065485005034134,
+      "first_seconds": 0.002417173993308097,
+      "steady_mean_seconds": 0.0027594307543477334,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1024
+    }
+  },
+  "device": "cuda:0",
+  "learner_device": "cuda:0",
+  "inference_devices": [
+    "cuda:0"
+  ],
+  "replica_count": 1,
+  "central_batching": true,
+  "memory": {
+    "host_resident_bytes": 1796616192,
+    "cuda_allocated_bytes": 57510912,
+    "cuda_reserved_bytes": 77594624,
+    "cuda_peak_allocated_bytes": 61051904,
+    "cuda_peak_reserved_bytes": 77594624
+  },
+  "cpu_admission": {
+    "capacity": 60,
+    "active": 0,
+    "peak": 2,
+    "queued": 0,
+    "aborted": false
+  },
+  "batching": {
+    "contract": "streaming-model-batches/1.0.0",
+    "peak_pending_positions": 2,
+    "batches": 15434,
+    "padding_splits": 0,
+    "capacity_splits": 0,
+    "max_padding_ratio": 2.0,
+    "scope": "One frozen model per batch; age/deadline fairness; no extra flush wait between model batches"
+  },
+  "batch_histogram": {
+    "1": 14760,
+    "2": 673
+  },
+  "per_model": {
+    "b9f0c1e310a73004cd792178e7fad00f7414470889d620e1587bff99d74eea0f": {
+      "positions": 16106,
+      "batches": 15433,
+      "batch_histogram": {
+        "1": 14760,
+        "2": 673
+      },
+      "queue_wait_seconds": 44.97102979660849,
+      "queue_wait_max_seconds": 0.02013077199808322,
+      "queue_wait_histogram": {
+        "4": 4943,
+        "2": 8548,
+        "16": 969,
+        "32": 8,
+        "1": 131,
+        "8": 1507
+      },
+      "forward_seconds": 68.198348939477,
+      "valid_candidate_cells": 1146906,
+      "padded_candidate_cells": 1188689
+    }
+  },
+  "resident_models": 1,
+  "registered_models": 1,
+  "timing_note": "Host elapsed time; CUDA forward kernel duration is in optional profiler traces",
+  "error": null
+}

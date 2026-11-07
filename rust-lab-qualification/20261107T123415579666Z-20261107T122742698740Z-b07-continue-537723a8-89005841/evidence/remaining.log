@@ -1,0 +1,10 @@
+Qualification: fixtures
+Qualification: canary-1
+Qualification: canary-2
+Qualification: continuation
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T123247174192Z-remaining-5b5328c0
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+Git-visible results: /data/not_backed_up/yxu209/ai-training/results/rust-lab-qualification/20261107T123247174192Z-remaining-5b5328c0
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T122742698740Z-b07-continue-537723a8/remaining

@@ -1,0 +1,23 @@
+CUDA selection: logical cuda:0; CUDA_VISIBLE_DEVICES='0'; selected token='0'; UUID=3d06f287-eb90-1ae5-3786-d4a0c0dbbcf2. Logical cuda:0 is the first visible GPU.
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/step5.py", line 43, in <module>
+    main()
+  File "/data/not_backed_up/yxu209/ai-training/scripts/step5.py", line 39, in main
+    run()
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/cli.py", line 192, in main
+    result = train(root, a.run, config, iterations=a.iterations, device=a.device, initial=a.initial,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/league.py", line 103, in train
+    return run(root,run_path,config,**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py", line 73, in train
+    return run_stages(Path(root),run_path,config,runner=_train,iterations=iterations,device=device,initial=initial,mono=mono,from_run=from_run,imitation_run=imitation_run,resume_reviewed_source=resume_reviewed_source,inference_devices=inference_devices,il_kl_probe_from_run=il_kl_probe_from_run)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/automatic_training.py", line 34, in run
+    result=runner(root,run_path,config,iterations=remaining,**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py", line 109, in _train
+    require(imitation_run is not None,'Latest-model recipe requires the pinned completed --imitation-run')
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: Latest-model recipe requires the pinned completed --imitation-run
