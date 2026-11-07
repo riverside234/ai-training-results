@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "counts": {
+    "decisions": 24,
+    "forced": 13,
+    "queued_continuations": 18
+  },
+  "phases": {
+    "csharp_step_seconds": 0.31863751192577183,
+    "rust_step_seconds": 0.14160451997304335,
+    "v4_reference_seconds": 2.179973984049866,
+    "v4_native_seconds": 2.1563353250094224
+  },
+  "trace_sha256": "364b73976029e6394270cfc9e19ea896eb44d19f48b7e1308c1220eb558ffbcd",
+  "policy_id": "shared-legacy-search/7daaeedaafb8da25d177caafc0c4fb4f23477abd734442a2d9b1b99eb360026e",
+  "seed": 19553778,
+  "spec_sha256": "7487d539116dedfc491941cd7465c6ce039794afcaf2dc14b7af104102d1ecac",
+  "rng_equal": true,
+  "plans_intent_budgets_equal": true,
+  "scope": "24 stages; original C# V4 worker against Rust and C# progression; no full game/NN or throughput claim"
+}

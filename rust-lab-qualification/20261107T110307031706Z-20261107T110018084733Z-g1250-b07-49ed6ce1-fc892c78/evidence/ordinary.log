@@ -1,0 +1,5 @@
+B06 ordinary: reference
+{"phase": "collection", "complete": 1, "of": 3, "heavy": false}
+{"phase": "collection", "complete": 2, "of": 3, "heavy": false}
+{"phase": "collection", "complete": 3, "of": 3, "heavy": false}
+B06 ordinary: rust

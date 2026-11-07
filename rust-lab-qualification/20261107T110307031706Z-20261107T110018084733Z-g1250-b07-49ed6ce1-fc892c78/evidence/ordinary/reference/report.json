@@ -1,0 +1,2401 @@
+{
+  "collection_seconds": 27.615981146984268,
+  "records": [
+    {
+      "job": 0,
+      "game_id": "bf7d0452ec35f1ddf8aafa33dbb11a7ad9b0fa6b0090ad6400b802a69a6f10a2",
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T110018084733Z-g1250-b07-49ed6ce1/ordinary/reference/replay/games-1cc8e3ae689d975f-part-0000.jsonl.gz",
+      "sha256": "511240a8dacb1b944780a5ac95841978420bd84349c8f50ec3c16fdf1f63798e",
+      "cached": false,
+      "features": {
+        "data_sha256": "d8a141c0aff3415acab8fd185af3a5ef7ec7040f9e5e0bd3fa8d28014144f4a4",
+        "manifest_sha256": "485c295a976dd2d787672b258c88ac7244c48394646187d81629c5bcc9e96aca",
+        "replay_sha256": "511240a8dacb1b944780a5ac95841978420bd84349c8f50ec3c16fdf1f63798e",
+        "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+      },
+      "metrics": {
+        "cpu.admission.wait": {
+          "seconds": 0.0008822581148706377,
+          "calls": 64,
+          "mean_seconds": 1.3785283044853713e-05,
+          "p50_seconds": 1.2618984328582883e-05,
+          "p95_seconds": 1.8616992747411132e-05,
+          "max_seconds": 5.898799281567335e-05,
+          "first_seconds": 5.898799281567335e-05,
+          "steady_mean_seconds": 1.3067779715158164e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 64
+        },
+        "host.apply": {
+          "seconds": 6.0424596600059886,
+          "calls": 385,
+          "mean_seconds": 0.01569470041559997,
+          "p50_seconds": 1.908800913952291e-05,
+          "p95_seconds": 0.057703741011209786,
+          "max_seconds": 0.18308666898519732,
+          "first_seconds": 0.031133228010730818,
+          "steady_mean_seconds": 0.015654495916654316,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 385
+        },
+        "host.decision": {
+          "seconds": 0.04502957459772006,
+          "calls": 158,
+          "mean_seconds": 0.0002849973075805067,
+          "p50_seconds": 7.131020538508892e-06,
+          "p95_seconds": 0.00011767400428652763,
+          "max_seconds": 0.04202475000056438,
+          "first_seconds": 0.04202475000056438,
+          "steady_mean_seconds": 1.9139010172966084e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 158
+        },
+        "host.ipc.stdin.flush": {
+          "seconds": 0.002571916877059266,
+          "calls": 165,
+          "mean_seconds": 1.55873750124804e-05,
+          "p50_seconds": 1.418098690919578e-05,
+          "p95_seconds": 3.192800795659423e-05,
+          "max_seconds": 5.611300002783537e-05,
+          "first_seconds": 1.241799327544868e-05,
+          "steady_mean_seconds": 1.5606700510876935e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 165
+        },
+        "host.ipc.stdin.write": {
+          "seconds": 0.0020717337902169675,
+          "calls": 165,
+          "mean_seconds": 1.2555962364951319e-05,
+          "p50_seconds": 1.0794989066198468e-05,
+          "p95_seconds": 2.758100163191557e-05,
+          "max_seconds": 5.1556009566411376e-05,
+          "first_seconds": 9.473995305597782e-06,
+          "steady_mean_seconds": 1.2574754847020546e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 165
+        },
+        "host.ipc.stdout.read_wait": {
+          "seconds": 5.6612247010925785,
+          "calls": 165,
+          "mean_seconds": 0.034310452733894416,
+          "p50_seconds": 0.034115457005100325,
+          "p95_seconds": 0.05872372799785808,
+          "max_seconds": 0.08247532299719751,
+          "first_seconds": 0.08247532299719751,
+          "steady_mean_seconds": 0.03401676450058159,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 165
+        },
+        "host.local_scoring": {
+          "seconds": 0.004478210990782827,
+          "calls": 1,
+          "mean_seconds": 0.004478210990782827,
+          "p50_seconds": 0.004478210990782827,
+          "p95_seconds": 0.004478210990782827,
+          "max_seconds": 0.004478210990782827,
+          "first_seconds": 0.004478210990782827,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.native.cpu_seconds": {
+          "seconds": 5.969999999999994,
+          "calls": 165,
+          "mean_seconds": 0.03618181818181815,
+          "p50_seconds": 0.04,
+          "p95_seconds": 0.06999999999999999,
+          "max_seconds": 0.08,
+          "first_seconds": 0.06999999999999999,
+          "steady_mean_seconds": 0.035975609756097524,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 165
+        },
+        "host.native.elapsed_seconds": {
+          "seconds": 5.598323799999999,
+          "calls": 165,
+          "mean_seconds": 0.03392923515151515,
+          "p50_seconds": 0.033716699999999995,
+          "p95_seconds": 0.058234299999999996,
+          "max_seconds": 0.079932,
+          "first_seconds": 0.079932,
+          "steady_mean_seconds": 0.033648730487804875,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 165
+        },
+        "host.native.materialize_serialize_seconds": {
+          "seconds": 0.31267930000000005,
+          "calls": 165,
+          "mean_seconds": 0.001895026060606061,
+          "p50_seconds": 0.0018352,
+          "p95_seconds": 0.0031677999999999997,
+          "max_seconds": 0.010071199999999999,
+          "first_seconds": 0.001395,
+          "steady_mean_seconds": 0.0018980750000000004,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 165
+        },
+        "host.reset": {
+          "seconds": 0.08278606200474314,
+          "calls": 1,
+          "mean_seconds": 0.08278606200474314,
+          "p50_seconds": 0.08278606200474314,
+          "p95_seconds": 0.08278606200474314,
+          "max_seconds": 0.08278606200474314,
+          "first_seconds": 0.08278606200474314,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.result": {
+          "seconds": 0.00024690499412827194,
+          "calls": 1,
+          "mean_seconds": 0.00024690499412827194,
+          "p50_seconds": 0.00024690499412827194,
+          "p95_seconds": 0.00024690499412827194,
+          "max_seconds": 0.00024690499412827194,
+          "first_seconds": 0.00024690499412827194,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.capabilities": {
+          "seconds": 0.000705273007042706,
+          "calls": 2,
+          "mean_seconds": 0.000352636503521353,
+          "p50_seconds": 8.791001164354384e-05,
+          "p95_seconds": 0.0006173629953991622,
+          "max_seconds": 0.0006173629953991622,
+          "first_seconds": 0.0006173629953991622,
+          "steady_mean_seconds": 8.791001164354384e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 2
+        },
+        "host.rpc.decision": {
+          "seconds": 0.04197828099131584,
+          "calls": 1,
+          "mean_seconds": 0.04197828099131584,
+          "p50_seconds": 0.04197828099131584,
+          "p95_seconds": 0.04197828099131584,
+          "max_seconds": 0.04197828099131584,
+          "first_seconds": 0.04197828099131584,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.local_scoring_enable": {
+          "seconds": 0.0014782960060983896,
+          "calls": 1,
+          "mean_seconds": 0.0014782960060983896,
+          "p50_seconds": 0.0014782960060983896,
+          "p95_seconds": 0.0014782960060983896,
+          "max_seconds": 0.0014782960060983896,
+          "first_seconds": 0.0014782960060983896,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.local_scoring_targets": {
+          "seconds": 0.002621756022563204,
+          "calls": 1,
+          "mean_seconds": 0.002621756022563204,
+          "p50_seconds": 0.002621756022563204,
+          "p95_seconds": 0.002621756022563204,
+          "max_seconds": 0.002621756022563204,
+          "first_seconds": 0.002621756022563204,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.reset": {
+          "seconds": 0.08269892301177606,
+          "calls": 1,
+          "mean_seconds": 0.08269892301177606,
+          "p50_seconds": 0.08269892301177606,
+          "p95_seconds": 0.08269892301177606,
+          "max_seconds": 0.08269892301177606,
+          "first_seconds": 0.08269892301177606,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.result": {
+          "seconds": 0.00021799298701807857,
+          "calls": 1,
+          "mean_seconds": 0.00021799298701807857,
+          "p50_seconds": 0.00021799298701807857,
+          "p95_seconds": 0.00021799298701807857,
+          "max_seconds": 0.00021799298701807857,
+          "first_seconds": 0.00021799298701807857,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.step_decision": {
+          "seconds": 6.0305361231730785,
+          "calls": 158,
+          "mean_seconds": 0.038167950146665054,
+          "p50_seconds": 0.03633270499994978,
+          "p95_seconds": 0.06453058400074951,
+          "max_seconds": 0.1830055090249516,
+          "first_seconds": 0.031093149009393528,
+          "steady_mean_seconds": 0.03821301257429099,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 158
+        },
+        "host.startup": {
+          "seconds": 0.02226803099620156,
+          "calls": 1,
+          "mean_seconds": 0.02226803099620156,
+          "p50_seconds": 0.02226803099620156,
+          "p95_seconds": 0.02226803099620156,
+          "max_seconds": 0.02226803099620156,
+          "first_seconds": 0.02226803099620156,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "inputs.encode": {
+          "seconds": 0.8388377397204749,
+          "calls": 385,
+          "mean_seconds": 0.0021787993239492857,
+          "p50_seconds": 0.0021560880122706294,
+          "p95_seconds": 0.005139447981491685,
+          "max_seconds": 0.005963606992736459,
+          "first_seconds": 0.0001718740095384419,
+          "steady_mean_seconds": 0.0021840256919555636,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 385
+        },
+        "inputs.validate": {
+          "seconds": 2.0955069503106643,
+          "calls": 385,
+          "mean_seconds": 0.005442875195612115,
+          "p50_seconds": 0.004271624988177791,
+          "p95_seconds": 0.008314803009852767,
+          "max_seconds": 0.13078869000310078,
+          "first_seconds": 0.10945988798630424,
+          "steady_mean_seconds": 0.005171997558136354,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 385
+        },
+        "policy.model": {
+          "seconds": 4.863106034899829,
+          "calls": 385,
+          "mean_seconds": 0.012631444246493062,
+          "p50_seconds": 0.0001804659841582179,
+          "p95_seconds": 0.03582421300234273,
+          "max_seconds": 0.4932255639869254,
+          "first_seconds": 0.4932255639869254,
+          "steady_mean_seconds": 0.01137989705966902,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 385
+        }
+      },
+      "search": {
+        "encoding_cache": {
+          "warm_hit": 158,
+          "miss": 385,
+          "evictions": 129,
+          "retained": 256,
+          "capacity": 256,
+          "scope": "one game; shared coordinator/private-worker input cache"
+        },
+        "0": {
+          "inference": {
+            "batches": 158,
+            "positions": 158,
+            "max_batch_positions": 1,
+            "max_padded_candidate_cells": 0,
+            "predict_seconds": 4.6233066606801,
+            "validation_seconds": 0.0024348440929315984,
+            "encoding_seconds": 0.7400399578909855
+          }
+        },
+        "1": {
+          "inference": {
+            "batches": 158,
+            "positions": 158,
+            "max_batch_positions": 1,
+            "max_padded_candidate_cells": 0,
+            "predict_seconds": 4.6233066606801,
+            "validation_seconds": 0.0024348440929315984,
+            "encoding_seconds": 0.7400399578909855
+          }
+        },
+        "2": {
+          "inference": {
+            "batches": 158,
+            "positions": 158,
+            "max_batch_positions": 1,
+            "max_padded_candidate_cells": 0,
+            "predict_seconds": 4.6233066606801,
+            "validation_seconds": 0.0024348440929315984,
+            "encoding_seconds": 0.7400399578909855
+          }
+        },
+        "3": {
+          "inference": {
+            "batches": 158,
+            "positions": 158,
+            "max_batch_positions": 1,
+            "max_padded_candidate_cells": 0,
+            "predict_seconds": 4.6233066606801,
+            "validation_seconds": 0.0024348440929315984,
+            "encoding_seconds": 0.7400399578909855
+          }
+        }
+      },
+      "worker_seconds": 14.307524473988451,
+      "actor_python_cpu_seconds": null,
+      "replay_write_seconds": 1.1523377770208754,
+      "replay_write_scope": "amortized packet"
+    },
+    {
+      "job": 2,
+      "game_id": "a3b88a5dffbe14bc5ba965ebaec1e561ecc0656ecba813bb253be89022d6a5ff",
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T110018084733Z-g1250-b07-49ed6ce1/ordinary/reference/replay/games-e06e3a32dd06188a-part-0000.jsonl.gz",
+      "sha256": "10525f6c449bc9e710e8ae5103d6d9cac466d7fa316b4fdfaf95422ce67eefc6",
+      "cached": false,
+      "features": {
+        "data_sha256": "23a61ecf30bc8e257d81b104339ac49994a84612ce098325367d6641abc86d8a",
+        "manifest_sha256": "b7574bbc5481724dcdc1183e3dcf9ec0a0f6d738b37ffb54a417c539bbac02ee",
+        "replay_sha256": "10525f6c449bc9e710e8ae5103d6d9cac466d7fa316b4fdfaf95422ce67eefc6",
+        "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+      },
+      "metrics": {
+        "cpu.admission.wait": {
+          "seconds": 0.0009257840574719012,
+          "calls": 64,
+          "mean_seconds": 1.4465375897998456e-05,
+          "p50_seconds": 1.4721008483320475e-05,
+          "p95_seconds": 1.785598578862846e-05,
+          "max_seconds": 7.010300760157406e-05,
+          "first_seconds": 7.010300760157406e-05,
+          "steady_mean_seconds": 1.358223888683059e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 64
+        },
+        "host.apply": {
+          "seconds": 6.543965580931399,
+          "calls": 394,
+          "mean_seconds": 0.01660904969779543,
+          "p50_seconds": 2.3854983737692237e-05,
+          "p95_seconds": 0.06206565900356509,
+          "max_seconds": 0.17506323699490167,
+          "first_seconds": 0.03775014102575369,
+          "steady_mean_seconds": 0.016555255572278996,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 394
+        },
+        "host.decision": {
+          "seconds": 0.04897306306520477,
+          "calls": 169,
+          "mean_seconds": 0.0002897814382556495,
+          "p50_seconds": 9.874987881630659e-06,
+          "p95_seconds": 0.00013731300714425743,
+          "max_seconds": 0.044434643001295626,
+          "first_seconds": 0.044434643001295626,
+          "steady_mean_seconds": 2.7014405142316328e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 169
+        },
+        "host.ipc.stdin.flush": {
+          "seconds": 0.08186736007337458,
+          "calls": 176,
+          "mean_seconds": 0.0004651554549623556,
+          "p50_seconds": 1.757600693963468e-05,
+          "p95_seconds": 0.005141311004990712,
+          "max_seconds": 0.0059094570169691,
+          "first_seconds": 1.45210069604218e-05,
+          "steady_mean_seconds": 0.00046773050895093806,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 176
+        },
+        "host.ipc.stdin.write": {
+          "seconds": 0.002355099219130352,
+          "calls": 176,
+          "mean_seconds": 1.3381245563240638e-05,
+          "p50_seconds": 1.2067990610376e-05,
+          "p95_seconds": 2.8793001547455788e-05,
+          "max_seconds": 5.051499465480447e-05,
+          "first_seconds": 1.0565010597929358e-05,
+          "steady_mean_seconds": 1.3397338334470987e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 176
+        },
+        "host.ipc.stdout.read_wait": {
+          "seconds": 6.156567869125865,
+          "calls": 176,
+          "mean_seconds": 0.034980499256396964,
+          "p50_seconds": 0.03222500198171474,
+          "p95_seconds": 0.06580706100794487,
+          "max_seconds": 0.17130007399828173,
+          "first_seconds": 0.08895295002730563,
+          "steady_mean_seconds": 0.03467208525199177,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 176
+        },
+        "host.local_scoring": {
+          "seconds": 0.004693669005064294,
+          "calls": 1,
+          "mean_seconds": 0.004693669005064294,
+          "p50_seconds": 0.004693669005064294,
+          "p95_seconds": 0.004693669005064294,
+          "max_seconds": 0.004693669005064294,
+          "first_seconds": 0.004693669005064294,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.native.cpu_seconds": {
+          "seconds": 6.289999999999993,
+          "calls": 176,
+          "mean_seconds": 0.03573863636363633,
+          "p50_seconds": 0.03,
+          "p95_seconds": 0.06999999999999999,
+          "max_seconds": 0.08,
+          "first_seconds": 0.08,
+          "steady_mean_seconds": 0.035485714285714245,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 176
+        },
+        "host.native.elapsed_seconds": {
+          "seconds": 5.846034900000002,
+          "calls": 176,
+          "mean_seconds": 0.03321610738636365,
+          "p50_seconds": 0.0319654,
+          "p95_seconds": 0.0626742,
+          "max_seconds": 0.0861536,
+          "first_seconds": 0.0861536,
+          "steady_mean_seconds": 0.03291360742857144,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 176
+        },
+        "host.native.materialize_serialize_seconds": {
+          "seconds": 0.3339295999999999,
+          "calls": 176,
+          "mean_seconds": 0.001897327272727272,
+          "p50_seconds": 0.0016982,
+          "p95_seconds": 0.0031926999999999997,
+          "max_seconds": 0.0100448,
+          "first_seconds": 0.0014818,
+          "steady_mean_seconds": 0.0018997017142857136,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 176
+        },
+        "host.reset": {
+          "seconds": 0.089328956004465,
+          "calls": 1,
+          "mean_seconds": 0.089328956004465,
+          "p50_seconds": 0.089328956004465,
+          "p95_seconds": 0.089328956004465,
+          "max_seconds": 0.089328956004465,
+          "first_seconds": 0.089328956004465,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.result": {
+          "seconds": 0.00026827698457054794,
+          "calls": 1,
+          "mean_seconds": 0.00026827698457054794,
+          "p50_seconds": 0.00026827698457054794,
+          "p95_seconds": 0.00026827698457054794,
+          "max_seconds": 0.00026827698457054794,
+          "first_seconds": 0.00026827698457054794,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.capabilities": {
+          "seconds": 0.0007711509824730456,
+          "calls": 2,
+          "mean_seconds": 0.0003855754912365228,
+          "p50_seconds": 9.25969798117876e-05,
+          "p95_seconds": 0.000678554002661258,
+          "max_seconds": 0.000678554002661258,
+          "first_seconds": 0.000678554002661258,
+          "steady_mean_seconds": 9.25969798117876e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 2
+        },
+        "host.rpc.decision": {
+          "seconds": 0.044397518009645864,
+          "calls": 1,
+          "mean_seconds": 0.044397518009645864,
+          "p50_seconds": 0.044397518009645864,
+          "p95_seconds": 0.044397518009645864,
+          "max_seconds": 0.044397518009645864,
+          "first_seconds": 0.044397518009645864,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.local_scoring_enable": {
+          "seconds": 0.0015781830006744713,
+          "calls": 1,
+          "mean_seconds": 0.0015781830006744713,
+          "p50_seconds": 0.0015781830006744713,
+          "p95_seconds": 0.0015781830006744713,
+          "max_seconds": 0.0015781830006744713,
+          "first_seconds": 0.0015781830006744713,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.local_scoring_targets": {
+          "seconds": 0.002901189000112936,
+          "calls": 1,
+          "mean_seconds": 0.002901189000112936,
+          "p50_seconds": 0.002901189000112936,
+          "p95_seconds": 0.002901189000112936,
+          "max_seconds": 0.002901189000112936,
+          "first_seconds": 0.002901189000112936,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.reset": {
+          "seconds": 0.08922106699901633,
+          "calls": 1,
+          "mean_seconds": 0.08922106699901633,
+          "p50_seconds": 0.08922106699901633,
+          "p95_seconds": 0.08922106699901633,
+          "max_seconds": 0.08922106699901633,
+          "first_seconds": 0.08922106699901633,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.result": {
+          "seconds": 0.00022365100448951125,
+          "calls": 1,
+          "mean_seconds": 0.00022365100448951125,
+          "p50_seconds": 0.00022365100448951125,
+          "p95_seconds": 0.00022365100448951125,
+          "max_seconds": 0.00022365100448951125,
+          "first_seconds": 0.00022365100448951125,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.step_decision": {
+          "seconds": 6.5288640960352495,
+          "calls": 169,
+          "mean_seconds": 0.03863233192920266,
+          "p50_seconds": 0.03713242700905539,
+          "p95_seconds": 0.0687673159991391,
+          "max_seconds": 0.1749996219878085,
+          "first_seconds": 0.03770042699761689,
+          "steady_mean_seconds": 0.03863787898236686,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 169
+        },
+        "host.startup": {
+          "seconds": 0.023419022996677086,
+          "calls": 1,
+          "mean_seconds": 0.023419022996677086,
+          "p50_seconds": 0.023419022996677086,
+          "p95_seconds": 0.023419022996677086,
+          "max_seconds": 0.023419022996677086,
+          "first_seconds": 0.023419022996677086,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "inputs.encode": {
+          "seconds": 1.1715427958988585,
+          "calls": 394,
+          "mean_seconds": 0.0029734588728397423,
+          "p50_seconds": 0.003179219987941906,
+          "p95_seconds": 0.007413039973471314,
+          "max_seconds": 0.01217765299952589,
+          "first_seconds": 0.00016532398876734078,
+          "steady_mean_seconds": 0.0029806042542241504,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 394
+        },
+        "inputs.validate": {
+          "seconds": 3.5479227066680323,
+          "calls": 394,
+          "mean_seconds": 0.009004879966162518,
+          "p50_seconds": 0.006009554024785757,
+          "p95_seconds": 0.01940545899560675,
+          "max_seconds": 0.21095126500586048,
+          "first_seconds": 0.11455760398530401,
+          "steady_mean_seconds": 0.00873629797120287,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 394
+        },
+        "policy.model": {
+          "seconds": 5.979111816413933,
+          "calls": 394,
+          "mean_seconds": 0.015175410701558206,
+          "p50_seconds": 0.00020333100110292435,
+          "p95_seconds": 0.04424625399406068,
+          "max_seconds": 0.4890874759876169,
+          "first_seconds": 0.4890874759876169,
+          "steady_mean_seconds": 0.013969527583781977,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 394
+        }
+      },
+      "search": {
+        "encoding_cache": {
+          "warm_hit": 169,
+          "miss": 394,
+          "evictions": 138,
+          "retained": 256,
+          "capacity": 256,
+          "scope": "one game; shared coordinator/private-worker input cache"
+        },
+        "0": {
+          "inference": {
+            "batches": 47,
+            "positions": 47,
+            "max_batch_positions": 1,
+            "max_padded_candidate_cells": 0,
+            "predict_seconds": 1.372160669125151,
+            "validation_seconds": 0.0008440398960374296,
+            "encoding_seconds": 0.25315468190819956
+          }
+        },
+        "1": {
+          "inference": {
+            "batches": 40,
+            "positions": 40,
+            "max_batch_positions": 1,
+            "max_padded_candidate_cells": 0,
+            "predict_seconds": 1.16510952799581,
+            "validation_seconds": 0.0009823890286497772,
+            "encoding_seconds": 0.22334873201907612
+          }
+        },
+        "2": {
+          "inference": {
+            "batches": 82,
+            "positions": 82,
+            "max_batch_positions": 1,
+            "max_padded_candidate_cells": 0,
+            "predict_seconds": 3.0499425720481668,
+            "validation_seconds": 0.0015960628807079047,
+            "encoding_seconds": 0.5493075019330718
+          }
+        },
+        "3": {
+          "inference": {
+            "batches": 82,
+            "positions": 82,
+            "max_batch_positions": 1,
+            "max_padded_candidate_cells": 0,
+            "predict_seconds": 3.0499425720481668,
+            "validation_seconds": 0.0015960628807079047,
+            "encoding_seconds": 0.5493075019330718
+          }
+        }
+      },
+      "worker_seconds": 17.90116043301532,
+      "actor_python_cpu_seconds": null,
+      "replay_write_seconds": 1.3717563700047322,
+      "replay_write_scope": "amortized packet"
+    },
+    {
+      "job": 125,
+      "game_id": "0ef3251f6348051280230a5bb615691ca91e6c3bb2fff6ab9ef70dd35d6e948e",
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T110018084733Z-g1250-b07-49ed6ce1/ordinary/reference/replay/games-4c21ea2653e2dcb1-part-0000.jsonl.gz",
+      "sha256": "cb25c184058b9253d6149c96d4cd4974f2bd613fa567fb357ef91afa7e3da56b",
+      "cached": false,
+      "features": {
+        "data_sha256": "14df0f58853f67f41b7e26aa1bff82c1191baeaa2e0918e19ac52e221e084943",
+        "manifest_sha256": "23d560d8ec9b13ebcd0c50ed9a8c443fe580f9776d3c68ea6ad77a087e0bb668",
+        "replay_sha256": "cb25c184058b9253d6149c96d4cd4974f2bd613fa567fb357ef91afa7e3da56b",
+        "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+      },
+      "metrics": {
+        "cpu.admission.wait": {
+          "seconds": 0.0009485070768278092,
+          "calls": 64,
+          "mean_seconds": 1.4820423075434519e-05,
+          "p50_seconds": 1.5013007214292884e-05,
+          "p95_seconds": 1.7807004041969776e-05,
+          "max_seconds": 4.85920172650367e-05,
+          "first_seconds": 4.85920172650367e-05,
+          "steady_mean_seconds": 1.4284366024805912e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 64
+        },
+        "host.apply": {
+          "seconds": 6.439928694016999,
+          "calls": 382,
+          "mean_seconds": 0.016858452078578532,
+          "p50_seconds": 0.011149924015626311,
+          "p95_seconds": 0.0554463230073452,
+          "max_seconds": 0.22701649597729556,
+          "first_seconds": 0.05503939097980037,
+          "steady_mean_seconds": 0.01675823964051758,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 382
+        },
+        "host.decision": {
+          "seconds": 0.04847732494818047,
+          "calls": 210,
+          "mean_seconds": 0.00023084440451514508,
+          "p50_seconds": 1.176699879579246e-05,
+          "p95_seconds": 0.00010626699076965451,
+          "max_seconds": 0.04407725401688367,
+          "first_seconds": 0.04407725401688367,
+          "steady_mean_seconds": 2.105297096314256e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 210
+        },
+        "host.ipc.stdin.flush": {
+          "seconds": 0.1263796109415125,
+          "calls": 217,
+          "mean_seconds": 0.0005823945204677996,
+          "p50_seconds": 1.8346996512264013e-05,
+          "p95_seconds": 0.004243492992827669,
+          "max_seconds": 0.01673152600415051,
+          "first_seconds": 1.3830984244123101e-05,
+          "steady_mean_seconds": 0.0005850267590614277,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 217
+        },
+        "host.ipc.stdin.write": {
+          "seconds": 0.004118880198802799,
+          "calls": 217,
+          "mean_seconds": 1.8981014741026725e-05,
+          "p50_seconds": 1.1836993508040905e-05,
+          "p95_seconds": 2.0930019672960043e-05,
+          "max_seconds": 0.0008101080020423979,
+          "first_seconds": 8.05201125331223e-06,
+          "steady_mean_seconds": 1.9031611979395773e-05,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 217
+        },
+        "host.ipc.stdout.read_wait": {
+          "seconds": 5.884188789990731,
+          "calls": 217,
+          "mean_seconds": 0.027116077373229172,
+          "p50_seconds": 0.022098219982581213,
+          "p95_seconds": 0.05620626697782427,
+          "max_seconds": 0.2244534160126932,
+          "first_seconds": 0.08794106400455348,
+          "steady_mean_seconds": 0.026834480212898967,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 217
+        },
+        "host.local_scoring": {
+          "seconds": 0.0037004100158810616,
+          "calls": 1,
+          "mean_seconds": 0.0037004100158810616,
+          "p50_seconds": 0.0037004100158810616,
+          "p95_seconds": 0.0037004100158810616,
+          "max_seconds": 0.0037004100158810616,
+          "first_seconds": 0.0037004100158810616,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.native.cpu_seconds": {
+          "seconds": 5.919999999999988,
+          "calls": 217,
+          "mean_seconds": 0.027281105990783358,
+          "p50_seconds": 0.02,
+          "p95_seconds": 0.06999999999999999,
+          "max_seconds": 0.09999999999999999,
+          "first_seconds": 0.08,
+          "steady_mean_seconds": 0.027037037037036984,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 217
+        },
+        "host.native.elapsed_seconds": {
+          "seconds": 5.525702300000001,
+          "calls": 217,
+          "mean_seconds": 0.025464065898617515,
+          "p50_seconds": 0.0217958,
+          "p95_seconds": 0.054167099999999996,
+          "max_seconds": 0.08534399999999999,
+          "first_seconds": 0.0803067,
+          "steady_mean_seconds": 0.025210164814814816,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 217
+        },
+        "host.native.materialize_serialize_seconds": {
+          "seconds": 0.31622140000000004,
+          "calls": 217,
+          "mean_seconds": 0.001457241474654378,
+          "p50_seconds": 0.0012331,
+          "p95_seconds": 0.0027251,
+          "max_seconds": 0.0103062,
+          "first_seconds": 0.0014459,
+          "steady_mean_seconds": 0.0014572939814814817,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 217
+        },
+        "host.reset": {
+          "seconds": 0.08813767498941161,
+          "calls": 1,
+          "mean_seconds": 0.08813767498941161,
+          "p50_seconds": 0.08813767498941161,
+          "p95_seconds": 0.08813767498941161,
+          "max_seconds": 0.08813767498941161,
+          "first_seconds": 0.08813767498941161,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.result": {
+          "seconds": 0.00020470298477448523,
+          "calls": 1,
+          "mean_seconds": 0.00020470298477448523,
+          "p50_seconds": 0.00020470298477448523,
+          "p95_seconds": 0.00020470298477448523,
+          "max_seconds": 0.00020470298477448523,
+          "first_seconds": 0.00020470298477448523,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.capabilities": {
+          "seconds": 0.020830647001275793,
+          "calls": 2,
+          "mean_seconds": 0.010415323500637896,
+          "p50_seconds": 0.0052031629893463105,
+          "p95_seconds": 0.015627484011929482,
+          "max_seconds": 0.015627484011929482,
+          "first_seconds": 0.015627484011929482,
+          "steady_mean_seconds": 0.0052031629893463105,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 2
+        },
+        "host.rpc.decision": {
+          "seconds": 0.04401487301220186,
+          "calls": 1,
+          "mean_seconds": 0.04401487301220186,
+          "p50_seconds": 0.04401487301220186,
+          "p95_seconds": 0.04401487301220186,
+          "max_seconds": 0.04401487301220186,
+          "first_seconds": 0.04401487301220186,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.local_scoring_enable": {
+          "seconds": 0.008214464993216097,
+          "calls": 1,
+          "mean_seconds": 0.008214464993216097,
+          "p50_seconds": 0.008214464993216097,
+          "p95_seconds": 0.008214464993216097,
+          "max_seconds": 0.008214464993216097,
+          "first_seconds": 0.008214464993216097,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.local_scoring_targets": {
+          "seconds": 0.0019559510110411793,
+          "calls": 1,
+          "mean_seconds": 0.0019559510110411793,
+          "p50_seconds": 0.0019559510110411793,
+          "p95_seconds": 0.0019559510110411793,
+          "max_seconds": 0.0019559510110411793,
+          "first_seconds": 0.0019559510110411793,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.reset": {
+          "seconds": 0.08806483601802029,
+          "calls": 1,
+          "mean_seconds": 0.08806483601802029,
+          "p50_seconds": 0.08806483601802029,
+          "p95_seconds": 0.08806483601802029,
+          "max_seconds": 0.08806483601802029,
+          "first_seconds": 0.08806483601802029,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.result": {
+          "seconds": 0.00017836299957707524,
+          "calls": 1,
+          "mean_seconds": 0.00017836299957707524,
+          "p50_seconds": 0.00017836299957707524,
+          "p95_seconds": 0.00017836299957707524,
+          "max_seconds": 0.00017836299957707524,
+          "first_seconds": 0.00017836299957707524,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "host.rpc.step_decision": {
+          "seconds": 6.41641560010612,
+          "calls": 210,
+          "mean_seconds": 0.030554360000505335,
+          "p50_seconds": 0.025696970988065004,
+          "p95_seconds": 0.060374649008736014,
+          "max_seconds": 0.2269515189982485,
+          "first_seconds": 0.05500603199470788,
+          "steady_mean_seconds": 0.030437366354600058,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 210
+        },
+        "host.startup": {
+          "seconds": 0.02348133598570712,
+          "calls": 1,
+          "mean_seconds": 0.02348133598570712,
+          "p50_seconds": 0.02348133598570712,
+          "p95_seconds": 0.02348133598570712,
+          "max_seconds": 0.02348133598570712,
+          "first_seconds": 0.02348133598570712,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "inputs.encode": {
+          "seconds": 1.5627937422541436,
+          "calls": 382,
+          "mean_seconds": 0.004091083094906135,
+          "p50_seconds": 0.005069705017376691,
+          "p95_seconds": 0.010983448009938002,
+          "max_seconds": 0.026994348998414353,
+          "first_seconds": 0.00013839500024914742,
+          "steady_mean_seconds": 0.00410145760434093,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 382
+        },
+        "inputs.validate": {
+          "seconds": 3.3554764349828474,
+          "calls": 382,
+          "mean_seconds": 0.008783969725085989,
+          "p50_seconds": 0.005878091003978625,
+          "p95_seconds": 0.017440313997212797,
+          "max_seconds": 0.2821262709912844,
+          "first_seconds": 0.03238708100980148,
+          "steady_mean_seconds": 0.008722019301766524,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 382
+        },
+        "policy.external": {
+          "seconds": 9.22130144800758,
+          "calls": 91,
+          "mean_seconds": 0.10133298294513825,
+          "p50_seconds": 4.373400588519871e-05,
+          "p95_seconds": 0.6157137620029971,
+          "max_seconds": 1.0135623299865983,
+          "first_seconds": 0.44022701898938976,
+          "steady_mean_seconds": 0.09756749365575766,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 91
+        },
+        "policy.model": {
+          "seconds": 4.489826789271319,
+          "calls": 291,
+          "mean_seconds": 0.015428958038733056,
+          "p50_seconds": 0.00019225399591960013,
+          "p95_seconds": 0.04669564601499587,
+          "max_seconds": 0.45603147501242347,
+          "first_seconds": 0.45603147501242347,
+          "steady_mean_seconds": 0.013909639014685848,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 291
+        }
+      },
+      "search": {
+        "encoding_cache": {
+          "warm_hit": 119,
+          "miss": 382,
+          "evictions": 126,
+          "retained": 256,
+          "capacity": 256,
+          "scope": "one game; shared coordinator/private-worker input cache"
+        },
+        "0": {
+          "search": {
+            "turns": 16,
+            "branches": 16,
+            "nodes": 587,
+            "unique_plans": 83,
+            "failures": 0,
+            "over_budget_turns": 0,
+            "max_turn_seconds": 1.2958717510045972,
+            "seconds": 120.0,
+            "search_workers": 1,
+            "search_free": true,
+            "completed": 0,
+            "cpu_batching": {},
+            "search_elapsed_seconds": 9.215885278012138,
+            "time_budget_exhausted_turns": 0,
+            "deadline_fallback_choices": 0,
+            "search_runtime": "search-76a2f9ad7529c0e5e2117a36",
+            "deadline_admission_stops": 0,
+            "deadline_unused_worker_seconds": 0.0,
+            "interrupted": 0,
+            "work_budget": {
+              "contract": "legacy-opponent-turn-work/1.1.0",
+              "mode": "simulations",
+              "simulations_per_turn": 16,
+              "watchdog_seconds": 120.0
+            },
+            "allocated_simulations": 0,
+            "attempted_simulations": 0,
+            "work_exhausted_turns": 0,
+            "deadline_limited_turns": 0,
+            "incumbent_only_decisions": 16,
+            "forced_choices": 51,
+            "timing_mode": "simulation-count-with-watchdog",
+            "reference_seconds": 1.0,
+            "watchdog_failures": 0,
+            "incomplete_work_failures": 0,
+            "candidate_node_ceiling": 4096
+          }
+        },
+        "1": {
+          "inference": {
+            "batches": 79,
+            "positions": 79,
+            "max_batch_positions": 1,
+            "max_padded_candidate_cells": 0,
+            "predict_seconds": 2.4091696091054473,
+            "validation_seconds": 0.0015280529914889485,
+            "encoding_seconds": 0.5884457438951358
+          }
+        },
+        "2": {
+          "inference": {
+            "batches": 40,
+            "positions": 40,
+            "max_batch_positions": 1,
+            "max_padded_candidate_cells": 0,
+            "predict_seconds": 1.784283351211343,
+            "validation_seconds": 0.0008044280693866313,
+            "encoding_seconds": 0.2784138351562433
+          }
+        },
+        "3": {
+          "inference": {
+            "batches": 79,
+            "positions": 79,
+            "max_batch_positions": 1,
+            "max_padded_candidate_cells": 0,
+            "predict_seconds": 2.4091696091054473,
+            "validation_seconds": 0.0015280529914889485,
+            "encoding_seconds": 0.5884457438951358
+          }
+        }
+      },
+      "worker_seconds": 25.570232935016975,
+      "actor_python_cpu_seconds": null,
+      "replay_write_seconds": 1.1119127220008522,
+      "replay_write_scope": "amortized packet"
+    }
+  ],
+  "scheduler": {
+    "contract": "branch-ready-scheduling/1.0.0",
+    "workers": 6,
+    "cached_parent_games": 0,
+    "parent_games": 3,
+    "branch_games": 0,
+    "collection_wall_seconds": 27.50921559301787,
+    "work_wall_seconds": 26.393484415020794,
+    "parent_finish_seconds": 26.393484415020794,
+    "branch_tail_seconds": 0,
+    "publication_tail_seconds": 1.1157311779970769,
+    "parent_worker_seconds": 57.778917842020746,
+    "branch_worker_seconds": 0,
+    "branch_worker_seconds_per_worker": 0.0,
+    "total_work_seconds_per_worker": 9.629819640336791,
+    "work_utilization": 0.3648559428120209,
+    "branch_queue_wait_mean_seconds": 0.0,
+    "branch_queue_wait_max_seconds": 0.0,
+    "branches_started_before_parent_finished": 0,
+    "parent_branch_overlap_seconds": 0,
+    "scope": "Live ordinary lanes only, unchanged worker cap. Worker-seconds include host/inference/CPU waits, not CPU busy time. Work/W is an ideal sharing reference, not measured counterfactual overhead; cached games excluded. Publication includes writer/IPC/backpressure."
+  },
+  "lanes": 6,
+  "metrics": [
+    {
+      "cpu.admission.wait": {
+        "seconds": 0.0008822581148706377,
+        "calls": 64,
+        "mean_seconds": 1.3785283044853713e-05,
+        "p50_seconds": 1.2618984328582883e-05,
+        "p95_seconds": 1.8616992747411132e-05,
+        "max_seconds": 5.898799281567335e-05,
+        "first_seconds": 5.898799281567335e-05,
+        "steady_mean_seconds": 1.3067779715158164e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 64
+      },
+      "host.apply": {
+        "seconds": 6.0424596600059886,
+        "calls": 385,
+        "mean_seconds": 0.01569470041559997,
+        "p50_seconds": 1.908800913952291e-05,
+        "p95_seconds": 0.057703741011209786,
+        "max_seconds": 0.18308666898519732,
+        "first_seconds": 0.031133228010730818,
+        "steady_mean_seconds": 0.015654495916654316,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 385
+      },
+      "host.decision": {
+        "seconds": 0.04502957459772006,
+        "calls": 158,
+        "mean_seconds": 0.0002849973075805067,
+        "p50_seconds": 7.131020538508892e-06,
+        "p95_seconds": 0.00011767400428652763,
+        "max_seconds": 0.04202475000056438,
+        "first_seconds": 0.04202475000056438,
+        "steady_mean_seconds": 1.9139010172966084e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 158
+      },
+      "host.ipc.stdin.flush": {
+        "seconds": 0.002571916877059266,
+        "calls": 165,
+        "mean_seconds": 1.55873750124804e-05,
+        "p50_seconds": 1.418098690919578e-05,
+        "p95_seconds": 3.192800795659423e-05,
+        "max_seconds": 5.611300002783537e-05,
+        "first_seconds": 1.241799327544868e-05,
+        "steady_mean_seconds": 1.5606700510876935e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 165
+      },
+      "host.ipc.stdin.write": {
+        "seconds": 0.0020717337902169675,
+        "calls": 165,
+        "mean_seconds": 1.2555962364951319e-05,
+        "p50_seconds": 1.0794989066198468e-05,
+        "p95_seconds": 2.758100163191557e-05,
+        "max_seconds": 5.1556009566411376e-05,
+        "first_seconds": 9.473995305597782e-06,
+        "steady_mean_seconds": 1.2574754847020546e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 165
+      },
+      "host.ipc.stdout.read_wait": {
+        "seconds": 5.6612247010925785,
+        "calls": 165,
+        "mean_seconds": 0.034310452733894416,
+        "p50_seconds": 0.034115457005100325,
+        "p95_seconds": 0.05872372799785808,
+        "max_seconds": 0.08247532299719751,
+        "first_seconds": 0.08247532299719751,
+        "steady_mean_seconds": 0.03401676450058159,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 165
+      },
+      "host.local_scoring": {
+        "seconds": 0.004478210990782827,
+        "calls": 1,
+        "mean_seconds": 0.004478210990782827,
+        "p50_seconds": 0.004478210990782827,
+        "p95_seconds": 0.004478210990782827,
+        "max_seconds": 0.004478210990782827,
+        "first_seconds": 0.004478210990782827,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.native.cpu_seconds": {
+        "seconds": 5.969999999999994,
+        "calls": 165,
+        "mean_seconds": 0.03618181818181815,
+        "p50_seconds": 0.04,
+        "p95_seconds": 0.06999999999999999,
+        "max_seconds": 0.08,
+        "first_seconds": 0.06999999999999999,
+        "steady_mean_seconds": 0.035975609756097524,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 165
+      },
+      "host.native.elapsed_seconds": {
+        "seconds": 5.598323799999999,
+        "calls": 165,
+        "mean_seconds": 0.03392923515151515,
+        "p50_seconds": 0.033716699999999995,
+        "p95_seconds": 0.058234299999999996,
+        "max_seconds": 0.079932,
+        "first_seconds": 0.079932,
+        "steady_mean_seconds": 0.033648730487804875,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 165
+      },
+      "host.native.materialize_serialize_seconds": {
+        "seconds": 0.31267930000000005,
+        "calls": 165,
+        "mean_seconds": 0.001895026060606061,
+        "p50_seconds": 0.0018352,
+        "p95_seconds": 0.0031677999999999997,
+        "max_seconds": 0.010071199999999999,
+        "first_seconds": 0.001395,
+        "steady_mean_seconds": 0.0018980750000000004,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 165
+      },
+      "host.reset": {
+        "seconds": 0.08278606200474314,
+        "calls": 1,
+        "mean_seconds": 0.08278606200474314,
+        "p50_seconds": 0.08278606200474314,
+        "p95_seconds": 0.08278606200474314,
+        "max_seconds": 0.08278606200474314,
+        "first_seconds": 0.08278606200474314,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.result": {
+        "seconds": 0.00024690499412827194,
+        "calls": 1,
+        "mean_seconds": 0.00024690499412827194,
+        "p50_seconds": 0.00024690499412827194,
+        "p95_seconds": 0.00024690499412827194,
+        "max_seconds": 0.00024690499412827194,
+        "first_seconds": 0.00024690499412827194,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.capabilities": {
+        "seconds": 0.000705273007042706,
+        "calls": 2,
+        "mean_seconds": 0.000352636503521353,
+        "p50_seconds": 8.791001164354384e-05,
+        "p95_seconds": 0.0006173629953991622,
+        "max_seconds": 0.0006173629953991622,
+        "first_seconds": 0.0006173629953991622,
+        "steady_mean_seconds": 8.791001164354384e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 2
+      },
+      "host.rpc.decision": {
+        "seconds": 0.04197828099131584,
+        "calls": 1,
+        "mean_seconds": 0.04197828099131584,
+        "p50_seconds": 0.04197828099131584,
+        "p95_seconds": 0.04197828099131584,
+        "max_seconds": 0.04197828099131584,
+        "first_seconds": 0.04197828099131584,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.local_scoring_enable": {
+        "seconds": 0.0014782960060983896,
+        "calls": 1,
+        "mean_seconds": 0.0014782960060983896,
+        "p50_seconds": 0.0014782960060983896,
+        "p95_seconds": 0.0014782960060983896,
+        "max_seconds": 0.0014782960060983896,
+        "first_seconds": 0.0014782960060983896,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.local_scoring_targets": {
+        "seconds": 0.002621756022563204,
+        "calls": 1,
+        "mean_seconds": 0.002621756022563204,
+        "p50_seconds": 0.002621756022563204,
+        "p95_seconds": 0.002621756022563204,
+        "max_seconds": 0.002621756022563204,
+        "first_seconds": 0.002621756022563204,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.reset": {
+        "seconds": 0.08269892301177606,
+        "calls": 1,
+        "mean_seconds": 0.08269892301177606,
+        "p50_seconds": 0.08269892301177606,
+        "p95_seconds": 0.08269892301177606,
+        "max_seconds": 0.08269892301177606,
+        "first_seconds": 0.08269892301177606,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.result": {
+        "seconds": 0.00021799298701807857,
+        "calls": 1,
+        "mean_seconds": 0.00021799298701807857,
+        "p50_seconds": 0.00021799298701807857,
+        "p95_seconds": 0.00021799298701807857,
+        "max_seconds": 0.00021799298701807857,
+        "first_seconds": 0.00021799298701807857,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.step_decision": {
+        "seconds": 6.0305361231730785,
+        "calls": 158,
+        "mean_seconds": 0.038167950146665054,
+        "p50_seconds": 0.03633270499994978,
+        "p95_seconds": 0.06453058400074951,
+        "max_seconds": 0.1830055090249516,
+        "first_seconds": 0.031093149009393528,
+        "steady_mean_seconds": 0.03821301257429099,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 158
+      },
+      "host.startup": {
+        "seconds": 0.02226803099620156,
+        "calls": 1,
+        "mean_seconds": 0.02226803099620156,
+        "p50_seconds": 0.02226803099620156,
+        "p95_seconds": 0.02226803099620156,
+        "max_seconds": 0.02226803099620156,
+        "first_seconds": 0.02226803099620156,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "inputs.encode": {
+        "seconds": 0.8388377397204749,
+        "calls": 385,
+        "mean_seconds": 0.0021787993239492857,
+        "p50_seconds": 0.0021560880122706294,
+        "p95_seconds": 0.005139447981491685,
+        "max_seconds": 0.005963606992736459,
+        "first_seconds": 0.0001718740095384419,
+        "steady_mean_seconds": 0.0021840256919555636,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 385
+      },
+      "inputs.validate": {
+        "seconds": 2.0955069503106643,
+        "calls": 385,
+        "mean_seconds": 0.005442875195612115,
+        "p50_seconds": 0.004271624988177791,
+        "p95_seconds": 0.008314803009852767,
+        "max_seconds": 0.13078869000310078,
+        "first_seconds": 0.10945988798630424,
+        "steady_mean_seconds": 0.005171997558136354,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 385
+      },
+      "policy.model": {
+        "seconds": 4.863106034899829,
+        "calls": 385,
+        "mean_seconds": 0.012631444246493062,
+        "p50_seconds": 0.0001804659841582179,
+        "p95_seconds": 0.03582421300234273,
+        "max_seconds": 0.4932255639869254,
+        "first_seconds": 0.4932255639869254,
+        "steady_mean_seconds": 0.01137989705966902,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 385
+      }
+    },
+    {
+      "cpu.admission.wait": {
+        "seconds": 0.0009257840574719012,
+        "calls": 64,
+        "mean_seconds": 1.4465375897998456e-05,
+        "p50_seconds": 1.4721008483320475e-05,
+        "p95_seconds": 1.785598578862846e-05,
+        "max_seconds": 7.010300760157406e-05,
+        "first_seconds": 7.010300760157406e-05,
+        "steady_mean_seconds": 1.358223888683059e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 64
+      },
+      "host.apply": {
+        "seconds": 6.543965580931399,
+        "calls": 394,
+        "mean_seconds": 0.01660904969779543,
+        "p50_seconds": 2.3854983737692237e-05,
+        "p95_seconds": 0.06206565900356509,
+        "max_seconds": 0.17506323699490167,
+        "first_seconds": 0.03775014102575369,
+        "steady_mean_seconds": 0.016555255572278996,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 394
+      },
+      "host.decision": {
+        "seconds": 0.04897306306520477,
+        "calls": 169,
+        "mean_seconds": 0.0002897814382556495,
+        "p50_seconds": 9.874987881630659e-06,
+        "p95_seconds": 0.00013731300714425743,
+        "max_seconds": 0.044434643001295626,
+        "first_seconds": 0.044434643001295626,
+        "steady_mean_seconds": 2.7014405142316328e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 169
+      },
+      "host.ipc.stdin.flush": {
+        "seconds": 0.08186736007337458,
+        "calls": 176,
+        "mean_seconds": 0.0004651554549623556,
+        "p50_seconds": 1.757600693963468e-05,
+        "p95_seconds": 0.005141311004990712,
+        "max_seconds": 0.0059094570169691,
+        "first_seconds": 1.45210069604218e-05,
+        "steady_mean_seconds": 0.00046773050895093806,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 176
+      },
+      "host.ipc.stdin.write": {
+        "seconds": 0.002355099219130352,
+        "calls": 176,
+        "mean_seconds": 1.3381245563240638e-05,
+        "p50_seconds": 1.2067990610376e-05,
+        "p95_seconds": 2.8793001547455788e-05,
+        "max_seconds": 5.051499465480447e-05,
+        "first_seconds": 1.0565010597929358e-05,
+        "steady_mean_seconds": 1.3397338334470987e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 176
+      },
+      "host.ipc.stdout.read_wait": {
+        "seconds": 6.156567869125865,
+        "calls": 176,
+        "mean_seconds": 0.034980499256396964,
+        "p50_seconds": 0.03222500198171474,
+        "p95_seconds": 0.06580706100794487,
+        "max_seconds": 0.17130007399828173,
+        "first_seconds": 0.08895295002730563,
+        "steady_mean_seconds": 0.03467208525199177,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 176
+      },
+      "host.local_scoring": {
+        "seconds": 0.004693669005064294,
+        "calls": 1,
+        "mean_seconds": 0.004693669005064294,
+        "p50_seconds": 0.004693669005064294,
+        "p95_seconds": 0.004693669005064294,
+        "max_seconds": 0.004693669005064294,
+        "first_seconds": 0.004693669005064294,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.native.cpu_seconds": {
+        "seconds": 6.289999999999993,
+        "calls": 176,
+        "mean_seconds": 0.03573863636363633,
+        "p50_seconds": 0.03,
+        "p95_seconds": 0.06999999999999999,
+        "max_seconds": 0.08,
+        "first_seconds": 0.08,
+        "steady_mean_seconds": 0.035485714285714245,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 176
+      },
+      "host.native.elapsed_seconds": {
+        "seconds": 5.846034900000002,
+        "calls": 176,
+        "mean_seconds": 0.03321610738636365,
+        "p50_seconds": 0.0319654,
+        "p95_seconds": 0.0626742,
+        "max_seconds": 0.0861536,
+        "first_seconds": 0.0861536,
+        "steady_mean_seconds": 0.03291360742857144,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 176
+      },
+      "host.native.materialize_serialize_seconds": {
+        "seconds": 0.3339295999999999,
+        "calls": 176,
+        "mean_seconds": 0.001897327272727272,
+        "p50_seconds": 0.0016982,
+        "p95_seconds": 0.0031926999999999997,
+        "max_seconds": 0.0100448,
+        "first_seconds": 0.0014818,
+        "steady_mean_seconds": 0.0018997017142857136,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 176
+      },
+      "host.reset": {
+        "seconds": 0.089328956004465,
+        "calls": 1,
+        "mean_seconds": 0.089328956004465,
+        "p50_seconds": 0.089328956004465,
+        "p95_seconds": 0.089328956004465,
+        "max_seconds": 0.089328956004465,
+        "first_seconds": 0.089328956004465,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.result": {
+        "seconds": 0.00026827698457054794,
+        "calls": 1,
+        "mean_seconds": 0.00026827698457054794,
+        "p50_seconds": 0.00026827698457054794,
+        "p95_seconds": 0.00026827698457054794,
+        "max_seconds": 0.00026827698457054794,
+        "first_seconds": 0.00026827698457054794,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.capabilities": {
+        "seconds": 0.0007711509824730456,
+        "calls": 2,
+        "mean_seconds": 0.0003855754912365228,
+        "p50_seconds": 9.25969798117876e-05,
+        "p95_seconds": 0.000678554002661258,
+        "max_seconds": 0.000678554002661258,
+        "first_seconds": 0.000678554002661258,
+        "steady_mean_seconds": 9.25969798117876e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 2
+      },
+      "host.rpc.decision": {
+        "seconds": 0.044397518009645864,
+        "calls": 1,
+        "mean_seconds": 0.044397518009645864,
+        "p50_seconds": 0.044397518009645864,
+        "p95_seconds": 0.044397518009645864,
+        "max_seconds": 0.044397518009645864,
+        "first_seconds": 0.044397518009645864,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.local_scoring_enable": {
+        "seconds": 0.0015781830006744713,
+        "calls": 1,
+        "mean_seconds": 0.0015781830006744713,
+        "p50_seconds": 0.0015781830006744713,
+        "p95_seconds": 0.0015781830006744713,
+        "max_seconds": 0.0015781830006744713,
+        "first_seconds": 0.0015781830006744713,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.local_scoring_targets": {
+        "seconds": 0.002901189000112936,
+        "calls": 1,
+        "mean_seconds": 0.002901189000112936,
+        "p50_seconds": 0.002901189000112936,
+        "p95_seconds": 0.002901189000112936,
+        "max_seconds": 0.002901189000112936,
+        "first_seconds": 0.002901189000112936,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.reset": {
+        "seconds": 0.08922106699901633,
+        "calls": 1,
+        "mean_seconds": 0.08922106699901633,
+        "p50_seconds": 0.08922106699901633,
+        "p95_seconds": 0.08922106699901633,
+        "max_seconds": 0.08922106699901633,
+        "first_seconds": 0.08922106699901633,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.result": {
+        "seconds": 0.00022365100448951125,
+        "calls": 1,
+        "mean_seconds": 0.00022365100448951125,
+        "p50_seconds": 0.00022365100448951125,
+        "p95_seconds": 0.00022365100448951125,
+        "max_seconds": 0.00022365100448951125,
+        "first_seconds": 0.00022365100448951125,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.step_decision": {
+        "seconds": 6.5288640960352495,
+        "calls": 169,
+        "mean_seconds": 0.03863233192920266,
+        "p50_seconds": 0.03713242700905539,
+        "p95_seconds": 0.0687673159991391,
+        "max_seconds": 0.1749996219878085,
+        "first_seconds": 0.03770042699761689,
+        "steady_mean_seconds": 0.03863787898236686,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 169
+      },
+      "host.startup": {
+        "seconds": 0.023419022996677086,
+        "calls": 1,
+        "mean_seconds": 0.023419022996677086,
+        "p50_seconds": 0.023419022996677086,
+        "p95_seconds": 0.023419022996677086,
+        "max_seconds": 0.023419022996677086,
+        "first_seconds": 0.023419022996677086,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "inputs.encode": {
+        "seconds": 1.1715427958988585,
+        "calls": 394,
+        "mean_seconds": 0.0029734588728397423,
+        "p50_seconds": 0.003179219987941906,
+        "p95_seconds": 0.007413039973471314,
+        "max_seconds": 0.01217765299952589,
+        "first_seconds": 0.00016532398876734078,
+        "steady_mean_seconds": 0.0029806042542241504,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 394
+      },
+      "inputs.validate": {
+        "seconds": 3.5479227066680323,
+        "calls": 394,
+        "mean_seconds": 0.009004879966162518,
+        "p50_seconds": 0.006009554024785757,
+        "p95_seconds": 0.01940545899560675,
+        "max_seconds": 0.21095126500586048,
+        "first_seconds": 0.11455760398530401,
+        "steady_mean_seconds": 0.00873629797120287,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 394
+      },
+      "policy.model": {
+        "seconds": 5.979111816413933,
+        "calls": 394,
+        "mean_seconds": 0.015175410701558206,
+        "p50_seconds": 0.00020333100110292435,
+        "p95_seconds": 0.04424625399406068,
+        "max_seconds": 0.4890874759876169,
+        "first_seconds": 0.4890874759876169,
+        "steady_mean_seconds": 0.013969527583781977,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 394
+      }
+    },
+    {
+      "cpu.admission.wait": {
+        "seconds": 0.0009485070768278092,
+        "calls": 64,
+        "mean_seconds": 1.4820423075434519e-05,
+        "p50_seconds": 1.5013007214292884e-05,
+        "p95_seconds": 1.7807004041969776e-05,
+        "max_seconds": 4.85920172650367e-05,
+        "first_seconds": 4.85920172650367e-05,
+        "steady_mean_seconds": 1.4284366024805912e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 64
+      },
+      "host.apply": {
+        "seconds": 6.439928694016999,
+        "calls": 382,
+        "mean_seconds": 0.016858452078578532,
+        "p50_seconds": 0.011149924015626311,
+        "p95_seconds": 0.0554463230073452,
+        "max_seconds": 0.22701649597729556,
+        "first_seconds": 0.05503939097980037,
+        "steady_mean_seconds": 0.01675823964051758,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 382
+      },
+      "host.decision": {
+        "seconds": 0.04847732494818047,
+        "calls": 210,
+        "mean_seconds": 0.00023084440451514508,
+        "p50_seconds": 1.176699879579246e-05,
+        "p95_seconds": 0.00010626699076965451,
+        "max_seconds": 0.04407725401688367,
+        "first_seconds": 0.04407725401688367,
+        "steady_mean_seconds": 2.105297096314256e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 210
+      },
+      "host.ipc.stdin.flush": {
+        "seconds": 0.1263796109415125,
+        "calls": 217,
+        "mean_seconds": 0.0005823945204677996,
+        "p50_seconds": 1.8346996512264013e-05,
+        "p95_seconds": 0.004243492992827669,
+        "max_seconds": 0.01673152600415051,
+        "first_seconds": 1.3830984244123101e-05,
+        "steady_mean_seconds": 0.0005850267590614277,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 217
+      },
+      "host.ipc.stdin.write": {
+        "seconds": 0.004118880198802799,
+        "calls": 217,
+        "mean_seconds": 1.8981014741026725e-05,
+        "p50_seconds": 1.1836993508040905e-05,
+        "p95_seconds": 2.0930019672960043e-05,
+        "max_seconds": 0.0008101080020423979,
+        "first_seconds": 8.05201125331223e-06,
+        "steady_mean_seconds": 1.9031611979395773e-05,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 217
+      },
+      "host.ipc.stdout.read_wait": {
+        "seconds": 5.884188789990731,
+        "calls": 217,
+        "mean_seconds": 0.027116077373229172,
+        "p50_seconds": 0.022098219982581213,
+        "p95_seconds": 0.05620626697782427,
+        "max_seconds": 0.2244534160126932,
+        "first_seconds": 0.08794106400455348,
+        "steady_mean_seconds": 0.026834480212898967,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 217
+      },
+      "host.local_scoring": {
+        "seconds": 0.0037004100158810616,
+        "calls": 1,
+        "mean_seconds": 0.0037004100158810616,
+        "p50_seconds": 0.0037004100158810616,
+        "p95_seconds": 0.0037004100158810616,
+        "max_seconds": 0.0037004100158810616,
+        "first_seconds": 0.0037004100158810616,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.native.cpu_seconds": {
+        "seconds": 5.919999999999988,
+        "calls": 217,
+        "mean_seconds": 0.027281105990783358,
+        "p50_seconds": 0.02,
+        "p95_seconds": 0.06999999999999999,
+        "max_seconds": 0.09999999999999999,
+        "first_seconds": 0.08,
+        "steady_mean_seconds": 0.027037037037036984,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 217
+      },
+      "host.native.elapsed_seconds": {
+        "seconds": 5.525702300000001,
+        "calls": 217,
+        "mean_seconds": 0.025464065898617515,
+        "p50_seconds": 0.0217958,
+        "p95_seconds": 0.054167099999999996,
+        "max_seconds": 0.08534399999999999,
+        "first_seconds": 0.0803067,
+        "steady_mean_seconds": 0.025210164814814816,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 217
+      },
+      "host.native.materialize_serialize_seconds": {
+        "seconds": 0.31622140000000004,
+        "calls": 217,
+        "mean_seconds": 0.001457241474654378,
+        "p50_seconds": 0.0012331,
+        "p95_seconds": 0.0027251,
+        "max_seconds": 0.0103062,
+        "first_seconds": 0.0014459,
+        "steady_mean_seconds": 0.0014572939814814817,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 217
+      },
+      "host.reset": {
+        "seconds": 0.08813767498941161,
+        "calls": 1,
+        "mean_seconds": 0.08813767498941161,
+        "p50_seconds": 0.08813767498941161,
+        "p95_seconds": 0.08813767498941161,
+        "max_seconds": 0.08813767498941161,
+        "first_seconds": 0.08813767498941161,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.result": {
+        "seconds": 0.00020470298477448523,
+        "calls": 1,
+        "mean_seconds": 0.00020470298477448523,
+        "p50_seconds": 0.00020470298477448523,
+        "p95_seconds": 0.00020470298477448523,
+        "max_seconds": 0.00020470298477448523,
+        "first_seconds": 0.00020470298477448523,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.capabilities": {
+        "seconds": 0.020830647001275793,
+        "calls": 2,
+        "mean_seconds": 0.010415323500637896,
+        "p50_seconds": 0.0052031629893463105,
+        "p95_seconds": 0.015627484011929482,
+        "max_seconds": 0.015627484011929482,
+        "first_seconds": 0.015627484011929482,
+        "steady_mean_seconds": 0.0052031629893463105,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 2
+      },
+      "host.rpc.decision": {
+        "seconds": 0.04401487301220186,
+        "calls": 1,
+        "mean_seconds": 0.04401487301220186,
+        "p50_seconds": 0.04401487301220186,
+        "p95_seconds": 0.04401487301220186,
+        "max_seconds": 0.04401487301220186,
+        "first_seconds": 0.04401487301220186,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.local_scoring_enable": {
+        "seconds": 0.008214464993216097,
+        "calls": 1,
+        "mean_seconds": 0.008214464993216097,
+        "p50_seconds": 0.008214464993216097,
+        "p95_seconds": 0.008214464993216097,
+        "max_seconds": 0.008214464993216097,
+        "first_seconds": 0.008214464993216097,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.local_scoring_targets": {
+        "seconds": 0.0019559510110411793,
+        "calls": 1,
+        "mean_seconds": 0.0019559510110411793,
+        "p50_seconds": 0.0019559510110411793,
+        "p95_seconds": 0.0019559510110411793,
+        "max_seconds": 0.0019559510110411793,
+        "first_seconds": 0.0019559510110411793,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.reset": {
+        "seconds": 0.08806483601802029,
+        "calls": 1,
+        "mean_seconds": 0.08806483601802029,
+        "p50_seconds": 0.08806483601802029,
+        "p95_seconds": 0.08806483601802029,
+        "max_seconds": 0.08806483601802029,
+        "first_seconds": 0.08806483601802029,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.result": {
+        "seconds": 0.00017836299957707524,
+        "calls": 1,
+        "mean_seconds": 0.00017836299957707524,
+        "p50_seconds": 0.00017836299957707524,
+        "p95_seconds": 0.00017836299957707524,
+        "max_seconds": 0.00017836299957707524,
+        "first_seconds": 0.00017836299957707524,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "host.rpc.step_decision": {
+        "seconds": 6.41641560010612,
+        "calls": 210,
+        "mean_seconds": 0.030554360000505335,
+        "p50_seconds": 0.025696970988065004,
+        "p95_seconds": 0.060374649008736014,
+        "max_seconds": 0.2269515189982485,
+        "first_seconds": 0.05500603199470788,
+        "steady_mean_seconds": 0.030437366354600058,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 210
+      },
+      "host.startup": {
+        "seconds": 0.02348133598570712,
+        "calls": 1,
+        "mean_seconds": 0.02348133598570712,
+        "p50_seconds": 0.02348133598570712,
+        "p95_seconds": 0.02348133598570712,
+        "max_seconds": 0.02348133598570712,
+        "first_seconds": 0.02348133598570712,
+        "steady_mean_seconds": 0.0,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 1
+      },
+      "inputs.encode": {
+        "seconds": 1.5627937422541436,
+        "calls": 382,
+        "mean_seconds": 0.004091083094906135,
+        "p50_seconds": 0.005069705017376691,
+        "p95_seconds": 0.010983448009938002,
+        "max_seconds": 0.026994348998414353,
+        "first_seconds": 0.00013839500024914742,
+        "steady_mean_seconds": 0.00410145760434093,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 382
+      },
+      "inputs.validate": {
+        "seconds": 3.3554764349828474,
+        "calls": 382,
+        "mean_seconds": 0.008783969725085989,
+        "p50_seconds": 0.005878091003978625,
+        "p95_seconds": 0.017440313997212797,
+        "max_seconds": 0.2821262709912844,
+        "first_seconds": 0.03238708100980148,
+        "steady_mean_seconds": 0.008722019301766524,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 382
+      },
+      "policy.external": {
+        "seconds": 9.22130144800758,
+        "calls": 91,
+        "mean_seconds": 0.10133298294513825,
+        "p50_seconds": 4.373400588519871e-05,
+        "p95_seconds": 0.6157137620029971,
+        "max_seconds": 1.0135623299865983,
+        "first_seconds": 0.44022701898938976,
+        "steady_mean_seconds": 0.09756749365575766,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 91
+      },
+      "policy.model": {
+        "seconds": 4.489826789271319,
+        "calls": 291,
+        "mean_seconds": 0.015428958038733056,
+        "p50_seconds": 0.00019225399591960013,
+        "p95_seconds": 0.04669564601499587,
+        "max_seconds": 0.45603147501242347,
+        "first_seconds": 0.45603147501242347,
+        "steady_mean_seconds": 0.013909639014685848,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 291
+      }
+    }
+  ],
+  "inference": {
+    "games_per_second": 0.1086327508710516,
+    "mean_inference_batch": 1.025287356321839,
+    "inference_batches": 435,
+    "inference_positions": 446,
+    "padding_fraction": 0.024138715466471172,
+    "inference_batch_histogram": {
+      "1": 424,
+      "2": 11
+    },
+    "inference_per_model": {
+      "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985": {
+        "positions": 319,
+        "batches": 308,
+        "batch_histogram": {
+          "1": 297,
+          "2": 11
+        },
+        "queue_wait_seconds": 1.8610759497969411,
+        "queue_wait_max_seconds": 0.4613464430149179,
+        "queue_wait_histogram": {
+          "8": 25,
+          "512": 1,
+          "2": 206,
+          "32": 24,
+          "4": 27,
+          "16": 35,
+          "1": 1
+        },
+        "forward_seconds": 5.800110853713704,
+        "valid_candidate_cells": 28281,
+        "padded_candidate_cells": 29236
+      },
+      "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad": {
+        "positions": 40,
+        "batches": 40,
+        "batch_histogram": {
+          "1": 40
+        },
+        "queue_wait_seconds": 0.7017186109442264,
+        "queue_wait_max_seconds": 0.42074947399669327,
+        "queue_wait_histogram": {
+          "512": 1,
+          "2": 18,
+          "64": 1,
+          "32": 5,
+          "16": 3,
+          "8": 6,
+          "4": 6
+        },
+        "forward_seconds": 0.7610501010785811,
+        "valid_candidate_cells": 3432,
+        "padded_candidate_cells": 3432
+      },
+      "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1": {
+        "positions": 40,
+        "batches": 40,
+        "batch_histogram": {
+          "1": 40
+        },
+        "queue_wait_seconds": 0.16364660402177833,
+        "queue_wait_max_seconds": 0.025112526986049488,
+        "queue_wait_histogram": {
+          "2": 29,
+          "16": 3,
+          "8": 4,
+          "4": 2,
+          "32": 2
+        },
+        "forward_seconds": 0.7234514650481287,
+        "valid_candidate_cells": 3092,
+        "padded_candidate_cells": 3092
+      },
+      "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b": {
+        "positions": 47,
+        "batches": 47,
+        "batch_histogram": {
+          "1": 47
+        },
+        "queue_wait_seconds": 0.21663612182601355,
+        "queue_wait_max_seconds": 0.031834494991926476,
+        "queue_wait_histogram": {
+          "2": 29,
+          "4": 6,
+          "32": 4,
+          "8": 5,
+          "16": 3
+        },
+        "forward_seconds": 0.8324441520380788,
+        "valid_candidate_cells": 3803,
+        "padded_candidate_cells": 3803
+      }
+    },
+    "model_loads": 0,
+    "model_evictions": 0,
+    "inference_model_scope": "Counts, sums and histograms are per-collection deltas; queue_wait_max_seconds is since service start",
+    "actor_phase_seconds": {
+      "cpu.admission.wait": 0.002756549249170348,
+      "host.apply": 19.026353934954386,
+      "host.decision": 0.1424799626111053,
+      "host.ipc.stdin.flush": 0.21081888789194636,
+      "host.ipc.stdin.write": 0.008545713208150119,
+      "host.ipc.stdout.read_wait": 17.701981360209174,
+      "host.local_scoring": 0.012872290011728182,
+      "host.native.cpu_seconds": 18.179999999999975,
+      "host.native.elapsed_seconds": 16.970061,
+      "host.native.materialize_serialize_seconds": 0.9628303,
+      "host.reset": 0.26025269299861975,
+      "host.result": 0.0007198849634733051,
+      "host.rpc.capabilities": 0.022307070990791544,
+      "host.rpc.decision": 0.13039067201316357,
+      "host.rpc.local_scoring_enable": 0.011270943999988958,
+      "host.rpc.local_scoring_targets": 0.007478896033717319,
+      "host.rpc.reset": 0.2599848260288127,
+      "host.rpc.result": 0.0006200069910846651,
+      "host.rpc.step_decision": 18.975815819314448,
+      "host.startup": 0.06916838997858576,
+      "inputs.encode": 3.573174277873477,
+      "inputs.validate": 8.998906091961544,
+      "policy.model": 15.332044640585082,
+      "policy.external": 9.22130144800758
+    },
+    "inference_phase_deltas": {
+      "inference.batch": {
+        "seconds": 8.2156474958756,
+        "calls": 435
+      },
+      "inference.forward": {
+        "seconds": 8.088618513836991,
+        "calls": 435
+      },
+      "inference.model_load": {
+        "seconds": 0.0,
+        "calls": 0
+      },
+      "inference.queue_wait": {
+        "seconds": 2.9124607938865665,
+        "calls": 446
+      }
+    },
+    "inference_batching": {
+      "batches": 435,
+      "padding_splits": 0,
+      "capacity_splits": 0,
+      "max_padding_ratio": 2.0,
+      "peak_pending_positions_since_service_start": 3,
+      "scope": "Per-collection count deltas; pending-position peak is cumulative"
+    },
+    "actor_python_cpu_seconds": null,
+    "actor_python_average_cores": null,
+    "actor_cpu_recorded_games": 0,
+    "actor_cpu_expected_work_items": 3,
+    "actor_cpu_scope": "Python actor process CPU during games; includes its threads, excludes Mono children and GPU; unavailable for cached games/multiple host lanes",
+    "ordinary_actors": 48,
+    "cpu_work_slots": 60,
+    "scope": "ordinary collection; actor/inference phase times overlap; actor_python_* measures process CPU, not total machine or GPU utilization"
+  },
+  "service": {
+    "batches": 435,
+    "positions": 446,
+    "model_cache_hits": 435,
+    "valid_candidate_cells": 38608,
+    "padded_candidate_cells": 39563,
+    "max_batch_positions": 2,
+    "max_padded_candidate_cells": 405,
+    "expired_requests": 0,
+    "cancelled_requests": 0,
+    "packed_output_batches": 435,
+    "shared_requests": 446,
+    "shared_replies": 446,
+    "inline_requests": 0,
+    "model_loads": 4,
+    "model_evictions": 0,
+    "timings": {
+      "inference.batch": {
+        "seconds": 8.2156474958756,
+        "calls": 435,
+        "mean_seconds": 0.018886545967530116,
+        "p50_seconds": 0.017577866994543,
+        "p95_seconds": 0.02694222200079821,
+        "max_seconds": 0.47339373402064666,
+        "first_seconds": 0.47339373402064666,
+        "steady_mean_seconds": 0.017839294382154272,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 435
+      },
+      "inference.forward": {
+        "seconds": 8.088618513836991,
+        "calls": 435,
+        "mean_seconds": 0.018594525319165497,
+        "p50_seconds": 0.0172563319792971,
+        "p95_seconds": 0.026536311983363703,
+        "max_seconds": 0.4722443549835589,
+        "first_seconds": 0.4722443549835589,
+        "steady_mean_seconds": 0.017549249213948,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 435
+      },
+      "inference.model_load": {
+        "seconds": 1.037265112012392,
+        "calls": 4,
+        "mean_seconds": 0.259316278003098,
+        "p50_seconds": 0.2392045249871444,
+        "p95_seconds": 0.29955006000818685,
+        "max_seconds": 0.29955006000818685,
+        "first_seconds": 0.26333153402083553,
+        "steady_mean_seconds": 0.2579778593305188,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 4
+      },
+      "inference.queue_wait": {
+        "seconds": 2.9124607938865665,
+        "calls": 446,
+        "mean_seconds": 0.006530181152212032,
+        "p50_seconds": 0.001677739986917004,
+        "p95_seconds": 0.017943608021596447,
+        "max_seconds": 0.4611826610052958,
+        "first_seconds": 0.007077903981553391,
+        "steady_mean_seconds": 0.006528950314393288,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 446
+      }
+    },
+    "device": "cuda:0",
+    "learner_device": "cuda:0",
+    "inference_devices": [
+      "cuda:0"
+    ],
+    "replica_count": 1,
+    "central_batching": true,
+    "memory": {
+      "host_resident_bytes": 2822782976,
+      "cuda_allocated_bytes": 129136640,
+      "cuda_reserved_bytes": 132120576,
+      "cuda_peak_allocated_bytes": 131267584,
+      "cuda_peak_reserved_bytes": 132120576
+    },
+    "cpu_admission": {
+      "capacity": 60,
+      "active": 0,
+      "peak": 3,
+      "queued": 0,
+      "aborted": false
+    },
+    "batching": {
+      "contract": "streaming-model-batches/1.0.0",
+      "peak_pending_positions": 3,
+      "batches": 435,
+      "padding_splits": 0,
+      "capacity_splits": 0,
+      "max_padding_ratio": 2.0,
+      "scope": "One frozen model per batch; age/deadline fairness; no extra flush wait between model batches"
+    },
+    "batch_histogram": {
+      "1": 424,
+      "2": 11
+    },
+    "per_model": {
+      "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985": {
+        "positions": 319,
+        "batches": 308,
+        "batch_histogram": {
+          "1": 297,
+          "2": 11
+        },
+        "queue_wait_seconds": 1.8610759497969411,
+        "queue_wait_max_seconds": 0.4613464430149179,
+        "queue_wait_histogram": {
+          "8": 25,
+          "512": 1,
+          "2": 206,
+          "32": 24,
+          "4": 27,
+          "16": 35,
+          "1": 1
+        },
+        "forward_seconds": 5.800110853713704,
+        "valid_candidate_cells": 28281,
+        "padded_candidate_cells": 29236
+      },
+      "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad": {
+        "positions": 40,
+        "batches": 40,
+        "batch_histogram": {
+          "1": 40
+        },
+        "queue_wait_seconds": 0.7017186109442264,
+        "queue_wait_max_seconds": 0.42074947399669327,
+        "queue_wait_histogram": {
+          "512": 1,
+          "2": 18,
+          "64": 1,
+          "32": 5,
+          "16": 3,
+          "8": 6,
+          "4": 6
+        },
+        "forward_seconds": 0.7610501010785811,
+        "valid_candidate_cells": 3432,
+        "padded_candidate_cells": 3432
+      },
+      "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1": {
+        "positions": 40,
+        "batches": 40,
+        "batch_histogram": {
+          "1": 40
+        },
+        "queue_wait_seconds": 0.16364660402177833,
+        "queue_wait_max_seconds": 0.025112526986049488,
+        "queue_wait_histogram": {
+          "2": 29,
+          "16": 3,
+          "8": 4,
+          "4": 2,
+          "32": 2
+        },
+        "forward_seconds": 0.7234514650481287,
+        "valid_candidate_cells": 3092,
+        "padded_candidate_cells": 3092
+      },
+      "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b": {
+        "positions": 47,
+        "batches": 47,
+        "batch_histogram": {
+          "1": 47
+        },
+        "queue_wait_seconds": 0.21663612182601355,
+        "queue_wait_max_seconds": 0.031834494991926476,
+        "queue_wait_histogram": {
+          "2": 29,
+          "4": 6,
+          "32": 4,
+          "8": 5,
+          "16": 3
+        },
+        "forward_seconds": 0.8324441520380788,
+        "valid_candidate_cells": 3803,
+        "padded_candidate_cells": 3803
+      }
+    },
+    "resident_models": 4,
+    "registered_models": 24,
+    "timing_note": "Host elapsed time; CUDA forward kernel duration is in optional profiler traces",
+    "error": null
+  },
+  "work": {
+    "families": 3,
+    "branches": 0,
+    "decisions": 1161,
+    "forced_rows": 675
+  },
+  "measurement": {
+    "phases": {
+      "cpu_checkpoint_load": {
+        "total_seconds": 0.18591413897229359,
+        "samples": 1,
+        "median": 0.18591413897229359,
+        "p90": 0.18591413897229359,
+        "maximum": 0.18591413897229359
+      },
+      "planning_and_model_registration": {
+        "total_seconds": 18.946817619987996,
+        "samples": 1,
+        "median": 18.946817619987996,
+        "p90": 18.946817619987996,
+        "maximum": 18.946817619987996
+      },
+      "reference_policy_preflight": {
+        "total_seconds": 0.34054581899545155,
+        "samples": 1,
+        "median": 0.34054581899545155,
+        "p90": 0.34054581899545155,
+        "maximum": 0.34054581899545155
+      },
+      "gpu_model_load": {
+        "total_seconds": 1.0377351169881877,
+        "samples": 1,
+        "median": 1.0377351169881877,
+        "p90": 1.0377351169881877,
+        "maximum": 1.0377351169881877
+      },
+      "collection_with_family_validation_and_sealing": {
+        "total_seconds": 27.615935459994944,
+        "samples": 1,
+        "median": 27.615935459994944,
+        "p90": 27.615935459994944,
+        "maximum": 27.615935459994944
+      },
+      "admission_and_first_read": {
+        "total_seconds": 2.4301881149876863,
+        "samples": 1,
+        "median": 2.4301881149876863,
+        "p90": 2.4301881149876863,
+        "maximum": 2.4301881149876863
+      },
+      "admitted_replay_warm_read": {
+        "total_seconds": 2.9066516190068796,
+        "samples": 1,
+        "median": 2.9066516190068796,
+        "p90": 2.9066516190068796,
+        "maximum": 2.9066516190068796
+      },
+      "preparation_first": {
+        "total_seconds": 0.586040783993667,
+        "samples": 1,
+        "median": 0.586040783993667,
+        "p90": 0.586040783993667,
+        "maximum": 0.586040783993667
+      },
+      "preparation_warm": {
+        "total_seconds": 0.5812725150026381,
+        "samples": 1,
+        "median": 0.5812725150026381,
+        "p90": 0.5812725150026381,
+        "maximum": 0.5812725150026381
+      }
+    },
+    "peak_process_tree_rss_bytes": 4917055488,
+    "sampled_process_tree_cpu_seconds": 102.97,
+    "process_samples": 570,
+    "exited_process_reads": 0,
+    "cuda_setup": {
+      "device": "cuda:0",
+      "initialized_before": true,
+      "seconds": 0.00010089998249895871
+    },
+    "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+    "device_memory": {
+      "host_resident_bytes": 2820583424,
+      "cuda_allocated_bytes": 129136640,
+      "cuda_reserved_bytes": 132120576,
+      "cuda_peak_allocated_bytes": 131267584,
+      "cuda_peak_reserved_bytes": 132120576
+    }
+  },
+  "cache_scope": "Cold worker processes; preloaded GPU models; second replay read/preparation is warm",
+  "accepted_work_seconds": 30.63221004596562
+}

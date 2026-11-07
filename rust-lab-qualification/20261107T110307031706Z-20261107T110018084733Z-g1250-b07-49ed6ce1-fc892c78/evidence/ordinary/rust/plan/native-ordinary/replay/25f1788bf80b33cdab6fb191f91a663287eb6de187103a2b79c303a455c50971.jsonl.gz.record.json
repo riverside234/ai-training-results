@@ -1,0 +1,503 @@
+{
+  "job": 2,
+  "game_id": "a3b88a5dffbe14bc5ba965ebaec1e561ecc0656ecba813bb253be89022d6a5ff",
+  "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T110018084733Z-g1250-b07-49ed6ce1/ordinary/rust/plan/native-ordinary/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz",
+  "sha256": "9b0bca2c9597e8dcb574338a8cfe2f793ec81c7baf33ff84751575dcf85fca0a",
+  "features": {
+    "data_sha256": "23a61ecf30bc8e257d81b104339ac49994a84612ce098325367d6641abc86d8a",
+    "manifest_sha256": "0ea8ce68770c0a4ae03a7f6a8dcb806b8bf5aa9706380d77bb9659e71160787b",
+    "replay_sha256": "9b0bca2c9597e8dcb574338a8cfe2f793ec81c7baf33ff84751575dcf85fca0a",
+    "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+  },
+  "native_admission": {
+    "contract": "brass-native-admission/1.0.0",
+    "admission": {
+      "contract": "brass-native-admission/1.0.0",
+      "compatibility": "ef6a1b5126de42da8f3277dc9357b6ffb94a435f3faa7fee8dd312bb5a242a54",
+      "core_source": "fa0b3f7b74e9ed638c8b6f96d3f23b0910b4e5df9387ff8df58d5472a8014dd2",
+      "generation": 1250,
+      "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "producer": {
+        "build_sha256": "b3c0de6ee6d5db06903f20008b2518c39c0fce527e5c843df46683203c84eb6f",
+        "b01_sha256": "4c86c17674187dbfd38bbd37ae64b79aeb07af0f6da3aac0e03afa48478ba1bb",
+        "signature": "a0879c7a1503c8a691167f7e23e0687efaf1789ff0bb6c5799f39928ed63b769",
+        "profile": "search_v1",
+        "v205_enabled": false
+      },
+      "scope": "diagnostic",
+      "auxiliary": true,
+      "job": {
+        "index": 2,
+        "seed": 19553623,
+        "rotation": 2,
+        "sampling_seed": 133777043,
+        "policies": [
+          {
+            "kind": "neural",
+            "model_id": "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b",
+            "exploration": 0.0,
+            "focus": "neutral",
+            "policy_id": "step5-neural/ad42d7bc8fc9623db4603e4f81a1cc2dcc56208e42ef87035f254ec2f62d6fce",
+            "exploration_version": 3,
+            "opening": {
+              "contract": "opening-temperature/4.0.0",
+              "temperature": 1.3,
+              "action_decisions_per_seat": 3,
+              "seats": "neural"
+            }
+          },
+          {
+            "kind": "neural",
+            "model_id": "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1",
+            "exploration": 0.0,
+            "focus": "neutral",
+            "policy_id": "step5-neural/f0c679c1b735d7afae27f264e178b03076b5a7096e9910bc9499ac0cdb4473db",
+            "exploration_version": 3,
+            "opening": {
+              "contract": "opening-temperature/4.0.0",
+              "temperature": 1.3,
+              "action_decisions_per_seat": 3,
+              "seats": "neural"
+            }
+          },
+          {
+            "kind": "neural",
+            "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+            "exploration": 0.0,
+            "focus": "mixed",
+            "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+            "exploration_version": 3,
+            "opening": {
+              "contract": "opening-temperature/4.0.0",
+              "temperature": 1.3,
+              "action_decisions_per_seat": 3,
+              "seats": "neural"
+            }
+          },
+          {
+            "kind": "neural",
+            "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+            "exploration": 0.0,
+            "focus": "mixed",
+            "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+            "exploration_version": 3,
+            "opening": {
+              "contract": "opening-temperature/4.0.0",
+              "temperature": 1.3,
+              "action_decisions_per_seat": 3,
+              "seats": "neural"
+            }
+          }
+        ],
+        "focuses": {
+          "0": "neutral",
+          "1": "neutral",
+          "2": "neutral",
+          "3": "neutral"
+        },
+        "provenance": {
+          "producer": "recovery/2.0.0",
+          "purpose": "training",
+          "kind": "historical",
+          "ordinary_game_index": 400002,
+          "seed": 19553623,
+          "sampling_seed": 133777043,
+          "spec": "a0879c7a1503c8a691167f7e23e0687efaf1789ff0bb6c5799f39928ed63b769",
+          "policies": [
+            "step5-neural/ad42d7bc8fc9623db4603e4f81a1cc2dcc56208e42ef87035f254ec2f62d6fce",
+            "step5-neural/f0c679c1b735d7afae27f264e178b03076b5a7096e9910bc9499ac0cdb4473db",
+            "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+            "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a"
+          ],
+          "rotation": 2,
+          "learner_behavior": {
+            "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+            "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+            "exploration": 0.0,
+            "temperature": 1.0,
+            "focus": "mixed",
+            "exploration_version": 3,
+            "opening": {
+              "contract": "opening-temperature/4.0.0",
+              "temperature": 1.3,
+              "action_decisions_per_seat": 3,
+              "seats": "neural"
+            }
+          },
+          "legacy_mode": null,
+          "seat_contexts": {
+            "contract": "ordinary-neutral-contexts/1.0.0",
+            "mode": "neutral",
+            "seats": "all-neural"
+          },
+          "exploration": {
+            "version": 3,
+            "opening": {
+              "contract": "opening-temperature/4.0.0",
+              "temperature": 1.3,
+              "action_decisions_per_seat": 3,
+              "seats": "neural"
+            },
+            "raw_entropy": true,
+            "branching": {
+              "contract": "selfplay-branching/9.0.0",
+              "tables": [
+                "selfplay"
+              ],
+              "rate_per_decision": 0.005,
+              "max_per_game": 1,
+              "skip_opening_decisions": 3,
+              "skip_final_rounds": "rail_empty_deck_hand_le_4",
+              "move_distribution": {
+                "temperature_2": 1.0
+              },
+              "exclude_played_move": true,
+              "reshuffle_hidden_deck": true,
+              "branch_move_row": "excluded",
+              "reset_opening_at_fork": true,
+              "continuation_opening": {
+                "contract": "opening-temperature/3.0.0",
+                "temperature": 1.5,
+                "action_decisions_per_seat": 2,
+                "seats": "neural"
+              }
+            },
+            "branching_status": "active",
+            "alphas": {
+              "canal_action": 0.001,
+              "canal_other": 0.001,
+              "rail_action": 0.001,
+              "rail_other": 0.001
+            },
+            "entropy_schedule": {
+              "contract": "entropy-anneal-schedule/1.3.0",
+              "config_id": "ae8e3b0f4f8beca56cd1f4f34770f6e103478bd8a5806eac78665509d2f5b7fd",
+              "generation": 1251,
+              "progress": 100,
+              "alphas": {
+                "canal_action": 0.001,
+                "canal_other": 0.001,
+                "rail_action": 0.001,
+                "rail_other": 0.001
+              }
+            },
+            "age": 1250,
+            "origin": 0
+          },
+          "ppo_opening_objective": {
+            "contract": "opening-ppo-objective/5.0.0",
+            "scope": "normal-T1.3-three-branch-T1.5-two",
+            "target_temperature": 1.0,
+            "importance_cap": 2.0,
+            "normalization": "none",
+            "old_policy": "frozen-before-ppo",
+            "kl_guard": "behavior-and-raw-temperature-1"
+          },
+          "critic_table": {
+            "contract": "seat-descriptors/1.0.0",
+            "generation": 1250,
+            "seats": [
+              {
+                "role": "learner",
+                "generation": 1250,
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+              },
+              {
+                "role": "learner",
+                "generation": 1250,
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+              },
+              {
+                "role": "snapshot",
+                "generation": 1045,
+                "model_id": "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b",
+                "policy_id": "step5-neural/ad42d7bc8fc9623db4603e4f81a1cc2dcc56208e42ef87035f254ec2f62d6fce",
+                "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+              },
+              {
+                "role": "snapshot",
+                "generation": 1175,
+                "model_id": "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1",
+                "policy_id": "step5-neural/f0c679c1b735d7afae27f264e178b03076b5a7096e9910bc9499ac0cdb4473db",
+                "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+              }
+            ],
+            "stable": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.9601375460624695,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.7804422378540039,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "fingerprint_mode": "neutral",
+            "learner_fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+          },
+          "policy_observations": {
+            "contract": "selfplay-policy-observations/1.0.0",
+            "seat_fingerprints": "neutral",
+            "anchor_kl": "off",
+            "fixed_probe": "pool_admission_only"
+          },
+          "quality_opponents": [
+            {
+              "model_id": "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b",
+              "source": "scored",
+              "N": 25,
+              "p": 0.0401793829243465,
+              "il_share": 0.0,
+              "seat_probability": 0.0401793829243465,
+              "seat": 2
+            },
+            {
+              "model_id": "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1",
+              "source": "scored",
+              "N": 25,
+              "p": 0.04381246967578273,
+              "il_share": 0.0,
+              "seat_probability": 0.04381246967578273,
+              "seat": 3
+            }
+          ],
+          "local_scoring": {
+            "contract": "local-scoring-targets/1.0.0",
+            "topology": "7e4a3e88c1c7f55c580ce8b180d7277d5628d24d0195df18e7c300cd31f4ae5b",
+            "horizon": "current-era",
+            "ordering": "canonical-stable-seat",
+            "rules": "steam-brass-patch-1.1.0",
+            "producer": {
+              "runtime_sha256": "b240d9963716bc256bcf9385fbc571d06fd2ea66a444204078103f7af66f3c6e",
+              "host_sha256": "c36293458ba9bba82f2acbb5525e335d6cb1187df442b8a202b7c34ff17eb20e"
+            }
+          }
+        },
+        "stable_game_id": "a3b88a5dffbe14bc5ba965ebaec1e561ecc0656ecba813bb253be89022d6a5ff"
+      },
+      "job_id": "25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971",
+      "sha256": "4ce8356aa5fd1d57c0d4cc6ab55ec1c75b9061837f072020000e1c179b8acf10"
+    },
+    "family_sha256": "6ae1e4ff4cf01ecc89ad7f5c24fe3e5e87d91ad9627fc40b0f205d071117c85a",
+    "replay_sha256": "9b0bca2c9597e8dcb574338a8cfe2f793ec81c7baf33ff84751575dcf85fca0a",
+    "features": {
+      "data_sha256": "23a61ecf30bc8e257d81b104339ac49994a84612ce098325367d6641abc86d8a",
+      "manifest_sha256": "0ea8ce68770c0a4ae03a7f6a8dcb806b8bf5aa9706380d77bb9659e71160787b",
+      "replay_sha256": "9b0bca2c9597e8dcb574338a8cfe2f793ec81c7baf33ff84751575dcf85fca0a",
+      "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+    },
+    "validation": {
+      "contract": "brass-native-validation/1.0.0",
+      "validator": "12d996a03debe816d1c3661872faeafa9e79c6ea97646d83cf19393dd57bd5ba",
+      "receipt_sha256": "9da523a0c0ed68007a861502f4b47bb9cbc2d76237ca331f556ed52ae44fbc5d"
+    }
+  },
+  "publication_seconds": 1.0678595940116793,
+  "publication_phases": {
+    "part_read_seconds": 0.7321030250168405,
+    "family_seal_seconds": 0.17415678699035197,
+    "actor_part_transfer": [
+      {
+        "json_encoding_seconds": 0.13994018000084907,
+        "compression_seconds": 0.07633209999767132,
+        "feature_handoff_seconds": 0.20411858198349364,
+        "write_hash_seconds": 0.015409482002723962
+      }
+    ],
+    "full_validation_and_assembly_seconds": 0.5774858360236976,
+    "json_encoding_seconds": 0.13344977499218658,
+    "replay_write_hash_seconds": 0.08019661399885081,
+    "feature_cache_seconds": 0.2507090629951563
+  },
+  "native_metrics": [
+    {
+      "role": "parent",
+      "timings": {
+        "collector_process_starts": 1,
+        "native_startup_seconds": 0.0021615959994960576,
+        "policy_starts": 4,
+        "policy_startup_seconds": 0.02786430495325476,
+        "bootstrap_seconds": 0.11750980801298283,
+        "inference_envelope_seconds": 4.602486714225961,
+        "policy_seconds": 5.0586943657835945,
+        "encoding_seconds": 0.008674476121086627,
+        "native_step_seconds": 3.0337747648591176,
+        "drain_seconds": 0.7921698790160008,
+        "training_feature_export_seconds": 0.19523349701194093,
+        "ipc_request_encode_seconds": 0.03101312040234916,
+        "ipc_sent_bytes": 876923,
+        "ipc_calls": 512,
+        "ipc_hello_calls": 1,
+        "ipc_received_bytes": 105765131,
+        "ipc_reply_decode_seconds": 0.5685583281738218,
+        "ipc_round_trip_seconds": 3.387385381589411,
+        "ipc_hello_seconds": 0.0008562350121792406,
+        "ipc_begin_calls": 1,
+        "ipc_begin_seconds": 0.029395518999081105,
+        "ipc_feature_arrays_calls": 169,
+        "ipc_feature_arrays_seconds": 0.2741203269979451,
+        "ipc_append_compact_calls": 169,
+        "ipc_append_compact_seconds": 1.7949793298903387,
+        "ipc_append_forced_calls": 142,
+        "ipc_append_forced_seconds": 1.1983792468672618,
+        "ipc_finish_calls": 1,
+        "ipc_finish_seconds": 0.0018904450116679072,
+        "ipc_drain_records_calls": 15,
+        "ipc_drain_records_seconds": 0.06647891196189448,
+        "ipc_drain_training_calls": 13,
+        "ipc_drain_training_seconds": 0.022019504074705765,
+        "ipc_release_calls": 1,
+        "ipc_release_seconds": 0.0002776999899651855,
+        "total_seconds": 13.377802306989906
+      },
+      "native_cost": {
+        "feature_seconds": 0.063387477,
+        "max_candidates": 405,
+        "peak_process_rss_bytes": 83156992,
+        "projection_seconds": 0.090241801,
+        "transition_seconds": 0.431134534
+      }
+    }
+  ]
+}

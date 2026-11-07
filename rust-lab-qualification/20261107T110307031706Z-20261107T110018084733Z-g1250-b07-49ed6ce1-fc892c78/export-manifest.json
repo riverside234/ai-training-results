@@ -1,0 +1,332 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-07T11:03:07.114399+00:00",
+  "source": "artifacts/rust-backend/20261107T110018084733Z-g1250-b07-49ed6ce1",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T110018084733Z-g1250-b07-49ed6ce1",
+  "review_only": true,
+  "files": [
+    {
+      "source": "fixtures.log",
+      "path": "evidence/fixtures.log",
+      "source_bytes": 111,
+      "source_sha256": "690d407ae2a637068ba0cb48d565a19a16ba5fd7efe470614eec638acdf72e55",
+      "bytes": 111,
+      "sha256": "690d407ae2a637068ba0cb48d565a19a16ba5fd7efe470614eec638acdf72e55",
+      "gzip": false
+    },
+    {
+      "source": "native-wire.log",
+      "path": "evidence/native-wire.log",
+      "source_bytes": 97,
+      "source_sha256": "ca16cd8167b9d79e65c0d87f63b185a375d1dfd68a492bb120f887a7a849b555",
+      "bytes": 97,
+      "sha256": "ca16cd8167b9d79e65c0d87f63b185a375d1dfd68a492bb120f887a7a849b555",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-build.json",
+      "path": "evidence/ordinary-build.json",
+      "source_bytes": 220645,
+      "source_sha256": "b3c0de6ee6d5db06903f20008b2518c39c0fce527e5c843df46683203c84eb6f",
+      "bytes": 220645,
+      "sha256": "b3c0de6ee6d5db06903f20008b2518c39c0fce527e5c843df46683203c84eb6f",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-checks.json",
+      "path": "evidence/ordinary-checks.json",
+      "source_bytes": 204527,
+      "source_sha256": "4f7f0a8264b43cc664727505d748f29d732ad0c0ca6db3393bfe1b208b67fc17",
+      "bytes": 204527,
+      "sha256": "4f7f0a8264b43cc664727505d748f29d732ad0c0ca6db3393bfe1b208b67fc17",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-environment.json",
+      "path": "evidence/ordinary-environment.json",
+      "source_bytes": 1032,
+      "source_sha256": "6d955124b47d9834ea88e54d45e412346e94a5fcccbe0afb13ece8fa583bafe2",
+      "bytes": 1032,
+      "sha256": "6d955124b47d9834ea88e54d45e412346e94a5fcccbe0afb13ece8fa583bafe2",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-prior-source.json",
+      "path": "evidence/ordinary-prior-source.json",
+      "source_bytes": 192288,
+      "source_sha256": "5dc254b7ab52b156e205f98ab9c4b45b2a257a3dfaec1f8467609efa99224319",
+      "bytes": 192288,
+      "sha256": "5dc254b7ab52b156e205f98ab9c4b45b2a257a3dfaec1f8467609efa99224319",
+      "gzip": false
+    },
+    {
+      "source": "ordinary.log",
+      "path": "evidence/ordinary.log",
+      "source_bytes": 235,
+      "source_sha256": "1e9de09b39a1314e0a3abd3f1f3fab3d6f29c38469408a8f1e2710961339600a",
+      "bytes": 235,
+      "sha256": "1e9de09b39a1314e0a3abd3f1f3fab3d6f29c38469408a8f1e2710961339600a",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 217377,
+      "source_sha256": "0ba62d2e43bcced23e270154e48b175846d30cf9cd212ea30c8d8c9d8a889393",
+      "bytes": 217377,
+      "sha256": "0ba62d2e43bcced23e270154e48b175846d30cf9cd212ea30c8d8c9d8a889393",
+      "gzip": false
+    },
+    {
+      "source": "snapshot.json",
+      "path": "evidence/snapshot.json.gz",
+      "source_bytes": 2444287,
+      "source_sha256": "af00a414fb435135336fe720265e455cc35ec37833b0ca7460550262c2879d2b",
+      "bytes": 460047,
+      "sha256": "784d53a88ec6435dff3cfe16a66f5fff9013f9b415f44950b24886228a4562e9",
+      "gzip": true
+    },
+    {
+      "source": "transport-micro.json",
+      "path": "evidence/transport-micro.json",
+      "source_bytes": 9592,
+      "source_sha256": "35d4f6f5d8b01f1d0e76287c7152d9f5ba9eb625a62216e57e12502773331cf8",
+      "bytes": 9592,
+      "sha256": "35d4f6f5d8b01f1d0e76287c7152d9f5ba9eb625a62216e57e12502773331cf8",
+      "gzip": false
+    },
+    {
+      "source": "transport-micro.log",
+      "path": "evidence/transport-micro.log",
+      "source_bytes": 9592,
+      "source_sha256": "35d4f6f5d8b01f1d0e76287c7152d9f5ba9eb625a62216e57e12502773331cf8",
+      "bytes": 9592,
+      "sha256": "35d4f6f5d8b01f1d0e76287c7152d9f5ba9eb625a62216e57e12502773331cf8",
+      "gzip": false
+    },
+    {
+      "source": "v4-parity.json",
+      "path": "evidence/v4-parity.json",
+      "source_bytes": 784,
+      "source_sha256": "03c1a074ae6ac49f9ebbcff748434a5ecf8dd5fbf26e0bd0425814c60d383dec",
+      "bytes": 784,
+      "sha256": "03c1a074ae6ac49f9ebbcff748434a5ecf8dd5fbf26e0bd0425814c60d383dec",
+      "gzip": false
+    },
+    {
+      "source": "v4-parity.log",
+      "path": "evidence/v4-parity.log",
+      "source_bytes": 784,
+      "source_sha256": "03c1a074ae6ac49f9ebbcff748434a5ecf8dd5fbf26e0bd0425814c60d383dec",
+      "bytes": 784,
+      "sha256": "03c1a074ae6ac49f9ebbcff748434a5ecf8dd5fbf26e0bd0425814c60d383dec",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-runtime/build.json",
+      "path": "evidence/ordinary-runtime/build.json",
+      "source_bytes": 220645,
+      "source_sha256": "b3c0de6ee6d5db06903f20008b2518c39c0fce527e5c843df46683203c84eb6f",
+      "bytes": 220645,
+      "sha256": "b3c0de6ee6d5db06903f20008b2518c39c0fce527e5c843df46683203c84eb6f",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-runtime/build.log",
+      "path": "evidence/ordinary-runtime/build.log",
+      "source_bytes": 2554,
+      "source_sha256": "b86f53881c7d3ef38d2dff5ea3cac187600d0fa489bf8825d3d1dab5a42436f0",
+      "bytes": 2554,
+      "sha256": "b86f53881c7d3ef38d2dff5ea3cac187600d0fa489bf8825d3d1dab5a42436f0",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-runtime/test.log",
+      "path": "evidence/ordinary-runtime/test.log",
+      "source_bytes": 6746,
+      "source_sha256": "891008f6f99a11250d8fc0a6ff21bc08949b64e8023bb0446984b9862e033217",
+      "bytes": 6746,
+      "sha256": "891008f6f99a11250d8fc0a6ff21bc08949b64e8023bb0446984b9862e033217",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/comparison.json",
+      "path": "evidence/ordinary/comparison.json",
+      "source_bytes": 202245,
+      "source_sha256": "43e654fa8fbb567b207b086c1161358bb2fa63eae91d2efb91b00352ec7e5af9",
+      "bytes": 202245,
+      "sha256": "43e654fa8fbb567b207b086c1161358bb2fa63eae91d2efb91b00352ec7e5af9",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/frozen-jobs.json",
+      "path": "evidence/ordinary/frozen-jobs.json",
+      "source_bytes": 42851,
+      "source_sha256": "b8b5203b19d74ff3817af5766aea0aa63cd52b6b3906a6a1dc8776f795882e29",
+      "bytes": 42851,
+      "sha256": "b8b5203b19d74ff3817af5766aea0aa63cd52b6b3906a6a1dc8776f795882e29",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/reference/report.json",
+      "path": "evidence/ordinary/reference/report.json",
+      "source_bytes": 96873,
+      "source_sha256": "9038e653fd6697ac37b06e4c20f9373f150d91a366ded5d4617295711bba10c2",
+      "bytes": 96873,
+      "sha256": "9038e653fd6697ac37b06e4c20f9373f150d91a366ded5d4617295711bba10c2",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/reference/replay/games-1cc8e3ae689d975f-part-0000.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/reference/replay/games-1cc8e3ae689d975f-part-0000.jsonl.gz.features-v4.json",
+      "source_bytes": 27577,
+      "source_sha256": "485c295a976dd2d787672b258c88ac7244c48394646187d81629c5bcc9e96aca",
+      "bytes": 27577,
+      "sha256": "485c295a976dd2d787672b258c88ac7244c48394646187d81629c5bcc9e96aca",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/reference/replay/games-4c21ea2653e2dcb1-part-0000.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/reference/replay/games-4c21ea2653e2dcb1-part-0000.jsonl.gz.features-v4.json",
+      "source_bytes": 27373,
+      "source_sha256": "23d560d8ec9b13ebcd0c50ed9a8c443fe580f9776d3c68ea6ad77a087e0bb668",
+      "bytes": 27373,
+      "sha256": "23d560d8ec9b13ebcd0c50ed9a8c443fe580f9776d3c68ea6ad77a087e0bb668",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/reference/replay/games-e06e3a32dd06188a-part-0000.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/reference/replay/games-e06e3a32dd06188a-part-0000.jsonl.gz.features-v4.json",
+      "source_bytes": 28189,
+      "source_sha256": "b7574bbc5481724dcdc1183e3dcf9ec0a0f6d738b37ffb54a417c539bbac02ee",
+      "bytes": 28189,
+      "sha256": "b7574bbc5481724dcdc1183e3dcf9ec0a0f6d738b37ffb54a417c539bbac02ee",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/rust/report.json",
+      "path": "evidence/ordinary/rust/report.json",
+      "source_bytes": 85690,
+      "source_sha256": "5c5bea5a52a11ad12713cf88f01e0f3d632962c77063c2b9854ddf7d13f85187",
+      "bytes": 85690,
+      "sha256": "5c5bea5a52a11ad12713cf88f01e0f3d632962c77063c2b9854ddf7d13f85187",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/rust/plan/native-ordinary/replay/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.jsonl.gz.features-v4.json",
+      "source_bytes": 27142,
+      "source_sha256": "7a6b6e787471383d1785feee3cb6ab895ed30fbbb4d7a0421900e9ce0e775d3e",
+      "bytes": 27142,
+      "sha256": "7a6b6e787471383d1785feee3cb6ab895ed30fbbb4d7a0421900e9ce0e775d3e",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.jsonl.gz.record.json",
+      "path": "evidence/ordinary/rust/plan/native-ordinary/replay/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.jsonl.gz.record.json",
+      "source_bytes": 18320,
+      "source_sha256": "d864bc760cc4d5e4d93b226a6c3db860e46a3cd5b8a7dbed9524edec07461e28",
+      "bytes": 18320,
+      "sha256": "d864bc760cc4d5e4d93b226a6c3db860e46a3cd5b8a7dbed9524edec07461e28",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/rust/plan/native-ordinary/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz.features-v4.json",
+      "source_bytes": 26941,
+      "source_sha256": "c1e316f6bd1b0cb8cee72b3bf5a6cba72441af5d3b39b2c4cbebb368b6a8e25c",
+      "bytes": 26941,
+      "sha256": "c1e316f6bd1b0cb8cee72b3bf5a6cba72441af5d3b39b2c4cbebb368b6a8e25c",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz.record.json",
+      "path": "evidence/ordinary/rust/plan/native-ordinary/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz.record.json",
+      "source_bytes": 23381,
+      "source_sha256": "2c6c7555948e8f6c920cc8d65f3d3e3825ecbca6ee5ea67c81b2b7cc41982555",
+      "bytes": 23381,
+      "sha256": "2c6c7555948e8f6c920cc8d65f3d3e3825ecbca6ee5ea67c81b2b7cc41982555",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/rust/plan/native-ordinary/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz.features-v4.json",
+      "source_bytes": 27745,
+      "source_sha256": "0ea8ce68770c0a4ae03a7f6a8dcb806b8bf5aa9706380d77bb9659e71160787b",
+      "bytes": 27745,
+      "sha256": "0ea8ce68770c0a4ae03a7f6a8dcb806b8bf5aa9706380d77bb9659e71160787b",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz.record.json",
+      "path": "evidence/ordinary/rust/plan/native-ordinary/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz.record.json",
+      "source_bytes": 18307,
+      "source_sha256": "f301f6aeb2e257d2bf55590c6e552176e3b3b0276ca93cd0fd07546e4b76ac94",
+      "bytes": 18307,
+      "sha256": "f301f6aeb2e257d2bf55590c6e552176e3b3b0276ca93cd0fd07546e4b76ac94",
+      "gzip": false
+    }
+  ],
+  "omitted": [
+    {
+      "source": "ordinary-runtime/inputs",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "ordinary-runtime/checkout",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "ordinary-runtime/target",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-1cc8e3ae689d975f-part-0000.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-1cc8e3ae689d975f-part-0000.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-4c21ea2653e2dcb1-part-0000.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-4c21ea2653e2dcb1-part-0000.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-e06e3a32dd06188a-part-0000.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-e06e3a32dd06188a-part-0000.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/plan/native-ordinary/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    }
+  ]
+}
