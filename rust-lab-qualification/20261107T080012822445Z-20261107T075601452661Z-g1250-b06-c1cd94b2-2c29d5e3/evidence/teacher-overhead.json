@@ -1,0 +1,321 @@
+{
+  "passed": true,
+  "validation": [
+    {
+      "job_id": "e5f783831269f3df3faf53194a0c5e4632c9a559625cd9acfa94cb54578e1597",
+      "rows": 23,
+      "seconds": {
+        "batch": 0.2939731319784187,
+        "stream": 0.7356260309752543
+      },
+      "reuse_seconds": 0.1146123580110725,
+      "equal": true
+    },
+    {
+      "job_id": "34af2fadb20d662a9df7d91927860ff207f2fd1b6ec001982db5c0b3594d43e8",
+      "rows": 26,
+      "seconds": {
+        "stream": 0.9019246129901148,
+        "batch": 0.2198759839811828
+      },
+      "reuse_seconds": 0.21611362099065445,
+      "equal": true
+    }
+  ],
+  "measurement": {
+    "phases": {
+      "policy_buffer_seal": {
+        "total_seconds": 0.1353428259899374,
+        "samples": 1,
+        "median": 0.1353428259899374,
+        "p90": 0.1353428259899374,
+        "maximum": 0.1353428259899374
+      },
+      "policy_buffer_warm_read": {
+        "total_seconds": 0.0035600039991550148,
+        "samples": 1,
+        "median": 0.0035600039991550148,
+        "p90": 0.0035600039991550148,
+        "maximum": 0.0035600039991550148
+      },
+      "policy_buffer_cold_read": {
+        "total_seconds": 0.22550258299452253,
+        "samples": 1,
+        "median": 0.22550258299452253,
+        "p90": 0.22550258299452253,
+        "maximum": 0.22550258299452253
+      },
+      "value_buffer_seal": {
+        "total_seconds": 0.14733631801209413,
+        "samples": 1,
+        "median": 0.14733631801209413,
+        "p90": 0.14733631801209413,
+        "maximum": 0.14733631801209413
+      },
+      "value_buffer_read": {
+        "total_seconds": 0.00021355599164962769,
+        "samples": 1,
+        "median": 0.00021355599164962769,
+        "p90": 0.00021355599164962769,
+        "maximum": 0.00021355599164962769
+      },
+      "search_value_head_one_step": {
+        "total_seconds": 0.19932215599692427,
+        "samples": 1,
+        "median": 0.19932215599692427,
+        "p90": 0.19932215599692427,
+        "maximum": 0.19932215599692427
+      },
+      "teacher_policy_KL_forward_backward": {
+        "total_seconds": 0.22480285799247213,
+        "samples": 2,
+        "median": 0.11240142899623606,
+        "p90": 0.12211816498893313,
+        "maximum": 0.12211816498893313
+      }
+    },
+    "peak_process_tree_rss_bytes": 2436546560,
+    "sampled_process_tree_cpu_seconds": 4.740000000000002,
+    "process_samples": 24,
+    "exited_process_reads": 0,
+    "cuda_setup": {
+      "device": "cuda:0",
+      "initialized_before": true,
+      "seconds": 6.154100992716849e-05
+    },
+    "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+    "device_memory": {
+      "host_resident_bytes": 2422501376,
+      "cuda_allocated_bytes": 114497024,
+      "cuda_reserved_bytes": 213909504,
+      "cuda_peak_allocated_bytes": 169197056,
+      "cuda_peak_reserved_bytes": 213909504
+    }
+  },
+  "head_update": {
+    "steps": 1,
+    "rows": 64,
+    "loss_before": 0.23168495297431946,
+    "loss_after": 0.23168495297431946,
+    "trunk_gradient": 0.0,
+    "policy_kl": 0.0
+  },
+  "policy_rows": 23,
+  "value_rows": 64,
+  "new_teacher_tables": 0,
+  "scope": "Frozen g1250 labels; actual model KL gradient kernel, buffers and one isolated head step. No ordinary Adam step or production beta calibration",
+  "historical_all_seat": {
+    "reused": true,
+    "table_wall_seconds": [
+      104.559942961,
+      102.619157493
+    ],
+    "lane_seconds": 207.179100454,
+    "summary": {
+      "turns": 128,
+      "labels": 49,
+      "completed_trajectories": 5977,
+      "completed_rounds": 179,
+      "effective_k": {
+        "samples": 174,
+        "median": 4.0,
+        "p90": 16.0,
+        "maximum": 16.0
+      },
+      "timings": {
+        "search_ns": {
+          "samples": 128,
+          "median": 0.7917842310000001,
+          "p90": 3.993838318,
+          "maximum": 3.999994462
+        },
+        "native_post_ns": {
+          "samples": 128,
+          "median": 0.0179628555,
+          "p90": 0.034419017,
+          "maximum": 0.046693976
+        },
+        "post_search_ns": {
+          "samples": 128,
+          "median": 0.022281178,
+          "p90": 0.12157604,
+          "maximum": 0.210892209
+        },
+        "selection_ns": {
+          "samples": 128,
+          "median": 0.0090694165,
+          "p90": 0.023610412,
+          "maximum": 0.039611641
+        },
+        "labels_ns": {
+          "samples": 128,
+          "median": 0.0,
+          "p90": 0.001051493,
+          "maximum": 0.001244369
+        },
+        "commit_ns": {
+          "samples": 128,
+          "median": 0.0029205554999999998,
+          "p90": 0.004650593,
+          "maximum": 0.006465643
+        },
+        "verification_ipc_ns": {
+          "samples": 128,
+          "median": 0.0016632029999999998,
+          "p90": 0.097638913,
+          "maximum": 0.197015133
+        },
+        "elapsed_ns": {
+          "samples": 128,
+          "median": 0.8136676595000001,
+          "p90": 4.108217471,
+          "maximum": 4.200621584
+        }
+      },
+      "inference_requests": 5978,
+      "gpu_wait_seconds": 178.615839934,
+      "encoding_seconds": 1.003540533,
+      "input_bytes": 499361304
+    },
+    "scope": "Original B04.5 two-table timing; not a fresh run or a matched g570 policy-only table control",
+    "inference_service": {
+      "batches": 6426,
+      "positions": 6482,
+      "model_cache_hits": 6426,
+      "valid_candidate_cells": 425267,
+      "padded_candidate_cells": 427931,
+      "max_batch_positions": 2,
+      "max_padded_candidate_cells": 652,
+      "expired_requests": 32,
+      "cancelled_requests": 0,
+      "packed_output_batches": 6426,
+      "shared_requests": 6492,
+      "shared_replies": 6492,
+      "inline_requests": 0,
+      "model_loads": 1,
+      "model_evictions": 0,
+      "timings": {
+        "inference.batch": {
+          "seconds": 103.1205656005186,
+          "calls": 6436,
+          "mean_seconds": 0.016022462026183747,
+          "p50_seconds": 0.013333634997252375,
+          "p95_seconds": 0.024346669000806287,
+          "max_seconds": 0.4667234910011757,
+          "first_seconds": 0.4667234910011757,
+          "steady_mean_seconds": 0.015952423016242025,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1024
+        },
+        "inference.forward": {
+          "seconds": 102.21915455337148,
+          "calls": 6426,
+          "mean_seconds": 0.01590712022305812,
+          "p50_seconds": 0.013174830004572868,
+          "p95_seconds": 0.024174616002710536,
+          "max_seconds": 0.46620125899789855,
+          "first_seconds": 0.46620125899789855,
+          "steady_mean_seconds": 0.015837035532198222,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1024
+        },
+        "inference.model_load": {
+          "seconds": 0.4419026599789504,
+          "calls": 1,
+          "mean_seconds": 0.4419026599789504,
+          "p50_seconds": 0.4419026599789504,
+          "p95_seconds": 0.4419026599789504,
+          "max_seconds": 0.4419026599789504,
+          "first_seconds": 0.4419026599789504,
+          "steady_mean_seconds": 0.0,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1
+        },
+        "inference.queue_wait": {
+          "seconds": 78.5287268293614,
+          "calls": 6492,
+          "mean_seconds": 0.012096230257141313,
+          "p50_seconds": 0.0015090510132722557,
+          "p95_seconds": 0.019927438988815993,
+          "max_seconds": 0.027630412980215624,
+          "first_seconds": 0.002260860987007618,
+          "steady_mean_seconds": 0.012097745488888367,
+          "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+          "percentile_sample_count": 1024
+        }
+      },
+      "device": "cuda:0",
+      "learner_device": "cuda:0",
+      "inference_devices": [
+        "cuda:0"
+      ],
+      "replica_count": 1,
+      "central_batching": true,
+      "memory": {
+        "host_resident_bytes": null,
+        "cuda_allocated_bytes": 57510912,
+        "cuda_reserved_bytes": 77594624,
+        "cuda_peak_allocated_bytes": 60498432,
+        "cuda_peak_reserved_bytes": 77594624
+      },
+      "cpu_admission": {
+        "capacity": 60,
+        "active": 0,
+        "peak": 2,
+        "queued": 0,
+        "aborted": false
+      },
+      "batching": {
+        "contract": "streaming-model-batches/1.0.0",
+        "peak_pending_positions": 2,
+        "batches": 6436,
+        "padding_splits": 0,
+        "capacity_splits": 0,
+        "max_padding_ratio": 2.0,
+        "scope": "One frozen model per batch; age/deadline fairness; no extra flush wait between model batches"
+      },
+      "batch_histogram": {
+        "1": 6370,
+        "2": 56
+      },
+      "per_model": {
+        "b9f0c1e310a73004cd792178e7fad00f7414470889d620e1587bff99d74eea0f": {
+          "positions": 6482,
+          "batches": 6426,
+          "batch_histogram": {
+            "1": 6370,
+            "2": 56
+          },
+          "queue_wait_seconds": 78.63277666331851,
+          "queue_wait_max_seconds": 0.027662489999784157,
+          "queue_wait_histogram": {
+            "4": 101,
+            "2": 901,
+            "32": 1544,
+            "16": 3524,
+            "8": 405,
+            "1": 7
+          },
+          "forward_seconds": 102.40608952898765,
+          "valid_candidate_cells": 425267,
+          "padded_candidate_cells": 427931
+        }
+      },
+      "resident_models": 1,
+      "registered_models": 1,
+      "timing_note": "Host elapsed time; CUDA forward kernel duration is in optional profiler traces",
+      "error": null
+    },
+    "value_admission": {
+      "rows": {
+        "train": 64,
+        "heldout": 64
+      },
+      "value_admission_per_table_seconds": {
+        "e5f783831269f3df3faf53194a0c5e4632c9a559625cd9acfa94cb54578e1597": 0.1069076550193131,
+        "34af2fadb20d662a9df7d91927860ff207f2fd1b6ec001982db5c0b3594d43e8": 0.03877860901411623
+      },
+      "value_admission_seconds": 0.14572567198774777
+    }
+  }
+}

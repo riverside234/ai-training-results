@@ -1,0 +1,635 @@
+{
+  "environment": {
+    "psutil": "7.2.2",
+    "requirements": "distribution/rust-lab-b06-g1250/requirements.txt",
+    "device": "cuda:0",
+    "torch": "2.8.0+cu128",
+    "cuda_build": "12.8",
+    "sampler": {
+      "phases": {
+        "cuda_preflight_allocation": {
+          "total_seconds": 0.013159805996110663,
+          "samples": 1,
+          "median": 0.013159805996110663,
+          "p90": 0.013159805996110663,
+          "maximum": 0.013159805996110663
+        }
+      },
+      "peak_process_tree_rss_bytes": 703848448,
+      "sampled_process_tree_cpu_seconds": 0,
+      "process_samples": 1,
+      "exited_process_reads": 0,
+      "cuda_setup": {
+        "device": "cuda:0",
+        "initialized_before": false,
+        "seconds": 0.2232474890188314
+      },
+      "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+      "device_memory": {
+        "host_resident_bytes": 718712832,
+        "cuda_allocated_bytes": 512,
+        "cuda_reserved_bytes": 2097152,
+        "cuda_peak_allocated_bytes": 512,
+        "cuda_peak_reserved_bytes": 2097152
+      }
+    }
+  },
+  "passed": true,
+  "search": {
+    "passed": true,
+    "schedule": [
+      [
+        "policy_only",
+        0
+      ],
+      [
+        "all_seat_w0",
+        0
+      ],
+      [
+        "all_seat_w0",
+        1
+      ],
+      [
+        "policy_only",
+        1
+      ]
+    ],
+    "sessions": 2,
+    "threads_per_session": 1,
+    "k": 16,
+    "search_seconds": 4,
+    "post_seconds": 1,
+    "failures": 0,
+    "arms": {
+      "all_seat_w0": {
+        "turns": 4,
+        "labels": 6,
+        "completed_trajectories": 576,
+        "completed_rounds": 14,
+        "effective_k": {
+          "samples": 4,
+          "median": 16.0,
+          "p90": 16.0,
+          "maximum": 16.0
+        },
+        "timings": {
+          "search_ns": {
+            "samples": 4,
+            "median": 3.991384591,
+            "p90": 3.999997527,
+            "maximum": 3.999997527
+          },
+          "native_post_ns": {
+            "samples": 4,
+            "median": 0.011387851,
+            "p90": 0.020980097,
+            "maximum": 0.020980097
+          },
+          "post_search_ns": {
+            "samples": 4,
+            "median": 0.128637442,
+            "p90": 0.158314399,
+            "maximum": 0.158314399
+          },
+          "selection_ns": {
+            "samples": 4,
+            "median": 0.0052051455,
+            "p90": 0.012741237,
+            "maximum": 0.012741237
+          },
+          "labels_ns": {
+            "samples": 4,
+            "median": 0.001182734,
+            "p90": 0.001561278,
+            "maximum": 0.001561278
+          },
+          "commit_ns": {
+            "samples": 4,
+            "median": 0.001880676,
+            "p90": 0.002789937,
+            "maximum": 0.002789937
+          },
+          "verification_ipc_ns": {
+            "samples": 4,
+            "median": 0.11552322949999999,
+            "p90": 0.141313083,
+            "maximum": 0.141313083
+          },
+          "elapsed_ns": {
+            "samples": 4,
+            "median": 4.1176078799999996,
+            "p90": 4.158266466,
+            "maximum": 4.158266466
+          }
+        },
+        "inference_requests": 581,
+        "gpu_wait_seconds": 12.755178052088013,
+        "encoding_seconds": null,
+        "input_bytes": 194426240
+      },
+      "policy_only": {
+        "turns": 4,
+        "labels": 6,
+        "completed_trajectories": 601,
+        "completed_rounds": 14,
+        "effective_k": {
+          "samples": 4,
+          "median": 16.0,
+          "p90": 16.0,
+          "maximum": 16.0
+        },
+        "timings": {
+          "search_ns": {
+            "samples": 4,
+            "median": 3.249929569,
+            "p90": 3.999997596,
+            "maximum": 3.999997596
+          },
+          "native_post_ns": {
+            "samples": 4,
+            "median": 0.0114435335,
+            "p90": 0.02233281,
+            "maximum": 0.02233281
+          },
+          "post_search_ns": {
+            "samples": 4,
+            "median": 0.14765248549999999,
+            "p90": 0.297167477,
+            "maximum": 0.297167477
+          },
+          "selection_ns": {
+            "samples": 4,
+            "median": 0.0062094805000000005,
+            "p90": 0.015139603,
+            "maximum": 0.015139603
+          },
+          "labels_ns": {
+            "samples": 4,
+            "median": 0.0011777365,
+            "p90": 0.001579917,
+            "maximum": 0.001579917
+          },
+          "commit_ns": {
+            "samples": 4,
+            "median": 0.0018829889999999998,
+            "p90": 0.002798576,
+            "maximum": 0.002798576
+          },
+          "verification_ipc_ns": {
+            "samples": 4,
+            "median": 0.13729154300000002,
+            "p90": 0.274834667,
+            "maximum": 0.274834667
+          },
+          "elapsed_ns": {
+            "samples": 4,
+            "median": 3.3975820545,
+            "p90": 4.297165073,
+            "maximum": 4.297165073
+          }
+        },
+        "inference_requests": 606,
+        "gpu_wait_seconds": 9.816305288724834,
+        "encoding_seconds": null,
+        "input_bytes": 205715268
+      }
+    },
+    "inference": {
+      "games_per_second": 0.0,
+      "mean_inference_batch": 1.0588760035682427,
+      "inference_batches": 1121,
+      "inference_positions": 1187,
+      "padding_fraction": 0.011156322811541108,
+      "inference_batch_histogram": {
+        "1": 1055,
+        "2": 66
+      },
+      "inference_per_model": {
+        "b9f0c1e310a73004cd792178e7fad00f7414470889d620e1587bff99d74eea0f": {
+          "positions": 1187,
+          "batches": 1121,
+          "batch_histogram": {
+            "1": 1055,
+            "2": 66
+          },
+          "queue_wait_seconds": 9.242439196590567,
+          "queue_wait_max_seconds": 0.025883556983899325,
+          "queue_wait_histogram": {
+            "4": 171,
+            "2": 304,
+            "32": 123,
+            "16": 457,
+            "8": 126,
+            "1": 6
+          },
+          "forward_seconds": 12.266373508406105,
+          "valid_candidate_cells": 294535,
+          "padded_candidate_cells": 297858
+        }
+      },
+      "model_loads": 0,
+      "model_evictions": 0,
+      "inference_model_scope": "Counts, sums and histograms are per-collection deltas; queue_wait_max_seconds is since service start",
+      "actor_phase_seconds": {},
+      "inference_phase_deltas": {
+        "inference.batch": {
+          "seconds": 12.415538572444348,
+          "calls": 1121
+        },
+        "inference.forward": {
+          "seconds": 12.232437642727746,
+          "calls": 1121
+        },
+        "inference.model_load": {
+          "seconds": 0.0,
+          "calls": 0
+        },
+        "inference.queue_wait": {
+          "seconds": 9.180822451191489,
+          "calls": 1187
+        }
+      },
+      "inference_batching": {
+        "batches": 1121,
+        "padding_splits": 0,
+        "capacity_splits": 0,
+        "max_padding_ratio": 2.0,
+        "peak_pending_positions_since_service_start": 2,
+        "scope": "Per-collection count deltas; pending-position peak is cumulative"
+      },
+      "actor_python_cpu_seconds": null,
+      "actor_python_average_cores": null,
+      "actor_cpu_recorded_games": 0,
+      "actor_cpu_expected_work_items": 0,
+      "actor_cpu_scope": "Python actor process CPU during games; includes its threads, excludes Mono children and GPU; unavailable for cached games/multiple host lanes",
+      "ordinary_actors": 48,
+      "cpu_work_slots": 60,
+      "scope": "ordinary collection; actor/inference phase times overlap; actor_python_* measures process CPU, not total machine or GPU utilization"
+    },
+    "measurement": {
+      "phases": {
+        "gpu_model_load": {
+          "total_seconds": 0.29974551699706353,
+          "samples": 1,
+          "median": 0.29974551699706353,
+          "p90": 0.29974551699706353,
+          "maximum": 0.29974551699706353
+        },
+        "calibration": {
+          "total_seconds": 2.0023778619943187,
+          "samples": 1,
+          "median": 2.0023778619943187,
+          "p90": 2.0023778619943187,
+          "maximum": 2.0023778619943187
+        },
+        "matched_search_pair": {
+          "total_seconds": 15.406488334032474,
+          "samples": 4,
+          "median": 4.1987536845117575,
+          "p90": 4.347631214011926,
+          "maximum": 4.347631214011926
+        }
+      },
+      "peak_process_tree_rss_bytes": 1913602048,
+      "sampled_process_tree_cpu_seconds": 27.709999999999997,
+      "process_samples": 252,
+      "exited_process_reads": 0,
+      "cuda_setup": {
+        "device": "cuda:0",
+        "initialized_before": true,
+        "seconds": 8.410500595346093e-05
+      },
+      "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+      "device_memory": {
+        "host_resident_bytes": 1831677952,
+        "cuda_allocated_bytes": 57510912,
+        "cuda_reserved_bytes": 77594624,
+        "cuda_peak_allocated_bytes": 61217280,
+        "cuda_peak_reserved_bytes": 77594624
+      }
+    },
+    "scope": "Eight full-profile fixed-root turns; same v1/count parity/calibration/model. Policy-only versus all-seat zero-blend export path, not complete-table schedule speedup"
+  },
+  "overhead": {
+    "passed": true,
+    "validation": [
+      {
+        "job_id": "e5f783831269f3df3faf53194a0c5e4632c9a559625cd9acfa94cb54578e1597",
+        "rows": 23,
+        "seconds": {
+          "batch": 0.2939731319784187,
+          "stream": 0.7356260309752543
+        },
+        "reuse_seconds": 0.1146123580110725,
+        "equal": true
+      },
+      {
+        "job_id": "34af2fadb20d662a9df7d91927860ff207f2fd1b6ec001982db5c0b3594d43e8",
+        "rows": 26,
+        "seconds": {
+          "stream": 0.9019246129901148,
+          "batch": 0.2198759839811828
+        },
+        "reuse_seconds": 0.21611362099065445,
+        "equal": true
+      }
+    ],
+    "measurement": {
+      "phases": {
+        "policy_buffer_seal": {
+          "total_seconds": 0.1353428259899374,
+          "samples": 1,
+          "median": 0.1353428259899374,
+          "p90": 0.1353428259899374,
+          "maximum": 0.1353428259899374
+        },
+        "policy_buffer_warm_read": {
+          "total_seconds": 0.0035600039991550148,
+          "samples": 1,
+          "median": 0.0035600039991550148,
+          "p90": 0.0035600039991550148,
+          "maximum": 0.0035600039991550148
+        },
+        "policy_buffer_cold_read": {
+          "total_seconds": 0.22550258299452253,
+          "samples": 1,
+          "median": 0.22550258299452253,
+          "p90": 0.22550258299452253,
+          "maximum": 0.22550258299452253
+        },
+        "value_buffer_seal": {
+          "total_seconds": 0.14733631801209413,
+          "samples": 1,
+          "median": 0.14733631801209413,
+          "p90": 0.14733631801209413,
+          "maximum": 0.14733631801209413
+        },
+        "value_buffer_read": {
+          "total_seconds": 0.00021355599164962769,
+          "samples": 1,
+          "median": 0.00021355599164962769,
+          "p90": 0.00021355599164962769,
+          "maximum": 0.00021355599164962769
+        },
+        "search_value_head_one_step": {
+          "total_seconds": 0.19932215599692427,
+          "samples": 1,
+          "median": 0.19932215599692427,
+          "p90": 0.19932215599692427,
+          "maximum": 0.19932215599692427
+        },
+        "teacher_policy_KL_forward_backward": {
+          "total_seconds": 0.22480285799247213,
+          "samples": 2,
+          "median": 0.11240142899623606,
+          "p90": 0.12211816498893313,
+          "maximum": 0.12211816498893313
+        }
+      },
+      "peak_process_tree_rss_bytes": 2436546560,
+      "sampled_process_tree_cpu_seconds": 4.740000000000002,
+      "process_samples": 24,
+      "exited_process_reads": 0,
+      "cuda_setup": {
+        "device": "cuda:0",
+        "initialized_before": true,
+        "seconds": 6.154100992716849e-05
+      },
+      "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+      "device_memory": {
+        "host_resident_bytes": 2422501376,
+        "cuda_allocated_bytes": 114497024,
+        "cuda_reserved_bytes": 213909504,
+        "cuda_peak_allocated_bytes": 169197056,
+        "cuda_peak_reserved_bytes": 213909504
+      }
+    },
+    "head_update": {
+      "steps": 1,
+      "rows": 64,
+      "loss_before": 0.23168495297431946,
+      "loss_after": 0.23168495297431946,
+      "trunk_gradient": 0.0,
+      "policy_kl": 0.0
+    },
+    "policy_rows": 23,
+    "value_rows": 64,
+    "new_teacher_tables": 0,
+    "scope": "Frozen g1250 labels; actual model KL gradient kernel, buffers and one isolated head step. No ordinary Adam step or production beta calibration",
+    "historical_all_seat": {
+      "reused": true,
+      "table_wall_seconds": [
+        104.559942961,
+        102.619157493
+      ],
+      "lane_seconds": 207.179100454,
+      "summary": {
+        "turns": 128,
+        "labels": 49,
+        "completed_trajectories": 5977,
+        "completed_rounds": 179,
+        "effective_k": {
+          "samples": 174,
+          "median": 4.0,
+          "p90": 16.0,
+          "maximum": 16.0
+        },
+        "timings": {
+          "search_ns": {
+            "samples": 128,
+            "median": 0.7917842310000001,
+            "p90": 3.993838318,
+            "maximum": 3.999994462
+          },
+          "native_post_ns": {
+            "samples": 128,
+            "median": 0.0179628555,
+            "p90": 0.034419017,
+            "maximum": 0.046693976
+          },
+          "post_search_ns": {
+            "samples": 128,
+            "median": 0.022281178,
+            "p90": 0.12157604,
+            "maximum": 0.210892209
+          },
+          "selection_ns": {
+            "samples": 128,
+            "median": 0.0090694165,
+            "p90": 0.023610412,
+            "maximum": 0.039611641
+          },
+          "labels_ns": {
+            "samples": 128,
+            "median": 0.0,
+            "p90": 0.001051493,
+            "maximum": 0.001244369
+          },
+          "commit_ns": {
+            "samples": 128,
+            "median": 0.0029205554999999998,
+            "p90": 0.004650593,
+            "maximum": 0.006465643
+          },
+          "verification_ipc_ns": {
+            "samples": 128,
+            "median": 0.0016632029999999998,
+            "p90": 0.097638913,
+            "maximum": 0.197015133
+          },
+          "elapsed_ns": {
+            "samples": 128,
+            "median": 0.8136676595000001,
+            "p90": 4.108217471,
+            "maximum": 4.200621584
+          }
+        },
+        "inference_requests": 5978,
+        "gpu_wait_seconds": 178.615839934,
+        "encoding_seconds": 1.003540533,
+        "input_bytes": 499361304
+      },
+      "scope": "Original B04.5 two-table timing; not a fresh run or a matched g570 policy-only table control",
+      "inference_service": {
+        "batches": 6426,
+        "positions": 6482,
+        "model_cache_hits": 6426,
+        "valid_candidate_cells": 425267,
+        "padded_candidate_cells": 427931,
+        "max_batch_positions": 2,
+        "max_padded_candidate_cells": 652,
+        "expired_requests": 32,
+        "cancelled_requests": 0,
+        "packed_output_batches": 6426,
+        "shared_requests": 6492,
+        "shared_replies": 6492,
+        "inline_requests": 0,
+        "model_loads": 1,
+        "model_evictions": 0,
+        "timings": {
+          "inference.batch": {
+            "seconds": 103.1205656005186,
+            "calls": 6436,
+            "mean_seconds": 0.016022462026183747,
+            "p50_seconds": 0.013333634997252375,
+            "p95_seconds": 0.024346669000806287,
+            "max_seconds": 0.4667234910011757,
+            "first_seconds": 0.4667234910011757,
+            "steady_mean_seconds": 0.015952423016242025,
+            "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+            "percentile_sample_count": 1024
+          },
+          "inference.forward": {
+            "seconds": 102.21915455337148,
+            "calls": 6426,
+            "mean_seconds": 0.01590712022305812,
+            "p50_seconds": 0.013174830004572868,
+            "p95_seconds": 0.024174616002710536,
+            "max_seconds": 0.46620125899789855,
+            "first_seconds": 0.46620125899789855,
+            "steady_mean_seconds": 0.015837035532198222,
+            "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+            "percentile_sample_count": 1024
+          },
+          "inference.model_load": {
+            "seconds": 0.4419026599789504,
+            "calls": 1,
+            "mean_seconds": 0.4419026599789504,
+            "p50_seconds": 0.4419026599789504,
+            "p95_seconds": 0.4419026599789504,
+            "max_seconds": 0.4419026599789504,
+            "first_seconds": 0.4419026599789504,
+            "steady_mean_seconds": 0.0,
+            "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+            "percentile_sample_count": 1
+          },
+          "inference.queue_wait": {
+            "seconds": 78.5287268293614,
+            "calls": 6492,
+            "mean_seconds": 0.012096230257141313,
+            "p50_seconds": 0.0015090510132722557,
+            "p95_seconds": 0.019927438988815993,
+            "max_seconds": 0.027630412980215624,
+            "first_seconds": 0.002260860987007618,
+            "steady_mean_seconds": 0.012097745488888367,
+            "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+            "percentile_sample_count": 1024
+          }
+        },
+        "device": "cuda:0",
+        "learner_device": "cuda:0",
+        "inference_devices": [
+          "cuda:0"
+        ],
+        "replica_count": 1,
+        "central_batching": true,
+        "memory": {
+          "host_resident_bytes": null,
+          "cuda_allocated_bytes": 57510912,
+          "cuda_reserved_bytes": 77594624,
+          "cuda_peak_allocated_bytes": 60498432,
+          "cuda_peak_reserved_bytes": 77594624
+        },
+        "cpu_admission": {
+          "capacity": 60,
+          "active": 0,
+          "peak": 2,
+          "queued": 0,
+          "aborted": false
+        },
+        "batching": {
+          "contract": "streaming-model-batches/1.0.0",
+          "peak_pending_positions": 2,
+          "batches": 6436,
+          "padding_splits": 0,
+          "capacity_splits": 0,
+          "max_padding_ratio": 2.0,
+          "scope": "One frozen model per batch; age/deadline fairness; no extra flush wait between model batches"
+        },
+        "batch_histogram": {
+          "1": 6370,
+          "2": 56
+        },
+        "per_model": {
+          "b9f0c1e310a73004cd792178e7fad00f7414470889d620e1587bff99d74eea0f": {
+            "positions": 6482,
+            "batches": 6426,
+            "batch_histogram": {
+              "1": 6370,
+              "2": 56
+            },
+            "queue_wait_seconds": 78.63277666331851,
+            "queue_wait_max_seconds": 0.027662489999784157,
+            "queue_wait_histogram": {
+              "4": 101,
+              "2": 901,
+              "32": 1544,
+              "16": 3524,
+              "8": 405,
+              "1": 7
+            },
+            "forward_seconds": 102.40608952898765,
+            "valid_candidate_cells": 425267,
+            "padded_candidate_cells": 427931
+          }
+        },
+        "resident_models": 1,
+        "registered_models": 1,
+        "timing_note": "Host elapsed time; CUDA forward kernel duration is in optional profiler traces",
+        "error": null
+      },
+      "value_admission": {
+        "rows": {
+          "train": 64,
+          "heldout": 64
+        },
+        "value_admission_per_table_seconds": {
+          "e5f783831269f3df3faf53194a0c5e4632c9a559625cd9acfa94cb54578e1597": 0.1069076550193131,
+          "34af2fadb20d662a9df7d91927860ff207f2fd1b6ec001982db5c0b3594d43e8": 0.03877860901411623
+        },
+        "value_admission_seconds": 0.14572567198774777
+      }
+    }
+  }
+}

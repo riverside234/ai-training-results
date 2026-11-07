@@ -1,0 +1,109 @@
+self-play prepare (CPU, 1 readers): starting (1 shards)
+self-play prepare (CPU, 1 readers): 20% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 40% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 60% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 80% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 100% (1/1 shards; 0.0s)
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608014341Z-example-5ee24743
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+Running b01; result export will be under results/rust-lab-qualification/
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608026247Z-20261107T075608025698Z-latest-all-16c582d2-06ebd3c8
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmpabjzxv7w/results/rust-lab-qualification/20261107T075608026247Z-20261107T075608025698Z-latest-all-16c582d2-06ebd3c8
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmpabjzxv7w/artifacts/rust-backend/20261107T075608025698Z-latest-all-16c582d2
+Running b01; result export will be under results/rust-lab-qualification/
+Running b02; result export will be under results/rust-lab-qualification/
+Running b025; result export will be under results/rust-lab-qualification/
+Running b03; result export will be under results/rust-lab-qualification/
+Running b04; result export will be under results/rust-lab-qualification/
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608029291Z-20261107T075608027971Z-latest-all-66fd2098-438ce69d
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmptngc7_bm/results/rust-lab-qualification/20261107T075608029291Z-20261107T075608027971Z-latest-all-66fd2098-438ce69d
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmptngc7_bm/artifacts/rust-backend/20261107T075608027971Z-latest-all-66fd2098
+Running b01; result export will be under results/rust-lab-qualification/
+ValueError: Committed generation/checkpoint differs; pause training and supply its exact identity
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608036248Z-20261107T075608035321Z-latest-all-56d2a421-e1086a1a
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmpqfbajz1r/results/rust-lab-qualification/20261107T075608036248Z-20261107T075608035321Z-latest-all-56d2a421-e1086a1a
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmpqfbajz1r/artifacts/rust-backend/20261107T075608035321Z-latest-all-56d2a421
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608038539Z-example-a1578218
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608043278Z-example-90556586
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+ValueError: bad transfer
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608049840Z-20261107T075608049645Z-latest-all-76fa9561-baddd937
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmplv_pmw1c/results/rust-lab-qualification/20261107T075608049840Z-20261107T075608049645Z-latest-all-76fa9561-baddd937
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmplv_pmw1c/artifacts/rust-backend/20261107T075608049645Z-latest-all-76fa9561
+Running b02; result export will be under results/rust-lab-qualification/
+Running b025; result export will be under results/rust-lab-qualification/
+Running b03; result export will be under results/rust-lab-qualification/
+Running b04; result export will be under results/rust-lab-qualification/
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608052245Z-20261107T075608051164Z-latest-all-dcf751b4-0e236be5
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmpgx8prjkq/results/rust-lab-qualification/20261107T075608052245Z-20261107T075608051164Z-latest-all-dcf751b4-0e236be5
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmpgx8prjkq/artifacts/rust-backend/20261107T075608051164Z-latest-all-dcf751b4
+Running b02; result export will be under results/rust-lab-qualification/
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608055402Z-20261107T075608054835Z-latest-all-2f8d5f1a-0f63dc40
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmpeznx8mf2/results/rust-lab-qualification/20261107T075608055402Z-20261107T075608054835Z-latest-all-2f8d5f1a-0f63dc40
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmpeznx8mf2/artifacts/rust-backend/20261107T075608054835Z-latest-all-2f8d5f1a
+ValueError: Starting at b02 requires --b01 with its original passing receipt
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608057241Z-20261107T075608057043Z-latest-all-fe115ab7-b8f0a845
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmpttuqmdcv/results/rust-lab-qualification/20261107T075608057241Z-20261107T075608057043Z-latest-all-fe115ab7-b8f0a845
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmpttuqmdcv/artifacts/rust-backend/20261107T075608057043Z-latest-all-fe115ab7
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608058074Z-example-b3e5e62a
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+Running b01; result export will be under results/rust-lab-qualification/
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T075608059631Z-20261107T075608059159Z-latest-b01-03fe025d-75a13f03
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmp7_97kso6/results/rust-lab-qualification/20261107T075608059631Z-20261107T075608059159Z-latest-b01-03fe025d-75a13f03
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmp7_97kso6/artifacts/rust-backend/20261107T075608059159Z-latest-b01-03fe025d
+----------------------------------------------------------------------
+Ran 57 tests in 5.619s
+
+OK

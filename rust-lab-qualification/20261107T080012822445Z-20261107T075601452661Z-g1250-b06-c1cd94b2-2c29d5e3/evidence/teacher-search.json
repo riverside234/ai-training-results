@@ -1,0 +1,276 @@
+{
+  "passed": true,
+  "schedule": [
+    [
+      "policy_only",
+      0
+    ],
+    [
+      "all_seat_w0",
+      0
+    ],
+    [
+      "all_seat_w0",
+      1
+    ],
+    [
+      "policy_only",
+      1
+    ]
+  ],
+  "sessions": 2,
+  "threads_per_session": 1,
+  "k": 16,
+  "search_seconds": 4,
+  "post_seconds": 1,
+  "failures": 0,
+  "arms": {
+    "all_seat_w0": {
+      "turns": 4,
+      "labels": 6,
+      "completed_trajectories": 576,
+      "completed_rounds": 14,
+      "effective_k": {
+        "samples": 4,
+        "median": 16.0,
+        "p90": 16.0,
+        "maximum": 16.0
+      },
+      "timings": {
+        "search_ns": {
+          "samples": 4,
+          "median": 3.991384591,
+          "p90": 3.999997527,
+          "maximum": 3.999997527
+        },
+        "native_post_ns": {
+          "samples": 4,
+          "median": 0.011387851,
+          "p90": 0.020980097,
+          "maximum": 0.020980097
+        },
+        "post_search_ns": {
+          "samples": 4,
+          "median": 0.128637442,
+          "p90": 0.158314399,
+          "maximum": 0.158314399
+        },
+        "selection_ns": {
+          "samples": 4,
+          "median": 0.0052051455,
+          "p90": 0.012741237,
+          "maximum": 0.012741237
+        },
+        "labels_ns": {
+          "samples": 4,
+          "median": 0.001182734,
+          "p90": 0.001561278,
+          "maximum": 0.001561278
+        },
+        "commit_ns": {
+          "samples": 4,
+          "median": 0.001880676,
+          "p90": 0.002789937,
+          "maximum": 0.002789937
+        },
+        "verification_ipc_ns": {
+          "samples": 4,
+          "median": 0.11552322949999999,
+          "p90": 0.141313083,
+          "maximum": 0.141313083
+        },
+        "elapsed_ns": {
+          "samples": 4,
+          "median": 4.1176078799999996,
+          "p90": 4.158266466,
+          "maximum": 4.158266466
+        }
+      },
+      "inference_requests": 581,
+      "gpu_wait_seconds": 12.755178052088013,
+      "encoding_seconds": null,
+      "input_bytes": 194426240
+    },
+    "policy_only": {
+      "turns": 4,
+      "labels": 6,
+      "completed_trajectories": 601,
+      "completed_rounds": 14,
+      "effective_k": {
+        "samples": 4,
+        "median": 16.0,
+        "p90": 16.0,
+        "maximum": 16.0
+      },
+      "timings": {
+        "search_ns": {
+          "samples": 4,
+          "median": 3.249929569,
+          "p90": 3.999997596,
+          "maximum": 3.999997596
+        },
+        "native_post_ns": {
+          "samples": 4,
+          "median": 0.0114435335,
+          "p90": 0.02233281,
+          "maximum": 0.02233281
+        },
+        "post_search_ns": {
+          "samples": 4,
+          "median": 0.14765248549999999,
+          "p90": 0.297167477,
+          "maximum": 0.297167477
+        },
+        "selection_ns": {
+          "samples": 4,
+          "median": 0.0062094805000000005,
+          "p90": 0.015139603,
+          "maximum": 0.015139603
+        },
+        "labels_ns": {
+          "samples": 4,
+          "median": 0.0011777365,
+          "p90": 0.001579917,
+          "maximum": 0.001579917
+        },
+        "commit_ns": {
+          "samples": 4,
+          "median": 0.0018829889999999998,
+          "p90": 0.002798576,
+          "maximum": 0.002798576
+        },
+        "verification_ipc_ns": {
+          "samples": 4,
+          "median": 0.13729154300000002,
+          "p90": 0.274834667,
+          "maximum": 0.274834667
+        },
+        "elapsed_ns": {
+          "samples": 4,
+          "median": 3.3975820545,
+          "p90": 4.297165073,
+          "maximum": 4.297165073
+        }
+      },
+      "inference_requests": 606,
+      "gpu_wait_seconds": 9.816305288724834,
+      "encoding_seconds": null,
+      "input_bytes": 205715268
+    }
+  },
+  "inference": {
+    "games_per_second": 0.0,
+    "mean_inference_batch": 1.0588760035682427,
+    "inference_batches": 1121,
+    "inference_positions": 1187,
+    "padding_fraction": 0.011156322811541108,
+    "inference_batch_histogram": {
+      "1": 1055,
+      "2": 66
+    },
+    "inference_per_model": {
+      "b9f0c1e310a73004cd792178e7fad00f7414470889d620e1587bff99d74eea0f": {
+        "positions": 1187,
+        "batches": 1121,
+        "batch_histogram": {
+          "1": 1055,
+          "2": 66
+        },
+        "queue_wait_seconds": 9.242439196590567,
+        "queue_wait_max_seconds": 0.025883556983899325,
+        "queue_wait_histogram": {
+          "4": 171,
+          "2": 304,
+          "32": 123,
+          "16": 457,
+          "8": 126,
+          "1": 6
+        },
+        "forward_seconds": 12.266373508406105,
+        "valid_candidate_cells": 294535,
+        "padded_candidate_cells": 297858
+      }
+    },
+    "model_loads": 0,
+    "model_evictions": 0,
+    "inference_model_scope": "Counts, sums and histograms are per-collection deltas; queue_wait_max_seconds is since service start",
+    "actor_phase_seconds": {},
+    "inference_phase_deltas": {
+      "inference.batch": {
+        "seconds": 12.415538572444348,
+        "calls": 1121
+      },
+      "inference.forward": {
+        "seconds": 12.232437642727746,
+        "calls": 1121
+      },
+      "inference.model_load": {
+        "seconds": 0.0,
+        "calls": 0
+      },
+      "inference.queue_wait": {
+        "seconds": 9.180822451191489,
+        "calls": 1187
+      }
+    },
+    "inference_batching": {
+      "batches": 1121,
+      "padding_splits": 0,
+      "capacity_splits": 0,
+      "max_padding_ratio": 2.0,
+      "peak_pending_positions_since_service_start": 2,
+      "scope": "Per-collection count deltas; pending-position peak is cumulative"
+    },
+    "actor_python_cpu_seconds": null,
+    "actor_python_average_cores": null,
+    "actor_cpu_recorded_games": 0,
+    "actor_cpu_expected_work_items": 0,
+    "actor_cpu_scope": "Python actor process CPU during games; includes its threads, excludes Mono children and GPU; unavailable for cached games/multiple host lanes",
+    "ordinary_actors": 48,
+    "cpu_work_slots": 60,
+    "scope": "ordinary collection; actor/inference phase times overlap; actor_python_* measures process CPU, not total machine or GPU utilization"
+  },
+  "measurement": {
+    "phases": {
+      "gpu_model_load": {
+        "total_seconds": 0.29974551699706353,
+        "samples": 1,
+        "median": 0.29974551699706353,
+        "p90": 0.29974551699706353,
+        "maximum": 0.29974551699706353
+      },
+      "calibration": {
+        "total_seconds": 2.0023778619943187,
+        "samples": 1,
+        "median": 2.0023778619943187,
+        "p90": 2.0023778619943187,
+        "maximum": 2.0023778619943187
+      },
+      "matched_search_pair": {
+        "total_seconds": 15.406488334032474,
+        "samples": 4,
+        "median": 4.1987536845117575,
+        "p90": 4.347631214011926,
+        "maximum": 4.347631214011926
+      }
+    },
+    "peak_process_tree_rss_bytes": 1913602048,
+    "sampled_process_tree_cpu_seconds": 27.709999999999997,
+    "process_samples": 252,
+    "exited_process_reads": 0,
+    "cuda_setup": {
+      "device": "cuda:0",
+      "initialized_before": true,
+      "seconds": 8.410500595346093e-05
+    },
+    "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+    "device_memory": {
+      "host_resident_bytes": 1831677952,
+      "cuda_allocated_bytes": 57510912,
+      "cuda_reserved_bytes": 77594624,
+      "cuda_peak_allocated_bytes": 61217280,
+      "cuda_peak_reserved_bytes": 77594624
+    }
+  },
+  "scope": "Eight full-profile fixed-root turns; same v1/count parity/calibration/model. Policy-only versus all-seat zero-blend export path, not complete-table schedule speedup"
+}

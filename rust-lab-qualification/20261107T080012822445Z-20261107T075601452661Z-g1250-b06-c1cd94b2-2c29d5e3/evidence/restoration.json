@@ -1,0 +1,79 @@
+{
+  "contract": "brass-joint7-continuation/1.0.0",
+  "generation": 1250,
+  "next_generation": 1251,
+  "checkpoint": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/generation-1250.pt",
+    "sha256": "de427bb22e38cc5dc9d4e79151cccdb321650c02978f79bcdad746c3e6be7985",
+    "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+    "generation": 1250
+  },
+  "target_signature": "a4ff2159772fe680428e10fce2652e6c740edcefeb98e22d40c3fe12d20ca218",
+  "full_state_restored": true,
+  "optimizers": [
+    "ppo",
+    "value",
+    "local-scoring-ppo",
+    "local-scoring-ppg"
+  ],
+  "search_value_restored": false,
+  "preserved_ppg_ages": [
+    1249,
+    1250
+  ],
+  "teacher_state_restored": false,
+  "cuda_rng_checked": true,
+  "topology": {
+    "saved_devices": 1,
+    "visible_devices": 8,
+    "restored_devices": 1
+  },
+  "snapshot_r2_overlay": null,
+  "recipe_restore": null,
+  "utility_readiness_before": {
+    "version": "ppg-value-phase/24.0.0",
+    "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+    "ready": true,
+    "decisions": 273250,
+    "games": 784,
+    "steps": 16,
+    "before": {
+      "mse": 0.1484258257441367
+    },
+    "after": {
+      "mse": 0.14766843101586039
+    },
+    "scope": "Final accepted value-phase weights; ordinary critic-train games only; heldout games excluded"
+  },
+  "utility_readiness_after": {
+    "version": "ppg-value-phase/24.0.0",
+    "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+    "ready": true,
+    "decisions": 273250,
+    "games": 784,
+    "steps": 16,
+    "before": {
+      "mse": 0.1484258257441367
+    },
+    "after": {
+      "mse": 0.14766843101586039
+    },
+    "scope": "Final accepted value-phase weights; ordinary critic-train games only; heldout games excluded"
+  },
+  "state_digest": "5d98c5b9c61dc8c27c70758e2a4bdaf4418c71cd65f69887e9c2e1e39c731d0c",
+  "checkpoint_parts": {
+    "format": "b05f8b98d9c306beab05e3eef08199fc3e8d2d52b4b777d2a21740b87ad6f843",
+    "compatibility": "9c75839c644ca4589bce5a8d177a3712408057d242663f4819b8e5092c371dee",
+    "model_config": "78790898ea477c15b7bab06011b22d643414ac3c00532df65f2626f856d70890",
+    "model_id": "e93f68ce5996f5c072ff13486e04a7fde867ead2d75a6afaa530515e98795366",
+    "state_dict": "1f11b8c0a8f454adbfc7baf942bed57e5605f54a77ecc91278f72fac59f997a5",
+    "optimizer": "74b64652f0ee9397430103f5716a0c45a31b380876f94d92a13620ad3b49b888",
+    "step": "4436808cfd25156be865c301fcf336ecec73fccb84e3977cb97b942e25bedc39",
+    "training": "971514cafd544092971cd214abb8fa008c528438f5a7858a0cb423c6be2d457a",
+    "rng": "222830c87ca35ed7bdaa908bae26271e5f508b7bda95fe2eafa15dd2d540e3e3",
+    "cuda_rng": "89e1d68c76848b5c7aa865e454498d1b32a4a988a7fb1dd92ff9d597799c2cf1"
+  },
+  "optimizer_steps": 0,
+  "source_run_modified": false,
+  "qualification_scope": "Full restoration; next update/commit remains B05"
+}

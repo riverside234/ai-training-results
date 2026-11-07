@@ -1,0 +1,383 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-07T08:00:13.105022+00:00",
+  "source": "artifacts/rust-backend/20261107T075601452661Z-g1250-b06-c1cd94b2",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T075601452661Z-g1250-b06-c1cd94b2",
+  "review_only": true,
+  "files": [
+    {
+      "source": "environment.json",
+      "path": "evidence/environment.json",
+      "source_bytes": 537,
+      "source_sha256": "69f713a4ac8ca54dacb8aa878e1768e2ad58e6f5234ce71a3af1013f5fc40aa0",
+      "bytes": 537,
+      "sha256": "69f713a4ac8ca54dacb8aa878e1768e2ad58e6f5234ce71a3af1013f5fc40aa0",
+      "gzip": false
+    },
+    {
+      "source": "fixtures.log",
+      "path": "evidence/fixtures.log",
+      "source_bytes": 9355,
+      "source_sha256": "9429edf0b2bf99519f447b9e90e10d2272fe06ae1d1d658e902ad2d05616fa81",
+      "bytes": 9355,
+      "sha256": "9429edf0b2bf99519f447b9e90e10d2272fe06ae1d1d658e902ad2d05616fa81",
+      "gzip": false
+    },
+    {
+      "source": "kernels-checks.json",
+      "path": "evidence/kernels-checks.json",
+      "source_bytes": 3344,
+      "source_sha256": "0df05cbe4a55ba26421851a28e715376d6930ecbe0bd568c3beb72a0ab0fa17c",
+      "bytes": 3344,
+      "sha256": "0df05cbe4a55ba26421851a28e715376d6930ecbe0bd568c3beb72a0ab0fa17c",
+      "gzip": false
+    },
+    {
+      "source": "kernels-environment.json",
+      "path": "evidence/kernels-environment.json",
+      "source_bytes": 1033,
+      "source_sha256": "86045a9f2651b00f0bc62146e7faa71c6b7f2c8418b457922c43ca0c07577592",
+      "bytes": 1033,
+      "sha256": "86045a9f2651b00f0bc62146e7faa71c6b7f2c8418b457922c43ca0c07577592",
+      "gzip": false
+    },
+    {
+      "source": "kernels.log",
+      "path": "evidence/kernels.log",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-checks.json",
+      "path": "evidence/ordinary-checks.json",
+      "source_bytes": 188111,
+      "source_sha256": "9fffddc8209485f3db5a799be008d07e10dc1ce5f662f966930fbe69acd9aec2",
+      "bytes": 188111,
+      "sha256": "9fffddc8209485f3db5a799be008d07e10dc1ce5f662f966930fbe69acd9aec2",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-environment.json",
+      "path": "evidence/ordinary-environment.json",
+      "source_bytes": 1032,
+      "source_sha256": "aa81d9435586260e0c6a70880a7d37fc961517a06008f3014c640ac7355a65f9",
+      "bytes": 1032,
+      "sha256": "aa81d9435586260e0c6a70880a7d37fc961517a06008f3014c640ac7355a65f9",
+      "gzip": false
+    },
+    {
+      "source": "ordinary.log",
+      "path": "evidence/ordinary.log",
+      "source_bytes": 235,
+      "source_sha256": "1e9de09b39a1314e0a3abd3f1f3fab3d6f29c38469408a8f1e2710961339600a",
+      "bytes": 235,
+      "sha256": "1e9de09b39a1314e0a3abd3f1f3fab3d6f29c38469408a8f1e2710961339600a",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 3004,
+      "source_sha256": "fc07359069538cf75a7413bd8f522f0e5bea133f56daa8d0a86c3b64f07e4081",
+      "bytes": 3004,
+      "sha256": "fc07359069538cf75a7413bd8f522f0e5bea133f56daa8d0a86c3b64f07e4081",
+      "gzip": false
+    },
+    {
+      "source": "restoration.json",
+      "path": "evidence/restoration.json",
+      "source_bytes": 2923,
+      "source_sha256": "d4790655159c7ee34fb2d37be625bb398ceb2ea7a38e59c1a5e033cf41c187b1",
+      "bytes": 2923,
+      "sha256": "d4790655159c7ee34fb2d37be625bb398ceb2ea7a38e59c1a5e033cf41c187b1",
+      "gzip": false
+    },
+    {
+      "source": "snapshot.json",
+      "path": "evidence/snapshot.json.gz",
+      "source_bytes": 2444287,
+      "source_sha256": "af00a414fb435135336fe720265e455cc35ec37833b0ca7460550262c2879d2b",
+      "bytes": 460047,
+      "sha256": "784d53a88ec6435dff3cfe16a66f5fff9013f9b415f44950b24886228a4562e9",
+      "gzip": true
+    },
+    {
+      "source": "teacher-calibration.json",
+      "path": "evidence/teacher-calibration.json.gz",
+      "source_bytes": 2434829,
+      "source_sha256": "2509dfd63e80ba4980c6026c542634fc791f7c6833e3bff29704fbd7fd12c30a",
+      "bytes": 170165,
+      "sha256": "a97cffa632e88cbcea8c961af3b05e8697073b107225d1ca2bc8347ff28fc71f",
+      "gzip": true
+    },
+    {
+      "source": "teacher-checks.json",
+      "path": "evidence/teacher-checks.json",
+      "source_bytes": 20145,
+      "source_sha256": "93ffb92bcc12b3790e3c679110e7f2507972192ce5facb549286b45cbda5da76",
+      "bytes": 20145,
+      "sha256": "93ffb92bcc12b3790e3c679110e7f2507972192ce5facb549286b45cbda5da76",
+      "gzip": false
+    },
+    {
+      "source": "teacher-environment.json",
+      "path": "evidence/teacher-environment.json",
+      "source_bytes": 1032,
+      "source_sha256": "d663e997af51a4dfd7002ffcef85c2cda6f9d0c75f06ae58ff2840844a1086d7",
+      "bytes": 1032,
+      "sha256": "d663e997af51a4dfd7002ffcef85c2cda6f9d0c75f06ae58ff2840844a1086d7",
+      "gzip": false
+    },
+    {
+      "source": "teacher-overhead.json",
+      "path": "evidence/teacher-overhead.json",
+      "source_bytes": 10174,
+      "source_sha256": "805cec983849fd2eac6eb0652d183d941901460217186fe8b35a18f364ac5725",
+      "bytes": 10174,
+      "sha256": "805cec983849fd2eac6eb0652d183d941901460217186fe8b35a18f364ac5725",
+      "gzip": false
+    },
+    {
+      "source": "teacher-probes.json",
+      "path": "evidence/teacher-probes.json.gz",
+      "source_bytes": 3905683,
+      "source_sha256": "5532eb0122385ee496a95e0b4276d6b4994ca4099db60eddeb090d83e305b29b",
+      "bytes": 237304,
+      "sha256": "f957bbb9c726ecbf49884a2ea4e1bba70211cc58542022ebef9b2a4ea60fd1cd",
+      "gzip": true
+    },
+    {
+      "source": "teacher-search.json",
+      "path": "evidence/teacher-search.json",
+      "source_bytes": 7614,
+      "source_sha256": "7e6eb29ef1f63a2d6c990919ffb5285ca8baf0f43bb1c48e071837577e57b9c4",
+      "bytes": 7614,
+      "sha256": "7e6eb29ef1f63a2d6c990919ffb5285ca8baf0f43bb1c48e071837577e57b9c4",
+      "gzip": false
+    },
+    {
+      "source": "teacher.log",
+      "path": "evidence/teacher.log",
+      "source_bytes": 128,
+      "source_sha256": "b139a1198c5e8f91e45d2254e410cdf00f5c2838865d21e6f7c4ba7f619f0298",
+      "bytes": 128,
+      "sha256": "b139a1198c5e8f91e45d2254e410cdf00f5c2838865d21e6f7c4ba7f619f0298",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/comparison.json",
+      "path": "evidence/ordinary/comparison.json",
+      "source_bytes": 186993,
+      "source_sha256": "da6c6d82d5e8f18237af4665c9493e4c5b1f4ccd2602ae7a24727b7331b735e1",
+      "bytes": 186993,
+      "sha256": "da6c6d82d5e8f18237af4665c9493e4c5b1f4ccd2602ae7a24727b7331b735e1",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/frozen-jobs.json",
+      "path": "evidence/ordinary/frozen-jobs.json",
+      "source_bytes": 42845,
+      "source_sha256": "7d2514af623fc6123c9eae8f9cae9e34670cba05bf0c554d548f9e8329e11c6e",
+      "bytes": 42845,
+      "sha256": "7d2514af623fc6123c9eae8f9cae9e34670cba05bf0c554d548f9e8329e11c6e",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/reference/report.json",
+      "path": "evidence/ordinary/reference/report.json",
+      "source_bytes": 96783,
+      "source_sha256": "debfc19ff81a49384bd0dc7c2818cf0553f9b9d8af72edb3a06d54f4120aa986",
+      "bytes": 96783,
+      "sha256": "debfc19ff81a49384bd0dc7c2818cf0553f9b9d8af72edb3a06d54f4120aa986",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/reference/replay/games-1cc8e3ae689d975f-part-0000.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/reference/replay/games-1cc8e3ae689d975f-part-0000.jsonl.gz.features-v4.json",
+      "source_bytes": 27577,
+      "source_sha256": "6095340902fa78872275de454b053a9a7473c3fe99fcdd20734217d1d7c98b70",
+      "bytes": 27577,
+      "sha256": "6095340902fa78872275de454b053a9a7473c3fe99fcdd20734217d1d7c98b70",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/reference/replay/games-4c21ea2653e2dcb1-part-0000.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/reference/replay/games-4c21ea2653e2dcb1-part-0000.jsonl.gz.features-v4.json",
+      "source_bytes": 27373,
+      "source_sha256": "7e53904895ea34606293900cc6a8ef646a6f2fcd2ebd6d0406bded43ecd67f3a",
+      "bytes": 27373,
+      "sha256": "7e53904895ea34606293900cc6a8ef646a6f2fcd2ebd6d0406bded43ecd67f3a",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/reference/replay/games-e06e3a32dd06188a-part-0000.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/reference/replay/games-e06e3a32dd06188a-part-0000.jsonl.gz.features-v4.json",
+      "source_bytes": 28189,
+      "source_sha256": "04c77b8f4944c857cd71af535ed7990f75f38e1eb2236ef93777dcfcdb4066f1",
+      "bytes": 28189,
+      "sha256": "04c77b8f4944c857cd71af535ed7990f75f38e1eb2236ef93777dcfcdb4066f1",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/rust/report.json",
+      "path": "evidence/ordinary/rust/report.json",
+      "source_bytes": 71952,
+      "source_sha256": "870441b7538b1ccc8914dbc0c454e708863687547dd01afa9b4e9d0efd965f9a",
+      "bytes": 71952,
+      "sha256": "870441b7538b1ccc8914dbc0c454e708863687547dd01afa9b4e9d0efd965f9a",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/rust/replay/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/rust/replay/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.jsonl.gz.features-v4.json",
+      "source_bytes": 27577,
+      "source_sha256": "c4fed34b670cb9c54fc3199abb4e786bae529feb7510897bfb9aea97a4c8eac3",
+      "bytes": 27577,
+      "sha256": "c4fed34b670cb9c54fc3199abb4e786bae529feb7510897bfb9aea97a4c8eac3",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/rust/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/rust/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz.features-v4.json",
+      "source_bytes": 27373,
+      "source_sha256": "c4582a17d2c3066330e616d815df0c9579bd72634b4aa846c6ffab1d2375f967",
+      "bytes": 27373,
+      "sha256": "c4582a17d2c3066330e616d815df0c9579bd72634b4aa846c6ffab1d2375f967",
+      "gzip": false
+    },
+    {
+      "source": "ordinary/rust/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz.features-v4.json",
+      "path": "evidence/ordinary/rust/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz.features-v4.json",
+      "source_bytes": 28189,
+      "source_sha256": "8a7c8971bc171139416d4179582aaf37595eea570322715cc54683385a30daf6",
+      "bytes": 28189,
+      "sha256": "8a7c8971bc171139416d4179582aaf37595eea570322715cc54683385a30daf6",
+      "gzip": false
+    },
+    {
+      "source": "teacher-buffer/teacher-labels/generation-001250-heldout.jsonl.gz.receipt.json",
+      "path": "evidence/teacher-buffer/teacher-labels/generation-001250-heldout.jsonl.gz.receipt.json",
+      "source_bytes": 501,
+      "source_sha256": "e095479bef78462fbd8f0d4fc6708ccdd23727981f4182633af81852276281b1",
+      "bytes": 501,
+      "sha256": "e095479bef78462fbd8f0d4fc6708ccdd23727981f4182633af81852276281b1",
+      "gzip": false
+    },
+    {
+      "source": "teacher-buffer/teacher-labels/generation-001250-train.jsonl.gz.receipt.json",
+      "path": "evidence/teacher-buffer/teacher-labels/generation-001250-train.jsonl.gz.receipt.json",
+      "source_bytes": 497,
+      "source_sha256": "df6aa7584fdb4c92c4cc363c9849b239b48bb41e43f5bff78e30ba7d2d5f9072",
+      "bytes": 497,
+      "sha256": "df6aa7584fdb4c92c4cc363c9849b239b48bb41e43f5bff78e30ba7d2d5f9072",
+      "gzip": false
+    },
+    {
+      "source": "teacher-buffer/teacher-labels/owner.json",
+      "path": "evidence/teacher-buffer/teacher-labels/owner.json",
+      "source_bytes": 92,
+      "source_sha256": "c839143962ec125e845ac2609a6bcd25e1e030f752d6b4927325601443fc0feb",
+      "bytes": 92,
+      "sha256": "c839143962ec125e845ac2609a6bcd25e1e030f752d6b4927325601443fc0feb",
+      "gzip": false
+    },
+    {
+      "source": "continuation/diagnostic-fork.json",
+      "path": "evidence/continuation/diagnostic-fork.json.gz",
+      "source_bytes": 2910547,
+      "source_sha256": "cfedc3dd12fea0f56606086c0b6fb26a533064bc06ac394210f03838d55f06de",
+      "bytes": 517740,
+      "sha256": "e49ec15082d783972e88a9781b6c17af40fb58ef14bbefb53e0ce3c24fcb3ecd",
+      "gzip": true
+    }
+  ],
+  "omitted": [
+    {
+      "source": "ordinary-next.pt",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-1cc8e3ae689d975f-part-0000.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-1cc8e3ae689d975f-part-0000.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-4c21ea2653e2dcb1-part-0000.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-4c21ea2653e2dcb1-part-0000.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-e06e3a32dd06188a-part-0000.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/reference/replay/games-e06e3a32dd06188a-part-0000.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/families/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.family.json.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/families/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.family.json.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/families/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.family.json.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/replay/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/replay/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "ordinary/rust/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz.features-v4.npz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "teacher-buffer/teacher-labels/generation-001250-heldout.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "teacher-buffer/teacher-labels/generation-001250-train.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "value-buffer/001250-heldout-b8ef7133b6354ba82c47869c2e98d313f739e5f73f638e12dfd24db9138152ca.json.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "value-buffer/001250-train-5d99b509cd006c1608c36c041930a0800c7cc343f42c5a5ea066c4eb6dce37a1.json.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "continuation/payload",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}
