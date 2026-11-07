@@ -1,0 +1,153 @@
+self-play prepare (CPU, 1 readers): starting (1 shards)
+self-play prepare (CPU, 1 readers): 20% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 40% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 60% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 80% (1/1 shards; 0.0s)
+self-play prepare (CPU, 1 readers): 100% (1/1 shards; 0.0s)
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847351351Z-example-bea65761
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+Running b01; result export will be under results/rust-lab-qualification/
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847377049Z-20261107T073847376398Z-latest-all-c3feb42c-a06a901d
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmpqfqobilm/results/rust-lab-qualification/20261107T073847377049Z-20261107T073847376398Z-latest-all-c3feb42c-a06a901d
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmpqfqobilm/artifacts/rust-backend/20261107T073847376398Z-latest-all-c3feb42c
+Running b01; result export will be under results/rust-lab-qualification/
+Running b02; result export will be under results/rust-lab-qualification/
+Running b025; result export will be under results/rust-lab-qualification/
+Running b03; result export will be under results/rust-lab-qualification/
+Running b04; result export will be under results/rust-lab-qualification/
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847380599Z-20261107T073847379088Z-latest-all-171fe076-73d5f91a
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmp9y6ta6g3/results/rust-lab-qualification/20261107T073847380599Z-20261107T073847379088Z-latest-all-171fe076-73d5f91a
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmp9y6ta6g3/artifacts/rust-backend/20261107T073847379088Z-latest-all-171fe076
+Running b01; result export will be under results/rust-lab-qualification/
+ValueError: Committed generation/checkpoint differs; pause training and supply its exact identity
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847389468Z-20261107T073847388599Z-latest-all-c8bfc138-37dcabe0
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmpv1l9r704/results/rust-lab-qualification/20261107T073847389468Z-20261107T073847388599Z-latest-all-c8bfc138-37dcabe0
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmpv1l9r704/artifacts/rust-backend/20261107T073847388599Z-latest-all-c8bfc138
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847392039Z-example-16cad4e8
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847396966Z-example-f00cd07c
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+ValueError: bad transfer
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847403928Z-20261107T073847403715Z-latest-all-779b1808-05657f31
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmphccyw0qp/results/rust-lab-qualification/20261107T073847403928Z-20261107T073847403715Z-latest-all-779b1808-05657f31
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmphccyw0qp/artifacts/rust-backend/20261107T073847403715Z-latest-all-779b1808
+Running b02; result export will be under results/rust-lab-qualification/
+Running b025; result export will be under results/rust-lab-qualification/
+Running b03; result export will be under results/rust-lab-qualification/
+Running b04; result export will be under results/rust-lab-qualification/
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847406642Z-20261107T073847405478Z-latest-all-b2398ba3-e53148c8
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmppc0pl79l/results/rust-lab-qualification/20261107T073847406642Z-20261107T073847405478Z-latest-all-b2398ba3-e53148c8
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmppc0pl79l/artifacts/rust-backend/20261107T073847405478Z-latest-all-b2398ba3
+Running b02; result export will be under results/rust-lab-qualification/
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847410116Z-20261107T073847409574Z-latest-all-d9627b7e-2353b809
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmp79i8gdyx/results/rust-lab-qualification/20261107T073847410116Z-20261107T073847409574Z-latest-all-d9627b7e-2353b809
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmp79i8gdyx/artifacts/rust-backend/20261107T073847409574Z-latest-all-d9627b7e
+ValueError: Starting at b02 requires --b01 with its original passing receipt
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847412108Z-20261107T073847411901Z-latest-all-24139c95-c451a573
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmp6rqwyr5h/results/rust-lab-qualification/20261107T073847412108Z-20261107T073847411901Z-latest-all-24139c95-c451a573
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmp6rqwyr5h/artifacts/rust-backend/20261107T073847411901Z-latest-all-24139c95
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847413126Z-example-df68264e
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+Running b01; result export will be under results/rust-lab-qualification/
+Qualification evidence saved; Git visibility not checked because results/.git is absent. Set up the separate results repository before pushing; the code repository ignores results/.
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T073847414712Z-20261107T073847414214Z-latest-b01-93a6867e-4abc9b06
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+
+Git-visible results: /data/not_backed_up/yxu209/ai-training/artifacts/tmpb6sjnfkm/results/rust-lab-qualification/20261107T073847414712Z-20261107T073847414214Z-latest-b01-93a6867e-4abc9b06
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmpb6sjnfkm/artifacts/rust-backend/20261107T073847414214Z-latest-b01-93a6867e
+======================================================================
+ERROR: test_meter_samples_owned_process_and_keeps_nested_phase_scope (test_b06.B06.test_meter_samples_owned_process_and_keeps_nested_phase_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/RustBackendLab/test_b06.py", line 236, in test_meter_samples_owned_process_and_keeps_nested_phase_scope
+    with M.Meter() as meter:
+         ^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_metrics.py", line 122, in __enter__
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+
+======================================================================
+ERROR: test_native_benchmark_real_seal_admission_warm_cache_and_target_pipeline (test_b06.B06.test_native_benchmark_real_seal_admission_warm_cache_and_target_pipeline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/RustBackendLab/test_b06.py", line 88, in test_native_benchmark_real_seal_admission_warm_cache_and_target_pipeline
+    with M.Meter() as meter,patch.object(O,'Pipe'),patch.object(O,'collect_lane',return_value=f['parent']):
+         ^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_metrics.py", line 122, in __enter__
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+
+======================================================================
+ERROR: test_native_initiating_failure_survives_sibling_cancellation (test_b06.B06.test_native_initiating_failure_survives_sibling_cancellation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/RustBackendLab/test_b06.py", line 127, in test_native_initiating_failure_survives_sibling_cancellation
+    with M.Meter() as meter,patch.object(O,'Pipe'),patch.object(O,'collect_lane',side_effect=ValueError('initiating failure')),patch.object(O,'collect_families',side_effect=cancelled):
+         ^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_metrics.py", line 122, in __enter__
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+
+======================================================================
+ERROR: test_reference_benchmark_reads_real_actor_shard_and_prepares_identical_targets (test_b06.B06.test_reference_benchmark_reads_real_actor_shard_and_prepares_identical_targets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/RustBackendLab/test_b06.py", line 107, in test_reference_benchmark_reads_real_actor_shard_and_prepares_identical_targets
+    with patch.object(O,'ActorPool',return_value=pool),patch('brass_ai.recovery.host_runtime.local_scoring_host',return_value=output),M.Meter() as meter:
+                                                                                                                                      ^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_metrics.py", line 122, in __enter__
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+
+----------------------------------------------------------------------
+Ran 47 tests in 5.280s
+
+FAILED (errors=4)

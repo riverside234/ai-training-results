@@ -1,0 +1,27 @@
+{
+  "milestone": "B06",
+  "passed": false,
+  "lab_qualification": "Pending",
+  "production_modified": false,
+  "previous_qualifications_repeated": false,
+  "whole_iteration_speedup": null,
+  "new_teacher_tables": 0,
+  "implementation": "63564be49e282c4b2c0fff02b7640238c63d04d35f7c072bf8c017d12ce6ace5",
+  "prerequisites": {
+    "B02": {
+      "path": "results/rust-lab-qualification/20261104T012220551953Z-20261104T011422740838Z-g570-all-8bee9d91-e1605e8c/evidence/b02/qualification.json",
+      "sha256": "88e7136e4d935c63dee3f71c4b3cc49b9202356792bf36a96e4d71b6945122ec"
+    },
+    "B04.5": {
+      "path": "results/rust-lab-qualification/20261107T060856941600Z-20261107T060554386081Z-g1250-b045-76165ac4-a1db73ac/evidence/qualification.json",
+      "sha256": "4830d679141ea1fd1b4e469cc969251b6a5b6d0ec988ea0410039f4090169bc3"
+    },
+    "B05": {
+      "path": "results/rust-lab-qualification/20261107T070806231803Z-20261107T070539193547Z-g1250-b05-88497ac1-cf4704fd/evidence/qualification.json",
+      "sha256": "b323c55579bdfc875707cc1d36c42f01a9713fc88a82648aab24395962ab3b0c"
+    }
+  },
+  "error": "Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T073841130468Z-g1250-b06-06c4bb94/fixtures.log",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b06.py\", line 157, in main\n    base.command([sys.executable,'-m','unittest',*TESTS,'-q'],cwd=ROOT,\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py\", line 123, in command\n    require(code == 0, 'Qualification command failed; see ' + str(log))\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T073841130468Z-g1250-b06-06c4bb94/fixtures.log\n",
+  "failed_phase": null
+}
