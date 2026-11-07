@@ -1,0 +1,5 @@
+----------------------------------------------------------------------
+Ran 1 test in 1.301s
+
+OK
+Scripted value sealing: {"rows": {"heldout": 128}, "value_admission_per_table_seconds": {"376e29c52a27f4e21d3506c57fd010385f07834b5795960e51bf9e147d217657": 0.03330431698122993, "6ca1ef299d3ceb0fa1ca97b60076c6ca248e6f63ad938643cce159ff19ef519a": 0.11681794599280693}, "value_admission_seconds": 0.1501540990138892}

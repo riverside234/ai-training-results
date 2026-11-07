@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "lab_qualification": "Passed for exact g1250 source/model/device",
+  "new_games": 2,
+  "diagnostic_head_steps": 1,
+  "ordinary_optimizer_steps": 0,
+  "production_modified": false,
+  "labels": 49,
+  "value_rows": 128
+}

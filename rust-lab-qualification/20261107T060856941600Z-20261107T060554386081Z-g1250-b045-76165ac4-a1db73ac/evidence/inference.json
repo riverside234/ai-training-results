@@ -1,0 +1,128 @@
+{
+  "batches": 6426,
+  "positions": 6482,
+  "model_cache_hits": 6426,
+  "valid_candidate_cells": 425267,
+  "padded_candidate_cells": 427931,
+  "max_batch_positions": 2,
+  "max_padded_candidate_cells": 652,
+  "expired_requests": 32,
+  "cancelled_requests": 0,
+  "packed_output_batches": 6426,
+  "shared_requests": 6492,
+  "shared_replies": 6492,
+  "inline_requests": 0,
+  "model_loads": 1,
+  "model_evictions": 0,
+  "timings": {
+    "inference.batch": {
+      "seconds": 103.1205656005186,
+      "calls": 6436,
+      "mean_seconds": 0.016022462026183747,
+      "p50_seconds": 0.013333634997252375,
+      "p95_seconds": 0.024346669000806287,
+      "max_seconds": 0.4667234910011757,
+      "first_seconds": 0.4667234910011757,
+      "steady_mean_seconds": 0.015952423016242025,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1024
+    },
+    "inference.forward": {
+      "seconds": 102.21915455337148,
+      "calls": 6426,
+      "mean_seconds": 0.01590712022305812,
+      "p50_seconds": 0.013174830004572868,
+      "p95_seconds": 0.024174616002710536,
+      "max_seconds": 0.46620125899789855,
+      "first_seconds": 0.46620125899789855,
+      "steady_mean_seconds": 0.015837035532198222,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1024
+    },
+    "inference.model_load": {
+      "seconds": 0.4419026599789504,
+      "calls": 1,
+      "mean_seconds": 0.4419026599789504,
+      "p50_seconds": 0.4419026599789504,
+      "p95_seconds": 0.4419026599789504,
+      "max_seconds": 0.4419026599789504,
+      "first_seconds": 0.4419026599789504,
+      "steady_mean_seconds": 0.0,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1
+    },
+    "inference.queue_wait": {
+      "seconds": 78.5287268293614,
+      "calls": 6492,
+      "mean_seconds": 0.012096230257141313,
+      "p50_seconds": 0.0015090510132722557,
+      "p95_seconds": 0.019927438988815993,
+      "max_seconds": 0.027630412980215624,
+      "first_seconds": 0.002260860987007618,
+      "steady_mean_seconds": 0.012097745488888367,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1024
+    }
+  },
+  "device": "cuda:0",
+  "learner_device": "cuda:0",
+  "inference_devices": [
+    "cuda:0"
+  ],
+  "replica_count": 1,
+  "central_batching": true,
+  "memory": {
+    "host_resident_bytes": null,
+    "cuda_allocated_bytes": 57510912,
+    "cuda_reserved_bytes": 77594624,
+    "cuda_peak_allocated_bytes": 60498432,
+    "cuda_peak_reserved_bytes": 77594624
+  },
+  "cpu_admission": {
+    "capacity": 60,
+    "active": 0,
+    "peak": 2,
+    "queued": 0,
+    "aborted": false
+  },
+  "batching": {
+    "contract": "streaming-model-batches/1.0.0",
+    "peak_pending_positions": 2,
+    "batches": 6436,
+    "padding_splits": 0,
+    "capacity_splits": 0,
+    "max_padding_ratio": 2.0,
+    "scope": "One frozen model per batch; age/deadline fairness; no extra flush wait between model batches"
+  },
+  "batch_histogram": {
+    "1": 6370,
+    "2": 56
+  },
+  "per_model": {
+    "b9f0c1e310a73004cd792178e7fad00f7414470889d620e1587bff99d74eea0f": {
+      "positions": 6482,
+      "batches": 6426,
+      "batch_histogram": {
+        "1": 6370,
+        "2": 56
+      },
+      "queue_wait_seconds": 78.63277666331851,
+      "queue_wait_max_seconds": 0.027662489999784157,
+      "queue_wait_histogram": {
+        "4": 101,
+        "2": 901,
+        "32": 1544,
+        "16": 3524,
+        "8": 405,
+        "1": 7
+      },
+      "forward_seconds": 102.40608952898765,
+      "valid_candidate_cells": 425267,
+      "padded_candidate_cells": 427931
+    }
+  },
+  "resident_models": 1,
+  "registered_models": 1,
+  "timing_note": "Host elapsed time; CUDA forward kernel duration is in optional profiler traces",
+  "error": null
+}
