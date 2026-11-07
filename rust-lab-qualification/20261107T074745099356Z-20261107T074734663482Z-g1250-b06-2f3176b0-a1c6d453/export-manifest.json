@@ -1,0 +1,64 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-07T07:47:45.177090+00:00",
+  "source": "artifacts/rust-backend/20261107T074734663482Z-g1250-b06-2f3176b0",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T074734663482Z-g1250-b06-2f3176b0",
+  "review_only": true,
+  "files": [
+    {
+      "source": "environment.json",
+      "path": "evidence/environment.json",
+      "source_bytes": 444,
+      "source_sha256": "e7d712adf4c87b5e9918f312dcc380baaeb322d41c736fdb3017a82e635e5f8d",
+      "bytes": 444,
+      "sha256": "e7d712adf4c87b5e9918f312dcc380baaeb322d41c736fdb3017a82e635e5f8d",
+      "gzip": false
+    },
+    {
+      "source": "fixtures.log",
+      "path": "evidence/fixtures.log",
+      "source_bytes": 9355,
+      "source_sha256": "c9fcfc0e4fcf95169d0e9cc72912985967026ef4b54d26fc9f245ff45fd8f1c6",
+      "bytes": 9355,
+      "sha256": "c9fcfc0e4fcf95169d0e9cc72912985967026ef4b54d26fc9f245ff45fd8f1c6",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-checks.json",
+      "path": "evidence/ordinary-checks.json",
+      "source_bytes": 1598,
+      "source_sha256": "a6e33a2a26c90dd367d625e5ccb7e8b19349c1b9fcbe97a56e49410a5462b2ec",
+      "bytes": 1598,
+      "sha256": "a6e33a2a26c90dd367d625e5ccb7e8b19349c1b9fcbe97a56e49410a5462b2ec",
+      "gzip": false
+    },
+    {
+      "source": "ordinary.log",
+      "path": "evidence/ordinary.log",
+      "source_bytes": 1393,
+      "source_sha256": "f813022a05a56b3b3399231ed1e89cc394952e8c789bcb46d8af264bc1ae3104",
+      "bytes": 1393,
+      "sha256": "f813022a05a56b3b3399231ed1e89cc394952e8c789bcb46d8af264bc1ae3104",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 4153,
+      "source_sha256": "1137e5b9738c4056fdc7ffa18cb258edc2e84af434a7768cc89981eefea51e53",
+      "bytes": 4153,
+      "sha256": "1137e5b9738c4056fdc7ffa18cb258edc2e84af434a7768cc89981eefea51e53",
+      "gzip": false
+    },
+    {
+      "source": "snapshot.json",
+      "path": "evidence/snapshot.json.gz",
+      "source_bytes": 2444287,
+      "source_sha256": "af00a414fb435135336fe720265e455cc35ec37833b0ca7460550262c2879d2b",
+      "bytes": 460047,
+      "sha256": "784d53a88ec6435dff3cfe16a66f5fff9013f9b415f44950b24886228a4562e9",
+      "gzip": true
+    }
+  ],
+  "omitted": []
+}

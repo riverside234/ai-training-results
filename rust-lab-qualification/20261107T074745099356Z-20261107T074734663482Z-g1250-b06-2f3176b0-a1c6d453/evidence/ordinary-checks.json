@@ -1,0 +1,21 @@
+{
+  "environment": {
+    "psutil": "7.2.2",
+    "requirements": "distribution/rust-lab-b06-g1250/requirements.txt",
+    "sampler": {
+      "phases": {},
+      "peak_process_tree_rss_bytes": 519467008,
+      "sampled_process_tree_cpu_seconds": 0,
+      "process_samples": 1,
+      "exited_process_reads": 0,
+      "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+      "device_memory": {
+        "host_resident_bytes": 519499776
+      }
+    }
+  },
+  "passed": false,
+  "error": "Invalid device argument ",
+  "error_type": "RuntimeError",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b06.py\", line 121, in run_child\n    report=run(args,snapshot,ordinary,reference)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_ordinary.py\", line 124, in run\n    with Meter(args.device) as meter:\n         ^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_metrics.py\", line 170, in __enter__\n    if self.device.startswith('cuda'):torch.cuda.reset_peak_memory_stats(self.device)\n                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/torch/cuda/memory.py\", line 376, in reset_peak_memory_stats\n    return torch._C._cuda_resetPeakMemoryStats(device)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Invalid device argument \n"
+}

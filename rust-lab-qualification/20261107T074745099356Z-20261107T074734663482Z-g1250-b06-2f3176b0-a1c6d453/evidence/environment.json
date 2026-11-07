@@ -1,0 +1,15 @@
+{
+  "psutil": "7.2.2",
+  "requirements": "distribution/rust-lab-b06-g1250/requirements.txt",
+  "sampler": {
+    "phases": {},
+    "peak_process_tree_rss_bytes": 520716288,
+    "sampled_process_tree_cpu_seconds": 0,
+    "process_samples": 1,
+    "exited_process_reads": 0,
+    "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+    "device_memory": {
+      "host_resident_bytes": 520806400
+    }
+  }
+}

@@ -1,0 +1,21 @@
+B06 ordinary: reference
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b06.py", line 205, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b06.py", line 146, in main
+    run_child(args,read_json(DIRECTORY/'reference.json'));return
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b06.py", line 121, in run_child
+    report=run(args,snapshot,ordinary,reference)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_ordinary.py", line 124, in run
+    with Meter(args.device) as meter:
+         ^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_metrics.py", line 170, in __enter__
+    if self.device.startswith('cuda'):torch.cuda.reset_peak_memory_stats(self.device)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/torch/cuda/memory.py", line 376, in reset_peak_memory_stats
+    return torch._C._cuda_resetPeakMemoryStats(device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Invalid device argument 
