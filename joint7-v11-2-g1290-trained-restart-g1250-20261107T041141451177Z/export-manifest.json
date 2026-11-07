@@ -1,0 +1,272 @@
+{
+  "format": "selfplay-report-export/1.3.0",
+  "created_utc": "2026-11-07T04:11:45.329877+00:00",
+  "run": "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+  "committed_generation": 1250,
+  "games_done": 400000,
+  "implementation": "921a020f0254aed9aea7cab5e2dde9390c995138e4b2e7f3a3dbb31c8910a8d6",
+  "latest_iterations": [
+    1248,
+    1249
+  ],
+  "uncompacted_iterations": [],
+  "incremental": true,
+  "reused_files": [
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/seed/manifest.json",
+      "path": "fresh-start.json",
+      "bytes": 16739,
+      "sha256": "c2e0f614e840aa474f3b0a98bd5288dc5a8d3310fb4386348182bffc2356fba4",
+      "reason": "Weights-only source and imported history cutoff; no model tensors",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "fresh-start.json"
+    },
+    {
+      "source": "training/runtime/local-scoring/ordinary/runtime.json",
+      "path": "contracts/local-scoring-runtime.json",
+      "bytes": 18569,
+      "sha256": "b240d9963716bc256bcf9385fbc571d06fd2ea66a444204078103f7af66f3c6e",
+      "reason": "Separately admitted scoring recorder",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "contracts/local-scoring-runtime.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ppg-fresh-cache-reset.json",
+      "path": "ppg-fresh-cache-reset.json",
+      "bytes": 600,
+      "sha256": "06100c7debbaa5514552b86450de9fb32470c43e89739db124e5136a84cb4c36",
+      "reason": "Run metadata",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0860-20261105T152813816696Z",
+      "previous_path": "ppg-fresh-cache-reset.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-1346bc4ffd7ad474-0370.json",
+      "path": "state-before-source-1346bc4ffd7ad474-0370.json",
+      "bytes": 1142848,
+      "sha256": "e91e35d764c86e2e2f6896b5f23b9a6ba4cb8597830969f80216345a5cf8e18f",
+      "reason": "Run metadata",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0570-20261103T190804654465Z",
+      "previous_path": "state-before-source-1346bc4ffd7ad474-0370.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-16a72826fdb9bd60-0253.json",
+      "path": "state-before-source-16a72826fdb9bd60-0253.json",
+      "bytes": 996488,
+      "sha256": "bf9c75507962cc43b1fa946ef0c60d7cb305c245cde3e1d70592bb23c71f680f",
+      "reason": "Run metadata",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0370-20261102T221517838215Z",
+      "previous_path": "state-before-source-16a72826fdb9bd60-0253.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-1d8e79badc3ad3d6-0611.json",
+      "path": "state-before-source-1d8e79badc3ad3d6-0611.json",
+      "bytes": 1455534,
+      "sha256": "53c33869d6d56f908bd2d3a1da2bcbeaf3d3883e656ec35f4841cd6c19eb1d87",
+      "reason": "Run metadata",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0760-20261105T004442699955Z",
+      "previous_path": "state-before-source-1d8e79badc3ad3d6-0611.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-2886657482d88f08-1241.json",
+      "path": "state-before-source-2886657482d88f08-1241.json",
+      "bytes": 2183907,
+      "sha256": "a3bb103d90616d5340b71b4aff234d7542af89c33052e245b8801962d572c71d",
+      "reason": "Run metadata",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g1247-20261107T033857653329Z",
+      "previous_path": "state-before-source-2886657482d88f08-1241.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-5644b0a4d50afc10-0921.json",
+      "path": "state-before-source-5644b0a4d50afc10-0921.json",
+      "bytes": 1814105,
+      "sha256": "4ace94c7b7c664b63fa80fadcaddc2ec5d52c99a4718654b47f2f42abfd8cc29",
+      "reason": "Run metadata",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g1041-20261106T081744641630Z",
+      "previous_path": "state-before-source-5644b0a4d50afc10-0921.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-61e7a350ef95e5e1-0760.json",
+      "path": "state-before-source-61e7a350ef95e5e1-0760.json",
+      "bytes": 1617279,
+      "sha256": "7f0ab0ffc0aa26f00251f8983ce14e8d845222888a19f5476544cd3daaa16248",
+      "reason": "Run metadata",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0860-20261105T152813816696Z",
+      "previous_path": "state-before-source-61e7a350ef95e5e1-0760.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-6a0ede4f21241885-1041.json",
+      "path": "state-before-source-6a0ede4f21241885-1041.json",
+      "bytes": 1947684,
+      "sha256": "d0a701c16c11efb53a668d2a95abfa8637b72110bf632f16ae340cebcd8552a4",
+      "reason": "Run metadata",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g1241-20261107T023636701265Z",
+      "previous_path": "state-before-source-6a0ede4f21241885-1041.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-9bfa5398c462b218-0811.json",
+      "path": "state-before-source-9bfa5398c462b218-0811.json",
+      "bytes": 1686907,
+      "sha256": "1091a303ab0931fe017359f47d4aec587cf6020ee7e537bf10bb58beaebbd277",
+      "reason": "Run metadata",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0860-20261105T152813816696Z",
+      "previous_path": "state-before-source-9bfa5398c462b218-0811.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-c5c434a5480d60ed-0570.json",
+      "path": "state-before-source-c5c434a5480d60ed-0570.json",
+      "bytes": 1283344,
+      "sha256": "57a3586f2fcfa9e0531acb1ecb5932dd9ac6df518499e0ecc6608e3333bef2ee",
+      "reason": "Run metadata",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0611-20261104T073052792185Z",
+      "previous_path": "state-before-source-c5c434a5480d60ed-0570.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/il-kl/import-report.json",
+      "path": "il-kl/import-report.json",
+      "bytes": 738,
+      "sha256": "ae6a4f12c4a628379dd25dc72c0e678041c7f963496b9706268a260917bc5d5b",
+      "reason": "Fixed IL-KL probe manifest or initial measurement",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "il-kl/import-report.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/il-kl/initial-report.json",
+      "path": "il-kl/initial-report.json",
+      "bytes": 386,
+      "sha256": "0eeb6c4139e02a2184495c72b22c5b42b314da8b2b28b79feb194a239aa9bc1a",
+      "reason": "Fixed IL-KL probe manifest or initial measurement",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "il-kl/initial-report.json"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/il-kl/manifest.json",
+      "path": "il-kl/manifest.json",
+      "bytes": 6643454,
+      "sha256": "a9289c21a2257d316c23017f3c9eb88e0ed85f646d05c24025cf85f4f176bda0",
+      "reason": "Fixed IL-KL probe manifest or initial measurement",
+      "previous_export": "results/joint7-v11-2-g1290-trained-restart-g0200-20261102T015209145176Z",
+      "previous_path": "il-kl/manifest.json"
+    }
+  ],
+  "rating_slot_generation": 1250,
+  "run_lock_present": false,
+  "files": [
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state.json",
+      "path": "state.json",
+      "bytes": 2287509,
+      "sha256": "5b75066f6f8daeea3df3df13df03875adb3fefe4c317f7fbdbe26c82e8d5c667",
+      "reason": "Committed configuration, lineage and progress"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/retention-history.json",
+      "path": "retention-history.json.gz",
+      "bytes": 13546451,
+      "sha256": "6b5c08e7d3c62477ee60ef6cf3b6266486e91b2937945f9ef735af7cb2357180",
+      "reason": "Retained iteration trends",
+      "transform": "gzip-json-whitespace-only/1.0.0",
+      "source_bytes": 79019978,
+      "source_sha256": "6677deed98b96a66a0639ec9aede8f10414eb833548d5e21ac98eceb8066d86c",
+      "uncompressed_bytes": 49628712,
+      "uncompressed_sha256": "d28771c4eee8588e1b685ef6abb5d7ab57a10937481bd0f44df325fc26a93cc5"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/auxiliary-checkpoint-inventory.json",
+      "path": "auxiliary-checkpoint-inventory.json",
+      "bytes": 76068,
+      "sha256": "7adf59afdefd67e452f97ff10c4cc98ac5dd9876ae6223530cd89e80362adb16",
+      "reason": "Run metadata"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/state-before-source-e28e914b78a372b4-1247.json",
+      "path": "state-before-source-e28e914b78a372b4-1247.json",
+      "bytes": 2135718,
+      "sha256": "61ab9ff0b34263ab5e68c76daa1f8466c9a5eb215ecfb88c40fc434103b16c59",
+      "reason": "Run metadata"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-1248/report.json",
+      "path": "iteration-1248/report.json",
+      "bytes": 6270291,
+      "sha256": "56a4e7ddc2c489e2c12386d0330b2571dd1880d67e49141be8fed955a5ca961d",
+      "reason": "Latest completed iteration"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-1249/report.json",
+      "path": "iteration-1249/report.json",
+      "bytes": 8733250,
+      "sha256": "705d883d138cd346d1db5e76bb14a248033bcf3c7f4bcaaaa0dc92ef013b4f50",
+      "reason": "Latest completed iteration"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/vp-history.json",
+      "path": "ratings/vp-history.json",
+      "bytes": 74021,
+      "sha256": "ce4adc0102c9d790c0c55df09a0553f923c0aa8208e7282c783ab477c2e478f1",
+      "reason": "Cumulative ordinary self-play learner VP totals"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/history-c941f5142e9670eeca728c6932a7e890a685c9a3202097fe3e6473d0100e3ef1.json",
+      "path": "ratings/history-c941f5142e9670eeca728c6932a7e890a685c9a3202097fe3e6473d0100e3ef1.json",
+      "bytes": 12050519,
+      "sha256": "3e27399095df76cc6d95d984c07081e5969bc8c359c9c28ed86783aafe6c60b2",
+      "reason": "Compact cumulative rating outcomes and diagnostic-panel history"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-001250/report.json",
+      "path": "ratings/slots/generation-001250/report.json",
+      "bytes": 2188627,
+      "sha256": "ce668804f1ad2edb3f99ec4f2f31d82f8b2799b56d00b35dac0773a9f719d3cb",
+      "reason": "Latest committed rating slot report or specification"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-001250/spec.json",
+      "path": "ratings/slots/generation-001250/spec.json",
+      "bytes": 45608,
+      "sha256": "6fe77d5902b2d2b3dd6d55ccec714c1a42ffcc105b6a3b74d7ff223f38e55994",
+      "reason": "Latest committed rating slot report or specification"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-001250/timing-report.json",
+      "path": "ratings/slots/generation-001250/timing-report.json",
+      "bytes": 16764,
+      "sha256": "ef058d3e0779ddc11f1019eb7f5d6cdfccb4e9e3e8b1876e1ff2795be919cc95",
+      "reason": "Latest committed rating slot report or specification"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-001250/games.jsonl",
+      "path": "ratings/slots/generation-001250/games.jsonl",
+      "bytes": 64422,
+      "sha256": "bfb2aff103ab723550cf230cba53622cc3d713c75068ff78776db233962ddb78",
+      "reason": "Append-only held-out rating outcomes or separate panel results"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-001250/panels.json",
+      "path": "ratings/slots/generation-001250/panels.json",
+      "bytes": 3364,
+      "sha256": "b2a56db217af88acef2f724cae86afee40a29d375976103ebc63807363cad34b",
+      "reason": "Append-only held-out rating outcomes or separate panel results"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-001250/progress.svg",
+      "path": "ratings/slots/generation-001250/progress.svg",
+      "bytes": 47671,
+      "sha256": "265aa688cd427b2abcc2609584bdaef79a75135df64e785b6997b286cac3d3d2",
+      "reason": "Strength progress curve"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/ratings/slots/generation-001250/progress_vp.svg",
+      "path": "ratings/slots/generation-001250/progress_vp.svg",
+      "bytes": 31209,
+      "sha256": "ca72da5e747bbb624d370cd1dec7cf746139df8839fef0bc8726f94687f9301a",
+      "reason": "Ten-iteration self-play learner VP curve"
+    }
+  ],
+  "missing": [],
+  "warnings": [],
+  "generated": [
+    "recorded-config.json",
+    "export-manifest.json"
+  ],
+  "scope": "Analysis reports only; not a resumable checkpoint backup. Missing/pruned evidence is not reconstructed. Retention history is gzip-compressed whitespace-minified JSON (.json.gz); load_json accepts both formats. Its source_bytes/source_sha256 describe the original and bytes/sha256 describe the exported file. Other reports preserve original bytes. Incremental exports require the previous bundles named in reused_files; references point to original physical files."
+}
