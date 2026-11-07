@@ -1,0 +1,166 @@
+{
+  "failures": [
+    {
+      "job_id": "e5f783831269f3df3faf53194a0c5e4632c9a559625cd9acfa94cb54578e1597",
+      "split": "train",
+      "seed": 48922016,
+      "error": "Native teacher closed output: teacher: invalid request: stale/model/epoch GPU reply\n",
+      "type": "ValueError",
+      "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py\", line 220, in one\n    result = worker.collect(job['expected'],self.core_source,verifier=self.verifier)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py\", line 113, in collect\n    raise ValueError(str(event)+': '+self.stderr.decode(errors='replace'))\nValueError: Native teacher closed output: teacher: invalid request: stale/model/epoch GPU reply\n\n",
+      "worker": {
+        "error": "Native teacher closed output: teacher: invalid request: stale/model/epoch GPU reply\n",
+        "type": "ValueError",
+        "last_frame": {
+          "action_len": 1635,
+          "binding": {
+            "context": {
+              "intent": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "max_cost": 0.025,
+              "model_id": "b9f0c1e310a73004cd792178e7fad00f7414470889d620e1587bff99d74eea0f",
+              "profile_id": "brass-lab-teacher/1.1.0",
+              "remaining": [
+                0.025,
+                0.025,
+                0.015000000000000001,
+                0.025
+              ],
+              "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+              "stable_descriptors": null,
+              "style": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "information": "3cc6bc3ce67882d1975ad334847e5e38befdcf207be23ff9776684cd7c215bf3",
+            "job": {
+              "epoch": 1,
+              "export_hash": "de427bb22e38cc5dc9d4e79151cccdb321650c02978f79bcdad746c3e6be7985",
+              "game_id": "teacher/e5f783831269f3df3faf53194a0c5e4632c9a559625cd9acfa94cb54578e1597",
+              "generation": 1250,
+              "job_id": "e5f783831269f3df3faf53194a0c5e4632c9a559625cd9acfa94cb54578e1597",
+              "model_id": "b9f0c1e310a73004cd792178e7fad00f7414470889d620e1587bff99d74eea0f",
+              "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+              "source_fingerprint": "abcb8810de02911314a55e516f0aefee2678966e7e79549b0566a4de8589f9e8"
+            },
+            "legal_ids": [
+              "pass|||industry:CottonMill+Manufacturer||",
+              "pass|||location:Derby||",
+              "pass|||location:Nuneaton||",
+              "pass|||location:Stafford||",
+              "pass|||wild:location||"
+            ],
+            "revision": 293,
+            "root_epoch": 293,
+            "search_value": {
+              "protocol": "search-utility/1.0.0",
+              "value_source": "main",
+              "w": 0.0
+            },
+            "seat": 2,
+            "sequence": 2492,
+            "value_seat": 2
+          },
+          "candidates": 5,
+          "event": "evaluate",
+          "remaining_ns": 797711626,
+          "state_len": 3128
+        },
+        "verified_turns": 52,
+        "elapsed_seconds": 82.01102359901415,
+        "stderr": "teacher: invalid request: stale/model/epoch GPU reply\n",
+        "exit_code": 1
+      },
+      "primary": true
+    },
+    {
+      "job_id": "34af2fadb20d662a9df7d91927860ff207f2fd1b6ec001982db5c0b3594d43e8",
+      "split": "heldout",
+      "seed": 48922049,
+      "error": "Teacher table cancelled; discard unpublished labels",
+      "type": "ValueError",
+      "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py\", line 220, in one\n    result = worker.collect(job['expected'],self.core_source,verifier=self.verifier)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py\", line 106, in collect\n    require(not self.cancel.is_set(),'Teacher table cancelled; discard unpublished labels')\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Teacher table cancelled; discard unpublished labels\n",
+      "worker": {
+        "error": "Teacher table cancelled; discard unpublished labels",
+        "type": "ValueError",
+        "last_frame": {
+          "action_len": 327,
+          "binding": {
+            "context": {
+              "intent": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "max_cost": 0.025,
+              "model_id": "b9f0c1e310a73004cd792178e7fad00f7414470889d620e1587bff99d74eea0f",
+              "profile_id": "brass-lab-teacher/1.1.0",
+              "remaining": [
+                0.025,
+                0.025,
+                0.02,
+                0.025
+              ],
+              "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+              "stable_descriptors": null,
+              "style": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "information": "c691ba7d9cf890cf1c17e5dfeb3bf7894be31b6bf065a00f0257a5678cd915ce",
+            "job": {
+              "epoch": 1,
+              "export_hash": "de427bb22e38cc5dc9d4e79151cccdb321650c02978f79bcdad746c3e6be7985",
+              "game_id": "teacher/34af2fadb20d662a9df7d91927860ff207f2fd1b6ec001982db5c0b3594d43e8",
+              "generation": 1250,
+              "job_id": "34af2fadb20d662a9df7d91927860ff207f2fd1b6ec001982db5c0b3594d43e8",
+              "model_id": "b9f0c1e310a73004cd792178e7fad00f7414470889d620e1587bff99d74eea0f",
+              "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+              "source_fingerprint": "abcb8810de02911314a55e516f0aefee2678966e7e79549b0566a4de8589f9e8"
+            },
+            "legal_ids": [
+              "coal|Cannock:1||||"
+            ],
+            "revision": 288,
+            "root_epoch": 288,
+            "search_value": {
+              "protocol": "search-utility/1.0.0",
+              "value_source": "main",
+              "w": 0.0
+            },
+            "seat": 2,
+            "sequence": 2495,
+            "value_seat": 2
+          },
+          "candidates": 1,
+          "event": "evaluate",
+          "remaining_ns": 713768685,
+          "state_len": 3128
+        },
+        "verified_turns": 52,
+        "elapsed_seconds": 82.006292104983,
+        "stderr": "",
+        "exit_code": -9
+      },
+      "primary": false
+    }
+  ]
+}

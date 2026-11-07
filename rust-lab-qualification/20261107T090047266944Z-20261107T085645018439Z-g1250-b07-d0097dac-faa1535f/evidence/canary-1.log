@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py", line 154, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py", line 98, in main
+    if args.phase:return child(args)
+                         ^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py", line 71, in child
+    report.update(smoke.canary(args,snapshot,teacher,old.INPUTS,int(args.phase[-1])))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b07_smoke.py", line 80, in canary
+    try:tables=collector.collect(jobs)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 244, in collect
+    raise error.with_traceback(tb)
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 220, in one
+    result = worker.collect(job['expected'],self.core_source,verifier=self.verifier)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 113, in collect
+    raise ValueError(str(event)+': '+self.stderr.decode(errors='replace'))
+ValueError: Native teacher closed output: teacher: invalid request: stale/model/epoch GPU reply
+

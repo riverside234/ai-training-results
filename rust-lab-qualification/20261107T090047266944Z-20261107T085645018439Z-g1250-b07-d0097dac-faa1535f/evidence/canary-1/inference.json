@@ -1,0 +1,128 @@
+{
+  "batches": 5023,
+  "positions": 5057,
+  "model_cache_hits": 5023,
+  "valid_candidate_cells": 351322,
+  "padded_candidate_cells": 353079,
+  "max_batch_positions": 2,
+  "max_padded_candidate_cells": 413,
+  "expired_requests": 22,
+  "cancelled_requests": 0,
+  "packed_output_batches": 5023,
+  "shared_requests": 5059,
+  "shared_replies": 5059,
+  "inline_requests": 0,
+  "model_loads": 1,
+  "model_evictions": 0,
+  "timings": {
+    "inference.batch": {
+      "seconds": 76.18838355745538,
+      "calls": 5025,
+      "mean_seconds": 0.015161867374617987,
+      "p50_seconds": 0.013495833001798019,
+      "p95_seconds": 0.023133681999752298,
+      "max_seconds": 0.45468532299855724,
+      "first_seconds": 0.45468532299855724,
+      "steady_mean_seconds": 0.015074382610361628,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1024
+    },
+    "inference.forward": {
+      "seconds": 75.45694955365616,
+      "calls": 5023,
+      "mean_seconds": 0.015022287388743014,
+      "p50_seconds": 0.013349626009585336,
+      "p95_seconds": 0.02301085999351926,
+      "max_seconds": 0.4542206559854094,
+      "first_seconds": 0.4542206559854094,
+      "steady_mean_seconds": 0.01493483251646172,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1024
+    },
+    "inference.model_load": {
+      "seconds": 0.17485474099521525,
+      "calls": 1,
+      "mean_seconds": 0.17485474099521525,
+      "p50_seconds": 0.17485474099521525,
+      "p95_seconds": 0.17485474099521525,
+      "max_seconds": 0.17485474099521525,
+      "first_seconds": 0.17485474099521525,
+      "steady_mean_seconds": 0.0,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1
+    },
+    "inference.queue_wait": {
+      "seconds": 60.94177224091254,
+      "calls": 5059,
+      "mean_seconds": 0.012046209179860158,
+      "p50_seconds": 0.01103768902248703,
+      "p95_seconds": 0.021307182003511116,
+      "max_seconds": 0.02883010302321054,
+      "first_seconds": 0.0019618399965111166,
+      "steady_mean_seconds": 0.012048202926238835,
+      "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+      "percentile_sample_count": 1024
+    }
+  },
+  "device": "cuda:0",
+  "learner_device": "cuda:0",
+  "inference_devices": [
+    "cuda:0"
+  ],
+  "replica_count": 1,
+  "central_batching": true,
+  "memory": {
+    "host_resident_bytes": 1772904448,
+    "cuda_allocated_bytes": 57510912,
+    "cuda_reserved_bytes": 77594624,
+    "cuda_peak_allocated_bytes": 59594752,
+    "cuda_peak_reserved_bytes": 77594624
+  },
+  "cpu_admission": {
+    "capacity": 60,
+    "active": 0,
+    "peak": 2,
+    "queued": 0,
+    "aborted": false
+  },
+  "batching": {
+    "contract": "streaming-model-batches/1.0.0",
+    "peak_pending_positions": 2,
+    "batches": 5025,
+    "padding_splits": 0,
+    "capacity_splits": 0,
+    "max_padding_ratio": 2.0,
+    "scope": "One frozen model per batch; age/deadline fairness; no extra flush wait between model batches"
+  },
+  "batch_histogram": {
+    "1": 4989,
+    "2": 34
+  },
+  "per_model": {
+    "b9f0c1e310a73004cd792178e7fad00f7414470889d620e1587bff99d74eea0f": {
+      "positions": 5057,
+      "batches": 5023,
+      "batch_histogram": {
+        "1": 4989,
+        "2": 34
+      },
+      "queue_wait_seconds": 61.0859092528699,
+      "queue_wait_max_seconds": 0.029975667013786733,
+      "queue_wait_histogram": {
+        "4": 149,
+        "2": 324,
+        "16": 2968,
+        "32": 1067,
+        "8": 545,
+        "1": 4
+      },
+      "forward_seconds": 75.60792739180033,
+      "valid_candidate_cells": 351322,
+      "padded_candidate_cells": 353079
+    }
+  },
+  "resident_models": 1,
+  "registered_models": 1,
+  "timing_note": "Host elapsed time; CUDA forward kernel duration is in optional profiler traces",
+  "error": null
+}

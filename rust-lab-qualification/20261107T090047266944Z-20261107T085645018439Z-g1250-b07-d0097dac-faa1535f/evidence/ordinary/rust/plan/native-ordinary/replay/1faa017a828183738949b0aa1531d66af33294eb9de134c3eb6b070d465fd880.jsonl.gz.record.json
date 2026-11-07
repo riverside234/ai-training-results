@@ -1,0 +1,497 @@
+{
+  "job": 125,
+  "game_id": "0ef3251f6348051280230a5bb615691ca91e6c3bb2fff6ab9ef70dd35d6e948e",
+  "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T085645018439Z-g1250-b07-d0097dac/ordinary/rust/plan/native-ordinary/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz",
+  "sha256": "a842472b5995893c130fa7868737ec1bc2b5c98885a3a012edc753b39cb6ff9f",
+  "features": {
+    "data_sha256": "14df0f58853f67f41b7e26aa1bff82c1191baeaa2e0918e19ac52e221e084943",
+    "manifest_sha256": "e0a2c58a2e12bc84043317ed835f99449dd5a57bafe476d5b29deb80f159b30c",
+    "replay_sha256": "a842472b5995893c130fa7868737ec1bc2b5c98885a3a012edc753b39cb6ff9f",
+    "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+  },
+  "native_admission": {
+    "contract": "brass-native-admission/1.0.0",
+    "admission": {
+      "contract": "brass-native-admission/1.0.0",
+      "compatibility": "ef6a1b5126de42da8f3277dc9357b6ffb94a435f3faa7fee8dd312bb5a242a54",
+      "core_source": "fa0b3f7b74e9ed638c8b6f96d3f23b0910b4e5df9387ff8df58d5472a8014dd2",
+      "generation": 1250,
+      "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "producer": {
+        "build_sha256": "e9940385ba19ed30f59e380c113e56f1801caf1a037d7f23a21a913f18febf43",
+        "b01_sha256": "4c86c17674187dbfd38bbd37ae64b79aeb07af0f6da3aac0e03afa48478ba1bb",
+        "signature": "a0879c7a1503c8a691167f7e23e0687efaf1789ff0bb6c5799f39928ed63b769",
+        "profile": "search_v1",
+        "v205_enabled": false
+      },
+      "scope": "diagnostic",
+      "auxiliary": true,
+      "job": {
+        "index": 125,
+        "seed": 19553778,
+        "rotation": 3,
+        "sampling_seed": 133777166,
+        "policies": [
+          {
+            "kind": "lab-legacy",
+            "parent": "bank-3dc65253a610191d66a5/cotton-v3-masked-economy",
+            "policy_id": "shared-legacy-search/7daaeedaafb8da25d177caafc0c4fb4f23477abd734442a2d9b1b99eb360026e",
+            "budget": {
+              "role": "lab",
+              "seconds": 1.0,
+              "search_workers": 4,
+              "global_workers": 60,
+              "work_multiplier": 1
+            },
+            "purpose": "training",
+            "search_free": true,
+            "work_budget": {
+              "contract": "legacy-opponent-turn-time/1.0.0",
+              "mode": "time",
+              "seconds_per_turn": 1.0
+            },
+            "search_runtime": {
+              "id": "search-76a2f9ad7529c0e5e2117a36",
+              "recipe": {
+                "contract": "shared-heuristic-search/1.0.0",
+                "bank": "bank-3dc65253a610191d66a5",
+                "sources": {
+                  "src/BrassHost/Choices.cs": "598beee52e36598b1c5e5215fce4302655cfd12b13b3d2b7add0bb9a3c2c8c6c",
+                  "src/BrassHost/Host.cs": "84424276d8ff37a719aca14c6da17dafcd6fdd7b6e55371676313b51c313c911",
+                  "src/BrassHost/Model.cs": "5565f8c4c0146138256d270a721042b38830b62c0b7316453b5a9ac5949ac87d",
+                  "src/BrassHost/Observation.cs": "7162102e3b12613842d17e4ca1c24ba9837053eba955b4513ba134c3f49841c5",
+                  "src/BrassHost/Position.cs": "e587837815c74df3c275858e0df0e36e8b3db35182f3743bc5c53fc31e84f464",
+                  "src/BrassLegacyAI/Belief.cs": "f0a66fbe87e9d533f90634146bf7bade0560abe37613bc4ccae53a1fa9d791da",
+                  "src/BrassLegacyAI/Coordinator.cs": "d2d97765c9f21f639139f4bf2c238a07251f8ee8d1b124ed7e3ca5a6f56956c8",
+                  "src/BrassLegacyAI/Harness.cs": "fffb164761be88f32b20b7d304989c4c7d2e079947aed5b6aeb3793f686785c3",
+                  "src/BrassLegacyAI/HostExtensions.cs": "5692a1b0fd1dd834f3f7fb3177df7f2b26b5326e5846678277662eb0b99c9bea",
+                  "src/BrassLegacyAI/IntentJournal.cs": "84e093d351e9a4a2829dc592b14b5e6cb620bd3bbb323e1c65921cad67aae347",
+                  "src/BrassLegacyAI/LiveHost.cs": "614942261d8345f8e17451e596e6022fe9a61c3d97de22c23e0ccd153e4d5ef0",
+                  "src/BrassLegacyAI/Planner.cs": "742096885d71c10f59ffc75b9cb571e68d39be87d807106e1b4e1922a2c866e3",
+                  "src/BrassLegacyAI/Program.cs": "d0559ca5fcf36c6aefde6fb7e57902452710abc5ef5108c91bd5608195e37ffd",
+                  "src/BrassLocalAI/Policy/Behavior.cs": "4cf4f6e5715701832ad9e860cde95b5cd68caa4c14ba16ecdd7dd7a2b47efd5d",
+                  "src/BrassLocalAI/Policy/CashManagement.cs": "74af8f3672314a5698f6146778bdd6d95d213063d9f628a8f657f48f2c0c385c",
+                  "src/BrassLocalAI/Policy/Conversion.cs": "927743aaa873d1a712b46140ea6897fb0f382d1a1c90041b213a68925a61b761",
+                  "src/BrassLocalAI/Policy/Evaluator.cs": "f8ece487af2c554c09bdf0af78f111295decc5ef69ae9b1736a39668cdea502d",
+                  "src/BrassLocalAI/Policy/Tactics.cs": "36d631d66c6956572e8d41ff94f6f87e2b3152cf91d94882aecf82b7b19cb67c",
+                  "src/BrassMaskedSearch/CompetitiveEconomy.cs": "57d19eec2090541915104cbb89680da2784fa0a527ce30ca329a7e4065809ded",
+                  "src/BrassMaskedSearch/DeadlineAdmission.cs": "d1bb8ac0cba2c237efcca5e18d2fd78bb07d89b85a31d297ba8487edbe155ea6",
+                  "src/BrassMaskedSearch/EraEconomy.cs": "99cd1e859f3781a87ffe1e750d7bf45aae109b792cc7f26c1c04bed84fd22085",
+                  "src/BrassMaskedSearch/HeuristicBatchQueue.cs": "9cad7781f41c93a3916ea01286294c39a680ad5e32d1ecccbfe202911bc5bc36",
+                  "src/BrassMaskedSearch/InvestmentOpportunity.cs": "d46817cd3d933bfefa0f9aadc00380fc2e0bb0e183f41bee46cb9286fb173523",
+                  "src/BrassMaskedSearch/MaskedSearch.cs": "228c40af9b11306380eb8fa3ffd8c2c174d454cd9b8ebf43345211611828dafb",
+                  "src/BrassMaskedSearch/MaskedSearchExecution.cs": "385f5aaf8d423de896e05782d0418d02086daea20fb7a64df969de659f2ba936",
+                  "src/BrassMaskedSearch/NetworkOptions.cs": "805b5828b9054e98f3b0b0617e6fc8c41857b2ee3f17d216ad5017fb5001f0b1",
+                  "src/BrassMaskedSearch/RootForest.cs": "16290524a79c580743a6728ff36423704736383d083fce26392c46fa59a25ab9",
+                  "src/BrassMaskedSearch/SaleTiming.cs": "ca98967941fe574065675695a71e5492779fee10d0d77f2fade0146b1650876f",
+                  "src/BrassMaskedSearch/SearchSettings.cs": "5711a56e5dad1e46d8472e92a606b394a21924a1df6502b8a1d88e454c4e742e",
+                  "src/BrassMaskedSearch/StrategicOpenings.cs": "79d8328364ba4f78c74cd3e2cc8aeb12741c14ab51633dc43c2f957cf078d2b4",
+                  "src/BrassMaskedSearch/TournamentOpenings.cs": "f84b53753377934f67af03e7316514ee55848d2367be802bf28e05bcdf0e03fd"
+                },
+                "profiles": {
+                  "balanced-v3-masked-economy": "6afa9cd47d94e00fa667b3d91e4f98d2d7aead91ebd7fc1ad447a9d874b6cd79",
+                  "rail-tempo-v3-masked-economy": "03c1cb4d219d86e2a45d3d5d1168e9f126700eb0eb168f345471a4c1130b2814",
+                  "cotton-v3-masked-economy": "a9f68ecd1b1bb46165df251d3e95c1e26ac4c472ab16ae70e62748d59aa3286c",
+                  "goods-beer-v3-masked-economy": "8863a89e4304db01633e811d53814f4e12a7c69a21d40bf1c3be273983303831",
+                  "supplier-v3-masked-economy": "983ca1fee91eaca7930381ccfab5fe2502b8cda8ef50192607be20981363fa08",
+                  "pottery-flex-v3-masked-economy": "ee300bc0f92da7ade073b5c8746aadb230c736a3c4bf9ab1c68cf99cfb8eadf6"
+                },
+                "adapter": "d780c9b94c02dcb1b3783b2d40ae45f51a5e4de050f4f65e7181e2741bb8a0cd"
+              }
+            }
+          },
+          {
+            "kind": "neural",
+            "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+            "exploration": 0.0,
+            "focus": "mixed",
+            "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+            "exploration_version": 3,
+            "opening": {
+              "contract": "opening-temperature/4.0.0",
+              "temperature": 1.3,
+              "action_decisions_per_seat": 3,
+              "seats": "neural"
+            }
+          },
+          {
+            "kind": "neural",
+            "model_id": "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad",
+            "exploration": 0.0,
+            "focus": "neutral",
+            "policy_id": "step5-neural/493c5dedcd1925176f2717dec8bcbad196b8f35a8bbcd99f905f29130c0c3433",
+            "exploration_version": 3,
+            "opening": {
+              "contract": "opening-temperature/4.0.0",
+              "temperature": 1.3,
+              "action_decisions_per_seat": 3,
+              "seats": "neural"
+            }
+          },
+          {
+            "kind": "neural",
+            "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+            "exploration": 0.0,
+            "focus": "mixed",
+            "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+            "exploration_version": 3,
+            "opening": {
+              "contract": "opening-temperature/4.0.0",
+              "temperature": 1.3,
+              "action_decisions_per_seat": 3,
+              "seats": "neural"
+            }
+          }
+        ],
+        "focuses": {
+          "0": "neutral",
+          "1": "neutral",
+          "2": "neutral"
+        },
+        "provenance": {
+          "producer": "recovery/2.0.0",
+          "purpose": "training",
+          "kind": "historical",
+          "ordinary_game_index": 400125,
+          "seed": 19553778,
+          "sampling_seed": 133777166,
+          "spec": "a0879c7a1503c8a691167f7e23e0687efaf1789ff0bb6c5799f39928ed63b769",
+          "policies": [
+            "shared-legacy-search/7daaeedaafb8da25d177caafc0c4fb4f23477abd734442a2d9b1b99eb360026e",
+            "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+            "step5-neural/493c5dedcd1925176f2717dec8bcbad196b8f35a8bbcd99f905f29130c0c3433",
+            "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a"
+          ],
+          "rotation": 3,
+          "learner_behavior": {
+            "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+            "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+            "exploration": 0.0,
+            "temperature": 1.0,
+            "focus": "mixed",
+            "exploration_version": 3,
+            "opening": {
+              "contract": "opening-temperature/4.0.0",
+              "temperature": 1.3,
+              "action_decisions_per_seat": 3,
+              "seats": "neural"
+            }
+          },
+          "legacy_mode": "fast",
+          "seat_contexts": {
+            "contract": "ordinary-neutral-contexts/1.0.0",
+            "mode": "neutral",
+            "seats": "all-neural"
+          },
+          "exploration": {
+            "version": 3,
+            "opening": {
+              "contract": "opening-temperature/4.0.0",
+              "temperature": 1.3,
+              "action_decisions_per_seat": 3,
+              "seats": "neural"
+            },
+            "raw_entropy": true,
+            "branching": {
+              "contract": "selfplay-branching/9.0.0",
+              "tables": [
+                "selfplay"
+              ],
+              "rate_per_decision": 0.005,
+              "max_per_game": 1,
+              "skip_opening_decisions": 3,
+              "skip_final_rounds": "rail_empty_deck_hand_le_4",
+              "move_distribution": {
+                "temperature_2": 1.0
+              },
+              "exclude_played_move": true,
+              "reshuffle_hidden_deck": true,
+              "branch_move_row": "excluded",
+              "reset_opening_at_fork": true,
+              "continuation_opening": {
+                "contract": "opening-temperature/3.0.0",
+                "temperature": 1.5,
+                "action_decisions_per_seat": 2,
+                "seats": "neural"
+              }
+            },
+            "branching_status": "active",
+            "alphas": {
+              "canal_action": 0.001,
+              "canal_other": 0.001,
+              "rail_action": 0.001,
+              "rail_other": 0.001
+            },
+            "entropy_schedule": {
+              "contract": "entropy-anneal-schedule/1.3.0",
+              "config_id": "ae8e3b0f4f8beca56cd1f4f34770f6e103478bd8a5806eac78665509d2f5b7fd",
+              "generation": 1251,
+              "progress": 100,
+              "alphas": {
+                "canal_action": 0.001,
+                "canal_other": 0.001,
+                "rail_action": 0.001,
+                "rail_other": 0.001
+              }
+            },
+            "age": 1250,
+            "origin": 0
+          },
+          "ppo_opening_objective": {
+            "contract": "opening-ppo-objective/5.0.0",
+            "scope": "normal-T1.3-three-branch-T1.5-two",
+            "target_temperature": 1.0,
+            "importance_cap": 2.0,
+            "normalization": "none",
+            "old_policy": "frozen-before-ppo",
+            "kl_guard": "behavior-and-raw-temperature-1"
+          },
+          "critic_table": {
+            "contract": "seat-descriptors/1.0.0",
+            "generation": 1250,
+            "seats": [
+              {
+                "role": "learner",
+                "generation": 1250,
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+              },
+              {
+                "role": "snapshot",
+                "generation": 1110,
+                "model_id": "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad",
+                "policy_id": "step5-neural/493c5dedcd1925176f2717dec8bcbad196b8f35a8bbcd99f905f29130c0c3433",
+                "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+              },
+              {
+                "role": "learner",
+                "generation": 1250,
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+              },
+              {
+                "role": "rule_bot",
+                "generation": 1250,
+                "model_id": null,
+                "policy_id": "shared-legacy-search/7daaeedaafb8da25d177caafc0c4fb4f23477abd734442a2d9b1b99eb360026e",
+                "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+              }
+            ],
+            "stable": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8918169140815735,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "fingerprint_mode": "neutral",
+            "learner_fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+          },
+          "policy_observations": {
+            "contract": "selfplay-policy-observations/1.0.0",
+            "seat_fingerprints": "neutral",
+            "anchor_kl": "off",
+            "fixed_probe": "pool_admission_only"
+          },
+          "quality_opponents": [
+            {
+              "model_id": "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad",
+              "source": "scored",
+              "N": 25,
+              "p": 0.043851253243068294,
+              "il_share": 0.0,
+              "seat_probability": 0.043851253243068294,
+              "seat": 1
+            },
+            {
+              "model_id": "v4-history-f93c8ecf4823892853bdc583851db25d7279d5be09a4d6ff4c315c68728f023e",
+              "source": "scored",
+              "N": 25,
+              "p": 0.008165178637433402,
+              "il_share": 0.0,
+              "seat_probability": 0.008165178637433402,
+              "seat": 3
+            }
+          ],
+          "local_scoring": {
+            "contract": "local-scoring-targets/1.0.0",
+            "topology": "7e4a3e88c1c7f55c580ce8b180d7277d5628d24d0195df18e7c300cd31f4ae5b",
+            "horizon": "current-era",
+            "ordering": "canonical-stable-seat",
+            "rules": "steam-brass-patch-1.1.0",
+            "producer": {
+              "runtime_sha256": "b240d9963716bc256bcf9385fbc571d06fd2ea66a444204078103f7af66f3c6e",
+              "host_sha256": "c36293458ba9bba82f2acbb5525e335d6cb1187df442b8a202b7c34ff17eb20e"
+            }
+          }
+        },
+        "stable_game_id": "0ef3251f6348051280230a5bb615691ca91e6c3bb2fff6ab9ef70dd35d6e948e"
+      },
+      "job_id": "1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880",
+      "sha256": "67959879ec6504b76d60bf87266fbb1f75611fbe4209146058811cf82e457951"
+    },
+    "family_sha256": "9f8cbeb49a0381c45ca8bce8c52574b022f01d968a8391cbe7355fe8ac764783",
+    "replay_sha256": "a842472b5995893c130fa7868737ec1bc2b5c98885a3a012edc753b39cb6ff9f",
+    "features": {
+      "data_sha256": "14df0f58853f67f41b7e26aa1bff82c1191baeaa2e0918e19ac52e221e084943",
+      "manifest_sha256": "e0a2c58a2e12bc84043317ed835f99449dd5a57bafe476d5b29deb80f159b30c",
+      "replay_sha256": "a842472b5995893c130fa7868737ec1bc2b5c98885a3a012edc753b39cb6ff9f",
+      "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+    },
+    "validation": {
+      "contract": "brass-native-validation/1.0.0",
+      "validator": "87cdd916e20f513302feca259604ba074948ea38b26275a6fd4e43a899ad273f",
+      "receipt_sha256": "ad108debc61e0dbbce27ab620da65cff0a559fbb750a4e4aac789afb6dafd1ca"
+    }
+  },
+  "publication_seconds": 4.182256019004853,
+  "native_metrics": [
+    {
+      "role": "parent",
+      "timings": {},
+      "native_cost": null
+    }
+  ]
+}
