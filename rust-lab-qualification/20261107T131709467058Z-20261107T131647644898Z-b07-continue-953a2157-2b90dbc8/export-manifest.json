@@ -1,0 +1,55 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-07T13:17:09.468300+00:00",
+  "source": "artifacts/rust-backend/20261107T131647644898Z-b07-continue-953a2157",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T131647644898Z-b07-continue-953a2157",
+  "review_only": true,
+  "files": [
+    {
+      "source": "committed-training-config.json",
+      "path": "evidence/committed-training-config.json",
+      "source_bytes": 23396,
+      "source_sha256": "602f16336a4f48837a05317a4aa03b1c5b9989916bebf7268bd9e57841d4d75e",
+      "bytes": 23396,
+      "sha256": "602f16336a4f48837a05317a4aa03b1c5b9989916bebf7268bd9e57841d4d75e",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 4323,
+      "source_sha256": "c0f0b0303c8d6d9e15f8eb44841578742387638b04cae5fa921f893819bdbf66",
+      "bytes": 4323,
+      "sha256": "c0f0b0303c8d6d9e15f8eb44841578742387638b04cae5fa921f893819bdbf66",
+      "gzip": false
+    },
+    {
+      "source": "training.log",
+      "path": "evidence/training.log",
+      "source_bytes": 2263,
+      "source_sha256": "de4e003ae68c83945573f034f6c7d45946617311405bf02b9b9c4b03bd4b493f",
+      "bytes": 2263,
+      "sha256": "de4e003ae68c83945573f034f6c7d45946617311405bf02b9b9c4b03bd4b493f",
+      "gzip": false
+    },
+    {
+      "source": "verify-rollback.log",
+      "path": "evidence/verify-rollback.log",
+      "source_bytes": 523,
+      "source_sha256": "906a979aef35b8549a339ed76670f428e3163e062123e3de4918c586742545d1",
+      "bytes": 523,
+      "sha256": "906a979aef35b8549a339ed76670f428e3163e062123e3de4918c586742545d1",
+      "gzip": false
+    },
+    {
+      "source": "verify-rollback/qualification.json",
+      "path": "evidence/verify-rollback/qualification.json",
+      "source_bytes": 3286,
+      "source_sha256": "61be77ead1b1ae6804b9d0084a82b38d03d22d48af389607ccd9ebf111f6d959",
+      "bytes": 3286,
+      "sha256": "61be77ead1b1ae6804b9d0084a82b38d03d22d48af389607ccd9ebf111f6d959",
+      "gzip": false
+    }
+  ],
+  "omitted": []
+}
