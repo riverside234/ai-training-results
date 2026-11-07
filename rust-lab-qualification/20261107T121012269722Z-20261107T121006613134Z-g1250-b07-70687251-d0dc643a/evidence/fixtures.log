@@ -1,0 +1,22 @@
+Git-visible results: test-export
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/tmpm18gl_sk/artifacts/rust-backend/completion
+======================================================================
+ERROR: test_frozen_label_ages_save_and_reload_with_strict_checkpoint_loader (test_b07_sealing.Sealing.test_frozen_label_ages_save_and_reload_with_strict_checkpoint_loader)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/RustBackendLab/test_b07_sealing.py", line 131, in test_frozen_label_ages_save_and_reload_with_strict_checkpoint_loader
+    cold=SearchValuePhase(tmp,restored,options,job['expected']['reward_id'],saved=saved['training']['search_value'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/search_value_phase.py", line 24, in __init__
+    self.buffer = ValueBuffer(directory, reward_id, receipts=saved.get('buffer', {}).get('receipts', ()),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/search_value_rows.py", line 107, in __init__
+    require(all(p.is_file() and not p.is_symlink() and p.name in known for p in self.directory.iterdir()),
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: Unknown/uncommitted value files; recover the interrupted publication before resume
+
+----------------------------------------------------------------------
+Ran 29 tests in 4.494s
+
+FAILED (errors=1)
