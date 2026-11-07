@@ -1,0 +1,2034 @@
+{
+  "collection_seconds": 30.065790719003417,
+  "records": [
+    {
+      "job": 0,
+      "game_id": "bf7d0452ec35f1ddf8aafa33dbb11a7ad9b0fa6b0090ad6400b802a69a6f10a2",
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T101336169559Z-g1250-b07-2fcbfcca/ordinary/rust/plan/native-ordinary/replay/018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590.jsonl.gz",
+      "sha256": "e22bc7cff285a985836b0f61ddba3d053669b1f9bd669d78663cca2328ab7a1b",
+      "features": {
+        "data_sha256": "d8a141c0aff3415acab8fd185af3a5ef7ec7040f9e5e0bd3fa8d28014144f4a4",
+        "manifest_sha256": "ac353a39580bd4c9288d7c5c10cb22ef4839e07652a6db78ac2f36d917b3289f",
+        "replay_sha256": "e22bc7cff285a985836b0f61ddba3d053669b1f9bd669d78663cca2328ab7a1b",
+        "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+      },
+      "native_admission": {
+        "contract": "brass-native-admission/1.0.0",
+        "admission": {
+          "contract": "brass-native-admission/1.0.0",
+          "compatibility": "ef6a1b5126de42da8f3277dc9357b6ffb94a435f3faa7fee8dd312bb5a242a54",
+          "core_source": "fa0b3f7b74e9ed638c8b6f96d3f23b0910b4e5df9387ff8df58d5472a8014dd2",
+          "generation": 1250,
+          "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+          "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+          "producer": {
+            "build_sha256": "020af52e77de444dc9ca465483008f13742fa2301ece33044a6a4e291b4c7605",
+            "b01_sha256": "4c86c17674187dbfd38bbd37ae64b79aeb07af0f6da3aac0e03afa48478ba1bb",
+            "signature": "a0879c7a1503c8a691167f7e23e0687efaf1789ff0bb6c5799f39928ed63b769",
+            "profile": "search_v1",
+            "v205_enabled": false
+          },
+          "scope": "diagnostic",
+          "auxiliary": true,
+          "job": {
+            "index": 0,
+            "seed": 19553620,
+            "rotation": 0,
+            "sampling_seed": 133777041,
+            "policies": [
+              {
+                "kind": "neural",
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "exploration": 0.0,
+                "focus": "mixed",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              },
+              {
+                "kind": "neural",
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "exploration": 0.0,
+                "focus": "mixed",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              },
+              {
+                "kind": "neural",
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "exploration": 0.0,
+                "focus": "mixed",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              },
+              {
+                "kind": "neural",
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "exploration": 0.0,
+                "focus": "mixed",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              }
+            ],
+            "focuses": {
+              "0": "neutral",
+              "1": "neutral",
+              "2": "neutral",
+              "3": "neutral"
+            },
+            "provenance": {
+              "producer": "recovery/2.0.0",
+              "purpose": "training",
+              "kind": "selfplay",
+              "ordinary_game_index": 400000,
+              "seed": 19553620,
+              "sampling_seed": 133777041,
+              "spec": "a0879c7a1503c8a691167f7e23e0687efaf1789ff0bb6c5799f39928ed63b769",
+              "policies": [
+                "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a"
+              ],
+              "rotation": 0,
+              "learner_behavior": {
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "exploration": 0.0,
+                "temperature": 1.0,
+                "focus": "mixed",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              },
+              "legacy_mode": null,
+              "seat_contexts": {
+                "contract": "ordinary-neutral-contexts/1.0.0",
+                "mode": "neutral",
+                "seats": "all-neural"
+              },
+              "exploration": {
+                "version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                },
+                "raw_entropy": true,
+                "branching": {
+                  "contract": "selfplay-branching/9.0.0",
+                  "tables": [
+                    "selfplay"
+                  ],
+                  "rate_per_decision": 0.005,
+                  "max_per_game": 1,
+                  "skip_opening_decisions": 3,
+                  "skip_final_rounds": "rail_empty_deck_hand_le_4",
+                  "move_distribution": {
+                    "temperature_2": 1.0
+                  },
+                  "exclude_played_move": true,
+                  "reshuffle_hidden_deck": true,
+                  "branch_move_row": "excluded",
+                  "reset_opening_at_fork": true,
+                  "continuation_opening": {
+                    "contract": "opening-temperature/3.0.0",
+                    "temperature": 1.5,
+                    "action_decisions_per_seat": 2,
+                    "seats": "neural"
+                  }
+                },
+                "branching_status": "active",
+                "alphas": {
+                  "canal_action": 0.001,
+                  "canal_other": 0.001,
+                  "rail_action": 0.001,
+                  "rail_other": 0.001
+                },
+                "entropy_schedule": {
+                  "contract": "entropy-anneal-schedule/1.3.0",
+                  "config_id": "ae8e3b0f4f8beca56cd1f4f34770f6e103478bd8a5806eac78665509d2f5b7fd",
+                  "generation": 1251,
+                  "progress": 100,
+                  "alphas": {
+                    "canal_action": 0.001,
+                    "canal_other": 0.001,
+                    "rail_action": 0.001,
+                    "rail_other": 0.001
+                  }
+                },
+                "age": 1250,
+                "origin": 0
+              },
+              "ppo_opening_objective": {
+                "contract": "opening-ppo-objective/5.0.0",
+                "scope": "normal-T1.3-three-branch-T1.5-two",
+                "target_temperature": 1.0,
+                "importance_cap": 2.0,
+                "normalization": "none",
+                "old_policy": "frozen-before-ppo",
+                "kl_guard": "behavior-and-raw-temperature-1"
+              },
+              "critic_table": {
+                "contract": "seat-descriptors/1.0.0",
+                "generation": 1250,
+                "seats": [
+                  {
+                    "role": "learner",
+                    "generation": 1250,
+                    "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                    "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  },
+                  {
+                    "role": "learner",
+                    "generation": 1250,
+                    "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                    "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  },
+                  {
+                    "role": "learner",
+                    "generation": 1250,
+                    "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                    "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  },
+                  {
+                    "role": "learner",
+                    "generation": 1250,
+                    "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                    "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  }
+                ],
+                "stable": [
+                  [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                "fingerprint_mode": "neutral",
+                "learner_fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+              },
+              "policy_observations": {
+                "contract": "selfplay-policy-observations/1.0.0",
+                "seat_fingerprints": "neutral",
+                "anchor_kl": "off",
+                "fixed_probe": "pool_admission_only"
+              },
+              "local_scoring": {
+                "contract": "local-scoring-targets/1.0.0",
+                "topology": "7e4a3e88c1c7f55c580ce8b180d7277d5628d24d0195df18e7c300cd31f4ae5b",
+                "horizon": "current-era",
+                "ordering": "canonical-stable-seat",
+                "rules": "steam-brass-patch-1.1.0",
+                "producer": {
+                  "runtime_sha256": "b240d9963716bc256bcf9385fbc571d06fd2ea66a444204078103f7af66f3c6e",
+                  "host_sha256": "c36293458ba9bba82f2acbb5525e335d6cb1187df442b8a202b7c34ff17eb20e"
+                }
+              }
+            },
+            "stable_game_id": "bf7d0452ec35f1ddf8aafa33dbb11a7ad9b0fa6b0090ad6400b802a69a6f10a2",
+            "branching": {
+              "contract": "selfplay-branching/9.0.0",
+              "tables": [
+                "selfplay"
+              ],
+              "rate_per_decision": 0.005,
+              "max_per_game": 1,
+              "skip_opening_decisions": 3,
+              "skip_final_rounds": "rail_empty_deck_hand_le_4",
+              "move_distribution": {
+                "temperature_2": 1.0
+              },
+              "exclude_played_move": true,
+              "reshuffle_hidden_deck": true,
+              "branch_move_row": "excluded",
+              "reset_opening_at_fork": true,
+              "continuation_opening": {
+                "contract": "opening-temperature/3.0.0",
+                "temperature": 1.5,
+                "action_decisions_per_seat": 2,
+                "seats": "neural"
+              }
+            }
+          },
+          "job_id": "018fb90f67b44d25a19f59d74b07f1e1e45d500c88e311f6f07a173e65cab590",
+          "sha256": "0d16622fa40dde0686f2cd38ba28dfcb719cf8de91c89d07c4a607e296cf8a17"
+        },
+        "family_sha256": "44babeb8620ec18bf273c4b9fbe1cf99352d42625adc3802ae5c7a0d41c3f03b",
+        "replay_sha256": "e22bc7cff285a985836b0f61ddba3d053669b1f9bd669d78663cca2328ab7a1b",
+        "features": {
+          "data_sha256": "d8a141c0aff3415acab8fd185af3a5ef7ec7040f9e5e0bd3fa8d28014144f4a4",
+          "manifest_sha256": "ac353a39580bd4c9288d7c5c10cb22ef4839e07652a6db78ac2f36d917b3289f",
+          "replay_sha256": "e22bc7cff285a985836b0f61ddba3d053669b1f9bd669d78663cca2328ab7a1b",
+          "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+        },
+        "validation": {
+          "contract": "brass-native-validation/1.0.0",
+          "validator": "f6372cefd9a48c98994d2f2e8424b032f4d5c808aceab140bb6442b92214cfc9",
+          "receipt_sha256": "6c242396301b890d0fe63b656504b8fa56893a422a63cde1bbd7a568713cb495"
+        }
+      },
+      "publication_seconds": 3.069221560988808,
+      "publication_phases": {
+        "part_read_seconds": 0.27363555901683867,
+        "family_seal_seconds": 0.16812319701421075,
+        "actor_part_transfer": [
+          {
+            "json_encoding_seconds": 0.12671411701012403,
+            "compression_seconds": 0.07359088899102062,
+            "write_hash_seconds": 0.004391383001348004
+          }
+        ],
+        "full_validation_and_assembly_seconds": 2.406206754007144,
+        "json_encoding_seconds": 0.14461755700176582,
+        "replay_write_hash_seconds": 0.07688071197480895,
+        "feature_cache_seconds": 0.41378286699182354
+      },
+      "native_metrics": [
+        {
+          "role": "parent",
+          "timings": {
+            "native_startup_seconds": 0.002070099988486618,
+            "bootstrap_seconds": 0.11718547999043949,
+            "inference_envelope_seconds": 3.8651732390280813,
+            "policy_seconds": 4.297669252991909,
+            "encoding_seconds": 0.03526188968680799,
+            "native_step_seconds": 2.733574841200607,
+            "drain_seconds": 0.63578044300084,
+            "ipc_request_encode_seconds": 0.029712292249314487,
+            "ipc_sent_bytes": 843056,
+            "ipc_calls": 475,
+            "ipc_hello_calls": 1,
+            "ipc_received_bytes": 78084030,
+            "ipc_reply_decode_seconds": 0.7146183140866924,
+            "ipc_round_trip_seconds": 3.123688988009235,
+            "ipc_hello_seconds": 0.00034425899502821267,
+            "ipc_begin_calls": 1,
+            "ipc_begin_seconds": 0.008226381993154064,
+            "ipc_feature_arrays_calls": 158,
+            "ipc_feature_arrays_seconds": 0.3354588880611118,
+            "ipc_append_compact_calls": 158,
+            "ipc_append_compact_seconds": 1.5111064781376626,
+            "ipc_append_forced_calls": 141,
+            "ipc_append_forced_seconds": 1.168794458033517,
+            "ipc_finish_calls": 1,
+            "ipc_finish_seconds": 0.03770705699571408,
+            "ipc_record_arrays_calls": 14,
+            "ipc_record_arrays_seconds": 0.06208497891202569,
+            "ipc_release_calls": 1,
+            "ipc_release_seconds": 0.0008230769890360534,
+            "total_seconds": 11.635302351001883
+          },
+          "native_cost": {
+            "feature_seconds": 0.03996417,
+            "max_candidates": 345,
+            "peak_process_rss_bytes": 54513664,
+            "projection_seconds": 0.092239443,
+            "transition_seconds": 0.402711722
+          }
+        }
+      ]
+    },
+    {
+      "job": 2,
+      "game_id": "a3b88a5dffbe14bc5ba965ebaec1e561ecc0656ecba813bb253be89022d6a5ff",
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T101336169559Z-g1250-b07-2fcbfcca/ordinary/rust/plan/native-ordinary/replay/25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971.jsonl.gz",
+      "sha256": "b76d243a03b32f09cc5cd67187d129f6e79861a938a5c417377e9a8bec4c01dc",
+      "features": {
+        "data_sha256": "23a61ecf30bc8e257d81b104339ac49994a84612ce098325367d6641abc86d8a",
+        "manifest_sha256": "ff2e2b34cde580de507a35cfd98b4353c923556792d1732e479bbb00fc967784",
+        "replay_sha256": "b76d243a03b32f09cc5cd67187d129f6e79861a938a5c417377e9a8bec4c01dc",
+        "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+      },
+      "native_admission": {
+        "contract": "brass-native-admission/1.0.0",
+        "admission": {
+          "contract": "brass-native-admission/1.0.0",
+          "compatibility": "ef6a1b5126de42da8f3277dc9357b6ffb94a435f3faa7fee8dd312bb5a242a54",
+          "core_source": "fa0b3f7b74e9ed638c8b6f96d3f23b0910b4e5df9387ff8df58d5472a8014dd2",
+          "generation": 1250,
+          "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+          "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+          "producer": {
+            "build_sha256": "020af52e77de444dc9ca465483008f13742fa2301ece33044a6a4e291b4c7605",
+            "b01_sha256": "4c86c17674187dbfd38bbd37ae64b79aeb07af0f6da3aac0e03afa48478ba1bb",
+            "signature": "a0879c7a1503c8a691167f7e23e0687efaf1789ff0bb6c5799f39928ed63b769",
+            "profile": "search_v1",
+            "v205_enabled": false
+          },
+          "scope": "diagnostic",
+          "auxiliary": true,
+          "job": {
+            "index": 2,
+            "seed": 19553623,
+            "rotation": 2,
+            "sampling_seed": 133777043,
+            "policies": [
+              {
+                "kind": "neural",
+                "model_id": "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b",
+                "exploration": 0.0,
+                "focus": "neutral",
+                "policy_id": "step5-neural/ad42d7bc8fc9623db4603e4f81a1cc2dcc56208e42ef87035f254ec2f62d6fce",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              },
+              {
+                "kind": "neural",
+                "model_id": "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1",
+                "exploration": 0.0,
+                "focus": "neutral",
+                "policy_id": "step5-neural/f0c679c1b735d7afae27f264e178b03076b5a7096e9910bc9499ac0cdb4473db",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              },
+              {
+                "kind": "neural",
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "exploration": 0.0,
+                "focus": "mixed",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              },
+              {
+                "kind": "neural",
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "exploration": 0.0,
+                "focus": "mixed",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              }
+            ],
+            "focuses": {
+              "0": "neutral",
+              "1": "neutral",
+              "2": "neutral",
+              "3": "neutral"
+            },
+            "provenance": {
+              "producer": "recovery/2.0.0",
+              "purpose": "training",
+              "kind": "historical",
+              "ordinary_game_index": 400002,
+              "seed": 19553623,
+              "sampling_seed": 133777043,
+              "spec": "a0879c7a1503c8a691167f7e23e0687efaf1789ff0bb6c5799f39928ed63b769",
+              "policies": [
+                "step5-neural/ad42d7bc8fc9623db4603e4f81a1cc2dcc56208e42ef87035f254ec2f62d6fce",
+                "step5-neural/f0c679c1b735d7afae27f264e178b03076b5a7096e9910bc9499ac0cdb4473db",
+                "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a"
+              ],
+              "rotation": 2,
+              "learner_behavior": {
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "exploration": 0.0,
+                "temperature": 1.0,
+                "focus": "mixed",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              },
+              "legacy_mode": null,
+              "seat_contexts": {
+                "contract": "ordinary-neutral-contexts/1.0.0",
+                "mode": "neutral",
+                "seats": "all-neural"
+              },
+              "exploration": {
+                "version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                },
+                "raw_entropy": true,
+                "branching": {
+                  "contract": "selfplay-branching/9.0.0",
+                  "tables": [
+                    "selfplay"
+                  ],
+                  "rate_per_decision": 0.005,
+                  "max_per_game": 1,
+                  "skip_opening_decisions": 3,
+                  "skip_final_rounds": "rail_empty_deck_hand_le_4",
+                  "move_distribution": {
+                    "temperature_2": 1.0
+                  },
+                  "exclude_played_move": true,
+                  "reshuffle_hidden_deck": true,
+                  "branch_move_row": "excluded",
+                  "reset_opening_at_fork": true,
+                  "continuation_opening": {
+                    "contract": "opening-temperature/3.0.0",
+                    "temperature": 1.5,
+                    "action_decisions_per_seat": 2,
+                    "seats": "neural"
+                  }
+                },
+                "branching_status": "active",
+                "alphas": {
+                  "canal_action": 0.001,
+                  "canal_other": 0.001,
+                  "rail_action": 0.001,
+                  "rail_other": 0.001
+                },
+                "entropy_schedule": {
+                  "contract": "entropy-anneal-schedule/1.3.0",
+                  "config_id": "ae8e3b0f4f8beca56cd1f4f34770f6e103478bd8a5806eac78665509d2f5b7fd",
+                  "generation": 1251,
+                  "progress": 100,
+                  "alphas": {
+                    "canal_action": 0.001,
+                    "canal_other": 0.001,
+                    "rail_action": 0.001,
+                    "rail_other": 0.001
+                  }
+                },
+                "age": 1250,
+                "origin": 0
+              },
+              "ppo_opening_objective": {
+                "contract": "opening-ppo-objective/5.0.0",
+                "scope": "normal-T1.3-three-branch-T1.5-two",
+                "target_temperature": 1.0,
+                "importance_cap": 2.0,
+                "normalization": "none",
+                "old_policy": "frozen-before-ppo",
+                "kl_guard": "behavior-and-raw-temperature-1"
+              },
+              "critic_table": {
+                "contract": "seat-descriptors/1.0.0",
+                "generation": 1250,
+                "seats": [
+                  {
+                    "role": "learner",
+                    "generation": 1250,
+                    "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                    "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  },
+                  {
+                    "role": "learner",
+                    "generation": 1250,
+                    "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                    "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  },
+                  {
+                    "role": "snapshot",
+                    "generation": 1045,
+                    "model_id": "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b",
+                    "policy_id": "step5-neural/ad42d7bc8fc9623db4603e4f81a1cc2dcc56208e42ef87035f254ec2f62d6fce",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  },
+                  {
+                    "role": "snapshot",
+                    "generation": 1175,
+                    "model_id": "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1",
+                    "policy_id": "step5-neural/f0c679c1b735d7afae27f264e178b03076b5a7096e9910bc9499ac0cdb4473db",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  }
+                ],
+                "stable": [
+                  [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.9601375460624695,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.7804422378540039,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                "fingerprint_mode": "neutral",
+                "learner_fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+              },
+              "policy_observations": {
+                "contract": "selfplay-policy-observations/1.0.0",
+                "seat_fingerprints": "neutral",
+                "anchor_kl": "off",
+                "fixed_probe": "pool_admission_only"
+              },
+              "quality_opponents": [
+                {
+                  "model_id": "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b",
+                  "source": "scored",
+                  "N": 25,
+                  "p": 0.0401793829243465,
+                  "il_share": 0.0,
+                  "seat_probability": 0.0401793829243465,
+                  "seat": 2
+                },
+                {
+                  "model_id": "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1",
+                  "source": "scored",
+                  "N": 25,
+                  "p": 0.04381246967578273,
+                  "il_share": 0.0,
+                  "seat_probability": 0.04381246967578273,
+                  "seat": 3
+                }
+              ],
+              "local_scoring": {
+                "contract": "local-scoring-targets/1.0.0",
+                "topology": "7e4a3e88c1c7f55c580ce8b180d7277d5628d24d0195df18e7c300cd31f4ae5b",
+                "horizon": "current-era",
+                "ordering": "canonical-stable-seat",
+                "rules": "steam-brass-patch-1.1.0",
+                "producer": {
+                  "runtime_sha256": "b240d9963716bc256bcf9385fbc571d06fd2ea66a444204078103f7af66f3c6e",
+                  "host_sha256": "c36293458ba9bba82f2acbb5525e335d6cb1187df442b8a202b7c34ff17eb20e"
+                }
+              }
+            },
+            "stable_game_id": "a3b88a5dffbe14bc5ba965ebaec1e561ecc0656ecba813bb253be89022d6a5ff"
+          },
+          "job_id": "25f1788bf80b33cdab6fb191f91a663287eb6de187103a2b79c303a455c50971",
+          "sha256": "15ef477e44a91e2c8c7acb75816e584e72f1488c806e6a4b96fab0e6d6db59ff"
+        },
+        "family_sha256": "773a1e3461e707a7d33d93835d2fa2b0d0aed7c3ed9cadb4c6252fe44611d7be",
+        "replay_sha256": "b76d243a03b32f09cc5cd67187d129f6e79861a938a5c417377e9a8bec4c01dc",
+        "features": {
+          "data_sha256": "23a61ecf30bc8e257d81b104339ac49994a84612ce098325367d6641abc86d8a",
+          "manifest_sha256": "ff2e2b34cde580de507a35cfd98b4353c923556792d1732e479bbb00fc967784",
+          "replay_sha256": "b76d243a03b32f09cc5cd67187d129f6e79861a938a5c417377e9a8bec4c01dc",
+          "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+        },
+        "validation": {
+          "contract": "brass-native-validation/1.0.0",
+          "validator": "f6372cefd9a48c98994d2f2e8424b032f4d5c808aceab140bb6442b92214cfc9",
+          "receipt_sha256": "a495fe4d3a885f8a34dd35d05a3d806b6419a3fde91ff6f6fc642560d118a731"
+        }
+      },
+      "publication_seconds": 3.1158373589860275,
+      "publication_phases": {
+        "part_read_seconds": 0.27525094800512306,
+        "family_seal_seconds": 0.1719946009980049,
+        "actor_part_transfer": [
+          {
+            "json_encoding_seconds": 0.13966813898878172,
+            "compression_seconds": 0.076010946999304,
+            "write_hash_seconds": 0.0022256300144363195
+          }
+        ],
+        "full_validation_and_assembly_seconds": 2.4441330959962215,
+        "json_encoding_seconds": 0.1408569760096725,
+        "replay_write_hash_seconds": 0.07942694699158892,
+        "feature_cache_seconds": 0.4228753890201915
+      },
+      "native_metrics": [
+        {
+          "role": "parent",
+          "timings": {
+            "native_startup_seconds": 0.00191896699834615,
+            "bootstrap_seconds": 0.1163477009977214,
+            "inference_envelope_seconds": 4.748947192740161,
+            "policy_seconds": 5.267520000168588,
+            "encoding_seconds": 0.036581277003278956,
+            "native_step_seconds": 2.8180297176586464,
+            "drain_seconds": 0.5666649310151115,
+            "ipc_request_encode_seconds": 0.030078644689638168,
+            "ipc_sent_bytes": 875265,
+            "ipc_calls": 499,
+            "ipc_hello_calls": 1,
+            "ipc_received_bytes": 81475781,
+            "ipc_reply_decode_seconds": 0.6098630279884674,
+            "ipc_round_trip_seconds": 3.106371951609617,
+            "ipc_hello_seconds": 0.0007203849963843822,
+            "ipc_begin_calls": 1,
+            "ipc_begin_seconds": 0.0044808149978052825,
+            "ipc_feature_arrays_calls": 169,
+            "ipc_feature_arrays_seconds": 0.2774153617792763,
+            "ipc_append_compact_calls": 169,
+            "ipc_append_compact_seconds": 1.6818373429996427,
+            "ipc_append_forced_calls": 142,
+            "ipc_append_forced_seconds": 1.0807339727180079,
+            "ipc_finish_calls": 1,
+            "ipc_finish_seconds": 0.03793586598476395,
+            "ipc_record_arrays_calls": 15,
+            "ipc_record_arrays_seconds": 0.0237068489077501,
+            "ipc_release_calls": 1,
+            "ipc_release_seconds": 0.00046348501928150654,
+            "total_seconds": 12.847185547987465
+          },
+          "native_cost": {
+            "feature_seconds": 0.043476497,
+            "max_candidates": 405,
+            "peak_process_rss_bytes": 59092992,
+            "projection_seconds": 0.093674055,
+            "transition_seconds": 0.414603997
+          }
+        }
+      ]
+    },
+    {
+      "job": 125,
+      "game_id": "0ef3251f6348051280230a5bb615691ca91e6c3bb2fff6ab9ef70dd35d6e948e",
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T101336169559Z-g1250-b07-2fcbfcca/ordinary/rust/plan/native-ordinary/replay/1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880.jsonl.gz",
+      "sha256": "a46b958475276d8b53b0425bf451254cf7624c668c25656f3a4c1fd3f4e7f936",
+      "features": {
+        "data_sha256": "14df0f58853f67f41b7e26aa1bff82c1191baeaa2e0918e19ac52e221e084943",
+        "manifest_sha256": "2e962cb50a8964ce3413865a81bfac521f4843bd2d7a6015a72bfd6aea80138b",
+        "replay_sha256": "a46b958475276d8b53b0425bf451254cf7624c668c25656f3a4c1fd3f4e7f936",
+        "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+      },
+      "native_admission": {
+        "contract": "brass-native-admission/1.0.0",
+        "admission": {
+          "contract": "brass-native-admission/1.0.0",
+          "compatibility": "ef6a1b5126de42da8f3277dc9357b6ffb94a435f3faa7fee8dd312bb5a242a54",
+          "core_source": "fa0b3f7b74e9ed638c8b6f96d3f23b0910b4e5df9387ff8df58d5472a8014dd2",
+          "generation": 1250,
+          "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+          "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+          "producer": {
+            "build_sha256": "020af52e77de444dc9ca465483008f13742fa2301ece33044a6a4e291b4c7605",
+            "b01_sha256": "4c86c17674187dbfd38bbd37ae64b79aeb07af0f6da3aac0e03afa48478ba1bb",
+            "signature": "a0879c7a1503c8a691167f7e23e0687efaf1789ff0bb6c5799f39928ed63b769",
+            "profile": "search_v1",
+            "v205_enabled": false
+          },
+          "scope": "diagnostic",
+          "auxiliary": true,
+          "job": {
+            "index": 125,
+            "seed": 19553778,
+            "rotation": 3,
+            "sampling_seed": 133777166,
+            "policies": [
+              {
+                "kind": "lab-legacy",
+                "parent": "bank-3dc65253a610191d66a5/cotton-v3-masked-economy",
+                "policy_id": "shared-legacy-search/7daaeedaafb8da25d177caafc0c4fb4f23477abd734442a2d9b1b99eb360026e",
+                "budget": {
+                  "role": "lab",
+                  "seconds": 1.0,
+                  "search_workers": 4,
+                  "global_workers": 60,
+                  "work_multiplier": 1
+                },
+                "purpose": "training",
+                "search_free": true,
+                "work_budget": {
+                  "contract": "legacy-opponent-turn-time/1.0.0",
+                  "mode": "time",
+                  "seconds_per_turn": 1.0
+                },
+                "search_runtime": {
+                  "id": "search-76a2f9ad7529c0e5e2117a36",
+                  "recipe": {
+                    "contract": "shared-heuristic-search/1.0.0",
+                    "bank": "bank-3dc65253a610191d66a5",
+                    "sources": {
+                      "src/BrassHost/Choices.cs": "598beee52e36598b1c5e5215fce4302655cfd12b13b3d2b7add0bb9a3c2c8c6c",
+                      "src/BrassHost/Host.cs": "84424276d8ff37a719aca14c6da17dafcd6fdd7b6e55371676313b51c313c911",
+                      "src/BrassHost/Model.cs": "5565f8c4c0146138256d270a721042b38830b62c0b7316453b5a9ac5949ac87d",
+                      "src/BrassHost/Observation.cs": "7162102e3b12613842d17e4ca1c24ba9837053eba955b4513ba134c3f49841c5",
+                      "src/BrassHost/Position.cs": "e587837815c74df3c275858e0df0e36e8b3db35182f3743bc5c53fc31e84f464",
+                      "src/BrassLegacyAI/Belief.cs": "f0a66fbe87e9d533f90634146bf7bade0560abe37613bc4ccae53a1fa9d791da",
+                      "src/BrassLegacyAI/Coordinator.cs": "d2d97765c9f21f639139f4bf2c238a07251f8ee8d1b124ed7e3ca5a6f56956c8",
+                      "src/BrassLegacyAI/Harness.cs": "fffb164761be88f32b20b7d304989c4c7d2e079947aed5b6aeb3793f686785c3",
+                      "src/BrassLegacyAI/HostExtensions.cs": "5692a1b0fd1dd834f3f7fb3177df7f2b26b5326e5846678277662eb0b99c9bea",
+                      "src/BrassLegacyAI/IntentJournal.cs": "84e093d351e9a4a2829dc592b14b5e6cb620bd3bbb323e1c65921cad67aae347",
+                      "src/BrassLegacyAI/LiveHost.cs": "614942261d8345f8e17451e596e6022fe9a61c3d97de22c23e0ccd153e4d5ef0",
+                      "src/BrassLegacyAI/Planner.cs": "742096885d71c10f59ffc75b9cb571e68d39be87d807106e1b4e1922a2c866e3",
+                      "src/BrassLegacyAI/Program.cs": "d0559ca5fcf36c6aefde6fb7e57902452710abc5ef5108c91bd5608195e37ffd",
+                      "src/BrassLocalAI/Policy/Behavior.cs": "4cf4f6e5715701832ad9e860cde95b5cd68caa4c14ba16ecdd7dd7a2b47efd5d",
+                      "src/BrassLocalAI/Policy/CashManagement.cs": "74af8f3672314a5698f6146778bdd6d95d213063d9f628a8f657f48f2c0c385c",
+                      "src/BrassLocalAI/Policy/Conversion.cs": "927743aaa873d1a712b46140ea6897fb0f382d1a1c90041b213a68925a61b761",
+                      "src/BrassLocalAI/Policy/Evaluator.cs": "f8ece487af2c554c09bdf0af78f111295decc5ef69ae9b1736a39668cdea502d",
+                      "src/BrassLocalAI/Policy/Tactics.cs": "36d631d66c6956572e8d41ff94f6f87e2b3152cf91d94882aecf82b7b19cb67c",
+                      "src/BrassMaskedSearch/CompetitiveEconomy.cs": "57d19eec2090541915104cbb89680da2784fa0a527ce30ca329a7e4065809ded",
+                      "src/BrassMaskedSearch/DeadlineAdmission.cs": "d1bb8ac0cba2c237efcca5e18d2fd78bb07d89b85a31d297ba8487edbe155ea6",
+                      "src/BrassMaskedSearch/EraEconomy.cs": "99cd1e859f3781a87ffe1e750d7bf45aae109b792cc7f26c1c04bed84fd22085",
+                      "src/BrassMaskedSearch/HeuristicBatchQueue.cs": "9cad7781f41c93a3916ea01286294c39a680ad5e32d1ecccbfe202911bc5bc36",
+                      "src/BrassMaskedSearch/InvestmentOpportunity.cs": "d46817cd3d933bfefa0f9aadc00380fc2e0bb0e183f41bee46cb9286fb173523",
+                      "src/BrassMaskedSearch/MaskedSearch.cs": "228c40af9b11306380eb8fa3ffd8c2c174d454cd9b8ebf43345211611828dafb",
+                      "src/BrassMaskedSearch/MaskedSearchExecution.cs": "385f5aaf8d423de896e05782d0418d02086daea20fb7a64df969de659f2ba936",
+                      "src/BrassMaskedSearch/NetworkOptions.cs": "805b5828b9054e98f3b0b0617e6fc8c41857b2ee3f17d216ad5017fb5001f0b1",
+                      "src/BrassMaskedSearch/RootForest.cs": "16290524a79c580743a6728ff36423704736383d083fce26392c46fa59a25ab9",
+                      "src/BrassMaskedSearch/SaleTiming.cs": "ca98967941fe574065675695a71e5492779fee10d0d77f2fade0146b1650876f",
+                      "src/BrassMaskedSearch/SearchSettings.cs": "5711a56e5dad1e46d8472e92a606b394a21924a1df6502b8a1d88e454c4e742e",
+                      "src/BrassMaskedSearch/StrategicOpenings.cs": "79d8328364ba4f78c74cd3e2cc8aeb12741c14ab51633dc43c2f957cf078d2b4",
+                      "src/BrassMaskedSearch/TournamentOpenings.cs": "f84b53753377934f67af03e7316514ee55848d2367be802bf28e05bcdf0e03fd"
+                    },
+                    "profiles": {
+                      "balanced-v3-masked-economy": "6afa9cd47d94e00fa667b3d91e4f98d2d7aead91ebd7fc1ad447a9d874b6cd79",
+                      "rail-tempo-v3-masked-economy": "03c1cb4d219d86e2a45d3d5d1168e9f126700eb0eb168f345471a4c1130b2814",
+                      "cotton-v3-masked-economy": "a9f68ecd1b1bb46165df251d3e95c1e26ac4c472ab16ae70e62748d59aa3286c",
+                      "goods-beer-v3-masked-economy": "8863a89e4304db01633e811d53814f4e12a7c69a21d40bf1c3be273983303831",
+                      "supplier-v3-masked-economy": "983ca1fee91eaca7930381ccfab5fe2502b8cda8ef50192607be20981363fa08",
+                      "pottery-flex-v3-masked-economy": "ee300bc0f92da7ade073b5c8746aadb230c736a3c4bf9ab1c68cf99cfb8eadf6"
+                    },
+                    "adapter": "d780c9b94c02dcb1b3783b2d40ae45f51a5e4de050f4f65e7181e2741bb8a0cd"
+                  }
+                }
+              },
+              {
+                "kind": "neural",
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "exploration": 0.0,
+                "focus": "mixed",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              },
+              {
+                "kind": "neural",
+                "model_id": "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad",
+                "exploration": 0.0,
+                "focus": "neutral",
+                "policy_id": "step5-neural/493c5dedcd1925176f2717dec8bcbad196b8f35a8bbcd99f905f29130c0c3433",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              },
+              {
+                "kind": "neural",
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "exploration": 0.0,
+                "focus": "mixed",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              }
+            ],
+            "focuses": {
+              "0": "neutral",
+              "1": "neutral",
+              "2": "neutral"
+            },
+            "provenance": {
+              "producer": "recovery/2.0.0",
+              "purpose": "training",
+              "kind": "historical",
+              "ordinary_game_index": 400125,
+              "seed": 19553778,
+              "sampling_seed": 133777166,
+              "spec": "a0879c7a1503c8a691167f7e23e0687efaf1789ff0bb6c5799f39928ed63b769",
+              "policies": [
+                "shared-legacy-search/7daaeedaafb8da25d177caafc0c4fb4f23477abd734442a2d9b1b99eb360026e",
+                "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "step5-neural/493c5dedcd1925176f2717dec8bcbad196b8f35a8bbcd99f905f29130c0c3433",
+                "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a"
+              ],
+              "rotation": 3,
+              "learner_behavior": {
+                "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                "exploration": 0.0,
+                "temperature": 1.0,
+                "focus": "mixed",
+                "exploration_version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                }
+              },
+              "legacy_mode": "fast",
+              "seat_contexts": {
+                "contract": "ordinary-neutral-contexts/1.0.0",
+                "mode": "neutral",
+                "seats": "all-neural"
+              },
+              "exploration": {
+                "version": 3,
+                "opening": {
+                  "contract": "opening-temperature/4.0.0",
+                  "temperature": 1.3,
+                  "action_decisions_per_seat": 3,
+                  "seats": "neural"
+                },
+                "raw_entropy": true,
+                "branching": {
+                  "contract": "selfplay-branching/9.0.0",
+                  "tables": [
+                    "selfplay"
+                  ],
+                  "rate_per_decision": 0.005,
+                  "max_per_game": 1,
+                  "skip_opening_decisions": 3,
+                  "skip_final_rounds": "rail_empty_deck_hand_le_4",
+                  "move_distribution": {
+                    "temperature_2": 1.0
+                  },
+                  "exclude_played_move": true,
+                  "reshuffle_hidden_deck": true,
+                  "branch_move_row": "excluded",
+                  "reset_opening_at_fork": true,
+                  "continuation_opening": {
+                    "contract": "opening-temperature/3.0.0",
+                    "temperature": 1.5,
+                    "action_decisions_per_seat": 2,
+                    "seats": "neural"
+                  }
+                },
+                "branching_status": "active",
+                "alphas": {
+                  "canal_action": 0.001,
+                  "canal_other": 0.001,
+                  "rail_action": 0.001,
+                  "rail_other": 0.001
+                },
+                "entropy_schedule": {
+                  "contract": "entropy-anneal-schedule/1.3.0",
+                  "config_id": "ae8e3b0f4f8beca56cd1f4f34770f6e103478bd8a5806eac78665509d2f5b7fd",
+                  "generation": 1251,
+                  "progress": 100,
+                  "alphas": {
+                    "canal_action": 0.001,
+                    "canal_other": 0.001,
+                    "rail_action": 0.001,
+                    "rail_other": 0.001
+                  }
+                },
+                "age": 1250,
+                "origin": 0
+              },
+              "ppo_opening_objective": {
+                "contract": "opening-ppo-objective/5.0.0",
+                "scope": "normal-T1.3-three-branch-T1.5-two",
+                "target_temperature": 1.0,
+                "importance_cap": 2.0,
+                "normalization": "none",
+                "old_policy": "frozen-before-ppo",
+                "kl_guard": "behavior-and-raw-temperature-1"
+              },
+              "critic_table": {
+                "contract": "seat-descriptors/1.0.0",
+                "generation": 1250,
+                "seats": [
+                  {
+                    "role": "learner",
+                    "generation": 1250,
+                    "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                    "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  },
+                  {
+                    "role": "snapshot",
+                    "generation": 1110,
+                    "model_id": "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad",
+                    "policy_id": "step5-neural/493c5dedcd1925176f2717dec8bcbad196b8f35a8bbcd99f905f29130c0c3433",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  },
+                  {
+                    "role": "learner",
+                    "generation": 1250,
+                    "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+                    "policy_id": "step5-neural/724bc56cda3fb4bafb18be6b4c259c1bbf34a383e9b869a096c108710c04419a",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  },
+                  {
+                    "role": "rule_bot",
+                    "generation": 1250,
+                    "model_id": null,
+                    "policy_id": "shared-legacy-search/7daaeedaafb8da25d177caafc0c4fb4f23477abd734442a2d9b1b99eb360026e",
+                    "fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+                  }
+                ],
+                "stable": [
+                  [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.8918169140815735,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                ],
+                "fingerprint_mode": "neutral",
+                "learner_fingerprint_id": "7da9d6998c2c6f3c76c70db9b240f1a914dcd0b40265b5c5d1fc394d3b5ee3d6"
+              },
+              "policy_observations": {
+                "contract": "selfplay-policy-observations/1.0.0",
+                "seat_fingerprints": "neutral",
+                "anchor_kl": "off",
+                "fixed_probe": "pool_admission_only"
+              },
+              "quality_opponents": [
+                {
+                  "model_id": "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad",
+                  "source": "scored",
+                  "N": 25,
+                  "p": 0.043851253243068294,
+                  "il_share": 0.0,
+                  "seat_probability": 0.043851253243068294,
+                  "seat": 1
+                },
+                {
+                  "model_id": "v4-history-f93c8ecf4823892853bdc583851db25d7279d5be09a4d6ff4c315c68728f023e",
+                  "source": "scored",
+                  "N": 25,
+                  "p": 0.008165178637433402,
+                  "il_share": 0.0,
+                  "seat_probability": 0.008165178637433402,
+                  "seat": 3
+                }
+              ],
+              "local_scoring": {
+                "contract": "local-scoring-targets/1.0.0",
+                "topology": "7e4a3e88c1c7f55c580ce8b180d7277d5628d24d0195df18e7c300cd31f4ae5b",
+                "horizon": "current-era",
+                "ordering": "canonical-stable-seat",
+                "rules": "steam-brass-patch-1.1.0",
+                "producer": {
+                  "runtime_sha256": "b240d9963716bc256bcf9385fbc571d06fd2ea66a444204078103f7af66f3c6e",
+                  "host_sha256": "c36293458ba9bba82f2acbb5525e335d6cb1187df442b8a202b7c34ff17eb20e"
+                }
+              }
+            },
+            "stable_game_id": "0ef3251f6348051280230a5bb615691ca91e6c3bb2fff6ab9ef70dd35d6e948e"
+          },
+          "job_id": "1faa017a828183738949b0aa1531d66af33294eb9de134c3eb6b070d465fd880",
+          "sha256": "640fa006dc7baa3cd869fba8f0658e6d9804dbc59bcc06568be9df9fd58cdbfb"
+        },
+        "family_sha256": "5d55279f697664291d9268749fcec9e7544eefb0e219b7c9d69e22a109a0895b",
+        "replay_sha256": "a46b958475276d8b53b0425bf451254cf7624c668c25656f3a4c1fd3f4e7f936",
+        "features": {
+          "data_sha256": "14df0f58853f67f41b7e26aa1bff82c1191baeaa2e0918e19ac52e221e084943",
+          "manifest_sha256": "2e962cb50a8964ce3413865a81bfac521f4843bd2d7a6015a72bfd6aea80138b",
+          "replay_sha256": "a46b958475276d8b53b0425bf451254cf7624c668c25656f3a4c1fd3f4e7f936",
+          "validator": "b4fe9a5d5e7136163113d4f039aa72a10fd95c5dea4cf8b36dbff2040a091b50"
+        },
+        "validation": {
+          "contract": "brass-native-validation/1.0.0",
+          "validator": "f6372cefd9a48c98994d2f2e8424b032f4d5c808aceab140bb6442b92214cfc9",
+          "receipt_sha256": "ca2addeaf69b9477219cc3de4e1ba1ecc2b0a6fff5af820f0728cc7b86de019f"
+        }
+      },
+      "publication_seconds": 2.7635639700165484,
+      "publication_phases": {
+        "part_read_seconds": 0.25091085297754034,
+        "family_seal_seconds": 0.17617118600173853,
+        "actor_part_transfer": [
+          {
+            "json_encoding_seconds": 0.15197849899413995,
+            "compression_seconds": 0.06869535098667257,
+            "write_hash_seconds": 0.002019306004513055
+          }
+        ],
+        "full_validation_and_assembly_seconds": 2.1189746129966807,
+        "json_encoding_seconds": 0.1268416749953758,
+        "replay_write_hash_seconds": 0.07187034498201683,
+        "feature_cache_seconds": 0.4418690189777408
+      },
+      "native_metrics": [
+        {
+          "role": "parent",
+          "timings": {},
+          "native_cost": null
+        }
+      ]
+    }
+  ],
+  "scheduler": {
+    "counts": {
+      "rust": 2,
+      "reference": 1,
+      "cached": 0
+    },
+    "reference_reasons": {
+      "125": "frozen legacy/IL rule adapter retained as a complete reference table"
+    },
+    "wall_seconds": 26.77116653698613,
+    "lanes": 6,
+    "peak_unfinished_families": 3,
+    "limit": 12,
+    "startup_seconds": 2.8611237539735157,
+    "processes": 3,
+    "publisher_processes": 2,
+    "board_histories_cross_learner": false,
+    "full_family_validation_passes_per_publication": 1,
+    "native_families": 2
+  },
+  "lanes": 6,
+  "metrics": [
+    {
+      "role": "parent",
+      "timings": {
+        "native_startup_seconds": 0.002070099988486618,
+        "bootstrap_seconds": 0.11718547999043949,
+        "inference_envelope_seconds": 3.8651732390280813,
+        "policy_seconds": 4.297669252991909,
+        "encoding_seconds": 0.03526188968680799,
+        "native_step_seconds": 2.733574841200607,
+        "drain_seconds": 0.63578044300084,
+        "ipc_request_encode_seconds": 0.029712292249314487,
+        "ipc_sent_bytes": 843056,
+        "ipc_calls": 475,
+        "ipc_hello_calls": 1,
+        "ipc_received_bytes": 78084030,
+        "ipc_reply_decode_seconds": 0.7146183140866924,
+        "ipc_round_trip_seconds": 3.123688988009235,
+        "ipc_hello_seconds": 0.00034425899502821267,
+        "ipc_begin_calls": 1,
+        "ipc_begin_seconds": 0.008226381993154064,
+        "ipc_feature_arrays_calls": 158,
+        "ipc_feature_arrays_seconds": 0.3354588880611118,
+        "ipc_append_compact_calls": 158,
+        "ipc_append_compact_seconds": 1.5111064781376626,
+        "ipc_append_forced_calls": 141,
+        "ipc_append_forced_seconds": 1.168794458033517,
+        "ipc_finish_calls": 1,
+        "ipc_finish_seconds": 0.03770705699571408,
+        "ipc_record_arrays_calls": 14,
+        "ipc_record_arrays_seconds": 0.06208497891202569,
+        "ipc_release_calls": 1,
+        "ipc_release_seconds": 0.0008230769890360534,
+        "total_seconds": 11.635302351001883
+      },
+      "native_cost": {
+        "feature_seconds": 0.03996417,
+        "max_candidates": 345,
+        "peak_process_rss_bytes": 54513664,
+        "projection_seconds": 0.092239443,
+        "transition_seconds": 0.402711722
+      }
+    },
+    {
+      "role": "parent",
+      "timings": {
+        "native_startup_seconds": 0.00191896699834615,
+        "bootstrap_seconds": 0.1163477009977214,
+        "inference_envelope_seconds": 4.748947192740161,
+        "policy_seconds": 5.267520000168588,
+        "encoding_seconds": 0.036581277003278956,
+        "native_step_seconds": 2.8180297176586464,
+        "drain_seconds": 0.5666649310151115,
+        "ipc_request_encode_seconds": 0.030078644689638168,
+        "ipc_sent_bytes": 875265,
+        "ipc_calls": 499,
+        "ipc_hello_calls": 1,
+        "ipc_received_bytes": 81475781,
+        "ipc_reply_decode_seconds": 0.6098630279884674,
+        "ipc_round_trip_seconds": 3.106371951609617,
+        "ipc_hello_seconds": 0.0007203849963843822,
+        "ipc_begin_calls": 1,
+        "ipc_begin_seconds": 0.0044808149978052825,
+        "ipc_feature_arrays_calls": 169,
+        "ipc_feature_arrays_seconds": 0.2774153617792763,
+        "ipc_append_compact_calls": 169,
+        "ipc_append_compact_seconds": 1.6818373429996427,
+        "ipc_append_forced_calls": 142,
+        "ipc_append_forced_seconds": 1.0807339727180079,
+        "ipc_finish_calls": 1,
+        "ipc_finish_seconds": 0.03793586598476395,
+        "ipc_record_arrays_calls": 15,
+        "ipc_record_arrays_seconds": 0.0237068489077501,
+        "ipc_release_calls": 1,
+        "ipc_release_seconds": 0.00046348501928150654,
+        "total_seconds": 12.847185547987465
+      },
+      "native_cost": {
+        "feature_seconds": 0.043476497,
+        "max_candidates": 405,
+        "peak_process_rss_bytes": 59092992,
+        "projection_seconds": 0.093674055,
+        "transition_seconds": 0.414603997
+      }
+    },
+    {
+      "role": "parent",
+      "timings": {},
+      "native_cost": null
+    }
+  ],
+  "inference": {
+    "games_per_second": 0.09978117748633887,
+    "mean_inference_batch": 1.0420560747663552,
+    "inference_batches": 428,
+    "inference_positions": 446,
+    "padding_fraction": 0.030826388191585452,
+    "inference_batch_histogram": {
+      "1": 410,
+      "2": 18
+    },
+    "inference_per_model": {
+      "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad": {
+        "positions": 40,
+        "batches": 40,
+        "batch_histogram": {
+          "1": 40
+        },
+        "queue_wait_seconds": 0.20997411996359006,
+        "queue_wait_max_seconds": 0.03190293599618599,
+        "queue_wait_histogram": {
+          "4": 1,
+          "16": 7,
+          "2": 26,
+          "8": 3,
+          "32": 3
+        },
+        "forward_seconds": 0.7771233890962321,
+        "valid_candidate_cells": 3432,
+        "padded_candidate_cells": 3432
+      },
+      "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985": {
+        "positions": 319,
+        "batches": 301,
+        "batch_histogram": {
+          "2": 18,
+          "1": 283
+        },
+        "queue_wait_seconds": 1.4294709581881762,
+        "queue_wait_max_seconds": 0.052474549011094496,
+        "queue_wait_histogram": {
+          "8": 39,
+          "4": 61,
+          "16": 38,
+          "2": 166,
+          "32": 13,
+          "1": 1,
+          "64": 1
+        },
+        "forward_seconds": 5.038821515074233,
+        "valid_candidate_cells": 28281,
+        "padded_candidate_cells": 29509
+      },
+      "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1": {
+        "positions": 40,
+        "batches": 40,
+        "batch_histogram": {
+          "1": 40
+        },
+        "queue_wait_seconds": 0.21446780403493904,
+        "queue_wait_max_seconds": 0.03367228200659156,
+        "queue_wait_histogram": {
+          "8": 7,
+          "16": 3,
+          "2": 17,
+          "4": 9,
+          "32": 3,
+          "64": 1
+        },
+        "forward_seconds": 0.6301817849453073,
+        "valid_candidate_cells": 3092,
+        "padded_candidate_cells": 3092
+      },
+      "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b": {
+        "positions": 47,
+        "batches": 47,
+        "batch_histogram": {
+          "1": 47
+        },
+        "queue_wait_seconds": 0.36052462994121015,
+        "queue_wait_max_seconds": 0.02606862099491991,
+        "queue_wait_histogram": {
+          "2": 16,
+          "4": 7,
+          "8": 7,
+          "16": 8,
+          "32": 9
+        },
+        "forward_seconds": 0.8034241239074618,
+        "valid_candidate_cells": 3803,
+        "padded_candidate_cells": 3803
+      }
+    },
+    "model_loads": 0,
+    "model_evictions": 0,
+    "inference_model_scope": "Counts, sums and histograms are per-collection deltas; queue_wait_max_seconds is since service start",
+    "actor_phase_seconds": {},
+    "inference_phase_deltas": {
+      "inference.batch": {
+        "seconds": 7.330589533783495,
+        "calls": 428
+      },
+      "inference.forward": {
+        "seconds": 7.2262111066957,
+        "calls": 428
+      },
+      "inference.model_load": {
+        "seconds": 0.0,
+        "calls": 0
+      },
+      "inference.queue_wait": {
+        "seconds": 2.187165627547074,
+        "calls": 446
+      }
+    },
+    "inference_batching": {
+      "batches": 428,
+      "padding_splits": 0,
+      "capacity_splits": 0,
+      "max_padding_ratio": 2.0,
+      "peak_pending_positions_since_service_start": 2,
+      "scope": "Per-collection count deltas; pending-position peak is cumulative"
+    },
+    "actor_python_cpu_seconds": null,
+    "actor_python_average_cores": null,
+    "actor_cpu_recorded_games": 0,
+    "actor_cpu_expected_work_items": 3,
+    "actor_cpu_scope": "Python actor process CPU during games; includes its threads, excludes Mono children and GPU; unavailable for cached games/multiple host lanes",
+    "ordinary_actors": 48,
+    "cpu_work_slots": 60,
+    "scope": "ordinary collection; actor/inference phase times overlap; actor_python_* measures process CPU, not total machine or GPU utilization"
+  },
+  "service": {
+    "batches": 428,
+    "positions": 446,
+    "model_cache_hits": 428,
+    "valid_candidate_cells": 38608,
+    "padded_candidate_cells": 39836,
+    "max_batch_positions": 2,
+    "max_padded_candidate_cells": 810,
+    "expired_requests": 0,
+    "cancelled_requests": 0,
+    "packed_output_batches": 428,
+    "shared_requests": 446,
+    "shared_replies": 446,
+    "inline_requests": 0,
+    "model_loads": 4,
+    "model_evictions": 0,
+    "timings": {
+      "inference.batch": {
+        "seconds": 7.330589533783495,
+        "calls": 428,
+        "mean_seconds": 0.017127545639681063,
+        "p50_seconds": 0.016493453993462026,
+        "p95_seconds": 0.02593363099731505,
+        "max_seconds": 0.03198324501863681,
+        "first_seconds": 0.023885553004220128,
+        "steady_mean_seconds": 0.01711171892454163,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 428
+      },
+      "inference.forward": {
+        "seconds": 7.2262111066957,
+        "calls": 428,
+        "mean_seconds": 0.016883670810036683,
+        "p50_seconds": 0.016295701992930844,
+        "p95_seconds": 0.025624865025747567,
+        "max_seconds": 0.031510535976849496,
+        "first_seconds": 0.0231803200149443,
+        "steady_mean_seconds": 0.016868924558971325,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 428
+      },
+      "inference.model_load": {
+        "seconds": 0.9482471910305321,
+        "calls": 4,
+        "mean_seconds": 0.23706179775763303,
+        "p50_seconds": 0.20793724001850933,
+        "p95_seconds": 0.3485485530109145,
+        "max_seconds": 0.3485485530109145,
+        "first_seconds": 0.1801084259932395,
+        "steady_mean_seconds": 0.2560462550124309,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 4
+      },
+      "inference.queue_wait": {
+        "seconds": 2.187165627547074,
+        "calls": 446,
+        "mean_seconds": 0.004903958806159359,
+        "p50_seconds": 0.0018960130109917372,
+        "p95_seconds": 0.016693279991159216,
+        "max_seconds": 0.052329925005324185,
+        "first_seconds": 0.003617338021285832,
+        "steady_mean_seconds": 0.0049068500888219966,
+        "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+        "percentile_sample_count": 446
+      }
+    },
+    "device": "cuda:0",
+    "learner_device": "cuda:0",
+    "inference_devices": [
+      "cuda:0"
+    ],
+    "replica_count": 1,
+    "central_batching": true,
+    "memory": {
+      "host_resident_bytes": 3720015872,
+      "cuda_allocated_bytes": 129136640,
+      "cuda_reserved_bytes": 155189248,
+      "cuda_peak_allocated_bytes": 132776960,
+      "cuda_peak_reserved_bytes": 155189248
+    },
+    "cpu_admission": {
+      "capacity": 60,
+      "active": 0,
+      "peak": 3,
+      "queued": 0,
+      "aborted": false
+    },
+    "batching": {
+      "contract": "streaming-model-batches/1.0.0",
+      "peak_pending_positions": 2,
+      "batches": 428,
+      "padding_splits": 0,
+      "capacity_splits": 0,
+      "max_padding_ratio": 2.0,
+      "scope": "One frozen model per batch; age/deadline fairness; no extra flush wait between model batches"
+    },
+    "batch_histogram": {
+      "1": 410,
+      "2": 18
+    },
+    "per_model": {
+      "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad": {
+        "positions": 40,
+        "batches": 40,
+        "batch_histogram": {
+          "1": 40
+        },
+        "queue_wait_seconds": 0.20997411996359006,
+        "queue_wait_max_seconds": 0.03190293599618599,
+        "queue_wait_histogram": {
+          "4": 1,
+          "16": 7,
+          "2": 26,
+          "8": 3,
+          "32": 3
+        },
+        "forward_seconds": 0.7771233890962321,
+        "valid_candidate_cells": 3432,
+        "padded_candidate_cells": 3432
+      },
+      "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985": {
+        "positions": 319,
+        "batches": 301,
+        "batch_histogram": {
+          "2": 18,
+          "1": 283
+        },
+        "queue_wait_seconds": 1.4294709581881762,
+        "queue_wait_max_seconds": 0.052474549011094496,
+        "queue_wait_histogram": {
+          "8": 39,
+          "4": 61,
+          "16": 38,
+          "2": 166,
+          "32": 13,
+          "1": 1,
+          "64": 1
+        },
+        "forward_seconds": 5.038821515074233,
+        "valid_candidate_cells": 28281,
+        "padded_candidate_cells": 29509
+      },
+      "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1": {
+        "positions": 40,
+        "batches": 40,
+        "batch_histogram": {
+          "1": 40
+        },
+        "queue_wait_seconds": 0.21446780403493904,
+        "queue_wait_max_seconds": 0.03367228200659156,
+        "queue_wait_histogram": {
+          "8": 7,
+          "16": 3,
+          "2": 17,
+          "4": 9,
+          "32": 3,
+          "64": 1
+        },
+        "forward_seconds": 0.6301817849453073,
+        "valid_candidate_cells": 3092,
+        "padded_candidate_cells": 3092
+      },
+      "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b": {
+        "positions": 47,
+        "batches": 47,
+        "batch_histogram": {
+          "1": 47
+        },
+        "queue_wait_seconds": 0.36052462994121015,
+        "queue_wait_max_seconds": 0.02606862099491991,
+        "queue_wait_histogram": {
+          "2": 16,
+          "4": 7,
+          "8": 7,
+          "16": 8,
+          "32": 9
+        },
+        "forward_seconds": 0.8034241239074618,
+        "valid_candidate_cells": 3803,
+        "padded_candidate_cells": 3803
+      }
+    },
+    "resident_models": 4,
+    "registered_models": 24,
+    "timing_note": "Host elapsed time; CUDA forward kernel duration is in optional profiler traces",
+    "error": null
+  },
+  "work": {
+    "families": 3,
+    "branches": 0,
+    "decisions": 1161,
+    "forced_rows": 675
+  },
+  "measurement": {
+    "phases": {
+      "cpu_checkpoint_load": {
+        "total_seconds": 0.14719611799228005,
+        "samples": 1,
+        "median": 0.14719611799228005,
+        "p90": 0.14719611799228005,
+        "maximum": 0.14719611799228005
+      },
+      "planning_and_model_registration": {
+        "total_seconds": 15.796681312000146,
+        "samples": 1,
+        "median": 15.796681312000146,
+        "p90": 15.796681312000146,
+        "maximum": 15.796681312000146
+      },
+      "reference_policy_preflight": {
+        "total_seconds": 0.35017079100362025,
+        "samples": 1,
+        "median": 0.35017079100362025,
+        "p90": 0.35017079100362025,
+        "maximum": 0.35017079100362025
+      },
+      "gpu_model_load": {
+        "total_seconds": 0.9486448499956168,
+        "samples": 1,
+        "median": 0.9486448499956168,
+        "p90": 0.9486448499956168,
+        "maximum": 0.9486448499956168
+      },
+      "collection_with_family_validation_and_sealing": {
+        "total_seconds": 30.065763727994636,
+        "samples": 1,
+        "median": 30.065763727994636,
+        "p90": 30.065763727994636,
+        "maximum": 30.065763727994636
+      },
+      "admission_and_first_read": {
+        "total_seconds": 2.071118551015388,
+        "samples": 1,
+        "median": 2.071118551015388,
+        "p90": 2.071118551015388,
+        "maximum": 2.071118551015388
+      },
+      "admitted_replay_warm_read": {
+        "total_seconds": 1.5674208530108444,
+        "samples": 1,
+        "median": 1.5674208530108444,
+        "p90": 1.5674208530108444,
+        "maximum": 1.5674208530108444
+      },
+      "preparation_first": {
+        "total_seconds": 0.5467468830174766,
+        "samples": 1,
+        "median": 0.5467468830174766,
+        "p90": 0.5467468830174766,
+        "maximum": 0.5467468830174766
+      },
+      "preparation_warm": {
+        "total_seconds": 0.5457638399966527,
+        "samples": 1,
+        "median": 0.5457638399966527,
+        "p90": 0.5457638399966527,
+        "maximum": 0.5457638399966527
+      }
+    },
+    "peak_process_tree_rss_bytes": 7112671232,
+    "sampled_process_tree_cpu_seconds": 95.27,
+    "process_samples": 578,
+    "exited_process_reads": 0,
+    "cuda_setup": {
+      "device": "cuda:0",
+      "initialized_before": true,
+      "seconds": 6.552701233886182e-05
+    },
+    "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+    "device_memory": {
+      "host_resident_bytes": 3718672384,
+      "cuda_allocated_bytes": 129136640,
+      "cuda_reserved_bytes": 155189248,
+      "cuda_peak_allocated_bytes": 132776960,
+      "cuda_peak_reserved_bytes": 155189248
+    }
+  },
+  "cache_scope": "Cold worker processes; preloaded GPU models; second replay read/preparation is warm",
+  "accepted_work_seconds": 32.68365615303628
+}

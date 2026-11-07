@@ -1,0 +1,35 @@
+B06 ordinary: reference
+{"phase": "collection", "complete": 1, "of": 3, "heavy": false}
+{"phase": "collection", "complete": 2, "of": 3, "heavy": false}
+{"phase": "collection", "complete": 3, "of": 3, "heavy": false}
+B06 ordinary: rust
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py", line 184, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py", line 107, in main
+    if args.phase:return child(args)
+                         ^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py", line 73, in child
+    if args.phase=='ordinary':report.update(smoke.ordinary(args,snapshot,ordinary,reference))
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b07_smoke.py", line 33, in ordinary
+    with patch.object(baseline,'native',optimized_native):report=baseline.run(args,snapshot,build,reference)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_ordinary.py", line 164, in run
+    matched=compare_games(all_games['reference'],all_games['rust'])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_metrics.py", line 109, in compare_games
+    np.testing.assert_allclose(ra['behavior']['probability'], rb['behavior']['probability'], rtol=3e-6, atol=1e-8)
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1711, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 919, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=3e-06, atol=1e-08
+
+Mismatched elements: 1 / 1 (100%)
+Max absolute difference among violations: 4.68192948e-07
+Max relative difference among violations: 3.22833888e-06
+ ACTUAL: array(0.145026)
+ DESIRED: array(0.145026)

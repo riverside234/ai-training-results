@@ -1,0 +1,127 @@
+{
+  "milestone": "B07",
+  "passed": false,
+  "lab_qualification": "Pending",
+  "production_modified": false,
+  "production_adoption": "Pending",
+  "next_normal_commit_restart": "Pending",
+  "previous_qualifications_repeated": false,
+  "implementation": "f6372cefd9a48c98994d2f2e8424b032f4d5c808aceab140bb6442b92214cfc9",
+  "prerequisites": {
+    "B02": {
+      "path": "results/rust-lab-qualification/20261104T012220551953Z-20261104T011422740838Z-g570-all-8bee9d91-e1605e8c/evidence/b02/qualification.json",
+      "sha256": "88e7136e4d935c63dee3f71c4b3cc49b9202356792bf36a96e4d71b6945122ec"
+    },
+    "B04.5": {
+      "path": "results/rust-lab-qualification/20261107T060856941600Z-20261107T060554386081Z-g1250-b045-76165ac4-a1db73ac/evidence/qualification.json",
+      "sha256": "4830d679141ea1fd1b4e469cc969251b6a5b6d0ec988ea0410039f4090169bc3"
+    },
+    "B05": {
+      "path": "results/rust-lab-qualification/20261107T070806231803Z-20261107T070539193547Z-g1250-b05-88497ac1-cf4704fd/evidence/qualification.json",
+      "sha256": "b323c55579bdfc875707cc1d36c42f01a9713fc88a82648aab24395962ab3b0c"
+    },
+    "B06": {
+      "path": "results/rust-lab-qualification/20261107T080012822445Z-20261107T075601452661Z-g1250-b06-c1cd94b2-2c29d5e3/evidence/qualification.json",
+      "sha256": "fc07359069538cf75a7413bd8f522f0e5bea133f56daa8d0a86c3b64f07e4081"
+    }
+  },
+  "environment": {
+    "psutil": "7.2.2",
+    "requirements": "distribution/rust-lab-b06-g1250/requirements.txt",
+    "device": "cpu",
+    "torch": "2.8.0+cu128",
+    "cuda_build": "12.8",
+    "sampler": {
+      "phases": {},
+      "peak_process_tree_rss_bytes": 520847360,
+      "sampled_process_tree_cpu_seconds": 0,
+      "process_samples": 1,
+      "exited_process_reads": 0,
+      "cuda_setup": null,
+      "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+      "device_memory": {
+        "host_resident_bytes": 520904704
+      }
+    }
+  },
+  "ordinary_build": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T101336169559Z-g1250-b07-2fcbfcca/ordinary-build.json",
+    "bytes": 220645,
+    "sha256": "020af52e77de444dc9ca465483008f13742fa2301ece33044a6a4e291b4c7605"
+  },
+  "generation": 1250,
+  "checkpoint_sha256": "de427bb22e38cc5dc9d4e79151cccdb321650c02978f79bcdad746c3e6be7985",
+  "config_sha256": "895d866502425dad30f2277b822dba2a15247f9a701d2dd5dd10b7e396de3ca8",
+  "prior_ordinary_performance": {
+    "collection_ratio_reference_over_rust": 0.7492538663327284,
+    "collection_seconds_saved": -8.6251059040369,
+    "useful_collection_gain": false,
+    "accepted_work_ratio_reference_over_rust": 0.7164034668178587,
+    "accepted_work_seconds_saved": -11.413763071992435,
+    "useful_accepted_work_gain": false,
+    "statistical_claim": false,
+    "whole_iteration_speedup": null,
+    "scope": "One bounded frozen batch per arm; startup, admission and preparation reported separately"
+  },
+  "error": "Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T101336169559Z-g1250-b07-2fcbfcca/ordinary.log",
+  "failed_phase": "ordinary",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py\", line 159, in main\n    base.command(command,cwd=ROOT,env=dict(env,BRASS_B07_PARENT_LOCK=(args.run/'.active-run.json').read_text()),\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py\", line 123, in command\n    require(code == 0, 'Qualification command failed; see ' + str(log))\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T101336169559Z-g1250-b07-2fcbfcca/ordinary.log\n",
+  "failure": {
+    "prerequisites": {
+      "B02": {
+        "path": "results/rust-lab-qualification/20261104T012220551953Z-20261104T011422740838Z-g570-all-8bee9d91-e1605e8c/evidence/b02/qualification.json",
+        "sha256": "88e7136e4d935c63dee3f71c4b3cc49b9202356792bf36a96e4d71b6945122ec"
+      },
+      "B04.5": {
+        "path": "results/rust-lab-qualification/20261107T060856941600Z-20261107T060554386081Z-g1250-b045-76165ac4-a1db73ac/evidence/qualification.json",
+        "sha256": "4830d679141ea1fd1b4e469cc969251b6a5b6d0ec988ea0410039f4090169bc3"
+      },
+      "B05": {
+        "path": "results/rust-lab-qualification/20261107T070806231803Z-20261107T070539193547Z-g1250-b05-88497ac1-cf4704fd/evidence/qualification.json",
+        "sha256": "b323c55579bdfc875707cc1d36c42f01a9713fc88a82648aab24395962ab3b0c"
+      },
+      "B06": {
+        "path": "results/rust-lab-qualification/20261107T080012822445Z-20261107T075601452661Z-g1250-b06-c1cd94b2-2c29d5e3/evidence/qualification.json",
+        "sha256": "fc07359069538cf75a7413bd8f522f0e5bea133f56daa8d0a86c3b64f07e4081"
+      }
+    },
+    "environment": {
+      "psutil": "7.2.2",
+      "requirements": "distribution/rust-lab-b06-g1250/requirements.txt",
+      "device": "cuda:0",
+      "torch": "2.8.0+cu128",
+      "cuda_build": "12.8",
+      "sampler": {
+        "phases": {
+          "cuda_preflight_allocation": {
+            "total_seconds": 0.012479769997298717,
+            "samples": 1,
+            "median": 0.012479769997298717,
+            "p90": 0.012479769997298717,
+            "maximum": 0.012479769997298717
+          }
+        },
+        "peak_process_tree_rss_bytes": 704069632,
+        "sampled_process_tree_cpu_seconds": 0,
+        "process_samples": 1,
+        "exited_process_reads": 0,
+        "cuda_setup": {
+          "device": "cuda:0",
+          "initialized_before": false,
+          "seconds": 0.23234712801058777
+        },
+        "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+        "device_memory": {
+          "host_resident_bytes": 718958592,
+          "cuda_allocated_bytes": 512,
+          "cuda_reserved_bytes": 2097152,
+          "cuda_peak_allocated_bytes": 512,
+          "cuda_peak_reserved_bytes": 2097152
+        }
+      }
+    },
+    "passed": false,
+    "error": "\nNot equal to tolerance rtol=3e-06, atol=1e-08\n\nMismatched elements: 1 / 1 (100%)\nMax absolute difference among violations: 4.68192948e-07\nMax relative difference among violations: 3.22833888e-06\n ACTUAL: array(0.145026)\n DESIRED: array(0.145026)",
+    "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py\", line 73, in child\n    if args.phase=='ordinary':report.update(smoke.ordinary(args,snapshot,ordinary,reference))\n                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b07_smoke.py\", line 33, in ordinary\n    with patch.object(baseline,'native',optimized_native):report=baseline.run(args,snapshot,build,reference)\n                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_ordinary.py\", line 164, in run\n    matched=compare_games(all_games['reference'],all_games['rust'])\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b06_metrics.py\", line 109, in compare_games\n    np.testing.assert_allclose(ra['behavior']['probability'], rb['behavior']['probability'], rtol=3e-6, atol=1e-8)\n  File \"/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/numpy/testing/_private/utils.py\", line 1711, in assert_allclose\n    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),\n  File \"/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/numpy/testing/_private/utils.py\", line 919, in assert_array_compare\n    raise AssertionError(msg)\nAssertionError: \nNot equal to tolerance rtol=3e-06, atol=1e-08\n\nMismatched elements: 1 / 1 (100%)\nMax absolute difference among violations: 4.68192948e-07\nMax relative difference among violations: 3.22833888e-06\n ACTUAL: array(0.145026)\n DESIRED: array(0.145026)\n"
+  }
+}
