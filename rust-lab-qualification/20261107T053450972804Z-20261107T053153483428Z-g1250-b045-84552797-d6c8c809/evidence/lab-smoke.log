@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b045_smoke.py", line 126, in <module>
+    a=p.parse_args();write_json(a.out/'lab-checks.json',run(a))
+                                                        ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b045_smoke.py", line 96, in run
+    tables=backend.collect(jobs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 211, in collect
+    results = list(pool.map(one,jobs))
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 202, in one
+    result = Worker(self.executable,request,client,self.cancel).collect(job['expected'],self.core_source,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 104, in collect
+    require(not self.cancel.is_set(),'Teacher table cancelled; discard unpublished labels')
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: Teacher table cancelled; discard unpublished labels

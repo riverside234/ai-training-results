@@ -1,0 +1,33 @@
+{
+  "receipt": {
+    "version": "ppg-value-phase/24.0.0",
+    "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+    "ready": true,
+    "decisions": 273250,
+    "games": 784,
+    "steps": 16,
+    "before": {
+      "mse": 0.1484258257441367
+    },
+    "after": {
+      "mse": 0.14766843101586039
+    },
+    "scope": "Final accepted value-phase weights; ordinary critic-train games only; heldout games excluded"
+  },
+  "ready": true,
+  "authorization": {
+    "version": "ppg-value-phase/24.0.0",
+    "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+    "ready": true,
+    "decisions": 273250,
+    "games": 784,
+    "steps": 16,
+    "before": {
+      "mse": 0.1484258257441367
+    },
+    "after": {
+      "mse": 0.14766843101586039
+    },
+    "scope": "Final accepted value-phase weights; ordinary critic-train games only; heldout games excluded"
+  }
+}

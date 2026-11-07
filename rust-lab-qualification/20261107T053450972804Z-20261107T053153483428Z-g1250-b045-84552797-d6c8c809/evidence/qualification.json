@@ -1,0 +1,10 @@
+{
+  "milestone": "B04.5",
+  "passed": false,
+  "lab_qualification": "Pending",
+  "production_modified": false,
+  "previous_qualifications_repeated": false,
+  "bundle": "bd1ffe2df246beb006e7d218233fb99354dbaa449cca976a37a74954f80ec3a1",
+  "error": "Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T053153483428Z-g1250-b045-84552797/lab-smoke.log",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b045.py\", line 110, in main\n    base.command([sys.executable,'-m','brass_ai.rust_backend.lab_b045_smoke','--out',out,\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py\", line 123, in command\n    require(code == 0, 'Qualification command failed; see ' + str(log))\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T053153483428Z-g1250-b045-84552797/lab-smoke.log\n"
+}
