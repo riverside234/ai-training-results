@@ -1,0 +1,6 @@
+Push qualification evidence from the code repository root:
+git -C results add -- rust-lab-qualification/20261107T124631771468Z-verify-rollback-8acca9ac
+git -C results commit -m "Export Rust lab qualification evidence"
+git -C results push
+Git-visible results: /data/not_backed_up/yxu209/ai-training/results/rust-lab-qualification/20261107T124631771468Z-verify-rollback-8acca9ac
+Original lab evidence: /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T124611526805Z-b07-continue-e84bd233/verify-rollback

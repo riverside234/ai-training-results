@@ -1,0 +1,50 @@
+{
+  "milestone": "B07-production",
+  "passed": false,
+  "expected_generation": 1250,
+  "training_started": true,
+  "production_adoption": "Passed",
+  "next_normal_commit_restart": "Pending",
+  "backend": "rust",
+  "teacher": "off",
+  "active_stage": "training",
+  "verify-rollback": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T124611526805Z-b07-continue-e84bd233/verify-rollback/qualification.json",
+    "bytes": 3286,
+    "sha256": "61be77ead1b1ae6804b9d0084a82b38d03d22d48af389607ccd9ebf111f6d959"
+  },
+  "training_config": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T124611526805Z-b07-continue-e84bd233/committed-training-config.json",
+    "bytes": 23396,
+    "sha256": "602f16336a4f48837a05317a4aa03b1c5b9989916bebf7268bd9e57841d4d75e"
+  },
+  "starting_checkpoint": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/generation-1250.pt",
+    "sha256": "de427bb22e38cc5dc9d4e79151cccdb321650c02978f79bcdad746c3e6be7985",
+    "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+    "generation": 1250
+  },
+  "training_command": [
+    "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+    "/data/not_backed_up/yxu209/ai-training/scripts/step5.py",
+    "--root",
+    "/data/not_backed_up/yxu209/ai-training",
+    "--config",
+    "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T124611526805Z-b07-continue-e84bd233/committed-training-config.json",
+    "--device",
+    "cuda",
+    "--mono",
+    "mono",
+    "train",
+    "--run",
+    "/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart",
+    "--iterations",
+    "1",
+    "--expected-generation",
+    "1250",
+    "--imitation-run",
+    "/data/not_backed_up/yxu209/ai-training/artifacts/step5/features4-v11-2-batch7-il"
+  ],
+  "error": "Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T124611526805Z-b07-continue-e84bd233/committed-training-config.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', '/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart', '--iterations', '1', '--expected-generation', '1250', '--imitation-run', '/data/not_backed_up/yxu209/ai-training/artifacts/step5/features4-v11-2-batch7-il']' returned non-zero exit status 1.",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 203, in main\n    execute(args, out, report, invoke)\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 163, in execute\n    invoke('training', argv)\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 199, in invoke\n    command(argv, out/(name+'.log'), base.python_environment())\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 82, in command\n    if code:raise subprocess.CalledProcessError(code, argv)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsubprocess.CalledProcessError: Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T124611526805Z-b07-continue-e84bd233/committed-training-config.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', '/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart', '--iterations', '1', '--expected-generation', '1250', '--imitation-run', '/data/not_backed_up/yxu209/ai-training/artifacts/step5/features4-v11-2-batch7-il']' returned non-zero exit status 1.\n"
+}
