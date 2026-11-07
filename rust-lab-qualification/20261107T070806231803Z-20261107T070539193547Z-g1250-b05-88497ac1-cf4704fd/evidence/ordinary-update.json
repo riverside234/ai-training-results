@@ -1,0 +1,18 @@
+{
+  "ppo_steps": 2,
+  "ppg_steps": 2,
+  "attempted_ppg_steps": 2,
+  "generation": 1251,
+  "checkpoint_restored": true,
+  "current_recipe": "895d866502425dad30f2277b822dba2a15247f9a701d2dd5dd10b7e396de3ca8",
+  "ages": [
+    1250,
+    1251
+  ],
+  "row_bounds": {
+    "actor": 145,
+    "critic_train": 64,
+    "critic_validation": 16
+  },
+  "scope": "Isolated current-checkpoint PPO/PPG and G-to-G+1 component commit; authored inputs, no new games"
+}

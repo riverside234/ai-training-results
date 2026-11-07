@@ -1,0 +1,24 @@
+{
+  "families": [
+    {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/admitted-replay/40d8212f0fc9c3debbeb9d8de590ef4a45f48e8c5e146e3655161b2b6c5da0bb.jsonl.gz",
+      "rows": 742,
+      "equal": true,
+      "original_generation": 570
+    },
+    {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/admitted-replay/322b17ed5b51fbdd407a5d4126a06d54723610d1fedac15b228e49b689158337.jsonl.gz",
+      "rows": 389,
+      "equal": true,
+      "original_generation": 570
+    },
+    {
+      "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261104T015819818200Z-g570-all-4c81aca9/b03/admitted-replay/fb9f6d4cad926412f6742ba6c0e472ed80b5d323ecfaa0d1d718f9d58cd6bf7d.jsonl.gz",
+      "rows": 197,
+      "equal": true,
+      "original_generation": 570
+    }
+  ],
+  "new_games": 0,
+  "scope": "Original B03 reference/native fixed-family preparation; original lineage retained"
+}

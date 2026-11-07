@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "device": "cuda:0",
+  "optimizer_steps": 4,
+  "teacher": {
+    "mode": "on",
+    "beta": 1.0,
+    "beta_next": 1.0,
+    "steps": 4,
+    "rows": 4,
+    "share": {
+      "median": 1.47351856628466,
+      "p10": 0.7581884418919691,
+      "p90": 2.2237890458607064
+    },
+    "raw_share": {
+      "median": 1.47351856628466,
+      "p10": 0.7581884418919691,
+      "p90": 2.2237890458607064
+    },
+    "cosine": {
+      "median": -0.023902844652384236,
+      "p10": -0.9500343003814057,
+      "p90": 0.936451790517062
+    },
+    "staleness": {
+      "0": {
+        "rows": 4,
+        "improvement": 0.27692526308008275,
+        "drift": 7.542285147534178e-16,
+        "ratio": 2.723581468749227e-15,
+        "skipped": false
+      }
+    },
+    "improvement_by_phase": {
+      "canal_early": 0.27692526308008275,
+      "canal_late": null,
+      "rail_early": null,
+      "rail_late": null
+    },
+    "presentations": 16,
+    "distinct_rows": 4,
+    "presentations_by_age": {
+      "0": 16
+    },
+    "presentations_by_phase": {
+      "canal_early": 16
+    },
+    "distinct_by_age": {
+      "0": 4
+    },
+    "distinct_by_phase": {
+      "canal_early": 4
+    },
+    "first_loss": 0.276925265789032,
+    "last_loss": 0.2736024558544159,
+    "outside_share_warning": false,
+    "term_seconds": 0.12550229995395057,
+    "scope": "Policy term before PPO clipping/Adam/KL guard; shadow never applies gradients"
+  },
+  "scope": "Authored task-only PPO/teacher kernel, not production enablement"
+}

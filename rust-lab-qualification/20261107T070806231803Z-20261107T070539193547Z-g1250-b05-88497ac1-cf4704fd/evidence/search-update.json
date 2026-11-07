@@ -1,0 +1,7 @@
+{
+  "head_steps": 32,
+  "checkpoint_restored": true,
+  "value_rows": 128,
+  "ordinary_parameters_unchanged": true,
+  "scope": "Frozen B04.5 labels and isolated stage-A fixture; no production readiness authorization"
+}
