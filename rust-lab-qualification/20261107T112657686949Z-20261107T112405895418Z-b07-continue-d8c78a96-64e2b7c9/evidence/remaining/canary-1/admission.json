@@ -1,0 +1,14 @@
+{
+  "policy_sealing_seconds": {
+    "8b87b9220db3246e8693701cf73668f92e738f4476c706964f1964dd2413c94f": 0.22698329400736839,
+    "a8923f66f25ee92de64317496dedd06bd01315654ea36524e28297ed8d4e8def": 0.1333944979996886
+  },
+  "value": {
+    "rows": {
+      "train": 64
+    },
+    "value_admission_per_table_seconds": {
+      "8b87b9220db3246e8693701cf73668f92e738f4476c706964f1964dd2413c94f": 0.25861758401151747
+    }
+  }
+}

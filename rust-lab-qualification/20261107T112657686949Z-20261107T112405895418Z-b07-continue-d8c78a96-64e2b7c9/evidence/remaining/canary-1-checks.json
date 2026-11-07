@@ -1,0 +1,58 @@
+{
+  "prerequisites": {
+    "B02": {
+      "path": "results/rust-lab-qualification/20261104T012220551953Z-20261104T011422740838Z-g570-all-8bee9d91-e1605e8c/evidence/b02/qualification.json",
+      "sha256": "88e7136e4d935c63dee3f71c4b3cc49b9202356792bf36a96e4d71b6945122ec"
+    },
+    "B04.5": {
+      "path": "results/rust-lab-qualification/20261107T060856941600Z-20261107T060554386081Z-g1250-b045-76165ac4-a1db73ac/evidence/qualification.json",
+      "sha256": "4830d679141ea1fd1b4e469cc969251b6a5b6d0ec988ea0410039f4090169bc3"
+    },
+    "B05": {
+      "path": "results/rust-lab-qualification/20261107T070806231803Z-20261107T070539193547Z-g1250-b05-88497ac1-cf4704fd/evidence/qualification.json",
+      "sha256": "b323c55579bdfc875707cc1d36c42f01a9713fc88a82648aab24395962ab3b0c"
+    },
+    "B06": {
+      "path": "results/rust-lab-qualification/20261107T080012822445Z-20261107T075601452661Z-g1250-b06-c1cd94b2-2c29d5e3/evidence/qualification.json",
+      "sha256": "fc07359069538cf75a7413bd8f522f0e5bea133f56daa8d0a86c3b64f07e4081"
+    }
+  },
+  "environment": {
+    "psutil": "7.2.2",
+    "requirements": "distribution/rust-lab-b06-g1250/requirements.txt",
+    "device": "cuda:0",
+    "torch": "2.8.0+cu128",
+    "cuda_build": "12.8",
+    "sampler": {
+      "phases": {
+        "cuda_preflight_allocation": {
+          "total_seconds": 0.013956083974335343,
+          "samples": 1,
+          "median": 0.013956083974335343,
+          "p90": 0.013956083974335343,
+          "maximum": 0.013956083974335343
+        }
+      },
+      "peak_process_tree_rss_bytes": 703938560,
+      "sampled_process_tree_cpu_seconds": 0,
+      "process_samples": 1,
+      "exited_process_reads": 0,
+      "cuda_setup": {
+        "device": "cuda:0",
+        "initialized_before": false,
+        "seconds": 0.2752381169993896
+      },
+      "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+      "device_memory": {
+        "host_resident_bytes": 718839808,
+        "cuda_allocated_bytes": 512,
+        "cuda_reserved_bytes": 2097152,
+        "cuda_peak_allocated_bytes": 512,
+        "cuda_peak_reserved_bytes": 2097152
+      }
+    }
+  },
+  "passed": false,
+  "error": "Value sealing exceeded final-turn post allowance for 8b87b9220db3246e8693701cf73668f92e738f4476c706964f1964dd2413c94f: seal=0.258618s policy_seal=0.226983s post=0.016149s limit=0.2s",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py\", line 76, in child\n    report.update(smoke.canary(args,snapshot,teacher,old.INPUTS,int(args.phase[-1])))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b07_smoke.py\", line 102, in canary\n    try:values.admit(tables,jobs,generation,post_spent=max(policy_sealing.values()))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/search_value_phase.py\", line 56, in admit\n    require(turn['post_search_ns']/1e9+post_spent+elapsed <= allowance,\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Value sealing exceeded final-turn post allowance for 8b87b9220db3246e8693701cf73668f92e738f4476c706964f1964dd2413c94f: seal=0.258618s policy_seal=0.226983s post=0.016149s limit=0.2s\n"
+}
