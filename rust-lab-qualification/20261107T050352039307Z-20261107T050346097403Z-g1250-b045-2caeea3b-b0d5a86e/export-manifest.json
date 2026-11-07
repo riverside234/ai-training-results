@@ -1,0 +1,28 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-07T05:03:52.040506+00:00",
+  "source": "artifacts/rust-backend/20261107T050346097403Z-g1250-b045-2caeea3b",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T050346097403Z-g1250-b045-2caeea3b",
+  "review_only": true,
+  "files": [
+    {
+      "source": "fixtures.log",
+      "path": "evidence/fixtures.log",
+      "source_bytes": 955,
+      "source_sha256": "3e5d5280bb3f6b0a8ed0993b8eab2a07e633f80a275387b072c8eba1b64c7633",
+      "bytes": 955,
+      "sha256": "3e5d5280bb3f6b0a8ed0993b8eab2a07e633f80a275387b072c8eba1b64c7633",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 403,
+      "source_sha256": "d7f993a54f6a0b47aa7d40324e9ec31ce2fe7a29358e09fdbed972c039be33d8",
+      "bytes": 403,
+      "sha256": "d7f993a54f6a0b47aa7d40324e9ec31ce2fe7a29358e09fdbed972c039be33d8",
+      "gzip": false
+    }
+  ],
+  "omitted": []
+}

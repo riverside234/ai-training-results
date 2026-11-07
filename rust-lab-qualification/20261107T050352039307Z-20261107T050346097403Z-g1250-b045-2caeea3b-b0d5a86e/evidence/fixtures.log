@@ -1,0 +1,13 @@
+======================================================================
+FAIL: test_reuse_only_unchanged_local_file_and_detect_same_size_edit (test_collection_throughput.CleanupDigests.test_reuse_only_unchanged_local_file_and_detect_same_size_edit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/tests/Recovery/test_collection_throughput.py", line 172, in test_reuse_only_unchanged_local_file_and_detect_same_size_edit
+    path.write_bytes(b'efgh');self.assertNotEqual(cache.digest(path),first)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '88d4266fd4e6338d13b845fcf289579d209c897823b9217da3e161936f031589' == '88d4266fd4e6338d13b845fcf289579d209c897823b9217da3e161936f031589'
+
+----------------------------------------------------------------------
+Ran 46 tests in 4.596s
+
+FAILED (failures=1, skipped=2)

@@ -1,0 +1,9 @@
+{
+  "milestone": "B04.5",
+  "passed": false,
+  "lab_qualification": "Pending",
+  "production_modified": false,
+  "previous_qualifications_repeated": false,
+  "bundle": "3eb5cf572f3f358a173ff45ca063995159c0136e885361efc63042e70295f94d",
+  "error": "Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T050346097403Z-g1250-b045-2caeea3b/fixtures.log"
+}
