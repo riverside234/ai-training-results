@@ -1,0 +1,25 @@
+{
+  "milestone": "B05",
+  "passed": false,
+  "lab_qualification": "Pending",
+  "production_modified": false,
+  "new_games": 0,
+  "previous_qualifications_repeated": false,
+  "prerequisites": {
+    "B03": {
+      "path": "results/rust-lab-qualification/20261104T020129387978Z-20261104T015819818200Z-g570-all-4c81aca9-ceb8ad68/evidence/b03/qualification.json",
+      "sha256": "58b9f30024499d166fdc821ddd5db4777bc06a36b483b7da1932b6934516a6aa"
+    },
+    "B04": {
+      "path": "results/rust-lab-qualification/20261104T022520138504Z-20261104T022431456929Z-g570-b04-845a2a56-36de5c8d/evidence/b04/qualification.json",
+      "sha256": "62d2f7cd9dc05efd6bcf440194110396ad547fe22a29a3a5f725bc72ef5778dd"
+    },
+    "B04.5": {
+      "path": "results/rust-lab-qualification/20261107T060856941600Z-20261107T060554386081Z-g1250-b045-76165ac4-a1db73ac/evidence/qualification.json",
+      "sha256": "4830d679141ea1fd1b4e469cc969251b6a5b6d0ec988ea0410039f4090169bc3"
+    }
+  },
+  "implementation": "ce40147f02d7a4eec641cebfd4ff5186ced427d8cf505cbe988c8bf22fb9387a",
+  "error": "Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T065138315877Z-g1250-b05-d6e77efd/lab-checks.log",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b05.py\", line 82, in main\n    base.command(command,cwd=ROOT,env=dict(env,BRASS_B05_PARENT_LOCK=(args.run/'.active-run.json').read_text()),\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py\", line 123, in command\n    require(code == 0, 'Qualification command failed; see ' + str(log))\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T065138315877Z-g1250-b05-d6e77efd/lab-checks.log\n"
+}

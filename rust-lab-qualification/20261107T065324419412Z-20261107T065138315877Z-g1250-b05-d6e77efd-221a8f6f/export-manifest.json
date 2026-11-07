@@ -1,0 +1,60 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-07T06:53:24.621633+00:00",
+  "source": "artifacts/rust-backend/20261107T065138315877Z-g1250-b05-d6e77efd",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T065138315877Z-g1250-b05-d6e77efd",
+  "review_only": true,
+  "files": [
+    {
+      "source": "continuation-preflight.json",
+      "path": "evidence/continuation-preflight.json.gz",
+      "source_bytes": 2799712,
+      "source_sha256": "f7fe80c97078715c742c8af3561a5a3b2d6f78aa900c41d730b314b16e364abe",
+      "bytes": 513567,
+      "sha256": "642bfaae1a6d61912bcf036a1737abf025f43cd603f7349c79e8100e3562a996",
+      "gzip": true
+    },
+    {
+      "source": "fixtures.log",
+      "path": "evidence/fixtures.log",
+      "source_bytes": 13564,
+      "source_sha256": "9c97ee20c74df8f334f6a4b393e4e52940710fe131137ec11f63bd16e98ee6fa",
+      "bytes": 13564,
+      "sha256": "9c97ee20c74df8f334f6a4b393e4e52940710fe131137ec11f63bd16e98ee6fa",
+      "gzip": false
+    },
+    {
+      "source": "lab-checks.log",
+      "path": "evidence/lab-checks.log",
+      "source_bytes": 1503,
+      "source_sha256": "047b4d0f5e922e1bb8d7a2bbd15af9cde496abfb19d8e92e32c3d68b0da3c096",
+      "bytes": 1503,
+      "sha256": "047b4d0f5e922e1bb8d7a2bbd15af9cde496abfb19d8e92e32c3d68b0da3c096",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 1969,
+      "source_sha256": "75cea8f31f810a255ee0bd119d3f98604390a68965f4c3a21c2e158f870632f8",
+      "bytes": 1969,
+      "sha256": "75cea8f31f810a255ee0bd119d3f98604390a68965f4c3a21c2e158f870632f8",
+      "gzip": false
+    },
+    {
+      "source": "continuation/diagnostic-fork.json",
+      "path": "evidence/continuation/diagnostic-fork.json.gz",
+      "source_bytes": 2910547,
+      "source_sha256": "e923d26da312dea53c4d03566ce93c6de88b2c3160db02a86be021e6a9836789",
+      "bytes": 517745,
+      "sha256": "7ea069c6cbe9074406ba4534cc54f45452d73761a8bcf0d668c8a2362f609d29",
+      "gzip": true
+    }
+  ],
+  "omitted": [
+    {
+      "source": "continuation/payload",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}

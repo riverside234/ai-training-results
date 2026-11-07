@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b05.py", line 93, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b05.py", line 62, in main
+    write_json(args.out/'lab-checks.json',run(args,reference));return
+                                          ^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_b05_smoke.py", line 168, in run
+    restored=continuation.restore(fork,device=args.device,allow_cuda_topology_change=args.allow_cuda_topology_change)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_continuation.py", line 345, in restore
+    topology = resume_optimizer(raw, optimizer, allow_cuda_topology_change=allow_cuda_topology_change)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/checkpoint.py", line 81, in resume_optimizer
+    require(allow_cuda_topology_change or saved==visible, 'CUDA device topology differs on resume')
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: CUDA device topology differs on resume
