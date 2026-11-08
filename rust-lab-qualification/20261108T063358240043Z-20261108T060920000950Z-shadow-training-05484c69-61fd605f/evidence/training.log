@@ -1,0 +1,101 @@
+CUDA selection: logical cuda:0; CUDA_VISIBLE_DEVICES='0'; selected token='0'; UUID=3d06f287-eb90-1ae5-3786-d4a0c0dbbcf2. Logical cuda:0 is the first visible GPU.
+Reviewed same-run continuation: generation 1258, 402560 games; checkpoint, Adam/RNG, population and schedule counters preserved
+Reviewed configuration changes: {'teacher_phase': {'before': {'contract': 'teacher-phase/2.0.0', 'mode': 'shadow', 'tables': {'train': 28, 'held_out': 4}, 'schedule': 'four-phase-teacher-turns/2.0.0', 'unsearched': {'temperature': 1.0, 'epsilon': 0.0, 'opening_temperature': None, 'branching': False}, 'search': {'method': 'search_v1', 'algorithm': 'brass-gumbel-is-mcts/count-v1', 'session': 'brass-gumbel-is-mcts/session-v1', 'v205_enabled': False, 'allowance_seconds': 4.0, 'post_search_seconds': 1.0, 'timing': 'search-plus-post/1.0.0', 'sessions': 1, 'threads_per_session': 1, 'pending_paths': 1, 'k': 16, 'c1': 50, 'c2': 0.1, 'gumbel_noise': True, 'prior_temperature': 1.0, 'watchdog_seconds': 30.0, 'reward': {'version': 'brass-combined-return/2.0.0', 'win': 1.0, 'placement': 0.1, 'vp': 0.001, 'vp_cap': 180, 'insolvency': {'event_cost': 0.0025, 'max_cost': 0.025}}}, 'labels': {'source': 'search-v1-improved-policy/1.0.0', 'decisions': 'action-stage-both-actions', 'evidence': 'completed-trajectories'}, 'buffer': {'iterations': 4, 'age_weights': [4, 3, 2, 1], 'max_staleness_ratio': 1.0}, 'term': {'rows_per_step': 64, 'share_target': 0.25, 'shadow_iterations': 2, 'beta_bounds': [0.01, 10.0]}, 'startup': 'immediate', 'seating': 'all-seat-search', 'fast_search': {'method': 'search_v1', 'algorithm': 'brass-gumbel-is-mcts/count-v1', 'session': 'brass-gumbel-is-mcts/session-v1', 'v205_enabled': False, 'allowance_seconds': 0.8, 'post_search_seconds': 0.5, 'timing': 'search-plus-post/1.0.0', 'sessions': 1, 'threads_per_session': 1, 'pending_paths': 1, 'k': 4, 'c1': 50, 'c2': 0.1, 'gumbel_noise': True, 'prior_temperature': 1.0, 'watchdog_seconds': 30.0, 'reward': {'version': 'brass-combined-return/2.0.0', 'win': 1.0, 'placement': 0.1, 'vp': 0.001, 'vp_cap': 180, 'insolvency': {'event_cost': 0.0025, 'max_cost': 0.025}}}, 'search_value': {'contract': 'search-value-correction/1.0.0', 'stage': 'A', 'head': {'hidden': 32, 'inputs': 'utility-head-inputs', 'init': 'zero-final-layer'}, 'optimizer': {'kind': 'Adam', 'learning_rate': 0.0001, 'weight_decay': 0.0001, 'grad_clip': 1.0}, 'steps_per_iteration': 32, 'batch_size': 512, 'target': {'kind': 'seat-lambda-return', 'lambda_candidates': [0.5, 0.8, 0.95, 1.0], 'lambda': None, 'root_value': 'network-plus-completed-returns'}, 'buffer': {'iterations': 8, 'reward_bound': True, 'staleness': 'label-buffer-rule'}, 'gate': {'window_iterations': 8, 'bootstrap': 200, 'cluster': 'held-out-game', 'evaluation_target': 'final-utility-to-go'}, 'blend': {'w': 0.0, 'step': 0.05}, 'head_to_head': {'games': 256, 'tables': '2v2-seat-rotations', 'profile': '4s-k16-every-turn'}, 'trunk': {'scale': 0.0, 'ramp_iterations': 10, 'intervals': 2, 'interval_steps': 16, 'ordinary_heldout_tolerance': 0.013, 'kl': 'shared-ppg-cap'}}}, 'after': {'contract': 'teacher-phase/2.0.0', 'mode': 'shadow', 'tables': {'train': 28, 'held_out': 4}, 'schedule': 'four-phase-teacher-turns/2.0.0', 'unsearched': {'temperature': 1.0, 'epsilon': 0.0, 'opening_temperature': None, 'branching': False}, 'search': {'method': 'search_v1', 'algorithm': 'brass-gumbel-is-mcts/count-v1', 'session': 'brass-gumbel-is-mcts/session-v1', 'v205_enabled': False, 'allowance_seconds': 4.0, 'post_search_seconds': 1.0, 'timing': 'search-plus-post/1.0.0', 'sessions': 1, 'threads_per_session': 1, 'pending_paths': 1, 'k': 16, 'c1': 50, 'c2': 0.1, 'gumbel_noise': True, 'prior_temperature': 1.0, 'watchdog_seconds': 30.0, 'reward': {'version': 'brass-combined-return/2.0.0', 'win': 1.0, 'placement': 0.1, 'vp': 0.001, 'vp_cap': 180, 'insolvency': {'event_cost': 0.0025, 'max_cost': 0.025}}}, 'labels': {'source': 'search-v1-improved-policy/1.0.0', 'decisions': 'action-stage-both-actions', 'evidence': 'completed-trajectories'}, 'buffer': {'iterations': 4, 'age_weights': [4, 3, 2, 1], 'max_staleness_ratio': 1.0}, 'term': {'rows_per_step': 64, 'share_target': 0.25, 'shadow_iterations': 4, 'beta_bounds': [0.01, 10.0]}, 'startup': 'immediate', 'seating': 'all-seat-search', 'fast_search': {'method': 'search_v1', 'algorithm': 'brass-gumbel-is-mcts/count-v1', 'session': 'brass-gumbel-is-mcts/session-v1', 'v205_enabled': False, 'allowance_seconds': 0.8, 'post_search_seconds': 0.5, 'timing': 'search-plus-post/1.0.0', 'sessions': 1, 'threads_per_session': 1, 'pending_paths': 1, 'k': 4, 'c1': 50, 'c2': 0.1, 'gumbel_noise': True, 'prior_temperature': 1.0, 'watchdog_seconds': 30.0, 'reward': {'version': 'brass-combined-return/2.0.0', 'win': 1.0, 'placement': 0.1, 'vp': 0.001, 'vp_cap': 180, 'insolvency': {'event_cost': 0.0025, 'max_cost': 0.025}}}, 'search_value': {'contract': 'search-value-correction/1.0.0', 'stage': 'A', 'head': {'hidden': 32, 'inputs': 'utility-head-inputs', 'init': 'zero-final-layer'}, 'optimizer': {'kind': 'Adam', 'learning_rate': 0.0001, 'weight_decay': 0.0001, 'grad_clip': 1.0}, 'steps_per_iteration': 32, 'batch_size': 512, 'target': {'kind': 'seat-lambda-return', 'lambda_candidates': [0.5, 0.8, 0.95, 1.0], 'lambda': None, 'root_value': 'network-plus-completed-returns'}, 'buffer': {'iterations': 8, 'reward_bound': True, 'staleness': 'label-buffer-rule'}, 'gate': {'window_iterations': 8, 'bootstrap': 200, 'cluster': 'held-out-game', 'evaluation_target': 'final-utility-to-go'}, 'blend': {'w': 0.0, 'step': 0.05}, 'head_to_head': {'games': 256, 'tables': '2v2-seat-rotations', 'profile': '4s-k16-every-turn'}, 'trunk': {'scale': 0.0, 'ramp_iterations': 10, 'intervals': 2, 'interval_steps': 16, 'ordinary_heldout_tolerance': 0.013, 'kl': 'shared-ppg-cap'}}}}}
+self-play prepare (CPU, 16 readers): starting (320 shards)
+self-play prepare (CPU, 16 readers): 20% (64/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 40% (128/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 60% (192/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 80% (256/320 shards; 0.1s)
+self-play prepare (CPU, 16 readers): 100% (320/320 shards; 0.6s)
+Recovery generation 1259: 402880 games, 46 PPO steps; collect=143.7s prepare=8.9s rehearsal=0.0s PPO=70.1s value_phase=27.5s teacher=0.0s shadow_collect=12.8s diagnostics=0.3s eval=0.1s cleanup=0.0s; total=275.9s; NN batch mean=4.87; LR=7.5e-06 LRmult=1.250 apply:hold v4=0/320[reduced] q=3 eps=0.00 explore_age=1258 entropy=canal_action:0.00100,canal_other:0.00100,rail_action:0.00100,rail_other:0.00100 anneal=100/100 held=141 complete GAE=0.95->0.95 value_steps=0/16 value_stop=heldout_loss_increased value_lr=4.9e-06 value_peak=4.9e-06[PPO] PPGbeta=0.125->0.125 critic=preserve Vkeep=0.00010 Vdrift=0.00528 value_intervals=0/1 GAE-health=0/20 PPG-critic-window=128steps/6iters value_rows=0+0 snapshots=1@1.00 snapshot_weight=fixed GAE-mixed=historical:0.95[8/10](95g/8,19i) AnchorKL=off health=ok history=25/25 not_due PFSP=IL:0.008 effective:23.3 alarms:0 v4=PFSP:0.008 mixedEV=historical:0.275vs0.340[below_tolerance] local=apply@1.00 rows=75307/236646 head_steps=46+0 aux_stage=full fit=0steps/0games aux_next=1.00 KLT1=0.00591 KLbehavior=0.00579 KLsample_probe=0.00770 KLfull=disabled KLstop=none value=0.0002; insolvency events=6 mean cost=0.0000; teacher=shadow labels=516 beta=1.0 share=1.2887069567555534 heldout_dKL=0.011021273754557498 grad_qualification=pending fixed_beta=None target=0.25
+self-play prepare (CPU, 16 readers): starting (320 shards)
+self-play prepare (CPU, 16 readers): 20% (64/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 40% (128/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 60% (192/320 shards; 0.1s)
+self-play prepare (CPU, 16 readers): 80% (256/320 shards; 0.1s)
+self-play prepare (CPU, 16 readers): 100% (320/320 shards; 0.6s)
+{"phase": "collection", "complete": 2, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 4, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 6, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 8, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 10, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 12, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 14, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 16, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 18, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 20, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 22, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 24, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 26, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 28, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 30, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 32, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 34, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 36, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 38, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 40, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 42, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 44, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 46, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 48, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 50, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 52, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 54, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 56, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 58, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 60, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 62, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 64, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 66, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 68, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 70, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 72, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 74, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 76, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 78, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 80, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 82, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 84, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 86, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 88, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 90, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 92, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 94, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 96, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 98, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 100, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 102, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 104, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 106, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 108, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 110, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 112, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 114, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 116, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 118, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 120, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 122, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 124, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 126, "of": 128, "heavy": false}
+{"phase": "collection", "complete": 128, "of": 128, "heavy": false}
+Rating generation 1260: 128 main + 0 panel games; 712.0 PL points; 200 bootstrap refits; 182.4s (games+validate=141.7s fit=0.6s bootstrap=10.1s)
+Recovery generation 1260: 403200 games, 46 PPO steps; collect=199.1s prepare=7.7s rehearsal=0.0s PPO=69.9s value_phase=27.2s teacher=0.0s shadow_collect=119.2s diagnostics=1.5s eval=183.5s cleanup=72.6s; total=712.8s; NN batch mean=5.39; LR=7.5e-06 LRmult=1.250 apply:hold v4=0/320[reduced] q=3 eps=0.00 explore_age=1259 entropy=canal_action:0.00100,canal_other:0.00100,rail_action:0.00100,rail_other:0.00100 anneal=100/100 held=141 complete GAE=0.95->0.95 value_steps=0/16 value_stop=heldout_loss_increased value_lr=4.9e-06 value_peak=4.9e-06[PPO] PPGbeta=0.125->0.125 critic=preserve Vkeep=0.00006 Vdrift=0.00419 value_intervals=0/1 GAE-health=0/20 PPG-critic-window=128steps/6iters value_rows=0+0 snapshots=1@1.00 snapshot_weight=fixed GAE-mixed=historical:0.95[9/10](95g/8,19i) AnchorKL=off health=ok history=25/25 healthy_and_distinct PFSP=IL:0.008 effective:23.3 alarms:0 v4=PFSP:0.008 mixedEV=historical:0.290vs0.329[ok] local=apply@1.00 rows=75401/236770 head_steps=46+0 aux_stage=full fit=0steps/0games aux_next=1.00 KLT1=0.00821 KLbehavior=0.00813 KLsample_probe=0.01110 KLfull=disabled KLstop=none value=0.0001; insolvency events=4 mean cost=0.0000; teacher=shadow labels=513 beta=1.0 share=1.6689514125254468 heldout_dKL=0.008921299188516422 grad_qualification=pending fixed_beta=None target=0.25
+self-play prepare (CPU, 16 readers): starting (320 shards)
+self-play prepare (CPU, 16 readers): 20% (64/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 40% (128/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 60% (192/320 shards; 0.1s)
+self-play prepare (CPU, 16 readers): 80% (256/320 shards; 0.1s)
+self-play prepare (CPU, 16 readers): 100% (320/320 shards; 0.5s)
+Recovery generation 1261: 403520 games, 46 PPO steps; collect=188.0s prepare=11.5s rehearsal=0.0s PPO=69.0s value_phase=46.0s teacher=0.0s shadow_collect=120.3s diagnostics=0.5s eval=0.2s cleanup=0.0s; total=458.9s; NN batch mean=5.60; LR=7.5e-06 LRmult=1.250 apply:hold v4=0/320[reduced] q=3 eps=0.00 explore_age=1260 entropy=canal_action:0.00100,canal_other:0.00100,rail_action:0.00100,rail_other:0.00100 anneal=100/100 held=141 complete GAE=0.95->0.95 value_steps=16/32 value_stop=heldout_loss_increased value_lr=4.9e-06 value_peak=4.9e-06[PPO] PPGbeta=0.125->0.125 critic=preserve Vkeep=0.00008 Vdrift=0.00463 value_intervals=1/2 GAE-health=0/20 PPG-critic-window=144steps/7iters value_rows=32541+32995 snapshots=1@1.00 snapshot_weight=fixed GAE-mixed=historical:0.95[10/10](95g/8,19i) AnchorKL=off health=ok history=25/25 not_due PFSP=IL:0.008 effective:23.3 alarms:0 v4=PFSP:0.008 mixedEV=historical:0.305vs0.335[ok] local=apply@1.00 rows=120186/236598 head_steps=46+16 aux_stage=full fit=16steps/608games aux_next=1.00 KLT1=0.00654 KLbehavior=0.00645 KLsample_probe=0.00852 KLfull=disabled KLstop=none value=0.0002; insolvency events=10 mean cost=0.0000; teacher=shadow labels=512 beta=1.0 share=1.7091260317906376 heldout_dKL=0.015190427505098875 grad_qualification=passed fixed_beta=0.16110139609854138 target=0.25
+{
+  "run": "/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart",
+  "completed_iteration": 1261,
+  "checkpoint": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/generation-1261.pt",
+    "sha256": "45ba3988d4a7cd7fa8d6b78fc2edd738268aa179e33023c5b7046439ebd2e578",
+    "model_id": "abed90dda89fd6bf384401c88b9364750eb724f29e9ffb8af34308903d4a8864",
+    "generation": 1261
+  },
+  "best": null,
+  "summary_scope": "latest two iterations; bounded compact older metrics in retention-history.json"
+}
