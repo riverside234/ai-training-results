@@ -1,0 +1,11 @@
+{
+  "contract": "teacher-label-buffer/1.0.0",
+  "path": "teacher-labels/generation-001278-heldout.jsonl.gz",
+  "generation": 1278,
+  "split": "heldout",
+  "rows": 64,
+  "model_id": "be70b5612bf7ed36f87b518eb6b931e08b889b842b13d7e445de4c5bad6ad894",
+  "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+  "profile_digest": "566b79984db34b51dbbbc8ca0ad9b093063e55e96a17b9db4c092b682b4235bb",
+  "sha256": "534aba3f52aa731662a2869199d5ae222c9af05b319103c2b070061ec63ae651"
+}
