@@ -1,0 +1,53 @@
+{
+  "passed": false,
+  "training_passed": false,
+  "teacher_mode": "shadow",
+  "branching": 0.0,
+  "tables": {
+    "train": 28,
+    "held_out": 4
+  },
+  "share_target": 0.25,
+  "qualification_iterations": 4,
+  "expected_generation": 1257,
+  "execution_source": {
+    "implementation": "057635dbbb00aaf0065291df2eb274b2cdd824ab848ea0a524dab77d274ba487",
+    "qualified_implementation": "9efcf34f853d75ab844366b6819da4b0921be38d3e2dfb806cf282ace76e7a30",
+    "replay_location_review": "d90d125f2fb468a15b5eda6b18898ad67fe7dc6b30ab881934371879ef3db9dd"
+  },
+  "collector_runtime": {
+    "collector_validation": "production_fast",
+    "replay_bindings": true
+  },
+  "training_command": [
+    "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+    "-u",
+    "/data/not_backed_up/yxu209/ai-training/scripts/step5.py",
+    "--root",
+    "/data/not_backed_up/yxu209/ai-training",
+    "--config",
+    "/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json",
+    "--device",
+    "cuda",
+    "--mono",
+    "mono",
+    "train",
+    "--run",
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+    "--expected-generation",
+    "1258",
+    "--iterations",
+    "3",
+    "--imitation-run",
+    "artifacts/step5/features4-v11-2-batch7-il",
+    "--resume-reviewed-source"
+  ],
+  "error": "Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '-u', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', 'artifacts/step5/joint7-v11-2-g1290-trained-restart', '--expected-generation', '1258', '--iterations', '3', '--imitation-run', 'artifacts/step5/features4-v11-2-batch7-il', '--resume-reviewed-source']' returned non-zero exit status 1.",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-shadow.py\", line 111, in main\n    run_training(argv,out/'training.log')\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-shadow.py\", line 23, in run_training\n    if code:raise subprocess.CalledProcessError(code,argv)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsubprocess.CalledProcessError: Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '-u', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', 'artifacts/step5/joint7-v11-2-g1290-trained-restart', '--expected-generation', '1258', '--iterations', '3', '--imitation-run', 'artifacts/step5/features4-v11-2-batch7-il', '--resume-reviewed-source']' returned non-zero exit status 1.\n",
+  "training_log": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261108T054939772547Z-shadow-training-a2b85365/training.log",
+    "bytes": 2669,
+    "sha256": "0c7e055a12d416c745a86aafaaf6496f5093cb6d4fe7613d99fb5d422a2703c7"
+  },
+  "training_error_tail": "CUDA selection: logical cuda:0; CUDA_VISIBLE_DEVICES='0'; selected token='0'; UUID=3d06f287-eb90-1ae5-3786-d4a0c0dbbcf2. Logical cuda:0 is the first visible GPU.\nTraceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/step5.py\", line 43, in <module>\n    main()\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/step5.py\", line 39, in main\n    run()\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/cli.py\", line 192, in main\n    result = train(root, a.run, config, iterations=a.iterations, device=a.device, initial=a.initial,\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/league.py\", line 105, in train\n    return run(root,run_path,config,**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py\", line 76, in train\n    return run_stages(Path(root),run_path,config,runner=_train,iterations=iterations,device=device,initial=initial,mono=mono,from_run=from_run,imitation_run=imitation_run,resume_reviewed_source=resume_reviewed_source,inference_devices=inference_devices,il_kl_probe_from_run=il_kl_probe_from_run)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/automatic_training.py\", line 36, in run\n    result=runner(root,run_path,config,iterations=remaining,**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py\", line 160, in _train\n    model,raw,source_changed=load_resume(root,run,state,signature,device=device,reviewed=resume_reviewed_source)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/resume.py\", line 318, in load_resume\n    require(not pending.exists() or (pending.is_dir() and not any(pending.iterdir())),\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Uncommitted iteration at /data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-1258; finish/recover it with the previous source before upgrading\n"
+}
