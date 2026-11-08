@@ -1,0 +1,61 @@
+CUDA selection: logical cuda:0; CUDA_VISIBLE_DEVICES='0'; selected token='0'; UUID=3d06f287-eb90-1ae5-3786-d4a0c0dbbcf2. Logical cuda:0 is the first visible GPU.
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 248, in collect
+    results = list(pool.map(one,jobs))
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 225, in one
+    result = worker.collect(job['expected'],self.core_source,verifier=self.verifier)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 107, in collect
+    require(not self.cancel.is_set(),'Teacher table cancelled; discard unpublished labels')
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: Teacher table cancelled; discard unpublished labels
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/step5.py", line 43, in <module>
+    main()
+  File "/data/not_backed_up/yxu209/ai-training/scripts/step5.py", line 39, in main
+    run()
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/cli.py", line 192, in main
+    result = train(root, a.run, config, iterations=a.iterations, device=a.device, initial=a.initial,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/league.py", line 105, in train
+    return run(root,run_path,config,**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py", line 76, in train
+    return run_stages(Path(root),run_path,config,runner=_train,iterations=iterations,device=device,initial=initial,mono=mono,from_run=from_run,imitation_run=imitation_run,resume_reviewed_source=resume_reviewed_source,inference_devices=inference_devices,il_kl_probe_from_run=il_kl_probe_from_run)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/automatic_training.py", line 36, in run
+    result=runner(root,run_path,config,iterations=remaining,**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py", line 483, in _train
+    shadow_collector.collect(teacher_phase,state,model,service,directory)
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_shadow.py", line 155, in collect
+    live=collector.collect(missing,on_result=cache.publish)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 252, in collect
+    raise error.with_traceback(tb)
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 225, in one
+    result = worker.collect(job['expected'],self.core_source,verifier=self.verifier)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_teacher.py", line 114, in collect
+    raise ValueError(str(event)+': '+self.stderr.decode(errors='replace'))
+ValueError: Native teacher closed output: teacher: teacher post-search allowance exceeded
+
