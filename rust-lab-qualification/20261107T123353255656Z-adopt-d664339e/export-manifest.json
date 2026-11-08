@@ -1,0 +1,33 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-07T12:33:53.337621+00:00",
+  "source": "artifacts/rust-backend/20261107T122742698740Z-b07-continue-537723a8/adopt",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T122742698740Z-b07-continue-537723a8/adopt",
+  "review_only": true,
+  "files": [
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 478,
+      "source_sha256": "d694d4f5d80fc8f56b55a07199057d2bd8ca638446f780f746e6cdf1e86d6120",
+      "bytes": 478,
+      "sha256": "d694d4f5d80fc8f56b55a07199057d2bd8ca638446f780f746e6cdf1e86d6120",
+      "gzip": false
+    },
+    {
+      "source": "rollback/diagnostic-fork.json",
+      "path": "evidence/rollback/diagnostic-fork.json.gz",
+      "source_bytes": 2910343,
+      "source_sha256": "22e77b36af98be8acb580af7601cfccea56b811eeb3749f32e35a9e29bc306ee",
+      "bytes": 517669,
+      "sha256": "46d86a2ba4aecf1138a21ee79d5ecbf1dd76d032c8c346be2864a47912882970",
+      "gzip": true
+    }
+  ],
+  "omitted": [
+    {
+      "source": "rollback/payload",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}

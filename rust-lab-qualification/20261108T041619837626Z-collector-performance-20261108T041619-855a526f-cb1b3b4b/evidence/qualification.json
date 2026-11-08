@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "scope": "Ordinary wire build/short regressions only; no training or teacher rebuild",
+  "expected_generation": 1257,
+  "reused": true,
+  "runtime": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/collector-performance/build.json",
+    "bytes": 221227,
+    "sha256": "49fa8d87ed3fb36d1a904e85047415c1b1ffc4eb75f6a48c1dc05a3ead4654ce"
+  },
+  "generation": 1257
+}

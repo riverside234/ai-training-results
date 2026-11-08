@@ -1,0 +1,68 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-08T04:16:18.600618+00:00",
+  "source": "artifacts/rust-backend/teacher-verification-20261108T041521-26e05877",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/teacher-verification-20261108T041521-26e05877",
+  "review_only": true,
+  "files": [
+    {
+      "source": "previous-teacher-runtime.json",
+      "path": "evidence/previous-teacher-runtime.json",
+      "source_bytes": 36139,
+      "source_sha256": "1d9073d468c7eaaed6302cbd07014c0eddf6153065c6eca6761cb4f6b9f044a6",
+      "bytes": 36139,
+      "sha256": "1d9073d468c7eaaed6302cbd07014c0eddf6153065c6eca6761cb4f6b9f044a6",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 402,
+      "source_sha256": "fe31dd6707a7c96c022ddf6c4d3d83afcf72a37803a46c8eca437c94d002346b",
+      "bytes": 402,
+      "sha256": "fe31dd6707a7c96c022ddf6c4d3d83afcf72a37803a46c8eca437c94d002346b",
+      "gzip": false
+    },
+    {
+      "source": "runtime/build.json",
+      "path": "evidence/runtime/build.json",
+      "source_bytes": 35696,
+      "source_sha256": "80bc7444759b52dbbb1d59625141df3e8b90cc5e22fe0950eaedc1fcd24b7601",
+      "bytes": 35696,
+      "sha256": "80bc7444759b52dbbb1d59625141df3e8b90cc5e22fe0950eaedc1fcd24b7601",
+      "gzip": false
+    },
+    {
+      "source": "runtime/build.log",
+      "path": "evidence/runtime/build.log",
+      "source_bytes": 2524,
+      "source_sha256": "a44c4d4480e7cacd3f5520a7adbde41aca346f4e4ed7236ab23bd285e8aa6fe7",
+      "bytes": 2524,
+      "sha256": "a44c4d4480e7cacd3f5520a7adbde41aca346f4e4ed7236ab23bd285e8aa6fe7",
+      "gzip": false
+    },
+    {
+      "source": "runtime/test.log",
+      "path": "evidence/runtime/test.log",
+      "source_bytes": 10246,
+      "source_sha256": "8eb728f8da21d88f4c8e7224fb94583ad5547f3470440ab4a6beb71ccaf935b3",
+      "bytes": 10246,
+      "sha256": "8eb728f8da21d88f4c8e7224fb94583ad5547f3470440ab4a6beb71ccaf935b3",
+      "gzip": false
+    }
+  ],
+  "omitted": [
+    {
+      "source": "runtime/inputs",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "runtime/checkout",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "runtime/target",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+test_actual_collection_adapter_raw_and_decoded_outputs_match_without_nn (test_collector_performance.NativeWire.test_actual_collection_adapter_raw_and_decoded_outputs_match_without_nn) ... ok
+test_new_game_does_not_reuse_prior_delta_or_features (test_collector_performance.NativeWire.test_new_game_does_not_reuse_prior_delta_or_features) ... ok
+test_same_frozen_origins_actions_rng_features_records_and_branch_opportunities (test_collector_performance.NativeWire.test_same_frozen_origins_actions_rng_features_records_and_branch_opportunities) ... ok
+test_cancelled_export_retires_process_without_publishing_or_hanging (test_collector_performance_tail.NativeTail.test_cancelled_export_retires_process_without_publishing_or_hanging) ... ok
+test_combined_pages_keep_actions_rng_features_seals_and_reduce_calls (test_collector_performance_tail.NativeTail.test_combined_pages_keep_actions_rng_features_seals_and_reduce_calls) ... ok
+test_export_rejects_stale_token_cursor_and_retained_feature_corruption (test_collector_performance_tail.NativeTail.test_export_rejects_stale_token_cursor_and_retained_feature_corruption) ... ok
+test_last_export_retires_lane_and_allows_clean_game_reset (test_collector_performance_tail.NativeTail.test_last_export_retires_lane_and_allows_clean_game_reset) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.866s
+
+OK

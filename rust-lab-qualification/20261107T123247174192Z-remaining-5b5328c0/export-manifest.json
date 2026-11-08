@@ -1,0 +1,365 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-07T12:32:48.430043+00:00",
+  "source": "artifacts/rust-backend/20261107T122742698740Z-b07-continue-537723a8/remaining",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T122742698740Z-b07-continue-537723a8/remaining",
+  "review_only": true,
+  "files": [
+    {
+      "source": "canary-1-checks.json",
+      "path": "evidence/canary-1-checks.json",
+      "source_bytes": 3535,
+      "source_sha256": "37ac44127a3dde88afbbbbcc5f792e4302bbce8d45a1c47c465660b1b11695ca",
+      "bytes": 3535,
+      "sha256": "37ac44127a3dde88afbbbbcc5f792e4302bbce8d45a1c47c465660b1b11695ca",
+      "gzip": false
+    },
+    {
+      "source": "canary-1-environment.json",
+      "path": "evidence/canary-1-environment.json",
+      "source_bytes": 1032,
+      "source_sha256": "3ee1b734f52f86dff3680e995c1ca4521bba4d047a7cc69ed2cf88b57bb55d26",
+      "bytes": 1032,
+      "sha256": "3ee1b734f52f86dff3680e995c1ca4521bba4d047a7cc69ed2cf88b57bb55d26",
+      "gzip": false
+    },
+    {
+      "source": "canary-1.log",
+      "path": "evidence/canary-1.log",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "source": "canary-2-checks.json",
+      "path": "evidence/canary-2-checks.json",
+      "source_bytes": 3536,
+      "source_sha256": "3421e4279f2f42956753ac92f3bb21c878835df902316f1d3dccc73775fa3752",
+      "bytes": 3536,
+      "sha256": "3421e4279f2f42956753ac92f3bb21c878835df902316f1d3dccc73775fa3752",
+      "gzip": false
+    },
+    {
+      "source": "canary-2-environment.json",
+      "path": "evidence/canary-2-environment.json",
+      "source_bytes": 1033,
+      "source_sha256": "7feae3796fff07100739647f6339531b9f12f6ee67cfcb1b9c59ffee8dce48f8",
+      "bytes": 1033,
+      "sha256": "7feae3796fff07100739647f6339531b9f12f6ee67cfcb1b9c59ffee8dce48f8",
+      "gzip": false
+    },
+    {
+      "source": "canary-2.log",
+      "path": "evidence/canary-2.log",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "source": "continuation-checks.json",
+      "path": "evidence/continuation-checks.json",
+      "source_bytes": 4395,
+      "source_sha256": "36318ddf2b0be62f8c70bceb27c138ddf4861cfb6399c374ff5b44a60a39320e",
+      "bytes": 4395,
+      "sha256": "36318ddf2b0be62f8c70bceb27c138ddf4861cfb6399c374ff5b44a60a39320e",
+      "gzip": false
+    },
+    {
+      "source": "continuation-environment.json",
+      "path": "evidence/continuation-environment.json",
+      "source_bytes": 1033,
+      "source_sha256": "3df43603ca2413bce3d08d744624c9beca1aa9f1a0680b69113e9f3f943f8d18",
+      "bytes": 1033,
+      "sha256": "3df43603ca2413bce3d08d744624c9beca1aa9f1a0680b69113e9f3f943f8d18",
+      "gzip": false
+    },
+    {
+      "source": "continuation.log",
+      "path": "evidence/continuation.log",
+      "source_bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip": false
+    },
+    {
+      "source": "fixtures.log",
+      "path": "evidence/fixtures.log",
+      "source_bytes": 249,
+      "source_sha256": "2777f7f97c7c73ae8df32e6a9af6623c59ae39e77ffd69f4f4a213b459a3531e",
+      "bytes": 249,
+      "sha256": "2777f7f97c7c73ae8df32e6a9af6623c59ae39e77ffd69f4f4a213b459a3531e",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-build.json",
+      "path": "evidence/ordinary-build.json",
+      "source_bytes": 221347,
+      "source_sha256": "d90b9d178d64e30fa74340ee990dd5299beb24f900fe5d6f63ae638eebb80365",
+      "bytes": 221347,
+      "sha256": "d90b9d178d64e30fa74340ee990dd5299beb24f900fe5d6f63ae638eebb80365",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-checks.json",
+      "path": "evidence/ordinary-checks.json",
+      "source_bytes": 204527,
+      "source_sha256": "4f7f0a8264b43cc664727505d748f29d732ad0c0ca6db3393bfe1b208b67fc17",
+      "bytes": 204527,
+      "sha256": "4f7f0a8264b43cc664727505d748f29d732ad0c0ca6db3393bfe1b208b67fc17",
+      "gzip": false
+    },
+    {
+      "source": "ordinary-prior-source.json",
+      "path": "evidence/ordinary-prior-source.json",
+      "source_bytes": 192288,
+      "source_sha256": "0f1236f1b8afbbe0624d7f942e56837f8d97db6fe50fc39846da356529a063df",
+      "bytes": 192288,
+      "sha256": "0f1236f1b8afbbe0624d7f942e56837f8d97db6fe50fc39846da356529a063df",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 225009,
+      "source_sha256": "f35c870fdfb1cbe5418187d9ee7656cbfe18350892f97fd9c32d51bd88d953a9",
+      "bytes": 225009,
+      "sha256": "f35c870fdfb1cbe5418187d9ee7656cbfe18350892f97fd9c32d51bd88d953a9",
+      "gzip": false
+    },
+    {
+      "source": "restoration.json",
+      "path": "evidence/restoration.json",
+      "source_bytes": 2923,
+      "source_sha256": "1634d6631d83e00388441e6f479e2f61ae1af91594d05e9810770bfae9fb1ca2",
+      "bytes": 2923,
+      "sha256": "1634d6631d83e00388441e6f479e2f61ae1af91594d05e9810770bfae9fb1ca2",
+      "gzip": false
+    },
+    {
+      "source": "snapshot.json",
+      "path": "evidence/snapshot.json.gz",
+      "source_bytes": 2444287,
+      "source_sha256": "af00a414fb435135336fe720265e455cc35ec37833b0ca7460550262c2879d2b",
+      "bytes": 460047,
+      "sha256": "784d53a88ec6435dff3cfe16a66f5fff9013f9b415f44950b24886228a4562e9",
+      "gzip": true
+    },
+    {
+      "source": "teacher-build.json",
+      "path": "evidence/teacher-build.json",
+      "source_bytes": 36366,
+      "source_sha256": "0bc26afb6e830b29080ffb24648ffddc4c9570c172721adf43f56868cebf23c4",
+      "bytes": 36366,
+      "sha256": "0bc26afb6e830b29080ffb24648ffddc4c9570c172721adf43f56868cebf23c4",
+      "gzip": false
+    },
+    {
+      "source": "canary-1/admission.json",
+      "path": "evidence/canary-1/admission.json",
+      "source_bytes": 592,
+      "source_sha256": "5fa37fc9fa01446321411f6a5569c63975a9856d5cbae909ed0db25051d2cc49",
+      "bytes": 592,
+      "sha256": "5fa37fc9fa01446321411f6a5569c63975a9856d5cbae909ed0db25051d2cc49",
+      "gzip": false
+    },
+    {
+      "source": "canary-1/calibration.json",
+      "path": "evidence/canary-1/calibration.json.gz",
+      "source_bytes": 2434893,
+      "source_sha256": "07743c66e10b774e344cffbcb34c9ff1239a55122ed15b1fde89f5e3254d6a71",
+      "bytes": 170424,
+      "sha256": "18433652ecc200f235ee8875bab2642a9bc1dff139eedc3c5e864acf8caf43d3",
+      "gzip": true
+    },
+    {
+      "source": "canary-1/inference.json",
+      "path": "evidence/canary-1/inference.json",
+      "source_bytes": 3998,
+      "source_sha256": "2c6aef5d47ba54f9726e2898011ae24be01ea18bfd726dff2a5f81c9af7e344f",
+      "bytes": 3998,
+      "sha256": "2c6aef5d47ba54f9726e2898011ae24be01ea18bfd726dff2a5f81c9af7e344f",
+      "gzip": false
+    },
+    {
+      "source": "canary-1/jobs.json",
+      "path": "evidence/canary-1/jobs.json",
+      "source_bytes": 7876,
+      "source_sha256": "7e277e545da14d5aa5936c467573511c819d2ca198cdc5c1dad7499be700473c",
+      "bytes": 7876,
+      "sha256": "7e277e545da14d5aa5936c467573511c819d2ca198cdc5c1dad7499be700473c",
+      "gzip": false
+    },
+    {
+      "source": "canary-1/tables.json",
+      "path": "evidence/canary-1/tables.json.gz",
+      "source_bytes": 22197485,
+      "source_sha256": "36b9ae4c9acc535fad735737e6985194e446f7af04806e0b0f8009e1561ce1b1",
+      "bytes": 1006164,
+      "sha256": "29c06814e6bb6873f81318f930e38916d041781090385380df12aed9db77d363",
+      "gzip": true
+    },
+    {
+      "source": "canary-1/policy/teacher-labels/generation-001250-heldout.jsonl.gz.receipt.json",
+      "path": "evidence/canary-1/policy/teacher-labels/generation-001250-heldout.jsonl.gz.receipt.json",
+      "source_bytes": 501,
+      "source_sha256": "9e4246f1ced8b054d378ed9dfdf1edc48e4f8cb039428d9581c143c553e082fa",
+      "bytes": 501,
+      "sha256": "9e4246f1ced8b054d378ed9dfdf1edc48e4f8cb039428d9581c143c553e082fa",
+      "gzip": false
+    },
+    {
+      "source": "canary-1/policy/teacher-labels/generation-001250-train.jsonl.gz.receipt.json",
+      "path": "evidence/canary-1/policy/teacher-labels/generation-001250-train.jsonl.gz.receipt.json",
+      "source_bytes": 497,
+      "source_sha256": "059a8441a195758986e5f9c3bfb374ba6386ee90a03725a0c7ee8c91cfe5af32",
+      "bytes": 497,
+      "sha256": "059a8441a195758986e5f9c3bfb374ba6386ee90a03725a0c7ee8c91cfe5af32",
+      "gzip": false
+    },
+    {
+      "source": "canary-1/policy/teacher-labels/owner.json",
+      "path": "evidence/canary-1/policy/teacher-labels/owner.json",
+      "source_bytes": 92,
+      "source_sha256": "c839143962ec125e845ac2609a6bcd25e1e030f752d6b4927325601443fc0feb",
+      "bytes": 92,
+      "sha256": "c839143962ec125e845ac2609a6bcd25e1e030f752d6b4927325601443fc0feb",
+      "gzip": false
+    },
+    {
+      "source": "canary-2/admission.json",
+      "path": "evidence/canary-2/admission.json",
+      "source_bytes": 592,
+      "source_sha256": "8efbfe9f061e07059e0c9d197f2c8725f3c777ddfd23c7d71d24693ff2d607fb",
+      "bytes": 592,
+      "sha256": "8efbfe9f061e07059e0c9d197f2c8725f3c777ddfd23c7d71d24693ff2d607fb",
+      "gzip": false
+    },
+    {
+      "source": "canary-2/calibration.json",
+      "path": "evidence/canary-2/calibration.json.gz",
+      "source_bytes": 2434893,
+      "source_sha256": "b9bc8992176296da0db5381139138e3760b11d2818424d182bc48b3ef60a576c",
+      "bytes": 170420,
+      "sha256": "aec0b076c4ec72b8996071f3910abbeb1c13ed2738edcd846b307c59bd6a9ccc",
+      "gzip": true
+    },
+    {
+      "source": "canary-2/inference.json",
+      "path": "evidence/canary-2/inference.json",
+      "source_bytes": 3993,
+      "source_sha256": "d672f11bfba30bf727676e20ff2bc52d50b8f6564722c09333acbda3dd3575c0",
+      "bytes": 3993,
+      "sha256": "d672f11bfba30bf727676e20ff2bc52d50b8f6564722c09333acbda3dd3575c0",
+      "gzip": false
+    },
+    {
+      "source": "canary-2/jobs.json",
+      "path": "evidence/canary-2/jobs.json",
+      "source_bytes": 7876,
+      "source_sha256": "87bc56e6f0a5e566a00ab06354eca6b33bcf4491883c831644d0d2ea6d78a73b",
+      "bytes": 7876,
+      "sha256": "87bc56e6f0a5e566a00ab06354eca6b33bcf4491883c831644d0d2ea6d78a73b",
+      "gzip": false
+    },
+    {
+      "source": "canary-2/tables.json",
+      "path": "evidence/canary-2/tables.json.gz",
+      "source_bytes": 23275324,
+      "source_sha256": "658025da9df5cd396c2de392bec0e52b31c4f0c4449235e39cecb2c95dc8ac6a",
+      "bytes": 1061379,
+      "sha256": "8ff51f6a0efdf0426b963ea6a30b83a5dd657a412bc2862a13848d459abad92a",
+      "gzip": true
+    },
+    {
+      "source": "canary-2/policy/teacher-labels/generation-001250-heldout.jsonl.gz.receipt.json",
+      "path": "evidence/canary-2/policy/teacher-labels/generation-001250-heldout.jsonl.gz.receipt.json",
+      "source_bytes": 501,
+      "source_sha256": "cb1fa98185831f7246357fc62e6db1cfcdb6a5cdcd9349a09f17474a042f3f72",
+      "bytes": 501,
+      "sha256": "cb1fa98185831f7246357fc62e6db1cfcdb6a5cdcd9349a09f17474a042f3f72",
+      "gzip": false
+    },
+    {
+      "source": "canary-2/policy/teacher-labels/generation-001250-train.jsonl.gz.receipt.json",
+      "path": "evidence/canary-2/policy/teacher-labels/generation-001250-train.jsonl.gz.receipt.json",
+      "source_bytes": 497,
+      "source_sha256": "b33770d4cbfbda803bbd4c0eb9bf82aa98ed6c69ed72f660d34e6ed05dabf088",
+      "bytes": 497,
+      "sha256": "b33770d4cbfbda803bbd4c0eb9bf82aa98ed6c69ed72f660d34e6ed05dabf088",
+      "gzip": false
+    },
+    {
+      "source": "canary-2/policy/teacher-labels/owner.json",
+      "path": "evidence/canary-2/policy/teacher-labels/owner.json",
+      "source_bytes": 92,
+      "source_sha256": "c839143962ec125e845ac2609a6bcd25e1e030f752d6b4927325601443fc0feb",
+      "bytes": 92,
+      "sha256": "c839143962ec125e845ac2609a6bcd25e1e030f752d6b4927325601443fc0feb",
+      "gzip": false
+    },
+    {
+      "source": "continuation/diagnostic-fork.json",
+      "path": "evidence/continuation/diagnostic-fork.json.gz",
+      "source_bytes": 2910560,
+      "source_sha256": "3af207fbd8a3baae3c52ec8d9dadb125baec0fbf16253e0d5ae2de71d750af75",
+      "bytes": 517754,
+      "sha256": "dbb9bb1bf6c1e5db08bc1818e5efee092ebc7c0481a78ba5cbf9e0fe286587a2",
+      "gzip": true
+    }
+  ],
+  "omitted": [
+    {
+      "source": "ordinary-next.pt",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "canary-1/shadow.pt",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "canary-1/policy/teacher-labels/generation-001250-heldout.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "canary-1/policy/teacher-labels/generation-001250-train.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "canary-1/value/001250-heldout-2aa251b388cb84c2f4d4984bc2fc4eabd60be03423cf47f540bc64d0ead671ba.json.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "canary-1/value/001250-train-99164eb2aaa08dd0c7854bb7c845e612424ca105df83803bcec2096b5865f47d.json.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "canary-2/shadow.pt",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "canary-2/policy/teacher-labels/generation-001250-heldout.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "canary-2/policy/teacher-labels/generation-001250-train.jsonl.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "canary-2/value/001250-heldout-2aa251b388cb84c2f4d4984bc2fc4eabd60be03423cf47f540bc64d0ead671ba.json.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "canary-2/value/001250-train-99164eb2aaa08dd0c7854bb7c845e612424ca105df83803bcec2096b5865f47d.json.gz",
+      "reason": "non-report file or symlink"
+    },
+    {
+      "source": "continuation/payload",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}

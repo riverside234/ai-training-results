@@ -1,0 +1,35 @@
+{
+  "psutil": "7.2.2",
+  "requirements": "distribution/rust-lab-b06-g1250/requirements.txt",
+  "device": "cuda:0",
+  "torch": "2.8.0+cu128",
+  "cuda_build": "12.8",
+  "sampler": {
+    "phases": {
+      "cuda_preflight_allocation": {
+        "total_seconds": 0.008076310012256727,
+        "samples": 1,
+        "median": 0.008076310012256727,
+        "p90": 0.008076310012256727,
+        "maximum": 0.008076310012256727
+      }
+    },
+    "peak_process_tree_rss_bytes": 703897600,
+    "sampled_process_tree_cpu_seconds": 0,
+    "process_samples": 1,
+    "exited_process_reads": 0,
+    "cuda_setup": {
+      "device": "cuda:0",
+      "initialized_before": false,
+      "seconds": 0.14968022698303685
+    },
+    "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+    "device_memory": {
+      "host_resident_bytes": 718786560,
+      "cuda_allocated_bytes": 512,
+      "cuda_reserved_bytes": 2097152,
+      "cuda_peak_allocated_bytes": 512,
+      "cuda_peak_reserved_bytes": 2097152
+    }
+  }
+}

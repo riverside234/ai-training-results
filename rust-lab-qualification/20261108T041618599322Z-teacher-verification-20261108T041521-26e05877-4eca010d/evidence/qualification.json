@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "reused": false,
+  "runtime": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/teacher-verification/build.json",
+    "bytes": 36139,
+    "sha256": "0a92822cc4dc526836f0c3c41f381eefef7616a729b9d4259a4dbe4ee2fafd0c"
+  },
+  "generation": 1257,
+  "scope": "Uncapped post-search handoff/verification; search core/quota/selection and checkpoint unchanged"
+}

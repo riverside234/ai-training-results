@@ -1,0 +1,19 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-08T04:16:19.838023+00:00",
+  "source": "artifacts/rust-backend/collector-performance-20261108T041619-855a526f",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/collector-performance-20261108T041619-855a526f",
+  "review_only": true,
+  "files": [
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 413,
+      "source_sha256": "38d08a2cf9549a8e4f2a3caf1bf43d178db1c38b5554b1528fcd361185dbf7d0",
+      "bytes": 413,
+      "sha256": "38d08a2cf9549a8e4f2a3caf1bf43d178db1c38b5554b1528fcd361185dbf7d0",
+      "gzip": false
+    }
+  ],
+  "omitted": []
+}

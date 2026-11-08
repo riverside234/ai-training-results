@@ -1,0 +1,42 @@
+warning: unused import: `crate::core::locations::LocationName`
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/teacher-verification-20261108T044613-20f05638/runtime/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:356:9
+    |
+356 |     use crate::core::locations::LocationName;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_1`
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/teacher-verification-20261108T044613-20f05638/runtime/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:357:9
+    |
+357 |     use crate::core::static_data::BEER_BREWERY_1;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::static_data::BEER_BREWERY_2`
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/teacher-verification-20261108T044613-20f05638/runtime/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:358:9
+    |
+358 |     use crate::core::static_data::BEER_BREWERY_2;
+    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `to_range` is never used
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/teacher-verification-20261108T044613-20f05638/runtime/checkout/native/vendor/brass-upstream-rules/src/consts.rs:348:10
+    |
+348 | const fn to_range(bounds: (usize, usize)) -> Range<usize> {
+    |          ^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: constant `NUM_NAMED_LOCATIONS` is never used
+  --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/teacher-verification-20261108T044613-20f05638/runtime/checkout/native/vendor/brass-upstream-rules/src/core/locations.rs:49:7
+   |
+49 | const NUM_NAMED_LOCATIONS: usize = 27;
+   |       ^^^^^^^^^^^^^^^^^^^
+
+warning: function `enumerate_legal_actions_for_root` is never used
+   --> /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/teacher-verification-20261108T044613-20f05638/runtime/checkout/native/vendor/brass-upstream-rules/src/game/legal_actions.rs:139:15
+    |
+139 | pub(crate) fn enumerate_legal_actions_for_root(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `brass-upstream-rules` (lib) generated 6 warnings (run `cargo fix --lib -p brass-upstream-rules` to apply 3 suggestions)
+    Finished `release` profile [optimized] target(s) in 0.01s

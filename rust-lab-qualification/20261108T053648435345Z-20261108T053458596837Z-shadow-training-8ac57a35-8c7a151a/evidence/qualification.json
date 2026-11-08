@@ -1,0 +1,52 @@
+{
+  "passed": false,
+  "training_passed": false,
+  "teacher_mode": "shadow",
+  "branching": 0.0,
+  "tables": {
+    "train": 28,
+    "held_out": 4
+  },
+  "share_target": 0.25,
+  "expected_generation": 1257,
+  "execution_source": {
+    "implementation": "3e1de866b56e821c9d8492152c27afff924ffb52fe2c7e75089c45a7a69f0c98",
+    "qualified_implementation": "9efcf34f853d75ab844366b6819da4b0921be38d3e2dfb806cf282ace76e7a30",
+    "replay_location_review": "32006f021a5f730c59330ee5e73c00f93b73068845439dd4cc0544c41818637f"
+  },
+  "collector_runtime": {
+    "collector_validation": "production_fast",
+    "replay_bindings": true
+  },
+  "training_command": [
+    "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+    "-u",
+    "/data/not_backed_up/yxu209/ai-training/scripts/step5.py",
+    "--root",
+    "/data/not_backed_up/yxu209/ai-training",
+    "--config",
+    "/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json",
+    "--device",
+    "cuda",
+    "--mono",
+    "mono",
+    "train",
+    "--run",
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+    "--expected-generation",
+    "1258",
+    "--iterations",
+    "3",
+    "--imitation-run",
+    "artifacts/step5/features4-v11-2-batch7-il",
+    "--resume-reviewed-source"
+  ],
+  "error": "Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '-u', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', 'artifacts/step5/joint7-v11-2-g1290-trained-restart', '--expected-generation', '1258', '--iterations', '3', '--imitation-run', 'artifacts/step5/features4-v11-2-batch7-il', '--resume-reviewed-source']' returned non-zero exit status 1.",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-shadow.py\", line 109, in main\n    run_training(argv,out/'training.log')\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-shadow.py\", line 23, in run_training\n    if code:raise subprocess.CalledProcessError(code,argv)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsubprocess.CalledProcessError: Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '-u', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', 'artifacts/step5/joint7-v11-2-g1290-trained-restart', '--expected-generation', '1258', '--iterations', '3', '--imitation-run', 'artifacts/step5/features4-v11-2-batch7-il', '--resume-reviewed-source']' returned non-zero exit status 1.\n",
+  "training_log": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261108T053458596837Z-shadow-training-8ac57a35/training.log",
+    "bytes": 4715,
+    "sha256": "e1023f48a97b629523c3659f838fe59f36214c591bbc37fa40ca4e4e84d08025"
+  },
+  "training_error_tail": "CUDA selection: logical cuda:0; CUDA_VISIBLE_DEVICES='0'; selected token='0'; UUID=3d06f287-eb90-1ae5-3786-d4a0c0dbbcf2. Logical cuda:0 is the first visible GPU.\nTraceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/step5.py\", line 43, in <module>\n    main()\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/step5.py\", line 39, in main\n    run()\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/cli.py\", line 192, in main\n    result = train(root, a.run, config, iterations=a.iterations, device=a.device, initial=a.initial,\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/league.py\", line 105, in train\n    return run(root,run_path,config,**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py\", line 76, in train\n    return run_stages(Path(root),run_path,config,runner=_train,iterations=iterations,device=device,initial=initial,mono=mono,from_run=from_run,imitation_run=imitation_run,resume_reviewed_source=resume_reviewed_source,inference_devices=inference_devices,il_kl_probe_from_run=il_kl_probe_from_run)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/automatic_training.py\", line 36, in run\n    result=runner(root,run_path,config,iterations=remaining,**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py\", line 523, in _train\n    if normal: records+=ordinary.collect(normal,on_records=prepared_collection.submit)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_backend.py\", line 114, in collect\n    result=pool.collect(jobs,on_records=on_records)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py\", line 485, in collect\n    error,tb=first[0];raise error.with_traceback(tb)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py\", line 446, in collect\n    return self.receive(connection,submit=submit,timeout=360,shared_allocate=self.shared.allocate)['result']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py\", line 335, in receive\n    require('error' not in message,message.get('error',''))\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py\", line 250, in lane\n    part=collect_lane(root,build['collector']['path'],bootstrap,job,endpoint,execution,\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_collection.py\", line 167, in collect_lane\n    t=time.monotonic(); lane.append(row,evidence,allow_forced=neural); timings['native_step_seconds']+=time.monotonic()-t\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py\", line 209, in append\n    reply = self.call('append_compact',token=self.token,record=record,forced_limit=16 if self.batch_forced and allow_forced else 0)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py\", line 176, in call\n    result = super().call(op, **fields)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py\", line 129, in call\n    require(reply.get('ok') is True, str(reply.get('error', 'Collector error')))\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: invalid request: bonus state mismatch\n\n"
+}

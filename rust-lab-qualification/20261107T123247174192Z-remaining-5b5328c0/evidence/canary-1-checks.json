@@ -1,0 +1,96 @@
+{
+  "prerequisites": {
+    "B02": {
+      "path": "results/rust-lab-qualification/20261104T012220551953Z-20261104T011422740838Z-g570-all-8bee9d91-e1605e8c/evidence/b02/qualification.json",
+      "sha256": "88e7136e4d935c63dee3f71c4b3cc49b9202356792bf36a96e4d71b6945122ec"
+    },
+    "B04.5": {
+      "path": "results/rust-lab-qualification/20261107T060856941600Z-20261107T060554386081Z-g1250-b045-76165ac4-a1db73ac/evidence/qualification.json",
+      "sha256": "4830d679141ea1fd1b4e469cc969251b6a5b6d0ec988ea0410039f4090169bc3"
+    },
+    "B05": {
+      "path": "results/rust-lab-qualification/20261107T070806231803Z-20261107T070539193547Z-g1250-b05-88497ac1-cf4704fd/evidence/qualification.json",
+      "sha256": "b323c55579bdfc875707cc1d36c42f01a9713fc88a82648aab24395962ab3b0c"
+    },
+    "B06": {
+      "path": "results/rust-lab-qualification/20261107T080012822445Z-20261107T075601452661Z-g1250-b06-c1cd94b2-2c29d5e3/evidence/qualification.json",
+      "sha256": "fc07359069538cf75a7413bd8f522f0e5bea133f56daa8d0a86c3b64f07e4081"
+    }
+  },
+  "environment": {
+    "psutil": "7.2.2",
+    "requirements": "distribution/rust-lab-b06-g1250/requirements.txt",
+    "device": "cuda:0",
+    "torch": "2.8.0+cu128",
+    "cuda_build": "12.8",
+    "sampler": {
+      "phases": {
+        "cuda_preflight_allocation": {
+          "total_seconds": 0.007891517016105354,
+          "samples": 1,
+          "median": 0.007891517016105354,
+          "p90": 0.007891517016105354,
+          "maximum": 0.007891517016105354
+        }
+      },
+      "peak_process_tree_rss_bytes": 703811584,
+      "sampled_process_tree_cpu_seconds": 0,
+      "process_samples": 1,
+      "exited_process_reads": 0,
+      "cuda_setup": {
+        "device": "cuda:0",
+        "initialized_before": false,
+        "seconds": 0.1999318489979487
+      },
+      "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+      "device_memory": {
+        "host_resident_bytes": 718704640,
+        "cuda_allocated_bytes": 512,
+        "cuda_reserved_bytes": 2097152,
+        "cuda_peak_allocated_bytes": 512,
+        "cuda_peak_reserved_bytes": 2097152
+      }
+    }
+  },
+  "passed": true,
+  "pass_index": 1,
+  "tables": 2,
+  "checkpoint_sha256": "21eebe420a2a37528f475fef56f6ef200b4769b00d4a3d9697820b4a7d9df233",
+  "buffer_reloaded": true,
+  "checkpoint_reloaded": true,
+  "ordinary_updates": 0,
+  "teacher_optimizer_steps": 0,
+  "blend_weight": 0,
+  "readiness": {
+    "version": "ppg-value-phase/24.0.0",
+    "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+    "ready": true,
+    "decisions": 273250,
+    "games": 784,
+    "steps": 16,
+    "before": {
+      "mse": 0.1484258257441367
+    },
+    "after": {
+      "mse": 0.14766843101586039
+    },
+    "scope": "Final accepted value-phase weights; ordinary critic-train games only; heldout games excluded"
+  },
+  "labels": 61,
+  "production_modified": false,
+  "policy_sealing_seconds": {
+    "0f359320aca7eafb99163fd91d6dca52e29fc87c3626876db6c045d653ca4790": 0.18658866299665533,
+    "75559de03218f5360f995c28adad993bc5574038d09bec56b9d4234bb373f971": 0.05063507900922559
+  },
+  "value_admission": {
+    "rows": {
+      "train": 64,
+      "heldout": 64
+    },
+    "value_admission_per_table_seconds": {
+      "0f359320aca7eafb99163fd91d6dca52e29fc87c3626876db6c045d653ca4790": 0.06990934500936419,
+      "75559de03218f5360f995c28adad993bc5574038d09bec56b9d4234bb373f971": 0.037859812000533566
+    },
+    "value_admission_seconds": 0.10780505900038406
+  }
+}

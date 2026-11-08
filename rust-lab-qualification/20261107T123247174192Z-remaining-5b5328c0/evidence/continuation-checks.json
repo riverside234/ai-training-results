@@ -1,0 +1,125 @@
+{
+  "prerequisites": {
+    "B02": {
+      "path": "results/rust-lab-qualification/20261104T012220551953Z-20261104T011422740838Z-g570-all-8bee9d91-e1605e8c/evidence/b02/qualification.json",
+      "sha256": "88e7136e4d935c63dee3f71c4b3cc49b9202356792bf36a96e4d71b6945122ec"
+    },
+    "B04.5": {
+      "path": "results/rust-lab-qualification/20261107T060856941600Z-20261107T060554386081Z-g1250-b045-76165ac4-a1db73ac/evidence/qualification.json",
+      "sha256": "4830d679141ea1fd1b4e469cc969251b6a5b6d0ec988ea0410039f4090169bc3"
+    },
+    "B05": {
+      "path": "results/rust-lab-qualification/20261107T070806231803Z-20261107T070539193547Z-g1250-b05-88497ac1-cf4704fd/evidence/qualification.json",
+      "sha256": "b323c55579bdfc875707cc1d36c42f01a9713fc88a82648aab24395962ab3b0c"
+    },
+    "B06": {
+      "path": "results/rust-lab-qualification/20261107T080012822445Z-20261107T075601452661Z-g1250-b06-c1cd94b2-2c29d5e3/evidence/qualification.json",
+      "sha256": "fc07359069538cf75a7413bd8f522f0e5bea133f56daa8d0a86c3b64f07e4081"
+    }
+  },
+  "environment": {
+    "psutil": "7.2.2",
+    "requirements": "distribution/rust-lab-b06-g1250/requirements.txt",
+    "device": "cuda:0",
+    "torch": "2.8.0+cu128",
+    "cuda_build": "12.8",
+    "sampler": {
+      "phases": {
+        "cuda_preflight_allocation": {
+          "total_seconds": 0.008076310012256727,
+          "samples": 1,
+          "median": 0.008076310012256727,
+          "p90": 0.008076310012256727,
+          "maximum": 0.008076310012256727
+        }
+      },
+      "peak_process_tree_rss_bytes": 703897600,
+      "sampled_process_tree_cpu_seconds": 0,
+      "process_samples": 1,
+      "exited_process_reads": 0,
+      "cuda_setup": {
+        "device": "cuda:0",
+        "initialized_before": false,
+        "seconds": 0.14968022698303685
+      },
+      "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+      "device_memory": {
+        "host_resident_bytes": 718786560,
+        "cuda_allocated_bytes": 512,
+        "cuda_reserved_bytes": 2097152,
+        "cuda_peak_allocated_bytes": 512,
+        "cuda_peak_reserved_bytes": 2097152
+      }
+    }
+  },
+  "passed": true,
+  "measurement": {
+    "phases": {
+      "full_fork_and_restore": {
+        "total_seconds": 41.313207475992385,
+        "samples": 1,
+        "median": 41.313207475992385,
+        "p90": 41.313207475992385,
+        "maximum": 41.313207475992385
+      },
+      "ordinary_ppo": {
+        "total_seconds": 0.4680305079964455,
+        "samples": 1,
+        "median": 0.4680305079964455,
+        "p90": 0.4680305079964455,
+        "maximum": 0.4680305079964455
+      },
+      "ordinary_ppg": {
+        "total_seconds": 0.6789451949880458,
+        "samples": 1,
+        "median": 0.6789451949880458,
+        "p90": 0.6789451949880458,
+        "maximum": 0.6789451949880458
+      },
+      "component_update_commit_reload": {
+        "total_seconds": 5.2501789100060705,
+        "samples": 1,
+        "median": 5.2501789100060705,
+        "p90": 5.2501789100060705,
+        "maximum": 5.2501789100060705
+      }
+    },
+    "peak_process_tree_rss_bytes": 6852640768,
+    "sampled_process_tree_cpu_seconds": 60.32999999999999,
+    "process_samples": 622,
+    "exited_process_reads": 0,
+    "cuda_setup": {
+      "device": "cuda:0",
+      "initialized_before": true,
+      "seconds": 0.00013094398309476674
+    },
+    "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+    "device_memory": {
+      "host_resident_bytes": 2810748928,
+      "cuda_allocated_bytes": 190820864,
+      "cuda_reserved_bytes": 681574400,
+      "cuda_peak_allocated_bytes": 596331008,
+      "cuda_peak_reserved_bytes": 681574400
+    }
+  },
+  "result": {
+    "ppo_steps": 2,
+    "ppg_steps": 2,
+    "attempted_ppg_steps": 2,
+    "generation": 1251,
+    "checkpoint_restored": true,
+    "current_recipe": "895d866502425dad30f2277b822dba2a15247f9a701d2dd5dd10b7e396de3ca8",
+    "ages": [
+      1250,
+      1251
+    ],
+    "row_bounds": {
+      "actor": 145,
+      "critic_train": 64,
+      "critic_validation": 16
+    },
+    "scope": "Isolated current-checkpoint PPO/PPG and G-to-G+1 component commit; authored inputs, no new games"
+  },
+  "new_games": 0,
+  "scope": "Authored 145 actor / 64 critic / 16 validation rows, actual g1250 recipe/model/Adams. Kernel phase sample, not full-iteration throughput"
+}

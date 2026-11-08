@@ -1,0 +1,10 @@
+{
+  "milestone": "B07-production",
+  "passed": false,
+  "expected_generation": 125,
+  "training_started": false,
+  "production_adoption": "Pending",
+  "next_normal_commit_restart": "Pending",
+  "error": "Run moved outside the requested G-to-G+1 boundary; never rewind it",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 170, in main\n    execute(args, out, report, invoke)\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 102, in execute\n    state, selected = inspect()\n                      ^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 88, in inspect\n    selected = stage(state, args.expected_generation)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-lab-b07.py\", line 32, in stage\n    require(state['iteration'] in (generation, generation+1),\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Run moved outside the requested G-to-G+1 boundary; never rewind it\n"
+}

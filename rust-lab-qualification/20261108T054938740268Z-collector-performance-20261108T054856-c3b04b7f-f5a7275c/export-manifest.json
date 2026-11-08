@@ -1,0 +1,77 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-08T05:49:38.742338+00:00",
+  "source": "artifacts/rust-backend/collector-performance-20261108T054856-c3b04b7f",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/collector-performance-20261108T054856-c3b04b7f",
+  "review_only": true,
+  "files": [
+    {
+      "source": "previous-ordinary-build.json",
+      "path": "evidence/previous-ordinary-build.json",
+      "source_bytes": 221227,
+      "source_sha256": "49fa8d87ed3fb36d1a904e85047415c1b1ffc4eb75f6a48c1dc05a3ead4654ce",
+      "bytes": 221227,
+      "sha256": "49fa8d87ed3fb36d1a904e85047415c1b1ffc4eb75f6a48c1dc05a3ead4654ce",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 711,
+      "source_sha256": "0ed3b7e2ac1f5672edba4d478a1261e6fd5f7016cc4eca04aebebf101e899518",
+      "bytes": 711,
+      "sha256": "0ed3b7e2ac1f5672edba4d478a1261e6fd5f7016cc4eca04aebebf101e899518",
+      "gzip": false
+    },
+    {
+      "source": "runtime/build.json",
+      "path": "evidence/runtime/build.json",
+      "source_bytes": 220633,
+      "source_sha256": "95ab16fe91d04be2035a58201d5a7d4766ef564278313bf34a9cf56bd1ebed5a",
+      "bytes": 220633,
+      "sha256": "95ab16fe91d04be2035a58201d5a7d4766ef564278313bf34a9cf56bd1ebed5a",
+      "gzip": false
+    },
+    {
+      "source": "runtime/build.log",
+      "path": "evidence/runtime/build.log",
+      "source_bytes": 2530,
+      "source_sha256": "f1cfadaf8636a6b29447a967b7241a95bb1d62195640857a416c5c97eb6104f4",
+      "bytes": 2530,
+      "sha256": "f1cfadaf8636a6b29447a967b7241a95bb1d62195640857a416c5c97eb6104f4",
+      "gzip": false
+    },
+    {
+      "source": "runtime/performance-wire.log",
+      "path": "evidence/runtime/performance-wire.log",
+      "source_bytes": 1387,
+      "source_sha256": "9b127dc152de683303f84a91a6ee0968beff6b73eb9bfb9896fa6413dca27c48",
+      "bytes": 1387,
+      "sha256": "9b127dc152de683303f84a91a6ee0968beff6b73eb9bfb9896fa6413dca27c48",
+      "gzip": false
+    },
+    {
+      "source": "runtime/test.log",
+      "path": "evidence/runtime/test.log",
+      "source_bytes": 7045,
+      "source_sha256": "8739b98ba62574d5fd72ac999c1633ff5e13d0b0f83c5e20f1148cef3890cf2c",
+      "bytes": 7045,
+      "sha256": "8739b98ba62574d5fd72ac999c1633ff5e13d0b0f83c5e20f1148cef3890cf2c",
+      "gzip": false
+    }
+  ],
+  "omitted": [
+    {
+      "source": "runtime/inputs",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "runtime/checkout",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "runtime/target",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}

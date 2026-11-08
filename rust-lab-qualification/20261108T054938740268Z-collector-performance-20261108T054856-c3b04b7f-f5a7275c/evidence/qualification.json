@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "scope": "Ordinary wire build/short regressions only; no training or teacher rebuild",
+  "expected_generation": 1258,
+  "reused": false,
+  "runtime": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/collector-performance/build.json",
+    "bytes": 221503,
+    "sha256": "17046ed24860f8b07ed4854cdc7643a4e7bf104302111e9fd559861c5cb9d0a8"
+  },
+  "generation": 1258,
+  "checkpoint": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/generation-1258.pt",
+    "sha256": "3653935cf45e122085a4c5ba47b5fb2049dab08e9b013a176e7c5946394f7780",
+    "model_id": "30d492731bb91d1d9886835b143ae5d9ac4bc5d33a7667822ef54ab6db27cdf6",
+    "generation": 1258
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "action": "adopt",
+  "passed": true,
+  "training_advanced": false,
+  "adopted": true,
+  "teacher": "off",
+  "rollback": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T122742698740Z-b07-continue-537723a8/adopt/rollback/diagnostic-fork.json",
+    "bytes": 2910343,
+    "sha256": "22e77b36af98be8acb580af7601cfccea56b811eeb3749f32e35a9e29bc306ee"
+  },
+  "next_commit": "Pending: next normally authorized G-to-G+1 iteration and restart"
+}

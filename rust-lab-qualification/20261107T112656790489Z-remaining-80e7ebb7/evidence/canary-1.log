@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py", line 224, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py", line 109, in main
+    if args.phase:return child(args)
+                         ^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py", line 76, in child
+    report.update(smoke.canary(args,snapshot,teacher,old.INPUTS,int(args.phase[-1])))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b07_smoke.py", line 102, in canary
+    try:values.admit(tables,jobs,generation,post_spent=max(policy_sealing.values()))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/search_value_phase.py", line 56, in admit
+    require(turn['post_search_ns']/1e9+post_spent+elapsed <= allowance,
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: Value sealing exceeded final-turn post allowance for 8b87b9220db3246e8693701cf73668f92e738f4476c706964f1964dd2413c94f: seal=0.258618s policy_seal=0.226983s post=0.016149s limit=0.2s

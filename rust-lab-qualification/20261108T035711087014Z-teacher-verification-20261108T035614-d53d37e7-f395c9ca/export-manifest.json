@@ -1,0 +1,59 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-08T03:57:11.088065+00:00",
+  "source": "artifacts/rust-backend/teacher-verification-20261108T035614-d53d37e7",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/teacher-verification-20261108T035614-d53d37e7",
+  "review_only": true,
+  "files": [
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 391,
+      "source_sha256": "62b79141cffb22c6951b92c1b63f4c239c33018bab0c14e02e334fc25c9f805d",
+      "bytes": 391,
+      "sha256": "62b79141cffb22c6951b92c1b63f4c239c33018bab0c14e02e334fc25c9f805d",
+      "gzip": false
+    },
+    {
+      "source": "runtime/build.json",
+      "path": "evidence/runtime/build.json",
+      "source_bytes": 35696,
+      "source_sha256": "be6622b212811ac40bc31ef9ed3eab9bbf1bb08b7207c204fd6989f232ab0bf4",
+      "bytes": 35696,
+      "sha256": "be6622b212811ac40bc31ef9ed3eab9bbf1bb08b7207c204fd6989f232ab0bf4",
+      "gzip": false
+    },
+    {
+      "source": "runtime/build.log",
+      "path": "evidence/runtime/build.log",
+      "source_bytes": 2524,
+      "source_sha256": "6fa6d5f8754829134ab41ae2412cb55e36b749e8c9c723a5c592a5f09af6388a",
+      "bytes": 2524,
+      "sha256": "6fa6d5f8754829134ab41ae2412cb55e36b749e8c9c723a5c592a5f09af6388a",
+      "gzip": false
+    },
+    {
+      "source": "runtime/test.log",
+      "path": "evidence/runtime/test.log",
+      "source_bytes": 10043,
+      "source_sha256": "99708c5918f7c45bb1958f6321d1c259684ce8860276ed3194d457aa5619462a",
+      "bytes": 10043,
+      "sha256": "99708c5918f7c45bb1958f6321d1c259684ce8860276ed3194d457aa5619462a",
+      "gzip": false
+    }
+  ],
+  "omitted": [
+    {
+      "source": "runtime/inputs",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "runtime/checkout",
+      "reason": "build/runtime/payload directory or symlink"
+    },
+    {
+      "source": "runtime/target",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}

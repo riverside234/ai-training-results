@@ -1,0 +1,167 @@
+{
+  "milestone": "B07",
+  "passed": false,
+  "lab_qualification": "Pending",
+  "production_modified": false,
+  "production_adoption": "Pending",
+  "next_normal_commit_restart": "Pending",
+  "previous_qualifications_repeated": false,
+  "implementation": "0126dd6a9d3c1b2e3981ea668256d2c2477dac4de25c59b5c9b7f8cfa24d750e",
+  "prerequisites": {
+    "B02": {
+      "path": "results/rust-lab-qualification/20261104T012220551953Z-20261104T011422740838Z-g570-all-8bee9d91-e1605e8c/evidence/b02/qualification.json",
+      "sha256": "88e7136e4d935c63dee3f71c4b3cc49b9202356792bf36a96e4d71b6945122ec"
+    },
+    "B04.5": {
+      "path": "results/rust-lab-qualification/20261107T060856941600Z-20261107T060554386081Z-g1250-b045-76165ac4-a1db73ac/evidence/qualification.json",
+      "sha256": "4830d679141ea1fd1b4e469cc969251b6a5b6d0ec988ea0410039f4090169bc3"
+    },
+    "B05": {
+      "path": "results/rust-lab-qualification/20261107T070806231803Z-20261107T070539193547Z-g1250-b05-88497ac1-cf4704fd/evidence/qualification.json",
+      "sha256": "b323c55579bdfc875707cc1d36c42f01a9713fc88a82648aab24395962ab3b0c"
+    },
+    "B06": {
+      "path": "results/rust-lab-qualification/20261107T080012822445Z-20261107T075601452661Z-g1250-b06-c1cd94b2-2c29d5e3/evidence/qualification.json",
+      "sha256": "fc07359069538cf75a7413bd8f522f0e5bea133f56daa8d0a86c3b64f07e4081"
+    }
+  },
+  "environment": {
+    "psutil": "7.2.2",
+    "requirements": "distribution/rust-lab-b06-g1250/requirements.txt",
+    "device": "cpu",
+    "torch": "2.8.0+cu128",
+    "cuda_build": "12.8",
+    "sampler": {
+      "phases": {},
+      "peak_process_tree_rss_bytes": 520253440,
+      "sampled_process_tree_cpu_seconds": 0,
+      "process_samples": 1,
+      "exited_process_reads": 0,
+      "cuda_setup": null,
+      "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+      "device_memory": {
+        "host_resident_bytes": 520536064
+      }
+    }
+  },
+  "generation": 1250,
+  "checkpoint_sha256": "de427bb22e38cc5dc9d4e79151cccdb321650c02978f79bcdad746c3e6be7985",
+  "config_sha256": "895d866502425dad30f2277b822dba2a15247f9a701d2dd5dd10b7e396de3ca8",
+  "ordinary_build": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T115808701063Z-b07-continue-1128185f/remaining/ordinary-build.json",
+    "bytes": 221347,
+    "sha256": "2ed1096dc7e860a4fe19e1592c745959e08ad2f31131b559d90507fa1b2f7115"
+  },
+  "ordinary_reused": {
+    "result": "results/rust-lab-qualification/20261107T110307031706Z-20261107T110018084733Z-g1250-b07-49ed6ce1-fc892c78",
+    "implementation": "12d996a03debe816d1c3661872faeafa9e79c6ea97646d83cf19393dd57bd5ba",
+    "runtime_unchanged": false,
+    "evidence": {
+      "qualification": {
+        "file": "b07-r4-qualification.json",
+        "sha256": "0ba62d2e43bcced23e270154e48b175846d30cf9cd212ea30c8d8c9d8a889393"
+      },
+      "ordinary": {
+        "file": "b07-r4-ordinary-checks.json",
+        "sha256": "4f7f0a8264b43cc664727505d748f29d732ad0c0ca6db3393bfe1b208b67fc17"
+      },
+      "snapshot": {
+        "file": "b07-r4-snapshot.json.gz",
+        "sha256": "784d53a88ec6435dff3cfe16a66f5fff9013f9b415f44950b24886228a4562e9"
+      },
+      "v4": {
+        "file": "b07-r4-v4-parity.json",
+        "sha256": "03c1a074ae6ac49f9ebbcff748434a5ecf8dd5fbf26e0bd0425814c60d383dec"
+      },
+      "build": {
+        "file": "b07-r4-ordinary-build.json",
+        "sha256": "b3c0de6ee6d5db06903f20008b2518c39c0fce527e5c843df46683203c84eb6f"
+      }
+    },
+    "ordinary_execution_unchanged": true
+  },
+  "completion_workflow": "2498d5c56c43b6d1503a932cff653ad9e52fb52ffb2189b4cf4c3c8bea8f15b2",
+  "completion_state": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart/state.json",
+    "bytes": 2287509,
+    "sha256": "5b75066f6f8daeea3df3df13df03875adb3fefe4c317f7fbdbe26c82e8d5c667"
+  },
+  "completed_phases": {},
+  "teacher_build": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T115808701063Z-b07-continue-1128185f/remaining/teacher-build.json",
+    "bytes": 35746,
+    "sha256": "3b2bd8b739a0453662b2ba0649b799e6cb8427e9edf679299223d94a97a04e15"
+  },
+  "prior_ordinary_performance": {
+    "collection_ratio_reference_over_rust": 0.7492538663327284,
+    "collection_seconds_saved": -8.6251059040369,
+    "useful_collection_gain": false,
+    "accepted_work_ratio_reference_over_rust": 0.7164034668178587,
+    "accepted_work_seconds_saved": -11.413763071992435,
+    "useful_accepted_work_gain": false,
+    "statistical_claim": false,
+    "whole_iteration_speedup": null,
+    "scope": "One bounded frozen batch per arm; startup, admission and preparation reported separately"
+  },
+  "error": "Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T115808701063Z-b07-continue-1128185f/remaining/canary-1.log",
+  "failed_phase": "canary-1",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py\", line 195, in main\n    base.command(command,cwd=ROOT,env=dict(env,BRASS_B07_PARENT_LOCK=(args.run/'.active-run.json').read_text()),\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab.py\", line 123, in command\n    require(code == 0, 'Qualification command failed; see ' + str(log))\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Qualification command failed; see /data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261107T115808701063Z-b07-continue-1128185f/remaining/canary-1.log\n",
+  "failure": {
+    "prerequisites": {
+      "B02": {
+        "path": "results/rust-lab-qualification/20261104T012220551953Z-20261104T011422740838Z-g570-all-8bee9d91-e1605e8c/evidence/b02/qualification.json",
+        "sha256": "88e7136e4d935c63dee3f71c4b3cc49b9202356792bf36a96e4d71b6945122ec"
+      },
+      "B04.5": {
+        "path": "results/rust-lab-qualification/20261107T060856941600Z-20261107T060554386081Z-g1250-b045-76165ac4-a1db73ac/evidence/qualification.json",
+        "sha256": "4830d679141ea1fd1b4e469cc969251b6a5b6d0ec988ea0410039f4090169bc3"
+      },
+      "B05": {
+        "path": "results/rust-lab-qualification/20261107T070806231803Z-20261107T070539193547Z-g1250-b05-88497ac1-cf4704fd/evidence/qualification.json",
+        "sha256": "b323c55579bdfc875707cc1d36c42f01a9713fc88a82648aab24395962ab3b0c"
+      },
+      "B06": {
+        "path": "results/rust-lab-qualification/20261107T080012822445Z-20261107T075601452661Z-g1250-b06-c1cd94b2-2c29d5e3/evidence/qualification.json",
+        "sha256": "fc07359069538cf75a7413bd8f522f0e5bea133f56daa8d0a86c3b64f07e4081"
+      }
+    },
+    "environment": {
+      "psutil": "7.2.2",
+      "requirements": "distribution/rust-lab-b06-g1250/requirements.txt",
+      "device": "cuda:0",
+      "torch": "2.8.0+cu128",
+      "cuda_build": "12.8",
+      "sampler": {
+        "phases": {
+          "cuda_preflight_allocation": {
+            "total_seconds": 0.011992860992904752,
+            "samples": 1,
+            "median": 0.011992860992904752,
+            "p90": 0.011992860992904752,
+            "maximum": 0.011992860992904752
+          }
+        },
+        "peak_process_tree_rss_bytes": 704012288,
+        "sampled_process_tree_cpu_seconds": 0,
+        "process_samples": 1,
+        "exited_process_reads": 0,
+        "cuda_setup": {
+          "device": "cuda:0",
+          "initialized_before": false,
+          "seconds": 0.2574837449938059
+        },
+        "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+        "device_memory": {
+          "host_resident_bytes": 718897152,
+          "cuda_allocated_bytes": 512,
+          "cuda_reserved_bytes": 2097152,
+          "cuda_peak_allocated_bytes": 512,
+          "cuda_peak_reserved_bytes": 2097152
+        }
+      }
+    },
+    "passed": false,
+    "error": "Weights only load failed. This file can still be loaded, to do so you have two options, \u001b[1mdo those steps only if you trust the source of the checkpoint\u001b[0m. \n\t(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.\n\t(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.\n\tWeightsUnpickler error: Unsupported global: GLOBAL dict was not an allowed global by default. Please use `torch.serialization.add_safe_globals([dict])` or the `torch.serialization.safe_globals([dict])` context manager to allowlist this global if you trust this class/function.\n\nCheck the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.",
+    "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-lab-b07.py\", line 76, in child\n    report.update(smoke.canary(args,snapshot,teacher,old.INPUTS,int(args.phase[-1])))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/rust_lab_b07_smoke.py\", line 107, in canary\n    restored,saved=load_checkpoint(path)\n                   ^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/checkpoint.py\", line 40, in load_checkpoint\n    raw = torch.load(path, map_location='cpu', weights_only=True)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/torch/serialization.py\", line 1529, in load\n    raise pickle.UnpicklingError(_get_wo_message(str(e))) from None\n_pickle.UnpicklingError: Weights only load failed. This file can still be loaded, to do so you have two options, \u001b[1mdo those steps only if you trust the source of the checkpoint\u001b[0m. \n\t(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.\n\t(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.\n\tWeightsUnpickler error: Unsupported global: GLOBAL dict was not an allowed global by default. Please use `torch.serialization.add_safe_globals([dict])` or the `torch.serialization.safe_globals([dict])` context manager to allowlist this global if you trust this class/function.\n\nCheck the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.\n"
+  }
+}
