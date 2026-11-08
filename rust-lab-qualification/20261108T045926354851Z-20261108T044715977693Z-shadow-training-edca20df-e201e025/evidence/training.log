@@ -1,0 +1,60 @@
+CUDA selection: logical cuda:0; CUDA_VISIBLE_DEVICES='0'; selected token='0'; UUID=3d06f287-eb90-1ae5-3786-d4a0c0dbbcf2. Logical cuda:0 is the first visible GPU.
+self-play prepare (CPU, 16 readers): starting (320 shards)
+self-play prepare (CPU, 16 readers): 20% (64/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 40% (128/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 60% (192/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 80% (256/320 shards; 0.0s)
+self-play prepare (CPU, 16 readers): 100% (320/320 shards; 0.5s)
+Recovery generation 1258: 402560 games, 46 PPO steps; collect=204.2s prepare=7.9s rehearsal=0.0s PPO=69.9s value_phase=55.7s teacher=0.0s shadow_collect=116.7s diagnostics=0.5s eval=0.2s cleanup=0.0s; total=463.6s; NN batch mean=5.41; LR=7.5e-06 LRmult=1.250 apply:hold v4=0/320[reduced] q=3 eps=0.00 explore_age=1257 entropy=canal_action:0.00100,canal_other:0.00100,rail_action:0.00100,rail_other:0.00100 anneal=100/100 held=141 complete GAE=0.95->0.95 value_steps=32/48 value_stop=heldout_loss_increased value_lr=4.9e-06 value_peak=4.9e-06[PPO] PPGbeta=0.125->0.125 critic=preserve Vkeep=0.00017 Vdrift=0.00698 value_intervals=2/3 GAE-health=0/20 PPG-critic-window=128steps/6iters value_rows=60841+70231 snapshots=1@1.00 snapshot_weight=fixed GAE-mixed=historical:0.95[7/10](95g/8,19i) AnchorKL=off health=ok history=25/25 not_due PFSP=IL:0.008 effective:23.4 alarms:0 v4=PFSP:0.008 mixedEV=historical:0.261vs0.338[below_tolerance] local=apply@1.00 rows=167753/255352 head_steps=46+32 aux_stage=full fit=32steps/697games aux_next=1.00 KLT1=0.00792 KLbehavior=0.00784 KLsample_probe=0.00821 KLfull=disabled KLstop=none value=0.0002; insolvency events=14 mean cost=0.0000; teacher=shadow labels=512 beta=1.0 share=1.752155598896488 heldout_dKL=0.010178748866030927 grad_qualification=pending fixed_beta=None target=0.25
+Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/scripts/step5.py", line 43, in <module>
+    main()
+  File "/data/not_backed_up/yxu209/ai-training/scripts/step5.py", line 39, in main
+    run()
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/cli.py", line 192, in main
+    result = train(root, a.run, config, iterations=a.iterations, device=a.device, initial=a.initial,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/league.py", line 105, in train
+    return run(root,run_path,config,**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py", line 76, in train
+    return run_stages(Path(root),run_path,config,runner=_train,iterations=iterations,device=device,initial=initial,mono=mono,from_run=from_run,imitation_run=imitation_run,resume_reviewed_source=resume_reviewed_source,inference_devices=inference_devices,il_kl_probe_from_run=il_kl_probe_from_run)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/automatic_training.py", line 36, in run
+    result=runner(root,run_path,config,iterations=remaining,**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py", line 523, in _train
+    if normal: records+=ordinary.collect(normal,on_records=prepared_collection.submit)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_backend.py", line 114, in collect
+    result=pool.collect(jobs,on_records=on_records)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py", line 485, in collect
+    error,tb=first[0];raise error.with_traceback(tb)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py", line 446, in collect
+    return self.receive(connection,submit=submit,timeout=360,shared_allocate=self.shared.allocate)['result']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py", line 335, in receive
+    require('error' not in message,message.get('error',''))
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: Traceback (most recent call last):
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py", line 250, in lane
+    part=collect_lane(root,build['collector']['path'],bootstrap,job,endpoint,execution,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_collection.py", line 167, in collect_lane
+    t=time.monotonic(); lane.append(row,evidence,allow_forced=neural); timings['native_step_seconds']+=time.monotonic()-t
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 209, in append
+    reply = self.call('append_compact',token=self.token,record=record,forced_limit=16 if self.batch_forced and allow_forced else 0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 176, in call
+    result = super().call(op, **fields)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py", line 129, in call
+    require(reply.get('ok') is True, str(reply.get('error', 'Collector error')))
+  File "/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py", line 44, in require
+    raise ValueError(message)
+ValueError: invalid request: bonus state mismatch
+

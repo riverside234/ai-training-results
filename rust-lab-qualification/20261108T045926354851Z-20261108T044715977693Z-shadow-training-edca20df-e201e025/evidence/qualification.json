@@ -1,0 +1,52 @@
+{
+  "passed": false,
+  "training_passed": false,
+  "teacher_mode": "shadow",
+  "branching": 0.0,
+  "tables": {
+    "train": 28,
+    "held_out": 4
+  },
+  "share_target": 0.25,
+  "expected_generation": 1257,
+  "execution_source": {
+    "implementation": "3e1de866b56e821c9d8492152c27afff924ffb52fe2c7e75089c45a7a69f0c98",
+    "qualified_implementation": "9efcf34f853d75ab844366b6819da4b0921be38d3e2dfb806cf282ace76e7a30",
+    "replay_location_review": "32006f021a5f730c59330ee5e73c00f93b73068845439dd4cc0544c41818637f"
+  },
+  "collector_runtime": {
+    "collector_validation": "production_fast",
+    "replay_bindings": true
+  },
+  "training_command": [
+    "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+    "-u",
+    "/data/not_backed_up/yxu209/ai-training/scripts/step5.py",
+    "--root",
+    "/data/not_backed_up/yxu209/ai-training",
+    "--config",
+    "/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json",
+    "--device",
+    "cuda",
+    "--mono",
+    "mono",
+    "train",
+    "--run",
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+    "--expected-generation",
+    "1257",
+    "--iterations",
+    "2",
+    "--imitation-run",
+    "artifacts/step5/features4-v11-2-batch7-il",
+    "--resume-reviewed-source"
+  ],
+  "error": "Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '-u', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', 'artifacts/step5/joint7-v11-2-g1290-trained-restart', '--expected-generation', '1257', '--iterations', '2', '--imitation-run', 'artifacts/step5/features4-v11-2-batch7-il', '--resume-reviewed-source']' returned non-zero exit status 1.",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-shadow.py\", line 109, in main\n    run_training(argv,out/'training.log')\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-shadow.py\", line 23, in run_training\n    if code:raise subprocess.CalledProcessError(code,argv)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsubprocess.CalledProcessError: Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '-u', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', 'artifacts/step5/joint7-v11-2-g1290-trained-restart', '--expected-generation', '1257', '--iterations', '2', '--imitation-run', 'artifacts/step5/features4-v11-2-batch7-il', '--resume-reviewed-source']' returned non-zero exit status 1.\n",
+  "training_log": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261108T044715977693Z-shadow-training-edca20df/training.log",
+    "bytes": 6414,
+    "sha256": "4d2449ddc3a8a205741c2bf1d4787f2cb1e7174f7d9d8760b9538adfc8869811"
+  },
+  "training_error_tail": "CUDA selection: logical cuda:0; CUDA_VISIBLE_DEVICES='0'; selected token='0'; UUID=3d06f287-eb90-1ae5-3786-d4a0c0dbbcf2. Logical cuda:0 is the first visible GPU.\nself-play prepare (CPU, 16 readers): starting (320 shards)\nself-play prepare (CPU, 16 readers): 20% (64/320 shards; 0.0s)\nself-play prepare (CPU, 16 readers): 40% (128/320 shards; 0.0s)\nself-play prepare (CPU, 16 readers): 60% (192/320 shards; 0.0s)\nself-play prepare (CPU, 16 readers): 80% (256/320 shards; 0.0s)\nself-play prepare (CPU, 16 readers): 100% (320/320 shards; 0.5s)\nRecovery generation 1258: 402560 games, 46 PPO steps; collect=204.2s prepare=7.9s rehearsal=0.0s PPO=69.9s value_phase=55.7s teacher=0.0s shadow_collect=116.7s diagnostics=0.5s eval=0.2s cleanup=0.0s; total=463.6s; NN batch mean=5.41; LR=7.5e-06 LRmult=1.250 apply:hold v4=0/320[reduced] q=3 eps=0.00 explore_age=1257 entropy=canal_action:0.00100,canal_other:0.00100,rail_action:0.00100,rail_other:0.00100 anneal=100/100 held=141 complete GAE=0.95->0.95 value_steps=32/48 value_stop=heldout_loss_increased value_lr=4.9e-06 value_peak=4.9e-06[PPO] PPGbeta=0.125->0.125 critic=preserve Vkeep=0.00017 Vdrift=0.00698 value_intervals=2/3 GAE-health=0/20 PPG-critic-window=128steps/6iters value_rows=60841+70231 snapshots=1@1.00 snapshot_weight=fixed GAE-mixed=historical:0.95[7/10](95g/8,19i) AnchorKL=off health=ok history=25/25 not_due PFSP=IL:0.008 effective:23.4 alarms:0 v4=PFSP:0.008 mixedEV=historical:0.261vs0.338[below_tolerance] local=apply@1.00 rows=167753/255352 head_steps=46+32 aux_stage=full fit=32steps/697games aux_next=1.00 KLT1=0.00792 KLbehavior=0.00784 KLsample_probe=0.00821 KLfull=disabled KLstop=none value=0.0002; insolvency events=14 mean cost=0.0000; teacher=shadow labels=512 beta=1.0 share=1.752155598896488 heldout_dKL=0.010178748866030927 grad_qualification=pending fixed_beta=None target=0.25\nTraceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/step5.py\", line 43, in <module>\n    main()\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/step5.py\", line 39, in main\n    run()\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/cli.py\", line 192, in main\n    result = train(root, a.run, config, iterations=a.iterations, device=a.device, initial=a.initial,\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/league.py\", line 105, in train\n    return run(root,run_path,config,**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py\", line 76, in train\n    return run_stages(Path(root),run_path,config,runner=_train,iterations=iterations,device=device,initial=initial,mono=mono,from_run=from_run,imitation_run=imitation_run,resume_reviewed_source=resume_reviewed_source,inference_devices=inference_devices,il_kl_probe_from_run=il_kl_probe_from_run)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/automatic_training.py\", line 36, in run\n    result=runner(root,run_path,config,iterations=remaining,**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py\", line 523, in _train\n    if normal: records+=ordinary.collect(normal,on_records=prepared_collection.submit)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_backend.py\", line 114, in collect\n    result=pool.collect(jobs,on_records=on_records)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py\", line 485, in collect\n    error,tb=first[0];raise error.with_traceback(tb)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py\", line 446, in collect\n    return self.receive(connection,submit=submit,timeout=360,shared_allocate=self.shared.allocate)['result']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py\", line 335, in receive\n    require('error' not in message,message.get('error',''))\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py\", line 250, in lane\n    part=collect_lane(root,build['collector']['path'],bootstrap,job,endpoint,execution,\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_collection.py\", line 167, in collect_lane\n    t=time.monotonic(); lane.append(row,evidence,allow_forced=neural); timings['native_step_seconds']+=time.monotonic()-t\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py\", line 209, in append\n    reply = self.call('append_compact',token=self.token,record=record,forced_limit=16 if self.batch_forced and allow_forced else 0)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py\", line 176, in call\n    result = super().call(op, **fields)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_transport.py\", line 129, in call\n    require(reply.get('ok') is True, str(reply.get('error', 'Collector error')))\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: invalid request: bonus state mismatch\n\n"
+}
