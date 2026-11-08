@@ -1,0 +1,45 @@
+{
+  "passed": false,
+  "training_passed": false,
+  "teacher_mode": "shadow",
+  "branching": 0.0,
+  "tables": {
+    "train": 28,
+    "held_out": 4
+  },
+  "share_target": 0.25,
+  "expected_generation": 1257,
+  "execution_source": {
+    "implementation": "323d07b20c9086c7f69cebb7d3a4e9164f60959caec17b4e48e554bcfb0b4803",
+    "qualified_implementation": "9efcf34f853d75ab844366b6819da4b0921be38d3e2dfb806cf282ace76e7a30",
+    "replay_location_review": "4d0aba144cc913e25fb72dbe8cdfef0199efea57710c1eb1bd3475cd731b6834"
+  },
+  "collector_runtime": {
+    "collector_validation": "production_fast",
+    "replay_bindings": true
+  },
+  "training_command": [
+    "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+    "/data/not_backed_up/yxu209/ai-training/scripts/step5.py",
+    "--root",
+    "/data/not_backed_up/yxu209/ai-training",
+    "--config",
+    "/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json",
+    "--device",
+    "cuda",
+    "--mono",
+    "mono",
+    "train",
+    "--run",
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+    "--expected-generation",
+    "1257",
+    "--iterations",
+    "2",
+    "--imitation-run",
+    "artifacts/step5/features4-v11-2-batch7-il",
+    "--resume-reviewed-source"
+  ],
+  "error": "Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', 'artifacts/step5/joint7-v11-2-g1290-trained-restart', '--expected-generation', '1257', '--iterations', '2', '--imitation-run', 'artifacts/step5/features4-v11-2-batch7-il', '--resume-reviewed-source']' returned non-zero exit status 1.",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-shadow.py\", line 78, in main\n    subprocess.run(argv,cwd=ROOT,check=True)\n  File \"/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-shadow32-no-branch-share025.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', 'artifacts/step5/joint7-v11-2-g1290-trained-restart', '--expected-generation', '1257', '--iterations', '2', '--imitation-run', 'artifacts/step5/features4-v11-2-batch7-il', '--resume-reviewed-source']' returned non-zero exit status 1.\n"
+}
