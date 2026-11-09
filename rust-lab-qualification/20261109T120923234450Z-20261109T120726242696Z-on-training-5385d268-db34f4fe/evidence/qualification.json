@@ -1,0 +1,77 @@
+{
+  "passed": false,
+  "training_passed": false,
+  "teacher_mode": "on",
+  "branching": 0.0,
+  "tables": {
+    "train": 28,
+    "held_out": 4
+  },
+  "share_target": 0.25,
+  "qualification_iterations": 4,
+  "expected_generation": 1290,
+  "execution_source": {
+    "implementation": "38c3b310e6ee8a9798f4b593922f48074bfcf5e52a2eacd6a2b1c31fedaefccd",
+    "qualified_implementation": "9efcf34f853d75ab844366b6819da4b0921be38d3e2dfb806cf282ace76e7a30",
+    "replay_location_review": "b9e7bb2a43f626d80d4cda8a64a7705abb2485f694cb4fcc0e5f10f5abae04f7"
+  },
+  "collector_runtime": {
+    "collector_validation": "production_fast",
+    "replay_bindings": true,
+    "native_inference": {
+      "contract": "brass-lab-cpu-inference/1.0.0",
+      "ordinary": "cpu-ort",
+      "teacher": "cpu-ort",
+      "rating": "cpu-ort",
+      "pinning": "one-lane-per-cpu",
+      "workers": 64,
+      "model_cache": 8,
+      "teacher_budget": {
+        "mode": "count",
+        "full": 640,
+        "full_k": 16,
+        "fast": 96,
+        "fast_k": 8
+      }
+    }
+  },
+  "stage_schedule": {
+    "contract": "search-value-stage-schedule/2.0.0",
+    "stage_a_iterations": 10,
+    "stage_b_iterations": 20,
+    "stage_c_iterations": 10,
+    "validation_interval": 10,
+    "validation_during_beta_qualification": true
+  },
+  "training_command": [
+    "/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python",
+    "-u",
+    "/data/not_backed_up/yxu209/ai-training/scripts/step5.py",
+    "--root",
+    "/data/not_backed_up/yxu209/ai-training",
+    "--config",
+    "/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-teacher-on-stages-v2-no-insolvency-share025.json",
+    "--device",
+    "cuda",
+    "--mono",
+    "mono",
+    "train",
+    "--run",
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+    "--expected-generation",
+    "1290",
+    "--iterations",
+    "1",
+    "--imitation-run",
+    "artifacts/step5/features4-v11-2-batch7-il",
+    "--resume-reviewed-source"
+  ],
+  "error": "Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '-u', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-teacher-on-stages-v2-no-insolvency-share025.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', 'artifacts/step5/joint7-v11-2-g1290-trained-restart', '--expected-generation', '1290', '--iterations', '1', '--imitation-run', 'artifacts/step5/features4-v11-2-batch7-il', '--resume-reviewed-source']' returned non-zero exit status 1.",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-shadow.py\", line 173, in main\n    run_training(argv,out/'training.log')\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/continue-rust-shadow.py\", line 23, in run_training\n    if code:raise subprocess.CalledProcessError(code,argv)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsubprocess.CalledProcessError: Command '['/data/not_backed_up/yxu209/conda_envs/ai-training/bin/python', '-u', '/data/not_backed_up/yxu209/ai-training/scripts/step5.py', '--root', '/data/not_backed_up/yxu209/ai-training', '--config', '/data/not_backed_up/yxu209/ai-training/configs/step5/joint7-v11-2-g1290-trained-restart-rust-teacher-on-stages-v2-no-insolvency-share025.json', '--device', 'cuda', '--mono', 'mono', 'train', '--run', 'artifacts/step5/joint7-v11-2-g1290-trained-restart', '--expected-generation', '1290', '--iterations', '1', '--imitation-run', 'artifacts/step5/features4-v11-2-batch7-il', '--resume-reviewed-source']' returned non-zero exit status 1.\n",
+  "training_log": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261109T120726242696Z-on-training-5385d268/training.log",
+    "bytes": 2755,
+    "sha256": "229b3e7f6c208ad9324eb5800fd8447185e0dcff996e53c4f5afe2d346c05312"
+  },
+  "training_error_tail": "CUDA selection: logical cuda:0; CUDA_VISIBLE_DEVICES='0'; selected token='0'; UUID=3d06f287-eb90-1ae5-3786-d4a0c0dbbcf2. Logical cuda:0 is the first visible GPU.\nTraceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/step5.py\", line 43, in <module>\n    main()\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/step5.py\", line 39, in main\n    run()\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/cli.py\", line 192, in main\n    result = train(root, a.run, config, iterations=a.iterations, device=a.device, initial=a.initial,\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/step5/league.py\", line 69, in train\n    return run(root,run_path,config,**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py\", line 76, in train\n    return run_stages(Path(root),run_path,config,runner=_train,iterations=iterations,device=device,initial=initial,mono=mono,from_run=from_run,imitation_run=imitation_run,resume_reviewed_source=resume_reviewed_source,inference_devices=inference_devices,il_kl_probe_from_run=il_kl_probe_from_run)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/automatic_training.py\", line 36, in run\n    result=runner(root,run_path,config,iterations=remaining,**kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/recovery/league.py\", line 534, in _train\n    if normal: records+=ordinary.collect(normal,on_records=prepared_collection.submit)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_backend.py\", line 121, in collect\n    with NativePool(self.root,self.service,self.config['execution'],build,\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_pool.py\", line 365, in __init__\n    require(config.get('teacher_phase',{}).get('mode','off') in ('off','shadow') or is_on(config),\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Ordinary backend excludes unqualified teacher on-mode\n"
+}
