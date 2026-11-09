@@ -1,0 +1,68 @@
+test_a_spawned_cpu_lane_reports_mono_bootstrap_and_finishes_a_game (test_cpu_inference.RealLane.test_a_spawned_cpu_lane_reports_mono_bootstrap_and_finishes_a_game)
+The real lane: spawn, Mono probe, Rust collector, CPU evaluator, raw export. ... /data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_cpu_models.py:103: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter will be the default. To switch now, set dynamo=True in torch.onnx.export. This new exporter supports features like exporting LLMs with DynamicCache. We encourage you to try it and share feedback to help improve the experience. Learn more about the new export logic: https://pytorch.org/docs/stable/onnx_dynamo.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html.
+  torch.onnx.export(frozen, tuple(torch.from_numpy(batches[0][k]) for k in BASE_INPUTS), str(path),
+/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/torch/onnx/utils.py:179: DeprecationWarning: The feature will be removed. Please remove usage of this function
+  setup_onnx_logging(verbose) as log_ctx,
+WARNING: failed to run "Concat" op (name is "/Concat_4"), skip... no initializer /Unsqueeze_3_output_0
+WARNING: failed to run "Reshape" op (name is "/Reshape_1"), skip... no initializer /Expand_1_output_0
+WARNING: failed to run "ScatterND" op (name is "/ScatterND"), skip... no initializer /Concat_4_output_0
+ok
+test_a_correct_blend_has_no_error (test_cpu_qualification.BlendError.test_a_correct_blend_has_no_error) ... ok
+test_a_missing_blend_is_detected (test_cpu_qualification.BlendError.test_a_missing_blend_is_detected) ... ok
+test_a_correct_table_passes (test_cpu_qualification.Budgets.test_a_correct_table_passes) ... ok
+test_every_wrong_budget_fails_by_name (test_cpu_qualification.Budgets.test_every_wrong_budget_fails_by_name) ... ok
+test_production_budget_is_the_requested_one (test_cpu_qualification.Budgets.test_production_budget_is_the_requested_one) ... ok
+test_searches_stopped_by_the_safety_cap_fail (test_cpu_qualification.Budgets.test_searches_stopped_by_the_safety_cap_fail) ... ok
+test_zero_quota_turns_are_not_searches (test_cpu_qualification.Budgets.test_zero_quota_turns_are_not_searches) ... ok
+test_a_changed_iteration_is_reported (test_cpu_qualification.CrashedIteration.test_a_changed_iteration_is_reported) ... ok
+test_a_missing_iteration_is_empty (test_cpu_qualification.CrashedIteration.test_a_missing_iteration_is_empty) ... ok
+test_an_unfinished_checkpoint_still_stops_it (test_cpu_qualification.CrashedIteration.test_an_unfinished_checkpoint_still_stops_it) ... ok
+test_an_untouched_iteration_confirms (test_cpu_qualification.CrashedIteration.test_an_untouched_iteration_confirms) ... ok
+test_capture_runs_past_a_crashed_iteration (test_cpu_qualification.CrashedIteration.test_capture_runs_past_a_crashed_iteration) ... ok
+test_inventory_covers_the_iteration_and_its_uncommitted_shards_only (test_cpu_qualification.CrashedIteration.test_inventory_covers_the_iteration_and_its_uncommitted_shards_only) ... ok
+test_entries_cover_learner_pool_anchor_and_population_once (test_cpu_qualification.League.test_entries_cover_learner_pool_anchor_and_population_once) ... ok
+test_representatives_prefer_the_learner_for_the_search_head (test_cpu_qualification.League.test_representatives_prefer_the_learner_for_the_search_head) ... ok
+test_a_probability_outside_the_bound_is_reported (test_cpu_qualification.Matching.test_a_probability_outside_the_bound_is_reported) ... ok
+test_a_sample_flip_counts_and_stops_the_comparison (test_cpu_qualification.Matching.test_a_sample_flip_counts_and_stops_the_comparison) ... ok
+test_branches_are_compared_too (test_cpu_qualification.Matching.test_branches_are_compared_too) ... ok
+test_different_game_lengths_count_as_divergence (test_cpu_qualification.Matching.test_different_game_lengths_count_as_divergence) ... ok
+test_identical_games_match (test_cpu_qualification.Matching.test_identical_games_match) ... ok
+test_rounding_within_bound_passes (test_cpu_qualification.Matching.test_rounding_within_bound_passes) ... ok
+test_a_failed_or_mostly_skipped_prepare_is_not (test_cpu_qualification.PreparedSuite.test_a_failed_or_mostly_skipped_prepare_is_not) ... ok
+test_a_missing_or_changed_log_is_not (test_cpu_qualification.PreparedSuite.test_a_missing_or_changed_log_is_not) ... ok
+test_a_passing_prepare_is_reused (test_cpu_qualification.PreparedSuite.test_a_passing_prepare_is_reused) ... ok
+test_arms_pair_by_setup_whatever_their_random_ids (test_cpu_qualification.RatedGames.test_arms_pair_by_setup_whatever_their_random_ids) ... ok
+test_a_failed_collection_leaves_a_working_gate_for_later_stages (test_cpu_qualification.Reporting.test_a_failed_collection_leaves_a_working_gate_for_later_stages) ... ok
+test_a_stage_passes_only_if_every_check_passes (test_cpu_qualification.Reporting.test_a_stage_passes_only_if_every_check_passes) ... ok
+test_parity_scales_with_large_heads_and_still_catches_small_ones (test_cpu_qualification.Reporting.test_parity_scales_with_large_heads_and_still_catches_small_ones) ... ok
+test_spread_of_nothing_is_none (test_cpu_qualification.Reporting.test_spread_of_nothing_is_none) ... ok
+test_startup_stage_requires_measurements_from_every_lane (test_cpu_qualification.Reporting.test_startup_stage_requires_measurements_from_every_lane) ... ok
+test_a_passed_stage_is_reused (test_cpu_qualification.Retry.test_a_passed_stage_is_reused) ... ok
+test_a_reviewed_source_change_keeps_only_its_unaffected_stages (test_cpu_qualification.Retry.test_a_reviewed_source_change_keeps_only_its_unaffected_stages) ... ok
+test_a_skipped_stage_is_not_a_pass (test_cpu_qualification.Retry.test_a_skipped_stage_is_not_a_pass) ... ok
+test_environment_and_bundles_always_run_again (test_cpu_qualification.Retry.test_environment_and_bundles_always_run_again) ... ok
+test_other_code_builds_or_checkpoints_never_count (test_cpu_qualification.Retry.test_other_code_builds_or_checkpoints_never_count) ... ok
+test_the_newest_attempt_decides (test_cpu_qualification.Retry.test_the_newest_attempt_decides) ... ok
+/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_cpu_models.py:103: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter will be the default. To switch now, set dynamo=True in torch.onnx.export. This new exporter supports features like exporting LLMs with DynamicCache. We encourage you to try it and share feedback to help improve the experience. Learn more about the new export logic: https://pytorch.org/docs/stable/onnx_dynamo.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html.
+  torch.onnx.export(frozen, tuple(torch.from_numpy(batches[0][k]) for k in BASE_INPUTS), str(path),
+/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/torch/onnx/utils.py:179: DeprecationWarning: The feature will be removed. Please remove usage of this function
+  setup_onnx_logging(verbose) as log_ctx,
+WARNING: failed to run "Concat" op (name is "/Concat_4"), skip... no initializer /Unsqueeze_3_output_0
+WARNING: failed to run "Reshape" op (name is "/Reshape_1"), skip... no initializer /Expand_1_output_0
+WARNING: failed to run "ScatterND" op (name is "/ScatterND"), skip... no initializer /Concat_4_output_0
+/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_cpu_models.py:103: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter will be the default. To switch now, set dynamo=True in torch.onnx.export. This new exporter supports features like exporting LLMs with DynamicCache. We encourage you to try it and share feedback to help improve the experience. Learn more about the new export logic: https://pytorch.org/docs/stable/onnx_dynamo.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html.
+  torch.onnx.export(frozen, tuple(torch.from_numpy(batches[0][k]) for k in BASE_INPUTS), str(path),
+/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/torch/onnx/utils.py:179: DeprecationWarning: The feature will be removed. Please remove usage of this function
+  setup_onnx_logging(verbose) as log_ctx,
+/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_cpu_models.py:103: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter will be the default. To switch now, set dynamo=True in torch.onnx.export. This new exporter supports features like exporting LLMs with DynamicCache. We encourage you to try it and share feedback to help improve the experience. Learn more about the new export logic: https://pytorch.org/docs/stable/onnx_dynamo.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html.
+  torch.onnx.export(frozen, tuple(torch.from_numpy(batches[0][k]) for k in BASE_INPUTS), str(path),
+/data/not_backed_up/yxu209/conda_envs/ai-training/lib/python3.12/site-packages/torch/onnx/utils.py:179: DeprecationWarning: The feature will be removed. Please remove usage of this function
+  setup_onnx_logging(verbose) as log_ctx,
+test_bundles_cover_all_three_model_kinds (test_cpu_qualification.StagesOnFixtures.test_bundles_cover_all_three_model_kinds) ... ok
+test_parity_covers_all_three_model_kinds (test_cpu_qualification.StagesOnFixtures.test_parity_covers_all_three_model_kinds) ... ok
+test_teacher_stage_runs_real_tables_at_each_blend (test_cpu_qualification.StagesOnFixtures.test_teacher_stage_runs_real_tables_at_each_blend) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 36.376s
+
+OK

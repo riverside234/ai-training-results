@@ -1,0 +1,90 @@
+{
+  "contract": "brass-lab-cpu-qualification/1.0.0",
+  "passed": true,
+  "production_modified": false,
+  "expected_generation": 1292,
+  "stages": {
+    "environment": {
+      "passed": true,
+      "seconds": 0.013988466002047062,
+      "failed_checks": []
+    },
+    "regressions": {
+      "passed": true,
+      "seconds": 37.587878500984516,
+      "failed_checks": []
+    },
+    "bundles": {
+      "passed": true,
+      "seconds": 79.64959517196985,
+      "failed_checks": []
+    },
+    "parity": {
+      "passed": true,
+      "seconds": 0.3736271230154671,
+      "failed_checks": []
+    },
+    "teacher": {
+      "passed": true,
+      "seconds": 45.54531548602972,
+      "failed_checks": []
+    },
+    "ordinary": {
+      "passed": true,
+      "seconds": 185.57313009898644,
+      "failed_checks": []
+    },
+    "overlap": {
+      "passed": true,
+      "seconds": 134.35641672404017,
+      "failed_checks": []
+    },
+    "rating": {
+      "passed": true,
+      "seconds": 28.24033124098787,
+      "failed_checks": []
+    },
+    "startup": {
+      "passed": true,
+      "seconds": 3.0105002224445343e-05,
+      "failed_checks": []
+    }
+  },
+  "scope": "Lab qualification of in-worker CPU inference; the run is read only",
+  "execution_source": {
+    "implementation": "102d4622c3ec190e8df9ba4f4e8a17adc2f63e7a82b6264064190c985e452931",
+    "qualified_implementation": "9efcf34f853d75ab844366b6819da4b0921be38d3e2dfb806cf282ace76e7a30",
+    "replay_location_review": "9708f2c5914031202389ea01584b39b0d9973cb42414f4c825d1812f2b824ed8"
+  },
+  "pending_work": {
+    "paths": [],
+    "files": 0,
+    "left_in_place": true
+  },
+  "budget": {
+    "mode": "count",
+    "full": 640,
+    "full_k": 16,
+    "fast": 96,
+    "fast_k": 8,
+    "c_scale": 1.0
+  },
+  "identity": {
+    "contract": "brass-lab-cpu-qualification/1.0.0",
+    "implementation": "102d4622c3ec190e8df9ba4f4e8a17adc2f63e7a82b6264064190c985e452931",
+    "cpu_build": "bdbc1ffabe88fa6787e5b6d68c164aa72bb348329cef7f6ca0a19b084f98e1bd",
+    "checkpoint": "72fddbf9e7436ad2f6f7efc0ff6e1d6d389251859ed91290788bd73b8a9eb1d9",
+    "workers": 64,
+    "budget": {
+      "mode": "count",
+      "full": 640,
+      "full_k": 16,
+      "fast": 96,
+      "fast_k": 8,
+      "c_scale": 1.0
+    },
+    "ordinary_games": 128,
+    "matched_games": 16,
+    "rating_games": 2
+  }
+}

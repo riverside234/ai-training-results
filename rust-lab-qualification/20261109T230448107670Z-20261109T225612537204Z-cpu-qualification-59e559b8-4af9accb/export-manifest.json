@@ -1,0 +1,114 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-09T23:04:48.109756+00:00",
+  "source": "artifacts/rust-backend/20261109T225612537204Z-cpu-qualification-59e559b8",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261109T225612537204Z-cpu-qualification-59e559b8",
+  "review_only": true,
+  "files": [
+    {
+      "source": "bundles.json",
+      "path": "evidence/bundles.json",
+      "source_bytes": 8319,
+      "source_sha256": "af24832a8e09fe4c06ef475087a3fab8e778e67e155d850fc4b9948f6d5be903",
+      "bytes": 8319,
+      "sha256": "af24832a8e09fe4c06ef475087a3fab8e778e67e155d850fc4b9948f6d5be903",
+      "gzip": false
+    },
+    {
+      "source": "environment.json",
+      "path": "evidence/environment.json",
+      "source_bytes": 2080,
+      "source_sha256": "e54752969d8f296b66b803e03972ab8ca124af25c61cc43682571904dee3e412",
+      "bytes": 2080,
+      "sha256": "e54752969d8f296b66b803e03972ab8ca124af25c61cc43682571904dee3e412",
+      "gzip": false
+    },
+    {
+      "source": "ordinary.json",
+      "path": "evidence/ordinary.json",
+      "source_bytes": 55813,
+      "source_sha256": "b6515b211d068af2e71850aa991ccd5005a9cbe0250015b1e93826ecb56adcc3",
+      "bytes": 55813,
+      "sha256": "b6515b211d068af2e71850aa991ccd5005a9cbe0250015b1e93826ecb56adcc3",
+      "gzip": false
+    },
+    {
+      "source": "overlap.json",
+      "path": "evidence/overlap.json",
+      "source_bytes": 33470,
+      "source_sha256": "a4a4717a9fdb3754f3772982812b9e5c3c76f965d293d78ead05093e4ada624b",
+      "bytes": 33470,
+      "sha256": "a4a4717a9fdb3754f3772982812b9e5c3c76f965d293d78ead05093e4ada624b",
+      "gzip": false
+    },
+    {
+      "source": "parity.json",
+      "path": "evidence/parity.json",
+      "source_bytes": 1617,
+      "source_sha256": "a18aca628a41f0b3fedbfe553facb594b0b3860aa318bebf4782ad0b8a577810",
+      "bytes": 1617,
+      "sha256": "a18aca628a41f0b3fedbfe553facb594b0b3860aa318bebf4782ad0b8a577810",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 2323,
+      "source_sha256": "b0371fbe7c567dc8cdb6098c771a01637a1cda97b64b0df97b88de981723f567",
+      "bytes": 2323,
+      "sha256": "b0371fbe7c567dc8cdb6098c771a01637a1cda97b64b0df97b88de981723f567",
+      "gzip": false
+    },
+    {
+      "source": "rating.json",
+      "path": "evidence/rating.json",
+      "source_bytes": 790,
+      "source_sha256": "3ac1ee580e096ccae7be3a8c064400bb76921b5ed07103b36d470a4d8bb90fbe",
+      "bytes": 790,
+      "sha256": "3ac1ee580e096ccae7be3a8c064400bb76921b5ed07103b36d470a4d8bb90fbe",
+      "gzip": false
+    },
+    {
+      "source": "regressions.json",
+      "path": "evidence/regressions.json",
+      "source_bytes": 1488,
+      "source_sha256": "636959db4a030c733ff68e90fae4e42d106e5f8ac7a4f75fd16756b395666483",
+      "bytes": 1488,
+      "sha256": "636959db4a030c733ff68e90fae4e42d106e5f8ac7a4f75fd16756b395666483",
+      "gzip": false
+    },
+    {
+      "source": "regressions.log",
+      "path": "evidence/regressions.log",
+      "source_bytes": 10038,
+      "source_sha256": "0db9b2adeab700a7d781060673b85af4e165c3c7fa380080a3beec69dd1b41c7",
+      "bytes": 10038,
+      "sha256": "0db9b2adeab700a7d781060673b85af4e165c3c7fa380080a3beec69dd1b41c7",
+      "gzip": false
+    },
+    {
+      "source": "startup.json",
+      "path": "evidence/startup.json",
+      "source_bytes": 2432,
+      "source_sha256": "783c668e43890064a103e20650192d1f0d46fe1c7c75ca840c1f8636d8c9ac3e",
+      "bytes": 2432,
+      "sha256": "783c668e43890064a103e20650192d1f0d46fe1c7c75ca840c1f8636d8c9ac3e",
+      "gzip": false
+    },
+    {
+      "source": "teacher.json",
+      "path": "evidence/teacher.json",
+      "source_bytes": 4374,
+      "source_sha256": "029953b5338ca13d42a41100f71711a4747097e20cc6fa8f1c808ade2935da80",
+      "bytes": 4374,
+      "sha256": "029953b5338ca13d42a41100f71711a4747097e20cc6fa8f1c808ade2935da80",
+      "gzip": false
+    }
+  ],
+  "omitted": [
+    {
+      "source": "payload",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}
