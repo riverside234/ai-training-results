@@ -1,0 +1,204 @@
+{
+  "passed": true,
+  "checks": {
+    "teacher_readiness": {
+      "passed": true,
+      "detail": {
+        "version": "ppg-value-phase/25.0.0",
+        "reward_id": "695e2dd55e88794ec84217b75433ae778b46930f35c53edf062ecfbd5eda6bdd",
+        "ready": true,
+        "decisions": 235695,
+        "games": 608,
+        "steps": 32,
+        "before": {
+          "mse": 0.1432155215674693
+        },
+        "after": {
+          "mse": 0.14121705798849774
+        },
+        "scope": "Final accepted value-phase weights; ordinary critic-train games only; heldout games excluded"
+      }
+    },
+    "blend_weights": {
+      "passed": true,
+      "detail": [
+        0.0,
+        0.25,
+        1.0
+      ]
+    },
+    "full_searches_ran": {
+      "passed": true,
+      "detail": 256
+    },
+    "full_uses_the_budget": {
+      "passed": true,
+      "detail": {
+        "640": 256
+      }
+    },
+    "full_stays_within_k": {
+      "passed": true,
+      "detail": {
+        "16": 249,
+        "8": 7
+      }
+    },
+    "full_reaches_k": {
+      "passed": true,
+      "detail": {
+        "16": 249,
+        "8": 7
+      }
+    },
+    "full_rarely_hits_the_safety_cap": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "fast_searches_ran": {
+      "passed": true,
+      "detail": 773
+    },
+    "fast_uses_the_budget": {
+      "passed": true,
+      "detail": {
+        "96": 773
+      }
+    },
+    "fast_stays_within_k": {
+      "passed": true,
+      "detail": {
+        "8": 773
+      }
+    },
+    "fast_reaches_k": {
+      "passed": true,
+      "detail": {
+        "8": 773
+      }
+    },
+    "fast_rarely_hits_the_safety_cap": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "labels_produced": {
+      "passed": true,
+      "detail": 498
+    },
+    "labels_accepted": {
+      "passed": true,
+      "detail": {
+        "accepted": 498,
+        "rejected": 0,
+        "rows": 498
+      }
+    },
+    "value_rows_match_pytorch_blend": {
+      "passed": true,
+      "detail": 5.960464477539062e-07
+    },
+    "every_table_used_cpu": {
+      "passed": true,
+      "detail": null
+    },
+    "no_gpu_positions": {
+      "passed": true,
+      "detail": 0
+    }
+  },
+  "tables": 16,
+  "lanes": 16,
+  "wall_seconds": 44.96525210904656,
+  "searches": {
+    "full": {
+      "searches": 256,
+      "expected_n": 640,
+      "requested_k": 16,
+      "frozen_n": {
+        "640": 256
+      },
+      "effective_k": {
+        "16": 249,
+        "8": 7
+      },
+      "completed_all": 256,
+      "deadline_hits": 0,
+      "elapsed_seconds": {
+        "samples": 256,
+        "min": 0.673868382,
+        "p50": 1.745214431,
+        "p95": 2.018625512,
+        "max": 2.316452477,
+        "mean": 1.7197516795
+      }
+    },
+    "fast": {
+      "searches": 773,
+      "expected_n": 96,
+      "requested_k": 8,
+      "frozen_n": {
+        "96": 773
+      },
+      "effective_k": {
+        "8": 773
+      },
+      "completed_all": 773,
+      "deadline_hits": 0,
+      "elapsed_seconds": {
+        "samples": 773,
+        "min": 0.119176333,
+        "p50": 0.235126106,
+        "p95": 0.266240197,
+        "max": 0.307478138,
+        "mean": 0.23182631005433377
+      }
+    }
+  },
+  "value_error": {
+    "samples": 64,
+    "min": 1.1920928955078125e-07,
+    "p50": 2.682209014892578e-07,
+    "p95": 4.76837158203125e-07,
+    "max": 5.960464477539062e-07,
+    "mean": 2.942979335784912e-07
+  },
+  "blend_effect": {
+    "0.25": {
+      "samples": 4,
+      "min": 0.022606730461120605,
+      "p50": 0.03312361240386963,
+      "p95": 0.04178529977798462,
+      "max": 0.04178529977798462,
+      "mean": 0.031114444136619568
+    },
+    "1.0": {
+      "samples": 4,
+      "min": 0.09355387091636658,
+      "p50": 0.13011816143989563,
+      "p95": 0.14733478426933289,
+      "max": 0.14733478426933289,
+      "mean": 0.11631398648023605
+    }
+  },
+  "table_seconds": {
+    "samples": 16,
+    "min": 41.320936306,
+    "p50": 43.764266154,
+    "p95": 44.681227733,
+    "max": 44.681227733,
+    "mean": 43.271456079125
+  },
+  "mono_bootstrap_seconds": {
+    "samples": 16,
+    "min": 0.1382898690062575,
+    "p50": 0.14290102804079652,
+    "p95": 0.14893906697398052,
+    "max": 0.14893906697398052,
+    "mean": 0.14256700417899992
+  },
+  "forward": {
+    "positions": 232275,
+    "forward_ns": 262404355050
+  },
+  "seconds": 45.885294165986124
+}

@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "checks": {
+    "ordinary_stage_measured_startup": {
+      "passed": false,
+      "detail": null
+    }
+  },
+  "seconds": 0.0001036429894156754
+}

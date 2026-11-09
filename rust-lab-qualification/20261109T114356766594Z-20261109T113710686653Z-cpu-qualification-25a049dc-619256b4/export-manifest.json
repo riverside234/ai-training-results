@@ -1,0 +1,96 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-09T11:43:56.768381+00:00",
+  "source": "artifacts/rust-backend/20261109T113710686653Z-cpu-qualification-25a049dc",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261109T113710686653Z-cpu-qualification-25a049dc",
+  "review_only": true,
+  "files": [
+    {
+      "source": "bundles.json",
+      "path": "evidence/bundles.json",
+      "source_bytes": 8319,
+      "source_sha256": "6d2a99f877d2061432ab40f7a34c93b2ea1a2e40521f3e39adcd01bc6275f7c6",
+      "bytes": 8319,
+      "sha256": "6d2a99f877d2061432ab40f7a34c93b2ea1a2e40521f3e39adcd01bc6275f7c6",
+      "gzip": false
+    },
+    {
+      "source": "environment.json",
+      "path": "evidence/environment.json",
+      "source_bytes": 2080,
+      "source_sha256": "37f02799d66baab669cfbdbd1f5259afb520600fc4da3e88374835428cae0ccb",
+      "bytes": 2080,
+      "sha256": "37f02799d66baab669cfbdbd1f5259afb520600fc4da3e88374835428cae0ccb",
+      "gzip": false
+    },
+    {
+      "source": "ordinary.json",
+      "path": "evidence/ordinary.json",
+      "source_bytes": 55858,
+      "source_sha256": "ff5e9e7870b00f50f0760509756fe9672623fc4fd3c4dcf9b72f1d579689ba5c",
+      "bytes": 55858,
+      "sha256": "ff5e9e7870b00f50f0760509756fe9672623fc4fd3c4dcf9b72f1d579689ba5c",
+      "gzip": false
+    },
+    {
+      "source": "parity.json",
+      "path": "evidence/parity.json",
+      "source_bytes": 1614,
+      "source_sha256": "55ec2a3a688128c23c29beadeb9994b05bcc074d6be6a56dce62f2fafdf2af38",
+      "bytes": 1614,
+      "sha256": "55ec2a3a688128c23c29beadeb9994b05bcc074d6be6a56dce62f2fafdf2af38",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 2419,
+      "source_sha256": "a750e5a2094236e577376faf12c3354d7602ebf0dea3a50d797d0bebaefbe400",
+      "bytes": 2419,
+      "sha256": "a750e5a2094236e577376faf12c3354d7602ebf0dea3a50d797d0bebaefbe400",
+      "gzip": false
+    },
+    {
+      "source": "rating.json",
+      "path": "evidence/rating.json",
+      "source_bytes": 752,
+      "source_sha256": "9210c7eba17c0a32079f0f0ad087cf1cbf3aa302a2db2492590df3fffe5e2bc8",
+      "bytes": 752,
+      "sha256": "9210c7eba17c0a32079f0f0ad087cf1cbf3aa302a2db2492590df3fffe5e2bc8",
+      "gzip": false
+    },
+    {
+      "source": "regressions.json",
+      "path": "evidence/regressions.json",
+      "source_bytes": 1555,
+      "source_sha256": "09b6db9ed03965043aefde3118d343bdf52268b0c5ef64eb0fa3abf8e3f46b22",
+      "bytes": 1555,
+      "sha256": "09b6db9ed03965043aefde3118d343bdf52268b0c5ef64eb0fa3abf8e3f46b22",
+      "gzip": false
+    },
+    {
+      "source": "startup.json",
+      "path": "evidence/startup.json",
+      "source_bytes": 168,
+      "source_sha256": "65d126ea5515ed429624ed958748197764b88d6e0838baafa4d598f5583cff43",
+      "bytes": 168,
+      "sha256": "65d126ea5515ed429624ed958748197764b88d6e0838baafa4d598f5583cff43",
+      "gzip": false
+    },
+    {
+      "source": "teacher.json",
+      "path": "evidence/teacher.json",
+      "source_bytes": 4316,
+      "source_sha256": "c90859c2e8be68f7b9335c0c66c391cf65c47f56dc9e052f866bc16f9324ef52",
+      "bytes": 4316,
+      "sha256": "c90859c2e8be68f7b9335c0c66c391cf65c47f56dc9e052f866bc16f9324ef52",
+      "gzip": false
+    }
+  ],
+  "omitted": [
+    {
+      "source": "payload",
+      "reason": "build/runtime/payload directory or symlink"
+    }
+  ]
+}

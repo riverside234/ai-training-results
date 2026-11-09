@@ -1,0 +1,37 @@
+{
+  "passed": false,
+  "checks": {
+    "service_used_the_gpu": {
+      "passed": true,
+      "detail": 320
+    },
+    "cpu_never_used_the_service": {
+      "passed": true,
+      "detail": 0
+    },
+    "probabilities_within_bound": {
+      "passed": true,
+      "detail": 0
+    },
+    "games_stay_together": {
+      "passed": false,
+      "detail": 2
+    },
+    "anchor_seated": {
+      "passed": true,
+      "detail": "94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b"
+    }
+  },
+  "games": 2,
+  "comparison": {
+    "games": 2,
+    "diverged": 2,
+    "rows": 0,
+    "forced_rows": 0,
+    "max_absolute": 0.0,
+    "max_relative": 0.0,
+    "tolerance_failures": [],
+    "tolerance_failure_count": 0
+  },
+  "seconds": 27.761273913958576
+}
