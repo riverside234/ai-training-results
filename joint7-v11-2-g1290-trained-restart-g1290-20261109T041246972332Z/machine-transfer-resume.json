@@ -1,0 +1,19 @@
+{
+  "contract": "step5-fresh-buffer-resume/1.0.0",
+  "archive_id": "49cf874ad628082edf4cc1561b4cf46ac06135393011c3808108fefd3ff0bb14",
+  "run": "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+  "origin_generation": 1284,
+  "checkpoint": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/generation-1284.pt",
+    "sha256": "8c165a4662e31bc905215ef33387223190537fa54036ace75038ed350548d6a8",
+    "model_id": "10965bed2b2841d11d05fac3be685510dd720cf8c79b723d4dcfc6de32978e88",
+    "generation": 1284
+  },
+  "source_signature": "75258f9fdf020d01ebc713220fd5d88ccc01288e697f65d3cf3cd274bef35a9a",
+  "original_state": "machine-transfer/state-d761559a9b3a8e161a3650606b5f882cb2657ec361b8c7ea964dae07eb085d62.json",
+  "original_state_sha256": "d761559a9b3a8e161a3650606b5f882cb2657ec361b8c7ea964dae07eb085d62",
+  "auxiliary_buffer_iterations": 8,
+  "previous": null,
+  "reward_revision": "post-transfer-reward/1.0.0",
+  "id": "9c0db0d4245eff2335e2a342815e73dd80ebafcfb36da9f2855d2be9c7ec1cf0"
+}

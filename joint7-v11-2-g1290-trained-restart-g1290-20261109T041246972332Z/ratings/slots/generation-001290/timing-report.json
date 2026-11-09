@@ -1,0 +1,483 @@
+{
+  "generation": 1290,
+  "spec_digest": "8ddccd29aeffc28c5299ea1a75497a328718b636c6164c8319c09ae27918d10a",
+  "timing": {
+    "preparation_seconds": 0.5632486499962397,
+    "cached_games": false,
+    "collection": {
+      "model_registration_seconds": 36.35223808902083,
+      "games_seconds": 81.59625947702443,
+      "replay_validation": {
+        "shards": 64,
+        "shards_ready_before_join": 63,
+        "worker_seconds": 140.89287601108663,
+        "worker_cpu_seconds": 140.10779007099998,
+        "join_seconds": 0.9567516410024837,
+        "stream_seconds": 82.53312835597899,
+        "scope": "Worker time overlaps actors/readers; join is remaining wall time; full replay checks retained"
+      },
+      "reader_shutdown_seconds": 0.4535609920276329,
+      "validation_workers": 16,
+      "streaming_validation": true,
+      "inference": {
+        "batches": 12659,
+        "positions": 21290,
+        "model_cache_hits": 12648,
+        "valid_candidate_cells": 1725932,
+        "padded_candidate_cells": 2233679,
+        "max_batch_positions": 15,
+        "max_padded_candidate_cells": 3474,
+        "expired_requests": 0,
+        "cancelled_requests": 0,
+        "packed_output_batches": 12659,
+        "shared_requests": 21290,
+        "shared_replies": 21290,
+        "inline_requests": 0,
+        "model_loads": 11,
+        "model_evictions": 0,
+        "timings": {
+          "inference.batch": {
+            "seconds": 52.42368833173532,
+            "calls": 12659,
+            "mean_seconds": 0.004141218763862494,
+            "p50_seconds": 0.003209795046132058,
+            "p95_seconds": 0.011561040999367833,
+            "max_seconds": 0.029864667973015457,
+            "first_seconds": 0.018707924988120794,
+            "steady_mean_seconds": 0.004140067973356549,
+            "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+            "percentile_sample_count": 1024
+          },
+          "inference.forward": {
+            "seconds": 49.317003767879214,
+            "calls": 12659,
+            "mean_seconds": 0.0038958056535175934,
+            "p50_seconds": 0.0029416090110316873,
+            "p95_seconds": 0.011173166974913329,
+            "max_seconds": 0.01996835897443816,
+            "first_seconds": 0.0036420939723029733,
+            "steady_mean_seconds": 0.003895825697101194,
+            "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+            "percentile_sample_count": 1024
+          },
+          "inference.model_load": {
+            "seconds": 0.1383869429701008,
+            "calls": 11,
+            "mean_seconds": 0.012580631179100072,
+            "p50_seconds": 0.011987189995124936,
+            "p95_seconds": 0.027050917968153954,
+            "max_seconds": 0.027050917968153954,
+            "first_seconds": 0.014226881030481309,
+            "steady_mean_seconds": 0.012416006193961947,
+            "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+            "percentile_sample_count": 11
+          },
+          "inference.queue_wait": {
+            "seconds": 458.5450833819923,
+            "calls": 21290,
+            "mean_seconds": 0.02153804994748672,
+            "p50_seconds": 0.02519925101660192,
+            "p95_seconds": 0.10479772899998352,
+            "max_seconds": 0.6403868200141005,
+            "first_seconds": 0.005076214030850679,
+            "steady_mean_seconds": 0.021538823202966857,
+            "percentile_scope": "first bounded 1024 calls; totals and maximum include all calls",
+            "percentile_sample_count": 1024
+          }
+        },
+        "device": "cuda",
+        "learner_device": "cuda",
+        "inference_devices": [
+          "cuda"
+        ],
+        "replica_count": 1,
+        "central_batching": true,
+        "memory": {
+          "host_resident_bytes": 25061740544,
+          "cuda_allocated_bytes": 1273212928,
+          "cuda_reserved_bytes": 7144996864,
+          "cuda_peak_allocated_bytes": 3574638080,
+          "cuda_peak_reserved_bytes": 7144996864
+        },
+        "cpu_admission": {
+          "capacity": 60,
+          "active": 0,
+          "peak": 48,
+          "queued": 0,
+          "aborted": false
+        },
+        "batching": {
+          "contract": "streaming-model-batches/1.0.0",
+          "peak_pending_positions": 41,
+          "batches": 12659,
+          "padding_splits": 1367,
+          "capacity_splits": 0,
+          "max_padding_ratio": 2.0,
+          "scope": "One frozen model per batch; age/deadline fairness; no extra flush wait between model batches"
+        },
+        "batch_histogram": {
+          "1": 7219,
+          "3": 1028,
+          "2": 3709,
+          "7": 30,
+          "4": 372,
+          "6": 66,
+          "8": 25,
+          "5": 168,
+          "11": 9,
+          "9": 16,
+          "10": 10,
+          "15": 1,
+          "13": 5,
+          "12": 1
+        },
+        "per_model": {
+          "c37d4c61160739d7414ea284ea35c17ed8565c0e3c62c4acf5e37d0126148068": {
+            "positions": 1891,
+            "batches": 1112,
+            "batch_histogram": {
+              "1": 596,
+              "3": 104,
+              "2": 351,
+              "4": 38,
+              "6": 8,
+              "5": 12,
+              "7": 3
+            },
+            "queue_wait_seconds": 43.46971245325403,
+            "queue_wait_max_seconds": 0.5791928090038709,
+            "queue_wait_histogram": {
+              "32": 424,
+              "128": 159,
+              "4": 169,
+              "16": 396,
+              "8": 352,
+              "64": 237,
+              "2": 104,
+              "256": 13,
+              "1": 36,
+              "1024": 1
+            },
+            "forward_seconds": 4.287539005861618,
+            "valid_candidate_cells": 150979,
+            "padded_candidate_cells": 193391
+          },
+          "82e44e3cf06be24a77608a75c2f6657fe9782c0562e960b029dd1925d2b436c0": {
+            "positions": 1852,
+            "batches": 1162,
+            "batch_histogram": {
+              "1": 691,
+              "2": 328,
+              "3": 94,
+              "6": 5,
+              "4": 31,
+              "5": 11,
+              "7": 2
+            },
+            "queue_wait_seconds": 40.28058923914796,
+            "queue_wait_max_seconds": 0.19678145495709032,
+            "queue_wait_histogram": {
+              "64": 213,
+              "128": 135,
+              "32": 419,
+              "16": 342,
+              "2": 168,
+              "4": 204,
+              "8": 320,
+              "1": 33,
+              "256": 18
+            },
+            "forward_seconds": 4.916009558190126,
+            "valid_candidate_cells": 149264,
+            "padded_candidate_cells": 190483
+          },
+          "501ac43bfdedeee02b8e196481737fcbce4c70c912bba4a7801ca90fb3da006e": {
+            "positions": 5381,
+            "batches": 2492,
+            "batch_histogram": {
+              "3": 285,
+              "1": 1078,
+              "2": 815,
+              "7": 23,
+              "4": 116,
+              "8": 21,
+              "6": 30,
+              "5": 82,
+              "11": 9,
+              "9": 16,
+              "10": 10,
+              "15": 1,
+              "13": 5,
+              "12": 1
+            },
+            "queue_wait_seconds": 101.94408406782895,
+            "queue_wait_max_seconds": 0.6404189969762228,
+            "queue_wait_histogram": {
+              "64": 624,
+              "16": 1079,
+              "128": 311,
+              "32": 860,
+              "2": 486,
+              "8": 1104,
+              "4": 737,
+              "256": 30,
+              "1": 147,
+              "512": 2,
+              "1024": 1
+            },
+            "forward_seconds": 9.674298366240691,
+            "valid_candidate_cells": 440462,
+            "padded_candidate_cells": 614788
+          },
+          "09b72069bb32e9e80f2cb909304e801e429424dbfba6562511e0cb4fd69a52a7": {
+            "positions": 1894,
+            "batches": 1182,
+            "batch_histogram": {
+              "1": 711,
+              "2": 318,
+              "3": 97,
+              "4": 37,
+              "5": 12,
+              "6": 4,
+              "8": 3
+            },
+            "queue_wait_seconds": 43.18964181584306,
+            "queue_wait_max_seconds": 0.41111476602964103,
+            "queue_wait_histogram": {
+              "64": 236,
+              "128": 159,
+              "16": 369,
+              "8": 362,
+              "32": 391,
+              "4": 210,
+              "256": 16,
+              "1": 30,
+              "2": 120,
+              "512": 1
+            },
+            "forward_seconds": 4.634196924220305,
+            "valid_candidate_cells": 149130,
+            "padded_candidate_cells": 191302
+          },
+          "94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b": {
+            "positions": 311,
+            "batches": 258,
+            "batch_histogram": {
+              "1": 206,
+              "2": 51,
+              "3": 1
+            },
+            "queue_wait_seconds": 9.393223734688945,
+            "queue_wait_max_seconds": 0.13750087202060968,
+            "queue_wait_histogram": {
+              "128": 46,
+              "32": 121,
+              "64": 32,
+              "16": 60,
+              "256": 2,
+              "8": 31,
+              "4": 12,
+              "2": 7
+            },
+            "forward_seconds": 0.8320666468353011,
+            "valid_candidate_cells": 25786,
+            "padded_candidate_cells": 29897
+          },
+          "92003576148663649792c03590436383ff2279ae29e7e0e5b6d42aeb45d10e6f": {
+            "positions": 1841,
+            "batches": 1173,
+            "batch_histogram": {
+              "3": 78,
+              "2": 317,
+              "1": 725,
+              "6": 8,
+              "5": 13,
+              "4": 30,
+              "8": 1,
+              "7": 1
+            },
+            "queue_wait_seconds": 42.317617212072946,
+            "queue_wait_max_seconds": 0.19833917799405754,
+            "queue_wait_histogram": {
+              "128": 150,
+              "32": 373,
+              "16": 356,
+              "8": 345,
+              "64": 238,
+              "4": 192,
+              "2": 137,
+              "256": 18,
+              "1": 32
+            },
+            "forward_seconds": 4.820165123906918,
+            "valid_candidate_cells": 151849,
+            "padded_candidate_cells": 187474
+          },
+          "f25c87006a84653449005540c82ed6d82ce43652b9f284d59f1f3eff8e5c71ad": {
+            "positions": 1879,
+            "batches": 1219,
+            "batch_histogram": {
+              "2": 357,
+              "1": 741,
+              "4": 26,
+              "3": 81,
+              "5": 8,
+              "6": 5,
+              "7": 1
+            },
+            "queue_wait_seconds": 41.949966578686144,
+            "queue_wait_max_seconds": 0.19224450801266357,
+            "queue_wait_histogram": {
+              "128": 145,
+              "64": 238,
+              "8": 353,
+              "16": 382,
+              "2": 128,
+              "32": 398,
+              "4": 181,
+              "256": 16,
+              "1": 38
+            },
+            "forward_seconds": 4.930829744262155,
+            "valid_candidate_cells": 152028,
+            "padded_candidate_cells": 192433
+          },
+          "463ddd03b806aab0a25a1a3605007f976a6df5e8c897922eb66d5e1953bc8e85": {
+            "positions": 1881,
+            "batches": 1171,
+            "batch_histogram": {
+              "3": 95,
+              "1": 654,
+              "2": 382,
+              "4": 26,
+              "5": 10,
+              "6": 4
+            },
+            "queue_wait_seconds": 42.34578026464442,
+            "queue_wait_max_seconds": 0.3824454349814914,
+            "queue_wait_histogram": {
+              "128": 155,
+              "64": 216,
+              "4": 195,
+              "8": 348,
+              "32": 411,
+              "16": 385,
+              "256": 13,
+              "2": 116,
+              "1": 41,
+              "512": 1
+            },
+            "forward_seconds": 4.643846383667551,
+            "valid_candidate_cells": 154949,
+            "padded_candidate_cells": 197399
+          },
+          "5afcf7d3657e884238ef8c956c9303a5107905c30b330a26e28bfad399bf83a0": {
+            "positions": 1839,
+            "batches": 1164,
+            "batch_histogram": {
+              "2": 353,
+              "1": 676,
+              "3": 96,
+              "4": 28,
+              "5": 9,
+              "6": 2
+            },
+            "queue_wait_seconds": 38.24843588715885,
+            "queue_wait_max_seconds": 0.19438559404807165,
+            "queue_wait_histogram": {
+              "128": 112,
+              "64": 232,
+              "16": 407,
+              "32": 400,
+              "2": 127,
+              "256": 8,
+              "8": 344,
+              "4": 169,
+              "1": 40
+            },
+            "forward_seconds": 4.363274066941813,
+            "valid_candidate_cells": 150159,
+            "padded_candidate_cells": 189328
+          },
+          "93f1b3d5d48f890e113ee473c81360321f41327a49b04ef7c460dd0ca0b7b120": {
+            "positions": 1846,
+            "batches": 1181,
+            "batch_histogram": {
+              "2": 334,
+              "3": 88,
+              "1": 711,
+              "4": 37,
+              "5": 11
+            },
+            "queue_wait_seconds": 40.22463485732442,
+            "queue_wait_max_seconds": 0.19031599798472598,
+            "queue_wait_histogram": {
+              "128": 139,
+              "32": 429,
+              "16": 375,
+              "8": 338,
+              "2": 100,
+              "4": 207,
+              "64": 209,
+              "1": 36,
+              "256": 13
+            },
+            "forward_seconds": 4.616035863116849,
+            "valid_candidate_cells": 149675,
+            "padded_candidate_cells": 186371
+          },
+          "73fd0aa12a7a6496414b03e106ae52367d865767922aed7b40ea88a7940891ff": {
+            "positions": 675,
+            "batches": 545,
+            "batch_histogram": {
+              "1": 430,
+              "2": 103,
+              "4": 3,
+              "3": 9
+            },
+            "queue_wait_seconds": 17.36485889228061,
+            "queue_wait_max_seconds": 0.1439233259879984,
+            "queue_wait_histogram": {
+              "128": 67,
+              "16": 129,
+              "32": 205,
+              "64": 82,
+              "4": 51,
+              "8": 106,
+              "1": 5,
+              "256": 5,
+              "2": 25
+            },
+            "forward_seconds": 2.1624799533747137,
+            "valid_candidate_cells": 51651,
+            "padded_candidate_cells": 60813
+          }
+        },
+        "resident_models": 11,
+        "registered_models": 11,
+        "reply_channels": {
+          "created": 48,
+          "released": 48,
+          "active": 0,
+          "retiring": 0,
+          "shared_slots": 0,
+          "leases": 0
+        },
+        "timing_note": "Host elapsed time; CUDA forward kernel duration is in optional profiler traces",
+        "error": null
+      },
+      "collection_seconds": 119.37139273900539
+    },
+    "games_and_validation_seconds": 119.43299506400945,
+    "history_read_seconds": 0.0907970319967717,
+    "fit_encode_seconds": 0.04400895698927343,
+    "full_fit_seconds": 0.6944384530070238,
+    "bootstrap_seconds": 10.240859973011538,
+    "intervals_seconds": 0.22023539600195363,
+    "report_publish_seconds": 0.10044086695415899,
+    "plot_seconds": 0.35802671796409413,
+    "state_commit_seconds": 0.15262882504612207,
+    "slot_seconds": 131.89966077299323
+  },
+  "scope": "Operational wall timings; not rating or qualification evidence"
+}
