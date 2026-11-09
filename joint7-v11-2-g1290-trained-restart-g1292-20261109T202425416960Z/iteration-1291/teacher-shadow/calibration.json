@@ -1,0 +1,16 @@
+{
+  "contract": "brass-lab-teacher/2.0.0",
+  "source": "dbe27fb771be5297cebcdcdf56d9d054bf5a6b270ec37008f75f80ce3f717101",
+  "core_source": "e6bedd50fa304f7bc69c7bd4916b75050973760d01205711fb9386edb1518c52",
+  "model_id": "df903b6eff40dde23508f3528813b960a0086f44390bdc52b3254301746b0ddb",
+  "export_hash": "c4d522d9ef5bdf7934dbc3f255d738acce8950f6a0f93a0e2ad2622f0d7fbe5a",
+  "reward_id": "695e2dd55e88794ec84217b75433ae778b46930f35c53edf062ecfbd5eda6bdd",
+  "device": "cpu-ort",
+  "profile": "d93c14d86cc957d51e9690d08bf6193b0336bf6636e4c37d8dcb0a7051cceb8b",
+  "estimate_ns": 1000,
+  "samples": [
+    "fixed-count"
+  ],
+  "root_medians_ns": [],
+  "rule": "not-applicable-fixed-count"
+}
