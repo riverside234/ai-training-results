@@ -1,0 +1,6 @@
+{
+  "passed": false,
+  "error": "'path'",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-cpu-inference.py\", line 753, in main\n    result = stage(c)\n             ^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-cpu-inference.py\", line 351, in bundles\n    path = project_path(ROOT, entry['path'])\n                              ~~~~~^^^^^^^^\nKeyError: 'path'\n",
+  "seconds": 0.2194300459814258
+}

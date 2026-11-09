@@ -1,0 +1,55 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-09T11:24:39.864941+00:00",
+  "source": "artifacts/rust-backend/20261109T112401752165Z-cpu-qualification-8111187b",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261109T112401752165Z-cpu-qualification-8111187b",
+  "review_only": true,
+  "files": [
+    {
+      "source": "bundles.json",
+      "path": "evidence/bundles.json",
+      "source_bytes": 505,
+      "source_sha256": "20549d9ee097a5a42a0a5f81357eb653e9adc89430bd145b7b9b8a42688114e9",
+      "bytes": 505,
+      "sha256": "20549d9ee097a5a42a0a5f81357eb653e9adc89430bd145b7b9b8a42688114e9",
+      "gzip": false
+    },
+    {
+      "source": "environment.json",
+      "path": "evidence/environment.json",
+      "source_bytes": 2079,
+      "source_sha256": "3f3b003d4cdf4c299196f1de97d0a4c88062a6979b6b735d557c4f5cdb650683",
+      "bytes": 2079,
+      "sha256": "3f3b003d4cdf4c299196f1de97d0a4c88062a6979b6b735d557c4f5cdb650683",
+      "gzip": false
+    },
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 2170,
+      "source_sha256": "f9e0e71d1305a37bca7304fa416a01ba45d76b3cf8035ca660bea47f97bc575e",
+      "bytes": 2170,
+      "sha256": "f9e0e71d1305a37bca7304fa416a01ba45d76b3cf8035ca660bea47f97bc575e",
+      "gzip": false
+    },
+    {
+      "source": "regressions.json",
+      "path": "evidence/regressions.json",
+      "source_bytes": 1485,
+      "source_sha256": "95f864a72ddc999063695d436d143b5edbbf2e67828e446281b62522df24a477",
+      "bytes": 1485,
+      "sha256": "95f864a72ddc999063695d436d143b5edbbf2e67828e446281b62522df24a477",
+      "gzip": false
+    },
+    {
+      "source": "regressions.log",
+      "path": "evidence/regressions.log",
+      "source_bytes": 9389,
+      "source_sha256": "d6d5dc3d3ded26aa9418352ae74e5a62582148a6741b98fd07cfa636bb9e3a5d",
+      "bytes": 9389,
+      "sha256": "d6d5dc3d3ded26aa9418352ae74e5a62582148a6741b98fd07cfa636bb9e3a5d",
+      "gzip": false
+    }
+  ],
+  "omitted": []
+}
