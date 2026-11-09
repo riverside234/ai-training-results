@@ -1,0 +1,19 @@
+{
+  "contract": "brass-lab-results/1.0.0",
+  "created_utc": "2026-11-09T11:13:30.009768+00:00",
+  "source": "artifacts/rust-backend/20261109T111329941499Z-cpu-qualification-a46a3c9a",
+  "source_absolute": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/20261109T111329941499Z-cpu-qualification-a46a3c9a",
+  "review_only": true,
+  "files": [
+    {
+      "source": "qualification.json",
+      "path": "evidence/qualification.json",
+      "source_bytes": 1569,
+      "source_sha256": "b269dc54aa88f6380532cd61ddca915dacde4236cb3b002be9f66026325d4e89",
+      "bytes": 1569,
+      "sha256": "b269dc54aa88f6380532cd61ddca915dacde4236cb3b002be9f66026325d4e89",
+      "gzip": false
+    }
+  ],
+  "omitted": []
+}

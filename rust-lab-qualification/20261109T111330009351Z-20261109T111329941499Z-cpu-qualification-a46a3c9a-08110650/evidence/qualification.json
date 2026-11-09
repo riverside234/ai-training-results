@@ -1,0 +1,15 @@
+{
+  "contract": "brass-lab-cpu-qualification/1.0.0",
+  "passed": false,
+  "production_modified": false,
+  "expected_generation": 1290,
+  "stages": {},
+  "scope": "Lab qualification of in-worker CPU inference; the run is read only",
+  "execution_source": {
+    "implementation": "d94919c118abb4a2182cc244d2fd0acc4d8d95aa906d4968dfd821fbe707db75",
+    "qualified_implementation": "9efcf34f853d75ab844366b6819da4b0921be38d3e2dfb806cf282ace76e7a30",
+    "replay_location_review": "77fe6937afe22aee1d8404e3d99dbba22281dc47310f46a308f3aec3b160ae00"
+  },
+  "error": "Recover pending work with its existing backend before B01: /data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-1290",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/not_backed_up/yxu209/ai-training/scripts/qualify-rust-cpu-inference.py\", line 596, in main\n    snapshot, model, raw = capture(ROOT, run, devices=[args.device])\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/rust_backend/lab_snapshot.py\", line 67, in capture\n    require(not pending, 'Recover pending work with its existing backend before B01: ' + ', '.join(pending))\n  File \"/data/not_backed_up/yxu209/ai-training/src/brass_ai/learning/contracts.py\", line 44, in require\n    raise ValueError(message)\nValueError: Recover pending work with its existing backend before B01: /data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-1290\n"
+}
