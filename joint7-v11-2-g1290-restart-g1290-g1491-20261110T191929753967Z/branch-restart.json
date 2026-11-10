@@ -1,0 +1,70 @@
+{
+  "binding": {
+    "contract": "rust-branch-restart/1.0.0",
+    "source_run": "artifacts/step5/joint7-v11-2-g1290-trained-restart",
+    "destination_run": "artifacts/step5/joint7-v11-2-g1290-restart-g1290",
+    "generation": 1290,
+    "snapshot": {
+      "path": "results/joint7-v11-2-g1290-trained-restart-g1290-20261109T041246972332Z/state.json",
+      "sha256": "30396137d8a2885b59edc41a96d7a8b4bdc22cadbcff017b245ffcf4de8f26bd",
+      "generation": 1290,
+      "source_iteration": 1343
+    },
+    "weights": {
+      "path": "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-501ac43bfdedeee02b8e196481737fcbce4c70c912bba4a7801ca90fb3da006e-aux-efd2fad16ee4fdca.pt",
+      "sha256": "9e46a005cef3cac9fcb1b245d4fdc38bffcc775b6d7e3d73d5c0e64799b69196",
+      "model_id": "501ac43bfdedeee02b8e196481737fcbce4c70c912bba4a7801ca90fb3da006e",
+      "generation": 1290,
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "efd2fad16ee4fdca5861d132e6c08a498b16b74af21b0c9eb17d6ff31aa1ebbd",
+        "generation": 1290,
+        "model_id": "501ac43bfdedeee02b8e196481737fcbce4c70c912bba4a7801ca90fb3da006e",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      },
+      "weights_only": true
+    },
+    "recipe_sha256": "980454395d0763e2d79e5e69f8688825d8a13352435513f1084626c55587dece"
+  },
+  "complete": true,
+  "identity": "8cb6a4a144acee927a50c3db732ec3228661297d179e8832c7b20b24f8de1c67",
+  "checkpoint": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-restart-g1290/generation-1290.pt",
+    "sha256": "03d90cad801a29313148e18ce397a367c12c93ff5802b55e2e63b87f98d162d6",
+    "model_id": "501ac43bfdedeee02b8e196481737fcbce4c70c912bba4a7801ca90fb3da006e",
+    "generation": 1290
+  },
+  "files_placed": 259,
+  "dropped_members": [],
+  "regenerated_probes": [],
+  "reset": [
+    "ppo_adam_and_warmup",
+    "ppg_adam_and_replay",
+    "gae_evidence_windows",
+    "teacher_labels",
+    "teacher_beta",
+    "search_value_buffer",
+    "source_transitions"
+  ],
+  "preserved": [
+    "weights",
+    "rng",
+    "generation",
+    "games",
+    "opponent_pool",
+    "ratings",
+    "rust_backend",
+    "entropy_anneal",
+    "gae_lambda_and_table_gates",
+    "search_head_and_stage",
+    "teacher_readiness",
+    "local_scoring_heads"
+  ],
+  "schedule": {
+    "shadow_iterations": 4,
+    "teacher_on_from_iteration": 5,
+    "stage_a_iterations": 30,
+    "stage_a_paused_iterations": 8,
+    "stage_a_count_at_restart": 4
+  }
+}
