@@ -1,0 +1,368 @@
+{
+  "passed": true,
+  "checks": {
+    "teacher_readiness": {
+      "passed": true,
+      "detail": {
+        "version": "ppg-value-phase/26.0.0",
+        "reward_id": "695e2dd55e88794ec84217b75433ae778b46930f35c53edf062ecfbd5eda6bdd",
+        "ready": true,
+        "decisions": 237778,
+        "games": 608,
+        "steps": 64,
+        "before": {
+          "mse": 0.1426838953744302
+        },
+        "after": {
+          "mse": 0.137165916875921
+        },
+        "scope": "Final accepted value-phase weights; ordinary critic-train games only; heldout games excluded"
+      }
+    },
+    "blend_weights": {
+      "passed": true,
+      "detail": [
+        0.0,
+        0.25,
+        1.0
+      ]
+    },
+    "full_searches_ran": {
+      "passed": true,
+      "detail": 1329
+    },
+    "full_uses_the_budget": {
+      "passed": true,
+      "detail": {
+        "640": 1329
+      }
+    },
+    "full_stays_within_k": {
+      "passed": true,
+      "detail": {
+        "16": 1156,
+        "4": 34,
+        "2": 47,
+        "8": 92
+      }
+    },
+    "full_reaches_k": {
+      "passed": true,
+      "detail": {
+        "16": 1156,
+        "4": 34,
+        "2": 47,
+        "8": 92
+      }
+    },
+    "full_rarely_hits_the_safety_cap": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "fast_searches_ran": {
+      "passed": true,
+      "detail": 3038
+    },
+    "fast_uses_the_budget": {
+      "passed": true,
+      "detail": {
+        "128": 3038
+      }
+    },
+    "fast_stays_within_k": {
+      "passed": true,
+      "detail": {
+        "8": 3013,
+        "4": 4,
+        "2": 21
+      }
+    },
+    "fast_reaches_k": {
+      "passed": true,
+      "detail": {
+        "8": 3013,
+        "4": 4,
+        "2": 21
+      }
+    },
+    "fast_rarely_hits_the_safety_cap": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "labels_produced": {
+      "passed": true,
+      "detail": 5952
+    },
+    "labels_accepted": {
+      "passed": true,
+      "detail": {
+        "accepted": 5952,
+        "rejected": 0,
+        "rows": 5952
+      }
+    },
+    "worker_echoed_the_revision": {
+      "passed": true,
+      "detail": null
+    },
+    "long_labels_produced": {
+      "passed": true,
+      "detail": {
+        "labels": 1488,
+        "explored": 1488
+      }
+    },
+    "short_labels_produced": {
+      "passed": true,
+      "detail": {
+        "labels": 4464,
+        "explored": 2110
+      }
+    },
+    "every_long_label_is_explored": {
+      "passed": true,
+      "detail": {
+        "labels": 1488,
+        "explored": 1488
+      }
+    },
+    "short_labels_explore_only_openings": {
+      "passed": true,
+      "detail": {
+        "labels": 4464,
+        "explored": 2110
+      }
+    },
+    "worker_counts_match_the_labels": {
+      "passed": true,
+      "detail": {
+        "decisions": {
+          "long": 1488,
+          "short": 4464
+        },
+        "sampled": {
+          "long": 1488,
+          "short": 2110
+        },
+        "changed": {
+          "long": 985,
+          "short": 1296
+        },
+        "short_labels": 4464
+      }
+    },
+    "value_rows_match_pytorch_blend": {
+      "passed": true,
+      "detail": 1.0728836059570312e-06
+    },
+    "every_table_used_cpu": {
+      "passed": true,
+      "detail": null
+    },
+    "no_gpu_positions": {
+      "passed": true,
+      "detail": 0
+    }
+  },
+  "tables": 48,
+  "lanes": 48,
+  "wall_seconds": 201.3850903089624,
+  "searches": {
+    "full": {
+      "searches": 1329,
+      "expected_n": 640,
+      "requested_k": 16,
+      "frozen_n": {
+        "640": 1329
+      },
+      "effective_k": {
+        "16": 1156,
+        "4": 34,
+        "2": 47,
+        "8": 92
+      },
+      "completed_all": 1329,
+      "deadline_hits": 0,
+      "elapsed_seconds": {
+        "samples": 1329,
+        "min": 0.253848898,
+        "p50": 1.437387898,
+        "p95": 1.89846218,
+        "max": 2.630552537,
+        "mean": 1.4357335128607975
+      }
+    },
+    "fast": {
+      "searches": 3038,
+      "expected_n": 128,
+      "requested_k": 8,
+      "frozen_n": {
+        "128": 3038
+      },
+      "effective_k": {
+        "8": 3013,
+        "4": 4,
+        "2": 21
+      },
+      "completed_all": 3038,
+      "deadline_hits": 0,
+      "elapsed_seconds": {
+        "samples": 3038,
+        "min": 0.147283925,
+        "p50": 0.272131227,
+        "p95": 0.33468589,
+        "max": 0.406291457,
+        "mean": 0.27224969611257405
+      }
+    }
+  },
+  "labels": {
+    "full": {
+      "labels": 1488,
+      "explored": 1488
+    },
+    "fast": {
+      "labels": 4464,
+      "explored": 2110
+    },
+    "worker": {
+      "decisions": {
+        "long": 1488,
+        "short": 4464
+      },
+      "sampled": {
+        "long": 1488,
+        "short": 2110
+      },
+      "changed": {
+        "long": 985,
+        "short": 1296
+      },
+      "short_labels": 4464
+    }
+  },
+  "verification": {
+    "handoff_seconds": {
+      "samples": 48,
+      "min": 0.0007731919758953154,
+      "p50": 0.0008826450211927295,
+      "p95": 0.0014429730363190174,
+      "max": 0.03979213204002008,
+      "mean": 0.0017475177301093936
+    },
+    "deferred_logit_check": {
+      "samples": 48,
+      "min": 0.10099087399430573,
+      "p50": 2.289920584007632,
+      "p95": 10.037139750027563,
+      "max": 11.292675219010562,
+      "mean": 3.6745237307962575
+    },
+    "deferred_rows": 5952,
+    "full": {
+      "samples": 82,
+      "min": 0.03823335899505764,
+      "p50": 2.2942002480267547,
+      "p95": 4.718830639962107,
+      "max": 7.916933673026506,
+      "mean": 2.642828871721754
+    },
+    "fast": {
+      "samples": 62,
+      "min": 0.07617180200759321,
+      "p50": 4.813027489988599,
+      "p95": 9.78151021397207,
+      "max": 12.031231213011779,
+      "mean": 4.843225796511697
+    }
+  },
+  "budget": {
+    "mode": "count",
+    "full": 640,
+    "full_k": 16,
+    "fast": 128,
+    "fast_k": 8,
+    "c_scale": 1.0
+  },
+  "revision": {
+    "contract": "training-revision-g1491/1.0.0",
+    "short_labels": true,
+    "exploration": {
+      "contract": "root-visit-count-sampling/1.0.0",
+      "temperature": 1.0,
+      "opening_actions_per_era": 7,
+      "long_search": true
+    }
+  },
+  "value_error": {
+    "samples": 192,
+    "min": 5.960464477539063e-08,
+    "p50": 2.980232238769531e-07,
+    "p95": 5.960464477539062e-07,
+    "max": 1.0728836059570312e-06,
+    "mean": 3.261181215445201e-07
+  },
+  "search_seconds": {
+    "samples": 48,
+    "min": 51.047309532,
+    "p50": 56.464714819,
+    "p95": 62.535166641,
+    "max": 64.10736279,
+    "mean": 56.98300865379167
+  },
+  "stall_seconds": {
+    "samples": 48,
+    "min": 118.895263499,
+    "p50": 125.545442559,
+    "p95": 133.510792777,
+    "max": 140.906530551,
+    "mean": 125.82301770052084
+  },
+  "labels_per_table": {
+    "samples": 48,
+    "min": 124.0,
+    "p50": 124.0,
+    "p95": 124.0,
+    "max": 124.0,
+    "mean": 124.0
+  },
+  "blend_effect": {
+    "0.25": {
+      "samples": 6,
+      "min": 0.0013147294521331787,
+      "p50": 0.010699093341827393,
+      "p95": 0.02033323049545288,
+      "max": 0.02033323049545288,
+      "mean": 0.009624893466631571
+    },
+    "1.0": {
+      "samples": 6,
+      "min": 0.022105932235717773,
+      "p50": 0.04873618483543396,
+      "p95": 0.0557328462600708,
+      "max": 0.0557328462600708,
+      "mean": 0.04415530959765116
+    }
+  },
+  "table_seconds": {
+    "samples": 48,
+    "min": 173.842774546,
+    "p50": 182.457431967,
+    "p95": 189.757960964,
+    "max": 200.723524921,
+    "mean": 182.8060263543125
+  },
+  "mono_bootstrap_seconds": {
+    "samples": 48,
+    "min": 0.14777270500781015,
+    "p50": 0.16350689996033907,
+    "p95": 0.19195252197096124,
+    "max": 0.1942112409742549,
+    "mean": 0.16534509389991095
+  },
+  "forward": {
+    "positions": 1195405,
+    "forward_ns": 1012540210830
+  },
+  "seconds": 203.8536020690226
+}

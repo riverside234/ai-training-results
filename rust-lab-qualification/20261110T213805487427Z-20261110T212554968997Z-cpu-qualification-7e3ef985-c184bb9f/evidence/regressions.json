@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "checks": {
+    "build_evidence_retained": {
+      "passed": true,
+      "detail": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/cpu-inference-20261110T203309-aebde8b1/teacher/checkout/native"
+    },
+    "suite": {
+      "passed": true,
+      "detail": [
+        "test_requested_blends_do_not_inherit_the_training_stage (test_cpu_qualification.TeacherJobs.test_requested_blends_do_not_inherit_the_training_stage) ... ok",
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 49 tests in 83.472s",
+        "",
+        "OK"
+      ]
+    },
+    "only_expected_skips": {
+      "passed": true,
+      "detail": "OK"
+    },
+    "native_suites_ran": {
+      "passed": true,
+      "detail": "Ran 49 tests"
+    }
+  },
+  "log_tail": [
+    "test_requested_blends_do_not_inherit_the_training_stage (test_cpu_qualification.TeacherJobs.test_requested_blends_do_not_inherit_the_training_stage) ... ok",
+    "",
+    "----------------------------------------------------------------------",
+    "Ran 49 tests in 83.472s",
+    "",
+    "OK"
+  ],
+  "modules": [
+    "test_cpu_inference.RealLane",
+    "test_cpu_qualification"
+  ],
+  "reused_prepare_suite": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/cpu-inference-20261110T203309-aebde8b1/regressions.log",
+    "bytes": 13070,
+    "sha256": "b14c75994362ea1dfc0b2735c72747086de62517031117239c52106fd10273e1"
+  },
+  "seconds": 84.80141031800304
+}

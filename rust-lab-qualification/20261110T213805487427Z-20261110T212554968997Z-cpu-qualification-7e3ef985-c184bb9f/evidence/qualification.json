@@ -1,0 +1,94 @@
+{
+  "contract": "brass-lab-cpu-qualification/1.0.0",
+  "passed": true,
+  "production_modified": false,
+  "expected_generation": 1491,
+  "stages": {
+    "environment": {
+      "passed": true,
+      "seconds": 0.017718597024213523,
+      "failed_checks": []
+    },
+    "regressions": {
+      "passed": true,
+      "seconds": 84.80141031800304,
+      "failed_checks": []
+    },
+    "bundles": {
+      "passed": true,
+      "seconds": 79.52751975302817,
+      "failed_checks": []
+    },
+    "parity": {
+      "passed": true,
+      "seconds": 0.3908031599712558,
+      "failed_checks": []
+    },
+    "teacher": {
+      "passed": true,
+      "seconds": 203.8536020690226,
+      "failed_checks": []
+    },
+    "ordinary": {
+      "passed": true,
+      "seconds": 180.1465014970163,
+      "failed_checks": []
+    },
+    "overlap": {
+      "passed": true,
+      "seconds": 133.41226279200055,
+      "failed_checks": []
+    },
+    "rating": {
+      "passed": true,
+      "seconds": 43.86161434696987,
+      "failed_checks": []
+    },
+    "startup": {
+      "passed": true,
+      "seconds": 2.5277957320213318e-05,
+      "failed_checks": []
+    }
+  },
+  "scope": "Lab qualification of in-worker CPU inference; the run is read only",
+  "execution_source": {
+    "implementation": "3c8a3fa7ac91c62c3ded484eb1a775c6849d3af7d4a8117582c717c2761b6e8e",
+    "qualified_implementation": "9efcf34f853d75ab844366b6819da4b0921be38d3e2dfb806cf282ace76e7a30",
+    "replay_location_review": "060214ccaa3d5e9bae5d329c832547f56291a3888f50dde3ba60a3f5636d5a49"
+  },
+  "pending_work": {
+    "paths": [
+      "/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-restart-g1290/iteration-1491"
+    ],
+    "files": 369,
+    "left_in_place": true
+  },
+  "budget": {
+    "mode": "count",
+    "full": 640,
+    "full_k": 16,
+    "fast": 128,
+    "fast_k": 8,
+    "c_scale": 1.0
+  },
+  "revision": "training-revision-g1491/1.0.0",
+  "identity": {
+    "contract": "brass-lab-cpu-qualification/1.0.0",
+    "implementation": "3c8a3fa7ac91c62c3ded484eb1a775c6849d3af7d4a8117582c717c2761b6e8e",
+    "cpu_build": "7e1203ea8f1073ad8fab0b4ba573dd0a606e9768f399f1c2f2c55ce6d238798d",
+    "checkpoint": "24319a9307466d44c0c134cbbe7aad08a776769942ee2b4df4f2ed8d911398a5",
+    "workers": 64,
+    "budget": {
+      "mode": "count",
+      "full": 640,
+      "full_k": 16,
+      "fast": 128,
+      "fast_k": 8,
+      "c_scale": 1.0
+    },
+    "ordinary_games": 128,
+    "matched_games": 16,
+    "rating_games": 2,
+    "revision": "training-revision-g1491/1.0.0"
+  }
+}

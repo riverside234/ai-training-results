@@ -1,0 +1,231 @@
+{
+  "passed": true,
+  "checks": {
+    "every_league_model_has_a_bundle": {
+      "passed": true,
+      "detail": 25
+    },
+    "an_anchor_without_utility_is_covered": {
+      "passed": true,
+      "detail": 1
+    },
+    "learner_has_the_search_head": {
+      "passed": true,
+      "detail": "e67e435f4ec8509dc56506311d601bca9f7825321a26467d199f393fa0e525e4"
+    },
+    "parity_passed": {
+      "passed": true,
+      "detail": 8.392333984375e-05
+    },
+    "six_shapes_each": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "registered_seconds": 79.52302817499731,
+  "export_seconds": 0.003454084973782301,
+  "newly_exported": 0,
+  "models": {
+    "20ebe0bd90d13c4ed801f5fd63064ed264a8636f3f1a49457b6cf398889896b7": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 4.57763671875e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "2c02da54e1472a7ce5eb83525e87ec18dea8cb58227b148d1fca90f30edde999": {
+      "utility": true,
+      "search_delta": true,
+      "parity_error": 6.103515625e-05,
+      "parity_passed": true,
+      "reward_id": "695e2dd55e88794ec84217b75433ae778b46930f35c53edf062ecfbd5eda6bdd",
+      "shapes": 6
+    },
+    "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 4.57763671875e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "392010dad0f0dd094314f298ee739d5182b21c7bbf1d6b8be389e9fc5c65ec4c": {
+      "utility": true,
+      "search_delta": true,
+      "parity_error": 3.0517578125e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "3f47a7b50be0c26ee3e818062642ec28410e309f710d0fa5bb37e36917a60333": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 6.103515625e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "41c15e06127377047e72e2eb18ed83ded01e17433110a1b88a60de0f9b73b387": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 6.103515625e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "4a1f58e5f59319eb4389216ca0e2f06c47adf07f00f27d755bf2479b7ed68c45": {
+      "utility": true,
+      "search_delta": true,
+      "parity_error": 4.57763671875e-05,
+      "parity_passed": true,
+      "reward_id": "695e2dd55e88794ec84217b75433ae778b46930f35c53edf062ecfbd5eda6bdd",
+      "shapes": 6
+    },
+    "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 4.57763671875e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "60a9332e4c84d1f179d7327c5a847c26a5a72d7ebe485a70bdb1143c980f3788": {
+      "utility": true,
+      "search_delta": true,
+      "parity_error": 4.57763671875e-05,
+      "parity_passed": true,
+      "reward_id": "695e2dd55e88794ec84217b75433ae778b46930f35c53edf062ecfbd5eda6bdd",
+      "shapes": 6
+    },
+    "6e26ae57a6fdf7e34125bac05037bdb3b2660d8a263eedc1f0fd8310f1f933dc": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 6.103515625e-05,
+      "parity_passed": true,
+      "reward_id": "00817c3dd4bc8be39ba2ac7193ee88db6c2823b5c31ab41465590692a05b7346",
+      "shapes": 6
+    },
+    "6f330d1a938d6e1eee50bb54fccd6b601d41790e6d08c1356aaca8df6f159d4b": {
+      "utility": true,
+      "search_delta": true,
+      "parity_error": 5.340576171875e-05,
+      "parity_passed": true,
+      "reward_id": "695e2dd55e88794ec84217b75433ae778b46930f35c53edf062ecfbd5eda6bdd",
+      "shapes": 6
+    },
+    "7746eecf9a85cbbd9c4e109c48e8fd92553b6e15b8d8204bf6d9fc0b0af38c6f": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 4.57763671875e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "82e44e3cf06be24a77608a75c2f6657fe9782c0562e960b029dd1925d2b436c0": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 7.62939453125e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "92f5d90448096ae5bfaa3fc6c57139722c329d2b8edf58ca5a2e6d4d7b9a231d": {
+      "utility": true,
+      "search_delta": true,
+      "parity_error": 5.340576171875e-05,
+      "parity_passed": true,
+      "reward_id": "695e2dd55e88794ec84217b75433ae778b46930f35c53edf062ecfbd5eda6bdd",
+      "shapes": 6
+    },
+    "93f1b3d5d48f890e113ee473c81360321f41327a49b04ef7c460dd0ca0b7b120": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 4.57763671875e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b": {
+      "utility": false,
+      "search_delta": false,
+      "parity_error": 5.340576171875e-05,
+      "parity_passed": true,
+      "reward_id": "",
+      "shapes": 6
+    },
+    "be5a0a019e2c6770e665dde3e08d4f0711fe15279d1fbbda34cfbc94387e9ad7": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 4.1961669921875e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 7.62939453125e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "c37d4c61160739d7414ea284ea35c17ed8565c0e3c62c4acf5e37d0126148068": {
+      "utility": true,
+      "search_delta": true,
+      "parity_error": 4.57763671875e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "c63a4584e6746ecdb03e4ce71d15226824dd76503c2c1ab1dac0d10bdea57bfe": {
+      "utility": true,
+      "search_delta": true,
+      "parity_error": 5.340576171875e-05,
+      "parity_passed": true,
+      "reward_id": "695e2dd55e88794ec84217b75433ae778b46930f35c53edf062ecfbd5eda6bdd",
+      "shapes": 6
+    },
+    "d8d790ae2662510684fa05ed38a478c1ef90f197c82804a57d0088aa8c22eb67": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 4.1961669921875e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "e1da4a9617b66fc894c20affe1ffedd6adc3e21a527467dcd123d540e244e711": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 8.392333984375e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "e67e435f4ec8509dc56506311d601bca9f7825321a26467d199f393fa0e525e4": {
+      "utility": true,
+      "search_delta": true,
+      "parity_error": 4.57763671875e-05,
+      "parity_passed": true,
+      "reward_id": "695e2dd55e88794ec84217b75433ae778b46930f35c53edf062ecfbd5eda6bdd",
+      "shapes": 6
+    },
+    "fcc2f557308c6d41ddf02b64126312048fab4945d25eec9a122415e29f04c475": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 4.57763671875e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    },
+    "ffb64f9d3834fd2fbc2a4f2460a5958318d2f9a6f7b2334d6a85855e8bd4a36e": {
+      "utility": true,
+      "search_delta": false,
+      "parity_error": 7.62939453125e-05,
+      "parity_passed": true,
+      "reward_id": "49711b4abaa95940928db567fa76ab654a5d60c417e1b5eca8dbb44ffb5327c1",
+      "shapes": 6
+    }
+  },
+  "seconds": 79.52751975302817
+}
