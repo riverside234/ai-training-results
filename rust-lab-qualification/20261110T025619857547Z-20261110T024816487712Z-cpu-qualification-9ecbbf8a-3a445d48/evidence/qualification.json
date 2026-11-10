@@ -1,0 +1,94 @@
+{
+  "contract": "brass-lab-cpu-qualification/1.0.0",
+  "passed": false,
+  "production_modified": false,
+  "expected_generation": 1307,
+  "stages": {
+    "environment": {
+      "passed": true,
+      "seconds": 0.014247591025196016,
+      "failed_checks": []
+    },
+    "regressions": {
+      "passed": true,
+      "seconds": 35.13270762201864,
+      "failed_checks": []
+    },
+    "bundles": {
+      "passed": true,
+      "seconds": 79.06132292596158,
+      "failed_checks": []
+    },
+    "parity": {
+      "passed": true,
+      "seconds": 0.3829216260346584,
+      "failed_checks": []
+    },
+    "teacher": {
+      "passed": false,
+      "seconds": 44.5587757640169,
+      "failed_checks": [
+        "blend_weights"
+      ]
+    },
+    "ordinary": {
+      "passed": true,
+      "seconds": 175.55046374094673,
+      "failed_checks": []
+    },
+    "overlap": {
+      "passed": true,
+      "seconds": 116.57585334102623,
+      "failed_checks": []
+    },
+    "rating": {
+      "passed": true,
+      "seconds": 27.827722601010464,
+      "failed_checks": []
+    },
+    "startup": {
+      "passed": true,
+      "seconds": 2.9383983928710222e-05,
+      "failed_checks": []
+    }
+  },
+  "scope": "Lab qualification of in-worker CPU inference; the run is read only",
+  "execution_source": {
+    "implementation": "7b3e48df9b3b3667da1d120ee61dcd1b7f1825d8025faa3754b856aacb241b9d",
+    "qualified_implementation": "9efcf34f853d75ab844366b6819da4b0921be38d3e2dfb806cf282ace76e7a30",
+    "replay_location_review": "aa72bf795f5056ff52715529da1c3fb760e8b4e41db879cbc50ff1b447872ec6"
+  },
+  "pending_work": {
+    "paths": [
+      "/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-trained-restart/iteration-1307"
+    ],
+    "files": 1001,
+    "left_in_place": true
+  },
+  "budget": {
+    "mode": "count",
+    "full": 640,
+    "full_k": 16,
+    "fast": 96,
+    "fast_k": 8,
+    "c_scale": 1.0
+  },
+  "identity": {
+    "contract": "brass-lab-cpu-qualification/1.0.0",
+    "implementation": "7b3e48df9b3b3667da1d120ee61dcd1b7f1825d8025faa3754b856aacb241b9d",
+    "cpu_build": "186838d6dd27c2d67fdf06b98f9fccc333267c7a7cf5bf85e8094a0019777f68",
+    "checkpoint": "d2ec73598158acb1741c87a3b95057739b90af580e4faec3ed6dd3f6304de322",
+    "workers": 64,
+    "budget": {
+      "mode": "count",
+      "full": 640,
+      "full_k": 16,
+      "fast": 96,
+      "fast_k": 8,
+      "c_scale": 1.0
+    },
+    "ordinary_games": 128,
+    "matched_games": 16,
+    "rating_games": 2
+  }
+}

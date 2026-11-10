@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "checks": {
+    "ordinary_stage_measured_startup": {
+      "passed": true,
+      "detail": null
+    },
+    "every_lane_reported": {
+      "passed": true,
+      "detail": [
+        64,
+        64
+      ]
+    },
+    "mono_bootstrap_measured": {
+      "passed": true,
+      "detail": null
+    },
+    "startup_measured": {
+      "passed": true,
+      "detail": [
+        "lane_wait_seconds",
+        "lease_seconds",
+        "mono_bootstrap_seconds",
+        "mono_spawn_seconds",
+        "python_import_seconds",
+        "session_import_seconds",
+        "spawn_seconds",
+        "total_seconds"
+      ]
+    },
+    "lanes_do_not_wait_for_each_other": {
+      "passed": true,
+      "detail": null
+    },
+    "no_reply_channels_on_the_cpu_path": {
+      "passed": true,
+      "detail": 0.00025654997443780303
+    },
+    "processes_start_without_waiting": {
+      "passed": true,
+      "detail": 0.0014395160314961686
+    }
+  },
+  "first_lane_ready_seconds": 1.0601918697357178,
+  "last_lane_ready_seconds": 4.026160001754761,
+  "mono_bootstrap": {
+    "lanes": 64,
+    "min": 0.13527250289916992,
+    "p50": 0.15726900100708008,
+    "p95": 0.5766582489013672,
+    "max": 1.7097563743591309,
+    "mean": 0.24374189972877502
+  },
+  "python_import": {
+    "lanes": 64,
+    "min": 0.0003936290740966797,
+    "p50": 0.001575469970703125,
+    "p95": 0.008002996444702148,
+    "max": 0.02516484260559082,
+    "mean": 0.002748984843492508
+  },
+  "total": {
+    "lanes": 64,
+    "min": 1.0144617557525635,
+    "p50": 1.244415283203125,
+    "p95": 2.1871237754821777,
+    "max": 3.9796571731567383,
+    "mean": 1.4620675966143608
+  },
+  "process_start_seconds": 0.09212902601575479,
+  "usage": {
+    "phases": {
+      "collection": {
+        "total_seconds": 139.8124121549772,
+        "samples": 1,
+        "median": 139.8124121549772,
+        "p90": 139.8124121549772,
+        "maximum": 139.8124121549772
+      }
+    },
+    "peak_process_tree_rss_bytes": 71363747840,
+    "sampled_process_tree_cpu_seconds": 874.24,
+    "process_samples": 474,
+    "exited_process_reads": 17,
+    "cuda_setup": null,
+    "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+    "device_memory": {
+      "host_resident_bytes": 24825397248
+    }
+  },
+  "note": "Peak RSS is the whole qualification process tree during the CPU arm, including this parent.",
+  "seconds": 2.9383983928710222e-05
+}

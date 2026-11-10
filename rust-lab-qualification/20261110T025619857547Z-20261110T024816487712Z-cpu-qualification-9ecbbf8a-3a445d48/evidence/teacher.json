@@ -1,0 +1,215 @@
+{
+  "passed": false,
+  "checks": {
+    "teacher_readiness": {
+      "passed": true,
+      "detail": {
+        "version": "ppg-value-phase/26.0.0",
+        "reward_id": "695e2dd55e88794ec84217b75433ae778b46930f35c53edf062ecfbd5eda6bdd",
+        "ready": true,
+        "decisions": 238741,
+        "games": 608,
+        "steps": 59,
+        "before": {
+          "mse": 0.15637997317809768
+        },
+        "after": {
+          "mse": 0.15119281316976613
+        },
+        "scope": "Final accepted value-phase weights; ordinary critic-train games only; heldout games excluded"
+      }
+    },
+    "blend_weights": {
+      "passed": false,
+      "detail": [
+        0.25,
+        0.4,
+        1.0
+      ]
+    },
+    "full_searches_ran": {
+      "passed": true,
+      "detail": 256
+    },
+    "full_uses_the_budget": {
+      "passed": true,
+      "detail": {
+        "640": 256
+      }
+    },
+    "full_stays_within_k": {
+      "passed": true,
+      "detail": {
+        "16": 243,
+        "8": 12,
+        "4": 1
+      }
+    },
+    "full_reaches_k": {
+      "passed": true,
+      "detail": {
+        "16": 243,
+        "8": 12,
+        "4": 1
+      }
+    },
+    "full_rarely_hits_the_safety_cap": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "fast_searches_ran": {
+      "passed": true,
+      "detail": 775
+    },
+    "fast_uses_the_budget": {
+      "passed": true,
+      "detail": {
+        "96": 775
+      }
+    },
+    "fast_stays_within_k": {
+      "passed": true,
+      "detail": {
+        "8": 775
+      }
+    },
+    "fast_reaches_k": {
+      "passed": true,
+      "detail": {
+        "8": 775
+      }
+    },
+    "fast_rarely_hits_the_safety_cap": {
+      "passed": true,
+      "detail": 0.0
+    },
+    "labels_produced": {
+      "passed": true,
+      "detail": 494
+    },
+    "labels_accepted": {
+      "passed": true,
+      "detail": {
+        "accepted": 494,
+        "rejected": 0,
+        "rows": 494
+      }
+    },
+    "value_rows_match_pytorch_blend": {
+      "passed": true,
+      "detail": 1.2814998626708984e-06
+    },
+    "every_table_used_cpu": {
+      "passed": true,
+      "detail": null
+    },
+    "no_gpu_positions": {
+      "passed": true,
+      "detail": 0
+    }
+  },
+  "tables": 16,
+  "lanes": 16,
+  "wall_seconds": 43.47541998903034,
+  "searches": {
+    "full": {
+      "searches": 256,
+      "expected_n": 640,
+      "requested_k": 16,
+      "frozen_n": {
+        "640": 256
+      },
+      "effective_k": {
+        "16": 243,
+        "8": 12,
+        "4": 1
+      },
+      "completed_all": 256,
+      "deadline_hits": 0,
+      "elapsed_seconds": {
+        "samples": 256,
+        "min": 0.685106968,
+        "p50": 1.772682886,
+        "p95": 2.027904688,
+        "max": 2.326699826,
+        "mean": 1.7271857132304687
+      }
+    },
+    "fast": {
+      "searches": 775,
+      "expected_n": 96,
+      "requested_k": 8,
+      "frozen_n": {
+        "96": 775
+      },
+      "effective_k": {
+        "8": 775
+      },
+      "completed_all": 775,
+      "deadline_hits": 0,
+      "elapsed_seconds": {
+        "samples": 775,
+        "min": 0.114793048,
+        "p50": 0.235798005,
+        "p95": 0.266633757,
+        "max": 0.297719562,
+        "mean": 0.2323320853587097
+      }
+    }
+  },
+  "value_error": {
+    "samples": 64,
+    "min": 5.960464477539063e-08,
+    "p50": 2.980232238769531e-07,
+    "p95": 5.960464477539062e-07,
+    "max": 1.2814998626708984e-06,
+    "mean": 3.25031578540802e-07
+  },
+  "blend_effect": {
+    "0.4": {
+      "samples": 8,
+      "min": 0.004611194133758545,
+      "p50": 0.01982596516609192,
+      "p95": 0.041605591773986816,
+      "max": 0.041605591773986816,
+      "mean": 0.018896542489528656
+    },
+    "0.25": {
+      "samples": 4,
+      "min": 0.004661828279495239,
+      "p50": 0.013135075569152832,
+      "p95": 0.013883829116821289,
+      "max": 0.013883829116821289,
+      "mean": 0.010852925479412079
+    },
+    "1.0": {
+      "samples": 4,
+      "min": 0.021878480911254883,
+      "p50": 0.03528648614883423,
+      "p95": 0.06853726506233215,
+      "max": 0.06853726506233215,
+      "mean": 0.039588309824466705
+    }
+  },
+  "table_seconds": {
+    "samples": 16,
+    "min": 40.413107935,
+    "p50": 41.497413797,
+    "p95": 43.201082038,
+    "max": 43.201082038,
+    "mean": 41.703482081749996
+  },
+  "mono_bootstrap_seconds": {
+    "samples": 16,
+    "min": 0.1412983310292475,
+    "p50": 0.1444727280177176,
+    "p95": 0.15688337403116748,
+    "max": 0.15688337403116748,
+    "mean": 0.14527949661351158
+  },
+  "forward": {
+    "positions": 231148,
+    "forward_ns": 261234505765
+  },
+  "seconds": 44.5587757640169
+}

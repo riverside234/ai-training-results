@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "checks": {
+    "covers_the_learner_and_an_anchor": {
+      "passed": true,
+      "detail": [
+        "anchor",
+        "search_head",
+        "utility"
+      ]
+    },
+    "collector_contract": {
+      "passed": true,
+      "detail": "brass-lab-cpu-inference/1.0.0"
+    },
+    "search_head_matches_pytorch": {
+      "passed": true,
+      "detail": {
+        "scaled": 0.05629533118794336,
+        "absolute": 3.4332275390625e-05
+      }
+    },
+    "utility_matches_pytorch": {
+      "passed": true,
+      "detail": {
+        "scaled": 0.023977709056902424,
+        "absolute": 3.814697265625e-05
+      }
+    },
+    "anchor_matches_pytorch": {
+      "passed": true,
+      "detail": {
+        "scaled": 0.02474000221167766,
+        "absolute": 1.52587890625e-05
+      }
+    }
+  },
+  "kinds": {
+    "search_head": {
+      "model_id": "6670fdff7d23231d7ab1aa8f69ff2bce8e391f35575b6d599978d4e4b8e11587",
+      "positions": 4,
+      "worst_absolute_error": 3.4332275390625e-05,
+      "worst_scaled_error": 0.05629533118794336,
+      "candidates": 413
+    },
+    "utility": {
+      "model_id": "1991a2ce8a8b973499e0f18b418fef5b4261da66a43b4b5a5096296ef01ea7d3",
+      "positions": 4,
+      "worst_absolute_error": 3.814697265625e-05,
+      "worst_scaled_error": 0.023977709056902424,
+      "candidates": 413
+    },
+    "anchor": {
+      "model_id": "94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b",
+      "positions": 4,
+      "worst_absolute_error": 1.52587890625e-05,
+      "worst_scaled_error": 0.02474000221167766,
+      "candidates": 413
+    }
+  },
+  "seconds": 0.3829216260346584
+}
