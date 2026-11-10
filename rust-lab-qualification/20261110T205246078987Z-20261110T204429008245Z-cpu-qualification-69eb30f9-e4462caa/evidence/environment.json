@@ -1,0 +1,81 @@
+{
+  "passed": false,
+  "checks": {
+    "linux": {
+      "passed": true,
+      "detail": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39"
+    },
+    "cuda": {
+      "passed": true,
+      "detail": "cuda:0"
+    },
+    "enough_cpus": {
+      "passed": false,
+      "detail": {
+        "usable": 64,
+        "lanes": 80,
+        "sockets": {
+          "0": 32,
+          "1": 32
+        }
+      }
+    },
+    "mono": {
+      "passed": true,
+      "detail": "Mono JIT compiler version 6.12.0.199 (tarball Thu Apr 17 12:12:14 AM UTC 2025)"
+    },
+    "onnxruntime": {
+      "passed": true,
+      "detail": "1.22.1"
+    },
+    "generation": {
+      "passed": true,
+      "detail": 1491
+    }
+  },
+  "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:46:43) [GCC 14.3.0]",
+  "torch": "2.8.0+cu128",
+  "memory": {
+    "MemTotal": "792148644 kB",
+    "MemAvailable": "749325532 kB"
+  },
+  "open_file_limit": [
+    65536,
+    1048576
+  ],
+  "checkpoint": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/step5/joint7-v11-2-g1290-restart-g1290/generation-1491.pt",
+    "bytes": 128522857,
+    "sha256": "24319a9307466d44c0c134cbbe7aad08a776769942ee2b4df4f2ed8d911398a5"
+  },
+  "cpu_build": {
+    "path": "/data/not_backed_up/yxu209/ai-training/artifacts/rust-backend/cpu-inference/build.json",
+    "bytes": 2316,
+    "sha256": "7e1203ea8f1073ad8fab0b4ba573dd0a606e9768f399f1c2f2c55ce6d238798d"
+  },
+  "execution": {
+    "processes": 24,
+    "hosts_per_process": 2,
+    "heavy_processes": 24,
+    "batch_size": 64,
+    "max_candidate_cells": 131072,
+    "flush_ms": 1.0,
+    "worker_threads": 1,
+    "max_decisions": 2000,
+    "max_models": 72,
+    "shard_games": 8,
+    "shard_bytes": 268435456,
+    "feature_cache": true,
+    "policy_cache": 32,
+    "search_workers_per_turn": 4,
+    "teacher_search_workers_per_turn": 8,
+    "cpu_budget": 64,
+    "cpu_reserve": 4,
+    "shared_slot_bytes": 2097152,
+    "inference_routing": "demand",
+    "replica_backlog": 32,
+    "padding_ratio": 2.0,
+    "model_cohorts": false
+  },
+  "seconds": 0.014055816980544478
+}

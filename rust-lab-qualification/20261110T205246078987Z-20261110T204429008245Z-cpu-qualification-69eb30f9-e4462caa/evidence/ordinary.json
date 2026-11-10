@@ -1,0 +1,1517 @@
+{
+  "passed": true,
+  "checks": {
+    "real_jobs": {
+      "passed": true,
+      "detail": {
+        "chosen": 128,
+        "planned": 320
+      }
+    },
+    "jobs_seat_an_anchor": {
+      "passed": true,
+      "detail": 1
+    },
+    "cpu_arm_finished_every_job": {
+      "passed": true,
+      "detail": 128
+    },
+    "no_gpu_positions": {
+      "passed": true,
+      "detail": 0
+    },
+    "probabilities_within_bound": {
+      "passed": true,
+      "detail": 0
+    },
+    "matched_games_stay_together": {
+      "passed": true,
+      "detail": 0
+    }
+  },
+  "jobs": 128,
+  "matched": 16,
+  "comparison": {
+    "games": 16,
+    "diverged": 0,
+    "rows": 2724,
+    "forced_rows": 3551,
+    "max_absolute": 4.3721472290370045e-06,
+    "max_relative": 1.6214745607315673e-05,
+    "tolerance_failures": [],
+    "tolerance_failure_count": 0
+  },
+  "gpu": {
+    "collection_seconds": 29.26591284002643,
+    "records": 16,
+    "report": {
+      "counts": {
+        "rust": 16,
+        "reference": 0,
+        "cached": 0
+      },
+      "reference_reasons": {},
+      "wall_seconds": 28.794047717005014,
+      "lanes": 32,
+      "peak_unfinished_families": 16,
+      "limit": 64,
+      "startup_seconds": 1.719889692030847,
+      "processes": 16,
+      "publisher_processes": 2,
+      "writer_startup_seconds": 0.7219496040488593,
+      "actor_startup_seconds": 0.9979400879819877,
+      "cache_recovery_seconds": 0.0036496350076049566,
+      "cache_candidates": 0,
+      "live_collection_seconds": 27.0679454409983,
+      "publication_workers": 2,
+      "board_histories_cross_learner": false,
+      "structural_family_validation_passes_per_publication": 1,
+      "native_families": 16,
+      "validation_policy": {
+        "contract": "brass-collector-validation/1",
+        "mode": "strict",
+        "eligible": 16,
+        "semantic_audited": 16,
+        "family_every": 64,
+        "branch_every": 16,
+        "publication_checks": {
+          "structural": {
+            "eligible": 16,
+            "executed": 16,
+            "skipped": 0,
+            "reused": 0,
+            "failed": 0
+          },
+          "sampling_rng_probability": {
+            "eligible": 16,
+            "executed": 16,
+            "skipped": 0,
+            "reused": 0,
+            "failed": 0
+          },
+          "branch_deep": {
+            "eligible": 0,
+            "executed": 0,
+            "skipped": 0,
+            "reused": 0,
+            "failed": 0
+          },
+          "schema_deep": {
+            "eligible": 16,
+            "executed": 16,
+            "skipped": 0,
+            "reused": 0,
+            "failed": 0
+          }
+        },
+        "cold_recovery_families": 0,
+        "first_per_stratum_per_collection": true
+      },
+      "binding_checks": {
+        "metadata_hash_executed": 48,
+        "publication_row_binding_reused": 6275,
+        "input_hash_executed": 18825,
+        "label_hash_executed": 18825,
+        "family_json_encoding_executed": 16,
+        "pack_finite_executed": 16,
+        "replay_family_encoding_reused": 16
+      },
+      "shared_buffers": {
+        "active_bytes": 0,
+        "peak_bytes": 705146216,
+        "budget_bytes": 1073741824,
+        "active_leases": 0
+      },
+      "startup_breakdown": {
+        "contract": "brass-lab-lane-startup/1.0.0",
+        "processes": 16,
+        "lanes": 32,
+        "lanes_reported": 32,
+        "waits_for_all_lanes": true,
+        "process_start_seconds": 0.03023422200931236,
+        "reply_channel_seconds": 0.005350208026356995,
+        "first_lane_ready_seconds": 0.9135153293609619,
+        "last_lane_ready_seconds": 0.9975032806396484,
+        "phases": {
+          "python_import_seconds": {
+            "lanes": 32,
+            "min": 3.4809112548828125e-05,
+            "p50": 4.363059997558594e-05,
+            "p95": 5.412101745605469e-05,
+            "max": 5.412101745605469e-05,
+            "mean": 4.354119300842285e-05
+          },
+          "lane_wait_seconds": {
+            "lanes": 32,
+            "min": 0.00014066696166992188,
+            "p50": 0.0002949237823486328,
+            "p95": 0.0007650852203369141,
+            "max": 0.0009541511535644531,
+            "mean": 0.00039055943489074707
+          },
+          "lease_seconds": {
+            "lanes": 32,
+            "min": 0.000354766845703125,
+            "p50": 0.0009562969207763672,
+            "p95": 0.0021593570709228516,
+            "max": 0.0026438236236572266,
+            "mean": 0.0011164769530296326
+          },
+          "session_import_seconds": {
+            "lanes": 32,
+            "min": 0.012308359146118164,
+            "p50": 0.013740301132202148,
+            "p95": 0.03079080581665039,
+            "max": 0.03201150894165039,
+            "mean": 0.015518218278884888
+          },
+          "mono_spawn_seconds": {
+            "lanes": 32,
+            "min": 0.0004718303680419922,
+            "p50": 0.0012085437774658203,
+            "p95": 0.002498149871826172,
+            "max": 0.003234386444091797,
+            "mean": 0.0013296306133270264
+          },
+          "mono_bootstrap_seconds": {
+            "lanes": 32,
+            "min": 0.1254274845123291,
+            "p50": 0.13724684715270996,
+            "p95": 0.16037893295288086,
+            "max": 0.17072105407714844,
+            "mean": 0.1392066404223442
+          }
+        },
+        "per_lane": [
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.839897155761719e-05,
+            "lane_wait_seconds": 0.00022220611572265625,
+            "lease_seconds": 0.0012063980102539062,
+            "session_import_seconds": 0.014291763305664062,
+            "mono_spawn_seconds": 0.0008234977722167969,
+            "mono_bootstrap_seconds": 0.13599181175231934,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.839897155761719e-05,
+            "lane_wait_seconds": 0.0005304813385009766,
+            "lease_seconds": 0.0021593570709228516,
+            "session_import_seconds": 0.013101577758789062,
+            "mono_spawn_seconds": 0.0008740425109863281,
+            "mono_bootstrap_seconds": 0.137861967086792,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.076957702636719e-05,
+            "lane_wait_seconds": 0.0002002716064453125,
+            "lease_seconds": 0.000354766845703125,
+            "session_import_seconds": 0.026938438415527344,
+            "mono_spawn_seconds": 0.001810312271118164,
+            "mono_bootstrap_seconds": 0.13693785667419434,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.076957702636719e-05,
+            "lane_wait_seconds": 0.0009541511535644531,
+            "lease_seconds": 0.001554250717163086,
+            "session_import_seconds": 0.025115251541137695,
+            "mono_spawn_seconds": 0.0019233226776123047,
+            "mono_bootstrap_seconds": 0.13916659355163574,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.124641418457031e-05,
+            "lane_wait_seconds": 0.00019097328186035156,
+            "lease_seconds": 0.0006122589111328125,
+            "session_import_seconds": 0.013934612274169922,
+            "mono_spawn_seconds": 0.0016994476318359375,
+            "mono_bootstrap_seconds": 0.14164328575134277,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.124641418457031e-05,
+            "lane_wait_seconds": 0.00043773651123046875,
+            "lease_seconds": 0.0007832050323486328,
+            "session_import_seconds": 0.013609886169433594,
+            "mono_spawn_seconds": 0.0012044906616210938,
+            "mono_bootstrap_seconds": 0.13724684715270996,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 3.4809112548828125e-05,
+            "lane_wait_seconds": 0.0002262592315673828,
+            "lease_seconds": 0.0006737709045410156,
+            "session_import_seconds": 0.012567520141601562,
+            "mono_spawn_seconds": 0.0010197162628173828,
+            "mono_bootstrap_seconds": 0.17072105407714844,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 3.4809112548828125e-05,
+            "lane_wait_seconds": 0.00046324729919433594,
+            "lease_seconds": 0.0006327629089355469,
+            "session_import_seconds": 0.012442350387573242,
+            "mono_spawn_seconds": 0.0012085437774658203,
+            "mono_bootstrap_seconds": 0.13711810111999512,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.363059997558594e-05,
+            "lane_wait_seconds": 0.0002834796905517578,
+            "lease_seconds": 0.0009562969207763672,
+            "session_import_seconds": 0.013127326965332031,
+            "mono_spawn_seconds": 0.001008749008178711,
+            "mono_bootstrap_seconds": 0.13927102088928223,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.363059997558594e-05,
+            "lane_wait_seconds": 0.0005943775177001953,
+            "lease_seconds": 0.0009839534759521484,
+            "session_import_seconds": 0.012850761413574219,
+            "mono_spawn_seconds": 0.0008854866027832031,
+            "mono_bootstrap_seconds": 0.13721632957458496,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 3.5762786865234375e-05,
+            "lane_wait_seconds": 0.00021076202392578125,
+            "lease_seconds": 0.0006415843963623047,
+            "session_import_seconds": 0.013247966766357422,
+            "mono_spawn_seconds": 0.0011801719665527344,
+            "mono_bootstrap_seconds": 0.14036321640014648,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 3.5762786865234375e-05,
+            "lane_wait_seconds": 0.0004899501800537109,
+            "lease_seconds": 0.0008444786071777344,
+            "session_import_seconds": 0.012833356857299805,
+            "mono_spawn_seconds": 0.003234386444091797,
+            "mono_bootstrap_seconds": 0.1351780891418457,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 3.933906555175781e-05,
+            "lane_wait_seconds": 0.0003273487091064453,
+            "lease_seconds": 0.0011708736419677734,
+            "session_import_seconds": 0.014389753341674805,
+            "mono_spawn_seconds": 0.0013337135314941406,
+            "mono_bootstrap_seconds": 0.15261316299438477,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 3.933906555175781e-05,
+            "lane_wait_seconds": 0.0007085800170898438,
+            "lease_seconds": 0.001882791519165039,
+            "session_import_seconds": 0.013376474380493164,
+            "mono_spawn_seconds": 0.001051187515258789,
+            "mono_bootstrap_seconds": 0.13799214363098145,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.482269287109375e-05,
+            "lane_wait_seconds": 0.00028324127197265625,
+            "lease_seconds": 0.0019965171813964844,
+            "session_import_seconds": 0.013215303421020508,
+            "mono_spawn_seconds": 0.0011723041534423828,
+            "mono_bootstrap_seconds": 0.1379396915435791,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.482269287109375e-05,
+            "lane_wait_seconds": 0.0005657672882080078,
+            "lease_seconds": 0.0004944801330566406,
+            "session_import_seconds": 0.014348030090332031,
+            "mono_spawn_seconds": 0.0013930797576904297,
+            "mono_bootstrap_seconds": 0.1399989128112793,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 5.412101745605469e-05,
+            "lane_wait_seconds": 0.0002949237823486328,
+            "lease_seconds": 0.0020515918731689453,
+            "session_import_seconds": 0.013740301132202148,
+            "mono_spawn_seconds": 0.0013382434844970703,
+            "mono_bootstrap_seconds": 0.13973641395568848,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 5.412101745605469e-05,
+            "lane_wait_seconds": 0.0006575584411621094,
+            "lease_seconds": 0.0007464885711669922,
+            "session_import_seconds": 0.014577388763427734,
+            "mono_spawn_seconds": 0.0011126995086669922,
+            "mono_bootstrap_seconds": 0.13711905479431152,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.315376281738281e-05,
+            "lane_wait_seconds": 0.00014066696166992188,
+            "lease_seconds": 0.0005490779876708984,
+            "session_import_seconds": 0.013871431350708008,
+            "mono_spawn_seconds": 0.002498149871826172,
+            "mono_bootstrap_seconds": 0.16037893295288086,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.315376281738281e-05,
+            "lane_wait_seconds": 0.0002913475036621094,
+            "lease_seconds": 0.0006806850433349609,
+            "session_import_seconds": 0.013659238815307617,
+            "mono_spawn_seconds": 0.0010232925415039062,
+            "mono_bootstrap_seconds": 0.13709664344787598,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.76837158203125e-05,
+            "lane_wait_seconds": 0.0002677440643310547,
+            "lease_seconds": 0.0009682178497314453,
+            "session_import_seconds": 0.03201150894165039,
+            "mono_spawn_seconds": 0.0019834041595458984,
+            "mono_bootstrap_seconds": 0.1254274845123291,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.76837158203125e-05,
+            "lane_wait_seconds": 0.0006110668182373047,
+            "lease_seconds": 0.001989603042602539,
+            "session_import_seconds": 0.03079080581665039,
+            "mono_spawn_seconds": 0.0012099742889404297,
+            "mono_bootstrap_seconds": 0.12635278701782227,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.601478576660156e-05,
+            "lane_wait_seconds": 0.00016260147094726562,
+            "lease_seconds": 0.0006546974182128906,
+            "session_import_seconds": 0.013128042221069336,
+            "mono_spawn_seconds": 0.0010647773742675781,
+            "mono_bootstrap_seconds": 0.13582801818847656,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.601478576660156e-05,
+            "lane_wait_seconds": 0.0003807544708251953,
+            "lease_seconds": 0.0007803440093994141,
+            "session_import_seconds": 0.012850046157836914,
+            "mono_spawn_seconds": 0.0010540485382080078,
+            "mono_bootstrap_seconds": 0.13513469696044922,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.0531158447265625e-05,
+            "lane_wait_seconds": 0.00014829635620117188,
+            "lease_seconds": 0.0004515647888183594,
+            "session_import_seconds": 0.013287067413330078,
+            "mono_spawn_seconds": 0.0007040500640869141,
+            "mono_bootstrap_seconds": 0.13608741760253906,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.0531158447265625e-05,
+            "lane_wait_seconds": 0.0002944469451904297,
+            "lease_seconds": 0.0006046295166015625,
+            "session_import_seconds": 0.013862371444702148,
+            "mono_spawn_seconds": 0.0004718303680419922,
+            "mono_bootstrap_seconds": 0.1368551254272461,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.9591064453125e-05,
+            "lane_wait_seconds": 0.00024819374084472656,
+            "lease_seconds": 0.0009424686431884766,
+            "session_import_seconds": 0.015278100967407227,
+            "mono_spawn_seconds": 0.0015134811401367188,
+            "mono_bootstrap_seconds": 0.13968920707702637,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.9591064453125e-05,
+            "lane_wait_seconds": 0.0007650852203369141,
+            "lease_seconds": 0.00177001953125,
+            "session_import_seconds": 0.014024972915649414,
+            "mono_spawn_seconds": 0.0015027523040771484,
+            "mono_bootstrap_seconds": 0.1368875503540039,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.57763671875e-05,
+            "lane_wait_seconds": 0.00020074844360351562,
+            "lease_seconds": 0.0010547637939453125,
+            "session_import_seconds": 0.016195297241210938,
+            "mono_spawn_seconds": 0.0013077259063720703,
+            "mono_bootstrap_seconds": 0.1355454921722412,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.57763671875e-05,
+            "lane_wait_seconds": 0.000499725341796875,
+            "lease_seconds": 0.0026438236236572266,
+            "session_import_seconds": 0.014391422271728516,
+            "mono_spawn_seconds": 0.00164794921875,
+            "mono_bootstrap_seconds": 0.1366424560546875,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.100799560546875e-05,
+            "lane_wait_seconds": 0.0002713203430175781,
+            "lease_seconds": 0.0011076927185058594,
+            "session_import_seconds": 0.013216257095336914,
+            "mono_spawn_seconds": 0.0010662078857421875,
+            "mono_bootstrap_seconds": 0.14078140258789062,
+            "total_seconds": null
+          },
+          {
+            "spawn_seconds": null,
+            "python_import_seconds": 4.100799560546875e-05,
+            "lane_wait_seconds": 0.0005745887756347656,
+            "lease_seconds": 0.0017838478088378906,
+            "session_import_seconds": 0.012308359146118164,
+            "mono_spawn_seconds": 0.0012271404266357422,
+            "mono_bootstrap_seconds": 0.13778972625732422,
+            "total_seconds": null
+          }
+        ]
+      },
+      "collector_runtime": {
+        "build_sha256": "17046ed24860f8b07ed4854cdc7643a4e7bf104302111e9fd559861c5cb9d0a8",
+        "performance_wire": "ordinary-collector-fast/1",
+        "completion_export": "ordinary-export-pages/1",
+        "immutable_bindings": true
+      },
+      "shutdown_seconds": 0.46781121200183406,
+      "collection_total_seconds": 29.26185892900685
+    }
+  },
+  "cpu": {
+    "collection_seconds": 22.001105786010157,
+    "records": 128,
+    "report": {
+      "counts": {
+        "rust": 128,
+        "reference": 0,
+        "cached": 0
+      },
+      "reference_reasons": {},
+      "wall_seconds": 20.26299030496739,
+      "lanes": 80,
+      "peak_unfinished_families": 104,
+      "limit": 160,
+      "startup_seconds": 4.60348284750944,
+      "processes": 80,
+      "publisher_processes": 16,
+      "writer_startup_seconds": 0.81265032797819,
+      "actor_startup_seconds": 3.79083251953125,
+      "cache_recovery_seconds": 8.017796790227294e-05,
+      "cache_candidates": 0,
+      "live_collection_seconds": 19.22628713498125,
+      "publication_workers": 16,
+      "board_histories_cross_learner": false,
+      "structural_family_validation_passes_per_publication": 1,
+      "native_families": 128,
+      "validation_policy": {
+        "contract": "brass-collector-validation/1",
+        "mode": "strict",
+        "eligible": 128,
+        "semantic_audited": 128,
+        "family_every": 64,
+        "branch_every": 16,
+        "publication_checks": {
+          "structural": {
+            "eligible": 128,
+            "executed": 128,
+            "skipped": 0,
+            "reused": 0,
+            "failed": 0
+          },
+          "sampling_rng_probability": {
+            "eligible": 128,
+            "executed": 128,
+            "skipped": 0,
+            "reused": 0,
+            "failed": 0
+          },
+          "branch_deep": {
+            "eligible": 0,
+            "executed": 0,
+            "skipped": 0,
+            "reused": 0,
+            "failed": 0
+          },
+          "schema_deep": {
+            "eligible": 128,
+            "executed": 128,
+            "skipped": 0,
+            "reused": 0,
+            "failed": 0
+          }
+        },
+        "cold_recovery_families": 0,
+        "first_per_stratum_per_collection": true
+      },
+      "binding_checks": {
+        "metadata_hash_executed": 384,
+        "publication_row_binding_reused": 50151,
+        "input_hash_executed": 150453,
+        "label_hash_executed": 150453,
+        "family_json_encoding_executed": 128,
+        "pack_finite_executed": 128,
+        "replay_family_encoding_reused": 128
+      },
+      "shared_buffers": {
+        "active_bytes": 0,
+        "peak_bytes": 1069771869,
+        "budget_bytes": 1073741824,
+        "active_leases": 0
+      },
+      "startup_breakdown": {
+        "contract": "brass-lab-lane-startup/1.0.0",
+        "processes": 80,
+        "lanes": 80,
+        "lanes_reported": 80,
+        "waits_for_all_lanes": false,
+        "process_start_seconds": 0.18869474600069225,
+        "reply_channel_seconds": 0.00017834303434938192,
+        "first_lane_ready_seconds": 1.0643393993377686,
+        "last_lane_ready_seconds": 3.79083251953125,
+        "phases": {
+          "spawn_seconds": {
+            "lanes": 80,
+            "min": 0.8726856708526611,
+            "p50": 1.2360758781433105,
+            "p95": 2.5328118801116943,
+            "max": 2.559171676635742,
+            "mean": 1.464946421980858
+          },
+          "python_import_seconds": {
+            "lanes": 80,
+            "min": 0.00042510032653808594,
+            "p50": 0.0017790794372558594,
+            "p95": 0.005972623825073242,
+            "max": 0.024402618408203125,
+            "mean": 0.002315226197242737
+          },
+          "lane_wait_seconds": {
+            "lanes": 80,
+            "min": 0.0002009868621826172,
+            "p50": 0.0004646778106689453,
+            "p95": 0.004231691360473633,
+            "max": 0.007053852081298828,
+            "mean": 0.0016825169324874878
+          },
+          "lease_seconds": {
+            "lanes": 80,
+            "min": 0.0014889240264892578,
+            "p50": 0.0021080970764160156,
+            "p95": 0.002512693405151367,
+            "max": 0.005869865417480469,
+            "mean": 0.0021020621061325073
+          },
+          "session_import_seconds": {
+            "lanes": 80,
+            "min": 0.014501333236694336,
+            "p50": 0.03744363784790039,
+            "p95": 0.24818897247314453,
+            "max": 0.362290620803833,
+            "mean": 0.06286312639713287
+          },
+          "mono_spawn_seconds": {
+            "lanes": 80,
+            "min": 0.001150369644165039,
+            "p50": 0.004575490951538086,
+            "p95": 0.03463864326477051,
+            "max": 0.09281349182128906,
+            "mean": 0.009708589315414429
+          },
+          "mono_bootstrap_seconds": {
+            "lanes": 80,
+            "min": 0.13726043701171875,
+            "p50": 0.16623330116271973,
+            "p95": 0.562673807144165,
+            "max": 0.9485487937927246,
+            "mean": 0.25763203501701354
+          },
+          "total_seconds": {
+            "lanes": 80,
+            "min": 1.055109977722168,
+            "p50": 1.5778701305389404,
+            "p95": 2.9465041160583496,
+            "max": 3.725691080093384,
+            "mean": 1.791541388630867
+          }
+        },
+        "per_lane": [
+          {
+            "spawn_seconds": 0.8726856708526611,
+            "python_import_seconds": 0.00043511390686035156,
+            "lane_wait_seconds": 0.003044605255126953,
+            "lease_seconds": 0.001581430435180664,
+            "session_import_seconds": 0.030855655670166016,
+            "mono_spawn_seconds": 0.003656625747680664,
+            "mono_bootstrap_seconds": 0.14650750160217285,
+            "total_seconds": 1.055109977722168
+          },
+          {
+            "spawn_seconds": 0.9415380954742432,
+            "python_import_seconds": 0.0027179718017578125,
+            "lane_wait_seconds": 0.00031256675720214844,
+            "lease_seconds": 0.0021734237670898438,
+            "session_import_seconds": 0.030390024185180664,
+            "mono_spawn_seconds": 0.0040743350982666016,
+            "mono_bootstrap_seconds": 0.1418600082397461,
+            "total_seconds": 1.1189920902252197
+          },
+          {
+            "spawn_seconds": 0.9415695667266846,
+            "python_import_seconds": 0.0029087066650390625,
+            "lane_wait_seconds": 0.0002932548522949219,
+            "lease_seconds": 0.002290964126586914,
+            "session_import_seconds": 0.03567695617675781,
+            "mono_spawn_seconds": 0.004575490951538086,
+            "mono_bootstrap_seconds": 0.1429274082183838,
+            "total_seconds": 1.125666856765747
+          },
+          {
+            "spawn_seconds": 0.9818265438079834,
+            "python_import_seconds": 0.0006210803985595703,
+            "lane_wait_seconds": 0.0024657249450683594,
+            "lease_seconds": 0.0017342567443847656,
+            "session_import_seconds": 0.014501333236694336,
+            "mono_spawn_seconds": 0.003246307373046875,
+            "mono_bootstrap_seconds": 0.14000225067138672,
+            "total_seconds": 1.1411511898040771
+          },
+          {
+            "spawn_seconds": 0.9523234367370605,
+            "python_import_seconds": 0.002122163772583008,
+            "lane_wait_seconds": 0.0002646446228027344,
+            "lease_seconds": 0.0018458366394042969,
+            "session_import_seconds": 0.033960819244384766,
+            "mono_spawn_seconds": 0.006203889846801758,
+            "mono_bootstrap_seconds": 0.14654016494750977,
+            "total_seconds": 1.1370570659637451
+          },
+          {
+            "spawn_seconds": 0.9463996887207031,
+            "python_import_seconds": 0.0014412403106689453,
+            "lane_wait_seconds": 0.00033092498779296875,
+            "lease_seconds": 0.0021414756774902344,
+            "session_import_seconds": 0.03866147994995117,
+            "mono_spawn_seconds": 0.006794452667236328,
+            "mono_bootstrap_seconds": 0.16623330116271973,
+            "total_seconds": 1.1552081108093262
+          },
+          {
+            "spawn_seconds": 0.9438290596008301,
+            "python_import_seconds": 0.004193782806396484,
+            "lane_wait_seconds": 0.0003066062927246094,
+            "lease_seconds": 0.0022013187408447266,
+            "session_import_seconds": 0.040487051010131836,
+            "mono_spawn_seconds": 0.006625652313232422,
+            "mono_bootstrap_seconds": 0.17092370986938477,
+            "total_seconds": 1.1619415283203125
+          },
+          {
+            "spawn_seconds": 0.9862122535705566,
+            "python_import_seconds": 0.0023894309997558594,
+            "lane_wait_seconds": 0.00032329559326171875,
+            "lease_seconds": 0.002217531204223633,
+            "session_import_seconds": 0.03157615661621094,
+            "mono_spawn_seconds": 0.00402522087097168,
+            "mono_bootstrap_seconds": 0.1428673267364502,
+            "total_seconds": 1.165585994720459
+          },
+          {
+            "spawn_seconds": 0.9818120002746582,
+            "python_import_seconds": 0.0027115345001220703,
+            "lane_wait_seconds": 0.0002493858337402344,
+            "lease_seconds": 0.002034425735473633,
+            "session_import_seconds": 0.028145551681518555,
+            "mono_spawn_seconds": 0.0036814212799072266,
+            "mono_bootstrap_seconds": 0.1398334503173828,
+            "total_seconds": 1.1547863483428955
+          },
+          {
+            "spawn_seconds": 0.9244883060455322,
+            "python_import_seconds": 0.0005602836608886719,
+            "lane_wait_seconds": 0.0031282901763916016,
+            "lease_seconds": 0.0017380714416503906,
+            "session_import_seconds": 0.04590129852294922,
+            "mono_spawn_seconds": 0.0035130977630615234,
+            "mono_bootstrap_seconds": 0.13726043701171875,
+            "total_seconds": 1.1130766868591309
+          },
+          {
+            "spawn_seconds": 1.0048019886016846,
+            "python_import_seconds": 0.0004417896270751953,
+            "lane_wait_seconds": 0.0002186298370361328,
+            "lease_seconds": 0.0014891624450683594,
+            "session_import_seconds": 0.016524791717529297,
+            "mono_spawn_seconds": 0.0038537979125976562,
+            "mono_bootstrap_seconds": 0.1442880630493164,
+            "total_seconds": 1.16776442527771
+          },
+          {
+            "spawn_seconds": 0.9213082790374756,
+            "python_import_seconds": 0.0013496875762939453,
+            "lane_wait_seconds": 0.0003306865692138672,
+            "lease_seconds": 0.0022592544555664062,
+            "session_import_seconds": 0.04449105262756348,
+            "mono_spawn_seconds": 0.0013699531555175781,
+            "mono_bootstrap_seconds": 0.22476696968078613,
+            "total_seconds": 1.1945059299468994
+          },
+          {
+            "spawn_seconds": 0.981320858001709,
+            "python_import_seconds": 0.002145051956176758,
+            "lane_wait_seconds": 0.000263214111328125,
+            "lease_seconds": 0.0017979145050048828,
+            "session_import_seconds": 0.02326369285583496,
+            "mono_spawn_seconds": 0.0038313865661621094,
+            "mono_bootstrap_seconds": 0.1483912467956543,
+            "total_seconds": 1.157181978225708
+          },
+          {
+            "spawn_seconds": 1.0027153491973877,
+            "python_import_seconds": 0.0017790794372558594,
+            "lane_wait_seconds": 0.00237274169921875,
+            "lease_seconds": 0.0014889240264892578,
+            "session_import_seconds": 0.04125642776489258,
+            "mono_spawn_seconds": 0.004038095474243164,
+            "mono_bootstrap_seconds": 0.14226961135864258,
+            "total_seconds": 1.1918821334838867
+          },
+          {
+            "spawn_seconds": 1.0082695484161377,
+            "python_import_seconds": 0.0004742145538330078,
+            "lane_wait_seconds": 0.0023322105407714844,
+            "lease_seconds": 0.001897573471069336,
+            "session_import_seconds": 0.053174734115600586,
+            "mono_spawn_seconds": 0.00392913818359375,
+            "mono_bootstrap_seconds": 0.1461026668548584,
+            "total_seconds": 1.2122509479522705
+          },
+          {
+            "spawn_seconds": 1.0236446857452393,
+            "python_import_seconds": 0.0031087398529052734,
+            "lane_wait_seconds": 0.0002949237823486328,
+            "lease_seconds": 0.0020821094512939453,
+            "session_import_seconds": 0.03672146797180176,
+            "mono_spawn_seconds": 0.011136770248413086,
+            "mono_bootstrap_seconds": 0.16269278526306152,
+            "total_seconds": 1.2285447120666504
+          },
+          {
+            "spawn_seconds": 1.0505421161651611,
+            "python_import_seconds": 0.002048969268798828,
+            "lane_wait_seconds": 0.0002956390380859375,
+            "lease_seconds": 0.0020880699157714844,
+            "session_import_seconds": 0.03620028495788574,
+            "mono_spawn_seconds": 0.003942012786865234,
+            "mono_bootstrap_seconds": 0.14937376976013184,
+            "total_seconds": 1.240548849105835
+          },
+          {
+            "spawn_seconds": 1.0835459232330322,
+            "python_import_seconds": 0.0010323524475097656,
+            "lane_wait_seconds": 0.004017829895019531,
+            "lease_seconds": 0.002061128616333008,
+            "session_import_seconds": 0.015386343002319336,
+            "mono_spawn_seconds": 0.0036468505859375,
+            "mono_bootstrap_seconds": 0.14693999290466309,
+            "total_seconds": 1.252983570098877
+          },
+          {
+            "spawn_seconds": 0.9931309223175049,
+            "python_import_seconds": 0.0020325183868408203,
+            "lane_wait_seconds": 0.0039975643157958984,
+            "lease_seconds": 0.0017254352569580078,
+            "session_import_seconds": 0.03951287269592285,
+            "mono_spawn_seconds": 0.0037741661071777344,
+            "mono_bootstrap_seconds": 0.14443254470825195,
+            "total_seconds": 1.1848318576812744
+          },
+          {
+            "spawn_seconds": 1.0630674362182617,
+            "python_import_seconds": 0.0032074451446533203,
+            "lane_wait_seconds": 0.00029754638671875,
+            "lease_seconds": 0.002156496047973633,
+            "session_import_seconds": 0.03475522994995117,
+            "mono_spawn_seconds": 0.0067174434661865234,
+            "mono_bootstrap_seconds": 0.1845567226409912,
+            "total_seconds": 1.2880408763885498
+          },
+          {
+            "spawn_seconds": 1.1058571338653564,
+            "python_import_seconds": 0.0006558895111083984,
+            "lane_wait_seconds": 0.004024505615234375,
+            "lease_seconds": 0.0020818710327148438,
+            "session_import_seconds": 0.0263674259185791,
+            "mono_spawn_seconds": 0.0032806396484375,
+            "mono_bootstrap_seconds": 0.14283394813537598,
+            "total_seconds": 1.2818207740783691
+          },
+          {
+            "spawn_seconds": 1.0999557971954346,
+            "python_import_seconds": 0.0008981227874755859,
+            "lane_wait_seconds": 0.00022172927856445312,
+            "lease_seconds": 0.0018486976623535156,
+            "session_import_seconds": 0.034707069396972656,
+            "mono_spawn_seconds": 0.0073926448822021484,
+            "mono_bootstrap_seconds": 0.16939806938171387,
+            "total_seconds": 1.3070294857025146
+          },
+          {
+            "spawn_seconds": 1.0442335605621338,
+            "python_import_seconds": 0.0035812854766845703,
+            "lane_wait_seconds": 0.0002505779266357422,
+            "lease_seconds": 0.0018417835235595703,
+            "session_import_seconds": 0.025805234909057617,
+            "mono_spawn_seconds": 0.0038008689880371094,
+            "mono_bootstrap_seconds": 0.23070526123046875,
+            "total_seconds": 1.30641770362854
+          },
+          {
+            "spawn_seconds": 1.1433689594268799,
+            "python_import_seconds": 0.0019199848175048828,
+            "lane_wait_seconds": 0.00031638145446777344,
+            "lease_seconds": 0.002089977264404297,
+            "session_import_seconds": 0.017679214477539062,
+            "mono_spawn_seconds": 0.003912925720214844,
+            "mono_bootstrap_seconds": 0.15419602394104004,
+            "total_seconds": 1.319570541381836
+          },
+          {
+            "spawn_seconds": 1.1081111431121826,
+            "python_import_seconds": 0.0007140636444091797,
+            "lane_wait_seconds": 0.0002338886260986328,
+            "lease_seconds": 0.0015306472778320312,
+            "session_import_seconds": 0.015434503555297852,
+            "mono_spawn_seconds": 0.00397038459777832,
+            "mono_bootstrap_seconds": 0.14673686027526855,
+            "total_seconds": 1.2727611064910889
+          },
+          {
+            "spawn_seconds": 1.155001163482666,
+            "python_import_seconds": 0.00042510032653808594,
+            "lane_wait_seconds": 0.0002269744873046875,
+            "lease_seconds": 0.001861572265625,
+            "session_import_seconds": 0.01504373550415039,
+            "mono_spawn_seconds": 0.0020110607147216797,
+            "mono_bootstrap_seconds": 0.14761114120483398,
+            "total_seconds": 1.3201696872711182
+          },
+          {
+            "spawn_seconds": 1.1287097930908203,
+            "python_import_seconds": 0.0004994869232177734,
+            "lane_wait_seconds": 0.0004646778106689453,
+            "lease_seconds": 0.0023584365844726562,
+            "session_import_seconds": 0.016600847244262695,
+            "mono_spawn_seconds": 0.003958225250244141,
+            "mono_bootstrap_seconds": 0.15232300758361816,
+            "total_seconds": 1.3009562492370605
+          },
+          {
+            "spawn_seconds": 1.1445438861846924,
+            "python_import_seconds": 0.0004718303680419922,
+            "lane_wait_seconds": 0.0002467632293701172,
+            "lease_seconds": 0.0019881725311279297,
+            "session_import_seconds": 0.015448331832885742,
+            "mono_spawn_seconds": 0.0038177967071533203,
+            "mono_bootstrap_seconds": 0.1493978500366211,
+            "total_seconds": 1.3120968341827393
+          },
+          {
+            "spawn_seconds": 0.9769802093505859,
+            "python_import_seconds": 0.0019369125366210938,
+            "lane_wait_seconds": 0.004027366638183594,
+            "lease_seconds": 0.0022017955780029297,
+            "session_import_seconds": 0.08079314231872559,
+            "mono_spawn_seconds": 0.02540731430053711,
+            "mono_bootstrap_seconds": 0.2029733657836914,
+            "total_seconds": 1.2689127922058105
+          },
+          {
+            "spawn_seconds": 1.0120439529418945,
+            "python_import_seconds": 0.0007870197296142578,
+            "lane_wait_seconds": 0.001901388168334961,
+            "lease_seconds": 0.002069234848022461,
+            "session_import_seconds": 0.03515505790710449,
+            "mono_spawn_seconds": 0.006897926330566406,
+            "mono_bootstrap_seconds": 0.3366425037384033,
+            "total_seconds": 1.388599157333374
+          },
+          {
+            "spawn_seconds": 1.1531109809875488,
+            "python_import_seconds": 0.006317138671875,
+            "lane_wait_seconds": 0.007053852081298828,
+            "lease_seconds": 0.002021312713623047,
+            "session_import_seconds": 0.02299642562866211,
+            "mono_spawn_seconds": 0.0022013187408447266,
+            "mono_bootstrap_seconds": 0.1510298252105713,
+            "total_seconds": 1.342529535293579
+          },
+          {
+            "spawn_seconds": 1.200134038925171,
+            "python_import_seconds": 0.0005099773406982422,
+            "lane_wait_seconds": 0.00043773651123046875,
+            "lease_seconds": 0.002069234848022461,
+            "session_import_seconds": 0.016880035400390625,
+            "mono_spawn_seconds": 0.003244638442993164,
+            "mono_bootstrap_seconds": 0.15543127059936523,
+            "total_seconds": 1.375462293624878
+          },
+          {
+            "spawn_seconds": 1.2628672122955322,
+            "python_import_seconds": 0.0026090145111083984,
+            "lane_wait_seconds": 0.0002465248107910156,
+            "lease_seconds": 0.001722574234008789,
+            "session_import_seconds": 0.02243351936340332,
+            "mono_spawn_seconds": 0.0037665367126464844,
+            "mono_bootstrap_seconds": 0.15385198593139648,
+            "total_seconds": 1.4437308311462402
+          },
+          {
+            "spawn_seconds": 1.2472028732299805,
+            "python_import_seconds": 0.0024871826171875,
+            "lane_wait_seconds": 0.0003063678741455078,
+            "lease_seconds": 0.002170085906982422,
+            "session_import_seconds": 0.023057937622070312,
+            "mono_spawn_seconds": 0.001150369644165039,
+            "mono_bootstrap_seconds": 0.2304084300994873,
+            "total_seconds": 1.5056328773498535
+          },
+          {
+            "spawn_seconds": 1.214390516281128,
+            "python_import_seconds": 0.0031850337982177734,
+            "lane_wait_seconds": 0.0002944469451904297,
+            "lease_seconds": 0.0020172595977783203,
+            "session_import_seconds": 0.037342071533203125,
+            "mono_spawn_seconds": 0.01049041748046875,
+            "mono_bootstrap_seconds": 0.1666111946105957,
+            "total_seconds": 1.4238405227661133
+          },
+          {
+            "spawn_seconds": 1.3332486152648926,
+            "python_import_seconds": 0.003226041793823242,
+            "lane_wait_seconds": 0.0002009868621826172,
+            "lease_seconds": 0.001680135726928711,
+            "session_import_seconds": 0.02159285545349121,
+            "mono_spawn_seconds": 0.0036869049072265625,
+            "mono_bootstrap_seconds": 0.15363550186157227,
+            "total_seconds": 1.5135841369628906
+          },
+          {
+            "spawn_seconds": 0.9107177257537842,
+            "python_import_seconds": 0.005972623825073242,
+            "lane_wait_seconds": 0.00401759147644043,
+            "lease_seconds": 0.0021102428436279297,
+            "session_import_seconds": 0.0802927017211914,
+            "mono_spawn_seconds": 0.020681381225585938,
+            "mono_bootstrap_seconds": 0.4655444622039795,
+            "total_seconds": 1.4686553478240967
+          },
+          {
+            "spawn_seconds": 1.3298733234405518,
+            "python_import_seconds": 0.0017881393432617188,
+            "lane_wait_seconds": 0.00030732154846191406,
+            "lease_seconds": 0.0023429393768310547,
+            "session_import_seconds": 0.04246711730957031,
+            "mono_spawn_seconds": 0.011791229248046875,
+            "mono_bootstrap_seconds": 0.15616178512573242,
+            "total_seconds": 1.5329406261444092
+          },
+          {
+            "spawn_seconds": 1.2360758781433105,
+            "python_import_seconds": 0.0005280971527099609,
+            "lane_wait_seconds": 0.00044608116149902344,
+            "lease_seconds": 0.0025670528411865234,
+            "session_import_seconds": 0.0194854736328125,
+            "mono_spawn_seconds": 0.003943204879760742,
+            "mono_bootstrap_seconds": 0.15752863883972168,
+            "total_seconds": 1.4166312217712402
+          },
+          {
+            "spawn_seconds": 1.1470823287963867,
+            "python_import_seconds": 0.000514984130859375,
+            "lane_wait_seconds": 0.0035963058471679688,
+            "lease_seconds": 0.0021524429321289062,
+            "session_import_seconds": 0.24818897247314453,
+            "mono_spawn_seconds": 0.0019648075103759766,
+            "mono_bootstrap_seconds": 0.15142345428466797,
+            "total_seconds": 1.5529584884643555
+          },
+          {
+            "spawn_seconds": 1.3215088844299316,
+            "python_import_seconds": 0.0004940032958984375,
+            "lane_wait_seconds": 0.0030329227447509766,
+            "lease_seconds": 0.001844167709350586,
+            "session_import_seconds": 0.09746408462524414,
+            "mono_spawn_seconds": 0.004113912582397461,
+            "mono_bootstrap_seconds": 0.15352606773376465,
+            "total_seconds": 1.5778701305389404
+          },
+          {
+            "spawn_seconds": 1.0974810123443604,
+            "python_import_seconds": 0.000499725341796875,
+            "lane_wait_seconds": 0.002147197723388672,
+            "lease_seconds": 0.0019919872283935547,
+            "session_import_seconds": 0.21289992332458496,
+            "mono_spawn_seconds": 0.02522110939025879,
+            "mono_bootstrap_seconds": 0.3578512668609619,
+            "total_seconds": 1.6728711128234863
+          },
+          {
+            "spawn_seconds": 1.140437126159668,
+            "python_import_seconds": 0.024402618408203125,
+            "lane_wait_seconds": 0.002070903778076172,
+            "lease_seconds": 0.0026693344116210938,
+            "session_import_seconds": 0.07037854194641113,
+            "mono_spawn_seconds": 0.011407613754272461,
+            "mono_bootstrap_seconds": 0.33898472785949707,
+            "total_seconds": 1.5789432525634766
+          },
+          {
+            "spawn_seconds": 1.2305338382720947,
+            "python_import_seconds": 0.0033965110778808594,
+            "lane_wait_seconds": 0.00026798248291015625,
+            "lease_seconds": 0.002132415771484375,
+            "session_import_seconds": 0.0373835563659668,
+            "mono_spawn_seconds": 0.010383129119873047,
+            "mono_bootstrap_seconds": 0.33377718925476074,
+            "total_seconds": 1.6074914932250977
+          },
+          {
+            "spawn_seconds": 1.100712537765503,
+            "python_import_seconds": 0.0005295276641845703,
+            "lane_wait_seconds": 0.0027093887329101562,
+            "lease_seconds": 0.001781463623046875,
+            "session_import_seconds": 0.1975703239440918,
+            "mono_spawn_seconds": 0.044974565505981445,
+            "mono_bootstrap_seconds": 0.4321889877319336,
+            "total_seconds": 1.73549222946167
+          },
+          {
+            "spawn_seconds": 1.4945142269134521,
+            "python_import_seconds": 0.00042510032653808594,
+            "lane_wait_seconds": 0.0022056102752685547,
+            "lease_seconds": 0.0015938282012939453,
+            "session_import_seconds": 0.03744363784790039,
+            "mono_spawn_seconds": 0.003786802291870117,
+            "mono_bootstrap_seconds": 0.16067004203796387,
+            "total_seconds": 1.696852445602417
+          },
+          {
+            "spawn_seconds": 1.5749318599700928,
+            "python_import_seconds": 0.002537250518798828,
+            "lane_wait_seconds": 0.00024008750915527344,
+            "lease_seconds": 0.0016493797302246094,
+            "session_import_seconds": 0.022994041442871094,
+            "mono_spawn_seconds": 0.001630544662475586,
+            "mono_bootstrap_seconds": 0.15469145774841309,
+            "total_seconds": 1.7570440769195557
+          },
+          {
+            "spawn_seconds": 1.2710332870483398,
+            "python_import_seconds": 0.003887176513671875,
+            "lane_wait_seconds": 0.0002789497375488281,
+            "lease_seconds": 0.0020821094512939453,
+            "session_import_seconds": 0.03640317916870117,
+            "mono_spawn_seconds": 0.004680633544921875,
+            "mono_bootstrap_seconds": 0.3625481128692627,
+            "total_seconds": 1.6762328147888184
+          },
+          {
+            "spawn_seconds": 1.0351440906524658,
+            "python_import_seconds": 0.011915445327758789,
+            "lane_wait_seconds": 0.00402522087097168,
+            "lease_seconds": 0.0021080970764160156,
+            "session_import_seconds": 0.10163187980651855,
+            "mono_spawn_seconds": 0.03327798843383789,
+            "mono_bootstrap_seconds": 0.5852723121643066,
+            "total_seconds": 1.7400970458984375
+          },
+          {
+            "spawn_seconds": 1.317406415939331,
+            "python_import_seconds": 0.005852699279785156,
+            "lane_wait_seconds": 0.005034208297729492,
+            "lease_seconds": 0.0021686553955078125,
+            "session_import_seconds": 0.09559512138366699,
+            "mono_spawn_seconds": 0.017748355865478516,
+            "mono_bootstrap_seconds": 0.35489892959594727,
+            "total_seconds": 1.7809560298919678
+          },
+          {
+            "spawn_seconds": 1.3635764122009277,
+            "python_import_seconds": 0.0006442070007324219,
+            "lane_wait_seconds": 0.0041387081146240234,
+            "lease_seconds": 0.0019698143005371094,
+            "session_import_seconds": 0.033681631088256836,
+            "mono_spawn_seconds": 0.004073143005371094,
+            "mono_bootstrap_seconds": 0.36300039291381836,
+            "total_seconds": 1.7670111656188965
+          },
+          {
+            "spawn_seconds": 1.6383955478668213,
+            "python_import_seconds": 0.00106048583984375,
+            "lane_wait_seconds": 0.0003178119659423828,
+            "lease_seconds": 0.005869865417480469,
+            "session_import_seconds": 0.018918275833129883,
+            "mono_spawn_seconds": 0.0039081573486328125,
+            "mono_bootstrap_seconds": 0.16161274909973145,
+            "total_seconds": 1.8261747360229492
+          },
+          {
+            "spawn_seconds": 1.374788761138916,
+            "python_import_seconds": 0.003975391387939453,
+            "lane_wait_seconds": 0.0005340576171875,
+            "lease_seconds": 0.001607656478881836,
+            "session_import_seconds": 0.03637814521789551,
+            "mono_spawn_seconds": 0.010488510131835938,
+            "mono_bootstrap_seconds": 0.35819506645202637,
+            "total_seconds": 1.7754790782928467
+          },
+          {
+            "spawn_seconds": 1.6643574237823486,
+            "python_import_seconds": 0.0005483627319335938,
+            "lane_wait_seconds": 0.005657672882080078,
+            "lease_seconds": 0.00222015380859375,
+            "session_import_seconds": 0.07016301155090332,
+            "mono_spawn_seconds": 0.004666566848754883,
+            "mono_bootstrap_seconds": 0.15743732452392578,
+            "total_seconds": 1.9003839492797852
+          },
+          {
+            "spawn_seconds": 1.7106897830963135,
+            "python_import_seconds": 0.0011663436889648438,
+            "lane_wait_seconds": 0.00030875205993652344,
+            "lease_seconds": 0.0022361278533935547,
+            "session_import_seconds": 0.02175736427307129,
+            "mono_spawn_seconds": 0.004258632659912109,
+            "mono_bootstrap_seconds": 0.16424942016601562,
+            "total_seconds": 1.9004077911376953
+          },
+          {
+            "spawn_seconds": 1.7531397342681885,
+            "python_import_seconds": 0.0035486221313476562,
+            "lane_wait_seconds": 0.003560781478881836,
+            "lease_seconds": 0.0022487640380859375,
+            "session_import_seconds": 0.058455467224121094,
+            "mono_spawn_seconds": 0.0023431777954101562,
+            "mono_bootstrap_seconds": 0.16506123542785645,
+            "total_seconds": 1.9860146045684814
+          },
+          {
+            "spawn_seconds": 1.7298846244812012,
+            "python_import_seconds": 0.0011761188507080078,
+            "lane_wait_seconds": 0.004018068313598633,
+            "lease_seconds": 0.0019428730010986328,
+            "session_import_seconds": 0.06238865852355957,
+            "mono_spawn_seconds": 0.004704952239990234,
+            "mono_bootstrap_seconds": 0.15885567665100098,
+            "total_seconds": 1.958266019821167
+          },
+          {
+            "spawn_seconds": 1.4070427417755127,
+            "python_import_seconds": 0.0033507347106933594,
+            "lane_wait_seconds": 0.004037618637084961,
+            "lease_seconds": 0.002167940139770508,
+            "session_import_seconds": 0.06863546371459961,
+            "mono_spawn_seconds": 0.01924300193786621,
+            "mono_bootstrap_seconds": 0.5510215759277344,
+            "total_seconds": 2.0362560749053955
+          },
+          {
+            "spawn_seconds": 1.9288926124572754,
+            "python_import_seconds": 0.0008220672607421875,
+            "lane_wait_seconds": 0.00047469139099121094,
+            "lease_seconds": 0.002512693405151367,
+            "session_import_seconds": 0.018583059310913086,
+            "mono_spawn_seconds": 0.0017864704132080078,
+            "mono_bootstrap_seconds": 0.17009210586547852,
+            "total_seconds": 2.1213772296905518
+          },
+          {
+            "spawn_seconds": 1.556731939315796,
+            "python_import_seconds": 0.0031943321228027344,
+            "lane_wait_seconds": 0.00031280517578125,
+            "lease_seconds": 0.002285480499267578,
+            "session_import_seconds": 0.045682668685913086,
+            "mono_spawn_seconds": 0.006884574890136719,
+            "mono_bootstrap_seconds": 0.38359856605529785,
+            "total_seconds": 1.9918057918548584
+          },
+          {
+            "spawn_seconds": 1.6968603134155273,
+            "python_import_seconds": 0.0037910938262939453,
+            "lane_wait_seconds": 0.002717733383178711,
+            "lease_seconds": 0.0019168853759765625,
+            "session_import_seconds": 0.2261366844177246,
+            "mono_spawn_seconds": 0.045891761779785156,
+            "mono_bootstrap_seconds": 0.4195363521575928,
+            "total_seconds": 2.350959062576294
+          },
+          {
+            "spawn_seconds": 2.1616628170013428,
+            "python_import_seconds": 0.002106189727783203,
+            "lane_wait_seconds": 0.0006964206695556641,
+            "lease_seconds": 0.0019826889038085938,
+            "session_import_seconds": 0.03710675239562988,
+            "mono_spawn_seconds": 0.010224103927612305,
+            "mono_bootstrap_seconds": 0.3895227909088135,
+            "total_seconds": 2.5930776596069336
+          },
+          {
+            "spawn_seconds": 2.2502329349517822,
+            "python_import_seconds": 0.0005545616149902344,
+            "lane_wait_seconds": 0.0031669139862060547,
+            "lease_seconds": 0.0023539066314697266,
+            "session_import_seconds": 0.1693122386932373,
+            "mono_spawn_seconds": 0.004032611846923828,
+            "mono_bootstrap_seconds": 0.16585326194763184,
+            "total_seconds": 2.5914738178253174
+          },
+          {
+            "spawn_seconds": 2.044076442718506,
+            "python_import_seconds": 0.004810810089111328,
+            "lane_wait_seconds": 0.004032135009765625,
+            "lease_seconds": 0.002222776412963867,
+            "session_import_seconds": 0.06770920753479004,
+            "mono_spawn_seconds": 0.010240554809570312,
+            "mono_bootstrap_seconds": 0.562673807144165,
+            "total_seconds": 2.6855251789093018
+          },
+          {
+            "spawn_seconds": 2.4601478576660156,
+            "python_import_seconds": 0.0005071163177490234,
+            "lane_wait_seconds": 0.00034928321838378906,
+            "lease_seconds": 0.002266407012939453,
+            "session_import_seconds": 0.051836490631103516,
+            "mono_spawn_seconds": 0.0022439956665039062,
+            "mono_bootstrap_seconds": 0.16242623329162598,
+            "total_seconds": 2.6775333881378174
+          },
+          {
+            "spawn_seconds": 2.1938045024871826,
+            "python_import_seconds": 0.002786397933959961,
+            "lane_wait_seconds": 0.0039980411529541016,
+            "lease_seconds": 0.002142667770385742,
+            "session_import_seconds": 0.2626760005950928,
+            "mono_spawn_seconds": 0.09281349182128906,
+            "mono_bootstrap_seconds": 0.2595646381378174,
+            "total_seconds": 2.7249722480773926
+          },
+          {
+            "spawn_seconds": 2.2030115127563477,
+            "python_import_seconds": 0.0012257099151611328,
+            "lane_wait_seconds": 0.00033783912658691406,
+            "lease_seconds": 0.0023059844970703125,
+            "session_import_seconds": 0.04831814765930176,
+            "mono_spawn_seconds": 0.007340669631958008,
+            "mono_bootstrap_seconds": 0.41106462478637695,
+            "total_seconds": 2.6662638187408447
+          },
+          {
+            "spawn_seconds": 2.546290874481201,
+            "python_import_seconds": 0.0004570484161376953,
+            "lane_wait_seconds": 0.000255584716796875,
+            "lease_seconds": 0.0016162395477294922,
+            "session_import_seconds": 0.016567230224609375,
+            "mono_spawn_seconds": 0.002405405044555664,
+            "mono_bootstrap_seconds": 0.16286873817443848,
+            "total_seconds": 2.728055715560913
+          },
+          {
+            "spawn_seconds": 2.5328118801116943,
+            "python_import_seconds": 0.0005078315734863281,
+            "lane_wait_seconds": 0.0002493858337402344,
+            "lease_seconds": 0.0016918182373046875,
+            "session_import_seconds": 0.0179898738861084,
+            "mono_spawn_seconds": 0.004719257354736328,
+            "mono_bootstrap_seconds": 0.16685247421264648,
+            "total_seconds": 2.7201032638549805
+          },
+          {
+            "spawn_seconds": 2.3059370517730713,
+            "python_import_seconds": 0.0007405281066894531,
+            "lane_wait_seconds": 0.000522613525390625,
+            "lease_seconds": 0.00228118896484375,
+            "session_import_seconds": 0.045717477798461914,
+            "mono_spawn_seconds": 0.0041501522064208984,
+            "mono_bootstrap_seconds": 0.37933897972106934,
+            "total_seconds": 2.7345378398895264
+          },
+          {
+            "spawn_seconds": 2.3566012382507324,
+            "python_import_seconds": 0.0027332305908203125,
+            "lane_wait_seconds": 0.004231691360473633,
+            "lease_seconds": 0.0023872852325439453,
+            "session_import_seconds": 0.04421043395996094,
+            "mono_spawn_seconds": 0.009500503540039062,
+            "mono_bootstrap_seconds": 0.3710198402404785,
+            "total_seconds": 2.7811837196350098
+          },
+          {
+            "spawn_seconds": 2.329615354537964,
+            "python_import_seconds": 0.0014157295227050781,
+            "lane_wait_seconds": 0.000270843505859375,
+            "lease_seconds": 0.0020258426666259766,
+            "session_import_seconds": 0.04339194297790527,
+            "mono_spawn_seconds": 0.005400180816650391,
+            "mono_bootstrap_seconds": 0.3853926658630371,
+            "total_seconds": 2.7621123790740967
+          },
+          {
+            "spawn_seconds": 1.8503482341766357,
+            "python_import_seconds": 0.0005359649658203125,
+            "lane_wait_seconds": 0.0039904117584228516,
+            "lease_seconds": 0.002270936965942383,
+            "session_import_seconds": 0.362290620803833,
+            "mono_spawn_seconds": 0.03463864326477051,
+            "mono_bootstrap_seconds": 0.7499358654022217,
+            "total_seconds": 2.969372034072876
+          },
+          {
+            "spawn_seconds": 2.3975329399108887,
+            "python_import_seconds": 0.0024175643920898438,
+            "lane_wait_seconds": 0.00032258033752441406,
+            "lease_seconds": 0.002368927001953125,
+            "session_import_seconds": 0.052301645278930664,
+            "mono_spawn_seconds": 0.00823831558227539,
+            "mono_bootstrap_seconds": 0.37026166915893555,
+            "total_seconds": 2.8252053260803223
+          },
+          {
+            "spawn_seconds": 2.115534543991089,
+            "python_import_seconds": 0.0005104541778564453,
+            "lane_wait_seconds": 0.003526926040649414,
+            "lease_seconds": 0.0022258758544921875,
+            "session_import_seconds": 0.3331735134124756,
+            "mono_spawn_seconds": 0.03297162055969238,
+            "mono_bootstrap_seconds": 0.4915328025817871,
+            "total_seconds": 2.9465041160583496
+          },
+          {
+            "spawn_seconds": 2.4805386066436768,
+            "python_import_seconds": 0.0027828216552734375,
+            "lane_wait_seconds": 0.00032711029052734375,
+            "lease_seconds": 0.0022923946380615234,
+            "session_import_seconds": 0.04554247856140137,
+            "mono_spawn_seconds": 0.007039070129394531,
+            "mono_bootstrap_seconds": 0.3796851634979248,
+            "total_seconds": 2.9111685752868652
+          },
+          {
+            "spawn_seconds": 2.4029672145843506,
+            "python_import_seconds": 0.0005118846893310547,
+            "lane_wait_seconds": 0.0012385845184326172,
+            "lease_seconds": 0.0023224353790283203,
+            "session_import_seconds": 0.05705070495605469,
+            "mono_spawn_seconds": 0.00797581672668457,
+            "mono_bootstrap_seconds": 0.396486759185791,
+            "total_seconds": 2.8605775833129883
+          },
+          {
+            "spawn_seconds": 2.502601385116577,
+            "python_import_seconds": 0.0008561611175537109,
+            "lane_wait_seconds": 0.0003075599670410156,
+            "lease_seconds": 0.0022029876708984375,
+            "session_import_seconds": 0.0394282341003418,
+            "mono_spawn_seconds": 0.010742425918579102,
+            "mono_bootstrap_seconds": 0.3630547523498535,
+            "total_seconds": 2.9084510803222656
+          },
+          {
+            "spawn_seconds": 2.559171676635742,
+            "python_import_seconds": 0.0017354488372802734,
+            "lane_wait_seconds": 0.0007426738739013672,
+            "lease_seconds": 0.002264261245727539,
+            "session_import_seconds": 0.04399585723876953,
+            "mono_spawn_seconds": 0.009392261505126953,
+            "mono_bootstrap_seconds": 0.3641948699951172,
+            "total_seconds": 2.972104787826538
+          },
+          {
+            "spawn_seconds": 2.5362226963043213,
+            "python_import_seconds": 0.00405573844909668,
+            "lane_wait_seconds": 0.003981828689575195,
+            "lease_seconds": 0.002210378646850586,
+            "session_import_seconds": 0.23067164421081543,
+            "mono_spawn_seconds": 0.02713775634765625,
+            "mono_bootstrap_seconds": 0.9485487937927246,
+            "total_seconds": 3.725691080093384
+          }
+        ]
+      },
+      "collector_runtime": {
+        "build_sha256": "7e1203ea8f1073ad8fab0b4ba573dd0a606e9768f399f1c2f2c55ce6d238798d",
+        "performance_wire": "ordinary-collector-fast/1",
+        "completion_export": "ordinary-export-pages/1",
+        "immutable_bindings": true,
+        "cpu_inference": {
+          "contract": "brass-lab-cpu-inference/1.0.0",
+          "pinning": "one-lane-per-cpu",
+          "model_cache": 8,
+          "runtime_sha256": "ad9665887025474170d3e71cd28021e7e811c5bf201bc365f953e34a2c4989cc",
+          "models": 25,
+          "exported_bundles": 0
+        }
+      },
+      "shutdown_seconds": 1.7112414870061912,
+      "collection_total_seconds": 21.97423179197358
+    }
+  },
+  "usage": {
+    "phases": {
+      "collection": {
+        "total_seconds": 136.8473860269878,
+        "samples": 1,
+        "median": 136.8473860269878,
+        "p90": 136.8473860269878,
+        "maximum": 136.8473860269878
+      }
+    },
+    "peak_process_tree_rss_bytes": 83427074048,
+    "sampled_process_tree_cpu_seconds": 905.5799999999999,
+    "process_samples": 493,
+    "exited_process_reads": 45,
+    "cuda_setup": null,
+    "cpu_scope": "Sampled lower bound, 50ms; initial processes baselined; nested phases overlap",
+    "device_memory": {
+      "host_resident_bytes": 24850255872
+    }
+  },
+  "seconds": 178.3369445760036
+}
