@@ -1,0 +1,1346 @@
+{
+  "contract": "saved-auxiliary-head-inventory/1.0.0",
+  "generation": 1293,
+  "recovered": 0,
+  "entries": {
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b.pt": {
+      "generation": 0,
+      "model_id": "94bebe397ac8ab1f8fe3cfb46d7d293cdb8bc10116dcd5efaf2d2afdd813270b",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-1991a2ce8a8b973499e0f18b418fef5b4261da66a43b4b5a5096296ef01ea7d3-aux-11284922aa7ba155.pt": {
+      "generation": 710,
+      "model_id": "1991a2ce8a8b973499e0f18b418fef5b4261da66a43b4b5a5096296ef01ea7d3",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "11284922aa7ba15502e359794dc9cf83f806ad8fb3675bc1fbce3d6e9c68ee07",
+        "generation": 710,
+        "model_id": "1991a2ce8a8b973499e0f18b418fef5b4261da66a43b4b5a5096296ef01ea7d3",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-6e26ae57a6fdf7e34125bac05037bdb3b2660d8a263eedc1f0fd8310f1f933dc-aux-a65a53200f6ea384.pt": {
+      "generation": 795,
+      "model_id": "6e26ae57a6fdf7e34125bac05037bdb3b2660d8a263eedc1f0fd8310f1f933dc",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "a65a53200f6ea3845fead6376c91e991be7a6da1045bc8c8a76e2e1c5915e85b",
+        "generation": 795,
+        "model_id": "6e26ae57a6fdf7e34125bac05037bdb3b2660d8a263eedc1f0fd8310f1f933dc",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-be5a0a019e2c6770e665dde3e08d4f0711fe15279d1fbbda34cfbc94387e9ad7-aux-4d8f9a667ae28d2f.pt": {
+      "generation": 845,
+      "model_id": "be5a0a019e2c6770e665dde3e08d4f0711fe15279d1fbbda34cfbc94387e9ad7",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "4d8f9a667ae28d2f1d7d7638c9a2b0b748e5c8a2b06b87d594eeb3596c3ed38c",
+        "generation": 845,
+        "model_id": "be5a0a019e2c6770e665dde3e08d4f0711fe15279d1fbbda34cfbc94387e9ad7",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-d8d790ae2662510684fa05ed38a478c1ef90f197c82804a57d0088aa8c22eb67-aux-13189d0d79bdd462.pt": {
+      "generation": 895,
+      "model_id": "d8d790ae2662510684fa05ed38a478c1ef90f197c82804a57d0088aa8c22eb67",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "13189d0d79bdd462d50a0c7276ff9832e84a474c270b1da6610d34f02394c8f0",
+        "generation": 895,
+        "model_id": "d8d790ae2662510684fa05ed38a478c1ef90f197c82804a57d0088aa8c22eb67",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-20ebe0bd90d13c4ed801f5fd63064ed264a8636f3f1a49457b6cf398889896b7-aux-5d13e38723695004.pt": {
+      "generation": 935,
+      "model_id": "20ebe0bd90d13c4ed801f5fd63064ed264a8636f3f1a49457b6cf398889896b7",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "5d13e38723695004c9135cc65fa651630267e067124849869900754a3d6719a9",
+        "generation": 935,
+        "model_id": "20ebe0bd90d13c4ed801f5fd63064ed264a8636f3f1a49457b6cf398889896b7",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c223eef9b1a2b4cca60818e13ae62de7a22894ada7861bbd87d2093a5ba2817f-aux-249e660282d78e30.pt": {
+      "generation": 945,
+      "model_id": "c223eef9b1a2b4cca60818e13ae62de7a22894ada7861bbd87d2093a5ba2817f",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "249e660282d78e3003b4f9fb26eb5698336071fe4f7d3a0d8b1a3105bc915cd3",
+        "generation": 945,
+        "model_id": "c223eef9b1a2b4cca60818e13ae62de7a22894ada7861bbd87d2093a5ba2817f",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-3f47a7b50be0c26ee3e818062642ec28410e309f710d0fa5bb37e36917a60333-aux-ba7e4a37bbe7a198.pt": {
+      "generation": 1025,
+      "model_id": "3f47a7b50be0c26ee3e818062642ec28410e309f710d0fa5bb37e36917a60333",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "ba7e4a37bbe7a1982b2d95f2fbf33953d135308510553eac80507d75b21d7c23",
+        "generation": 1025,
+        "model_id": "3f47a7b50be0c26ee3e818062642ec28410e309f710d0fa5bb37e36917a60333",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b-aux-cb43b4aa94ffea9c.pt": {
+      "generation": 1045,
+      "model_id": "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "cb43b4aa94ffea9ce7599f0821c9cbef6787d8d86ecf7bd363a0cd67737730b6",
+        "generation": 1045,
+        "model_id": "5e4e574edca786e06f7b6bb6b9a8e56b7f3be7b286145fc6420c35224816a88b",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-82e44e3cf06be24a77608a75c2f6657fe9782c0562e960b029dd1925d2b436c0-aux-278cdc270ef3c34e.pt": {
+      "generation": 1080,
+      "model_id": "82e44e3cf06be24a77608a75c2f6657fe9782c0562e960b029dd1925d2b436c0",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "278cdc270ef3c34ec2ddd33f45054a425ff069d8d45d8ed0ddc9bd392843a9de",
+        "generation": 1080,
+        "model_id": "82e44e3cf06be24a77608a75c2f6657fe9782c0562e960b029dd1925d2b436c0",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-7746eecf9a85cbbd9c4e109c48e8fd92553b6e15b8d8204bf6d9fc0b0af38c6f-aux-6c172c5fe7845ad1.pt": {
+      "generation": 1090,
+      "model_id": "7746eecf9a85cbbd9c4e109c48e8fd92553b6e15b8d8204bf6d9fc0b0af38c6f",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "6c172c5fe7845ad170da952b31010b18149d37ced28e01298999ad625e1c4a3b",
+        "generation": 1090,
+        "model_id": "7746eecf9a85cbbd9c4e109c48e8fd92553b6e15b8d8204bf6d9fc0b0af38c6f",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e435a781422eebcd0e0fa7f164ec3f130249094a6d8a377ac79572cbdaf92d62-aux-84f830f00c8c3a8d.pt": {
+      "generation": 1100,
+      "model_id": "e435a781422eebcd0e0fa7f164ec3f130249094a6d8a377ac79572cbdaf92d62",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "84f830f00c8c3a8da775b5306a276ddbdefcff0a15b03effaa4aaaf135ba0046",
+        "generation": 1100,
+        "model_id": "e435a781422eebcd0e0fa7f164ec3f130249094a6d8a377ac79572cbdaf92d62",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad-aux-cc39ef7ce1c7a163.pt": {
+      "generation": 1110,
+      "model_id": "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "cc39ef7ce1c7a163016e09c6a60745a5a98acb2bb270fbb9b194b5b6023d98ca",
+        "generation": 1110,
+        "model_id": "c0f0a3c0f8a548a03b763d74fb407fe53bf79b8be6ac88b40f220717d47805ad",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e1da4a9617b66fc894c20affe1ffedd6adc3e21a527467dcd123d540e244e711-aux-74c8964f93c597ec.pt": {
+      "generation": 1145,
+      "model_id": "e1da4a9617b66fc894c20affe1ffedd6adc3e21a527467dcd123d540e244e711",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "74c8964f93c597ec95fd5d9d8262635bafe1105d7bbe53781f5dbc9ce178d0a6",
+        "generation": 1145,
+        "model_id": "e1da4a9617b66fc894c20affe1ffedd6adc3e21a527467dcd123d540e244e711",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1-aux-3a354903acd9ed0e.pt": {
+      "generation": 1175,
+      "model_id": "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "3a354903acd9ed0e7dd889efd953e2c37401175b7d81e25ad231d998e01908cc",
+        "generation": 1175,
+        "model_id": "2f2390427aaf7e20520b7d5cc9c9272211b74adf111548d098246ced64011ad1",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-d872ea925d6643ee3a3eeec99a52d16c6a78c2de1f757617f1aaaa47d175f864-aux-dd8dcbfaf5350001.pt": {
+      "generation": 1190,
+      "model_id": "d872ea925d6643ee3a3eeec99a52d16c6a78c2de1f757617f1aaaa47d175f864",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "dd8dcbfaf5350001685d1e1642b38f2acd7d88deb715fb17885fbef5e2e4dbcf",
+        "generation": 1190,
+        "model_id": "d872ea925d6643ee3a3eeec99a52d16c6a78c2de1f757617f1aaaa47d175f864",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-41c15e06127377047e72e2eb18ed83ded01e17433110a1b88a60de0f9b73b387-aux-4b43d956d9f6c551.pt": {
+      "generation": 1205,
+      "model_id": "41c15e06127377047e72e2eb18ed83ded01e17433110a1b88a60de0f9b73b387",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "4b43d956d9f6c551e2105cc048d62bc2d676a6f50c7dd848def8fbf6c3a99ade",
+        "generation": 1205,
+        "model_id": "41c15e06127377047e72e2eb18ed83ded01e17433110a1b88a60de0f9b73b387",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-93f1b3d5d48f890e113ee473c81360321f41327a49b04ef7c460dd0ca0b7b120-aux-597e0c2f0066259f.pt": {
+      "generation": 1220,
+      "model_id": "93f1b3d5d48f890e113ee473c81360321f41327a49b04ef7c460dd0ca0b7b120",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "597e0c2f0066259ff2088975537b919b96f10657bfc224bb2f324e8d732c78b6",
+        "generation": 1220,
+        "model_id": "93f1b3d5d48f890e113ee473c81360321f41327a49b04ef7c460dd0ca0b7b120",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-5afcf7d3657e884238ef8c956c9303a5107905c30b330a26e28bfad399bf83a0-aux-e24a37a6c7fe2d80.pt": {
+      "generation": 1230,
+      "model_id": "5afcf7d3657e884238ef8c956c9303a5107905c30b330a26e28bfad399bf83a0",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "e24a37a6c7fe2d804d384fbfcb3f65c507e7ac5faf73ac2597c4179383afc5a7",
+        "generation": 1230,
+        "model_id": "5afcf7d3657e884238ef8c956c9303a5107905c30b330a26e28bfad399bf83a0",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-ffb64f9d3834fd2fbc2a4f2460a5958318d2f9a6f7b2334d6a85855e8bd4a36e-aux-167d15b69fcf9439.pt": {
+      "generation": 1240,
+      "model_id": "ffb64f9d3834fd2fbc2a4f2460a5958318d2f9a6f7b2334d6a85855e8bd4a36e",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "167d15b69fcf9439b20e13c327d4b0a11e27739bff3c3eb6439c554a414a22b0",
+        "generation": 1240,
+        "model_id": "ffb64f9d3834fd2fbc2a4f2460a5958318d2f9a6f7b2334d6a85855e8bd4a36e",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985-aux-d3771e4045478a2e.pt": {
+      "generation": 1250,
+      "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "d3771e4045478a2e4e0b5da69c9581bff66f5204a1a9c09f7100f00a2b3d118d",
+        "generation": 1250,
+        "model_id": "0e1fe1357722a45ee274edeb2fc7932db3d081719027c6e043647e034f5b0985",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-fcc2f557308c6d41ddf02b64126312048fab4945d25eec9a122415e29f04c475-aux-24ed318e012e7f9f.pt": {
+      "generation": 1260,
+      "model_id": "fcc2f557308c6d41ddf02b64126312048fab4945d25eec9a122415e29f04c475",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "24ed318e012e7f9fe258a0a9230c7ca171dca5ecc2867c7661ae7be7b9e4629a",
+        "generation": 1260,
+        "model_id": "fcc2f557308c6d41ddf02b64126312048fab4945d25eec9a122415e29f04c475",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-392010dad0f0dd094314f298ee739d5182b21c7bbf1d6b8be389e9fc5c65ec4c-aux-d1767fc47b3a2fa4.pt": {
+      "generation": 1270,
+      "model_id": "392010dad0f0dd094314f298ee739d5182b21c7bbf1d6b8be389e9fc5c65ec4c",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "d1767fc47b3a2fa485b32c81138e63496b1844ab968e31f49cad82524d4481cd",
+        "generation": 1270,
+        "model_id": "392010dad0f0dd094314f298ee739d5182b21c7bbf1d6b8be389e9fc5c65ec4c",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c37d4c61160739d7414ea284ea35c17ed8565c0e3c62c4acf5e37d0126148068-aux-da9a9f5ae8d8ac13.pt": {
+      "generation": 1280,
+      "model_id": "c37d4c61160739d7414ea284ea35c17ed8565c0e3c62c4acf5e37d0126148068",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "da9a9f5ae8d8ac136877c3f053946549b064ab6c3b8daaffe87b5bc410b315de",
+        "generation": 1280,
+        "model_id": "c37d4c61160739d7414ea284ea35c17ed8565c0e3c62c4acf5e37d0126148068",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e7e56f396f951fb3cb9e77ccec095fd409676d0b94705f5ce5525edab5ed0c9a.pt": {
+      "generation": 10,
+      "model_id": "e7e56f396f951fb3cb9e77ccec095fd409676d0b94705f5ce5525edab5ed0c9a",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-7c07413adf55cb25c26e09799bf0565c47ad0e90f5dcc2a766f85f7b41a9110b.pt": {
+      "generation": 20,
+      "model_id": "7c07413adf55cb25c26e09799bf0565c47ad0e90f5dcc2a766f85f7b41a9110b",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2ed4cbbc9f0c3ce1d255df5e3afc147040e8099af6d56ee41041bb81b8968122.pt": {
+      "generation": 30,
+      "model_id": "2ed4cbbc9f0c3ce1d255df5e3afc147040e8099af6d56ee41041bb81b8968122",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c11be1a713a2901f42f121786e87afcdb4cc8f71ecb68dc8be61781278899813.pt": {
+      "generation": 40,
+      "model_id": "c11be1a713a2901f42f121786e87afcdb4cc8f71ecb68dc8be61781278899813",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-21424fecbee4773f4f867b19f9a0e8e316e3e6c304feaca201eeb024eb7d02ec.pt": {
+      "generation": 50,
+      "model_id": "21424fecbee4773f4f867b19f9a0e8e316e3e6c304feaca201eeb024eb7d02ec",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-9bb47c9986f0c79f9830249ebdf51bcf811c137c6dcdad4ac64ea480ef2562aa.pt": {
+      "generation": 60,
+      "model_id": "9bb47c9986f0c79f9830249ebdf51bcf811c137c6dcdad4ac64ea480ef2562aa",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-0864fe838bcd686f4fbd6b21745ed5f55643dba09f484074b2b9ff91b38a3896.pt": {
+      "generation": 70,
+      "model_id": "0864fe838bcd686f4fbd6b21745ed5f55643dba09f484074b2b9ff91b38a3896",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-21f5d65b8300bfac0e32e9a90e20c1523eb93b4d1d54b5fa5b9ee58ffe727bf5.pt": {
+      "generation": 80,
+      "model_id": "21f5d65b8300bfac0e32e9a90e20c1523eb93b4d1d54b5fa5b9ee58ffe727bf5",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-cb1e934c5b238150fd8523ab561cfb36bf2b5cee860d1f5144b14af4891f88fe.pt": {
+      "generation": 90,
+      "model_id": "cb1e934c5b238150fd8523ab561cfb36bf2b5cee860d1f5144b14af4891f88fe",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c9829f498cbdc5e4d1d0cd75fe69b8cdff1739c26f501983aa39927feb515b11.pt": {
+      "generation": 100,
+      "model_id": "c9829f498cbdc5e4d1d0cd75fe69b8cdff1739c26f501983aa39927feb515b11",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-660be9b6f19e78dc64e57349f58825e8918e551150cd01134981c57a4ce9f1b0.pt": {
+      "generation": 110,
+      "model_id": "660be9b6f19e78dc64e57349f58825e8918e551150cd01134981c57a4ce9f1b0",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-395b32f16e87591cd2c884ca44e7dc6d90e0fd1778d90c4444a407b1fc3cd4e8.pt": {
+      "generation": 120,
+      "model_id": "395b32f16e87591cd2c884ca44e7dc6d90e0fd1778d90c4444a407b1fc3cd4e8",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-481141b8a33f20fa6c009f5ad6f673285895d60eab562c088cd0f7b12dec2ab4.pt": {
+      "generation": 130,
+      "model_id": "481141b8a33f20fa6c009f5ad6f673285895d60eab562c088cd0f7b12dec2ab4",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-8400ded811de32f7668e726a2feceda949825b93ff4364013d475d64f43e052f.pt": {
+      "generation": 140,
+      "model_id": "8400ded811de32f7668e726a2feceda949825b93ff4364013d475d64f43e052f",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2cfed9e0a6a396cdcf04ed08908f58ab9b1e6f678ae5ab7d18e3fb3c35ab2b72.pt": {
+      "generation": 150,
+      "model_id": "2cfed9e0a6a396cdcf04ed08908f58ab9b1e6f678ae5ab7d18e3fb3c35ab2b72",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-21e1e8a77b9384c3daedaef12ef7d1f421c5384308020079c3e597119d7b128c.pt": {
+      "generation": 160,
+      "model_id": "21e1e8a77b9384c3daedaef12ef7d1f421c5384308020079c3e597119d7b128c",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-d9687059bb647239522d8c9ecc63d7c93be16296633f3c20305b53450c9e81b2.pt": {
+      "generation": 170,
+      "model_id": "d9687059bb647239522d8c9ecc63d7c93be16296633f3c20305b53450c9e81b2",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-439475358bbefb75b7a6fa6781695184e913252effafaa0130dea8c556ca5771.pt": {
+      "generation": 180,
+      "model_id": "439475358bbefb75b7a6fa6781695184e913252effafaa0130dea8c556ca5771",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e0c886c0aff237f8e2fca1b680c13c4c23ac9e2928ad5fee750e8e0416e2932e.pt": {
+      "generation": 190,
+      "model_id": "e0c886c0aff237f8e2fca1b680c13c4c23ac9e2928ad5fee750e8e0416e2932e",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-60bcc4fddef1642b1da06d4e57e7f12d1b88a52920f14aa4ef5835fe2d1c1c99.pt": {
+      "generation": 200,
+      "model_id": "60bcc4fddef1642b1da06d4e57e7f12d1b88a52920f14aa4ef5835fe2d1c1c99",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-654ac56dd6e3e22731b2305f580657ae00d684f3c5fa5c18f2c0b9dea6cbdb85.pt": {
+      "generation": 210,
+      "model_id": "654ac56dd6e3e22731b2305f580657ae00d684f3c5fa5c18f2c0b9dea6cbdb85",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-7d0bde6feafe6db4bd0a4b15bd4558fe1589a79c949914b9c8791dfee1428532.pt": {
+      "generation": 220,
+      "model_id": "7d0bde6feafe6db4bd0a4b15bd4558fe1589a79c949914b9c8791dfee1428532",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-bae5538d3f82af7cd6a458ecde43c50816f4698d42b1d494294f83d3e0b30710.pt": {
+      "generation": 230,
+      "model_id": "bae5538d3f82af7cd6a458ecde43c50816f4698d42b1d494294f83d3e0b30710",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-19f05b293fa215e12e5890969e84c6717c738eeef3e75285d88998983f2741cf.pt": {
+      "generation": 240,
+      "model_id": "19f05b293fa215e12e5890969e84c6717c738eeef3e75285d88998983f2741cf",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-77828c5f2b08740b56099d064882ad7a6f68ed08c47d74bfa3565a81a3128164.pt": {
+      "generation": 250,
+      "model_id": "77828c5f2b08740b56099d064882ad7a6f68ed08c47d74bfa3565a81a3128164",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-262d82cc91046d07895e93ae7aa658a9816bcae142e7f1ccf306c1eedca5b4cf.pt": {
+      "generation": 260,
+      "model_id": "262d82cc91046d07895e93ae7aa658a9816bcae142e7f1ccf306c1eedca5b4cf",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-aed3ffee72ea295e3b08a41e46171b7ce721c57b2432ecce126d51224a824672.pt": {
+      "generation": 270,
+      "model_id": "aed3ffee72ea295e3b08a41e46171b7ce721c57b2432ecce126d51224a824672",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-3323a6ac1ebc537c87f1ee11d64594ce7c917db6ca329112ee1f2bb0d0f93e76.pt": {
+      "generation": 280,
+      "model_id": "3323a6ac1ebc537c87f1ee11d64594ce7c917db6ca329112ee1f2bb0d0f93e76",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-275121ab10b553c4810e9e6b80580383fc1ef86f182668486774a5e0935802f3.pt": {
+      "generation": 290,
+      "model_id": "275121ab10b553c4810e9e6b80580383fc1ef86f182668486774a5e0935802f3",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-abc32dab6a2b5d748a75f58ff6145250a2e57f7f177a64ee1417dddb1659233e.pt": {
+      "generation": 300,
+      "model_id": "abc32dab6a2b5d748a75f58ff6145250a2e57f7f177a64ee1417dddb1659233e",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-8b86771465ecda2774ad2ac0b1fd3d19c386f57b43fd14c7243dee010b63068d.pt": {
+      "generation": 310,
+      "model_id": "8b86771465ecda2774ad2ac0b1fd3d19c386f57b43fd14c7243dee010b63068d",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-97cd76e9fde4fa5747ed71de1b7a8afe41a2442e35fa2639c263d21a5713562c.pt": {
+      "generation": 320,
+      "model_id": "97cd76e9fde4fa5747ed71de1b7a8afe41a2442e35fa2639c263d21a5713562c",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-91af0514bf90a5ca8831cf9fa8cc83a4ddaccc3558779e24ff129e97ce2b0921.pt": {
+      "generation": 330,
+      "model_id": "91af0514bf90a5ca8831cf9fa8cc83a4ddaccc3558779e24ff129e97ce2b0921",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-b5c8d3704fcd2b44767862cec90108817fb51ce29700de80ef4496bf7e09ddeb.pt": {
+      "generation": 340,
+      "model_id": "b5c8d3704fcd2b44767862cec90108817fb51ce29700de80ef4496bf7e09ddeb",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-833abba62b4a35fb55057f9b62baa7e2a6184f91d6f30d78b0e3cc97bd9c05ce.pt": {
+      "generation": 350,
+      "model_id": "833abba62b4a35fb55057f9b62baa7e2a6184f91d6f30d78b0e3cc97bd9c05ce",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-387adf122782ba413e839d648377be2e126f8dad06fc91506695fea7905fb391.pt": {
+      "generation": 360,
+      "model_id": "387adf122782ba413e839d648377be2e126f8dad06fc91506695fea7905fb391",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-0b8a138a2cb3a73bce0633c2080d4c87c1ba66d15a58889b0df0b10b2376895f.pt": {
+      "generation": 370,
+      "model_id": "0b8a138a2cb3a73bce0633c2080d4c87c1ba66d15a58889b0df0b10b2376895f",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-5a3c28a995a73c9088c7c9464bfbee2ccc4320da2b090cdeecb843a1cd56fa59.pt": {
+      "generation": 380,
+      "model_id": "5a3c28a995a73c9088c7c9464bfbee2ccc4320da2b090cdeecb843a1cd56fa59",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-449b2e68e1377286d8db2dd8802a259c496aecde50b42c0687b2304ee985c7ac.pt": {
+      "generation": 390,
+      "model_id": "449b2e68e1377286d8db2dd8802a259c496aecde50b42c0687b2304ee985c7ac",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-757b25886c17316e74886bfec2fd474fc5fca429efdf13b5214bbfab14bbd05c.pt": {
+      "generation": 400,
+      "model_id": "757b25886c17316e74886bfec2fd474fc5fca429efdf13b5214bbfab14bbd05c",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-d7c7f6cdc16e5ba38baffb43e571c199424e6af526fc3b5079236e80df5eccba.pt": {
+      "generation": 410,
+      "model_id": "d7c7f6cdc16e5ba38baffb43e571c199424e6af526fc3b5079236e80df5eccba",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2b7390235ad2528706101daa64bc2aada1f16da7e7341a427b2df0127dd452c7.pt": {
+      "generation": 420,
+      "model_id": "2b7390235ad2528706101daa64bc2aada1f16da7e7341a427b2df0127dd452c7",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-ffd4d5ac937a3c7e111dce39c64f237f6a49a5f7262b721fdfe62bc753179a0f.pt": {
+      "generation": 430,
+      "model_id": "ffd4d5ac937a3c7e111dce39c64f237f6a49a5f7262b721fdfe62bc753179a0f",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-1b5a7a06335f76440030be251a610c36ddd8e1f1ea9361503426ee8efb82447d.pt": {
+      "generation": 440,
+      "model_id": "1b5a7a06335f76440030be251a610c36ddd8e1f1ea9361503426ee8efb82447d",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-9d942e19149a7ebd6ed84c66c19bc2b6e273075e072b5d60a05f8af7557b3da1.pt": {
+      "generation": 450,
+      "model_id": "9d942e19149a7ebd6ed84c66c19bc2b6e273075e072b5d60a05f8af7557b3da1",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-52d35cacd9fc0c16a0fda1657b120d0da183ea9273c59155fda8182298026188.pt": {
+      "generation": 460,
+      "model_id": "52d35cacd9fc0c16a0fda1657b120d0da183ea9273c59155fda8182298026188",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-655a8f81d51737523f9a496d08201dbe095987d9743517a83716965aa2685d7e.pt": {
+      "generation": 470,
+      "model_id": "655a8f81d51737523f9a496d08201dbe095987d9743517a83716965aa2685d7e",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-a7990809337383316c5ffbc49af72af3e6cba098cc7098bf0eb2af951141d63a.pt": {
+      "generation": 480,
+      "model_id": "a7990809337383316c5ffbc49af72af3e6cba098cc7098bf0eb2af951141d63a",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c06619615f4c8d16f05fbaf39b899550647f5e257e96730729ddd19e9b49fad9.pt": {
+      "generation": 490,
+      "model_id": "c06619615f4c8d16f05fbaf39b899550647f5e257e96730729ddd19e9b49fad9",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-d803ef34cf25014e2dd20ee1ed98f120699c46eb379bb8498ce0bde3aa342424.pt": {
+      "generation": 500,
+      "model_id": "d803ef34cf25014e2dd20ee1ed98f120699c46eb379bb8498ce0bde3aa342424",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-a145f9248a44d3e0395067a7b5f2a6ec56d3b32b34f3d958829c0b060ebecc45.pt": {
+      "generation": 510,
+      "model_id": "a145f9248a44d3e0395067a7b5f2a6ec56d3b32b34f3d958829c0b060ebecc45",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-f5fba71ada957618819980e1c3500a2be766297290245589f28e83bac7fbc39e.pt": {
+      "generation": 520,
+      "model_id": "f5fba71ada957618819980e1c3500a2be766297290245589f28e83bac7fbc39e",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-4cc42f18fcd8bbde9e74ee628b42a7ca323ac3288d57ee7dfa1a812c29ac65e0.pt": {
+      "generation": 530,
+      "model_id": "4cc42f18fcd8bbde9e74ee628b42a7ca323ac3288d57ee7dfa1a812c29ac65e0",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-43ad5fb1da97c2dc0a38738be57e51308a0ec7a0e931d973ed83391cac47e2de.pt": {
+      "generation": 540,
+      "model_id": "43ad5fb1da97c2dc0a38738be57e51308a0ec7a0e931d973ed83391cac47e2de",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-3daa96e43833427ba1edb659ea711582071bea61ee25c32f727ea13ad39dabff.pt": {
+      "generation": 550,
+      "model_id": "3daa96e43833427ba1edb659ea711582071bea61ee25c32f727ea13ad39dabff",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-629b352fb6d12ff74c06dd2167e70a7d7e55ba86d269c474dfa7d4abd7b28291.pt": {
+      "generation": 560,
+      "model_id": "629b352fb6d12ff74c06dd2167e70a7d7e55ba86d269c474dfa7d4abd7b28291",
+      "status": "legacy_no_companion_receipt",
+      "auxiliary_heads": null
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91-aux-aef3a6e614f1603e.pt": {
+      "generation": 570,
+      "model_id": "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "aef3a6e614f1603eb5072f4acf7a777df7a914ad1f4d31b417c8b7270357abf7",
+        "generation": 570,
+        "model_id": "18f42a48933c18095d96f1cc64b836d3f9aac92361a4e4ee7c423830d9a11a91",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2dad5d7f3ed26affd7b6d0c172f163e84710c93c2bcb4b4866b711e6f5936bea-aux-75967d6421d9fd31.pt": {
+      "generation": 580,
+      "model_id": "2dad5d7f3ed26affd7b6d0c172f163e84710c93c2bcb4b4866b711e6f5936bea",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "75967d6421d9fd316ea46aa1c4ba3139c2a6a2921ca079eda9d5f6a4e1fa9fcf",
+        "generation": 580,
+        "model_id": "2dad5d7f3ed26affd7b6d0c172f163e84710c93c2bcb4b4866b711e6f5936bea",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-5df1b3053a96d229fc205b1b21f0b009d6ba1c61ca07ddf071f9b05a316da9df-aux-15de2084fcb87e5c.pt": {
+      "generation": 590,
+      "model_id": "5df1b3053a96d229fc205b1b21f0b009d6ba1c61ca07ddf071f9b05a316da9df",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "15de2084fcb87e5c881b85706a02702672c1872dc2e479ef49ae992c39d6a40b",
+        "generation": 590,
+        "model_id": "5df1b3053a96d229fc205b1b21f0b009d6ba1c61ca07ddf071f9b05a316da9df",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-829f10aa4d83c95026a181e2b87226ab25eecf536941becf79e42e2b1130ed91-aux-0316518a32991be1.pt": {
+      "generation": 600,
+      "model_id": "829f10aa4d83c95026a181e2b87226ab25eecf536941becf79e42e2b1130ed91",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "0316518a32991be10a710aac85c200db4bdc74e17d897abe0d03d3916e3d0fe2",
+        "generation": 600,
+        "model_id": "829f10aa4d83c95026a181e2b87226ab25eecf536941becf79e42e2b1130ed91",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-183e07047b9b9933ae272ed45744679e787d021b508a53beade38a78732c7494-aux-e2de757e671fa850.pt": {
+      "generation": 610,
+      "model_id": "183e07047b9b9933ae272ed45744679e787d021b508a53beade38a78732c7494",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "e2de757e671fa85071b774714c2ee603c97031a779bd32976862ce1ac66956f3",
+        "generation": 610,
+        "model_id": "183e07047b9b9933ae272ed45744679e787d021b508a53beade38a78732c7494",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-f0dbf2a539a8b650c1ebe8707de1e7d9eba2053dcce0cf0caef1dc1cd8437982-aux-a13f8cac740a43e9.pt": {
+      "generation": 620,
+      "model_id": "f0dbf2a539a8b650c1ebe8707de1e7d9eba2053dcce0cf0caef1dc1cd8437982",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "a13f8cac740a43e9a18c340cdc95683b14305ac9672a6e1d1ef5696806009740",
+        "generation": 620,
+        "model_id": "f0dbf2a539a8b650c1ebe8707de1e7d9eba2053dcce0cf0caef1dc1cd8437982",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-fe6a533512dafae1dd6eaa1b2f9a492cff8edd4aa6f0379b4a91932ea66d6ab4-aux-4fc6355d44d3db62.pt": {
+      "generation": 630,
+      "model_id": "fe6a533512dafae1dd6eaa1b2f9a492cff8edd4aa6f0379b4a91932ea66d6ab4",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "4fc6355d44d3db62cbb881970f773820fba63ac222fad76408d400a712b4befd",
+        "generation": 630,
+        "model_id": "fe6a533512dafae1dd6eaa1b2f9a492cff8edd4aa6f0379b4a91932ea66d6ab4",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-6155f8ead37325a8f76b5dbaec3b6a7454060160e39f1f24fdd085b1dbb0f8fe-aux-bfef8c15f382ea28.pt": {
+      "generation": 640,
+      "model_id": "6155f8ead37325a8f76b5dbaec3b6a7454060160e39f1f24fdd085b1dbb0f8fe",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "bfef8c15f382ea286312df213795afc005f31deceeb72209769b81fdc9fe702d",
+        "generation": 640,
+        "model_id": "6155f8ead37325a8f76b5dbaec3b6a7454060160e39f1f24fdd085b1dbb0f8fe",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-26cb59627695c467cd50c82d3ea2b2535a54900ec6b39ed63b50d54b708b5ffd-aux-ef810821d8a93c16.pt": {
+      "generation": 650,
+      "model_id": "26cb59627695c467cd50c82d3ea2b2535a54900ec6b39ed63b50d54b708b5ffd",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "ef810821d8a93c160ac1fd4ed893f19f219ef69cde2a1627e3f7279aa416d83f",
+        "generation": 650,
+        "model_id": "26cb59627695c467cd50c82d3ea2b2535a54900ec6b39ed63b50d54b708b5ffd",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-40417ef500e3981b784db3f29469b28935fb3e82fffe1144808948fb13f6316c-aux-d24b324fc64f6016.pt": {
+      "generation": 660,
+      "model_id": "40417ef500e3981b784db3f29469b28935fb3e82fffe1144808948fb13f6316c",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "d24b324fc64f60163c32de8537788ad7dc7a52becacf5b561e95744c636c994e",
+        "generation": 660,
+        "model_id": "40417ef500e3981b784db3f29469b28935fb3e82fffe1144808948fb13f6316c",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-4c877c556fcb361a027207c287bd4b9739f4560f0918a5b40038a440e3dfd153-aux-a4b68c412a55bf87.pt": {
+      "generation": 670,
+      "model_id": "4c877c556fcb361a027207c287bd4b9739f4560f0918a5b40038a440e3dfd153",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "a4b68c412a55bf87bbbdc76217d225c91f992823d7adbd9181a06d72c6d7cfaf",
+        "generation": 670,
+        "model_id": "4c877c556fcb361a027207c287bd4b9739f4560f0918a5b40038a440e3dfd153",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-91c89bd1c7ff44ad7ae15158ce4a0496b14fdf860b6ea56c178d30a9d24bd3d6-aux-714629a9967313d7.pt": {
+      "generation": 680,
+      "model_id": "91c89bd1c7ff44ad7ae15158ce4a0496b14fdf860b6ea56c178d30a9d24bd3d6",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "714629a9967313d7a8cbbf3eb934c32b95cd9283974ce181a5596295248065c8",
+        "generation": 680,
+        "model_id": "91c89bd1c7ff44ad7ae15158ce4a0496b14fdf860b6ea56c178d30a9d24bd3d6",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-36da22555ae8000996df74ffd6ad1e8bb0dd9daf758a3805f7216eed5307986a-aux-22f6ffa0d23cf1ef.pt": {
+      "generation": 690,
+      "model_id": "36da22555ae8000996df74ffd6ad1e8bb0dd9daf758a3805f7216eed5307986a",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "22f6ffa0d23cf1efb51495fb42ce9d3ff8e3c0113f9d6add8db46fff7febf54e",
+        "generation": 690,
+        "model_id": "36da22555ae8000996df74ffd6ad1e8bb0dd9daf758a3805f7216eed5307986a",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-45db5859150f6e2942cb9fb531109b9befec3393c27de14f24062fa092b891d1-aux-bf047020d85feda7.pt": {
+      "generation": 700,
+      "model_id": "45db5859150f6e2942cb9fb531109b9befec3393c27de14f24062fa092b891d1",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "bf047020d85feda7de75797ec28bee6ac2b1467dc6cfc085edbfcd3d51ab381b",
+        "generation": 700,
+        "model_id": "45db5859150f6e2942cb9fb531109b9befec3393c27de14f24062fa092b891d1",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e393cf4eaec886aec53f71c0c34904aae32862a26d753629e8c37ec2c311e881-aux-572abcba3acb7dfb.pt": {
+      "generation": 720,
+      "model_id": "e393cf4eaec886aec53f71c0c34904aae32862a26d753629e8c37ec2c311e881",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "572abcba3acb7dfb642c17ad25614f245001a4840330c3f8c9b5c11ba01949d1",
+        "generation": 720,
+        "model_id": "e393cf4eaec886aec53f71c0c34904aae32862a26d753629e8c37ec2c311e881",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-5f93783f34ee83df7da54aa6b90b9d4f02e6fcaccd7febfceadc94f7323e8cf3-aux-f395355a995c22c2.pt": {
+      "generation": 730,
+      "model_id": "5f93783f34ee83df7da54aa6b90b9d4f02e6fcaccd7febfceadc94f7323e8cf3",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "f395355a995c22c223a649daf84b97e6ba6dc8ac0c7def8358f8411e2ff307ba",
+        "generation": 730,
+        "model_id": "5f93783f34ee83df7da54aa6b90b9d4f02e6fcaccd7febfceadc94f7323e8cf3",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2ce015a22b67f948cb4305aaa8c1b3bd062ae80fcff54d1f42378afa319ff762-aux-c7a7aa30d1ef74b8.pt": {
+      "generation": 740,
+      "model_id": "2ce015a22b67f948cb4305aaa8c1b3bd062ae80fcff54d1f42378afa319ff762",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "c7a7aa30d1ef74b84b22c409903ed83aa8d79721fc4953ede86edc13d67da656",
+        "generation": 740,
+        "model_id": "2ce015a22b67f948cb4305aaa8c1b3bd062ae80fcff54d1f42378afa319ff762",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-63acc64606df71a21cdc709539446b594102f51f7ce46fcd0089510faf7a2d76-aux-fc35c012be4386f1.pt": {
+      "generation": 750,
+      "model_id": "63acc64606df71a21cdc709539446b594102f51f7ce46fcd0089510faf7a2d76",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "fc35c012be4386f16ae421a39fa5fe2f606fb10d2ae0589a094979dc48c0f158",
+        "generation": 750,
+        "model_id": "63acc64606df71a21cdc709539446b594102f51f7ce46fcd0089510faf7a2d76",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-37f47dc9176e7cdc5dd1922fa0ca6b332985113618283030e0f5849e1965b36c-aux-d51e2c3f57991acd.pt": {
+      "generation": 760,
+      "model_id": "37f47dc9176e7cdc5dd1922fa0ca6b332985113618283030e0f5849e1965b36c",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "d51e2c3f57991acdcbeb4e439e626ad25c5430d0a5812104a8c59778ced499f9",
+        "generation": 760,
+        "model_id": "37f47dc9176e7cdc5dd1922fa0ca6b332985113618283030e0f5849e1965b36c",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c499a6a51e42af8c9154e247a1241c9253ee1805ad5ad6bece0ea2517a0b60d8-aux-9c33bde5e30cbe49.pt": {
+      "generation": 770,
+      "model_id": "c499a6a51e42af8c9154e247a1241c9253ee1805ad5ad6bece0ea2517a0b60d8",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "9c33bde5e30cbe49c98ddc3d591d0fdee794907dd5c6bdca8cdc8851eb51ff85",
+        "generation": 770,
+        "model_id": "c499a6a51e42af8c9154e247a1241c9253ee1805ad5ad6bece0ea2517a0b60d8",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-4e92740f83e7b8d64773d6a4251295b193b1407c295437d0d089669247491a44-aux-e9a5eea8987ef50f.pt": {
+      "generation": 780,
+      "model_id": "4e92740f83e7b8d64773d6a4251295b193b1407c295437d0d089669247491a44",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "e9a5eea8987ef50f9134f692364e3bb1e62f1436a7f75c41a4a80356f61b571f",
+        "generation": 780,
+        "model_id": "4e92740f83e7b8d64773d6a4251295b193b1407c295437d0d089669247491a44",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-d26bc63514f45b76d32c5fd7406e95706ff31464d8c0dcd9a6b39ed66c66344e-aux-6f94b07d1308859e.pt": {
+      "generation": 790,
+      "model_id": "d26bc63514f45b76d32c5fd7406e95706ff31464d8c0dcd9a6b39ed66c66344e",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "6f94b07d1308859e7d0a6ab2eceb95f4b96e89c4d9304db23f16450eafee546c",
+        "generation": 790,
+        "model_id": "d26bc63514f45b76d32c5fd7406e95706ff31464d8c0dcd9a6b39ed66c66344e",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-0db9788c677187079959d0602d18ba9c68e2b3accb31959bef8b2736d3a88ae7-aux-e13588ff7aea00c5.pt": {
+      "generation": 800,
+      "model_id": "0db9788c677187079959d0602d18ba9c68e2b3accb31959bef8b2736d3a88ae7",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "e13588ff7aea00c5b83545da7fff62cdf14ed89d45549e5791cc41411985471b",
+        "generation": 800,
+        "model_id": "0db9788c677187079959d0602d18ba9c68e2b3accb31959bef8b2736d3a88ae7",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2f1c1f2cdf286c13cc237160dec2cfb34156ab8064a76eb41197f5147289ae91-aux-e7a1115cf00b6ddf.pt": {
+      "generation": 810,
+      "model_id": "2f1c1f2cdf286c13cc237160dec2cfb34156ab8064a76eb41197f5147289ae91",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "e7a1115cf00b6ddf1ed42a6983b4eea1dc115bdd099ef442727cbd4795deb97e",
+        "generation": 810,
+        "model_id": "2f1c1f2cdf286c13cc237160dec2cfb34156ab8064a76eb41197f5147289ae91",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2de30818cde3c18449afbb465233639486e1f94937b184a4d2529f0b3b516f65-aux-5a46c693cb375917.pt": {
+      "generation": 820,
+      "model_id": "2de30818cde3c18449afbb465233639486e1f94937b184a4d2529f0b3b516f65",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "5a46c693cb3759172981f06e7f510248da2fee49c031473426fc0a66b700e86a",
+        "generation": 820,
+        "model_id": "2de30818cde3c18449afbb465233639486e1f94937b184a4d2529f0b3b516f65",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-85541e751615bbfa48b78b63b89cb302e541b1cbc8d6faf2246178d901f12084-aux-c8ffe07b18073886.pt": {
+      "generation": 830,
+      "model_id": "85541e751615bbfa48b78b63b89cb302e541b1cbc8d6faf2246178d901f12084",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "c8ffe07b18073886d0fe160841d8085854bfb133e9761b70456c7168183c9877",
+        "generation": 830,
+        "model_id": "85541e751615bbfa48b78b63b89cb302e541b1cbc8d6faf2246178d901f12084",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-ecf6d626ade92f0f008fd7e8ee5f42ad297336338bb7c0754540dcdf72abaea0-aux-d72fe06c668eac3f.pt": {
+      "generation": 840,
+      "model_id": "ecf6d626ade92f0f008fd7e8ee5f42ad297336338bb7c0754540dcdf72abaea0",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "d72fe06c668eac3f71031f12d87c3a246a9b590c4cf90e9ac94478b1e8331324",
+        "generation": 840,
+        "model_id": "ecf6d626ade92f0f008fd7e8ee5f42ad297336338bb7c0754540dcdf72abaea0",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-08df76d14d51537f7e652566a9f49d8e64b8a222fd12213fcf210a4667b115d6-aux-d4f53cd5ef2bd0ef.pt": {
+      "generation": 850,
+      "model_id": "08df76d14d51537f7e652566a9f49d8e64b8a222fd12213fcf210a4667b115d6",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "d4f53cd5ef2bd0ef75d3abd6228d8262edd669ac81d163d369fff1d577bbf2d0",
+        "generation": 850,
+        "model_id": "08df76d14d51537f7e652566a9f49d8e64b8a222fd12213fcf210a4667b115d6",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-8cf7847177ab90caf196c71b7915ddc15c985e3a47408b2473b58d9c6154b4f9-aux-cf14d3c0f6619559.pt": {
+      "generation": 860,
+      "model_id": "8cf7847177ab90caf196c71b7915ddc15c985e3a47408b2473b58d9c6154b4f9",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "cf14d3c0f6619559ed760f706dfe12f0f49542dc299d80a0d4cfded49030ee90",
+        "generation": 860,
+        "model_id": "8cf7847177ab90caf196c71b7915ddc15c985e3a47408b2473b58d9c6154b4f9",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c7c77e79ec92944b1f1837d46391fae9eb037dc6d04b3fd3ea42081f0732372c-aux-8a68409fef348df2.pt": {
+      "generation": 870,
+      "model_id": "c7c77e79ec92944b1f1837d46391fae9eb037dc6d04b3fd3ea42081f0732372c",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "8a68409fef348df22e224dce3729ed0c6f056c3f87f4630c671b0f339ac0fed4",
+        "generation": 870,
+        "model_id": "c7c77e79ec92944b1f1837d46391fae9eb037dc6d04b3fd3ea42081f0732372c",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-7f70990c4bdbeb0376ce64de5f1f3a849fcffb06dd73edd19704f45f97e89b45-aux-a1649dd202c894b7.pt": {
+      "generation": 880,
+      "model_id": "7f70990c4bdbeb0376ce64de5f1f3a849fcffb06dd73edd19704f45f97e89b45",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "a1649dd202c894b771969f3af71c00904a2371fc61398a2aaae242f26c956735",
+        "generation": 880,
+        "model_id": "7f70990c4bdbeb0376ce64de5f1f3a849fcffb06dd73edd19704f45f97e89b45",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-f25c87006a84653449005540c82ed6d82ce43652b9f284d59f1f3eff8e5c71ad-aux-bee44f44315e94f1.pt": {
+      "generation": 890,
+      "model_id": "f25c87006a84653449005540c82ed6d82ce43652b9f284d59f1f3eff8e5c71ad",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "bee44f44315e94f1c816a190351711c1d1636d36c3044a315075aa82c3d644cb",
+        "generation": 890,
+        "model_id": "f25c87006a84653449005540c82ed6d82ce43652b9f284d59f1f3eff8e5c71ad",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-459b1640f915777ae29d499de5b12ae3a48268c7c625172b961718e7808b004f-aux-fcb3d704917cb110.pt": {
+      "generation": 900,
+      "model_id": "459b1640f915777ae29d499de5b12ae3a48268c7c625172b961718e7808b004f",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "fcb3d704917cb1109b3821fe446fa0dc13e947d6b72876dee790bd62fe75d9a8",
+        "generation": 900,
+        "model_id": "459b1640f915777ae29d499de5b12ae3a48268c7c625172b961718e7808b004f",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-05858febb1048bafcad0bfd522a2af7062d34a8dde013c2c3a77104b39480832-aux-4cfc5717cf8fd142.pt": {
+      "generation": 910,
+      "model_id": "05858febb1048bafcad0bfd522a2af7062d34a8dde013c2c3a77104b39480832",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "4cfc5717cf8fd142286aafbb30d9bbbfbe93d75d7487a3cd7d7953fc912647cb",
+        "generation": 910,
+        "model_id": "05858febb1048bafcad0bfd522a2af7062d34a8dde013c2c3a77104b39480832",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-358e7dbebcfb47c09151a9963ac7e02f2954bc71235f723525d3ea374e17c167-aux-1955cee94dc0e9fb.pt": {
+      "generation": 920,
+      "model_id": "358e7dbebcfb47c09151a9963ac7e02f2954bc71235f723525d3ea374e17c167",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "1955cee94dc0e9fb5e4c470cf08e4185ced28fb5c2270c0fbb059975bea525c8",
+        "generation": 920,
+        "model_id": "358e7dbebcfb47c09151a9963ac7e02f2954bc71235f723525d3ea374e17c167",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-0d1844cad5a2bd5e20624259ad686a6e8d8de4d960f86b02236d5e7c756174c4-aux-81d783002cd5bd4d.pt": {
+      "generation": 930,
+      "model_id": "0d1844cad5a2bd5e20624259ad686a6e8d8de4d960f86b02236d5e7c756174c4",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "81d783002cd5bd4dbf0ddc149abe31fd52777af9d2add6b211ac586a7568e0f3",
+        "generation": 930,
+        "model_id": "0d1844cad5a2bd5e20624259ad686a6e8d8de4d960f86b02236d5e7c756174c4",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-1732bd281e1e2a4708e7d72a8e550ae874abe58a6683346e4ff38de7fc823ab8-aux-5193ca36d898984d.pt": {
+      "generation": 940,
+      "model_id": "1732bd281e1e2a4708e7d72a8e550ae874abe58a6683346e4ff38de7fc823ab8",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "5193ca36d898984d53312eb557ba7194295750249f10cbe65c13de8d50417588",
+        "generation": 940,
+        "model_id": "1732bd281e1e2a4708e7d72a8e550ae874abe58a6683346e4ff38de7fc823ab8",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-463ddd03b806aab0a25a1a3605007f976a6df5e8c897922eb66d5e1953bc8e85-aux-15dba9c5c8d8dea9.pt": {
+      "generation": 950,
+      "model_id": "463ddd03b806aab0a25a1a3605007f976a6df5e8c897922eb66d5e1953bc8e85",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "15dba9c5c8d8dea9b5b59c94948f3c1a3dec487e26df4ed7dbd0232b921dc42f",
+        "generation": 950,
+        "model_id": "463ddd03b806aab0a25a1a3605007f976a6df5e8c897922eb66d5e1953bc8e85",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-92003576148663649792c03590436383ff2279ae29e7e0e5b6d42aeb45d10e6f-aux-0c732de0feb3bbe4.pt": {
+      "generation": 960,
+      "model_id": "92003576148663649792c03590436383ff2279ae29e7e0e5b6d42aeb45d10e6f",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "0c732de0feb3bbe4e5d2acef6febd30b5570c8e40e2923d4cb42c3b49d78cb6f",
+        "generation": 960,
+        "model_id": "92003576148663649792c03590436383ff2279ae29e7e0e5b6d42aeb45d10e6f",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-b031f87be9b08b09b22e58cfad8e2eeb6bacb81fd86aa8b14e709ee89e1082ca-aux-006839a971d6fa49.pt": {
+      "generation": 970,
+      "model_id": "b031f87be9b08b09b22e58cfad8e2eeb6bacb81fd86aa8b14e709ee89e1082ca",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "006839a971d6fa4908f2ad6bd7751265c901635d1c383ca761946c88fe9f9aab",
+        "generation": 970,
+        "model_id": "b031f87be9b08b09b22e58cfad8e2eeb6bacb81fd86aa8b14e709ee89e1082ca",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-09b72069bb32e9e80f2cb909304e801e429424dbfba6562511e0cb4fd69a52a7-aux-9ec42cb8b400407b.pt": {
+      "generation": 980,
+      "model_id": "09b72069bb32e9e80f2cb909304e801e429424dbfba6562511e0cb4fd69a52a7",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "9ec42cb8b400407b5c7132b1ebfbeb1d8c446c59c4b26e67afaabcbc049b0ca4",
+        "generation": 980,
+        "model_id": "09b72069bb32e9e80f2cb909304e801e429424dbfba6562511e0cb4fd69a52a7",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-342de4b95f3c34d3b1f3165a46155d6d72f2c3274cd4c3cab386b4c9c296a8b1-aux-b9f685d9e01df983.pt": {
+      "generation": 990,
+      "model_id": "342de4b95f3c34d3b1f3165a46155d6d72f2c3274cd4c3cab386b4c9c296a8b1",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "b9f685d9e01df9839fe06082d46419daa3b7fe8b7256e7898f2dbb911f510b14",
+        "generation": 990,
+        "model_id": "342de4b95f3c34d3b1f3165a46155d6d72f2c3274cd4c3cab386b4c9c296a8b1",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2adeb524c1b515dd29ff4d9db6ab55e2be5987c75f47994403778aa184689ea6-aux-8bbf0a8bf542951a.pt": {
+      "generation": 1000,
+      "model_id": "2adeb524c1b515dd29ff4d9db6ab55e2be5987c75f47994403778aa184689ea6",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "8bbf0a8bf542951a5a1a4cb93cc9c6205d4f4842d17a666eaed715eb05093312",
+        "generation": 1000,
+        "model_id": "2adeb524c1b515dd29ff4d9db6ab55e2be5987c75f47994403778aa184689ea6",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e798913abff78ec4594b8c5d7550042eb44413c1d6f42aaf70cca665bc1cd9fe-aux-17d09784dc7a6c27.pt": {
+      "generation": 1010,
+      "model_id": "e798913abff78ec4594b8c5d7550042eb44413c1d6f42aaf70cca665bc1cd9fe",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "17d09784dc7a6c27d77aba3c8fc24d71337c48977d9df6950e85815d5f829ec1",
+        "generation": 1010,
+        "model_id": "e798913abff78ec4594b8c5d7550042eb44413c1d6f42aaf70cca665bc1cd9fe",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-9693a776bf516f2b3b8572cc6fa805ec6c30164a5b239455d8c8b9e791ac8929-aux-889dee8c0dd3a3d4.pt": {
+      "generation": 1020,
+      "model_id": "9693a776bf516f2b3b8572cc6fa805ec6c30164a5b239455d8c8b9e791ac8929",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "889dee8c0dd3a3d4fda21c2c4878f7ae40e6ea48d306c50c3dfbfa380ee1c093",
+        "generation": 1020,
+        "model_id": "9693a776bf516f2b3b8572cc6fa805ec6c30164a5b239455d8c8b9e791ac8929",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-2bc7eedf79a8615b046209e47852aa1823232a3b43030b16c28997d8fe5c0889-aux-d904bbca443511a9.pt": {
+      "generation": 1030,
+      "model_id": "2bc7eedf79a8615b046209e47852aa1823232a3b43030b16c28997d8fe5c0889",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "d904bbca443511a9baddf17946d5c662ae057c9fd50c75c50a4c7eddcd9667ab",
+        "generation": 1030,
+        "model_id": "2bc7eedf79a8615b046209e47852aa1823232a3b43030b16c28997d8fe5c0889",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-40341f36f157ccd86ae62a574c3fda3cd571cc557d1f65a40c369603fcf08352-aux-5b8d567606156dea.pt": {
+      "generation": 1040,
+      "model_id": "40341f36f157ccd86ae62a574c3fda3cd571cc557d1f65a40c369603fcf08352",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "5b8d567606156dea5e48ab2162fd601fddaf6987bb931114f88b761979708861",
+        "generation": 1040,
+        "model_id": "40341f36f157ccd86ae62a574c3fda3cd571cc557d1f65a40c369603fcf08352",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-a576a02e11ffb2acc1dfdc008d98bbdbadab627bf9e96e5e6d066a4706348d4f-aux-7e09e753a10137ff.pt": {
+      "generation": 1050,
+      "model_id": "a576a02e11ffb2acc1dfdc008d98bbdbadab627bf9e96e5e6d066a4706348d4f",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "7e09e753a10137ff5715f756479f65e30bdc04efe7b4fd5aa073077b283dad4c",
+        "generation": 1050,
+        "model_id": "a576a02e11ffb2acc1dfdc008d98bbdbadab627bf9e96e5e6d066a4706348d4f",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-50c533987609ef137815fb89aa411e7dcd930a4512550adeff8b0508c9892ab9-aux-26b6352537ae1bc7.pt": {
+      "generation": 1060,
+      "model_id": "50c533987609ef137815fb89aa411e7dcd930a4512550adeff8b0508c9892ab9",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "26b6352537ae1bc765f57f8529c969ac6d0b92b0c028c27c6c15b70f6f9d2e99",
+        "generation": 1060,
+        "model_id": "50c533987609ef137815fb89aa411e7dcd930a4512550adeff8b0508c9892ab9",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-48e6c9222be95cb25c3205422559347f8bb4dd101bcbc2f86f504fc84d6beaf1-aux-c8160a000e28a36d.pt": {
+      "generation": 1070,
+      "model_id": "48e6c9222be95cb25c3205422559347f8bb4dd101bcbc2f86f504fc84d6beaf1",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "c8160a000e28a36d7c29c08ab76c52a0907e3e2005abc279856143a67b5b6b93",
+        "generation": 1070,
+        "model_id": "48e6c9222be95cb25c3205422559347f8bb4dd101bcbc2f86f504fc84d6beaf1",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-c1dd7a7177166027b3608d0a1d7125271e5782b4c1326fc806685b497f620eff-aux-2853b6e9380e99e3.pt": {
+      "generation": 1120,
+      "model_id": "c1dd7a7177166027b3608d0a1d7125271e5782b4c1326fc806685b497f620eff",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "2853b6e9380e99e315a6cd393623bd39abc31bea77b2c97cd72c2005cf9ceb5a",
+        "generation": 1120,
+        "model_id": "c1dd7a7177166027b3608d0a1d7125271e5782b4c1326fc806685b497f620eff",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-1268fbc8f0959ff58f8e90edd19e525d2852350748536972018bea1bcc418d8d-aux-efea3b195639d453.pt": {
+      "generation": 1130,
+      "model_id": "1268fbc8f0959ff58f8e90edd19e525d2852350748536972018bea1bcc418d8d",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "efea3b195639d45368d42884e2eb6a39ac2f9fc98d45091a82c0e282cd6920fe",
+        "generation": 1130,
+        "model_id": "1268fbc8f0959ff58f8e90edd19e525d2852350748536972018bea1bcc418d8d",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-ace5120bd7d534e5f06c9595fc6de8ccf240830e28996fd3336bd7bf086b70c5-aux-53a003674ef7abda.pt": {
+      "generation": 1140,
+      "model_id": "ace5120bd7d534e5f06c9595fc6de8ccf240830e28996fd3336bd7bf086b70c5",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "53a003674ef7abdafa818a65fb93285a204020a06788c16c7d499293c982a326",
+        "generation": 1140,
+        "model_id": "ace5120bd7d534e5f06c9595fc6de8ccf240830e28996fd3336bd7bf086b70c5",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-998dd216377258bed0db9a455816bfdcd6feb0ff7af73de266bce8543624d682-aux-5df0cd3f5cdd752d.pt": {
+      "generation": 1150,
+      "model_id": "998dd216377258bed0db9a455816bfdcd6feb0ff7af73de266bce8543624d682",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "5df0cd3f5cdd752ddb1d73eb8fbf5a1970af581cebbccdd744f487c1dc1411ef",
+        "generation": 1150,
+        "model_id": "998dd216377258bed0db9a455816bfdcd6feb0ff7af73de266bce8543624d682",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-5efb0212217656afa1e4855582e4a0f5a7ea1b4c2580f5bcbd82544e2e430717-aux-802587065763db69.pt": {
+      "generation": 1160,
+      "model_id": "5efb0212217656afa1e4855582e4a0f5a7ea1b4c2580f5bcbd82544e2e430717",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "802587065763db69ee249bd8b3dc6536d9e435e228f82620082ebe0dfdd6648e",
+        "generation": 1160,
+        "model_id": "5efb0212217656afa1e4855582e4a0f5a7ea1b4c2580f5bcbd82544e2e430717",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-229fd07c5b3a3244d89fdb90818cb570725c64bc2da4d48a9bae4fac94059c83-aux-ec792d89b942f5d2.pt": {
+      "generation": 1170,
+      "model_id": "229fd07c5b3a3244d89fdb90818cb570725c64bc2da4d48a9bae4fac94059c83",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "ec792d89b942f5d2cc4739d6d57ecc3a7895a0942ae53cb2580d555544d68cb8",
+        "generation": 1170,
+        "model_id": "229fd07c5b3a3244d89fdb90818cb570725c64bc2da4d48a9bae4fac94059c83",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-9e0ad5b0fa84b9009e028ac716fb15ff1ab8848511a792d52ba16744b64b491d-aux-e13841e4265e5c9c.pt": {
+      "generation": 1180,
+      "model_id": "9e0ad5b0fa84b9009e028ac716fb15ff1ab8848511a792d52ba16744b64b491d",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "e13841e4265e5c9c49484ef694f75db94f304dc02bed3420f24b6d9ce064938f",
+        "generation": 1180,
+        "model_id": "9e0ad5b0fa84b9009e028ac716fb15ff1ab8848511a792d52ba16744b64b491d",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-e73809cac620ed2a7807c3c16ca17c88a6fd18644dada3d3e01be5589dde3edd-aux-f65f6cfb49d8da14.pt": {
+      "generation": 1200,
+      "model_id": "e73809cac620ed2a7807c3c16ca17c88a6fd18644dada3d3e01be5589dde3edd",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "f65f6cfb49d8da14bd1255990ea7e8f96cfb42661c9fe9d885795095e1abe8e7",
+        "generation": 1200,
+        "model_id": "e73809cac620ed2a7807c3c16ca17c88a6fd18644dada3d3e01be5589dde3edd",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-8e3ac6f6e351dc55cd3f4eeec92ab2b6139ddf1c8cdd43777a62bbe260452d06-aux-9a2ae493d02c5110.pt": {
+      "generation": 1210,
+      "model_id": "8e3ac6f6e351dc55cd3f4eeec92ab2b6139ddf1c8cdd43777a62bbe260452d06",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "9a2ae493d02c511087e0c93ce4fd39d79b78b61915ed806f3cabe52ba0345157",
+        "generation": 1210,
+        "model_id": "8e3ac6f6e351dc55cd3f4eeec92ab2b6139ddf1c8cdd43777a62bbe260452d06",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    },
+    "artifacts/step5/joint7-v11-2-g1290-trained-restart/population/weights-501ac43bfdedeee02b8e196481737fcbce4c70c912bba4a7801ca90fb3da006e-aux-efd2fad16ee4fdca.pt": {
+      "generation": 1290,
+      "model_id": "501ac43bfdedeee02b8e196481737fcbce4c70c912bba4a7801ca90fb3da006e",
+      "status": "preserved",
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "efd2fad16ee4fdca5861d132e6c08a498b16b74af21b0c9eb17d6ff31aa1ebbd",
+        "generation": 1290,
+        "model_id": "501ac43bfdedeee02b8e196481737fcbce4c70c912bba4a7801ca90fb3da006e",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      }
+    }
+  },
+  "scope": "All main state_dict heads retained. Exact companion bundles recovered only from available matching full generations; no fabricated historical weights. Old files remain immutable."
+}
