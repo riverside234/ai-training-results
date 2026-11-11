@@ -1,0 +1,175 @@
+{
+  "binding": {
+    "contract": "rust-branch-restart/1.0.0",
+    "source_run": "artifacts/step5/joint7-v11-2-g1290-restart-g1290",
+    "destination_run": "artifacts/step5/joint7-v11-2-g1190-restart-3",
+    "generation": 1491,
+    "snapshot": {
+      "path": "results/joint7-v11-2-g1290-restart-g1290-g1491-20261110T191929753967Z/state.json",
+      "sha256": "1af78fc4bcc84c6d01cdd1574ed96ff7e80604de4ad51cfb4e61edf078ccb193",
+      "generation": 1491,
+      "source_iteration": 1500
+    },
+    "weights": {
+      "path": "artifacts/step5/joint7-v11-2-g1290-restart-g1290/population/weights-d872ea925d6643ee3a3eeec99a52d16c6a78c2de1f757617f1aaaa47d175f864-aux-dd8dcbfaf5350001.pt",
+      "sha256": "f228f4dd7f1a913ea11e908cb2ccb53b76cd14ca302da9e2e5479c505d1294f1",
+      "model_id": "d872ea925d6643ee3a3eeec99a52d16c6a78c2de1f757617f1aaaa47d175f864",
+      "generation": 1190,
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "dd8dcbfaf5350001685d1e1642b38f2acd7d88deb715fb17885fbef5e2e4dbcf",
+        "generation": 1190,
+        "model_id": "d872ea925d6643ee3a3eeec99a52d16c6a78c2de1f757617f1aaaa47d175f864",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      },
+      "weights_only": true
+    },
+    "recipe_sha256": "0e92f36a0923b86c4f8910978e9ee5502422881b70c68ef0724ae27ba16e242a",
+    "rollback": {
+      "learner_generation": 1190,
+      "ppo_lr_multiplier": 1.25,
+      "later": "results/joint7-v11-2-g1290-restart-g1290-g1500-20261110T232721030490Z",
+      "revision": "g1190-charged-256"
+    }
+  },
+  "complete": true,
+  "identity": "c4fcfc6e1094b8092f6fefc8a2dd2c12bc1d2b6a71019e7fea78f2e1a6bd1150",
+  "checkpoint": {
+    "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/generation-1491.pt",
+    "sha256": "9c43e455e3a12f2910df8a2216b2b805f0b7074ae6bf307d1df75f85982cd061",
+    "model_id": "17343a0bab0d0b98b117eadcc27e2229f428eeb126cc634e001938cbd67085ce",
+    "generation": 1491
+  },
+  "files_placed": 273,
+  "dropped_members": [],
+  "regenerated_probes": [
+    1410,
+    1470
+  ],
+  "reset": [
+    "ppo_adam_and_warmup",
+    "ppg_adam_and_replay",
+    "gae_evidence_windows",
+    "teacher_labels",
+    "teacher_beta",
+    "search_value_buffer",
+    "source_transitions",
+    "search_head",
+    "utility_calibration",
+    "teacher_readiness"
+  ],
+  "preserved": [
+    "rng",
+    "generation",
+    "games",
+    "opponent_pool",
+    "ratings",
+    "rust_backend",
+    "entropy_anneal",
+    "gae_lambda_and_table_gates",
+    "local_scoring_heads",
+    "learner_weights_of_g1190",
+    "ppo_lr_multiplier"
+  ],
+  "schedule": {
+    "utility_refit_iterations": 1,
+    "shadow_iterations": 1,
+    "teacher_on_from_iteration": 3,
+    "search_head": "fresh, adopted at Stage A on the first teaching iteration",
+    "stage_a_iterations": 50,
+    "stage_a_fit": "heldout-early-stop/1.0.0",
+    "stage_b_iterations": 50,
+    "stage_c_iterations": 10,
+    "ppg_beta_floor_after_stage_a": 0.5
+  },
+  "learner": {
+    "generation": 1190,
+    "seed_model_id": "d872ea925d6643ee3a3eeec99a52d16c6a78c2de1f757617f1aaaa47d175f864",
+    "model_id": "17343a0bab0d0b98b117eadcc27e2229f428eeb126cc634e001938cbd67085ce",
+    "weights": {
+      "path": "artifacts/step5/joint7-v11-2-g1290-restart-g1290/population/weights-d872ea925d6643ee3a3eeec99a52d16c6a78c2de1f757617f1aaaa47d175f864-aux-dd8dcbfaf5350001.pt",
+      "sha256": "f228f4dd7f1a913ea11e908cb2ccb53b76cd14ca302da9e2e5479c505d1294f1",
+      "model_id": "d872ea925d6643ee3a3eeec99a52d16c6a78c2de1f757617f1aaaa47d175f864",
+      "generation": 1190,
+      "auxiliary_heads": {
+        "contract": "saved-companion-heads/1.0.0",
+        "identity": "dd8dcbfaf5350001685d1e1642b38f2acd7d88deb715fb17885fbef5e2e4dbcf",
+        "generation": 1190,
+        "model_id": "d872ea925d6643ee3a3eeec99a52d16c6a78c2de1f757617f1aaaa47d175f864",
+        "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882"
+      },
+      "weights_only": true
+    }
+  },
+  "reward_migration": {
+    "contract": "seed-restart-reward/1.0.0",
+    "from_reward": {
+      "version": "brass-combined-return/2.0.0",
+      "win": 1.0,
+      "placement": 0.1,
+      "vp": 0.001,
+      "vp_cap": 180,
+      "insolvency": {
+        "event_cost": 0.0025,
+        "max_cost": 0.025
+      }
+    },
+    "to_reward": {
+      "version": "brass-combined-return/3.0.0",
+      "win": 1.0,
+      "placement": 0.1,
+      "vp": 0.001,
+      "vp_cap": 180,
+      "insolvency": {
+        "event_cost": 0.0025,
+        "max_cost": 0.025
+      }
+    },
+    "preserved": "All tensors, including the utility residual; utility calibration cleared and re-fit by the next value phase"
+  },
+  "compacted_rating_slots": [
+    1400
+  ],
+  "ppo_lr_multiplier": 1.25,
+  "revision": {
+    "contract": "training-revision-g1491/1.0.0",
+    "variant": "g1190-branch-restart-256-rows",
+    "mode": "shadow",
+    "tables": {
+      "train": 32,
+      "held_out": 4
+    },
+    "buffer": {
+      "iterations": 4,
+      "age_weights": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "max_staleness_ratio": 1.0
+    },
+    "teacher_rows_per_step": 256,
+    "labels": "long-only",
+    "long_weight": null,
+    "short_weight": null,
+    "ppo_epochs": 2,
+    "beta_calibration_iterations": 1,
+    "exploration": {
+      "contract": "root-visit-count-sampling/1.0.0",
+      "temperature": 1.0,
+      "opening_actions_per_era": 7,
+      "long_search": "always",
+      "cotton": {
+        "contract": "teacher-cotton-exploration/1.0.0",
+        "probability": 0.2,
+        "max_per_seat_era": 3,
+        "long_candidates": 2,
+        "short_candidates": 1,
+        "pause_unflipped": true,
+        "scope": "train"
+      }
+    },
+    "ppo_lr_during_calibration": "hold"
+  }
+}

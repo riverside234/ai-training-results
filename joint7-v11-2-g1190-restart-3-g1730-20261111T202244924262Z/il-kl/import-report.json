@@ -1,0 +1,16 @@
+{
+  "format": "fixed-il-probe-import/1.0.0",
+  "source_run": "artifacts/step5/joint7-v11-2-g1290-restart-g1290",
+  "source_receipt": {
+    "path": "artifacts/step5/joint7-v11-2-g1290-restart-g1290/il-kl/manifest.json",
+    "sha256": "3ad27ff049f77ed8949c748e24e4a9518189b3db67538e33835f4be7edb8e684",
+    "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+  },
+  "destination_receipt": {
+    "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/il-kl/manifest.json",
+    "sha256": "86620d2b14c8659348f53e18be6eebb3ef21055ecee8200acc5675f63f6710ea",
+    "probe_hash": "f3bc4ec205506d2ec255c07ab380e328cb45fedd7d95d3278c5e026e9fa11467"
+  },
+  "copied_bytes": 108578922,
+  "training_state_imported": false
+}

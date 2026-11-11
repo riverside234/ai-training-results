@@ -1,0 +1,277 @@
+{
+  "format": "selfplay-report-export/1.4.0",
+  "created_utc": "2026-11-11T20:23:11.134253+00:00",
+  "run": "artifacts/step5/joint7-v11-2-g1190-restart-3",
+  "committed_generation": 1730,
+  "games_done": 553600,
+  "implementation": "9efcf34f853d75ab844366b6819da4b0921be38d3e2dfb806cf282ace76e7a30",
+  "latest_iterations": [
+    1728,
+    1729
+  ],
+  "uncompacted_iterations": [],
+  "incremental": true,
+  "reused_files": [],
+  "rating_slot_generation": 1730,
+  "run_lock_present": false,
+  "vp_history_merge": null,
+  "files": [
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/state.json",
+      "path": "state.json",
+      "bytes": 11872286,
+      "sha256": "a954ebd06c969eea13589e298709189e4d707851e5c53945b714732efc0ccfe2",
+      "reason": "Committed configuration, lineage and progress"
+    },
+    {
+      "source": "results/joint7-v11-2-g1290-restart-g1290-g1491-20261110T191929753967Z/fresh-start.json",
+      "path": "fresh-start.json",
+      "bytes": 16739,
+      "sha256": "c2e0f614e840aa474f3b0a98bd5288dc5a8d3310fb4386348182bffc2356fba4",
+      "reason": "Weights-only source and imported history cutoff; no model tensors",
+      "recovered_from": "previous-report",
+      "recorded_source": "artifacts/step5/joint7-v11-2-g1290-trained-restart/seed/manifest.json"
+    },
+    {
+      "source": "training/runtime/local-scoring/ordinary/runtime.json",
+      "path": "contracts/local-scoring-runtime.json",
+      "bytes": 18569,
+      "sha256": "b240d9963716bc256bcf9385fbc571d06fd2ea66a444204078103f7af66f3c6e",
+      "reason": "Separately admitted scoring recorder"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/retention-history.json",
+      "path": "retention-history.json.gz",
+      "bytes": 50498390,
+      "sha256": "b737170d252ced418314f2ad68d77b4b6275b1cc09296164f74c46c67363866b",
+      "reason": "Retained iteration trends",
+      "transform": "gzip-json-whitespace-only/1.0.0",
+      "source_bytes": 669160302,
+      "source_sha256": "675e1acf25b7e1541f08d1cf60748da8631d4b6ce0448b07e811ada9bce1aafb",
+      "uncompressed_bytes": 330668020,
+      "uncompressed_sha256": "61613ec2fe6c052daf334448d63e8e52b03d72085063679b845643dd120c5b7f"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/auxiliary-checkpoint-inventory.json",
+      "path": "auxiliary-checkpoint-inventory.json",
+      "bytes": 110438,
+      "sha256": "13d9e4d1c912865c1dfaadfc9d22601837d04afa60f97beab08740adb0527ef2",
+      "reason": "Run metadata"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/branch-restart.json",
+      "path": "branch-restart.json",
+      "bytes": 5776,
+      "sha256": "0d5466f951f6db7c0ed9d66454bc473198f7107c505583976d3a7bd75b204e15",
+      "reason": "Run metadata"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/state-before-source-2a010697e5d7a96e-1530.json",
+      "path": "state-before-source-2a010697e5d7a96e-1530.json",
+      "bytes": 11045623,
+      "sha256": "1e465e21d53abdb978e5afab861ff4c681cf7d101aacd055e6e342e58944454b",
+      "reason": "Run metadata"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/state-before-source-7e74c83d006cdba8-1492.json",
+      "path": "state-before-source-7e74c83d006cdba8-1492.json",
+      "bytes": 9865213,
+      "sha256": "7cdfbdb0a7bedb9eaf53d014604799eabe1afe1f6bf8b150112e9e5ff2dfe40b",
+      "reason": "Run metadata"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/state-before-source-e8b98e3641011d45-1491.json",
+      "path": "state-before-source-e8b98e3641011d45-1491.json",
+      "bytes": 8664465,
+      "sha256": "686137010a50188084afc39b1a8ee644cac71d39c86f30b6bd56a1ce97903189",
+      "reason": "Run metadata"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/iteration-1728/report.json",
+      "path": "iteration-1728/report.json",
+      "bytes": 15050888,
+      "sha256": "e21dab763facc8283d65b442d3ade28be82abe5a02db654e625878b172279505",
+      "reason": "Latest completed iteration"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/iteration-1728/teacher-shadow/calibration.json",
+      "path": "iteration-1728/teacher-shadow/calibration.json",
+      "bytes": 689,
+      "sha256": "4035dd7cd887d69c1404f72551f5b7fdc3aaeb801ce32e027c3c94f604ec6d6e",
+      "reason": "Related iteration/teaching report"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/iteration-1728/teacher-shadow/collection.json",
+      "path": "iteration-1728/teacher-shadow/collection.json",
+      "bytes": 3348395,
+      "sha256": "913d415f46be7745f550df3dd1a164eb3a4d336606a071a0d2c3acaf0511e3ae",
+      "reason": "Related iteration/teaching report"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/iteration-1729/report.json",
+      "path": "iteration-1729/report.json",
+      "bytes": 16110717,
+      "sha256": "c523e89bb72747b6f49f387ae10ba934a3ba4ae6fe21b432042e4a1018bda7e0",
+      "reason": "Latest completed iteration"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/iteration-1729/teacher-shadow/calibration.json",
+      "path": "iteration-1729/teacher-shadow/calibration.json",
+      "bytes": 689,
+      "sha256": "624cd8adf43dd085f79e380e9deaf7bcc10e3a0a10c38a0ed97292368948b26c",
+      "reason": "Related iteration/teaching report"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/iteration-1729/teacher-shadow/collection.json",
+      "path": "iteration-1729/teacher-shadow/collection.json",
+      "bytes": 3754618,
+      "sha256": "3b920ace3b28b2870fefa910cf25532f3f908cf73b1fc565d93e9a1e9391c760",
+      "reason": "Related iteration/teaching report"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/ratings/vp-history.json",
+      "path": "ratings/vp-history.json",
+      "bytes": 30720,
+      "sha256": "9c765946024b4b475caa78a664a45e2d1958e8680fc7f22f1dd5c79fa1921f24",
+      "reason": "Cumulative ordinary self-play learner VP totals"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/il-kl/import-report.json",
+      "path": "il-kl/import-report.json",
+      "bytes": 736,
+      "sha256": "c276aa75117af65f546704a64f890d629cb8dbfb77cfddd2b2f1a61682942700",
+      "reason": "Fixed IL-KL probe manifest or initial measurement"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/il-kl/manifest.json",
+      "path": "il-kl/manifest.json",
+      "bytes": 6643448,
+      "sha256": "86620d2b14c8659348f53e18be6eebb3ef21055ecee8200acc5675f63f6710ea",
+      "reason": "Fixed IL-KL probe manifest or initial measurement"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/ratings/history-4c3430514832cb28f536ffe8d21a051aa92cb163f1ccff0407f40cf121e91bb4.json",
+      "path": "ratings/history-4c3430514832cb28f536ffe8d21a051aa92cb163f1ccff0407f40cf121e91bb4.json",
+      "bytes": 17096638,
+      "sha256": "c7872d351f90b168de764cf2e9e6d8b8e7739c3e830f5213751d0bd9c0a4d0ae",
+      "reason": "Compact cumulative rating outcomes and diagnostic-panel history"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/ratings/slots/generation-001730/report.json",
+      "path": "ratings/slots/generation-001730/report.json",
+      "bytes": 4124647,
+      "sha256": "3caaaa7934e43c8fd3d3782617d020a48784776d55bb2f8785e6ce941ad0756d",
+      "reason": "Latest committed rating slot report or specification"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/ratings/slots/generation-001730/spec.json",
+      "path": "ratings/slots/generation-001730/spec.json",
+      "bytes": 45536,
+      "sha256": "9b89b381d3fb00e2c67587d38dbed910583353bb2d2453141228474ef35adc60",
+      "reason": "Latest committed rating slot report or specification"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/ratings/slots/generation-001730/timing-report.json",
+      "path": "ratings/slots/generation-001730/timing-report.json",
+      "bytes": 3522,
+      "sha256": "a0350e88c717ce98e70a46d9856694b837dbda0ade27486fc1a15796d1e433fc",
+      "reason": "Latest committed rating slot report or specification"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/ratings/slots/generation-001730/games.jsonl",
+      "path": "ratings/slots/generation-001730/games.jsonl",
+      "bytes": 64421,
+      "sha256": "cfef3093cbf8a2dad607344e8501063016abe629813b5389ed5e86f032b252eb",
+      "reason": "Append-only held-out rating outcomes or separate panel results"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/ratings/slots/generation-001730/panels.json",
+      "path": "ratings/slots/generation-001730/panels.json",
+      "bytes": 3328,
+      "sha256": "13ac6c38f4115687719c211d7b376b294500211bf56c30f279d7d85a5920ee10",
+      "reason": "Append-only held-out rating outcomes or separate panel results"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/ratings/slots/generation-001730/progress.svg",
+      "path": "ratings/slots/generation-001730/progress.svg",
+      "bytes": 50526,
+      "sha256": "41e84dc91e17b9ebf2c9cce22fa23b3dde7efa652870fb2fae6756e800c24fe3",
+      "reason": "Strength progress curve"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/ratings/slots/generation-001730/progress_vp.svg",
+      "path": "ratings/slots/generation-001730/progress_vp.svg",
+      "bytes": 31761,
+      "sha256": "444836e636ff9d8d4fe29c27a77e2b85c0cc1a28f07b02589feb811535b885d2",
+      "reason": "Self-play learner VP curve redrawn with missing history groups omitted",
+      "transform": "selfplay-vp-chart-rendered/1.0.0",
+      "source_bytes": 31761,
+      "source_sha256": "444836e636ff9d8d4fe29c27a77e2b85c0cc1a28f07b02589feb811535b885d2"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/teacher-labels/generation-001726-train.jsonl.gz.receipt.json",
+      "path": "teacher-labels/generation-001726-train.jsonl.gz.receipt.json",
+      "bytes": 516,
+      "sha256": "398def56920d57ba0e6f32401cbb99e255e2a8a80cea81e9aba75e10f51de6e0",
+      "reason": "Sealed teacher contexts/evaluator/fit provenance; excludes label replay"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/teacher-labels/generation-001727-train.jsonl.gz.receipt.json",
+      "path": "teacher-labels/generation-001727-train.jsonl.gz.receipt.json",
+      "bytes": 516,
+      "sha256": "35fe13cde7fbb2b63cc18bc601a71854bcc0e82574b34aa78bbbdac99b2cc12d",
+      "reason": "Sealed teacher contexts/evaluator/fit provenance; excludes label replay"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/teacher-labels/generation-001728-train.jsonl.gz.receipt.json",
+      "path": "teacher-labels/generation-001728-train.jsonl.gz.receipt.json",
+      "bytes": 516,
+      "sha256": "914ac3730054fd063d33048b8495b9ab08f913c7e669e825df9b19d767e69f0c",
+      "reason": "Sealed teacher contexts/evaluator/fit provenance; excludes label replay"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/teacher-labels/generation-001729-train.jsonl.gz.receipt.json",
+      "path": "teacher-labels/generation-001729-train.jsonl.gz.receipt.json",
+      "bytes": 516,
+      "sha256": "31681a623b4438c11ac3bf02afe1af93d5980542482802335a2fa4728444877e",
+      "reason": "Sealed teacher contexts/evaluator/fit provenance; excludes label replay"
+    },
+    {
+      "source": "artifacts/step5/joint7-v11-2-g1190-restart-3/teacher-labels/generation-001729-heldout.jsonl.gz.receipt.json",
+      "path": "teacher-labels/generation-001729-heldout.jsonl.gz.receipt.json",
+      "bytes": 520,
+      "sha256": "374175a69d47ccef5e28c4c0db19234b1739591e7257ed39ec4da5a89276db60",
+      "reason": "Sealed teacher contexts/evaluator/fit provenance; excludes label replay"
+    },
+    {
+      "source": "artifacts/step5/features4-v11-2-batch7-il/upgrade.json",
+      "path": "lineage/artifacts/step5/features4-v11-2-batch7-il/upgrade.json",
+      "bytes": 3629,
+      "sha256": "21d50ddf1a3562fc62679bd4c0028998615d50e55390b75e043baf4934b8d800",
+      "reason": "Completed IL critic upgrade receipt"
+    },
+    {
+      "source": "artifacts/step5/features4-v11-1-batch7-il/state.json",
+      "path": "lineage/artifacts/step5/features4-v11-1-batch7-il/state.json",
+      "bytes": 1428300,
+      "sha256": "8ccb500585baa0dfe80d3767ab19b863683d594868b60ce71967b8d2ba25efbd",
+      "reason": "Imitation lineage report"
+    },
+    {
+      "source": "artifacts/step5/features4-v11-1-batch7-il/report.json",
+      "path": "lineage/artifacts/step5/features4-v11-1-batch7-il/report.json",
+      "bytes": 1429860,
+      "sha256": "934546ada6832f9854a4e67f4cf1eb91f6a12b402b01a2f537c553e096e06a7a",
+      "reason": "Imitation lineage report"
+    }
+  ],
+  "missing": [],
+  "warnings": [
+    "Recovered exact seed provenance from previous-report: results/joint7-v11-2-g1290-restart-g1290-g1491-20261110T191929753967Z/fresh-start.json"
+  ],
+  "generated": [
+    "recorded-config.json",
+    "export-manifest.json"
+  ],
+  "scope": "Analysis reports only; not a resumable checkpoint backup. Missing/pruned evidence is not reconstructed. Retention history is gzip-compressed whitespace-minified JSON (.json.gz); load_json accepts both formats. Its source_bytes/source_sha256 describe the original and bytes/sha256 describe the exported file. VP history/chart transforms also record source hashes. Other reports preserve original bytes. Latest teacher collection/calibration reports are included; external console/failure logs are excluded. Incremental exports require the previous bundles named in reused_files; references point to original physical files."
+}
