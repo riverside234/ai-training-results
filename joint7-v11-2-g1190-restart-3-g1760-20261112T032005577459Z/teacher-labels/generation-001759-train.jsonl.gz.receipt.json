@@ -1,0 +1,11 @@
+{
+  "contract": "teacher-label-buffer/1.0.0",
+  "path": "teacher-labels/generation-001759-train.jsonl.gz",
+  "generation": 1759,
+  "split": "train",
+  "rows": 993,
+  "model_id": "719be8fe2f14e3f4fbd7c456051c2459e334737eed58ac76717a4674e6ab7a00",
+  "reward_id": "96c6533a15bd746e92e551a28eb1028fd0356fed185dbff76af252d7f0b00c0c",
+  "profile_digest": "b3d50760081f84bd4b7e92cd3fb31964e11c02e2f0b66a22d3be9908d938d955",
+  "sha256": "43597f33607610816c3379a964a6aec1bebb060a99b46cacac8e655a3d0e3e5e"
+}
