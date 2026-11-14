@@ -1,0 +1,1698 @@
+{
+  "agents": {
+    "generation-001950": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 1950,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "110122ccd8e88a5cb75e2c55cd32e2de3ad82991524966cd0ecd1d74a1bddee1",
+          "model_id": "d48896bdfa30732fe912f257910515dadacc531cb86ff9a88a4680941ec5cc86"
+        },
+        "generation": 1950,
+        "model_id": "d48896bdfa30732fe912f257910515dadacc531cb86ff9a88a4680941ec5cc86",
+        "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/population/weights-d48896bdfa30732fe912f257910515dadacc531cb86ff9a88a4680941ec5cc86-aux-110122ccd8e88a5c.pt",
+        "sha256": "5c9263999340fd59b840bfe6395a16752312cab081e91e1c6070747853d0a767",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-001960": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 1960,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "a8c0e394d890b8127d03fcbf6cf4988fc3073d505562c05abfba4e54f7b54aa2",
+          "model_id": "5133d25315e38fde060306efc90f43247390096aec7f17e900e5ea6ebf00a8d0"
+        },
+        "generation": 1960,
+        "model_id": "5133d25315e38fde060306efc90f43247390096aec7f17e900e5ea6ebf00a8d0",
+        "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/population/weights-5133d25315e38fde060306efc90f43247390096aec7f17e900e5ea6ebf00a8d0-aux-a8c0e394d890b812.pt",
+        "sha256": "e8f1a2f755b87019e5976163de72ce3afa730288eee29af60bcd43b9a1b152ba",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-001980": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 1980,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "73b4dd0e2e12d35535464a1c17f99952fd21ad07641b088ef35b43ec86bd52d4",
+          "model_id": "9878c3d071d4e1035e3c1a3ab27abbcc7ff728175fe0933cb0d47e43b737d362"
+        },
+        "generation": 1980,
+        "model_id": "9878c3d071d4e1035e3c1a3ab27abbcc7ff728175fe0933cb0d47e43b737d362",
+        "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/population/weights-9878c3d071d4e1035e3c1a3ab27abbcc7ff728175fe0933cb0d47e43b737d362-aux-73b4dd0e2e12d355.pt",
+        "sha256": "6c819f8bd703da73343dfd39cddc690015f7d600abdd5481644b59b49f62906c",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-002050": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 2050,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "b883ece724227dfedc6621ab9ee9ab6904e9ebae057a9d89f71e37568bd8cd5a",
+          "model_id": "07bae342f1532802e4ac16e82afb17781e592bc050df852e3725544453ef2360"
+        },
+        "generation": 2050,
+        "model_id": "07bae342f1532802e4ac16e82afb17781e592bc050df852e3725544453ef2360",
+        "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/population/weights-07bae342f1532802e4ac16e82afb17781e592bc050df852e3725544453ef2360-aux-b883ece724227dfe.pt",
+        "sha256": "f5bfd3c4da2d0522ad5002a80c200a8ef84e30e52bae94c594bf8cac52ebbf1f",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-002080": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 2080,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "fd6dc9f80f5cfb746326276d686f019786cd91c41697ee04fced4cfd0da75f3f",
+          "model_id": "b003e79c9d86a64d3c7bce96b7dbb3675437e06953f758c9f1412a3397881438"
+        },
+        "generation": 2080,
+        "model_id": "b003e79c9d86a64d3c7bce96b7dbb3675437e06953f758c9f1412a3397881438",
+        "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/population/weights-b003e79c9d86a64d3c7bce96b7dbb3675437e06953f758c9f1412a3397881438-aux-fd6dc9f80f5cfb74.pt",
+        "sha256": "a18ab72145b0a8a57d962726070420190c2775dd5214bf7bdf415d6d1c2381d3",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-002100": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 2100,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "75797111ce9573aab2048673b0ca1d94e7001f3dc247ac8d3ffe1b1c4f0f0a25",
+          "model_id": "928cd5c272b6acc4ffac6b2fe1d35e59893d088bdbb1fe8b324d8e4cab3e9408"
+        },
+        "generation": 2100,
+        "model_id": "928cd5c272b6acc4ffac6b2fe1d35e59893d088bdbb1fe8b324d8e4cab3e9408",
+        "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/population/weights-928cd5c272b6acc4ffac6b2fe1d35e59893d088bdbb1fe8b324d8e4cab3e9408-aux-75797111ce9573aa.pt",
+        "sha256": "85406e07e3d5394955bb640f750a15e88495bbccda1ad2254c66496086b06890",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-002210": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 2210,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "88e2b0b117c376b1f1cee0a52ff347c9804a48453f5cb9cd0476c5289ab3e5b9",
+          "model_id": "5607f5697953031060327ad4875c09742f3e384bf97190045b0a2381c1c87482"
+        },
+        "generation": 2210,
+        "model_id": "5607f5697953031060327ad4875c09742f3e384bf97190045b0a2381c1c87482",
+        "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/population/weights-5607f5697953031060327ad4875c09742f3e384bf97190045b0a2381c1c87482-aux-88e2b0b117c376b1.pt",
+        "sha256": "46665344f2f1594ae6ca8f977d0df786510f3da16efe1f789ab1e3cba075326c",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-002240": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 2240,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "aa9e5fe37fd9e3fbc1b8f98945e19d1f2c2134479b5b164a96d1c54d8f1510d3",
+          "model_id": "9db8d199afb007d7f0efebd270cac2d71920041659f371ab35ee27ca1a703796"
+        },
+        "generation": 2240,
+        "model_id": "9db8d199afb007d7f0efebd270cac2d71920041659f371ab35ee27ca1a703796",
+        "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/population/weights-9db8d199afb007d7f0efebd270cac2d71920041659f371ab35ee27ca1a703796-aux-aa9e5fe37fd9e3fb.pt",
+        "sha256": "280ffcd923c2741a602db6435903a0267e10f610679ca56629c5f3e98292e16a",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "generation-002250": {
+      "checkpoint": {
+        "auxiliary_heads": {
+          "contract": "saved-companion-heads/1.0.0",
+          "generation": 2250,
+          "head_sha256": "fea6822e2947d532268d88b2317afa1a9a28753214f317bef4203c809b44b882",
+          "identity": "19a32e25fa0ba1e57d6b9b13bb80977a2d8b445c517e5a26262e916197d1753c",
+          "model_id": "fe270da59b6792a4003b1f7a9595b1ab57a6d9badbf23f6bfca46d2a6411e2cf"
+        },
+        "generation": 2250,
+        "model_id": "fe270da59b6792a4003b1f7a9595b1ab57a6d9badbf23f6bfca46d2a6411e2cf",
+        "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/population/weights-fe270da59b6792a4003b1f7a9595b1ab57a6d9badbf23f6bfca46d2a6411e2cf-aux-19a32e25fa0ba1e5.pt",
+        "sha256": "814fcc7d1ff15274f308bd9acff1b12fc285079bfb439b63820d741e949a1f1a",
+        "weights_only": true
+      },
+      "kind": "model"
+    },
+    "trained-start-baseline": {
+      "checkpoint": {
+        "generation": 0,
+        "model_id": "73fd0aa12a7a6496414b03e106ae52367d865767922aed7b40ea88a7940891ff",
+        "path": "artifacts/step5/joint7-v11-2-g1190-restart-3/seed/weights-73fd0aa12a7a6496414b03e106ae52367d865767922aed7b40ea88a7940891ff.pt",
+        "sha256": "e14d5b7a4596944ac7dec1b30c676b52ab79beb7bbf2e55a8b8540cc8a312937",
+        "weights_only": true
+      },
+      "fixed": false,
+      "kind": "model",
+      "reference_role": "trained-start-baseline",
+      "source_generation": 1290,
+      "source_run": "artifacts/step5/joint7-v11-2-grouped-lr-critic"
+    }
+  },
+  "baseline": "trained-start-baseline",
+  "candidate": "generation-002250",
+  "config": {
+    "bootstrap": 200,
+    "contract": "plackett-luce-rating/1.0.0",
+    "elo_scale": 173.7,
+    "enabled": true,
+    "every_iterations": 10,
+    "nearest_opponents": 8,
+    "panel_setups": 8,
+    "references": [
+      "generation-0",
+      "v4"
+    ],
+    "seat_prior_sd": 0.5,
+    "seat_rotations": 4,
+    "seed": 910517,
+    "setups": 32,
+    "theta_prior_sd": 2.0,
+    "v4_profile": "bank-3dc65253a610191d66a5/balanced-v3-masked-economy"
+  },
+  "coverage": {
+    "active": true,
+    "active_kl_reference": null,
+    "contract": "competitive-rating-coverage/3.0.0",
+    "estimated_theta": 0.7385286297210891,
+    "main_games": 128,
+    "nearest": [
+      "generation-002240",
+      "generation-001960",
+      "generation-002080",
+      "generation-001980",
+      "generation-001950",
+      "generation-002050",
+      "generation-002100",
+      "generation-002210"
+    ],
+    "opponent_setup_appearances": {
+      "generation-001950": 11,
+      "generation-001960": 11,
+      "generation-001980": 11,
+      "generation-002050": 11,
+      "generation-002080": 11,
+      "generation-002100": 11,
+      "generation-002210": 11,
+      "generation-002240": 11,
+      "trained-start-baseline": 8
+    },
+    "previous_rated_checkpoint": "generation-002240",
+    "rated_opponents_per_game": 2.75,
+    "rated_setup_appearances": {
+      "generation-001950": 11,
+      "generation-001960": 11,
+      "generation-001980": 11,
+      "generation-002050": 11,
+      "generation-002080": 11,
+      "generation-002100": 11,
+      "generation-002210": 11,
+      "generation-002240": 11
+    },
+    "reference_setup_indices": {
+      "1": "trained-start-baseline",
+      "13": "trained-start-baseline",
+      "17": "trained-start-baseline",
+      "21": "trained-start-baseline",
+      "25": "trained-start-baseline",
+      "29": "trained-start-baseline",
+      "5": "trained-start-baseline",
+      "9": "trained-start-baseline"
+    },
+    "required_opponents": [
+      "generation-002240"
+    ],
+    "startup_fallback_seats": {}
+  },
+  "estimate_scope": "Latest rated checkpoint, or g1290 zero before the first slot",
+  "estimated_theta": 0.7385286297210891,
+  "execution": {
+    "batch_size": 64,
+    "cpu_budget": 64,
+    "cpu_reserve": 4,
+    "feature_cache": true,
+    "flush_ms": 1.0,
+    "heavy_processes": 24,
+    "hosts_per_process": 2,
+    "inference_routing": "demand",
+    "max_candidate_cells": 131072,
+    "max_decisions": 2000,
+    "max_models": 72,
+    "model_cohorts": false,
+    "padding_ratio": 2.0,
+    "policy_cache": 32,
+    "processes": 24,
+    "replica_backlog": 32,
+    "search_workers_per_turn": 4,
+    "shard_bytes": 268435456,
+    "shard_games": 8,
+    "shared_slot_bytes": 2097152,
+    "teacher_search_workers_per_turn": 8,
+    "worker_threads": 1
+  },
+  "format": "plackett-luce-slot/1.0.0",
+  "generation": 2250,
+  "host": "artifacts/r1-host/guarded",
+  "implementation": "80c66f87ad027ba67545609c8c94e068c5d7b2dbba1aa24e308b8d22d15f6451",
+  "lineups": [
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002080",
+        "generation-001960",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910521
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002080",
+        "generation-001960",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910521
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002080",
+        "generation-001960",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910521
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002080",
+        "generation-001960",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910521
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910532
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910532
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910532
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910532
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001980",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910536
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001980",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910536
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001980",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910536
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001980",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910536
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910548
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910548
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910548
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910548
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001960",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910549
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001960",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910549
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001960",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910549
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001960",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910549
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910552
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910552
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910552
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910552
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002240",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910555
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002240",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910555
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002240",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910555
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002240",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910555
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-001950",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910573
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-001950",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910573
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-001950",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910573
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-001950",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910573
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910574
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910574
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910574
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910574
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910580
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910580
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910580
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910580
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-001950",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910583
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-001950",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910583
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-001950",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910583
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-001950",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910583
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-002100",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910595
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-002100",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910595
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-002100",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910595
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-002100",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910595
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-001980",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910628
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-001980",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910628
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-001980",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910628
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-001980",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910628
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910631
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910631
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910631
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910631
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910640
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910640
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910640
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910640
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-002210",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910647
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-002210",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910647
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-002210",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910647
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-002210",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910647
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002080",
+        "generation-001960",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910649
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002080",
+        "generation-001960",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910649
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002080",
+        "generation-001960",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910649
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002080",
+        "generation-001960",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910649
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002240",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910665
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002240",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910665
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002240",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910665
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002240",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910665
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002210",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910666
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002210",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910666
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002210",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910666
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002210",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910666
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001980",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910685
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001980",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910685
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001980",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910685
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-001980",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910685
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001960",
+        "generation-002240",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910692
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001960",
+        "generation-002240",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910692
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001960",
+        "generation-002240",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910692
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001960",
+        "generation-002240",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910692
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910714
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910714
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910714
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910714
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-002080",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910715
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-002080",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910715
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-002080",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910715
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-002080",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910715
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001960",
+        "generation-002080",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910723
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001960",
+        "generation-002080",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910723
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001960",
+        "generation-002080",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910723
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001960",
+        "generation-002080",
+        "generation-002100"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910723
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910724
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910724
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910724
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-002240"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910724
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910754
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910754
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910754
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002050",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910754
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910768
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910768
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910768
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002210",
+        "generation-001960",
+        "generation-001980"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910768
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002210",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910773
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002210",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910773
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002210",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910773
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002050",
+        "generation-002210",
+        "generation-002080"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910773
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-002100",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910783
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-002100",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910783
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-002100",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910783
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002240",
+        "generation-002100",
+        "generation-001950"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910783
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910792
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910792
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910792
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "trained-start-baseline",
+        "generation-002080",
+        "generation-002050"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910792
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-002240",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910848
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-002240",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910848
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-002240",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910848
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-002100",
+        "generation-002240",
+        "generation-002210"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910848
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 0,
+      "seed": 910852
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 1,
+      "seed": 910852
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 2,
+      "seed": 910852
+    },
+    {
+      "agents": [
+        "generation-002250",
+        "generation-001980",
+        "generation-001950",
+        "generation-001960"
+      ],
+      "kind": "rating",
+      "seat": 3,
+      "seed": 910852
+    }
+  ],
+  "nearest": [
+    "generation-002240",
+    "generation-001960",
+    "generation-002080",
+    "generation-001980",
+    "generation-001950",
+    "generation-002050",
+    "generation-002100",
+    "generation-002210"
+  ],
+  "partition": "validation",
+  "startup_reference_fallback": false
+}

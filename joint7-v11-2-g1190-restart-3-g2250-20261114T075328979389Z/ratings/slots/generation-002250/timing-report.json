@@ -1,0 +1,104 @@
+{
+  "generation": 2250,
+  "spec_digest": "baf473d088c109b158eadb740af516ad7bb0ff9322094308c683f2e948f261a9",
+  "timing": {
+    "preparation_seconds": 1.3646327439928427,
+    "cached_games": false,
+    "collection": {
+      "model_registration_seconds": 0.998878323007375,
+      "cpu_inference": {
+        "contract": "brass-lab-cpu-inference/1.0.0",
+        "models": 10,
+        "exported_bundles": 2,
+        "workers": 64
+      },
+      "games_seconds": 32.34414961806033,
+      "replay_validation": {
+        "shards": 64,
+        "shards_ready_before_join": 47,
+        "worker_seconds": 116.00939203752205,
+        "worker_cpu_seconds": 113.41148002999999,
+        "join_seconds": 1.733135913964361,
+        "stream_seconds": 34.05521217791829,
+        "scope": "Worker time overlaps actors/readers; join is remaining wall time; full replay checks retained"
+      },
+      "reader_shutdown_seconds": 0.3770420179935172,
+      "validation_workers": 16,
+      "streaming_validation": true,
+      "inference": {
+        "batches": 0,
+        "positions": 0,
+        "model_cache_hits": 0,
+        "valid_candidate_cells": 0,
+        "padded_candidate_cells": 0,
+        "max_batch_positions": 0,
+        "max_padded_candidate_cells": 0,
+        "expired_requests": 0,
+        "cancelled_requests": 0,
+        "packed_output_batches": 0,
+        "shared_requests": 0,
+        "shared_replies": 0,
+        "inline_requests": 0,
+        "model_loads": 0,
+        "model_evictions": 0,
+        "timings": {},
+        "device": "cuda",
+        "learner_device": "cuda",
+        "inference_devices": [
+          "cuda"
+        ],
+        "replica_count": 1,
+        "central_batching": true,
+        "memory": {
+          "host_resident_bytes": 25044660224,
+          "cuda_allocated_bytes": 223745024,
+          "cuda_reserved_bytes": 8638169088,
+          "cuda_peak_allocated_bytes": 2973388800,
+          "cuda_peak_reserved_bytes": 8638169088
+        },
+        "cpu_admission": {
+          "capacity": 64,
+          "active": 0,
+          "peak": 64,
+          "queued": 0,
+          "aborted": false
+        },
+        "batching": {
+          "contract": "streaming-model-batches/1.0.0",
+          "peak_pending_positions": 0,
+          "batches": 0,
+          "padding_splits": 0,
+          "capacity_splits": 0,
+          "max_padding_ratio": 2.0,
+          "scope": "One frozen model per batch; age/deadline fairness; no extra flush wait between model batches"
+        },
+        "batch_histogram": {},
+        "per_model": {},
+        "resident_models": 0,
+        "registered_models": 2,
+        "reply_channels": {
+          "created": 64,
+          "released": 64,
+          "active": 0,
+          "retiring": 0,
+          "shared_slots": 0,
+          "leases": 0
+        },
+        "timing_note": "Host elapsed time; CUDA forward kernel duration is in optional profiler traces",
+        "error": null
+      },
+      "collection_seconds": 36.9962078089593
+    },
+    "games_and_validation_seconds": 37.01558213692624,
+    "history_read_seconds": 0.32247368700336665,
+    "fit_encode_seconds": 0.09620774595532566,
+    "full_fit_seconds": 1.9168495230842382,
+    "bootstrap_seconds": 15.440732682007365,
+    "intervals_seconds": 0.6160691709956154,
+    "report_publish_seconds": 0.3498285529203713,
+    "plot_seconds": 4.08529078902211,
+    "state_commit_seconds": 0.22968615405261517,
+    "slot_seconds": 61.443339218967594
+  },
+  "scope": "Operational wall timings; not rating or qualification evidence"
+}
