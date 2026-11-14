@@ -1,0 +1,95 @@
+{
+  "all_learner_health": {
+    "checks": {
+      "insolvency_fraction": {
+        "ok": true,
+        "threshold": 0.111875,
+        "value": 0.012053571428571429
+      },
+      "passes_per_seat": {
+        "ok": true,
+        "threshold": 0.670625,
+        "value": 0.16517857142857142
+      },
+      "vp_per_seat": {
+        "ok": true,
+        "threshold": 108.065015625,
+        "value": 131.16607142857143
+      },
+      "zero_vp_fraction": {
+        "ok": true,
+        "threshold": 0.05,
+        "value": 0.0011160714285714285
+      }
+    },
+    "contract": "selfplay-economic-health/3.0.0",
+    "metrics": {
+      "insolvency_fraction": 0.012053571428571429,
+      "passes_per_seat": 0.16517857142857142,
+      "vp_per_seat": 131.16607142857143,
+      "zero_vp_fraction": 0.0011160714285714285
+    },
+    "ok": true,
+    "reasons": [],
+    "scope": "All-learner self-play: seat-weighted five-iteration VP, ordinary passes, zero-VP and insolvency rates. No IL action-probability checks; sales are reporting only."
+  },
+  "candidate": "generation-002240",
+  "panels": {
+    "il-panel": {
+      "games": 0,
+      "learner_win_share": null,
+      "qualified": null,
+      "setups": 0,
+      "status": "retired",
+      "trigger": {
+        "authorization": {
+          "authority": "user",
+          "config_sha256": "c3014a0dbd7ef6e0e1183d46c05ae34a58a8f7adc649988c81520f09f7b3b078",
+          "contract": "trained-selfplay-startup/1.0.0",
+          "generation": 0,
+          "manifest_sha256": "c2e0f614e840aa474f3b0a98bd5288dc5a8d3310fb4386348182bffc2356fba4",
+          "reason": "Explicit user-authorized g1290 restart; no qualification games were run",
+          "source_generation": 1290,
+          "source_model_id": "73fd0aa12a7a6496414b03e106ae52367d865767922aed7b40ea88a7940891ff"
+        },
+        "contract": "manual-training-qualification/1.0.0",
+        "generation": 0,
+        "kind": "manual_override",
+        "measured": false,
+        "panel": "il-panel",
+        "reference": "d2a84625a2d745118327c619a8cf9dcf0df1ab5bf23c87bfb32fde871b2d8545"
+      },
+      "vp_per_learner_seat": null,
+      "win_share_setup_bootstrap_95": null
+    },
+    "v4-panel": {
+      "games": 0,
+      "learner_win_share": null,
+      "qualified": null,
+      "setups": 0,
+      "status": "retired",
+      "trigger": {
+        "authorization": {
+          "authority": "user",
+          "config_sha256": "c3014a0dbd7ef6e0e1183d46c05ae34a58a8f7adc649988c81520f09f7b3b078",
+          "contract": "trained-selfplay-startup/1.0.0",
+          "generation": 0,
+          "manifest_sha256": "c2e0f614e840aa474f3b0a98bd5288dc5a8d3310fb4386348182bffc2356fba4",
+          "reason": "Explicit user-authorized g1290 restart; no qualification games were run",
+          "source_generation": 1290,
+          "source_model_id": "73fd0aa12a7a6496414b03e106ae52367d865767922aed7b40ea88a7940891ff"
+        },
+        "contract": "manual-training-qualification/1.0.0",
+        "generation": 0,
+        "kind": "manual_override",
+        "measured": false,
+        "panel": "v4-panel",
+        "reference": "4064a6d52441fbdd030b6c2228a0793cc52b7c1681c6ae8f25640faf147b49c5"
+      },
+      "vp_per_learner_seat": null,
+      "win_share_setup_bootstrap_95": null
+    }
+  },
+  "qualified": null,
+  "reason": "Deployment requires human review; no invented panel pass thresholds"
+}
